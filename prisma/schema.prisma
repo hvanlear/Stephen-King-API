@@ -28,11 +28,11 @@ model Book {
 model Short {
   id                      Int      @id @default(autoincrement())
   title                   String   @unique
-  handle                  String
   type                    String
-  originally_published_in String
-  collected_in            String
-  year                    Int
+  handle                  String
+  originallyPublishedIn String
+  collectedIn            String
   notes                   String[]
+  year                    Int
   created_at              DateTime @default(now())
 }

@@ -1,4 +1,5 @@
 import { books } from "./bookData";
+import { shorts } from "./shortsData";
 import prisma from "../src/db";
 
 async function main() {

@@ -2,6 +2,7 @@ import { Router } from "express";
 import { body, oneOf, validationResult } from "express-validator";
 import { handleInputErrors } from "./modules/middleware";
 import { createABook } from "./handlers/book";
+import { getShorts } from "./handlers/short";
 
 const router = Router();
 
@@ -17,7 +18,7 @@ router.delete("/books", () => {});
 
 //Shorts Router
 
-router.get("/shorts", () => {});
+router.get("/shorts", handleInputErrors, getShorts);
 router.get("/shorts/:id", () => {});
 router.put("/shorts/:id", () => {});
 router.post("/shorts", () => {});

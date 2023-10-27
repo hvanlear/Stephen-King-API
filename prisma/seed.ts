@@ -8,6 +8,12 @@ async function main() {
       data: book,
     });
   }
+
+  for (let short of shorts) {
+    await prisma.short.create({
+      data: short,
+    });
+  }
 }
 
 main()

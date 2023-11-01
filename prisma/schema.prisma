@@ -39,11 +39,11 @@ model Short {
 
 model Villain {
   id         Int      @id @default(autoincrement())
-  types_id   Int
   name       String   @unique
-  appears_in String[]
   gender     String?
   status     String
+  types_id   Int
+  appears_in String[]
   books      Book[]
   created_at DateTime @default(now())
 }

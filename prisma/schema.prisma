@@ -13,10 +13,10 @@ datasource db {
 }
 
 model Book {
-  id         Int       @default(autoincrement())
+  id         Int       @id @default(autoincrement())
   Year       Int
   Title      String    @unique
-  handle     String    @id
+  handle     String    
   Publisher  String
   ISBN       String    @unique
   Pages      Int
@@ -44,6 +44,7 @@ model Villain {
   status     String
   types_id   Int
   appears_in String[]
+  notes      String[]
   books      Book[]
   created_at DateTime @default(now())
 }

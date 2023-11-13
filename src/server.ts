@@ -15,6 +15,6 @@ app.get("/", (req, res) => {
   res.sendFile(path.resolve("src/pages/index.html"));
 });
 
-app.use("/api", router);
+app.use("/api/v1", router);
 
 export default app;

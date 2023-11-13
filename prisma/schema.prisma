@@ -21,7 +21,7 @@ model Book {
   ISBN       String    @unique
   Pages      Int
   Notes      String[]
-  villians   Villain[]
+  villians   bookVillains[]
   created_at DateTime  @default(now())
 }
 
@@ -45,8 +45,17 @@ model Villain {
   types_id   Int
   appears_in String[]
   notes      String[]
-  books      Book[]
+  books      bookVillains[]
   created_at DateTime @default(now())
+}
+
+model bookVillains {
+  book Book @relation(fields: [bookId], references: [id])
+  bookId Int @map("book_id")
+  villain Villain @relation(fields: [villainId], references: [id])
+  villainId Int @map("villain_id")
+
+  @@id([bookId, villainId])
 }
 
 model Place {

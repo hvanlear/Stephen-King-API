@@ -1,5 +1,5 @@
 // import { books } from "./bookData";
-import { books } from "./bData";
+import { books } from "./bookData";
 import { shorts } from "./shortsData";
 import { villains } from "./vData";
 import prisma from "../src/db";
@@ -18,10 +18,11 @@ async function main() {
   }
 
   for(let villain of villains) {
+    villain.types_id = Number(villain.types_id);
     await prisma.villain.create({
       data: villain,
     });
-  }
+}
 }
 
 

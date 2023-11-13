@@ -34,6 +34,7 @@ model Short {
   collectedIn           String
   notes                 String[]
   year                  Int
+  villains              shortVillains[]
   created_at            DateTime @default(now())
 }
 
@@ -46,6 +47,7 @@ model Villain {
   appears_in String[]
   notes      String[]
   books      bookVillains[]
+  shorts     shortVillains[]
   created_at DateTime @default(now())
 }
 
@@ -57,6 +59,17 @@ model bookVillains {
 
   @@id([bookId, villainId])
 }
+
+model shortVillains {
+  short Short @relation(fields: [shortId], references: [id])
+  shortId Int @map("short_id")
+  villain Villain @relation(fields: [villainId], references: [id])
+  villainId Int @map("villain_id")
+
+  @@id([shortId, villainId])
+}
+
+
 
 model Place {
   id   Int    @id @default(autoincrement())

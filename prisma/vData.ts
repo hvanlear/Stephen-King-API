@@ -33,4 +33,48 @@ export const villains = [
           "Antagonists"
         ]
       },
+      {
+        "name": "Randall Flagg",
+        "gender": "Male",
+        "types_id": 3,
+        "status": "Deceased",
+        "appears_in": [
+          "the-stand",
+          "the-eyes-of-the-dragon",
+          "the-long-walk",
+          "the-dark-tower-the-gunslinger",
+          "the-dark-tower-vii-the-dark-tower",
+          "the-dark-tower-iv-wizard-and-glass",
+          "the-dark-tower-iii-the-waste-lands"
+        ],
+        "notes": [
+          "Characters",
+          "The Stand",
+          "The Dark Tower",
+          "Villains",
+          "Bullies",
+          "Leaders",
+          "Revived",
+          "Antagonists",
+          "Meta-fiction",
+          "Dystopian"
+        ]
+      },
+      {
+        "name": "Mordred Deschain",
+        "gender": "Male",
+        "types_id": 3,
+        "status": "Deceased",
+        "appears_in": [
+          "the-dark-tower-vii-the-dark-tower"
+        ],
+        "notes": [
+          "Characters",
+          "ESPers",
+          "The Dark Tower",
+          "Multiverse",
+          "Villains",
+          "Antagonists"
+        ]
+      },
 ]

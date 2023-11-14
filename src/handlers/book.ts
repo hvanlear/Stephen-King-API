@@ -46,7 +46,7 @@ export const getBooks = async (req, res) => {
     const response = books.map(book => createResponse(book));
     res.json({ data: response });
   } catch (error) {
-    res.status(500).json({ error: 'An error occurred while retrieving the books' });
+    res.status(500).json({ error: 'An error occurred while retrieving the bookss' });
   }
 };
 

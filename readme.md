@@ -15,7 +15,8 @@
 - [ ] Create protected routes
 - [ ] Create docs page
 - [ ] Rate limiting 
-- [ ] Launch
+- [x] Launch
+- [ ] Better handling of URLS
 
 
 ## Overview

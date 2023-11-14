@@ -2,7 +2,7 @@ import prisma from "../db";
 
 const createResponse = (short) => ({
   ...short,
-  villains: short.villains.map(villain => `http://localhost:5000/api/villain/${villain.villainId}`)
+  villains: short.villains.map(villain => `http://localhost:3001/api/villain/${villain.villainId}`)
 });
 
 //get one short

@@ -7,43 +7,51 @@ const createResponse = (short) => ({
 
 //get one short
 export const getOneShort = async (req,res) => {
-  const id = req.params.id;
+  try {
+    const id = req.params.id;
 
-  const short = await prisma.short.findFirst({
-      where: {
-          id: Number(id)
-      },
-      include: {
-          villains: {
-              select: {
-                  villainId: true,
-              }
-          }
-      }
-  });
+    const short = await prisma.short.findFirst({
+        where: {
+            id: Number(id)
+        },
+        include: {
+            villains: {
+                select: {
+                    villainId: true,
+                }
+            }
+        }
+    });
 
- const response = createResponse(short);
+    if (!short) {
+      return res.status(404).json({ error: 'Short not found' });
+    }
 
-  res.json({ data: response });
+    const response = createResponse(short);
+    res.json({ data: response });
+  } catch (error) {
+    res.status(500).json({ error: 'An error occurred while retrieving the short' });
+  }
 }
 
 //get all shorts
 export const getShorts = async (req, res) => {
-const shorts = await prisma.short.findMany({
-  include: {
-    villains: {
-      select: {
-        villainId: true
-      }
-    }
-  },
-});
-//add url to villains
-const response = shorts.map(short => createResponse(short));
+  try {
+    const shorts = await prisma.short.findMany({
+      include: {
+        villains: {
+          select: {
+            villainId: true
+          }
+        }
+      },
+    });
 
-res.json({ data: response });
-
+    const response = shorts.map(short => createResponse(short));
+    res.json({ data: response });
+  } catch (error) {
+    res.status(500).json({ error: 'An error occurred while retrieving the shorts' });
+  }
 };
-
 
 

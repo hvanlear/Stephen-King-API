@@ -9,8 +9,9 @@
 - [x] Reset - create relationship with villains
 - [x] Import all seed data w/ villain relationships
 - [x] Create book routes
-- [ ] Create short routes
+- [x] Create short routes
 - [x] Create villain routes
+- [ ] Error Handlers
 - [ ] Create protected routes
 - [ ] Create docs page
 - [ ] Figure out rate limiting 

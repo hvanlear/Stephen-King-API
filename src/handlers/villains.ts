@@ -7,13 +7,13 @@ const createResponse = (villain) => ( {
 })
 
 export const getOneVillain = async (req, res) => {
+  try {
     const id = req.params.id;
-  
+
     const villain = await prisma.villain.findFirst({
       where: {
         id: Number(id)
       },
-      //this removes the appears_in column from the response as it's included in the shorts and/or books column
       select: {
         id: true,
         name: true,
@@ -34,33 +34,45 @@ export const getOneVillain = async (req, res) => {
         }
       }
     });
-  
+
+    if (!villain) {
+      return res.status(404).json({ error: 'Villain not found' });
+    }
+
     const response = createResponse(villain);
     res.json({ data: response });
-  };
+  } catch (error) {
+    res.status(500).json({ error: 'An error occurred while retrieving the villain' });
+  }
+};
 
-  export const getVillains = async (req,res) => {
+export const getVillains = async (req,res) => {
+  try {
     const villains = await prisma.villain.findMany({
-        select: {
-          id: true,
-          name: true,
-          gender: true,
-          status: true,
-          types_id: true,
-          notes: true,
-          created_at: true,
-          books: {
-            select: {
-              bookId: true,
-            }
-          },
-          shorts: {
-            select: {
-              shortId: true,
-            }
+      select: {
+        id: true,
+        name: true,
+        gender: true,
+        status: true,
+        types_id: true,
+        notes: true,
+        created_at: true,
+        books: {
+          select: {
+            bookId: true,
+          }
+        },
+        shorts: {
+          select: {
+            shortId: true,
           }
         }
-      });
-      const response = villains.map(villain => createResponse(villain));
-    res.json({data: response})
+      }
+    });
+
+    const response = villains.map(villain => createResponse(villain));
+    res.json({data: response});
+  } catch (error) {
+    res.status(500).json({ error: 'An error occurred while retrieving the villains' });
   }
+};

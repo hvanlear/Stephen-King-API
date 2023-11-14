@@ -11,11 +11,11 @@
 - [x] Create book routes
 - [x] Create short routes
 - [x] Create villain routes
-- [ ] Error Handlers
+- [x] Error Handlers for handlers
 - [ ] Create protected routes
 - [ ] Create docs page
-- [ ] Figure out rate limiting 
-- [ ] lauch site
+- [ ] Rate limiting 
+- [ ] Launch
 
 
 ## Overview

@@ -26,7 +26,6 @@ export const getOneShort = async (req,res) => {
     if (!short) {
       return res.status(404).json({ error: 'Short not found' });
     }
-
     const response = createResponse(short);
     res.json({ data: response });
   } catch (error) {

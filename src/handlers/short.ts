@@ -1,8 +1,9 @@
 import prisma from "../db";
+const URL = process.env.URL || 'http://localhost:3001';
 
 const createResponse = (short) => ({
   ...short,
-  villains: short.villains.map(villain => `http://localhost:3001/api/villain/${villain.villainId}`)
+  villains: short.villains.map(villain => `${URL}/api/villain/${villain.villainId}`)
 });
 
 //get one short

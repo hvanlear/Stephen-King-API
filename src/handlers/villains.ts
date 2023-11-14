@@ -1,9 +1,10 @@
 import prisma from '../db';
+const URL = process.env.URL || 'http://localhost:3001';
 
 const createResponse = (villain) => ( {
     ...villain,
-    books: villain.books.map(book => `http://localhost:5000/api/book/${book.bookId}`),
-    shorts: villain.shorts.map(short => `http://localhost:5000/api/short/${short.shortId}`),
+    books: villain.books.map(book => `${URL}/api/book/${book.bookId}`),
+    shorts: villain.shorts.map(short => `${URL}/api/short/${short.shortId}`),
 })
 
 export const getOneVillain = async (req, res) => {

@@ -8,10 +8,13 @@
 - [x] Import all seed data w/o relationships
 - [x] Reset - create relationship with villains
 - [x] Import all seed data w/ villain relationships
-- [ ] Create book routes
+- [x] Create book routes
 - [ ] Create short routes
-- [ ] Create villain routes
+- [x] Create villain routes
 - [ ] Create protected routes
+- [ ] Create docs page
+- [ ] Figure out rate limiting 
+- [ ] lauch site
 
 
 ## Overview

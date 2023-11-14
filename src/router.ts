@@ -3,7 +3,8 @@ import { body, oneOf, validationResult } from "express-validator";
 import { handleInputErrors } from "./modules/middleware";
 import { createABook, getBooks, getOneBook } from "./handlers/book";
 import { getShorts } from "./handlers/short";
-import { getOneVillain } from "./handlers/villains";
+import { getOneVillain, getVillains } from "./handlers/villains";
+import { get } from "http";
 
 
 const router = Router();
@@ -25,7 +26,7 @@ router.post("/shorts", () => {});
 router.delete("/shorts", () => {});
 
 //Villains Router
-router.get("/villains", handleInputErrors, getShorts);
+router.get("/villains", handleInputErrors, getVillains);
 router.get("/villain/:id",getOneVillain);
 router.put("/villain/:id", () => {});
 router.post("/villains", () => {});

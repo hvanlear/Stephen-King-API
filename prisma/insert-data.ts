@@ -2,9 +2,7 @@
 
 // npx ts-node prisma/insert-data.ts
 
-import { PrismaClient } from "@prisma/client";
-
-const prisma = new PrismaClient();
+import prisma from "../src/db";
 
 const main = async () => {
   const books = await prisma.book.findMany();
@@ -13,7 +11,7 @@ const main = async () => {
 // console.log(books)
 
   
- 
+ // yeah yeah i know this is a mess but it works
 for (let i = 0; i < villains.length; i++) {
     for (let j = 0; j < villains[i].appears_in.length; j++) {
         // console.log(villains[i].appears_in[j])

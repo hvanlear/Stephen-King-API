@@ -2,9 +2,9 @@ import { Router } from "express";
 import { body, oneOf, validationResult } from "express-validator";
 import { handleInputErrors } from "./modules/middleware";
 import { createABook, getBooks, getOneBook } from "./handlers/book";
-import { getShorts } from "./handlers/short";
+import { getShorts, getOneShort } from "./handlers/short";
 import { getOneVillain, getVillains } from "./handlers/villains";
-import { get } from "http";
+
 
 
 const router = Router();
@@ -19,7 +19,7 @@ router.delete("/books", () => {});
 
 //Shorts Router
 router.get("/shorts", handleInputErrors, getShorts);
-router.get("/short/:id", () => {});
+router.get("/short/:id", getOneShort);
 router.get("/short/:id/villains", () => {});
 router.put("/short/:id", () => {});
 router.post("/shorts", () => {});

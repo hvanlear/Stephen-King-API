@@ -1,35 +1,33 @@
 import { Router } from "express";
 import { body, oneOf, validationResult } from "express-validator";
 import { handleInputErrors } from "./modules/middleware";
-import { createABook } from "./handlers/book";
+import { createABook, getBooks, getOneBook } from "./handlers/book";
 import { getShorts } from "./handlers/short";
+import { getOneVillain } from "./handlers/villains";
+
 
 const router = Router();
 
 // Books Router
-
-router.get("/books", (req, res) => {
-  res.json({ message: "hello" });
-});
-router.get("/books/:id", () => {});
-router.get("/books/:id/villains", () => {});
-router.put("/books/:id", () => {});
+router.get("/books",getBooks);
+router.get("/book/:id",getOneBook);
+router.get("/book/:id/villains", () => {});
+router.put("/book/:id", () => {});
 router.post("/books", handleInputErrors, createABook);
 router.delete("/books", () => {});
 
 //Shorts Router
-
 router.get("/shorts", handleInputErrors, getShorts);
-router.get("/shorts/:id", () => {});
-router.get("/shorts/:id/villains", () => {});
-router.put("/shorts/:id", () => {});
+router.get("/short/:id", () => {});
+router.get("/short/:id/villains", () => {});
+router.put("/short/:id", () => {});
 router.post("/shorts", () => {});
 router.delete("/shorts", () => {});
-//Villains Router
 
+//Villains Router
 router.get("/villains", handleInputErrors, getShorts);
-router.get("/villains/:id", () => {});
-router.put("/villains/:id", () => {});
+router.get("/villain/:id",getOneVillain);
+router.put("/villain/:id", () => {});
 router.post("/villains", () => {});
 router.delete("/villains", () => {});
 

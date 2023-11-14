@@ -1,8 +1,8 @@
-# Stephen King API and Data Scraper
+# Stephen King API
 
 **Authors**: [Hunter Van Lear](https://github.com/hvanlear)
 
-## Ongoing work
+## Ongoing Work
 - [x] Fix prisma schema
 - [x] Fix seed data
 - [x] Import all seed data w/o relationships
@@ -11,6 +11,7 @@
 - [ ] Create book routes
 - [ ] Create short routes
 - [ ] Create villain routes
+- [ ] Create protected routes
 
 
 ## Overview
@@ -28,6 +29,7 @@ I welcome any and all contributions! Feel free to submit a Pull Request with you
 1. Clone and download [GitHub repo]
 1. Install dependencies:\
 `npm i`
+1. configure .env with database URL
 
 
 ## License

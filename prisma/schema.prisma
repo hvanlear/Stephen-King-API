@@ -21,7 +21,7 @@ model Book {
   ISBN       String    @unique
   Pages      Int
   Notes      String[]
-  villians   bookVillains[]
+  villains   bookVillains[]
   created_at DateTime  @default(now())
 }
 

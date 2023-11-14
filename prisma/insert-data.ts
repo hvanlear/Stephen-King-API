@@ -1,3 +1,5 @@
+// This script is only used to insert data and relationships into the database. It is not used in the application.
+
 // npx ts-node prisma/insert-data.ts
 
 import { PrismaClient } from "@prisma/client";
@@ -29,9 +31,7 @@ for (let i = 0; i < villains.length; i++) {
   
   for (let i = 0; i < villains.length; i++) {
     for (let j = 0; j < villains[i].appears_in.length; j++) {
-      
         const short = shorts.find(short => short.handle === villains[i].appears_in[j])
-        console.log(short)
         if(short){
             const shortVillain = await prisma.shortVillains.create({
                 data: {

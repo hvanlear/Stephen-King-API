@@ -31,33 +31,25 @@ export const getOneBook = async (req, res) => {
   }
 };
 
-//get all books
-// export const getBooks = async (req, res) => {
-//   try {
-//     const books = await prisma.book.findMany({
-//       include: {
-//         villains: {
-//           select: {
-//             villainId: true,
-//           },
-//         },
-//       },
-//     });
-//     const response = books.map(book => createResponse(book));
-//     res.json({ data: response });
-//   } catch (error) {
-//     res.status(500).json({ error: 'An error occurred while retrieving the books' });
-//   }
-// };
+// get all books
 export const getBooks = async (req, res) => {
   try {
-    const books = await prisma.book.findMany();
-    // const response = books.map(book => createResponse(book));
-    res.json({ data: books });
+    const books = await prisma.book.findMany({
+      include: {
+        villains: {
+          select: {
+            villainId: true,
+          },
+        },
+      },
+    });
+    const response = books.map(book => createResponse(book));
+    res.json({ data: response });
   } catch (error) {
     res.status(500).json({ error: 'An error occurred while retrieving the books' });
   }
 };
+
 
 //Create a book
 export const createABook = async (req, res, next) => {

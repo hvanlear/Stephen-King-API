@@ -1,8 +1,10 @@
-import { books } from "./bookData";
-import { shorts } from "./shortsData";
-import { villains } from "./vData";
-import prisma from "../src/db";
+import { books } from "../bookData";
+import { shorts } from "../shortsData";
+import { villains } from "../vData";
+import prisma from "../../src/db";
 
+
+//checks for any non string values in the notes array
 const  main = async() => {
     const v = villains;
 

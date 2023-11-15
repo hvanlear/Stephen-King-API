@@ -2,7 +2,7 @@
 
 // npx ts-node prisma/insert-data.ts
 
-import prisma from "../src/db";
+import prisma from "../../src/db";
 
 const main = async () => {
   const books = await prisma.book.findMany();

@@ -11,9 +11,12 @@
 - [x] Create book routes
 - [x] Create short routes
 - [x] Create villain routes
+- [ ] Seed Types Data
+- [ ] Create type routes
 - [x] Error Handlers for handlers
 - [ ] Create protected routes
 - [ ] Create docs page
+- [ ] Rate limiting 
 - [ ] Rate limiting 
 - [x] Launch
 - [x] Better handling of URLS

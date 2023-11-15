@@ -6,13 +6,14 @@ const app = express();
 
 const path = require("path");
 
+app.use(express.static(__dirname + '/public'));
 app.use(morgan("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static("static"));
 
 app.get("/", (req, res) => {
-  res.sendFile(path.resolve("src/pages/index.html"));
+  // res.sendFile(path.resolve("src/pages/index.html"));
+  res.sendFile(__dirname+"/index.html");
 });
 
 app.use("/api", router);

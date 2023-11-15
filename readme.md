@@ -16,7 +16,7 @@
 - [ ] Create docs page
 - [ ] Rate limiting 
 - [x] Launch
-- [ ] Better handling of URLS
+- [x] Better handling of URLS
 
 
 ## Overview
@@ -24,9 +24,17 @@ This is an open-source API that provides Novela, Short Story, character(*current
 
 ## Routes
 _All routes are GET routes_
-* **GET /api/books** - get all books (default 20 per page / 'enter TOTAL here' total books)
-* **GET /api/shorts** - get all short stories (default 20 per page / 'enter TOTAL here' total short stories)
+* **GET /api/books** - get all books 
+* **GET /api/shorts** - get all short stories 
 * **GET /api/villains** - get all villians 
+
+## Tech Stack
+* Node
+* Express
+* Typescript
+* Postgres
+* Prisma ORM
+* Hosted on Render
 
 ## Getting Started
 I welcome any and all contributions! Feel free to submit a Pull Request with your changes to make this a better API for everyone!

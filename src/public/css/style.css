@@ -1,0 +1,12 @@
+h1{
+    color:red;
+}
+
+.primary-container {
+    height: 1800px;
+    background-image: url('/images/FinalCutFlipped.png');
+    background-repeat: repeat-y;
+    background-color: #ffffff;
+    min-width: 320px;
+
+  }

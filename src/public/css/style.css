@@ -90,7 +90,7 @@ a.author{
 
 .primary-container {
     height: 100vh;
-    background-image: url('/img/FinalCutFlipped.png');
+    background-image: url('/static/img/FinalCutFlipped.png');
     background-repeat: repeat-y;
     background-color: #f0f0f0;
     background-size: 100% ;

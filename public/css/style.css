@@ -56,7 +56,8 @@ a:visited {
 }
 
 a.author{
-    color:#828282; 
+    color:#828282;
+    margin-right:.5rem
 }
 
 .bold{
@@ -112,8 +113,16 @@ a.author{
   }
 
   .footer{
-    padding-bottom:2rem;
+    display: flex;
+    flex-direction: row;
+    padding-bottom:1rem;
+    align-items: center;
   }
+  
+.footer-icon{
+    display: flex;
+}
+  
 
   .code-blocks{
     display: flex;

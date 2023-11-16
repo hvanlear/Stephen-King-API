@@ -1,5 +1,6 @@
 # Stephen King API
 
+**Hoseted**: [API](https://stephen-king-api.onrender.com/) ⚠️ API is in ongoing development
 **Authors**: [Hunter Van Lear](https://github.com/hvanlear)
 
 ## Ongoing Work
@@ -20,6 +21,7 @@
 - [ ] Rate limiting 
 - [x] Launch
 - [x] Better handling of URLS
+- [ ] Add install instructions to github
 
 
 ## Overview

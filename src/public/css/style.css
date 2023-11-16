@@ -1,12 +1,125 @@
-h1{
-    color:red;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
 }
 
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color:rgb(20, 18, 18);
+}
+
+
+ .red {
+    color: rgb(174, 15, 15);
+}
+
+blockquote * {
+    font-style: normal !important;
+    letter-spacing: 0;
+    color: #6a737d !important;
+}
+
+blockquote {
+    /* margin-left: 30px;
+    margin-top: 1rem;
+    margin-bottom: 16px; */
+    margin:.7rem 0 .7rem .7rem;
+    border-left: 4px solid #d5d5d5;
+    padding: 0 1em;
+    color: #828282;
+    padding-left: 15px;
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-style: italic;
+}
+
+code {
+    font-size: 1rem;
+}
+
+.underline-link{
+    text-decoration-color: #f0f0f0;
+    text-underline-offset: 2px;
+    transition: text-decoration-color .3s, text-underline-offset .3s;
+}
+
+.underline-link:hover{
+    text-decoration: underline 1.3px;
+    text-underline-offset: 0.4em;
+}
+
+
+a.name{
+    text-decoration-color: #f0f0f0;
+    text-underline-offset: 2px;
+    transition: text-decoration-color .3s, text-underline-offset .3s;
+}
+a.name:hover{
+    text-decoration: underline 1.3px;
+    text-underline-offset: 0.4em;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.sk, .banner-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sk-sub{
+    font-size: 2.8rem;
+}
+
+.banner-1{
+   font-size: 2.8rem;
+   font-family: itc-benguiat, serif;
+   text-transform: uppercase;
+}
+.banner-1 >.sk {
+    letter-spacing: -2.5px;
+    line-height: .7;
+    font-size: 5rem;
+  }
+
+
+
 .primary-container {
-    height: 1800px;
+    height: 100vh;
     background-image: url('/images/FinalCutFlipped.png');
     background-repeat: repeat-y;
-    background-color: #ffffff;
+    background-color: #f0f0f0;
+    background-size: 100% ;
     min-width: 320px;
 
+  }
+
+  .inner-container{
+    height: 100%;
+    padding-top:2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:  space-between;
+    align-items: center;
+  }
+
+  .description{
+    padding-bottom:1rem;
+  }
+
+  .footer{
+    padding-bottom:2rem;
+  }
+
+  .code-blocks{
+    display: flex;
+    flex-direction: column;
   }

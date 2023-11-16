@@ -128,3 +128,22 @@ a.author{
     display: flex;
     flex-direction: column;
   }
+
+  a.underline-link.block-link {
+    font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+
+    a.underline-link.block-link {
+      font-size: .8rem;
+    }
+    
+    .banner-1 >.sk {
+        font-size: 3.5rem;
+    }
+
+    .sk-sub{
+        font-size: 1.8rem;
+    }
+  }

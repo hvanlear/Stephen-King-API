@@ -3,15 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="stylesheet" href="/css/style.css" /> -->
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="https://use.typekit.net/smb2swj.css" />
     <title>SK API</title>
   </head>
   <body>
     <div class="primary-container">
-      <!-- <div class="image-container"><img src="/images/FinalCutFlipped.png" alt=""> -->
-
       <div class="inner-container">
         <div class="banner-1">
           <span class="sk"
@@ -31,9 +28,8 @@
                     class="underline-link block-link"
                     href="http://localhost:3001/api/books"
                     target="_blank"
-                    >http://localhost:3001<span class="bold"
-                      >/api/books</span
-                    ></a
+                    ><span class="url">http://localhost:3001</span
+                    ><span class="bold">/api/books</span></a
                   >
                 </p>
               </blockquote>
@@ -46,9 +42,8 @@
                     class="underline-link block-link"
                     href="http://localhost:3001/api/book/19"
                     target="_blank"
-                    >http://localhost:3001<span class="bold"
-                      >/api/book/19</span
-                    ></a
+                    ><span class="url">http://localhost:3001</span
+                    ><span class="bold">/api/book/19</span></a
                   >
                 </p>
               </blockquote>
@@ -61,9 +56,8 @@
                     class="underline-link block-link"
                     href="http://localhost:3001/api/shorts"
                     target="_blank"
-                    >http://localhost:3001<span class="bold"
-                      >/api/shorts</span
-                    ></a
+                    ><span class="url">http://localhost:3001</span
+                    ><span class="bold">/api/shorts</span></a
                   >
                 </p>
               </blockquote>
@@ -76,9 +70,8 @@
                     class="underline-link block-link"
                     href="http://localhost:3001/api/short/19"
                     target="_blank"
-                    >http://localhost:3001<span class="bold"
-                      >/api/short/19</span
-                    ></a
+                    ><span class="url">http://localhost:3001</span
+                    ><span class="bold">/api/short/19</span></a
                   >
                 </p>
               </blockquote>
@@ -91,9 +84,8 @@
                     class="underline-link block-link"
                     href="http://localhost:3001/api/villains"
                     target="_blank"
-                    >http://localhost:3001<span class="bold"
-                      >/api/villains</span
-                    ></a
+                    ><span class="url">http://localhost:3001</span
+                    ><span class="bold">/api/villains</span></a
                   >
                 </p>
               </blockquote>
@@ -106,9 +98,8 @@
                     class="underline-link block-link"
                     href="http://localhost:3001/api/villain/19"
                     target="_blank"
-                    >http://localhost:3001<span class="bold"
-                      >/api/villain/19</span
-                    ></a
+                    ><span class="url">http://localhost:3001</span
+                    ><span class="bold">/api/villain/19</span></a
                   >
                 </p>
               </blockquote>
@@ -128,8 +119,7 @@
 
 <script>
   //hack to replace URL until I do something better
-
-  // const links = document.querySelectorAll(".block-link");
-
-  // links.forEach((link) => console.log(link.innerHTML));
+  const links = document.querySelectorAll(".url");
+  const url = "https://stephen-king-api.onrender.com";
+  links.forEach((link) => (link.innerText = url));
 </script>

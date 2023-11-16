@@ -146,4 +146,8 @@ a.author{
     .sk-sub{
         font-size: 1.8rem;
     }
+    
+    code {
+        margin-left: 2rem;
+    }
   }

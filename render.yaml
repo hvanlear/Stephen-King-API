@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: stephen-king-api
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    staticPublishPath: ./src/public

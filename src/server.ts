@@ -6,10 +6,7 @@ const app = express();
 
 const path = require("path");
 
-// app.use(express.static(__dirname + "/public"));
-app.use("/img", express.static(path.join(__dirname, "public/images")));
-app.use("/js", express.static(path.join(__dirname, "public/javascripts")));
-app.use("/css", express.static(path.join(__dirname, "public/css")));
+app.use(express.static(__dirname + "/public"));
 app.use(morgan("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));

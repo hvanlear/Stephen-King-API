@@ -84,7 +84,7 @@ a.author{
 .banner-1 >.sk {
     letter-spacing: -5px;
     line-height: .7;
-    font-size: 5rem;
+    font-size: 5.5rem;
   }
 
 
@@ -118,7 +118,7 @@ a.author{
     padding-bottom:1rem;
     align-items: center;
   }
-  
+
 .footer-icon{
     display: flex;
 }

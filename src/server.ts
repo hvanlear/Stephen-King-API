@@ -12,9 +12,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
-  // res.sendFile(path.resolve("src/pages/index.html"));
-  res.sendFile(path.resolve("pages/index.html"));
-  res.sendFile(__dirname + "/index.html");
+  res.sendFile(path.resolve("src/pages/index.html"));
+  // res.sendFile(path.resolve("pages/index.html"));
+  // res.sendFile(__dirname + "/index.html");
 });
 
 app.use("/api", router);

@@ -26,7 +26,7 @@
                 <p>
                   <a
                     class="underline-link block-link"
-                    href="http://localhost:3001/api/books"
+                    href="/api/books"
                     target="_blank"
                     ><span class="url">http://localhost:3001</span
                     ><span class="bold">/api/books</span></a
@@ -40,7 +40,7 @@
                 <p>
                   <a
                     class="underline-link block-link"
-                    href="http://localhost:3001/api/book/19"
+                    href="/api/book/19"
                     target="_blank"
                     ><span class="url">http://localhost:3001</span
                     ><span class="bold">/api/book/19</span></a
@@ -54,7 +54,7 @@
                 <p>
                   <a
                     class="underline-link block-link"
-                    href="http://localhost:3001/api/shorts"
+                    href="/api/shorts"
                     target="_blank"
                     ><span class="url">http://localhost:3001</span
                     ><span class="bold">/api/shorts</span></a
@@ -68,7 +68,7 @@
                 <p>
                   <a
                     class="underline-link block-link"
-                    href="http://localhost:3001/api/short/19"
+                    href="/api/short/19"
                     target="_blank"
                     ><span class="url">http://localhost:3001</span
                     ><span class="bold">/api/short/19</span></a
@@ -82,7 +82,7 @@
                 <p>
                   <a
                     class="underline-link block-link"
-                    href="http://localhost:3001/api/villains"
+                    href="/api/villains"
                     target="_blank"
                     ><span class="url">http://localhost:3001</span
                     ><span class="bold">/api/villains</span></a
@@ -96,7 +96,7 @@
                 <p>
                   <a
                     class="underline-link block-link"
-                    href="http://localhost:3001/api/villain/19"
+                    href="/api/villain/19"
                     target="_blank"
                     ><span class="url">http://localhost:3001</span
                     ><span class="bold">/api/villain/19</span></a
@@ -157,7 +157,14 @@
 
 <script>
   //hack to replace URL until I do something better
-  const links = document.querySelectorAll(".url");
+
   const url = "https://stephen-king-api.onrender.com";
-  links.forEach((link) => (link.innerText = url));
+  const linksStrings = document.querySelectorAll(".url");
+  const links = document.querySelectorAll(".block-link");
+  links.forEach((link) => {
+    link.setAttribute("href", url + link.getAttribute("href"));
+  });
+
+  linksStrings.forEach((linkString) => (linkString.innerText = url));
+  console.log(links);
 </script>

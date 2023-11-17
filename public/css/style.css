@@ -22,7 +22,7 @@ blockquote * {
 
 blockquote {
     margin:.7rem 0 .7rem .7rem;
-    border-left: 4px solid #d5d5d5;
+    border-left: 4px solid rgba(174, 15, 15, 0.43);
     padding: 0 1em;
     color: #828282;
     padding-left: 15px;

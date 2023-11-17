@@ -19,7 +19,6 @@
 - [ ] Create protected routes
 - [x] Create docs page
 - [ ] Rate limiting
-- [ ] Rate limiting
 - [x] Launch
 - [x] Better handling of URLS
 - [ ] Add install instructions to github

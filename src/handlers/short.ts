@@ -29,7 +29,6 @@ export const getOneShort = async (req,res) => {
       return res.status(404).json({ error: 'Short not found' });
     }
     const response = createResponse(short);
-    console.log(response);
     res.json({ data: response });
   } catch (error) {
     res.status(500).json({ error: 'An error occurred while retrieving the short' });

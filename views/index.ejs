@@ -26,10 +26,11 @@
                 <p>
                   <a
                     class="underline-link block-link"
-                    href="/api/books"
-                    target="_blank"
-                    ><span class="url">http://localhost:3001</span
-                    ><span class="bold">/api/books</span></a
+                    href="<%= url %>/api/books"
+                    target="_blank">
+                    <!-- <span class="url">http://localhost:3001</span> -->
+                    <span class="url"><%= url %></span>
+                    <span class="bold">/api/books</span></a
                   >
                 </p>
               </blockquote>
@@ -42,7 +43,7 @@
                     class="underline-link block-link"
                     href="/api/book/19"
                     target="_blank"
-                    ><span class="url">http://localhost:3001</span
+                    ><span class="url"><%= url %></span
                     ><span class="bold">/api/book/19</span></a
                   >
                 </p>
@@ -54,9 +55,9 @@
                 <p>
                   <a
                     class="underline-link block-link"
-                    href="/api/shorts"
+                    href="<%= url %>/api/shorts"
                     target="_blank"
-                    ><span class="url">http://localhost:3001</span
+                    ><span class="url"><%= url %></span
                     ><span class="bold">/api/shorts</span></a
                   >
                 </p>
@@ -68,9 +69,9 @@
                 <p>
                   <a
                     class="underline-link block-link"
-                    href="/api/short/19"
+                    href="<%= url %>/api/short/19"
                     target="_blank"
-                    ><span class="url">http://localhost:3001</span
+                    ><span class="url"><%= url %></span
                     ><span class="bold">/api/short/19</span></a
                   >
                 </p>
@@ -82,9 +83,9 @@
                 <p>
                   <a
                     class="underline-link block-link"
-                    href="/api/villains"
+                    href="<%= url %>/api/villains"
                     target="_blank"
-                    ><span class="url">http://localhost:3001</span
+                    ><span class="url"><%= url %></span
                     ><span class="bold">/api/villains</span></a
                   >
                 </p>
@@ -96,9 +97,9 @@
                 <p>
                   <a
                     class="underline-link block-link"
-                    href="/api/villain/19"
+                    href="<%= url %>/api/villain/19"
                     target="_blank"
-                    ><span class="url">http://localhost:3001</span
+                    ><span class="url"><%= url %></span
                     ><span class="bold">/api/villain/19</span></a
                   >
                 </p>
@@ -154,17 +155,3 @@
     </div>
   </body>
 </html>
-
-<script>
-  //hack to replace URL until I do something better
-
-  const url = "https://stephen-king-api.onrender.com";
-  const linksStrings = document.querySelectorAll(".url");
-  const links = document.querySelectorAll(".block-link");
-  links.forEach((link) => {
-    link.setAttribute("href", url + link.getAttribute("href"));
-  });
-
-  linksStrings.forEach((linkString) => (linkString.innerText = url));
-  console.log(links);
-</script>

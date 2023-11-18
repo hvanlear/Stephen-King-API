@@ -6,16 +6,17 @@ const app = express();
 
 const path = require("path");
 
-// app.use(express.static(__dirname + "../public"));
+
 app.use(express.static("public"));
-// app.use("/static", express.static(path.join(__dirname, "public")));
+app.set('view engine', 'ejs');
 app.use(morgan("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
-  res.sendFile(path.resolve("src/pages/index.html"));
-  // res.sendFile(__dirname + "/index.html");
+  //need to swap this out for env variable
+  const url = "https://stephen-king-api.onrender.com";
+  res.render('index', {url: url});
 });
 
 app.use("/api", router);

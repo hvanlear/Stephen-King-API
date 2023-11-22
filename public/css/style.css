@@ -150,4 +150,7 @@ a.author{
     code {
         margin-left: 2rem;
     }
+    .primary-container {
+        background-size: 200%;
+    }
   }

@@ -4,9 +4,6 @@ import morgan from "morgan";
 
 const app = express();
 
-const path = require("path");
-
-
 app.use(express.static("public"));
 app.set('view engine', 'ejs');
 app.use(morgan("dev"));
@@ -15,7 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
   //need to swap this out for env variable
-  const url = "https://stephen-king-api.onrender.com";
+  const url = "https://stephen-king-api.onrender.   com";
   res.render('index', {url: url});
 });
 

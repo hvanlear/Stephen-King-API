@@ -2,7 +2,6 @@ import prisma from "../db";
 import { createResponse } from '../utils/responseHelper';
 
 
-const URL = process.env.URL || 'http://localhost:3001';
 
 //get one book
 export const getOneBook = async (req, res) => {
@@ -28,7 +27,7 @@ export const getOneBook = async (req, res) => {
     if (!book) {
       return res.status(404).json({ error: 'Book not found' });
     }
-    const response = createResponse(book, URL);
+    const response = createResponse(book);
     res.json({ data: response });
   } catch (error) {
     res.status(500).json({ error: 'An error occurred while retrieving the book' });
@@ -52,7 +51,7 @@ export const getBooks = async (req, res) => {
         },
       },
     });
-    const response = books.map(book => createResponse(book, URL));
+    const response = books.map(book => createResponse(book));
     res.json({ data: response });
   } catch (error) {
     res.status(500).json({ error: 'An error occurred while retrieving the books' });

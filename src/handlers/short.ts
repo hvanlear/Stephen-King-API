@@ -19,7 +19,6 @@ export const getOneShort = async (req,res) => {
             villains: {
                 select: {
                     villainId: true,
-                
                 }
             }
         }

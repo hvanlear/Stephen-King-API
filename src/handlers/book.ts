@@ -4,9 +4,11 @@ const URL = process.env.URL || 'http://localhost:3001';
 
 const createResponse = (book) => ({
   ...book,
-  villains: book.villains.map(villain => `${URL}/api/villain/${villain.villainId}`)
+  villains: book.villains.map(villain => ({
+    name: villain.villain.name,
+    url: `${URL}/api/villain/${villain.villainId}`,
+  }))
 });
-
 //get one book
 export const getOneBook = async (req, res) => {
   try {
@@ -19,6 +21,11 @@ export const getOneBook = async (req, res) => {
         villains: {
           select: {
             villainId: true,
+            villain: {
+              select: {
+                name: true
+              }
+            }
           },
         },
       },
@@ -41,6 +48,11 @@ export const getBooks = async (req, res) => {
         villains: {
           select: {
             villainId: true,
+            villain: {
+              select: {
+                name: true
+              }
+            }
           },
         },
       },

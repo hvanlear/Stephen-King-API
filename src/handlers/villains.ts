@@ -15,7 +15,7 @@ export const getOneVillain = async (req, res) => {
       where: {
         id: Number(id)
       },
-      select: {
+     select: {
         id: true,
         name: true,
         gender: true,
@@ -25,7 +25,11 @@ export const getOneVillain = async (req, res) => {
         created_at: true,
         books: {
           select: {
-            bookId: true,
+            book: {
+              select: {
+                Title: true
+              }
+            }
           }
         },
         shorts: {

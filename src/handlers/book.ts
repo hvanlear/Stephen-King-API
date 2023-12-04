@@ -1,8 +1,6 @@
 import prisma from "../db";
 import { createResponse } from '../utils/responseHelper';
 
-
-
 //get one book
 export const getOneBook = async (req, res) => {
   try {
@@ -57,7 +55,6 @@ export const getBooks = async (req, res) => {
     res.status(500).json({ error: 'An error occurred while retrieving the books' });
   }
 };
-
 
 //Create a book
 export const createABook = async (req, res, next) => {

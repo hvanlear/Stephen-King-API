@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
   //need to swap this out for env variable
-  const url = "https://stephen-king-api.onrender.   com";
+  const url = "https://stephen-king-api.onrender.com";
   res.render('index', {url: url});
 });
 

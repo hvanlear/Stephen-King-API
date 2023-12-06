@@ -1,16 +1,10 @@
 import prisma from "../db";
-const URL = process.env.URL || 'http://localhost:3001';
-
-const createResponse = (short) => ({
-  ...short,
-  villains: short.villains.map(villain => `${URL}/api/villain/${villain.villainId}`)
-});
+import { createResponse } from '../utils/responseHelper';
 
 //get one short
 export const getOneShort = async (req,res) => {
   try {
     const id = req.params.id;
-
     const short = await prisma.short.findFirst({
         where: {
             id: Number(id)
@@ -19,6 +13,11 @@ export const getOneShort = async (req,res) => {
             villains: {
                 select: {
                     villainId: true,
+                    villain: {
+                        select: {
+                            name: true
+                        }
+                    }
                 }
             }
         }
@@ -41,7 +40,12 @@ export const getShorts = async (req, res) => {
       include: {
         villains: {
           select: {
-            villainId: true
+            villainId: true,
+            villain: {
+              select: {
+                name: true
+              }
+            } 
           }
         }
       },

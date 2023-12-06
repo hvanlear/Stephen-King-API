@@ -1,6 +1,5 @@
 import prisma from '../db';
 import { createResponse } from '../utils/responseHelper';
-const URL = process.env.URL || 'http://localhost:3001';
 
 export const getOneVillain = async (req, res) => {
   try {

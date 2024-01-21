@@ -3,13 +3,6 @@
 - **Hoseted**: https://stephen-king-api.onrender.com/ ⚠️ API is in ongoing development
 - **Authors**: [Hunter Van Lear](https://github.com/hvanlear)
 
-## Ongoing Work
-
-- [ ] Seed Types Data
-- [ ] Create type routes
-- [ ] Create protected routes
-- [ ] Rate limiting
-- [ ] Add install instructions to github
 
 ## Overview
 

@@ -51,10 +51,6 @@ code {
     text-decoration-color: rgba(174, 15, 15, 0.43);
 }
 
-a:visited {
-    color: inherit;
-}
-
 a.author{
     color:#828282;
     margin-right:.5rem
@@ -132,6 +128,25 @@ a.author{
 
   a.underline-link.block-link {
     font-size: 1rem;
+}
+/* buy me a coff  */
+.bmc-btn-text {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    text-decoration-color: #f0f0f0;
+    text-underline-offset: 2px;
+    transition: text-decoration-color .3s, text-underline-offset .3s;
+}
+
+.bmc-btn-text:hover{
+    text-decoration: underline 1.3px;
+    text-underline-offset: 0.4em;
+    text-decoration-color: rgba(174, 15, 15, 0.43);
+}
+
+.bmc-btn svg {
+    width: 18px;
 }
 
 @media (max-width: 600px) {

@@ -1,11 +1,19 @@
 import express from "express";
 import router from "./router";
 import morgan from "morgan";
+import cors from "cors";
 
 const app = express();
 
+app.use(
+  cors({
+    methods: ["GET"],
+    origin: "*",
+  })
+);
+
 app.use(express.static("public"));
-app.set('view engine', 'ejs');
+app.set("view engine", "ejs");
 app.use(morgan("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -13,7 +21,7 @@ app.use(express.urlencoded({ extended: true }));
 app.get("/", (req, res) => {
   //need to swap this out for env variable
   const url = "https://stephen-king-api.onrender.com";
-  res.render('index', {url: url});
+  res.render("index", { url: url });
 });
 
 app.use("/api", router);

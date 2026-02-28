@@ -1,7 +1,8 @@
-import express from "express";
+import express, { ErrorRequestHandler } from "express";
 import router from "./router";
 import morgan from "morgan";
 import cors from "cors";
+import config from "./config";
 
 const app = express();
 
@@ -19,13 +20,13 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
-  //need to swap this out for env variable
-  const url = "https://stephen-king-api.onrender.com";
+  const url = config.url || process.env.URL || "https://stephen-king-api.onrender.com";
   res.render("index", { url: url });
 });
 
 app.use("/api", router);
-app.use((err, req, res, next) => {
+
+const errorHandler: ErrorRequestHandler = (err, req, res, next) => {
   if (err.type === "auth") {
     res.status(401).json({ message: "unauthorized" });
   } else if (err.type === "input") {
@@ -35,6 +36,8 @@ app.use((err, req, res, next) => {
       .status(500)
       .json({ message: "All work and no play makes a server error" });
   }
-});
+};
+
+app.use(errorHandler);
 
 export default app;

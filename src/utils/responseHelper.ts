@@ -19,8 +19,10 @@ export const createResponse = (item) => {
         })),
         shorts: item.shorts.map((short) => ({
             title: short.short.title,
-            url: `${URL}/api/book/${short.shortId}`,
+            url: `${URL}/api/short/${short.shortId}`,
         })),
       };
     }
+
+    return item;
   };

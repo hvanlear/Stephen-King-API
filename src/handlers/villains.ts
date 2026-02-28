@@ -55,29 +55,26 @@ export const getOneVillain = async (req, res) => {
 
 export const getVillains = async (req,res) => {
   try {
-    const page = Math.max(1, parseInt(req.query.page as string) || 1);
-    const limit = Math.min(100, Math.max(1, parseInt(req.query.limit as string) || 20));
-    const skip = (page - 1) * limit;
+    const page = req.query.page ? Math.max(1, parseInt(req.query.page as string)) : null;
+    const limit = req.query.limit ? Math.min(100, Math.max(1, parseInt(req.query.limit as string))) : null;
+    const usePagination = page !== null && limit !== null;
 
-    const [villains, total] = await Promise.all([
-      prisma.villain.findMany({
-        skip,
-        take: limit,
-        select: villainSelect,
-      }),
-      prisma.villain.count(),
-    ]);
+    const villains = await prisma.villain.findMany({
+      ...(usePagination && { skip: (page - 1) * limit, take: limit }),
+      select: villainSelect,
+    });
 
     const response = villains.map(villain => createResponse(villain));
-    res.json({
-      data: response,
-      pagination: {
-        page,
-        limit,
-        total,
-        totalPages: Math.ceil(total / limit),
-      },
-    });
+
+    if (usePagination) {
+      const total = await prisma.villain.count();
+      res.json({
+        data: response,
+        pagination: { page, limit, total, totalPages: Math.ceil(total / limit) },
+      });
+    } else {
+      res.json({ data: response });
+    }
   } catch (error) {
     res.status(500).json({ error: 'An error occurred while retrieving the villains' });
   }

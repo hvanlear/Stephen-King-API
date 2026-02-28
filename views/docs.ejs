@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-JF9VSP0JWE"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-JF9VSP0JWE");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/smb2swj.css" />
+    <title>Documentation — Stephen King API</title>
+  </head>
+  <body>
+    <div class="docs-container">
+      <div class="docs-content">
+
+        <!-- Header -->
+        <div class="docs-header">
+          <a class="docs-back-link" href="/">&larr; Back to Home</a>
+          <div class="docs-banner">
+            <span class="sk docs-title"
+              ><div>Stephen</div>
+              <div>King</div></span
+            >
+            <h1 class="red sk-sub docs-subtitle">API Docs</h1>
+          </div>
+        </div>
+
+        <!-- Table of Contents -->
+        <nav class="docs-toc">
+          <h2>Contents</h2>
+          <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#base-url">Base URL</a></li>
+            <li><a href="#pagination">Pagination</a></li>
+            <li><a href="#books">Books</a></li>
+            <li><a href="#short-stories">Short Stories</a></li>
+            <li><a href="#villains">Villains</a></li>
+            <li><a href="#data-models">Data Models</a></li>
+          </ul>
+        </nav>
+
+        <!-- Introduction -->
+        <section id="introduction" class="docs-section">
+          <h2>Introduction</h2>
+          <p>
+            The Stephen King API is a free, open-source REST API providing data about Stephen King's novels, short stories, and villains. No authentication is required. All endpoints are read-only (<code>GET</code> requests only).
+          </p>
+          <p>
+            Responses are returned in JSON format. Related resources include links to their associated endpoints for easy traversal.
+          </p>
+        </section>
+
+        <!-- Base URL -->
+        <section id="base-url" class="docs-section">
+          <h2>Base URL</h2>
+          <div class="docs-code-block">
+            <code><%= url %>/api</code>
+          </div>
+          <p>All endpoints described below are relative to this base URL.</p>
+        </section>
+
+        <!-- Pagination -->
+        <section id="pagination" class="docs-section">
+          <h2>Pagination</h2>
+          <p>
+            All list endpoints support optional pagination via query parameters:
+          </p>
+          <table class="docs-table">
+            <thead>
+              <tr>
+                <th>Parameter</th>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>page</code></td>
+                <td>integer</td>
+                <td>Page number (starts at 1)</td>
+              </tr>
+              <tr>
+                <td><code>limit</code></td>
+                <td>integer</td>
+                <td>Items per page (max 100)</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Both <code>page</code> and <code>limit</code> must be provided together to enable pagination. Without them, all results are returned.
+          </p>
+          <h3>Without pagination</h3>
+          <div class="docs-code-block">
+            <code>GET <%= url %>/api/books</code>
+          </div>
+          <pre class="docs-json">{
+  "data": [ ... ]
+}</pre>
+          <h3>With pagination</h3>
+          <div class="docs-code-block">
+            <code>GET <%= url %>/api/books?page=1&limit=5</code>
+          </div>
+          <pre class="docs-json">{
+  "data": [ ... ],
+  "pagination": {
+    "page": 1,
+    "limit": 5,
+    "total": 75,
+    "totalPages": 15
+  }
+}</pre>
+        </section>
+
+        <!-- Books -->
+        <section id="books" class="docs-section">
+          <h2>Books</h2>
+
+          <!-- GET /api/books -->
+          <div class="endpoint-card">
+            <div class="endpoint-header">
+              <span class="endpoint-method">GET</span>
+              <span class="endpoint-path">/api/books</span>
+            </div>
+            <p>Returns all books. Supports <a href="#pagination">pagination</a>.</p>
+            <h4>Example Request</h4>
+            <div class="docs-code-block">
+              <code>GET <%= url %>/api/books?page=1&limit=2</code>
+            </div>
+            <h4>Example Response</h4>
+            <pre class="docs-json">{
+  "data": [
+    {
+      "id": 1,
+      "Year": 1974,
+      "Title": "Carrie",
+      "handle": "carrie",
+      "Publisher": "Doubleday",
+      "ISBN": "978-0-385-08695-0",
+      "Pages": 199,
+      "Notes": [
+        "King's first published novel"
+      ],
+      "villains": [
+        {
+          "name": "Margaret White",
+          "url": "<%= url %>/api/villain/2"
+        }
+      ],
+      "created_at": "2023-09-17T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "Year": 1975,
+      "Title": "'Salem's Lot",
+      "handle": "salem-s-lot",
+      "Publisher": "Doubleday",
+      "ISBN": "978-0-385-00751-1",
+      "Pages": 439,
+      "Notes": [],
+      "villains": [
+        {
+          "name": "Kurt Barlow",
+          "url": "<%= url %>/api/villain/1"
+        }
+      ],
+      "created_at": "2023-09-17T00:00:00.000Z"
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "limit": 2,
+    "total": 75,
+    "totalPages": 38
+  }
+}</pre>
+          </div>
+
+          <!-- GET /api/book/:id -->
+          <div class="endpoint-card">
+            <div class="endpoint-header">
+              <span class="endpoint-method">GET</span>
+              <span class="endpoint-path">/api/book/:id</span>
+            </div>
+            <p>Returns a single book by ID.</p>
+            <h4>Example Request</h4>
+            <div class="docs-code-block">
+              <code>GET <%= url %>/api/book/3</code>
+            </div>
+            <h4>Example Response</h4>
+            <pre class="docs-json">{
+  "data": {
+    "id": 3,
+    "Year": 1977,
+    "Title": "The Shining",
+    "handle": "the-shining",
+    "Publisher": "Doubleday",
+    "ISBN": "978-0-385-12167-5",
+    "Pages": 447,
+    "Notes": [],
+    "villains": [
+      {
+        "name": "Jack Torrance",
+        "url": "<%= url %>/api/villain/3"
+      }
+    ],
+    "created_at": "2023-09-17T00:00:00.000Z"
+  }
+}</pre>
+          </div>
+        </section>
+
+        <!-- Short Stories -->
+        <section id="short-stories" class="docs-section">
+          <h2>Short Stories</h2>
+
+          <!-- GET /api/shorts -->
+          <div class="endpoint-card">
+            <div class="endpoint-header">
+              <span class="endpoint-method">GET</span>
+              <span class="endpoint-path">/api/shorts</span>
+            </div>
+            <p>Returns all short stories. Supports <a href="#pagination">pagination</a>.</p>
+            <h4>Example Request</h4>
+            <div class="docs-code-block">
+              <code>GET <%= url %>/api/shorts?page=1&limit=1</code>
+            </div>
+            <h4>Example Response</h4>
+            <pre class="docs-json">{
+  "data": [
+    {
+      "id": 1,
+      "title": "Jerusalem's Lot",
+      "type": "Short Story",
+      "handle": "jerusalems-lot",
+      "originallyPublishedIn": "Night Shift",
+      "collectedIn": "Night Shift",
+      "notes": [],
+      "year": 1978,
+      "villains": [
+        {
+          "name": "Kurt Barlow",
+          "url": "<%= url %>/api/villain/1"
+        }
+      ],
+      "created_at": "2023-09-17T00:00:00.000Z"
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "limit": 1,
+    "total": 200,
+    "totalPages": 200
+  }
+}</pre>
+          </div>
+
+          <!-- GET /api/short/:id -->
+          <div class="endpoint-card">
+            <div class="endpoint-header">
+              <span class="endpoint-method">GET</span>
+              <span class="endpoint-path">/api/short/:id</span>
+            </div>
+            <p>Returns a single short story by ID.</p>
+            <h4>Example Request</h4>
+            <div class="docs-code-block">
+              <code>GET <%= url %>/api/short/2</code>
+            </div>
+            <h4>Example Response</h4>
+            <pre class="docs-json">{
+  "data": {
+    "id": 2,
+    "title": "Graveyard Shift",
+    "type": "Short Story",
+    "handle": "graveyard-shift",
+    "originallyPublishedIn": "Cavalier",
+    "collectedIn": "Night Shift",
+    "notes": [],
+    "year": 1970,
+    "villains": [],
+    "created_at": "2023-09-17T00:00:00.000Z"
+  }
+}</pre>
+          </div>
+        </section>
+
+        <!-- Villains -->
+        <section id="villains" class="docs-section">
+          <h2>Villains</h2>
+          <p>
+            Villain responses include <code>books</code> and <code>shorts</code> arrays (instead of a <code>villains</code> array) linking to the works they appear in.
+          </p>
+
+          <!-- GET /api/villains -->
+          <div class="endpoint-card">
+            <div class="endpoint-header">
+              <span class="endpoint-method">GET</span>
+              <span class="endpoint-path">/api/villains</span>
+            </div>
+            <p>Returns all villains. Supports <a href="#pagination">pagination</a>.</p>
+            <h4>Example Request</h4>
+            <div class="docs-code-block">
+              <code>GET <%= url %>/api/villains?page=1&limit=1</code>
+            </div>
+            <h4>Example Response</h4>
+            <pre class="docs-json">{
+  "data": [
+    {
+      "id": 1,
+      "name": "Kurt Barlow",
+      "gender": "Male",
+      "status": "Undead",
+      "types_id": 1,
+      "notes": [],
+      "created_at": "2023-09-17T00:00:00.000Z",
+      "books": [
+        {
+          "title": "'Salem's Lot",
+          "url": "<%= url %>/api/book/2"
+        }
+      ],
+      "shorts": [
+        {
+          "title": "Jerusalem's Lot",
+          "url": "<%= url %>/api/short/1"
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "limit": 1,
+    "total": 55,
+    "totalPages": 55
+  }
+}</pre>
+          </div>
+
+          <!-- GET /api/villain/:id -->
+          <div class="endpoint-card">
+            <div class="endpoint-header">
+              <span class="endpoint-method">GET</span>
+              <span class="endpoint-path">/api/villain/:id</span>
+            </div>
+            <p>Returns a single villain by ID.</p>
+            <h4>Example Request</h4>
+            <div class="docs-code-block">
+              <code>GET <%= url %>/api/villain/3</code>
+            </div>
+            <h4>Example Response</h4>
+            <pre class="docs-json">{
+  "data": {
+    "id": 3,
+    "name": "Jack Torrance",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 2,
+    "notes": [],
+    "created_at": "2023-09-17T00:00:00.000Z",
+    "books": [
+      {
+        "title": "The Shining",
+        "url": "<%= url %>/api/book/3"
+      }
+    ],
+    "shorts": []
+  }
+}</pre>
+          </div>
+        </section>
+
+        <!-- Data Models -->
+        <section id="data-models" class="docs-section">
+          <h2>Data Models</h2>
+
+          <h3>Book</h3>
+          <table class="docs-table">
+            <thead>
+              <tr>
+                <th>Field</th>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>id</code></td>
+                <td>integer</td>
+                <td>Unique identifier</td>
+              </tr>
+              <tr>
+                <td><code>Year</code></td>
+                <td>integer</td>
+                <td>Year of publication</td>
+              </tr>
+              <tr>
+                <td><code>Title</code></td>
+                <td>string</td>
+                <td>Book title</td>
+              </tr>
+              <tr>
+                <td><code>handle</code></td>
+                <td>string</td>
+                <td>URL-friendly slug</td>
+              </tr>
+              <tr>
+                <td><code>Publisher</code></td>
+                <td>string</td>
+                <td>Publisher name</td>
+              </tr>
+              <tr>
+                <td><code>ISBN</code></td>
+                <td>string</td>
+                <td>ISBN identifier</td>
+              </tr>
+              <tr>
+                <td><code>Pages</code></td>
+                <td>integer</td>
+                <td>Page count</td>
+              </tr>
+              <tr>
+                <td><code>Notes</code></td>
+                <td>string[]</td>
+                <td>Additional notes</td>
+              </tr>
+              <tr>
+                <td><code>villains</code></td>
+                <td>array</td>
+                <td>Associated villains with name and URL</td>
+              </tr>
+              <tr>
+                <td><code>created_at</code></td>
+                <td>datetime</td>
+                <td>Record creation timestamp</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3>Short Story</h3>
+          <table class="docs-table">
+            <thead>
+              <tr>
+                <th>Field</th>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>id</code></td>
+                <td>integer</td>
+                <td>Unique identifier</td>
+              </tr>
+              <tr>
+                <td><code>title</code></td>
+                <td>string</td>
+                <td>Story title</td>
+              </tr>
+              <tr>
+                <td><code>type</code></td>
+                <td>string</td>
+                <td>Type of work (e.g. "Short Story")</td>
+              </tr>
+              <tr>
+                <td><code>handle</code></td>
+                <td>string</td>
+                <td>URL-friendly slug</td>
+              </tr>
+              <tr>
+                <td><code>originallyPublishedIn</code></td>
+                <td>string</td>
+                <td>Original publication</td>
+              </tr>
+              <tr>
+                <td><code>collectedIn</code></td>
+                <td>string</td>
+                <td>Collection it appears in</td>
+              </tr>
+              <tr>
+                <td><code>notes</code></td>
+                <td>string[]</td>
+                <td>Additional notes</td>
+              </tr>
+              <tr>
+                <td><code>year</code></td>
+                <td>integer</td>
+                <td>Year of publication</td>
+              </tr>
+              <tr>
+                <td><code>villains</code></td>
+                <td>array</td>
+                <td>Associated villains with name and URL</td>
+              </tr>
+              <tr>
+                <td><code>created_at</code></td>
+                <td>datetime</td>
+                <td>Record creation timestamp</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3>Villain</h3>
+          <table class="docs-table">
+            <thead>
+              <tr>
+                <th>Field</th>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>id</code></td>
+                <td>integer</td>
+                <td>Unique identifier</td>
+              </tr>
+              <tr>
+                <td><code>name</code></td>
+                <td>string</td>
+                <td>Villain name</td>
+              </tr>
+              <tr>
+                <td><code>gender</code></td>
+                <td>string?</td>
+                <td>Gender (nullable)</td>
+              </tr>
+              <tr>
+                <td><code>status</code></td>
+                <td>string</td>
+                <td>Status (e.g. "Deceased", "Undead")</td>
+              </tr>
+              <tr>
+                <td><code>types_id</code></td>
+                <td>integer</td>
+                <td>Villain type identifier</td>
+              </tr>
+              <tr>
+                <td><code>notes</code></td>
+                <td>string[]</td>
+                <td>Additional notes</td>
+              </tr>
+              <tr>
+                <td><code>books</code></td>
+                <td>array</td>
+                <td>Associated books with title and URL</td>
+              </tr>
+              <tr>
+                <td><code>shorts</code></td>
+                <td>array</td>
+                <td>Associated short stories with title and URL</td>
+              </tr>
+              <tr>
+                <td><code>created_at</code></td>
+                <td>datetime</td>
+                <td>Record creation timestamp</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- Footer -->
+        <div class="docs-footer">
+          <a
+            class="underline-link author"
+            href="https://github.com/hvanlear"
+            target="_blank"
+            >Hunter Van Lear</a
+          >
+          <a
+            class="footer-icon"
+            href="https://github.com/hvanlear/Stephen-King-API"
+            target="_blank"
+            ><?xml version="1.0" encoding="UTF-8"?><svg
+              width="20px"
+              height="20px"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              color="#828282"
+            >
+              <path
+                d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                stroke="#828282"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M14.3333 19V17.137C14.3583 16.8275 14.3154 16.5163 14.2073 16.2242C14.0993 15.9321 13.9286 15.6657 13.7067 15.4428C15.8 15.2156 18 14.4431 18 10.8989C17.9998 9.99256 17.6418 9.12101 17 8.46461C17.3039 7.67171 17.2824 6.79528 16.94 6.01739C16.94 6.01739 16.1533 5.7902 14.3333 6.97811C12.8053 6.57488 11.1947 6.57488 9.66666 6.97811C7.84666 5.7902 7.05999 6.01739 7.05999 6.01739C6.71757 6.79528 6.69609 7.67171 6.99999 8.46461C6.35341 9.12588 5.99501 10.0053 5.99999 10.9183C5.99999 14.4366 8.19999 15.2091 10.2933 15.4622C10.074 15.6829 9.90483 15.9461 9.79686 16.2347C9.68889 16.5232 9.64453 16.8306 9.66666 17.137V19"
+                stroke="#828282"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M9.66667 17.7018C7.66667 18.3335 6 17.7018 5 15.7544"
+                stroke="#828282"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path></svg
+          ></a>
+          <script
+            type="text/javascript"
+            src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js"
+            data-name="bmc-button"
+            data-slug="hvanleare"
+            data-color="#f6f0f0"
+            data-emoji=""
+            data-font="Poppins"
+            data-text="Buy me a coffee"
+            data-outline-color="#828282"
+            data-font-color="#828282"
+            data-coffee-color="#AE0F0E"
+          ></script>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

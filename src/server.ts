@@ -24,6 +24,11 @@ app.get("/", (req, res) => {
   res.render("index", { url: url });
 });
 
+app.get("/docs", (req, res) => {
+  const url = config.url || process.env.URL || "https://stephen-king-api.onrender.com";
+  res.render("docs", { url: url });
+});
+
 app.use("/api", router);
 
 const errorHandler: ErrorRequestHandler = (err, req, res, next) => {

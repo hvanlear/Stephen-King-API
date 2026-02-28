@@ -149,12 +149,35 @@ a.author{
     width: 18px;
 }
 
+/* Homepage docs link */
+.docs-link-container {
+    text-align: center;
+    margin: 1.2rem 0 0.5rem;
+}
+
+.docs-link {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    border: 1.5px solid rgb(174, 15, 15);
+    color: rgb(174, 15, 15);
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-family: Arial, sans-serif;
+    letter-spacing: 0.5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.docs-link:hover {
+    background-color: rgb(174, 15, 15);
+    color: #f0f0f0;
+}
+
 @media (max-width: 600px) {
 
     a.underline-link.block-link {
       font-size: .8rem;
     }
-    
+
     .banner-1 >.sk {
         font-size: 3.5rem;
     }
@@ -162,7 +185,7 @@ a.author{
     .sk-sub{
         font-size: 1.8rem;
     }
-    
+
     code {
         margin-left: 2rem;
     }
@@ -170,3 +193,276 @@ a.author{
         background-size: 200%;
     }
   }
+
+/* ===================== */
+/* DOCS PAGE STYLES      */
+/* ===================== */
+
+.docs-container {
+    min-height: 100vh;
+    background-image: url('/img/FinalCutFlipped.png');
+    background-repeat: repeat-y;
+    background-color: #f0f0f0;
+    background-size: 100%;
+    min-width: 320px;
+    padding: 2rem 1rem 3rem;
+}
+
+.docs-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Header */
+.docs-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.docs-back-link {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: #828282;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+.docs-back-link:hover {
+    color: rgb(174, 15, 15);
+}
+
+.docs-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: itc-benguiat, serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.docs-title {
+    letter-spacing: -3px;
+    line-height: 0.7;
+    font-size: 3.5rem;
+}
+
+.docs-subtitle {
+    font-size: 2rem;
+}
+
+/* Table of Contents */
+.docs-toc {
+    background: rgba(255, 255, 255, 0.7);
+    border-left: 4px solid rgb(174, 15, 15);
+    padding: 1.2rem 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.docs-toc h2 {
+    font-size: 1.1rem;
+    margin-bottom: 0.6rem;
+    color: rgb(20, 18, 18);
+}
+
+.docs-toc ul {
+    list-style: none;
+    padding: 0;
+}
+
+.docs-toc li {
+    margin-bottom: 0.3rem;
+}
+
+.docs-toc a {
+    color: rgb(174, 15, 15);
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.docs-toc a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+.docs-section {
+    margin-bottom: 3rem;
+}
+
+.docs-section h2 {
+    font-family: itc-benguiat, serif;
+    font-size: 1.8rem;
+    color: rgb(174, 15, 15);
+    margin-bottom: 0.8rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 2px solid rgba(174, 15, 15, 0.2);
+}
+
+.docs-section h3 {
+    font-size: 1.15rem;
+    margin: 1.5rem 0 0.5rem;
+    color: rgb(20, 18, 18);
+}
+
+.docs-section h4 {
+    font-size: 0.95rem;
+    margin: 1rem 0 0.4rem;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.docs-section p {
+    line-height: 1.6;
+    margin-bottom: 0.8rem;
+    color: rgb(50, 50, 50);
+}
+
+.docs-section a {
+    color: rgb(174, 15, 15);
+    text-decoration: none;
+}
+
+.docs-section a:hover {
+    text-decoration: underline;
+}
+
+/* Code blocks */
+.docs-code-block {
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ddd;
+    padding: 0.6rem 1rem;
+    margin: 0.5rem 0 1rem;
+    font-family: monospace;
+    font-size: 0.9rem;
+    overflow-x: auto;
+}
+
+.docs-json {
+    background: #1e1e1e;
+    color: #d4d4d4;
+    border-left: 4px solid rgb(174, 15, 15);
+    padding: 1rem 1.2rem;
+    margin: 0.5rem 0 1.5rem;
+    font-family: monospace;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    overflow-x: auto;
+    white-space: pre;
+}
+
+/* Endpoint cards */
+.endpoint-card {
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.endpoint-header {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.endpoint-method {
+    background: rgb(174, 15, 15);
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.25rem 0.6rem;
+    letter-spacing: 0.5px;
+    font-family: monospace;
+}
+
+.endpoint-path {
+    font-family: monospace;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: rgb(20, 18, 18);
+}
+
+/* Tables */
+.docs-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0.8rem 0 1.5rem;
+    font-size: 0.9rem;
+}
+
+.docs-table thead tr {
+    background: rgba(174, 15, 15, 0.08);
+}
+
+.docs-table th {
+    text-align: left;
+    padding: 0.6rem 0.8rem;
+    border-bottom: 2px solid rgba(174, 15, 15, 0.3);
+    font-weight: 600;
+    color: rgb(20, 18, 18);
+}
+
+.docs-table td {
+    padding: 0.5rem 0.8rem;
+    border-bottom: 1px solid #e0e0e0;
+    color: rgb(50, 50, 50);
+}
+
+.docs-table code {
+    font-size: 0.85rem;
+    background: rgba(174, 15, 15, 0.06);
+    padding: 0.1rem 0.3rem;
+}
+
+/* Footer */
+.docs-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0 1rem;
+    border-top: 1px solid #ddd;
+    margin-top: 2rem;
+}
+
+/* Docs responsive */
+@media (max-width: 600px) {
+    .docs-title {
+        font-size: 2.5rem;
+    }
+
+    .docs-subtitle {
+        font-size: 1.4rem;
+    }
+
+    .docs-section h2 {
+        font-size: 1.4rem;
+    }
+
+    .endpoint-card {
+        padding: 1rem;
+    }
+
+    .docs-json {
+        font-size: 0.75rem;
+        padding: 0.8rem;
+    }
+
+    .docs-code-block {
+        font-size: 0.8rem;
+    }
+
+    .docs-table {
+        font-size: 0.8rem;
+    }
+
+    .docs-table th,
+    .docs-table td {
+        padding: 0.4rem 0.5rem;
+    }
+
+    .docs-container {
+        background-size: 200%;
+    }
+}

@@ -7,6 +7,10 @@
 
 This is an open-source API that provides Novela, Short Story, character(_currently limited to villains_), and setting information for the written works of Stephen King. This information is publicly sourced; I do not claim to own.
 
+## Live Documentation (Swagger UI)
+
+Explore the API and its endpoints interactively using our [Stephen King API Documentation](https://hvanlear.github.io/Stephen-King-API/).
+
 ## Routes
 
 _All routes are GET routes_

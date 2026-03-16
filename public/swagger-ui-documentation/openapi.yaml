@@ -1,0 +1,281 @@
+openapi: 3.0.0
+info:
+  title: Stephen King API
+  description: |
+    A RESTful API providing programmatically accessible data about the works and characters of the author Stephen King.
+    
+    This documentation was created by [Víctor Laurencena](https://github.com/vlaurencena).
+  version: 1.0.0
+tags:
+  - name: Books
+  - name: Shorts
+  - name: Villains
+paths:
+  /books:
+    get:
+      tags:
+        - Books
+      description: Returns all books.
+      responses:
+        '200':
+          description: A list of books.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Book'
+  /book/{id}:
+    get:
+      tags:
+        - Books
+      description: Returns details of a specific book by ID.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Book details.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Book'
+        '404':
+          $ref: '#/components/responses/404'
+  /shorts:
+    get:
+      tags:
+        - Shorts
+      description: Returns all short stories.
+      responses:
+        '200':
+          description: A list of short stories.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items: 
+                      $ref: '#/components/schemas/Short'
+  /short/{id}:
+    get:
+      tags:
+        - Shorts
+      description: Returns details of a specific short story by ID.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Short story details.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items: 
+                      $ref: '#/components/schemas/Short'
+        '404':
+          $ref: '#/components/responses/404'
+  /villains:
+    get:
+      tags:
+        - Villains
+      description: Returns all villains from Stephen King's works.
+      responses:
+        '200':
+          description: A list of villains.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Villain'
+  /villain/{id}:
+    get:
+      tags:
+        - Villains
+      description: Returns details of a specific villain by ID.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Villain details.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/Villain'
+        '404':
+          $ref: '#/components/responses/404'
+components:
+  responses:
+    '404':
+      description: Not Found.
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              error:
+                type: string
+                example: Book/Short/Villain not found
+  schemas:
+    Book:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 1
+        Year:
+          type: integer
+          example: 1974
+        Title:
+          type: string
+          example: Carrie
+        handle:
+          type: string
+          example: carrie
+        Publisher:
+          type: string
+          example: Doubleday
+        ISBN:
+          type: string
+          example: 978-0-385-08695-0
+        Pages:
+          type: integer
+          example: 199
+        Notes:
+          type: array
+          items:
+            type: string
+            example: Nominee, World Fantasy Award, 1976[2]
+        created_at:
+          type: string
+          format: date-time
+          example: 2023-11-13T23:48:47.848Z
+        villains:
+          type: array
+          items:
+            type: object
+            properties:
+              name:
+                type: string
+                example: Tina Blake
+              url:
+                type: string
+                example: https://stephen-king-api.onrender.com/api/villain/4
+    Short:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 1
+        title:
+          type: string
+          example: Land of 1,000,000 Years Ago
+        type:
+          type: string
+          example: short story
+        handle:
+          type: string
+          example: land-of-1-000-000-years-ago
+        originallyPublishedIn:
+          type: string
+          example:
+        collectedIn:
+          type: string
+          example: 
+        notes: 
+          type: array
+          items:
+            type: string
+            example: Self-published
+        year:
+          type: integer
+          example: 1959
+        created_at:
+          type: string
+          format: date-time
+          example: 2023-11-13T23:48:55.954Z
+        villains:
+          type: array
+          items:
+            type: object
+            properties:
+              name:
+                type: string
+                example: James Boon
+              url:
+                type: string
+                example: https://stephen-king-api.onrender.com/api/villain/6
+    Villain:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 1
+        name:
+          type: string
+          example: Bob Anderson
+        gender:
+          type: string
+          example: Male
+        types_id:
+          type: integer
+          example: 1
+        notes:
+          type: array
+          items:
+            type: string
+            example: Stubs
+        created_at:
+          type: string
+          format: date-time
+          example: 2023-11-13T23:49:22.390Z
+        books:
+          type: array
+          items:
+            type: object
+            properties:
+              title:
+                type: string
+                example: It
+              url: 
+                type: string
+                example: https://stephen-king-api.onrender.com/api/book/19
+        shorts:
+          type: array
+          items:
+            type: object
+            properties:
+              title:
+                type: string
+                example: A Good Marriage
+              url: 
+                type: string
+                example: https://stephen-king-api.onrender.com/api/book/180
+servers:
+  - url: https://stephen-king-api.onrender.com/api

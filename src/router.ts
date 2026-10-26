@@ -1,7 +1,5 @@
 import { Router } from "express";
-import { body, oneOf, validationResult } from "express-validator";
-import { handleInputErrors } from "./modules/middleware";
-import { createABook, getBooks, getOneBook } from "./handlers/book";
+import { getBooks, getOneBook } from "./handlers/book";
 import { getShorts, getOneShort } from "./handlers/short";
 import { getOneVillain, getVillains } from "./handlers/villains";
 
@@ -14,7 +12,6 @@ router.get("/books",getBooks);
 router.get("/book/:id",getOneBook);
 router.get("/book/:id/villains", (req, res) => res.status(501).json({ message: "Not implemented" }));
 router.put("/book/:id", (req, res) => res.status(501).json({ message: "Not implemented" }));
-router.post("/books", handleInputErrors, createABook);
 router.delete("/books", (req, res) => res.status(501).json({ message: "Not implemented" }));
 
 //Shorts Router

@@ -5,7 +5,7 @@
 
 ## Overview
 
-This is an open-source API that provides Novela, Short Story, character(_currently limited to villains_), and setting information for the written works of Stephen King. This information is publicly sourced; I do not claim to own.
+This is an open-source API that provides Novela, Short Story, character(_currently limited to villains_), and setting information for the written works of Stephen King. This information is publicly sourced, adapted from [Wikipedia](https://en.wikipedia.org/wiki/Stephen_King_bibliography) and the [Stephen King Wiki](https://stephenking.fandom.com); I do not claim to own it.
 
 ## Routes
 
@@ -35,4 +35,5 @@ I welcome any and all contributions! Feel free to submit a Pull Request with you
 
 ## License
 
-Standard [MIT](/LICENSE.md)
+- **Code:** [MIT](LICENSE)
+- **Data:** [CC BY-SA 4.0](DATA-LICENSE.md), adapted from Wikipedia and the Stephen King Wiki. If you redistribute or modify the data, credit the sources and keep the same license.

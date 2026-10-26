@@ -1,0 +1,89 @@
+{
+  "path": "/api/book/1",
+  "status": 200,
+  "body": {
+    "data": {
+      "id": 1,
+      "Year": 1974,
+      "Title": "Carrie",
+      "handle": "carrie",
+      "Publisher": "Doubleday",
+      "ISBN": "978-0-385-08695-0",
+      "Pages": 199,
+      "Notes": [
+        ""
+      ],
+      "created_at": "2023-11-13T23:48:47.848Z",
+      "villains": [
+        {
+          "name": "Tina Blake",
+          "url": "https://stephen-king-api.onrender.com/api/villain/4"
+        },
+        {
+          "name": "Cindi",
+          "url": "https://stephen-king-api.onrender.com/api/villain/14"
+        },
+        {
+          "name": "Myra Crewes",
+          "url": "https://stephen-king-api.onrender.com/api/villain/16"
+        },
+        {
+          "name": "Billy deLois",
+          "url": "https://stephen-king-api.onrender.com/api/villain/25"
+        },
+        {
+          "name": "Kenny Garson",
+          "url": "https://stephen-king-api.onrender.com/api/villain/38"
+        },
+        {
+          "name": "Mary Lila Grace",
+          "url": "https://stephen-king-api.onrender.com/api/villain/44"
+        },
+        {
+          "name": "Christine Hargensen",
+          "url": "https://stephen-king-api.onrender.com/api/villain/49"
+        },
+        {
+          "name": "Vic Mooney",
+          "url": "https://stephen-king-api.onrender.com/api/villain/75"
+        },
+        {
+          "name": "The Mortimer Snerds",
+          "url": "https://stephen-king-api.onrender.com/api/villain/77"
+        },
+        {
+          "name": "Billy Nolan",
+          "url": "https://stephen-king-api.onrender.com/api/villain/80"
+        },
+        {
+          "name": "Elenor Richmond",
+          "url": "https://stephen-king-api.onrender.com/api/villain/90"
+        },
+        {
+          "name": "Rachel Spies",
+          "url": "https://stephen-king-api.onrender.com/api/villain/94"
+        },
+        {
+          "name": "Jackie Talbot",
+          "url": "https://stephen-king-api.onrender.com/api/villain/99"
+        },
+        {
+          "name": "Donna and Mary Lila Grace Thibodeau",
+          "url": "https://stephen-king-api.onrender.com/api/villain/102"
+        },
+        {
+          "name": "Jessica Upshaw",
+          "url": "https://stephen-king-api.onrender.com/api/villain/108"
+        },
+        {
+          "name": "Norma Watson",
+          "url": "https://stephen-king-api.onrender.com/api/villain/109"
+        },
+        {
+          "name": "Margaret White",
+          "url": "https://stephen-king-api.onrender.com/api/villain/113"
+        }
+      ]
+    }
+  }
+}

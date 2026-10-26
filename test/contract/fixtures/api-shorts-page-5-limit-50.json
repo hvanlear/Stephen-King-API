@@ -1,0 +1,165 @@
+{
+  "path": "/api/shorts?page=5&limit=50",
+  "status": 200,
+  "body": {
+    "data": [
+      {
+        "id": 201,
+        "title": "Thin Scenery",
+        "type": "play",
+        "handle": "thin-scenery",
+        "originallyPublishedIn": "Ploughshares (Summer 2017)",
+        "collectedIn": "Uncollected",
+        "notes": [],
+        "year": 2017,
+        "created_at": "2023-11-13T23:49:20.979Z",
+        "villains": []
+      },
+      {
+        "id": 202,
+        "title": "Laurie",
+        "type": "short story",
+        "handle": "laurie",
+        "originallyPublishedIn": "stephenking.com (May 17, 2018)",
+        "collectedIn": "Uncollected",
+        "notes": [
+          "Free download",
+          "[4] included in the Elevation audiobook"
+        ],
+        "year": 2018,
+        "created_at": "2023-11-13T23:49:21.100Z",
+        "villains": []
+      },
+      {
+        "id": 203,
+        "title": "Elevation",
+        "type": "novella",
+        "handle": "elevation",
+        "originallyPublishedIn": "Elevation (October 2018)",
+        "collectedIn": "Uncollected (standalone book)",
+        "notes": [],
+        "year": 2018,
+        "created_at": "2023-11-13T23:49:21.223Z",
+        "villains": []
+      },
+      {
+        "id": 204,
+        "title": "The Turbulence Expert",
+        "type": "short story",
+        "handle": "the-turbulence-expert",
+        "originallyPublishedIn": "Flight or Fright (September 4, 2018)",
+        "collectedIn": "Uncollected",
+        "notes": [],
+        "year": 2018,
+        "created_at": "2023-11-13T23:49:21.341Z",
+        "villains": []
+      },
+      {
+        "id": 205,
+        "title": "Squad D",
+        "type": "short story",
+        "handle": "squad-d",
+        "originallyPublishedIn": "Shivers VIII  (April 18, 2019)",
+        "collectedIn": "Uncollected",
+        "notes": [
+          "written in the late 1970s"
+        ],
+        "year": 2019,
+        "created_at": "2023-11-13T23:49:21.458Z",
+        "villains": []
+      },
+      {
+        "id": 206,
+        "title": "The Fifth Step",
+        "type": "short story",
+        "handle": "the-fifth-step",
+        "originallyPublishedIn": "Harper's Magazine (March 2020)",
+        "collectedIn": "Uncollected",
+        "notes": [],
+        "year": 2020,
+        "created_at": "2023-11-13T23:49:21.582Z",
+        "villains": []
+      },
+      {
+        "id": 207,
+        "title": "If It Bleeds",
+        "type": "novella",
+        "handle": "if-it-bleeds",
+        "originallyPublishedIn": "If It Bleeds (April 2020)",
+        "collectedIn": "If It Bleeds (2020)",
+        "notes": [
+          "First novella in the Holly Gibney Series"
+        ],
+        "year": 2020,
+        "created_at": "2023-11-13T23:49:21.695Z",
+        "villains": []
+      },
+      {
+        "id": 208,
+        "title": "The Life of Chuck",
+        "type": "novella",
+        "handle": "the-life-of-chuck",
+        "originallyPublishedIn": "If It Bleeds (April 2020)",
+        "collectedIn": "If It Bleeds (2020)",
+        "notes": [],
+        "year": 2020,
+        "created_at": "2023-11-13T23:49:21.816Z",
+        "villains": []
+      },
+      {
+        "id": 209,
+        "title": "Mr. Harrigan's Phone",
+        "type": "novella",
+        "handle": "mr-harrigan-s-phone",
+        "originallyPublishedIn": "If It Bleeds (April 2020)",
+        "collectedIn": "If It Bleeds (2020)",
+        "notes": [],
+        "year": 2020,
+        "created_at": "2023-11-13T23:49:21.928Z",
+        "villains": []
+      },
+      {
+        "id": 210,
+        "title": "Rat",
+        "type": "novella",
+        "handle": "rat",
+        "originallyPublishedIn": "If It Bleeds (April 2020)",
+        "collectedIn": "If It Bleeds (2020)",
+        "notes": [],
+        "year": 2020,
+        "created_at": "2023-11-13T23:49:22.042Z",
+        "villains": []
+      },
+      {
+        "id": 211,
+        "title": "On Slide Inn Road",
+        "type": "short story",
+        "handle": "on-slide-inn-road",
+        "originallyPublishedIn": "Esquire Magazine (October/November 2020)",
+        "collectedIn": "Uncollected",
+        "notes": [],
+        "year": 2020,
+        "created_at": "2023-11-13T23:49:22.160Z",
+        "villains": []
+      },
+      {
+        "id": 212,
+        "title": "Willie the Weirdo",
+        "type": "short story",
+        "handle": "willie-the-weirdo",
+        "originallyPublishedIn": "McSweeney's 65 (September 2021)",
+        "collectedIn": "Uncollected",
+        "notes": [],
+        "year": 2021,
+        "created_at": "2023-11-13T23:49:22.279Z",
+        "villains": []
+      }
+    ],
+    "pagination": {
+      "page": 5,
+      "limit": 50,
+      "total": 212,
+      "totalPages": 5
+    }
+  }
+}

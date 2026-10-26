@@ -1,0 +1,18 @@
+{
+  "path": "/api/book/63",
+  "status": 200,
+  "body": {
+    "data": {
+      "id": 63,
+      "Year": 2021,
+      "Title": "Billy Summers",
+      "handle": "billy-summers",
+      "Publisher": "Scribner",
+      "ISBN": "978-1-982-17361-6",
+      "Pages": 528,
+      "Notes": [],
+      "created_at": "2023-11-13T23:48:55.753Z",
+      "villains": []
+    }
+  }
+}

@@ -4,7 +4,7 @@
   "description": "a rest API for the works and characters of stephen king",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node --test --require ts-node/register \"test/**/*.test.ts\"",
     "dev": "nodemon src/index.ts",
     "build": "tsc -p tsconfig.json",
     "start": "node dist/index.js"

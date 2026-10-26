@@ -61,24 +61,3 @@ export const getBooks = async (req, res) => {
     res.status(500).json({ error: 'An error occurred while retrieving the books' });
   }
 };
-
-//Create a book
-export const createABook = async (req, res, next) => {
-  try {
-    const book = await prisma.book.create({
-      data: {
-        Year: req.body.Year,
-        Title: req.body.Title,
-        handle: req.body.handle,
-        Pages: req.body.Pages,
-        Publisher: req.body.Publisher,
-        ISBN: req.body.ISBN,
-        Notes: req.body.Notes,
-      },
-    });
-    res.json({ data: book });
-  } catch (e) {
-    e.type = "input";
-    next(e);
-  }
-};

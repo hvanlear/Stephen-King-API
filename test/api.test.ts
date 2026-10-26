@@ -101,6 +101,20 @@ for (const { list, detail, total, missing } of resources) {
   });
 }
 
+describe("unimplemented routes", () => {
+  it("are gone rather than answering 501", async () => {
+    for (const [method, requestPath] of [
+      ["GET", "/api/book/1/villains"],
+      ["PUT", "/api/book/1"],
+      ["POST", "/api/shorts"],
+      ["DELETE", "/api/villains"],
+    ]) {
+      const res = await fetch(server.url + requestPath, { method });
+      assert.equal(res.status, 404, `${method} ${requestPath}`);
+    }
+  });
+});
+
 describe("links", () => {
   it("point both ways between villains and books", async () => {
     const { body } = await get("/api/villains");

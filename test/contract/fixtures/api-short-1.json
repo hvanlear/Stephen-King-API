@@ -1,0 +1,20 @@
+{
+  "path": "/api/short/1",
+  "status": 200,
+  "body": {
+    "data": {
+      "id": 1,
+      "title": "Land of 1,000,000 Years Ago",
+      "type": "short story",
+      "handle": "land-of-1-000-000-years-ago",
+      "originallyPublishedIn": "",
+      "collectedIn": "Uncollected",
+      "notes": [
+        "Self-published"
+      ],
+      "year": 1959,
+      "created_at": "2023-11-13T23:48:55.954Z",
+      "villains": []
+    }
+  }
+}

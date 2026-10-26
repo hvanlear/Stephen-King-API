@@ -1,0 +1,2778 @@
+{
+  "path": "/api/villains",
+  "status": 200,
+  "body": {
+    "data": [
+      {
+        "id": 1,
+        "name": "Bob Anderson",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Pownal residents",
+          "Yarmouth residents",
+          "Residents of Maine",
+          "Villains",
+          "Crime"
+        ],
+        "created_at": "2023-11-13T23:49:22.390Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "A Good Marriage",
+            "url": "https://stephen-king-api.onrender.com/api/short/180"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Kurt Barlow",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 2,
+        "notes": [
+          "Characters",
+          "Jerusalem's Lot residents",
+          "Residents of Maine",
+          "Villains",
+          "Antagonists"
+        ],
+        "created_at": "2023-11-13T23:49:22.625Z",
+        "books": [
+          {
+            "title": "Salem's Lot",
+            "url": "https://stephen-king-api.onrender.com/api/book/2"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 3,
+        "name": "Blaine the Mono",
+        "gender": null,
+        "status": "Deceased",
+        "types_id": 6,
+        "notes": [
+          "Characters",
+          "Unsourced quotes",
+          "The Dark Tower",
+          "Villains",
+          "Machines",
+          "Antagonists"
+        ],
+        "created_at": "2023-11-13T23:49:22.743Z",
+        "books": [
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34"
+          },
+          {
+            "title": "The Dark Tower III: The Waste Lands",
+            "url": "https://stephen-king-api.onrender.com/api/book/25"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 4,
+        "name": "Tina Blake",
+        "gender": "Female",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Ewen High School students",
+          "Residents of Maine",
+          "Chamberlain residents",
+          "Bullies",
+          "Name-continuity",
+          "Lovers",
+          "Bate High School students",
+          "Villains",
+          "Antagonists",
+          "Carrie"
+        ],
+        "created_at": "2023-11-13T23:49:22.968Z",
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 5,
+        "name": "Malachai Boardman",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Villains",
+          "Antagonists"
+        ],
+        "created_at": "2023-11-13T23:49:23.089Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "Children of the Corn",
+            "url": "https://stephen-king-api.onrender.com/api/short/53"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "James Boon",
+        "gender": "Male",
+        "status": "Alive",
+        "types_id": 1,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Villains",
+          "Jerusalem's Lot residents"
+        ],
+        "created_at": "2023-11-13T23:49:23.203Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "Jerusalem's Lot",
+            "url": "https://stephen-king-api.onrender.com/api/short/58"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Henry Bowers",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Unsourced quotes",
+          "Bullies",
+          "Characters with mental illness",
+          "Derry residents",
+          "IT",
+          "Residents of Maine",
+          "Seekers of vengeance",
+          "Villains",
+          "Leaders",
+          "Gang Leaders",
+          "Slashers",
+          "Victims",
+          "LGBT",
+          "Antagonists"
+        ],
+        "created_at": "2023-11-13T23:49:23.320Z",
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 8,
+        "name": "Butch Bowers",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Unsourced quotes",
+          "Derry residents",
+          "Residents of Maine",
+          "IT",
+          "Antagonists",
+          "Villains",
+          "Bullies",
+          "Characters with mental illness",
+          "Spouses"
+        ],
+        "created_at": "2023-11-13T23:49:23.438Z",
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 9,
+        "name": "Greta Bowie",
+        "gender": "Female",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Derry residents",
+          "IT",
+          "Residents of Maine",
+          "Bullies",
+          "Leaders",
+          "Antagonists",
+          "Status dependant on version",
+          "Villains"
+        ],
+        "created_at": "2023-11-13T23:49:23.561Z",
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 10,
+        "name": "Marten Broadcloak",
+        "gender": "Male",
+        "status": "Alive",
+        "types_id": 1,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Gilead residents",
+          "The Dark Tower",
+          "Residents of All-world",
+          "Villains",
+          "Lovers",
+          "Multiverse"
+        ],
+        "created_at": "2023-11-13T23:49:23.690Z",
+        "books": [
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 11,
+        "name": "Christine (car)",
+        "gender": "Female",
+        "status": "Alive",
+        "types_id": 6,
+        "notes": [
+          "Characters",
+          "Objects",
+          "Villains",
+          "Christine",
+          "Demonic items",
+          "Antagonists",
+          "Ghosts",
+          "Murderers",
+          "Seekers of vengeance"
+        ],
+        "created_at": "2023-11-13T23:49:23.805Z",
+        "books": [
+          {
+            "title": "Christine",
+            "url": "https://stephen-king-api.onrender.com/api/book/13"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 12,
+        "name": "Isaac Chroner",
+        "gender": null,
+        "status": "Deceased",
+        "types_id": 6,
+        "notes": [
+          "Characters",
+          "Villains",
+          "Antagonists"
+        ],
+        "created_at": "2023-11-13T23:49:23.918Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "Children of the Corn",
+            "url": "https://stephen-king-api.onrender.com/api/short/53"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Winston Church",
+        "gender": null,
+        "status": "Deceased",
+        "types_id": 8,
+        "notes": [
+          "Characters",
+          "Cats",
+          "Villains",
+          "Pet Sematary",
+          "Status dependant on version",
+          "Revived"
+        ],
+        "created_at": "2023-11-13T23:49:24.039Z",
+        "books": [
+          {
+            "title": "Pet Sematary",
+            "url": "https://stephen-king-api.onrender.com/api/book/14"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 14,
+        "name": "Cindi",
+        "gender": "Female",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Ewen High School students",
+          "Unknown fates",
+          "Chamberlain residents",
+          "Residents of Maine",
+          "Bate High School students",
+          "Bullies",
+          "Villains",
+          "Name-continuity",
+          "Antagonists",
+          "Victims",
+          "Carrie"
+        ],
+        "created_at": "2023-11-13T23:49:24.159Z",
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 15,
+        "name": "Gage Creed",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 3,
+        "notes": [
+          "Characters",
+          "Villains",
+          "Pet Sematary",
+          "Status dependant on version",
+          "Revived",
+          "Antagonists",
+          "Residents of Maine"
+        ],
+        "created_at": "2023-11-13T23:49:24.285Z",
+        "books": [
+          {
+            "title": "Pet Sematary",
+            "url": "https://stephen-king-api.onrender.com/api/book/14"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 16,
+        "name": "Myra Crewes",
+        "gender": "Female",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Chamberlain residents",
+          "Residents of Maine",
+          "Villains",
+          "Bullies",
+          "Ewen High School students",
+          "Unknown fates",
+          "Bate High School students",
+          "Antagonists",
+          "Victims",
+          "Carrie"
+        ],
+        "created_at": "2023-11-13T23:49:24.403Z",
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 17,
+        "name": "Crimson King",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 3,
+        "notes": [
+          "Characters",
+          "The Dark Tower",
+          "Multiverse",
+          "Villains",
+          "Antagonists"
+        ],
+        "created_at": "2023-11-13T23:49:24.525Z",
+        "books": [
+          {
+            "title": "Insomnia",
+            "url": "https://stephen-king-api.onrender.com/api/book/29"
+          },
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12"
+          },
+          {
+            "title": "Black House",
+            "url": "https://stephen-king-api.onrender.com/api/book/38"
+          },
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 18,
+        "name": "Victor Criss",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Unsourced quotes",
+          "Bullies",
+          "Derry residents",
+          "Residents of Maine",
+          "IT",
+          "Villains",
+          "Antagonists",
+          "Victims",
+          "Status dependant on version"
+        ],
+        "created_at": "2023-11-13T23:49:24.664Z",
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 19,
+        "name": "Cujo",
+        "gender": null,
+        "status": "Deceased",
+        "types_id": 8,
+        "notes": [
+          "Characters",
+          "Dogs",
+          "Characters with mental illness",
+          "Castle Rock residents",
+          "Residents of Maine",
+          "Villains",
+          "Antagonists"
+        ],
+        "created_at": "2023-11-13T23:49:24.799Z",
+        "books": [
+          {
+            "title": "Cujo",
+            "url": "https://stephen-king-api.onrender.com/api/book/10"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 20,
+        "name": "Arnie Cunningham",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Unsourced quotes",
+          "Seekers of vengeance",
+          "Lovers",
+          "Christine",
+          "Villains",
+          "Antagonists",
+          "Victims",
+          "Heroes",
+          "Protagonists"
+        ],
+        "created_at": "2023-11-13T23:49:24.927Z",
+        "books": [
+          {
+            "title": "Christine",
+            "url": "https://stephen-king-api.onrender.com/api/book/13"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 21,
+        "name": "Dandelo",
+        "gender": "Male",
+        "status": "Alive",
+        "types_id": 2,
+        "notes": [
+          "Characters",
+          "Villains"
+        ],
+        "created_at": "2023-11-13T23:49:25.057Z",
+        "books": [
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 22,
+        "name": "Norman Daniels",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Unsourced quotes",
+          "Police",
+          "Antagonists",
+          "Villains",
+          "Murderers"
+        ],
+        "created_at": "2023-11-13T23:49:25.174Z",
+        "books": [
+          {
+            "title": "Rose Madder",
+            "url": "https://stephen-king-api.onrender.com/api/book/30"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 23,
+        "name": "Susan Day",
+        "gender": "Female",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Villains"
+        ],
+        "created_at": "2023-11-13T23:49:25.311Z",
+        "books": [
+          {
+            "title": "Rose Madder",
+            "url": "https://stephen-king-api.onrender.com/api/book/30"
+          },
+          {
+            "title": "Insomnia",
+            "url": "https://stephen-king-api.onrender.com/api/book/29"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 24,
+        "name": "Cordelia Delgado",
+        "gender": "Female",
+        "status": "Alive",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Villains",
+          "The Dark Tower",
+          "Antagonists"
+        ],
+        "created_at": "2023-11-13T23:49:25.430Z",
+        "books": [
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 25,
+        "name": "Billy deLois",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Chamberlain residents",
+          "Residents of Maine",
+          "Unknown fates",
+          "Ewen High School students",
+          "Bullies",
+          "Villains",
+          "Antagonists",
+          "Carrie"
+        ],
+        "created_at": "2023-11-13T23:49:25.546Z",
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 26,
+        "name": "Horace M. Derwent",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 7,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Appearances",
+          "The Shining",
+          "Villains",
+          "Ghosts",
+          "LGBT"
+        ],
+        "created_at": "2023-11-13T23:49:25.758Z",
+        "books": [
+          {
+            "title": "The Shining",
+            "url": "https://stephen-king-api.onrender.com/api/book/3"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 27,
+        "name": "Mordred Deschain",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 3,
+        "notes": [
+          "Characters",
+          "ESPers",
+          "The Dark Tower",
+          "Multiverse",
+          "Villains",
+          "Antagonists"
+        ],
+        "created_at": "2023-11-13T23:49:25.873Z",
+        "books": [
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 28,
+        "name": "Bogs Diamond",
+        "gender": "Male",
+        "status": "Alive",
+        "types_id": 1,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Villains",
+          "Leaders"
+        ],
+        "created_at": "2023-11-13T23:49:25.992Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "Rita Hayworth and Shawshank Redemption",
+            "url": "https://stephen-king-api.onrender.com/api/short/86"
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "name": "Frank Dodd",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Police",
+          "Murderers",
+          "Villains",
+          "Government employees",
+          "Characters with mental illness",
+          "The Dead Zone",
+          "Antagonists"
+        ],
+        "created_at": "2023-11-13T23:49:26.115Z",
+        "books": [
+          {
+            "title": "The Dead Zone",
+            "url": "https://stephen-king-api.onrender.com/api/book/7"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 30,
+        "name": "Henrietta Dodd",
+        "gender": "Female",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "The Dead Zone",
+          "Villains"
+        ],
+        "created_at": "2023-11-13T23:49:26.240Z",
+        "books": [
+          {
+            "title": "The Dead Zone",
+            "url": "https://stephen-king-api.onrender.com/api/book/7"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 31,
+        "name": "Rose the Hat",
+        "gender": "Female",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Doctor Sleep",
+          "Villains",
+          "Harassers",
+          "Murderers",
+          "LGBT",
+          "Bullies"
+        ],
+        "created_at": "2023-11-13T23:49:26.355Z",
+        "books": [
+          {
+            "title": "Doctor Sleep",
+            "url": "https://stephen-king-api.onrender.com/api/book/52"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 32,
+        "name": "Rhea Dubativo",
+        "gender": "Female",
+        "status": "Alive",
+        "types_id": 1,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Hambry residents",
+          "The Dark Tower",
+          "Residents of All-world",
+          "Villains",
+          "Antagonists"
+        ],
+        "created_at": "2023-11-13T23:49:26.474Z",
+        "books": [
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 33,
+        "name": "Kurt Dussander",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Villains"
+        ],
+        "created_at": "2023-11-13T23:49:26.598Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "Apt Pupil",
+            "url": "https://stephen-king-api.onrender.com/api/short/83"
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "name": "Donald Merwin Elbert",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Villains",
+          "Antagonists",
+          "The Stand",
+          "Characters with mental illness"
+        ],
+        "created_at": "2023-11-13T23:49:26.707Z",
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 35,
+        "name": "Marcia Fadden",
+        "gender": "Female",
+        "status": "Alive",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Derry residents",
+          "IT",
+          "Residents of Maine",
+          "Villains",
+          "Bullies"
+        ],
+        "created_at": "2023-11-13T23:49:26.820Z",
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 36,
+        "name": "John Farson",
+        "gender": "Male",
+        "status": "Alive",
+        "types_id": 1,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "The Dark Tower",
+          "Villains",
+          "Antagonists"
+        ],
+        "created_at": "2023-11-13T23:49:26.944Z",
+        "books": [
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 37,
+        "name": "Randall Flagg",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 3,
+        "notes": [
+          "Characters",
+          "The Stand",
+          "The Dark Tower",
+          "Villains",
+          "Bullies",
+          "Leaders",
+          "Revived",
+          "Antagonists",
+          "Meta-fiction",
+          "Dystopian"
+        ],
+        "created_at": "2023-11-13T23:49:27.063Z",
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          },
+          {
+            "title": "The Eyes of the Dragon",
+            "url": "https://stephen-king-api.onrender.com/api/book/17"
+          },
+          {
+            "title": "The Long Walk",
+            "url": "https://stephen-king-api.onrender.com/api/book/6"
+          },
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12"
+          },
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42"
+          },
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34"
+          },
+          {
+            "title": "The Dark Tower III: The Waste Lands",
+            "url": "https://stephen-king-api.onrender.com/api/book/25"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 38,
+        "name": "Kenny Garson",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Ewen High School students",
+          "Chamberlain residents",
+          "Bullies",
+          "Residents of Maine",
+          "Villains",
+          "Victims",
+          "Bate High School students",
+          "Unknown fates",
+          "Antagonists",
+          "Carrie"
+        ],
+        "created_at": "2023-11-13T23:49:27.183Z",
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 39,
+        "name": "John Garton",
+        "gender": "Male",
+        "status": "Alive",
+        "types_id": 1,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Bullies",
+          "Derry residents",
+          "Residents of Maine",
+          "IT",
+          "Antagonists",
+          "Villains",
+          "Teachers"
+        ],
+        "created_at": "2023-11-13T23:49:27.301Z",
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 40,
+        "name": "Leland Gaunt",
+        "gender": "Male",
+        "status": "Alive",
+        "types_id": 6,
+        "notes": [
+          "Characters",
+          "Villains",
+          "Castle Rock residents",
+          "Antagonists"
+        ],
+        "created_at": "2023-11-13T23:49:27.414Z",
+        "books": [
+          {
+            "title": "Needful Things",
+            "url": "https://stephen-king-api.onrender.com/api/book/26"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 41,
+        "name": "Gerald Burlingame",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Antagonists",
+          "Spouses",
+          "Villains",
+          "Gerald's Game",
+          "Residents of Maine"
+        ],
+        "created_at": "2023-11-13T23:49:27.535Z",
+        "books": [
+          {
+            "title": "Gerald's Game",
+            "url": "https://stephen-king-api.onrender.com/api/book/27"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 42,
+        "name": "The Gladiators",
+        "gender": "Male",
+        "status": "Alive",
+        "types_id": 5,
+        "notes": [
+          "Characters",
+          "Villains"
+        ],
+        "created_at": "2023-11-13T23:49:27.646Z",
+        "books": [
+          {
+            "title": "The Running Man",
+            "url": "https://stephen-king-api.onrender.com/api/book/11"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 43,
+        "name": "Peter Gordon",
+        "gender": "Male",
+        "status": "Alive",
+        "types_id": 1,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Derry residents",
+          "Residents of Maine",
+          "Bullies",
+          "Antagonists",
+          "Victims",
+          "IT",
+          "Villains"
+        ],
+        "created_at": "2023-11-13T23:49:27.764Z",
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 44,
+        "name": "Mary Lila Grace",
+        "gender": "Female",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Ewen High School students",
+          "Chamberlain residents",
+          "Bullies",
+          "Villains",
+          "Lovers",
+          "Carrie"
+        ],
+        "created_at": "2023-11-13T23:49:27.890Z",
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 45,
+        "name": "Delbert Grady",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 7,
+        "notes": [
+          "Characters",
+          "Spouses",
+          "Lovers",
+          "Ghosts",
+          "The Shining",
+          "Villains",
+          "Harassers"
+        ],
+        "created_at": "2023-11-13T23:49:28.006Z",
+        "books": [
+          {
+            "title": "The Shining",
+            "url": "https://stephen-king-api.onrender.com/api/book/3"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 46,
+        "name": "Byron Hadley",
+        "gender": "Male",
+        "status": "Alive",
+        "types_id": 1,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Villains",
+          "Government employees",
+          "Antagonists"
+        ],
+        "created_at": "2023-11-13T23:49:28.126Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "Rita Hayworth and Shawshank Redemption",
+            "url": "https://stephen-king-api.onrender.com/api/short/86"
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "name": "John Halston",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Villains"
+        ],
+        "created_at": "2023-11-13T23:49:28.244Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "The Cat from Hell",
+            "url": "https://stephen-king-api.onrender.com/api/short/55"
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "name": "Lane Hardy",
+        "gender": "Male",
+        "status": "Alive",
+        "types_id": 1,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Villains",
+          "Antagonists"
+        ],
+        "created_at": "2023-11-13T23:49:28.357Z",
+        "books": [
+          {
+            "title": "Joyland",
+            "url": "https://stephen-king-api.onrender.com/api/book/51"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 49,
+        "name": "Christine Hargensen",
+        "gender": "Female",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Unsourced quotes",
+          "Chamberlain residents",
+          "Leaders",
+          "Bullies",
+          "Seekers of vengeance",
+          "Residents of Maine",
+          "Villains",
+          "Bate High School students",
+          "Ewen High School students",
+          "Lovers",
+          "Gang Leaders",
+          "Antagonists",
+          "Victims",
+          "Carrie"
+        ],
+        "created_at": "2023-11-13T23:49:28.475Z",
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 50,
+        "name": "Brady Hartsfield",
+        "gender": "Male",
+        "status": "Alive",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Villains",
+          "Antagonists",
+          "Bill Hodges"
+        ],
+        "created_at": "2023-11-13T23:49:28.598Z",
+        "books": [
+          {
+            "title": "Mr. Mercedes",
+            "url": "https://stephen-king-api.onrender.com/api/book/53"
+          },
+          {
+            "title": "Finders Keepers",
+            "url": "https://stephen-king-api.onrender.com/api/book/55"
+          },
+          {
+            "title": "End of Watch",
+            "url": "https://stephen-king-api.onrender.com/api/book/56"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 51,
+        "name": "Lloyd Henreid",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Unsourced quotes",
+          "Villains",
+          "Crime",
+          "Antagonists",
+          "The Stand"
+        ],
+        "created_at": "2023-11-13T23:49:28.714Z",
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 52,
+        "name": "Gladys Hickson",
+        "gender": "Female",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "The Institute",
+          "Villains",
+          "Bullies",
+          "Seekers of vengeance"
+        ],
+        "created_at": "2023-11-13T23:49:28.834Z",
+        "books": [
+          {
+            "title": "The Institute",
+            "url": "https://stephen-king-api.onrender.com/api/book/61"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 53,
+        "name": "Patrick Hockstetter",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Unsourced quotes",
+          "IT",
+          "Victims",
+          "Villains",
+          "Rapists",
+          "Derry residents",
+          "Residents of Maine",
+          "Bullies",
+          "LGBT",
+          "Antagonists",
+          "Derry",
+          "Characters with mental illness"
+        ],
+        "created_at": "2023-11-13T23:49:28.947Z",
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 54,
+        "name": "James Hollister",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Firestarter",
+          "Government employees",
+          "Villains"
+        ],
+        "created_at": "2023-11-13T23:49:29.074Z",
+        "books": [
+          {
+            "title": "Firestarter",
+            "url": "https://stephen-king-api.onrender.com/api/book/8"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 55,
+        "name": "Belch Huggins",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Bullies",
+          "Derry residents",
+          "Residents of Maine",
+          "IT",
+          "Antagonists",
+          "Victims",
+          "Villains",
+          "Status dependant on version"
+        ],
+        "created_at": "2023-11-13T23:49:29.191Z",
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 56,
+        "name": "Ross Humboldt",
+        "gender": "Male",
+        "status": "Alive",
+        "types_id": 1,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Villains",
+          "In the Tall Grass",
+          "Alive"
+        ],
+        "created_at": "2023-11-13T23:49:29.310Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "In the Tall Grass",
+            "url": "https://stephen-king-api.onrender.com/api/short/186"
+          }
+        ]
+      },
+      {
+        "id": 57,
+        "name": "It (Creature)",
+        "gender": "Unknown",
+        "status": "Deceased",
+        "types_id": 4,
+        "notes": [
+          "Characters",
+          "Unsourced quotes",
+          "Seekers of vengeance",
+          "Brainwashers",
+          "IT",
+          "The Dark Tower",
+          "Derry residents",
+          "Residents of Maine",
+          "Antagonists",
+          "Villains"
+        ],
+        "created_at": "2023-11-13T23:49:29.429Z",
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 58,
+        "name": "Henry James",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Villains"
+        ],
+        "created_at": "2023-11-13T23:49:29.551Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "1922",
+            "url": "https://stephen-king-api.onrender.com/api/short/177"
+          }
+        ]
+      },
+      {
+        "id": 59,
+        "name": "Wilfred James",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Librarians",
+          "Spouses",
+          "Protagonists",
+          "Villains",
+          "Characters with mental illness"
+        ],
+        "created_at": "2023-11-13T23:49:29.665Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "1922",
+            "url": "https://stephen-king-api.onrender.com/api/short/177"
+          }
+        ]
+      },
+      {
+        "id": 60,
+        "name": "Eldred Jonas",
+        "gender": "Male",
+        "status": "Alive",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "The Dark Tower",
+          "Villains",
+          "Antagonists"
+        ],
+        "created_at": "2023-11-13T23:49:29.787Z",
+        "books": [
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 61,
+        "name": "Raymond Andrew Joubert",
+        "gender": "Male",
+        "status": "Alive",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Residents of Maine",
+          "Gerald's Game",
+          "Villains",
+          "Antagonists",
+          "Victims",
+          "Characters with mental illness"
+        ],
+        "created_at": "2023-11-13T23:49:29.902Z",
+        "books": [
+          {
+            "title": "Gerald's Game",
+            "url": "https://stephen-king-api.onrender.com/api/book/27"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 62,
+        "name": "The Kid",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Villains",
+          "Antagonists"
+        ],
+        "created_at": "2023-11-13T23:49:30.009Z",
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 63,
+        "name": "Damon Killian",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Villains",
+          "Antagonists"
+        ],
+        "created_at": "2023-11-13T23:49:30.123Z",
+        "books": [
+          {
+            "title": "The Running Man",
+            "url": "https://stephen-king-api.onrender.com/api/book/11"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 64,
+        "name": "Harold Lauder",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Unsourced quotes",
+          "Ogunquit residents",
+          "Residents of Maine",
+          "Antagonists",
+          "Villains",
+          "The Stand"
+        ],
+        "created_at": "2023-11-13T23:49:30.239Z",
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 65,
+        "name": "Richard Lawson",
+        "gender": null,
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Unsourced quotes",
+          "Sometimes They Come Back",
+          "Antagonists",
+          "Villains",
+          "Bullies"
+        ],
+        "created_at": "2023-11-13T23:49:30.356Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "Sometimes They Come Back",
+            "url": "https://stephen-king-api.onrender.com/api/short/47"
+          }
+        ]
+      },
+      {
+        "id": 66,
+        "name": "Brian Lippy",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Villains",
+          "From a Buick 8"
+        ],
+        "created_at": "2023-11-13T23:49:30.470Z",
+        "books": [
+          {
+            "title": "From a Buick 8",
+            "url": "https://stephen-king-api.onrender.com/api/book/39"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 67,
+        "name": "Little Sisters",
+        "gender": null,
+        "status": "Alive",
+        "types_id": 2,
+        "notes": [
+          "Organizations",
+          "The Dark Tower novels",
+          "Villains"
+        ],
+        "created_at": "2023-11-13T23:49:30.586Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "The Little Sisters of Eluria",
+            "url": "https://stephen-king-api.onrender.com/api/short/139"
+          }
+        ]
+      },
+      {
+        "id": 68,
+        "name": "Lester Lowe",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 3,
+        "notes": [
+          "Characters",
+          "Reverends",
+          "Werewolves",
+          "Antagonists",
+          "Villains"
+        ],
+        "created_at": "2023-11-13T23:49:30.702Z",
+        "books": [
+          {
+            "title": "Cycle of the Werewolf",
+            "url": "https://stephen-king-api.onrender.com/api/book/15"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Cycle of the Werewolf",
+            "url": "https://stephen-king-api.onrender.com/api/short/91"
+          }
+        ]
+      },
+      {
+        "id": 69,
+        "name": "Richard P. Macklin",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Derry residents",
+          "Villains"
+        ],
+        "created_at": "2023-11-13T23:49:30.817Z",
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 70,
+        "name": "The Major",
+        "gender": "Male",
+        "status": "Alive",
+        "types_id": 1,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Military",
+          "Villains"
+        ],
+        "created_at": "2023-11-13T23:49:30.930Z",
+        "books": [
+          {
+            "title": "The Long Walk",
+            "url": "https://stephen-king-api.onrender.com/api/book/6"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 71,
+        "name": "Malcolm Janus",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Murderers",
+          "The Dead Zone",
+          "Villains"
+        ],
+        "created_at": "2023-11-13T23:49:31.048Z",
+        "books": [
+          {
+            "title": "The Dead Zone",
+            "url": "https://stephen-king-api.onrender.com/api/book/7"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 72,
+        "name": "Alvin Marsh",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "IT",
+          "Widows",
+          "Derry residents",
+          "Status dependant on version",
+          "Villains",
+          "Antagonists",
+          "Rapists"
+        ],
+        "created_at": "2023-11-13T23:49:31.163Z",
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 73,
+        "name": "Charlie McGee",
+        "gender": "Female",
+        "status": "Alive",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "ESPers",
+          "Seekers of vengeance",
+          "Heroes",
+          "Firestarter",
+          "Alive",
+          "Villains",
+          "Victims"
+        ],
+        "created_at": "2023-11-13T23:49:31.277Z",
+        "books": [
+          {
+            "title": "Firestarter",
+            "url": "https://stephen-king-api.onrender.com/api/book/8"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 74,
+        "name": "John \"Ace\" Merrill",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Castle Rock residents",
+          "Leaders",
+          "Bullies",
+          "Seekers of vengeance",
+          "TB/SBM Characters",
+          "Residents of Maine",
+          "Stand By Me",
+          "Gang Leaders",
+          "Antagonists",
+          "Castle Rock",
+          "Villains"
+        ],
+        "created_at": "2023-11-13T23:49:31.390Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "The Body",
+            "url": "https://stephen-king-api.onrender.com/api/short/84"
+          }
+        ]
+      },
+      {
+        "id": 75,
+        "name": "Vic Mooney",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Unsourced quotes",
+          "Ewen High School students",
+          "Residents of Maine",
+          "Chamberlain residents",
+          "Alive",
+          "Bullies",
+          "Villains",
+          "Bate High School students",
+          "Name-continuity",
+          "Protagonists",
+          "Heroes",
+          "Antagonists",
+          "Carrie"
+        ],
+        "created_at": "2023-11-13T23:49:31.506Z",
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 76,
+        "name": "Jack Mort",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Murderers",
+          "Villains",
+          "The Dark Tower",
+          "Antagonists"
+        ],
+        "created_at": "2023-11-13T23:49:31.628Z",
+        "books": [
+          {
+            "title": "The Dark Tower II: The Drawing of the Three",
+            "url": "https://stephen-king-api.onrender.com/api/book/20"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 77,
+        "name": "The Mortimer Snerds",
+        "gender": null,
+        "status": "Deceased",
+        "types_id": 5,
+        "notes": [
+          "Villains",
+          "Victims",
+          "Bullies",
+          "The Rage characters",
+          "The Rage: Carrie 2",
+          "Name-continuity",
+          "Unknown fates",
+          "Antagonists",
+          "Carrie"
+        ],
+        "created_at": "2023-11-13T23:49:31.750Z",
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 78,
+        "name": "Mother of the Null",
+        "gender": null,
+        "status": "Alive",
+        "types_id": 3,
+        "notes": [
+          "Characters",
+          "Villains",
+          "Antagonists"
+        ],
+        "created_at": "2023-11-13T23:49:31.862Z",
+        "books": [
+          {
+            "title": "Revival",
+            "url": "https://stephen-king-api.onrender.com/api/book/54"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 79,
+        "name": "Sally Mueller",
+        "gender": "Female",
+        "status": "Alive",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "IT",
+          "Derry residents",
+          "Residents of Maine",
+          "Bullies",
+          "Villains"
+        ],
+        "created_at": "2023-11-13T23:49:31.981Z",
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 80,
+        "name": "Billy Nolan",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Leaders",
+          "Chamberlain residents",
+          "Bullies",
+          "Characters with mental illness",
+          "Lovers",
+          "Residents of Maine",
+          "Bate High School students",
+          "Ewen High School students",
+          "Villains",
+          "Gang Leaders",
+          "Antagonists",
+          "Victims",
+          "Rapists",
+          "Carrie"
+        ],
+        "created_at": "2023-11-13T23:49:32.092Z",
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 81,
+        "name": "Samuel Norton",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Villains",
+          "Antagonists",
+          "Wardens of Shawshank State Prison"
+        ],
+        "created_at": "2023-11-13T23:49:32.204Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "Rita Hayworth and Shawshank Redemption",
+            "url": "https://stephen-king-api.onrender.com/api/short/86"
+          }
+        ]
+      },
+      {
+        "id": 82,
+        "name": "The Outsider (Creature)",
+        "gender": null,
+        "status": "Alive",
+        "types_id": 3,
+        "notes": [
+          "Shape-Shifters",
+          "The Outsider Characters",
+          "Villains"
+        ],
+        "created_at": "2023-11-13T23:49:32.316Z",
+        "books": [
+          {
+            "title": "The Outsider",
+            "url": "https://stephen-king-api.onrender.com/api/book/59"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 83,
+        "name": "Victor Pascow",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Pet Sematary"
+        ],
+        "created_at": "2023-11-13T23:49:32.430Z",
+        "books": [
+          {
+            "title": "Pet Sematary",
+            "url": "https://stephen-king-api.onrender.com/api/book/14"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 84,
+        "name": "Sylvia Pittston",
+        "gender": "Female",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Reverends",
+          "Tull residents",
+          "Villains",
+          "Lovers"
+        ],
+        "created_at": "2023-11-13T23:49:32.547Z",
+        "books": [
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 85,
+        "name": "The Raggedy Man",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Villains"
+        ],
+        "created_at": "2023-11-13T23:49:32.669Z",
+        "books": [
+          {
+            "title": "Cell",
+            "url": "https://stephen-king-api.onrender.com/api/book/44"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 86,
+        "name": "John Rainbird",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Firestarter",
+          "Government employees",
+          "Villains",
+          "Antagonists"
+        ],
+        "created_at": "2023-11-13T23:49:32.793Z",
+        "books": [
+          {
+            "title": "Firestarter",
+            "url": "https://stephen-king-api.onrender.com/api/book/8"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 87,
+        "name": "Rat Man",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Villains",
+          "Antagonists"
+        ],
+        "created_at": "2023-11-13T23:49:32.911Z",
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 88,
+        "name": "Jim Rennie, Jr.",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Police",
+          "Chester's Mill residents",
+          "Residents of Maine",
+          "Characters with mental illness",
+          "Villains",
+          "Antagonists",
+          "Victims",
+          "Rapists",
+          "Under the Dome"
+        ],
+        "created_at": "2023-11-13T23:49:33.030Z",
+        "books": [
+          {
+            "title": "Under the Dome",
+            "url": "https://stephen-king-api.onrender.com/api/book/48"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 89,
+        "name": "Jim Rennie",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Chester's Mill residents",
+          "Politicians",
+          "Murderers",
+          "Residents of Maine",
+          "Villains",
+          "Antagonists",
+          "Under the Dome"
+        ],
+        "created_at": "2023-11-13T23:49:33.149Z",
+        "books": [
+          {
+            "title": "Under the Dome",
+            "url": "https://stephen-king-api.onrender.com/api/book/48"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 90,
+        "name": "Elenor Richmond",
+        "gender": "Female",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Chamberlain residents",
+          "Villains",
+          "Carrie"
+        ],
+        "created_at": "2023-11-13T23:49:33.273Z",
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 91,
+        "name": "Tom Rogan",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Characters with mental illness",
+          "Seekers of vengeance",
+          "Bullies",
+          "IT",
+          "Spouses",
+          "Lovers",
+          "Villains",
+          "Antagonists",
+          "Victims"
+        ],
+        "created_at": "2023-11-13T23:49:33.516Z",
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 92,
+        "name": "Sam (cat)",
+        "gender": null,
+        "status": "Alive",
+        "types_id": 8,
+        "notes": [
+          "Cats",
+          "Villains",
+          "Antagonists"
+        ],
+        "created_at": "2023-11-13T23:49:33.648Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "The Cat from Hell",
+            "url": "https://stephen-king-api.onrender.com/api/short/55"
+          }
+        ]
+      },
+      {
+        "id": 93,
+        "name": "Sonny Elliman",
+        "gender": "Male",
+        "status": "Alive",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Villains",
+          "Crime"
+        ],
+        "created_at": "2023-11-13T23:49:33.779Z",
+        "books": [
+          {
+            "title": "The Dead Zone",
+            "url": "https://stephen-king-api.onrender.com/api/book/7"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 94,
+        "name": "Rachel Spies",
+        "gender": "Female",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Bullies",
+          "Residents of Maine",
+          "Villains",
+          "Chamberlain residents",
+          "Bate High School students",
+          "Ewen High School students",
+          "Name-continuity",
+          "Unknown fates",
+          "Victims",
+          "Antagonists",
+          "Carrie"
+        ],
+        "created_at": "2023-11-13T23:49:33.905Z",
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 95,
+        "name": "Joe St. George",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Lovers",
+          "Residents of Maine",
+          "Antagonists",
+          "Dolores Claiborne",
+          "Little Tall residents",
+          "Villains"
+        ],
+        "created_at": "2023-11-13T23:49:34.029Z",
+        "books": [
+          {
+            "title": "Dolores Claiborne",
+            "url": "https://stephen-king-api.onrender.com/api/book/28"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 96,
+        "name": "George Stark",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Writers",
+          "Villains",
+          "Twins",
+          "Antagonists"
+        ],
+        "created_at": "2023-11-13T23:49:34.152Z",
+        "books": [
+          {
+            "title": "The Dark Half",
+            "url": "https://stephen-king-api.onrender.com/api/book/23"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 97,
+        "name": "Greg Stillson",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Politicians",
+          "Murderers",
+          "The Dead Zone",
+          "Government employees",
+          "Villains",
+          "Antagonists"
+        ],
+        "created_at": "2023-11-13T23:49:34.279Z",
+        "books": [
+          {
+            "title": "The Dead Zone",
+            "url": "https://stephen-king-api.onrender.com/api/book/7"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 98,
+        "name": "Richard Straker",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Villains",
+          "Jerusalem's Lot residents",
+          "Antagonists"
+        ],
+        "created_at": "2023-11-13T23:49:34.398Z",
+        "books": [
+          {
+            "title": "Salem's Lot",
+            "url": "https://stephen-king-api.onrender.com/api/book/2"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 99,
+        "name": "Jackie Talbot",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Ewen High School students",
+          "Chamberlain residents",
+          "Name-continuity",
+          "Bullies",
+          "Villains",
+          "Residents of Maine",
+          "Bate High School students",
+          "Alive",
+          "Status dependant on version",
+          "Antagonists",
+          "Victims",
+          "Carrie"
+        ],
+        "created_at": "2023-11-13T23:49:34.533Z",
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 100,
+        "name": "The Devil's Dozen",
+        "gender": null,
+        "status": "Alive",
+        "types_id": 5,
+        "notes": [
+          "Villains",
+          "Crime"
+        ],
+        "created_at": "2023-11-13T23:49:34.665Z",
+        "books": [
+          {
+            "title": "The Dead Zone",
+            "url": "https://stephen-king-api.onrender.com/api/book/7"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 101,
+        "name": "Carter Thibodeau",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Chester's Mill residents",
+          "Police",
+          "Residents of Maine",
+          "Villains",
+          "Victims",
+          "Rapists",
+          "Under the Dome"
+        ],
+        "created_at": "2023-11-13T23:49:34.795Z",
+        "books": [
+          {
+            "title": "Under the Dome",
+            "url": "https://stephen-king-api.onrender.com/api/book/48"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 102,
+        "name": "Donna and Mary Lila Grace Thibodeau",
+        "gender": "Female",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Ewen High School students",
+          "Chamberlain residents",
+          "Bullies",
+          "Twins",
+          "Victims",
+          "Residents of Maine",
+          "Villains",
+          "Bate High School students",
+          "Lovers",
+          "Unknown fates",
+          "Antagonists",
+          "Carrie"
+        ],
+        "created_at": "2023-11-13T23:49:34.930Z",
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 103,
+        "name": "Tom Mahout",
+        "gender": "Male",
+        "status": "Alive",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Residents of Maine",
+          "Villains",
+          "Antagonists",
+          "Gerald's Game"
+        ],
+        "created_at": "2023-11-13T23:49:35.056Z",
+        "books": [
+          {
+            "title": "Gerald's Game",
+            "url": "https://stephen-king-api.onrender.com/api/book/27"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 104,
+        "name": "Tommyknockers",
+        "gender": null,
+        "status": "Alive",
+        "types_id": 4,
+        "notes": [
+          "Villains",
+          "The Tommyknockers"
+        ],
+        "created_at": "2023-11-13T23:49:35.173Z",
+        "books": [
+          {
+            "title": "The Tommyknockers",
+            "url": "https://stephen-king-api.onrender.com/api/book/22"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 105,
+        "name": "Craig Toomey",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Characters with mental illness",
+          "Villains",
+          "Crime",
+          "Antagonists"
+        ],
+        "created_at": "2023-11-13T23:49:35.311Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "The Langoliers",
+            "url": "https://stephen-king-api.onrender.com/api/short/114"
+          }
+        ]
+      },
+      {
+        "id": 106,
+        "name": "Jack Torrance",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Writers",
+          "Teachers",
+          "Spouses",
+          "Lovers",
+          "The Shining",
+          "Characters with mental illness",
+          "Villains",
+          "Ghosts",
+          "Heroes",
+          "Doctor Sleep",
+          "Name-continuity",
+          "Antagonists",
+          "Victims",
+          "Harassers"
+        ],
+        "created_at": "2023-11-13T23:49:35.454Z",
+        "books": [
+          {
+            "title": "The Shining",
+            "url": "https://stephen-king-api.onrender.com/api/book/3"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 107,
+        "name": "Christopher Unwin",
+        "gender": "Male",
+        "status": "Alive",
+        "types_id": 1,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Bullies",
+          "Derry residents",
+          "Residents of Maine",
+          "IT",
+          "Villains"
+        ],
+        "created_at": "2023-11-13T23:49:35.580Z",
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 108,
+        "name": "Jessica Upshaw",
+        "gender": "Female",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Bullies",
+          "Villains",
+          "Residents of Maine",
+          "Chamberlain residents",
+          "Bate High School students",
+          "Ewen High School students",
+          "Name-continuity",
+          "Unknown fates",
+          "Antagonists",
+          "Carrie"
+        ],
+        "created_at": "2023-11-13T23:49:35.756Z",
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 109,
+        "name": "Norma Watson",
+        "gender": "Female",
+        "status": "Alive",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Bullies",
+          "Chamberlain residents",
+          "Victims",
+          "Villains",
+          "Status dependant on version",
+          "Antagonists",
+          "Carrie"
+        ],
+        "created_at": "2023-11-13T23:49:35.954Z",
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 110,
+        "name": "Wendigo",
+        "gender": "Male",
+        "status": "Alive",
+        "types_id": 3,
+        "notes": [
+          "Pet Sematary",
+          "Villains"
+        ],
+        "created_at": "2023-11-13T23:49:36.153Z",
+        "books": [
+          {
+            "title": "Pet Sematary",
+            "url": "https://stephen-king-api.onrender.com/api/book/14"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 111,
+        "name": "Percy Wetmore",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "The Green Mile",
+          "Villains",
+          "Antagonists",
+          "The green mile villains"
+        ],
+        "created_at": "2023-11-13T23:49:36.274Z",
+        "books": [
+          {
+            "title": "The Green Mile",
+            "url": "https://stephen-king-api.onrender.com/api/book/31"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 112,
+        "name": "William Wharton",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Villains",
+          "The Green Mile villlains"
+        ],
+        "created_at": "2023-11-13T23:49:36.386Z",
+        "books": [
+          {
+            "title": "The Green Mile",
+            "url": "https://stephen-king-api.onrender.com/api/book/31"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 113,
+        "name": "Margaret White",
+        "gender": "Female",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Unsourced quotes",
+          "Spouses",
+          "Widows",
+          "Characters with mental illness",
+          "Chamberlain residents",
+          "Residents of Maine",
+          "Motton residents",
+          "Villains",
+          "Antagonists",
+          "Victims",
+          "Carrie"
+        ],
+        "created_at": "2023-11-13T23:49:36.505Z",
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 114,
+        "name": "Annie Wilkes",
+        "gender": "Female",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Characters",
+          "Villains",
+          "Characters with mental illness",
+          "Misery Characters",
+          "Antagonists",
+          "Castle Rock",
+          "Murderers"
+        ],
+        "created_at": "2023-11-13T23:49:36.623Z",
+        "books": [
+          {
+            "title": "Misery",
+            "url": "https://stephen-king-api.onrender.com/api/book/21"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 115,
+        "name": "Tim Youngblood",
+        "gender": "Male",
+        "status": "Alive",
+        "types_id": 1,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Villains"
+        ],
+        "created_at": "2023-11-13T23:49:36.745Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "Rita Hayworth and Shawshank Redemption",
+            "url": "https://stephen-king-api.onrender.com/api/short/86"
+          }
+        ]
+      }
+    ]
+  }
+}

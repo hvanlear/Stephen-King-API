@@ -1,0 +1,26 @@
+{
+  "path": "/api/villain/115",
+  "status": 200,
+  "body": {
+    "data": {
+      "id": 115,
+      "name": "Tim Youngblood",
+      "gender": "Male",
+      "status": "Alive",
+      "types_id": 1,
+      "notes": [
+        "Stubs",
+        "Characters",
+        "Villains"
+      ],
+      "created_at": "2023-11-13T23:49:36.745Z",
+      "books": [],
+      "shorts": [
+        {
+          "title": "Rita Hayworth and Shawshank Redemption",
+          "url": "https://stephen-king-api.onrender.com/api/short/86"
+        }
+      ]
+    }
+  }
+}

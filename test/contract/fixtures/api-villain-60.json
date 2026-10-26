@@ -1,0 +1,27 @@
+{
+  "path": "/api/villain/60",
+  "status": 200,
+  "body": {
+    "data": {
+      "id": 60,
+      "name": "Eldred Jonas",
+      "gender": "Male",
+      "status": "Alive",
+      "types_id": 1,
+      "notes": [
+        "Characters",
+        "The Dark Tower",
+        "Villains",
+        "Antagonists"
+      ],
+      "created_at": "2023-11-13T23:49:29.787Z",
+      "books": [
+        {
+          "title": "The Dark Tower IV: Wizard and Glass",
+          "url": "https://stephen-king-api.onrender.com/api/book/34"
+        }
+      ],
+      "shorts": []
+    }
+  }
+}

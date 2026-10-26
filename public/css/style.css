@@ -112,12 +112,28 @@ a.author{
   .footer{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     padding-bottom:1rem;
     align-items: center;
   }
 
 .footer-icon{
     display: flex;
+}
+
+.data-credit {
+    flex-basis: 100%;
+    box-sizing: border-box;
+    margin: 0.5rem 0 0;
+    padding: 0 1rem;
+    font-size: 0.75rem;
+    color: #828282;
+    text-align: center;
+}
+
+.data-credit a {
+    color: inherit;
 }
   
 
@@ -419,6 +435,7 @@ a.author{
 .docs-footer {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     padding: 2rem 0 1rem;

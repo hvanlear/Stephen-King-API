@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node --test --require ts-node/register \"test/**/*.test.ts\"",
     "dev": "nodemon src/index.ts",
-    "build": "tsc -p tsconfig.json",
+    "build": "prisma generate && tsc -p tsconfig.json",
     "start": "node dist/index.js"
   },
   "prisma": {

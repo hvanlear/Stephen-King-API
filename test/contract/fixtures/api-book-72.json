@@ -1,0 +1,7 @@
+{
+  "path": "/api/book/72",
+  "status": 404,
+  "body": {
+    "error": "Book not found"
+  }
+}

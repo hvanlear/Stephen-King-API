@@ -1,0 +1,18 @@
+{
+  "path": "/api/short/212",
+  "status": 200,
+  "body": {
+    "data": {
+      "id": 212,
+      "title": "Willie the Weirdo",
+      "type": "short story",
+      "handle": "willie-the-weirdo",
+      "originallyPublishedIn": "McSweeney's 65 (September 2021)",
+      "collectedIn": "Uncollected",
+      "notes": [],
+      "year": 2021,
+      "created_at": "2023-11-13T23:49:22.279Z",
+      "villains": []
+    }
+  }
+}

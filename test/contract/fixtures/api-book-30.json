@@ -1,0 +1,29 @@
+{
+  "path": "/api/book/30",
+  "status": 200,
+  "body": {
+    "data": {
+      "id": 30,
+      "Year": 1995,
+      "Title": "Rose Madder",
+      "handle": "rose-madder",
+      "Publisher": "Viking",
+      "ISBN": "978-0-670-85869-9",
+      "Pages": 420,
+      "Notes": [
+        "Runner-up (3rd place), Locus Award for Best Horror/Dark Fantasy Novel, 1995[2]"
+      ],
+      "created_at": "2023-11-13T23:48:51.533Z",
+      "villains": [
+        {
+          "name": "Norman Daniels",
+          "url": "https://stephen-king-api.onrender.com/api/villain/22"
+        },
+        {
+          "name": "Susan Day",
+          "url": "https://stephen-king-api.onrender.com/api/villain/23"
+        }
+      ]
+    }
+  }
+}

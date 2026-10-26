@@ -69,6 +69,12 @@ model shortVillains {
   @@id([shortId, villainId])
 }
 
+// API hit counts for the dashboard, one row per route pattern
+model EndpointStat {
+  endpoint     String   @id
+  hits         Int      @default(0)
+  lastAccessed DateTime @map("last_accessed")
+}
 
 
 model Place {

@@ -483,3 +483,109 @@ a.author{
         background-size: 200%;
     }
 }
+
+/* ===================== */
+/* DASHBOARD STYLES      */
+/* ===================== */
+
+.dashboard-summary {
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    margin-bottom: 2.5rem;
+}
+
+.dashboard-card {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.75);
+    border-top: 4px solid rgb(174, 15, 15);
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.dashboard-card-number {
+    font-family: itc-benguiat, serif;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: rgb(174, 15, 15);
+    margin-bottom: 0.3rem;
+}
+
+.dashboard-card-label {
+    font-size: 0.85rem;
+    color: #828282;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.dashboard-table-wrap {
+    overflow-x: auto;
+}
+
+.dashboard-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.login-form {
+    max-width: 360px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.75);
+    border-top: 4px solid rgb(174, 15, 15);
+    padding: 2rem;
+}
+
+.login-form label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: rgb(20, 18, 18);
+}
+
+.login-form input {
+    width: 100%;
+    padding: 0.6rem 0.8rem;
+    font-size: 0.95rem;
+    border: 1px solid #ddd;
+    margin-bottom: 1.2rem;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 0.6rem;
+    background: rgb(174, 15, 15);
+    color: #fff;
+    border: none;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+    background: rgb(140, 10, 10);
+}
+
+.login-error {
+    color: rgb(174, 15, 15);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .dashboard-summary {
+        flex-direction: column;
+    }
+
+    .dashboard-card-number {
+        font-size: 1.6rem;
+    }
+}

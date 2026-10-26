@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-JF9VSP0JWE"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-JF9VSP0JWE");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/smb2swj.css" />
+    <title>Dashboard — Stephen King API</title>
+  </head>
+  <body>
+    <div class="docs-container">
+      <div class="docs-content">
+        <div class="docs-header">
+          <div class="dashboard-nav">
+            <a class="docs-back-link" href="/">&larr; Back to Home</a>
+            <a class="docs-back-link" href="/dashboard/logout">Logout</a>
+          </div>
+          <div class="docs-banner">
+            <span class="sk docs-title"
+              ><div>Stephen</div>
+              <div>King</div></span
+            >
+            <h1 class="red sk-sub docs-subtitle">Dashboard</h1>
+          </div>
+        </div>
+
+        <div class="dashboard-summary">
+          <div class="dashboard-card">
+            <div class="dashboard-card-number"><%= totalHits %></div>
+            <div class="dashboard-card-label">Total Hits</div>
+          </div>
+          <div class="dashboard-card">
+            <div class="dashboard-card-number"><%= endpointCount %></div>
+            <div class="dashboard-card-label">Endpoints Tracked</div>
+          </div>
+          <div class="dashboard-card">
+            <div class="dashboard-card-number"><%= uptime %></div>
+            <div class="dashboard-card-label">Uptime</div>
+          </div>
+        </div>
+
+        <div class="docs-section">
+          <h2>Endpoint Hits</h2>
+          <% if (endpoints.length === 0) { %>
+          <p>No API hits recorded yet.</p>
+          <% } else { %>
+          <div class="dashboard-table-wrap">
+          <table class="docs-table">
+            <thead>
+              <tr>
+                <th>Endpoint</th>
+                <th>Hits</th>
+                <th>Last Accessed</th>
+              </tr>
+            </thead>
+            <tbody>
+              <% endpoints.forEach(function(ep) { %>
+              <tr>
+                <td>
+                  <% var parts = ep.endpoint.split(' '); %>
+                  <span class="endpoint-method"><%= parts[0] %></span>
+                  <code><%= parts.slice(1).join(' ') %></code>
+                </td>
+                <td><%= ep.hits %></td>
+                <%# The server runs in UTC, so say so instead of passing it off as local time %>
+                <td><%= ep.lastAccessed.slice(0, 16).replace('T', ' ') %> UTC</td>
+              </tr>
+              <% }); %>
+            </tbody>
+          </table>
+          </div>
+          <% } %>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

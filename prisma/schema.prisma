@@ -1,7 +1,9 @@
 // This is your Prisma schema file,
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
-//need to add implict character / villian relationshiop
+// The app only uses EndpointStat. The catalog is served from catalog/*.json;
+// its tables below are kept until the database is backed up and cleaned out,
+// because removing them here would make the next migration drop them.
 
 generator client {
   provider = "prisma-client-js"

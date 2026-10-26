@@ -9,9 +9,6 @@
     "build": "prisma generate && tsc -p tsconfig.json",
     "start": "node dist/index.js"
   },
-  "prisma": {
-    "seed": "ts-node prisma/seed.ts"
-  },
   "author": "",
   "license": "MIT",
   "dependencies": {

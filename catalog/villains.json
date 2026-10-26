@@ -1,0 +1,2268 @@
+[
+  {
+    "id": 1,
+    "name": "Bob Anderson",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "a-good-marriage"
+    ],
+    "notes": [
+      "Stubs",
+      "Characters",
+      "Pownal residents",
+      "Yarmouth residents",
+      "Residents of Maine",
+      "Villains",
+      "Crime"
+    ],
+    "created_at": "2023-11-13T23:49:22.390Z"
+  },
+  {
+    "id": 2,
+    "name": "Kurt Barlow",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 2,
+    "appears_in": [
+      "salem-s-lot"
+    ],
+    "notes": [
+      "Characters",
+      "Jerusalem's Lot residents",
+      "Residents of Maine",
+      "Villains",
+      "Antagonists"
+    ],
+    "created_at": "2023-11-13T23:49:22.625Z"
+  },
+  {
+    "id": 3,
+    "name": "Blaine the Mono",
+    "gender": null,
+    "status": "Deceased",
+    "types_id": 6,
+    "appears_in": [
+      "the-dark-tower-iv-wizard-and-glass",
+      "the-dark-tower-iii-the-waste-lands"
+    ],
+    "notes": [
+      "Characters",
+      "Unsourced quotes",
+      "The Dark Tower",
+      "Villains",
+      "Machines",
+      "Antagonists"
+    ],
+    "created_at": "2023-11-13T23:49:22.743Z"
+  },
+  {
+    "id": 4,
+    "name": "Tina Blake",
+    "gender": "Female",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "carrie"
+    ],
+    "notes": [
+      "Characters",
+      "Ewen High School students",
+      "Residents of Maine",
+      "Chamberlain residents",
+      "Bullies",
+      "Name-continuity",
+      "Lovers",
+      "Bate High School students",
+      "Villains",
+      "Antagonists",
+      "Carrie"
+    ],
+    "created_at": "2023-11-13T23:49:22.968Z"
+  },
+  {
+    "id": 5,
+    "name": "Malachai Boardman",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "children-of-the-corn"
+    ],
+    "notes": [
+      "Stubs",
+      "Characters",
+      "Villains",
+      "Antagonists"
+    ],
+    "created_at": "2023-11-13T23:49:23.089Z"
+  },
+  {
+    "id": 6,
+    "name": "James Boon",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "jerusalem-s-lot"
+    ],
+    "notes": [
+      "Stubs",
+      "Characters",
+      "Villains",
+      "Jerusalem's Lot residents"
+    ],
+    "created_at": "2023-11-13T23:49:23.203Z"
+  },
+  {
+    "id": 7,
+    "name": "Henry Bowers",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "it"
+    ],
+    "notes": [
+      "Characters",
+      "Unsourced quotes",
+      "Bullies",
+      "Characters with mental illness",
+      "Derry residents",
+      "IT",
+      "Residents of Maine",
+      "Seekers of vengeance",
+      "Villains",
+      "Leaders",
+      "Gang Leaders",
+      "Slashers",
+      "Victims",
+      "LGBT",
+      "Antagonists"
+    ],
+    "created_at": "2023-11-13T23:49:23.320Z"
+  },
+  {
+    "id": 8,
+    "name": "Butch Bowers",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "it"
+    ],
+    "notes": [
+      "Characters",
+      "Unsourced quotes",
+      "Derry residents",
+      "Residents of Maine",
+      "IT",
+      "Antagonists",
+      "Villains",
+      "Bullies",
+      "Characters with mental illness",
+      "Spouses"
+    ],
+    "created_at": "2023-11-13T23:49:23.438Z"
+  },
+  {
+    "id": 9,
+    "name": "Greta Bowie",
+    "gender": "Female",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "it"
+    ],
+    "notes": [
+      "Characters",
+      "Derry residents",
+      "IT",
+      "Residents of Maine",
+      "Bullies",
+      "Leaders",
+      "Antagonists",
+      "Status dependant on version",
+      "Villains"
+    ],
+    "created_at": "2023-11-13T23:49:23.561Z"
+  },
+  {
+    "id": 10,
+    "name": "Marten Broadcloak",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "the-dark-tower-the-gunslinger"
+    ],
+    "notes": [
+      "Stubs",
+      "Characters",
+      "Gilead residents",
+      "The Dark Tower",
+      "Residents of All-world",
+      "Villains",
+      "Lovers",
+      "Multiverse"
+    ],
+    "created_at": "2023-11-13T23:49:23.690Z"
+  },
+  {
+    "id": 11,
+    "name": "Christine (car)",
+    "gender": "Female",
+    "status": "Alive",
+    "types_id": 6,
+    "appears_in": [
+      "christine"
+    ],
+    "notes": [
+      "Characters",
+      "Objects",
+      "Villains",
+      "Christine",
+      "Demonic items",
+      "Antagonists",
+      "Ghosts",
+      "Murderers",
+      "Seekers of vengeance"
+    ],
+    "created_at": "2023-11-13T23:49:23.805Z"
+  },
+  {
+    "id": 12,
+    "name": "Isaac Chroner",
+    "gender": null,
+    "status": "Deceased",
+    "types_id": 6,
+    "appears_in": [
+      "children-of-the-corn"
+    ],
+    "notes": [
+      "Characters",
+      "Villains",
+      "Antagonists"
+    ],
+    "created_at": "2023-11-13T23:49:23.918Z"
+  },
+  {
+    "id": 13,
+    "name": "Winston Church",
+    "gender": null,
+    "status": "Deceased",
+    "types_id": 8,
+    "appears_in": [
+      "pet-sematary"
+    ],
+    "notes": [
+      "Characters",
+      "Cats",
+      "Villains",
+      "Pet Sematary",
+      "Status dependant on version",
+      "Revived"
+    ],
+    "created_at": "2023-11-13T23:49:24.039Z"
+  },
+  {
+    "id": 14,
+    "name": "Cindi",
+    "gender": "Female",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "carrie"
+    ],
+    "notes": [
+      "Characters",
+      "Ewen High School students",
+      "Unknown fates",
+      "Chamberlain residents",
+      "Residents of Maine",
+      "Bate High School students",
+      "Bullies",
+      "Villains",
+      "Name-continuity",
+      "Antagonists",
+      "Victims",
+      "Carrie"
+    ],
+    "created_at": "2023-11-13T23:49:24.159Z"
+  },
+  {
+    "id": 15,
+    "name": "Gage Creed",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 3,
+    "appears_in": [
+      "pet-sematary"
+    ],
+    "notes": [
+      "Characters",
+      "Villains",
+      "Pet Sematary",
+      "Status dependant on version",
+      "Revived",
+      "Antagonists",
+      "Residents of Maine"
+    ],
+    "created_at": "2023-11-13T23:49:24.285Z"
+  },
+  {
+    "id": 16,
+    "name": "Myra Crewes",
+    "gender": "Female",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "carrie"
+    ],
+    "notes": [
+      "Stubs",
+      "Characters",
+      "Chamberlain residents",
+      "Residents of Maine",
+      "Villains",
+      "Bullies",
+      "Ewen High School students",
+      "Unknown fates",
+      "Bate High School students",
+      "Antagonists",
+      "Victims",
+      "Carrie"
+    ],
+    "created_at": "2023-11-13T23:49:24.403Z"
+  },
+  {
+    "id": 17,
+    "name": "Crimson King",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 3,
+    "appears_in": [
+      "insomnia",
+      "the-dark-tower-the-gunslinger",
+      "black-house",
+      "the-dark-tower-vii-the-dark-tower"
+    ],
+    "notes": [
+      "Characters",
+      "The Dark Tower",
+      "Multiverse",
+      "Villains",
+      "Antagonists"
+    ],
+    "created_at": "2023-11-13T23:49:24.525Z"
+  },
+  {
+    "id": 18,
+    "name": "Victor Criss",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "it"
+    ],
+    "notes": [
+      "Characters",
+      "Unsourced quotes",
+      "Bullies",
+      "Derry residents",
+      "Residents of Maine",
+      "IT",
+      "Villains",
+      "Antagonists",
+      "Victims",
+      "Status dependant on version"
+    ],
+    "created_at": "2023-11-13T23:49:24.664Z"
+  },
+  {
+    "id": 19,
+    "name": "Cujo",
+    "gender": null,
+    "status": "Deceased",
+    "types_id": 8,
+    "appears_in": [
+      "cujo"
+    ],
+    "notes": [
+      "Characters",
+      "Dogs",
+      "Characters with mental illness",
+      "Castle Rock residents",
+      "Residents of Maine",
+      "Villains",
+      "Antagonists"
+    ],
+    "created_at": "2023-11-13T23:49:24.799Z"
+  },
+  {
+    "id": 20,
+    "name": "Arnie Cunningham",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "christine"
+    ],
+    "notes": [
+      "Characters",
+      "Unsourced quotes",
+      "Seekers of vengeance",
+      "Lovers",
+      "Christine",
+      "Villains",
+      "Antagonists",
+      "Victims",
+      "Heroes",
+      "Protagonists"
+    ],
+    "created_at": "2023-11-13T23:49:24.927Z"
+  },
+  {
+    "id": 21,
+    "name": "Dandelo",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 2,
+    "appears_in": [
+      "the-dark-tower-vii-the-dark-tower"
+    ],
+    "notes": [
+      "Characters",
+      "Villains"
+    ],
+    "created_at": "2023-11-13T23:49:25.057Z"
+  },
+  {
+    "id": 22,
+    "name": "Norman Daniels",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "rose-madder"
+    ],
+    "notes": [
+      "Characters",
+      "Unsourced quotes",
+      "Police",
+      "Antagonists",
+      "Villains",
+      "Murderers"
+    ],
+    "created_at": "2023-11-13T23:49:25.174Z"
+  },
+  {
+    "id": 23,
+    "name": "Susan Day",
+    "gender": "Female",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "rose-madder",
+      "insomnia"
+    ],
+    "notes": [
+      "Stubs",
+      "Characters",
+      "Villains"
+    ],
+    "created_at": "2023-11-13T23:49:25.311Z"
+  },
+  {
+    "id": 24,
+    "name": "Cordelia Delgado",
+    "gender": "Female",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "the-dark-tower-iv-wizard-and-glass"
+    ],
+    "notes": [
+      "Characters",
+      "Villains",
+      "The Dark Tower",
+      "Antagonists"
+    ],
+    "created_at": "2023-11-13T23:49:25.430Z"
+  },
+  {
+    "id": 25,
+    "name": "Billy deLois",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "carrie"
+    ],
+    "notes": [
+      "Characters",
+      "Chamberlain residents",
+      "Residents of Maine",
+      "Unknown fates",
+      "Ewen High School students",
+      "Bullies",
+      "Villains",
+      "Antagonists",
+      "Carrie"
+    ],
+    "created_at": "2023-11-13T23:49:25.546Z"
+  },
+  {
+    "id": 26,
+    "name": "Horace M. Derwent",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 7,
+    "appears_in": [
+      "the-shining"
+    ],
+    "notes": [
+      "Stubs",
+      "Characters",
+      "Appearances",
+      "The Shining",
+      "Villains",
+      "Ghosts",
+      "LGBT"
+    ],
+    "created_at": "2023-11-13T23:49:25.758Z"
+  },
+  {
+    "id": 27,
+    "name": "Mordred Deschain",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 3,
+    "appears_in": [
+      "the-dark-tower-vii-the-dark-tower"
+    ],
+    "notes": [
+      "Characters",
+      "ESPers",
+      "The Dark Tower",
+      "Multiverse",
+      "Villains",
+      "Antagonists"
+    ],
+    "created_at": "2023-11-13T23:49:25.873Z"
+  },
+  {
+    "id": 28,
+    "name": "Bogs Diamond",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "rita-hayworth-and-shawshank-redemption"
+    ],
+    "notes": [
+      "Stubs",
+      "Characters",
+      "Villains",
+      "Leaders"
+    ],
+    "created_at": "2023-11-13T23:49:25.992Z"
+  },
+  {
+    "id": 29,
+    "name": "Frank Dodd",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-dead-zone"
+    ],
+    "notes": [
+      "Characters",
+      "Police",
+      "Murderers",
+      "Villains",
+      "Government employees",
+      "Characters with mental illness",
+      "The Dead Zone",
+      "Antagonists"
+    ],
+    "created_at": "2023-11-13T23:49:26.115Z"
+  },
+  {
+    "id": 30,
+    "name": "Henrietta Dodd",
+    "gender": "Female",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-dead-zone"
+    ],
+    "notes": [
+      "Characters",
+      "The Dead Zone",
+      "Villains"
+    ],
+    "created_at": "2023-11-13T23:49:26.240Z"
+  },
+  {
+    "id": 31,
+    "name": "Rose the Hat",
+    "gender": "Female",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "doctor-sleep"
+    ],
+    "notes": [
+      "Characters",
+      "Doctor Sleep",
+      "Villains",
+      "Harassers",
+      "Murderers",
+      "LGBT",
+      "Bullies"
+    ],
+    "created_at": "2023-11-13T23:49:26.355Z"
+  },
+  {
+    "id": 32,
+    "name": "Rhea Dubativo",
+    "gender": "Female",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "the-dark-tower-iv-wizard-and-glass"
+    ],
+    "notes": [
+      "Stubs",
+      "Characters",
+      "Hambry residents",
+      "The Dark Tower",
+      "Residents of All-world",
+      "Villains",
+      "Antagonists"
+    ],
+    "created_at": "2023-11-13T23:49:26.474Z"
+  },
+  {
+    "id": 33,
+    "name": "Kurt Dussander",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "apt-pupil"
+    ],
+    "notes": [
+      "Stubs",
+      "Characters",
+      "Villains"
+    ],
+    "created_at": "2023-11-13T23:49:26.598Z"
+  },
+  {
+    "id": 34,
+    "name": "Donald Merwin Elbert",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-stand"
+    ],
+    "notes": [
+      "Characters",
+      "Villains",
+      "Antagonists",
+      "The Stand",
+      "Characters with mental illness"
+    ],
+    "created_at": "2023-11-13T23:49:26.707Z"
+  },
+  {
+    "id": 35,
+    "name": "Marcia Fadden",
+    "gender": "Female",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "it"
+    ],
+    "notes": [
+      "Characters",
+      "Derry residents",
+      "IT",
+      "Residents of Maine",
+      "Villains",
+      "Bullies"
+    ],
+    "created_at": "2023-11-13T23:49:26.820Z"
+  },
+  {
+    "id": 36,
+    "name": "John Farson",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "the-dark-tower-iv-wizard-and-glass"
+    ],
+    "notes": [
+      "Stubs",
+      "Characters",
+      "The Dark Tower",
+      "Villains",
+      "Antagonists"
+    ],
+    "created_at": "2023-11-13T23:49:26.944Z"
+  },
+  {
+    "id": 37,
+    "name": "Randall Flagg",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 3,
+    "appears_in": [
+      "the-stand",
+      "the-eyes-of-the-dragon",
+      "the-long-walk",
+      "the-dark-tower-the-gunslinger",
+      "the-dark-tower-vii-the-dark-tower",
+      "the-dark-tower-iv-wizard-and-glass",
+      "the-dark-tower-iii-the-waste-lands"
+    ],
+    "notes": [
+      "Characters",
+      "The Stand",
+      "The Dark Tower",
+      "Villains",
+      "Bullies",
+      "Leaders",
+      "Revived",
+      "Antagonists",
+      "Meta-fiction",
+      "Dystopian"
+    ],
+    "created_at": "2023-11-13T23:49:27.063Z"
+  },
+  {
+    "id": 38,
+    "name": "Kenny Garson",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "carrie"
+    ],
+    "notes": [
+      "Characters",
+      "Ewen High School students",
+      "Chamberlain residents",
+      "Bullies",
+      "Residents of Maine",
+      "Villains",
+      "Victims",
+      "Bate High School students",
+      "Unknown fates",
+      "Antagonists",
+      "Carrie"
+    ],
+    "created_at": "2023-11-13T23:49:27.183Z"
+  },
+  {
+    "id": 39,
+    "name": "John Garton",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "it"
+    ],
+    "notes": [
+      "Stubs",
+      "Characters",
+      "Bullies",
+      "Derry residents",
+      "Residents of Maine",
+      "IT",
+      "Antagonists",
+      "Villains",
+      "Teachers"
+    ],
+    "created_at": "2023-11-13T23:49:27.301Z"
+  },
+  {
+    "id": 40,
+    "name": "Leland Gaunt",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 6,
+    "appears_in": [
+      "needful-things"
+    ],
+    "notes": [
+      "Characters",
+      "Villains",
+      "Castle Rock residents",
+      "Antagonists"
+    ],
+    "created_at": "2023-11-13T23:49:27.414Z"
+  },
+  {
+    "id": 41,
+    "name": "Gerald Burlingame",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "gerald-s-game"
+    ],
+    "notes": [
+      "Antagonists",
+      "Spouses",
+      "Villains",
+      "Gerald's Game",
+      "Residents of Maine"
+    ],
+    "created_at": "2023-11-13T23:49:27.535Z"
+  },
+  {
+    "id": 42,
+    "name": "The Gladiators",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 5,
+    "appears_in": [
+      "the-running-man"
+    ],
+    "notes": [
+      "Characters",
+      "Villains"
+    ],
+    "created_at": "2023-11-13T23:49:27.646Z"
+  },
+  {
+    "id": 43,
+    "name": "Peter Gordon",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "it"
+    ],
+    "notes": [
+      "Stubs",
+      "Characters",
+      "Derry residents",
+      "Residents of Maine",
+      "Bullies",
+      "Antagonists",
+      "Victims",
+      "IT",
+      "Villains"
+    ],
+    "created_at": "2023-11-13T23:49:27.764Z"
+  },
+  {
+    "id": 44,
+    "name": "Mary Lila Grace",
+    "gender": "Female",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "carrie"
+    ],
+    "notes": [
+      "Characters",
+      "Ewen High School students",
+      "Chamberlain residents",
+      "Bullies",
+      "Villains",
+      "Lovers",
+      "Carrie"
+    ],
+    "created_at": "2023-11-13T23:49:27.890Z"
+  },
+  {
+    "id": 45,
+    "name": "Delbert Grady",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 7,
+    "appears_in": [
+      "the-shining"
+    ],
+    "notes": [
+      "Characters",
+      "Spouses",
+      "Lovers",
+      "Ghosts",
+      "The Shining",
+      "Villains",
+      "Harassers"
+    ],
+    "created_at": "2023-11-13T23:49:28.006Z"
+  },
+  {
+    "id": 46,
+    "name": "Byron Hadley",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "rita-hayworth-and-shawshank-redemption"
+    ],
+    "notes": [
+      "Stubs",
+      "Characters",
+      "Villains",
+      "Government employees",
+      "Antagonists"
+    ],
+    "created_at": "2023-11-13T23:49:28.126Z"
+  },
+  {
+    "id": 47,
+    "name": "John Halston",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-cat-from-hell"
+    ],
+    "notes": [
+      "Stubs",
+      "Characters",
+      "Villains"
+    ],
+    "created_at": "2023-11-13T23:49:28.244Z"
+  },
+  {
+    "id": 48,
+    "name": "Lane Hardy",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "joyland"
+    ],
+    "notes": [
+      "Stubs",
+      "Characters",
+      "Villains",
+      "Antagonists"
+    ],
+    "created_at": "2023-11-13T23:49:28.357Z"
+  },
+  {
+    "id": 49,
+    "name": "Christine Hargensen",
+    "gender": "Female",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "carrie"
+    ],
+    "notes": [
+      "Characters",
+      "Unsourced quotes",
+      "Chamberlain residents",
+      "Leaders",
+      "Bullies",
+      "Seekers of vengeance",
+      "Residents of Maine",
+      "Villains",
+      "Bate High School students",
+      "Ewen High School students",
+      "Lovers",
+      "Gang Leaders",
+      "Antagonists",
+      "Victims",
+      "Carrie"
+    ],
+    "created_at": "2023-11-13T23:49:28.475Z"
+  },
+  {
+    "id": 50,
+    "name": "Brady Hartsfield",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "mr-mercedes",
+      "finders-keepers",
+      "end-of-watch"
+    ],
+    "notes": [
+      "Characters",
+      "Villains",
+      "Antagonists",
+      "Bill Hodges"
+    ],
+    "created_at": "2023-11-13T23:49:28.598Z"
+  },
+  {
+    "id": 51,
+    "name": "Lloyd Henreid",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-stand"
+    ],
+    "notes": [
+      "Characters",
+      "Unsourced quotes",
+      "Villains",
+      "Crime",
+      "Antagonists",
+      "The Stand"
+    ],
+    "created_at": "2023-11-13T23:49:28.714Z"
+  },
+  {
+    "id": 52,
+    "name": "Gladys Hickson",
+    "gender": "Female",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-institute"
+    ],
+    "notes": [
+      "Characters",
+      "The Institute",
+      "Villains",
+      "Bullies",
+      "Seekers of vengeance"
+    ],
+    "created_at": "2023-11-13T23:49:28.834Z"
+  },
+  {
+    "id": 53,
+    "name": "Patrick Hockstetter",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "it"
+    ],
+    "notes": [
+      "Characters",
+      "Unsourced quotes",
+      "IT",
+      "Victims",
+      "Villains",
+      "Rapists",
+      "Derry residents",
+      "Residents of Maine",
+      "Bullies",
+      "LGBT",
+      "Antagonists",
+      "Derry",
+      "Characters with mental illness"
+    ],
+    "created_at": "2023-11-13T23:49:28.947Z"
+  },
+  {
+    "id": 54,
+    "name": "James Hollister",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "firestarter"
+    ],
+    "notes": [
+      "Stubs",
+      "Characters",
+      "Firestarter",
+      "Government employees",
+      "Villains"
+    ],
+    "created_at": "2023-11-13T23:49:29.074Z"
+  },
+  {
+    "id": 55,
+    "name": "Belch Huggins",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "it"
+    ],
+    "notes": [
+      "Characters",
+      "Bullies",
+      "Derry residents",
+      "Residents of Maine",
+      "IT",
+      "Antagonists",
+      "Victims",
+      "Villains",
+      "Status dependant on version"
+    ],
+    "created_at": "2023-11-13T23:49:29.191Z"
+  },
+  {
+    "id": 56,
+    "name": "Ross Humboldt",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "in-the-tall-grass"
+    ],
+    "notes": [
+      "Stubs",
+      "Characters",
+      "Villains",
+      "In the Tall Grass",
+      "Alive"
+    ],
+    "created_at": "2023-11-13T23:49:29.310Z"
+  },
+  {
+    "id": 57,
+    "name": "It (Creature)",
+    "gender": "Unknown",
+    "status": "Deceased",
+    "types_id": 4,
+    "appears_in": [
+      "it"
+    ],
+    "notes": [
+      "Characters",
+      "Unsourced quotes",
+      "Seekers of vengeance",
+      "Brainwashers",
+      "IT",
+      "The Dark Tower",
+      "Derry residents",
+      "Residents of Maine",
+      "Antagonists",
+      "Villains"
+    ],
+    "created_at": "2023-11-13T23:49:29.429Z"
+  },
+  {
+    "id": 58,
+    "name": "Henry James",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "1922"
+    ],
+    "notes": [
+      "Characters",
+      "Villains"
+    ],
+    "created_at": "2023-11-13T23:49:29.551Z"
+  },
+  {
+    "id": 59,
+    "name": "Wilfred James",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "1922"
+    ],
+    "notes": [
+      "Characters",
+      "Librarians",
+      "Spouses",
+      "Protagonists",
+      "Villains",
+      "Characters with mental illness"
+    ],
+    "created_at": "2023-11-13T23:49:29.665Z"
+  },
+  {
+    "id": 60,
+    "name": "Eldred Jonas",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "the-dark-tower-iv-wizard-and-glass"
+    ],
+    "notes": [
+      "Characters",
+      "The Dark Tower",
+      "Villains",
+      "Antagonists"
+    ],
+    "created_at": "2023-11-13T23:49:29.787Z"
+  },
+  {
+    "id": 61,
+    "name": "Raymond Andrew Joubert",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "gerald-s-game"
+    ],
+    "notes": [
+      "Characters",
+      "Residents of Maine",
+      "Gerald's Game",
+      "Villains",
+      "Antagonists",
+      "Victims",
+      "Characters with mental illness"
+    ],
+    "created_at": "2023-11-13T23:49:29.902Z"
+  },
+  {
+    "id": 62,
+    "name": "The Kid",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-stand"
+    ],
+    "notes": [
+      "Characters",
+      "Villains",
+      "Antagonists"
+    ],
+    "created_at": "2023-11-13T23:49:30.009Z"
+  },
+  {
+    "id": 63,
+    "name": "Damon Killian",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-running-man"
+    ],
+    "notes": [
+      "Characters",
+      "Villains",
+      "Antagonists"
+    ],
+    "created_at": "2023-11-13T23:49:30.123Z"
+  },
+  {
+    "id": 64,
+    "name": "Harold Lauder",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-stand"
+    ],
+    "notes": [
+      "Characters",
+      "Unsourced quotes",
+      "Ogunquit residents",
+      "Residents of Maine",
+      "Antagonists",
+      "Villains",
+      "The Stand"
+    ],
+    "created_at": "2023-11-13T23:49:30.239Z"
+  },
+  {
+    "id": 65,
+    "name": "Richard Lawson",
+    "gender": null,
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "sometimes-they-come-back"
+    ],
+    "notes": [
+      "Characters",
+      "Unsourced quotes",
+      "Sometimes They Come Back",
+      "Antagonists",
+      "Villains",
+      "Bullies"
+    ],
+    "created_at": "2023-11-13T23:49:30.356Z"
+  },
+  {
+    "id": 66,
+    "name": "Brian Lippy",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "from-a-buick-8"
+    ],
+    "notes": [
+      "Stubs",
+      "Characters",
+      "Villains",
+      "From a Buick 8"
+    ],
+    "created_at": "2023-11-13T23:49:30.470Z"
+  },
+  {
+    "id": 67,
+    "name": "Little Sisters",
+    "gender": null,
+    "status": "Alive",
+    "types_id": 2,
+    "appears_in": [
+      "the-little-sisters-of-eluria"
+    ],
+    "notes": [
+      "Organizations",
+      "The Dark Tower novels",
+      "Villains"
+    ],
+    "created_at": "2023-11-13T23:49:30.586Z"
+  },
+  {
+    "id": 68,
+    "name": "Lester Lowe",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 3,
+    "appears_in": [
+      "cycle-of-the-werewolf"
+    ],
+    "notes": [
+      "Characters",
+      "Reverends",
+      "Werewolves",
+      "Antagonists",
+      "Villains"
+    ],
+    "created_at": "2023-11-13T23:49:30.702Z"
+  },
+  {
+    "id": 69,
+    "name": "Richard P. Macklin",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "it"
+    ],
+    "notes": [
+      "Stubs",
+      "Characters",
+      "Derry residents",
+      "Villains"
+    ],
+    "created_at": "2023-11-13T23:49:30.817Z"
+  },
+  {
+    "id": 70,
+    "name": "The Major",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "the-long-walk"
+    ],
+    "notes": [
+      "Stubs",
+      "Characters",
+      "Military",
+      "Villains"
+    ],
+    "created_at": "2023-11-13T23:49:30.930Z"
+  },
+  {
+    "id": 71,
+    "name": "Malcolm Janus",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-dead-zone"
+    ],
+    "notes": [
+      "Murderers",
+      "The Dead Zone",
+      "Villains"
+    ],
+    "created_at": "2023-11-13T23:49:31.048Z"
+  },
+  {
+    "id": 72,
+    "name": "Alvin Marsh",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "it"
+    ],
+    "notes": [
+      "Characters",
+      "IT",
+      "Widows",
+      "Derry residents",
+      "Status dependant on version",
+      "Villains",
+      "Antagonists",
+      "Rapists"
+    ],
+    "created_at": "2023-11-13T23:49:31.163Z"
+  },
+  {
+    "id": 73,
+    "name": "Charlie McGee",
+    "gender": "Female",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "firestarter"
+    ],
+    "notes": [
+      "Characters",
+      "ESPers",
+      "Seekers of vengeance",
+      "Heroes",
+      "Firestarter",
+      "Alive",
+      "Villains",
+      "Victims"
+    ],
+    "created_at": "2023-11-13T23:49:31.277Z"
+  },
+  {
+    "id": 74,
+    "name": "John \"Ace\" Merrill",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-body"
+    ],
+    "notes": [
+      "Characters",
+      "Castle Rock residents",
+      "Leaders",
+      "Bullies",
+      "Seekers of vengeance",
+      "TB/SBM Characters",
+      "Residents of Maine",
+      "Stand By Me",
+      "Gang Leaders",
+      "Antagonists",
+      "Castle Rock",
+      "Villains"
+    ],
+    "created_at": "2023-11-13T23:49:31.390Z"
+  },
+  {
+    "id": 75,
+    "name": "Vic Mooney",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "carrie"
+    ],
+    "notes": [
+      "Characters",
+      "Unsourced quotes",
+      "Ewen High School students",
+      "Residents of Maine",
+      "Chamberlain residents",
+      "Alive",
+      "Bullies",
+      "Villains",
+      "Bate High School students",
+      "Name-continuity",
+      "Protagonists",
+      "Heroes",
+      "Antagonists",
+      "Carrie"
+    ],
+    "created_at": "2023-11-13T23:49:31.506Z"
+  },
+  {
+    "id": 76,
+    "name": "Jack Mort",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-dark-tower-ii-the-drawing-of-the-three"
+    ],
+    "notes": [
+      "Stubs",
+      "Characters",
+      "Murderers",
+      "Villains",
+      "The Dark Tower",
+      "Antagonists"
+    ],
+    "created_at": "2023-11-13T23:49:31.628Z"
+  },
+  {
+    "id": 77,
+    "name": "The Mortimer Snerds",
+    "gender": null,
+    "status": "Deceased",
+    "types_id": 5,
+    "appears_in": [
+      "carrie"
+    ],
+    "notes": [
+      "Villains",
+      "Victims",
+      "Bullies",
+      "The Rage characters",
+      "The Rage: Carrie 2",
+      "Name-continuity",
+      "Unknown fates",
+      "Antagonists",
+      "Carrie"
+    ],
+    "created_at": "2023-11-13T23:49:31.750Z"
+  },
+  {
+    "id": 78,
+    "name": "Mother of the Null",
+    "gender": null,
+    "status": "Alive",
+    "types_id": 3,
+    "appears_in": [
+      "revival"
+    ],
+    "notes": [
+      "Characters",
+      "Villains",
+      "Antagonists"
+    ],
+    "created_at": "2023-11-13T23:49:31.862Z"
+  },
+  {
+    "id": 79,
+    "name": "Sally Mueller",
+    "gender": "Female",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "it"
+    ],
+    "notes": [
+      "Characters",
+      "IT",
+      "Derry residents",
+      "Residents of Maine",
+      "Bullies",
+      "Villains"
+    ],
+    "created_at": "2023-11-13T23:49:31.981Z"
+  },
+  {
+    "id": 80,
+    "name": "Billy Nolan",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "carrie"
+    ],
+    "notes": [
+      "Characters",
+      "Leaders",
+      "Chamberlain residents",
+      "Bullies",
+      "Characters with mental illness",
+      "Lovers",
+      "Residents of Maine",
+      "Bate High School students",
+      "Ewen High School students",
+      "Villains",
+      "Gang Leaders",
+      "Antagonists",
+      "Victims",
+      "Rapists",
+      "Carrie"
+    ],
+    "created_at": "2023-11-13T23:49:32.092Z"
+  },
+  {
+    "id": 81,
+    "name": "Samuel Norton",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "rita-hayworth-and-shawshank-redemption"
+    ],
+    "notes": [
+      "Characters",
+      "Villains",
+      "Antagonists",
+      "Wardens of Shawshank State Prison"
+    ],
+    "created_at": "2023-11-13T23:49:32.204Z"
+  },
+  {
+    "id": 82,
+    "name": "The Outsider (Creature)",
+    "gender": null,
+    "status": "Alive",
+    "types_id": 3,
+    "appears_in": [
+      "the-outsider"
+    ],
+    "notes": [
+      "Shape-Shifters",
+      "The Outsider Characters",
+      "Villains"
+    ],
+    "created_at": "2023-11-13T23:49:32.316Z"
+  },
+  {
+    "id": 83,
+    "name": "Victor Pascow",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "pet-sematary"
+    ],
+    "notes": [
+      "Characters",
+      "Pet Sematary"
+    ],
+    "created_at": "2023-11-13T23:49:32.430Z"
+  },
+  {
+    "id": 84,
+    "name": "Sylvia Pittston",
+    "gender": "Female",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-dark-tower-the-gunslinger"
+    ],
+    "notes": [
+      "Characters",
+      "Reverends",
+      "Tull residents",
+      "Villains",
+      "Lovers"
+    ],
+    "created_at": "2023-11-13T23:49:32.547Z"
+  },
+  {
+    "id": 85,
+    "name": "The Raggedy Man",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "cell"
+    ],
+    "notes": [
+      "Characters",
+      "Villains"
+    ],
+    "created_at": "2023-11-13T23:49:32.669Z"
+  },
+  {
+    "id": 86,
+    "name": "John Rainbird",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "firestarter"
+    ],
+    "notes": [
+      "Stubs",
+      "Characters",
+      "Firestarter",
+      "Government employees",
+      "Villains",
+      "Antagonists"
+    ],
+    "created_at": "2023-11-13T23:49:32.793Z"
+  },
+  {
+    "id": 87,
+    "name": "Rat Man",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-stand"
+    ],
+    "notes": [
+      "Characters",
+      "Villains",
+      "Antagonists"
+    ],
+    "created_at": "2023-11-13T23:49:32.911Z"
+  },
+  {
+    "id": 88,
+    "name": "Jim Rennie, Jr.",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "under-the-dome"
+    ],
+    "notes": [
+      "Characters",
+      "Police",
+      "Chester's Mill residents",
+      "Residents of Maine",
+      "Characters with mental illness",
+      "Villains",
+      "Antagonists",
+      "Victims",
+      "Rapists",
+      "Under the Dome"
+    ],
+    "created_at": "2023-11-13T23:49:33.030Z"
+  },
+  {
+    "id": 89,
+    "name": "Jim Rennie",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "under-the-dome"
+    ],
+    "notes": [
+      "Stubs",
+      "Characters",
+      "Chester's Mill residents",
+      "Politicians",
+      "Murderers",
+      "Residents of Maine",
+      "Villains",
+      "Antagonists",
+      "Under the Dome"
+    ],
+    "created_at": "2023-11-13T23:49:33.149Z"
+  },
+  {
+    "id": 90,
+    "name": "Elenor Richmond",
+    "gender": "Female",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "carrie"
+    ],
+    "notes": [
+      "Characters",
+      "Chamberlain residents",
+      "Villains",
+      "Carrie"
+    ],
+    "created_at": "2023-11-13T23:49:33.273Z"
+  },
+  {
+    "id": 91,
+    "name": "Tom Rogan",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "it"
+    ],
+    "notes": [
+      "Characters",
+      "Characters with mental illness",
+      "Seekers of vengeance",
+      "Bullies",
+      "IT",
+      "Spouses",
+      "Lovers",
+      "Villains",
+      "Antagonists",
+      "Victims"
+    ],
+    "created_at": "2023-11-13T23:49:33.516Z"
+  },
+  {
+    "id": 92,
+    "name": "Sam (cat)",
+    "gender": null,
+    "status": "Alive",
+    "types_id": 8,
+    "appears_in": [
+      "the-cat-from-hell"
+    ],
+    "notes": [
+      "Cats",
+      "Villains",
+      "Antagonists"
+    ],
+    "created_at": "2023-11-13T23:49:33.648Z"
+  },
+  {
+    "id": 93,
+    "name": "Sonny Elliman",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "the-dead-zone"
+    ],
+    "notes": [
+      "Characters",
+      "Villains",
+      "Crime"
+    ],
+    "created_at": "2023-11-13T23:49:33.779Z"
+  },
+  {
+    "id": 94,
+    "name": "Rachel Spies",
+    "gender": "Female",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "carrie"
+    ],
+    "notes": [
+      "Characters",
+      "Bullies",
+      "Residents of Maine",
+      "Villains",
+      "Chamberlain residents",
+      "Bate High School students",
+      "Ewen High School students",
+      "Name-continuity",
+      "Unknown fates",
+      "Victims",
+      "Antagonists",
+      "Carrie"
+    ],
+    "created_at": "2023-11-13T23:49:33.905Z"
+  },
+  {
+    "id": 95,
+    "name": "Joe St. George",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "dolores-claiborne"
+    ],
+    "notes": [
+      "Stubs",
+      "Characters",
+      "Lovers",
+      "Residents of Maine",
+      "Antagonists",
+      "Dolores Claiborne",
+      "Little Tall residents",
+      "Villains"
+    ],
+    "created_at": "2023-11-13T23:49:34.029Z"
+  },
+  {
+    "id": 96,
+    "name": "George Stark",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-dark-half"
+    ],
+    "notes": [
+      "Characters",
+      "Writers",
+      "Villains",
+      "Twins",
+      "Antagonists"
+    ],
+    "created_at": "2023-11-13T23:49:34.152Z"
+  },
+  {
+    "id": 97,
+    "name": "Greg Stillson",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-dead-zone"
+    ],
+    "notes": [
+      "Characters",
+      "Politicians",
+      "Murderers",
+      "The Dead Zone",
+      "Government employees",
+      "Villains",
+      "Antagonists"
+    ],
+    "created_at": "2023-11-13T23:49:34.279Z"
+  },
+  {
+    "id": 98,
+    "name": "Richard Straker",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "salem-s-lot"
+    ],
+    "notes": [
+      "Characters",
+      "Villains",
+      "Jerusalem's Lot residents",
+      "Antagonists"
+    ],
+    "created_at": "2023-11-13T23:49:34.398Z"
+  },
+  {
+    "id": 99,
+    "name": "Jackie Talbot",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "carrie"
+    ],
+    "notes": [
+      "Characters",
+      "Ewen High School students",
+      "Chamberlain residents",
+      "Name-continuity",
+      "Bullies",
+      "Villains",
+      "Residents of Maine",
+      "Bate High School students",
+      "Alive",
+      "Status dependant on version",
+      "Antagonists",
+      "Victims",
+      "Carrie"
+    ],
+    "created_at": "2023-11-13T23:49:34.533Z"
+  },
+  {
+    "id": 100,
+    "name": "The Devil's Dozen",
+    "gender": null,
+    "status": "Alive",
+    "types_id": 5,
+    "appears_in": [
+      "the-dead-zone"
+    ],
+    "notes": [
+      "Villains",
+      "Crime"
+    ],
+    "created_at": "2023-11-13T23:49:34.665Z"
+  },
+  {
+    "id": 101,
+    "name": "Carter Thibodeau",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "under-the-dome"
+    ],
+    "notes": [
+      "Stubs",
+      "Characters",
+      "Chester's Mill residents",
+      "Police",
+      "Residents of Maine",
+      "Villains",
+      "Victims",
+      "Rapists",
+      "Under the Dome"
+    ],
+    "created_at": "2023-11-13T23:49:34.795Z"
+  },
+  {
+    "id": 102,
+    "name": "Donna and Mary Lila Grace Thibodeau",
+    "gender": "Female",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "carrie"
+    ],
+    "notes": [
+      "Characters",
+      "Ewen High School students",
+      "Chamberlain residents",
+      "Bullies",
+      "Twins",
+      "Victims",
+      "Residents of Maine",
+      "Villains",
+      "Bate High School students",
+      "Lovers",
+      "Unknown fates",
+      "Antagonists",
+      "Carrie"
+    ],
+    "created_at": "2023-11-13T23:49:34.930Z"
+  },
+  {
+    "id": 103,
+    "name": "Tom Mahout",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "gerald-s-game"
+    ],
+    "notes": [
+      "Characters",
+      "Residents of Maine",
+      "Villains",
+      "Antagonists",
+      "Gerald's Game"
+    ],
+    "created_at": "2023-11-13T23:49:35.056Z"
+  },
+  {
+    "id": 104,
+    "name": "Tommyknockers",
+    "gender": null,
+    "status": "Alive",
+    "types_id": 4,
+    "appears_in": [
+      "the-tommyknockers"
+    ],
+    "notes": [
+      "Villains",
+      "The Tommyknockers"
+    ],
+    "created_at": "2023-11-13T23:49:35.173Z"
+  },
+  {
+    "id": 105,
+    "name": "Craig Toomey",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-langoliers"
+    ],
+    "notes": [
+      "Characters",
+      "Characters with mental illness",
+      "Villains",
+      "Crime",
+      "Antagonists"
+    ],
+    "created_at": "2023-11-13T23:49:35.311Z"
+  },
+  {
+    "id": 106,
+    "name": "Jack Torrance",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-shining"
+    ],
+    "notes": [
+      "Characters",
+      "Writers",
+      "Teachers",
+      "Spouses",
+      "Lovers",
+      "The Shining",
+      "Characters with mental illness",
+      "Villains",
+      "Ghosts",
+      "Heroes",
+      "Doctor Sleep",
+      "Name-continuity",
+      "Antagonists",
+      "Victims",
+      "Harassers"
+    ],
+    "created_at": "2023-11-13T23:49:35.454Z"
+  },
+  {
+    "id": 107,
+    "name": "Christopher Unwin",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "it"
+    ],
+    "notes": [
+      "Stubs",
+      "Characters",
+      "Bullies",
+      "Derry residents",
+      "Residents of Maine",
+      "IT",
+      "Villains"
+    ],
+    "created_at": "2023-11-13T23:49:35.580Z"
+  },
+  {
+    "id": 108,
+    "name": "Jessica Upshaw",
+    "gender": "Female",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "carrie"
+    ],
+    "notes": [
+      "Characters",
+      "Bullies",
+      "Villains",
+      "Residents of Maine",
+      "Chamberlain residents",
+      "Bate High School students",
+      "Ewen High School students",
+      "Name-continuity",
+      "Unknown fates",
+      "Antagonists",
+      "Carrie"
+    ],
+    "created_at": "2023-11-13T23:49:35.756Z"
+  },
+  {
+    "id": 109,
+    "name": "Norma Watson",
+    "gender": "Female",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "carrie"
+    ],
+    "notes": [
+      "Characters",
+      "Bullies",
+      "Chamberlain residents",
+      "Victims",
+      "Villains",
+      "Status dependant on version",
+      "Antagonists",
+      "Carrie"
+    ],
+    "created_at": "2023-11-13T23:49:35.954Z"
+  },
+  {
+    "id": 110,
+    "name": "Wendigo",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 3,
+    "appears_in": [
+      "pet-sematary"
+    ],
+    "notes": [
+      "Pet Sematary",
+      "Villains"
+    ],
+    "created_at": "2023-11-13T23:49:36.153Z"
+  },
+  {
+    "id": 111,
+    "name": "Percy Wetmore",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-green-mile"
+    ],
+    "notes": [
+      "Characters",
+      "The Green Mile",
+      "Villains",
+      "Antagonists",
+      "The green mile villains"
+    ],
+    "created_at": "2023-11-13T23:49:36.274Z"
+  },
+  {
+    "id": 112,
+    "name": "William Wharton",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-green-mile"
+    ],
+    "notes": [
+      "Stubs",
+      "Characters",
+      "Villains",
+      "The Green Mile villlains"
+    ],
+    "created_at": "2023-11-13T23:49:36.386Z"
+  },
+  {
+    "id": 113,
+    "name": "Margaret White",
+    "gender": "Female",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "carrie"
+    ],
+    "notes": [
+      "Characters",
+      "Unsourced quotes",
+      "Spouses",
+      "Widows",
+      "Characters with mental illness",
+      "Chamberlain residents",
+      "Residents of Maine",
+      "Motton residents",
+      "Villains",
+      "Antagonists",
+      "Victims",
+      "Carrie"
+    ],
+    "created_at": "2023-11-13T23:49:36.505Z"
+  },
+  {
+    "id": 114,
+    "name": "Annie Wilkes",
+    "gender": "Female",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "misery"
+    ],
+    "notes": [
+      "Characters",
+      "Villains",
+      "Characters with mental illness",
+      "Misery Characters",
+      "Antagonists",
+      "Castle Rock",
+      "Murderers"
+    ],
+    "created_at": "2023-11-13T23:49:36.623Z"
+  },
+  {
+    "id": 115,
+    "name": "Tim Youngblood",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "rita-hayworth-and-shawshank-redemption"
+    ],
+    "notes": [
+      "Stubs",
+      "Characters",
+      "Villains"
+    ],
+    "created_at": "2023-11-13T23:49:36.745Z"
+  }
+]

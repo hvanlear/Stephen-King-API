@@ -31,4 +31,6 @@ jobs:
       # tsc typechecks as it compiles
       - run: npm run build
 
+      - run: npm test
+
       - run: npm audit --omit=dev --audit-level=high

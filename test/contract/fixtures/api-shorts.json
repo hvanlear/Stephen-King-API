@@ -1787,18 +1787,6 @@
         "villains": []
       },
       {
-        "id": 173,
-        "title": "The Bone Church",
-        "type": "poem",
-        "handle": "the-bone-church",
-        "originallyPublishedIn": "Playboy (November 2009)",
-        "collectedIn": "The Bazaar of Bad Dreams (2015)",
-        "notes": [],
-        "year": 2009,
-        "created_at": "2023-11-13T23:49:17.542Z",
-        "villains": []
-      },
-      {
         "id": 133,
         "title": "Lunch at the Gotham Café",
         "type": "short story",
@@ -2329,6 +2317,18 @@
         "notes": [],
         "year": 2009,
         "created_at": "2023-11-13T23:49:17.430Z",
+        "villains": []
+      },
+      {
+        "id": 173,
+        "title": "The Bone Church",
+        "type": "poem",
+        "handle": "the-bone-church",
+        "originallyPublishedIn": "Playboy (November 2009)",
+        "collectedIn": "The Bazaar of Bad Dreams (2015)",
+        "notes": [],
+        "year": 2009,
+        "created_at": "2023-11-13T23:49:17.542Z",
         "villains": []
       },
       {

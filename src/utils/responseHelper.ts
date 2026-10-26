@@ -1,28 +1,47 @@
-const URL = process.env.URL || 'http://localhost:3001';
+import {
+  Book,
+  Short,
+  Villain,
+  books,
+  shorts,
+  villains,
+  villainIdsByBook,
+  villainIdsByShort,
+  bookIdsByVillain,
+  shortIdsByVillain,
+} from "../catalog";
 
-export const createResponse = (item) => {
-    if (item.villains) {
-      return {
-        ...item,
-        villains: item.villains.map((villain) => ({
-          name: villain.villain.name,
-          url: `${URL}/api/villain/${villain.villainId}`,
-        })),
-      };
-    } else if (item.books && item.shorts) {
-        //mapping for the books an shorts attached to the villains
-      return {
-        ...item,
-        books: item.books.map((book) => ({
-            title: book.book.Title,
-            url: `${URL}/api/book/${book.bookId}`,
-        })),
-        shorts: item.shorts.map((short) => ({
-            title: short.short.title,
-            url: `${URL}/api/short/${short.shortId}`,
-        })),
-      };
-    }
+const URL = process.env.URL || "http://localhost:3001";
 
-    return item;
-  };
+const villainNames = new Map(villains.map((v) => [v.id, v.name]));
+const bookTitles = new Map(books.map((b) => [b.id, b.Title]));
+const shortTitles = new Map(shorts.map((s) => [s.id, s.title]));
+
+const villainLinks = (ids: number[] = []) =>
+  ids.map((id) => ({
+    name: villainNames.get(id),
+    url: `${URL}/api/villain/${id}`,
+  }));
+
+export const bookResponse = (book: Book) => ({
+  ...book,
+  villains: villainLinks(villainIdsByBook.get(book.id)),
+});
+
+export const shortResponse = (short: Short) => ({
+  ...short,
+  villains: villainLinks(villainIdsByShort.get(short.id)),
+});
+
+// appears_in only exists to build the links, so it isn't returned
+export const villainResponse = ({ appears_in, ...villain }: Villain) => ({
+  ...villain,
+  books: (bookIdsByVillain.get(villain.id) || []).map((id) => ({
+    title: bookTitles.get(id),
+    url: `${URL}/api/book/${id}`,
+  })),
+  shorts: (shortIdsByVillain.get(villain.id) || []).map((id) => ({
+    title: shortTitles.get(id),
+    url: `${URL}/api/short/${id}`,
+  })),
+});

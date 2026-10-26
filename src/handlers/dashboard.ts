@@ -45,7 +45,7 @@ export async function showDashboard(
       endpoints: sortedEndpoints,
     });
   } catch (error) {
-    console.error("Failed to load dashboard stats:", error);
+    // The error handler logs it
     next(error);
   }
 }

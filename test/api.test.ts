@@ -75,6 +75,29 @@ for (const { list, detail, total, missing } of resources) {
       assert.equal(status, 404);
       assert.deepEqual(body, { error: missing });
     });
+
+    it("returns 400 for a malformed id", async () => {
+      for (const id of ["abc", "1.5", "-1", "1e1"]) {
+        const { status, body } = await get(`${detail}/${id}`);
+        assert.equal(status, 400, id);
+        assert.match(body.error, /id must be a whole number$/);
+      }
+    });
+
+    it("returns 400 for a malformed page or limit", async () => {
+      for (const query of ["page=x&limit=10", "page=1&limit=1.5", "page=1&page=2&limit=10", "limit=abc"]) {
+        const { status, body } = await get(`${list}?${query}`);
+        assert.equal(status, 400, query);
+        assert.deepEqual(body, { error: "page and limit must be whole numbers" });
+      }
+    });
+
+    it("still treats page 0 as page 1", async () => {
+      const { status, body } = await get(`${list}?page=0&limit=5`);
+      assert.equal(status, 200);
+      assert.equal(body.pagination.page, 1);
+      assert.deepEqual(body.data.map((record) => record.id), [1, 2, 3, 4, 5]);
+    });
   });
 }
 

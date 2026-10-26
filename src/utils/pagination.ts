@@ -1,23 +1,44 @@
-import { Request } from "express";
+import { Request, Response } from "express";
 
-// Paginates only when both page and limit are given; limit is capped at 100
-export function listResponse<T>(items: T[], query: Request["query"]) {
-  const page = query.page ? Math.max(1, parseInt(query.page as string)) : null;
-  const limit = query.limit
-    ? Math.min(100, Math.max(1, parseInt(query.limit as string)))
-    : null;
+type Query = Request["query"];
 
-  if (page === null || limit === null) {
-    return { data: items };
+// undefined when absent, NaN when it isn't a whole number
+function wholeNumber(value: Query[string]): number | undefined {
+  if (value === undefined || value === "") {
+    return undefined;
+  }
+  if (typeof value !== "string" || !/^-?\d+$/.test(value)) {
+    return NaN;
+  }
+  return Number(value);
+}
+
+// Paginates only when both page and limit are given. Values out of range are
+// clamped, as they always have been (page=0 is page 1, limit tops out at 100);
+// anything that isn't a whole number is a 400.
+export function sendList<T>(res: Response, items: T[], query: Query): void {
+  const page = wholeNumber(query.page);
+  const limit = wholeNumber(query.limit);
+
+  if (Number.isNaN(page) || Number.isNaN(limit)) {
+    res.status(400).json({ error: "page and limit must be whole numbers" });
+    return;
   }
 
-  return {
-    data: items.slice((page - 1) * limit, page * limit),
+  if (page === undefined || limit === undefined) {
+    res.json({ data: items });
+    return;
+  }
+
+  const safePage = Math.max(1, page);
+  const safeLimit = Math.min(100, Math.max(1, limit));
+  res.json({
+    data: items.slice((safePage - 1) * safeLimit, safePage * safeLimit),
     pagination: {
-      page,
-      limit,
+      page: safePage,
+      limit: safeLimit,
       total: items.length,
-      totalPages: Math.ceil(items.length / limit),
+      totalPages: Math.ceil(items.length / safeLimit),
     },
-  };
+  });
 }

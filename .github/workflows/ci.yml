@@ -33,4 +33,16 @@ jobs:
 
       - run: npm test
 
+      # On PRs, also check that no id was removed or renumbered
+      - name: Validate catalog data
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          if [ -n "$BASE_REF" ]; then
+            git fetch --no-tags --depth=1 origin "$BASE_REF"
+            npm run validate-data -- --base "origin/$BASE_REF"
+          else
+            npm run validate-data
+          fi
+
       - run: npm audit --omit=dev --audit-level=high

@@ -2,3 +2,6 @@
 // captured from production. Imported before the app so it's set when the
 // response helpers load.
 process.env.URL = "https://stephen-king-api.onrender.com";
+
+// The suite sends far more requests than one real client should
+process.env.API_RATE_LIMIT = "100000";

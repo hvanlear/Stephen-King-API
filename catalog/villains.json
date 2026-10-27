@@ -61,7 +61,7 @@
     "id": 4,
     "name": "Tina Blake",
     "gender": "Female",
-    "status": "Deceased",
+    "status": "Alive",
     "types_id": 1,
     "appears_in": [
       "carrie"
@@ -237,7 +237,7 @@
     "id": 12,
     "name": "Isaac Chroner",
     "gender": "Male",
-    "status": "Deceased",
+    "status": "Alive",
     "types_id": 6,
     "appears_in": [
       "children-of-the-corn"
@@ -753,7 +753,7 @@
     "id": 38,
     "name": "Kenny Garson",
     "gender": "Male",
-    "status": "Deceased",
+    "status": "Alive",
     "types_id": 1,
     "appears_in": [
       "carrie"
@@ -1466,7 +1466,7 @@
     "id": 75,
     "name": "Vic Mooney",
     "gender": "Male",
-    "status": "Deceased",
+    "status": "Alive",
     "types_id": 1,
     "appears_in": [
       "carrie"
@@ -1932,7 +1932,7 @@
     "id": 99,
     "name": "Jackie Talbot",
     "gender": "Male",
-    "status": "Deceased",
+    "status": "Alive",
     "types_id": 1,
     "appears_in": [
       "carrie"

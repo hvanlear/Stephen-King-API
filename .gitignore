@@ -3,3 +3,5 @@ node_modules
 .env
 dist
 todo.md
+# macOS folder metadata
+.DS_Store

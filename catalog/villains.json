@@ -195,7 +195,8 @@
     "status": "Alive",
     "types_id": 1,
     "appears_in": [
-      "the-dark-tower-the-gunslinger"
+      "the-dark-tower-the-gunslinger",
+      "the-gunslinger-and-the-dark-man"
     ],
     "notes": [
       "Stubs",
@@ -216,7 +217,8 @@
     "status": "Alive",
     "types_id": 6,
     "appears_in": [
-      "christine"
+      "christine",
+      "it"
     ],
     "notes": [
       "Characters",
@@ -520,7 +522,8 @@
     "status": "Deceased",
     "types_id": 7,
     "appears_in": [
-      "the-shining"
+      "the-shining",
+      "doctor-sleep"
     ],
     "notes": [
       "Stubs",
@@ -540,7 +543,8 @@
     "status": "Deceased",
     "types_id": 3,
     "appears_in": [
-      "the-dark-tower-vii-the-dark-tower"
+      "the-dark-tower-vii-the-dark-tower",
+      "the-dark-tower-vi-song-of-susannah"
     ],
     "notes": [
       "Characters",
@@ -1130,7 +1134,9 @@
     "status": "Deceased",
     "types_id": 4,
     "appears_in": [
-      "it"
+      "it",
+      "the-tommyknockers",
+      "the-bird-and-the-album"
     ],
     "notes": [
       "Characters",
@@ -1438,7 +1444,8 @@
     "status": "Deceased",
     "types_id": 1,
     "appears_in": [
-      "the-body"
+      "the-body",
+      "needful-things"
     ],
     "notes": [
       "Characters",
@@ -1642,7 +1649,8 @@
     "status": "Deceased",
     "types_id": 1,
     "appears_in": [
-      "the-dark-tower-the-gunslinger"
+      "the-dark-tower-the-gunslinger",
+      "the-gunslinger"
     ],
     "notes": [
       "Characters",
@@ -2068,7 +2076,8 @@
     "status": "Deceased",
     "types_id": 1,
     "appears_in": [
-      "the-shining"
+      "the-shining",
+      "doctor-sleep"
     ],
     "notes": [
       "Characters",

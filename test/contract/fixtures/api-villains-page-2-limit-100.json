@@ -150,6 +150,10 @@
           {
             "title": "The Shining",
             "url": "https://stephen-king-api.onrender.com/api/book/3"
+          },
+          {
+            "title": "Doctor Sleep",
+            "url": "https://stephen-king-api.onrender.com/api/book/52"
           }
         ],
         "shorts": []

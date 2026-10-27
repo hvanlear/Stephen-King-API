@@ -515,6 +515,10 @@
             "url": "https://stephen-king-api.onrender.com/api/villain/9"
           },
           {
+            "name": "Christine (car)",
+            "url": "https://stephen-king-api.onrender.com/api/villain/11"
+          },
+          {
             "name": "Victor Criss",
             "url": "https://stephen-king-api.onrender.com/api/villain/18"
           },
@@ -617,6 +621,10 @@
         "created_at": "2023-11-13T23:48:50.579Z",
         "villains": [
           {
+            "name": "It (Creature)",
+            "url": "https://stephen-king-api.onrender.com/api/villain/57"
+          },
+          {
             "name": "Tommyknockers",
             "url": "https://stephen-king-api.onrender.com/api/villain/104"
           }
@@ -697,6 +705,10 @@
           {
             "name": "Leland Gaunt",
             "url": "https://stephen-king-api.onrender.com/api/villain/40"
+          },
+          {
+            "name": "John \"Ace\" Merrill",
+            "url": "https://stephen-king-api.onrender.com/api/villain/74"
           }
         ]
       },
@@ -993,7 +1005,12 @@
           "Runner-up (4th place), Locus Award for Best Fantasy Novel, 2005"
         ],
         "created_at": "2023-11-13T23:48:52.856Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Mordred Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/villain/27"
+          }
+        ]
       },
       {
         "id": 42,
@@ -1194,8 +1211,16 @@
         "created_at": "2023-11-13T23:48:54.259Z",
         "villains": [
           {
+            "name": "Horace M. Derwent",
+            "url": "https://stephen-king-api.onrender.com/api/villain/26"
+          },
+          {
             "name": "Rose the Hat",
             "url": "https://stephen-king-api.onrender.com/api/villain/31"
+          },
+          {
+            "name": "Jack Torrance",
+            "url": "https://stephen-king-api.onrender.com/api/villain/106"
           }
         ]
       },

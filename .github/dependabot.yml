@@ -1,0 +1,26 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    # A package goes in the first group it matches
+    groups:
+      # The CLI and the client have to be on the same version
+      prisma:
+        patterns: ["prisma", "@prisma/*"]
+      express-major:
+        patterns: ["express", "@types/express"]
+        update-types: [major]
+      # Minor and patch updates for everything else come as one PR a week
+      minor-and-patch:
+        update-types: [minor, patch]
+    ignore:
+      # These follow the Node version the app runs on, not the newest one
+      - dependency-name: "@types/node"
+        update-types: ["version-update:semver-major"]
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly

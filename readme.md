@@ -64,6 +64,7 @@ The data lives in three files: `catalog/books.json`, `catalog/shorts.json` and `
 1. **Never change or remove an id.** Apps save links like `/api/book/3`, and those have to keep pointing at the same book.
 1. **To link a villain** to the works it appears in, list their `handle`s in the villain's `appears_in`. Books and shorts get their `villains` links from that list.
 1. **Run `npm run validate-data`** and fix anything it reports.
+1. **Update the test snapshots** with `npx ts-node test/contract/capture.ts --local`. The tests compare responses against them, so every data change shows up there too. Check that the diff only shows your change.
 1. **Open a pull request.** CI runs the build, the tests and the data check. The PR can't be merged until they all pass.
 
 ## License

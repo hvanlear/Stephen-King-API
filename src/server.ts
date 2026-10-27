@@ -20,6 +20,25 @@ const app = express();
 // rate limiting can't tell them apart
 app.set("trust proxy", 1);
 
+// Temporary: shows how a request reaches the app through Render's proxies, so
+// "trust proxy" can be set to the right number of hops. Remove once it is.
+app.get("/debug/ip", (req, res) => {
+  const forwardedFor = req.headers["x-forwarded-for"];
+  const hops = [
+    req.socket.remoteAddress ?? null,
+    ...(typeof forwardedFor === "string" ? forwardedFor.split(",").map((ip) => ip.trim()).reverse() : []),
+  ];
+  res.set("Cache-Control", "no-store").json({
+    ip: req.ip,
+    forwardedFor: forwardedFor ?? null,
+    // What req.ip would be with "trust proxy" set to each number of hops
+    ipByTrustedHops: Object.fromEntries(hops.map((ip, count) => [count, ip])),
+    cfConnectingIp: req.headers["cf-connecting-ip"] ?? null,
+    trueClientIp: req.headers["true-client-ip"] ?? null,
+    realIp: req.headers["x-real-ip"] ?? null,
+  });
+});
+
 app.use(
   cors({
     methods: ["GET"],

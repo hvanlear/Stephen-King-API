@@ -39,6 +39,11 @@ describe("validate-data", () => {
     assertFlags(errors, /^catalog\/books\.json: book 2 \("Salem's Lot"\): handle "carrie" is also used by book 1$/);
   });
 
+  it("flags a handle shared by a book and a short", () => {
+    const errors = errorsAfter((c) => (c["shorts.json"][0].handle = "carrie"));
+    assertFlags(errors, /^catalog\/shorts\.json: short 1 \(.*\): handle "carrie" is also used by book 1, so villains would link to both$/);
+  });
+
   it("flags an appears_in handle that matches nothing", () => {
     const errors = errorsAfter((c) => c["villains.json"][0].appears_in.push("no-such-book"));
     assertFlags(errors, /villain 1 \("Bob Anderson"\): appears_in "no-such-book" doesn't match/);

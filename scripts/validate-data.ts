@@ -83,6 +83,11 @@ export type Catalog = Record<string, unknown>;
 
 type CatalogRecord = Record<string, unknown>;
 
+// Novellas that were also published as standalone books, so each is in both
+// files. A villain listing one of these handles links to both records. Any
+// other handle shared between books and shorts is a mistake.
+const SHARED_HANDLES = new Set(["cycle-of-the-werewolf", "gwendy-s-button-box", "elevation"]);
+
 const TIMESTAMP = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d{3})?Z$/;
 
 const isText = (value: unknown) =>
@@ -128,7 +133,7 @@ function checkField(rule: FieldRule, value: unknown): string | null {
 
 export function validate(catalog: Catalog, base?: Catalog): string[] {
   const errors: string[] = [];
-  const linkable = new Set<string>(); // book and short handles
+  const linkable = new Map<string, string>(); // book and short handles → first record using it
 
   for (const [file, spec] of Object.entries(SPECS)) {
     const records = catalog[file];
@@ -196,7 +201,12 @@ export function validate(catalog: Catalog, base?: Catalog): string[] {
       }
 
       if (spec.identity === "handle" && typeof record.handle === "string") {
-        linkable.add(record.handle);
+        const owner = linkable.get(record.handle);
+        if (owner === undefined) {
+          linkable.set(record.handle, `${spec.label} ${record.id}`);
+        } else if (!owner.startsWith(`${spec.label} `) && !SHARED_HANDLES.has(record.handle)) {
+          fail(record, index, `handle ${JSON.stringify(record.handle)} is also used by ${owner}, so villains would link to both`);
+        }
       }
     });
   }

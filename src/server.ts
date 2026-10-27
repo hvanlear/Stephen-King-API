@@ -5,6 +5,7 @@ import morgan from "morgan";
 import cors from "cors";
 import config from "./config";
 import { trackApiHits } from "./modules/analyticsMiddleware";
+import { createApiLimiter } from "./modules/apiLimiter";
 import { apiNotFound, errorHandler } from "./modules/errorHandler";
 import {
   requireDashboardAuth,
@@ -23,6 +24,8 @@ app.use(
   cors({
     methods: ["GET"],
     origin: "*",
+    // Lets browser apps see how much of the rate limit they have left
+    exposedHeaders: ["RateLimit", "RateLimit-Policy", "Retry-After"],
   })
 );
 
@@ -49,7 +52,7 @@ app.post("/dashboard/login", loginLimiter, handleLogin);
 app.get("/dashboard/logout", handleLogout);
 app.get("/dashboard", requireDashboardAuth, showDashboard);
 
-app.use("/api", trackApiHits, router);
+app.use("/api", createApiLimiter(config.apiRateLimit), trackApiHits, router);
 app.use("/api", apiNotFound);
 
 app.use(errorHandler);

@@ -26,6 +26,8 @@ export default merge({
     stage,
     env: process.env.NODE_ENV,
     port:3001,
+    // API requests per client per minute
+    apiRateLimit: Number(process.env.API_RATE_LIMIT) || 100,
     secrets: {
         jwt: process.env.JWT_SECRET,
         dbUrl: process.env.DATABASE_URL

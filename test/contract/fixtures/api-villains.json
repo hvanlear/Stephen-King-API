@@ -285,7 +285,7 @@
       {
         "id": 12,
         "name": "Isaac Chroner",
-        "gender": null,
+        "gender": "Male",
         "status": "Deceased",
         "types_id": 6,
         "notes": [
@@ -305,7 +305,7 @@
       {
         "id": 13,
         "name": "Winston Church",
-        "gender": null,
+        "gender": "Male",
         "status": "Deceased",
         "types_id": 8,
         "notes": [
@@ -471,7 +471,7 @@
       {
         "id": 19,
         "name": "Cujo",
-        "gender": null,
+        "gender": "Male",
         "status": "Deceased",
         "types_id": 8,
         "notes": [
@@ -1571,7 +1571,7 @@
       {
         "id": 65,
         "name": "Richard Lawson",
-        "gender": null,
+        "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
         "notes": [
@@ -1883,7 +1883,7 @@
       {
         "id": 78,
         "name": "Mother of the Null",
-        "gender": null,
+        "gender": "Female",
         "status": "Alive",
         "types_id": 3,
         "notes": [

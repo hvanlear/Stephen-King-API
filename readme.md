@@ -31,7 +31,10 @@ I welcome any and all contributions! Feel free to submit a Pull Request with you
 1. Clone and download [GitHub repo]
 1. Install dependencies:\
    `npm i`
-1. configure .env with database URL
+1. Start the dev server on port 3001:\
+   `npm run dev`
+
+The catalog lives in `catalog/*.json`, so you don't need a database to run the API locally. Postgres only stores the usage dashboard's hit counts in production.
 
 ## License
 

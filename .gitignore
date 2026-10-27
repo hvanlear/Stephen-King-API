@@ -5,3 +5,5 @@ dist
 todo.md
 # macOS folder metadata
 .DS_Store
+# Output of npm run scrape-wiki
+wiki-scrape/

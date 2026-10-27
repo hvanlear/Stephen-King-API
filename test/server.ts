@@ -1,5 +1,6 @@
 import "./env";
 import { AddressInfo } from "net";
+import { Express } from "express";
 import app from "../src/server";
 
 export interface TestServer {
@@ -7,10 +8,10 @@ export interface TestServer {
   close: () => Promise<void>;
 }
 
-// Starts the app on a free port
-export function startServer(): Promise<TestServer> {
+// Starts the app (or another Express app) on a free port
+export function startServer(serverApp: Express = app): Promise<TestServer> {
   return new Promise((resolve) => {
-    const server = app.listen(0, () => {
+    const server = serverApp.listen(0, () => {
       const { port } = server.address() as AddressInfo;
       resolve({
         url: `http://localhost:${port}`,

@@ -1,10 +1,11 @@
-import express, { ErrorRequestHandler } from "express";
+import express from "express";
 import cookieParser from "cookie-parser";
 import router from "./router";
 import morgan from "morgan";
 import cors from "cors";
 import config from "./config";
 import { trackApiHits } from "./modules/analyticsMiddleware";
+import { apiNotFound, errorHandler } from "./modules/errorHandler";
 import {
   requireDashboardAuth,
   handleLogin,
@@ -49,18 +50,7 @@ app.get("/dashboard/logout", handleLogout);
 app.get("/dashboard", requireDashboardAuth, showDashboard);
 
 app.use("/api", trackApiHits, router);
-
-const errorHandler: ErrorRequestHandler = (err, req, res, next) => {
-  if (err.type === "auth") {
-    res.status(401).json({ message: "unauthorized" });
-  } else if (err.type === "input") {
-    res.status(400).json({ message: "bad request" });
-  } else {
-    res
-      .status(500)
-      .json({ message: "All work and no play makes a server error" });
-  }
-};
+app.use("/api", apiNotFound);
 
 app.use(errorHandler);
 

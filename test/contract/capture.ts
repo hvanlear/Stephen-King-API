@@ -1,10 +1,14 @@
-// Saves production responses as fixtures, one file per request. They are the
-// baseline the JSON-file rewrite has to match, so only re-run this on purpose.
-// Run with: npx ts-node test/contract/capture.ts
+// Saves API responses as fixtures, one file per request. They're the baseline
+// the contract tests hold the app to, so only re-run this on purpose.
+//   npx ts-node test/contract/capture.ts          from production
+//   npx ts-node test/contract/capture.ts --local  from this checkout, after a
+//                                                 catalog edit; the fixture diff
+//                                                 shows what the edit changes
 import fs from "fs";
 import path from "path";
+import type { TestServer } from "../server";
 
-const BASE_URL = "https://stephen-king-api.onrender.com";
+const PRODUCTION_URL = "https://stephen-king-api.onrender.com";
 const FIXTURE_DIR = path.join(__dirname, "fixtures");
 
 const PATHS = [
@@ -39,8 +43,17 @@ function fixtureName(requestPath: string): string {
 async function main() {
   fs.mkdirSync(FIXTURE_DIR, { recursive: true });
 
+  let baseUrl = PRODUCTION_URL;
+  let server: TestServer | undefined;
+  if (process.argv.includes("--local")) {
+    // Loaded only here: it sets URL, so links match production's
+    const { startServer } = await import("../server");
+    server = await startServer();
+    baseUrl = server.url;
+  }
+
   for (const requestPath of PATHS) {
-    const res = await fetch(BASE_URL + requestPath);
+    const res = await fetch(baseUrl + requestPath);
     const fixture = {
       path: requestPath,
       status: res.status,
@@ -52,6 +65,7 @@ async function main() {
     );
     console.log(`${res.status} ${requestPath}`);
   }
+  await server?.close();
 }
 
 main().catch((error) => {

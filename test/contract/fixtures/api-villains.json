@@ -1220,7 +1220,7 @@
         "id": 50,
         "name": "Brady Hartsfield",
         "gender": "Male",
-        "status": "Alive",
+        "status": "Deceased",
         "types_id": 1,
         "notes": [
           "Characters",
@@ -1463,7 +1463,7 @@
         "id": 60,
         "name": "Eldred Jonas",
         "gender": "Male",
-        "status": "Alive",
+        "status": "Deceased",
         "types_id": 1,
         "notes": [
           "Characters",
@@ -1980,7 +1980,7 @@
         "id": 82,
         "name": "The Outsider (Creature)",
         "gender": null,
-        "status": "Alive",
+        "status": "Deceased",
         "types_id": 3,
         "notes": [
           "Shape-Shifters",
@@ -2320,7 +2320,7 @@
         "id": 97,
         "name": "Greg Stillson",
         "gender": "Male",
-        "status": "Deceased",
+        "status": "Alive",
         "types_id": 1,
         "notes": [
           "Characters",

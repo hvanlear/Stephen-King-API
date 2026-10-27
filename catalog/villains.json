@@ -987,7 +987,7 @@
     "id": 50,
     "name": "Brady Hartsfield",
     "gender": "Male",
-    "status": "Alive",
+    "status": "Deceased",
     "types_id": 1,
     "appears_in": [
       "mr-mercedes",
@@ -1184,7 +1184,7 @@
     "id": 60,
     "name": "Eldred Jonas",
     "gender": "Male",
-    "status": "Alive",
+    "status": "Deceased",
     "types_id": 1,
     "appears_in": [
       "the-dark-tower-iv-wizard-and-glass"
@@ -1608,7 +1608,7 @@
     "id": 82,
     "name": "The Outsider (Creature)",
     "gender": null,
-    "status": "Alive",
+    "status": "Deceased",
     "types_id": 3,
     "appears_in": [
       "the-outsider"
@@ -1888,7 +1888,7 @@
     "id": 97,
     "name": "Greg Stillson",
     "gender": "Male",
-    "status": "Deceased",
+    "status": "Alive",
     "types_id": 1,
     "appears_in": [
       "the-dead-zone"

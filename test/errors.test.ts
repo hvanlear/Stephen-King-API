@@ -14,7 +14,7 @@ describe("errors", () => {
   it("returns JSON 404s for unknown /api routes", async () => {
     const res = await fetch(`${server.url}/api/nope`);
     assert.equal(res.status, 404);
-    assert.match(res.headers.get("content-type"), /^application\/json/);
+    assert.match(res.headers.get("content-type") ?? "", /^application\/json/);
     assert.deepEqual(await res.json(), { error: "Not found" });
   });
 

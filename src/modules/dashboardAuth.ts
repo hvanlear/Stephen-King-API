@@ -9,10 +9,14 @@ const SESSION_MS = 24 * 60 * 60 * 1000; // 24 hours
 
 // The dashboard stays off until both are set, so there's never a guessable
 // fallback secret.
+function dashboardSettings(): { password: string; secret: string } | null {
+  const password = process.env.DASHBOARD_PASSWORD;
+  const secret = process.env.DASHBOARD_SECRET;
+  return password && secret ? { password, secret } : null;
+}
+
 export function dashboardEnabled(): boolean {
-  return Boolean(
-    process.env.DASHBOARD_PASSWORD && process.env.DASHBOARD_SECRET
-  );
+  return dashboardSettings() !== null;
 }
 
 // Hashing first means neither the length nor the content leaks through timing
@@ -22,21 +26,21 @@ function safeEqual(a: string, b: string): boolean {
   return crypto.timingSafeEqual(hash(a), hash(b));
 }
 
-function sign(expires: number): string {
+function sign(expires: number, secret: string): string {
   return crypto
-    .createHmac("sha256", process.env.DASHBOARD_SECRET)
+    .createHmac("sha256", secret)
     .update(`dashboard:${expires}`)
     .digest("base64url");
 }
 
 // The expiry lives inside the signed value, so a copied cookie stops working
 // after SESSION_MS no matter what the browser does with it.
-function createSession(): string {
+function createSession(secret: string): string {
   const expires = Date.now() + SESSION_MS;
-  return `${expires}.${sign(expires)}`;
+  return `${expires}.${sign(expires, secret)}`;
 }
 
-function isValidSession(value: unknown): boolean {
+function isValidSession(value: unknown, secret: string): boolean {
   if (typeof value !== "string") {
     return false;
   }
@@ -45,7 +49,7 @@ function isValidSession(value: unknown): boolean {
   if (!Number.isSafeInteger(expires) || expires < Date.now() || !signature) {
     return false;
   }
-  return safeEqual(signature, sign(expires));
+  return safeEqual(signature, sign(expires, secret));
 }
 
 // Only failed attempts count toward the limit
@@ -63,7 +67,8 @@ export const loginLimiter = rateLimit({
 });
 
 export function handleLogin(req: Request, res: Response): void {
-  if (!dashboardEnabled()) {
+  const settings = dashboardSettings();
+  if (!settings) {
     res.status(503).render("dashboard-login", {
       error: "The dashboard isn't configured on this server.",
     });
@@ -72,12 +77,12 @@ export function handleLogin(req: Request, res: Response): void {
 
   const password =
     typeof req.body.password === "string" ? req.body.password : "";
-  if (!safeEqual(password, process.env.DASHBOARD_PASSWORD)) {
+  if (!safeEqual(password, settings.password)) {
     res.status(401).render("dashboard-login", { error: "Invalid password" });
     return;
   }
 
-  res.cookie(COOKIE_NAME, createSession(), {
+  res.cookie(COOKIE_NAME, createSession(settings.secret), {
     httpOnly: true,
     secure: config.stage === "production",
     sameSite: "lax",
@@ -97,7 +102,8 @@ export function requireDashboardAuth(
   res: Response,
   next: NextFunction
 ): void {
-  if (dashboardEnabled() && isValidSession(req.cookies[COOKIE_NAME])) {
+  const settings = dashboardSettings();
+  if (settings && isValidSession(req.cookies[COOKIE_NAME], settings.secret)) {
     next();
   } else {
     res.redirect("/dashboard/login");

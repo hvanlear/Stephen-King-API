@@ -27,7 +27,7 @@ for (const { list, detail, total, missing } of resources) {
       const { status, body } = await get(list);
       assert.equal(status, 200);
       assert.equal(body.data.length, total);
-      const ids = body.data.map((record) => record.id);
+      const ids = body.data.map((record: { id: number }) => record.id);
       assert.deepEqual(ids, [...ids].sort((a, b) => a - b));
       assert.equal(body.pagination, undefined);
     });
@@ -36,7 +36,7 @@ for (const { list, detail, total, missing } of resources) {
       const { status, body } = await get(`${list}?page=2&limit=10`);
       assert.equal(status, 200);
       assert.deepEqual(
-        body.data.map((record) => record.id),
+        body.data.map((record: { id: number }) => record.id),
         Array.from({ length: 10 }, (_, i) => 11 + i)
       );
       assert.deepEqual(body.pagination, {
@@ -96,7 +96,7 @@ for (const { list, detail, total, missing } of resources) {
       const { status, body } = await get(`${list}?page=0&limit=5`);
       assert.equal(status, 200);
       assert.equal(body.pagination.page, 1);
-      assert.deepEqual(body.data.map((record) => record.id), [1, 2, 3, 4, 5]);
+      assert.deepEqual(body.data.map((record: { id: number }) => record.id), [1, 2, 3, 4, 5]);
     });
   });
 }
@@ -123,7 +123,7 @@ describe("links", () => {
         const id = book.url.split("/").pop();
         const { body: linked } = await get(`/api/book/${id}`);
         assert.ok(
-          linked.data.villains.some((v) => v.url.endsWith(`/api/villain/${villain.id}`)),
+          linked.data.villains.some((v: { url: string }) => v.url.endsWith(`/api/villain/${villain.id}`)),
           `book ${id} doesn't link back to villain ${villain.id}`
         );
       }

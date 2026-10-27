@@ -26,6 +26,8 @@ export default merge({
     stage,
     env: process.env.NODE_ENV,
     port:3001,
+    // Base for every link in API responses and on the pages
+    url: process.env.URL || "http://localhost:3001",
     // API requests per client per minute
     apiRateLimit: Number(process.env.API_RATE_LIMIT) || 100,
     secrets: {

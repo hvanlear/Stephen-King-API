@@ -37,13 +37,11 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 app.get("/", (req, res) => {
-  const url = config.url || process.env.URL || "https://stephen-king-api.onrender.com";
-  res.render("index", { url: url });
+  res.render("index", { url: config.url });
 });
 
 app.get("/docs", (req, res) => {
-  const url = config.url || process.env.URL || "https://stephen-king-api.onrender.com";
-  res.render("docs", { url: url });
+  res.render("docs", { url: config.url });
 });
 
 // Dashboard routes

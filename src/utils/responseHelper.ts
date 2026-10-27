@@ -10,8 +10,9 @@ import {
   bookIdsByVillain,
   shortIdsByVillain,
 } from "../catalog";
+import config from "../config";
 
-const URL = process.env.URL || "http://localhost:3001";
+const URL = config.url;
 
 const villainNames = new Map(villains.map((v) => [v.id, v.name]));
 const bookTitles = new Map(books.map((b) => [b.id, b.Title]));

@@ -4,4 +4,3 @@ services:
     env: node
     buildCommand: npm install && npm run build
     startCommand: npm start
-    staticPublishPath: ./public

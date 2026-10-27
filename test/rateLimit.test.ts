@@ -10,9 +10,9 @@ describe("API rate limit", () => {
     try {
       const res = await fetch(`${server.url}/api/books?page=1&limit=1`);
       assert.equal(res.status, 200);
-      assert.match(res.headers.get("ratelimit"), /limit=100000, remaining=\d+, reset=\d+/);
+      assert.match(res.headers.get("ratelimit") ?? "", /limit=100000, remaining=\d+, reset=\d+/);
       // Exposed so browser apps can read it
-      assert.match(res.headers.get("access-control-expose-headers"), /RateLimit/);
+      assert.match(res.headers.get("access-control-expose-headers") ?? "", /RateLimit/);
     } finally {
       await server.close();
     }

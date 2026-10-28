@@ -2547,5 +2547,123 @@
     "notes": [],
     "year": 2021,
     "created_at": "2023-11-13T23:49:22.279Z"
+  },
+  {
+    "id": 213,
+    "title": "Red Screen",
+    "type": "short story",
+    "handle": "red-screen",
+    "originallyPublishedIn": "Humble Bundle (September 9, 2021)",
+    "collectedIn": "You Like It Darker (2024)",
+    "notes": [
+      "Originally published as an ebook"
+    ],
+    "year": 2021,
+    "created_at": "2026-10-28T18:48:53.000Z"
+  },
+  {
+    "id": 214,
+    "title": "Finn",
+    "type": "short story",
+    "handle": "finn",
+    "originallyPublishedIn": "Scribd (May 25, 2022)",
+    "collectedIn": "You Like It Darker (2024)",
+    "notes": [
+      "Originally published as an ebook and audiobook"
+    ],
+    "year": 2022,
+    "created_at": "2026-10-28T18:48:53.000Z"
+  },
+  {
+    "id": 215,
+    "title": "Two Talented Bastids",
+    "type": "novella",
+    "handle": "two-talented-bastids",
+    "originallyPublishedIn": "You Like It Darker (May 2024)",
+    "collectedIn": "You Like It Darker (2024)",
+    "notes": [],
+    "year": 2024,
+    "created_at": "2026-10-28T18:48:53.000Z"
+  },
+  {
+    "id": 216,
+    "title": "Danny Coughlin's Bad Dream",
+    "type": "novella",
+    "handle": "danny-coughlin-s-bad-dream",
+    "originallyPublishedIn": "You Like It Darker (May 2024)",
+    "collectedIn": "You Like It Darker (2024)",
+    "notes": [],
+    "year": 2024,
+    "created_at": "2026-10-28T18:48:53.000Z"
+  },
+  {
+    "id": 217,
+    "title": "Rattlesnakes",
+    "type": "novella",
+    "handle": "rattlesnakes",
+    "originallyPublishedIn": "You Like It Darker (May 2024)",
+    "collectedIn": "You Like It Darker (2024)",
+    "notes": [
+      "Sequel to Cujo"
+    ],
+    "year": 2024,
+    "created_at": "2026-10-28T18:48:53.000Z"
+  },
+  {
+    "id": 218,
+    "title": "The Dreamers",
+    "type": "novella",
+    "handle": "the-dreamers",
+    "originallyPublishedIn": "You Like It Darker (May 2024)",
+    "collectedIn": "You Like It Darker (2024)",
+    "notes": [],
+    "year": 2024,
+    "created_at": "2026-10-28T18:48:53.000Z"
+  },
+  {
+    "id": 219,
+    "title": "The Answer Man",
+    "type": "novella",
+    "handle": "the-answer-man",
+    "originallyPublishedIn": "You Like It Darker (May 2024)",
+    "collectedIn": "You Like It Darker (2024)",
+    "notes": [],
+    "year": 2024,
+    "created_at": "2026-10-28T18:48:53.000Z"
+  },
+  {
+    "id": 220,
+    "title": "The Extra Hour",
+    "type": "short story",
+    "handle": "the-extra-hour",
+    "originallyPublishedIn": "Cemetery Dance #79 (January 2025)",
+    "collectedIn": "Uncollected",
+    "notes": [],
+    "year": 2025,
+    "created_at": "2026-10-28T18:48:53.000Z"
+  },
+  {
+    "id": 221,
+    "title": "Hansel and Gretel",
+    "type": "short story",
+    "handle": "hansel-and-gretel",
+    "originallyPublishedIn": "Hansel and Gretel (September 2025)",
+    "collectedIn": "Uncollected (standalone book)",
+    "notes": [
+      "Children's picture book illustrated by Maurice Sendak"
+    ],
+    "year": 2025,
+    "created_at": "2026-10-28T18:48:53.000Z"
+  },
+  {
+    "id": 222,
+    "title": "Dinah's Hat",
+    "type": "short story",
+    "handle": "dinah-s-hat",
+    "originallyPublishedIn": "The Atlantic (June 2026)",
+    "collectedIn": "Uncollected",
+    "notes": [],
+    "year": 2026,
+    "created_at": "2026-10-28T18:48:53.000Z"
   }
 ]

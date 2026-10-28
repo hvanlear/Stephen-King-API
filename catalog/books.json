@@ -833,5 +833,66 @@
     "Pages": 528,
     "Notes": [],
     "created_at": "2023-11-13T23:48:55.753Z"
+  },
+  {
+    "id": 73,
+    "Year": 2022,
+    "Title": "Gwendy's Final Task",
+    "handle": "gwendy-s-final-task",
+    "Publisher": "Cemetery Dance Publications",
+    "ISBN": "978-1-58767-801-1",
+    "Pages": 412,
+    "Notes": [
+      "Third novel in the Gwendy's Button Box series",
+      "Written with Richard Chizmar"
+    ],
+    "created_at": "2026-10-28T18:48:53.000Z"
+  },
+  {
+    "id": 74,
+    "Year": 2022,
+    "Title": "Fairy Tale",
+    "handle": "fairy-tale",
+    "Publisher": "Scribner",
+    "ISBN": "978-1-6680-0217-9",
+    "Pages": 599,
+    "Notes": [],
+    "created_at": "2026-10-28T18:48:53.000Z"
+  },
+  {
+    "id": 75,
+    "Year": 2023,
+    "Title": "Holly",
+    "handle": "holly",
+    "Publisher": "Scribner",
+    "ISBN": "978-1-6680-1613-8",
+    "Pages": 449,
+    "Notes": [],
+    "created_at": "2026-10-28T18:48:53.000Z"
+  },
+  {
+    "id": 76,
+    "Year": 2025,
+    "Title": "Never Flinch",
+    "handle": "never-flinch",
+    "Publisher": "Scribner",
+    "ISBN": "978-1-6680-8933-0",
+    "Pages": 448,
+    "Notes": [],
+    "created_at": "2026-10-28T18:48:53.000Z"
+  },
+  {
+    "id": 77,
+    "Year": 2026,
+    "Title": "Other Worlds Than These",
+    "handle": "other-worlds-than-these",
+    "Publisher": "Scribner",
+    "ISBN": "978-1-66823-309-2",
+    "Pages": 691,
+    "Notes": [
+      "Third novel in The Talisman series",
+      "Written with Peter Straub"
+    ],
+    "created_at": "2026-10-28T18:48:53.000Z"
   }
 ]

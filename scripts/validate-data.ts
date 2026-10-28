@@ -23,6 +23,8 @@ interface FileSpec {
   // In the order the API returns them, since records are served as they are
   fields: Record<string, FieldRule>;
   unique: string[];
+  // Handed out before the catalog moved to files, so never used again
+  retiredIds?: number[];
 }
 
 export const SPECS: Record<string, FileSpec> = {
@@ -42,6 +44,9 @@ export const SPECS: Record<string, FileSpec> = {
       created_at: "timestamp",
     },
     unique: ["id", "handle", "Title", "ISBN"],
+    // The old database used up 64–71 on writes that failed or were deleted,
+    // and served 72 as a junk book until it was removed
+    retiredIds: [64, 65, 66, 67, 68, 69, 70, 71, 72],
   },
   "shorts.json": {
     label: "short",
@@ -198,6 +203,9 @@ export function validate(catalog: Catalog, base?: Catalog): string[] {
           fail(record, index, `ids must be in ascending order, but this comes after ${previousId}`);
         }
         previousId = Math.max(previousId, record.id as number);
+        if (spec.retiredIds?.includes(record.id as number)) {
+          fail(record, index, `id ${record.id} was used by the old database and can't be reused`);
+        }
       }
 
       if (spec.identity === "handle" && typeof record.handle === "string") {

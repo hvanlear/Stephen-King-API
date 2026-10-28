@@ -60,7 +60,7 @@ Other commands:
 The data lives in three files: `catalog/books.json`, `catalog/shorts.json` and `catalog/villains.json`. The API serves the records as they are, so a change to a file is a change to the API.
 
 1. **To fix a record**, edit its fields in place.
-1. **To add a record**, copy an existing record from the same file to the end of the list, so the field names and order match. Give it the next id: one higher than the last id in the file. Set `created_at` to the current UTC time, like `2026-10-26T18:00:00.000Z`. The `handle` is the title in lowercase with hyphens, like `the-shining`.
+1. **To add a record**, copy an existing record from the same file to the end of the list, so the field names and order match. Give it the next id: one higher than the last id in the file. Book ids 64–72 are skipped, because the old database used them. Set `created_at` to the current UTC time, like `2026-10-26T18:00:00.000Z`. The `handle` is the title in lowercase with hyphens, like `the-shining`.
 1. **Never change or remove an id.** Apps save links like `/api/book/3`, and those have to keep pointing at the same book.
 1. **To link a villain** to the works it appears in, list their `handle`s in the villain's `appears_in`. Books and shorts get their `villains` links from that list.
 1. **Run `npm run validate-data`** and fix anything it reports.

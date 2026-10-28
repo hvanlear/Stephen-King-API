@@ -86,8 +86,8 @@ describe("validate-data", () => {
   });
 
   it("flags an id removed since the base", () => {
-    const errors = errorsAfter((c) => c["books.json"].pop(), loadCatalog());
-    assertFlags(errors, /book 63 .* was removed; ids must never disappear/);
+    const errors = errorsAfter((c) => c["books.json"].shift(), loadCatalog());
+    assertFlags(errors, /book 1 \("Carrie"\) was removed; ids must never disappear/);
   });
 
   it("flags a record renumbered since the base", () => {
@@ -95,10 +95,19 @@ describe("validate-data", () => {
     assertFlags(errors, /villain 115 .* was renumbered to 116/);
   });
 
+  it("flags a book id the old database used", () => {
+    const errors = errorsAfter((c) => {
+      const books = c["books.json"];
+      books.push({ ...books[books.length - 1], id: 72, Title: "New Book", handle: "new-book", ISBN: "978-0-000-00000-0" });
+    });
+    assertFlags(errors, /book 72 \("New Book"\): id 72 was used by the old database and can't be reused$/);
+  });
+
   it("allows new records with new ids", () => {
     const errors = errorsAfter((c) => {
       const books = c["books.json"];
-      books.push({ ...books[books.length - 1], id: 64, Title: "New Book", handle: "new-book", ISBN: "978-0-000-00000-0" });
+      const last = books[books.length - 1];
+      books.push({ ...last, id: Math.max(last.id + 1, 73), Title: "New Book", handle: "new-book", ISBN: "978-0-000-00000-0" });
     }, loadCatalog());
     assert.deepEqual(errors, []);
   });

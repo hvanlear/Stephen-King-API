@@ -7,12 +7,14 @@ import { execFileSync } from "child_process";
 
 type FieldRule =
   | "id"
+  | "nullable id"
   | "integer"
   | "text" // non-empty string
   | "string" // may be empty
   | "nullable text"
   | "list" // of non-empty strings
-  | "timestamp";
+  | "timestamp"
+  | { oneOf: readonly string[] };
 
 interface FileSpec {
   label: string;
@@ -23,15 +25,21 @@ interface FileSpec {
   // In the order the API returns them, since records are served as they are
   fields: Record<string, FieldRule>;
   unique: string[];
+  // Villains link to these records through appears_in
+  linkable?: boolean;
   // Handed out before the catalog moved to files, so never used again
   retiredIds?: number[];
 }
+
+// Broadest first. A place's parent is the place it's in.
+export const PLACE_TYPES = ["world", "region", "country", "state", "town", "landmark", "building"] as const;
 
 export const SPECS: Record<string, FileSpec> = {
   "books.json": {
     label: "book",
     nameField: "Title",
     identity: "handle",
+    linkable: true,
     fields: {
       id: "id",
       Year: "integer",
@@ -52,6 +60,7 @@ export const SPECS: Record<string, FileSpec> = {
     label: "short",
     nameField: "title",
     identity: "handle",
+    linkable: true,
     fields: {
       id: "id",
       title: "text",
@@ -81,6 +90,20 @@ export const SPECS: Record<string, FileSpec> = {
     },
     unique: ["id", "name"],
   },
+  "places.json": {
+    label: "place",
+    nameField: "name",
+    identity: "handle",
+    fields: {
+      id: "id",
+      name: "text",
+      handle: "text",
+      type: { oneOf: PLACE_TYPES },
+      parentId: "nullable id",
+      created_at: "timestamp",
+    },
+    unique: ["id", "handle", "name"],
+  },
 };
 
 // File name → parsed contents
@@ -99,11 +122,18 @@ const isText = (value: unknown) =>
   typeof value === "string" && value !== "" && value === value.trim();
 
 function checkField(rule: FieldRule, value: unknown): string | null {
+  if (typeof rule === "object") {
+    return rule.oneOf.includes(value as string) ? null : `must be one of ${rule.oneOf.join(", ")}`;
+  }
   switch (rule) {
     case "id":
       return Number.isSafeInteger(value) && (value as number) > 0
         ? null
         : "must be a positive whole number";
+    case "nullable id":
+      return value === null || (Number.isSafeInteger(value) && (value as number) > 0)
+        ? null
+        : "must be null or a positive whole number";
     case "integer":
       return Number.isSafeInteger(value) ? null : "must be a whole number";
     case "text":
@@ -208,7 +238,7 @@ export function validate(catalog: Catalog, base?: Catalog): string[] {
         }
       }
 
-      if (spec.identity === "handle" && typeof record.handle === "string") {
+      if (spec.linkable && typeof record.handle === "string") {
         const owner = linkable.get(record.handle);
         if (owner === undefined) {
           linkable.set(record.handle, `${spec.label} ${record.id}`);
@@ -239,10 +269,40 @@ export function validate(catalog: Catalog, base?: Catalog): string[] {
     });
   }
 
+  errors.push(...checkParents(catalog["places.json"]));
+
   if (base) {
     errors.push(...compareIds(catalog, base));
   }
 
+  return errors;
+}
+
+// Every parent has to exist, and following parents has to end at the top
+function checkParents(places: unknown): string[] {
+  if (!Array.isArray(places)) {
+    return [];
+  }
+  const errors: string[] = [];
+  const byId = new Map<unknown, CatalogRecord>(places.map((place: CatalogRecord) => [place?.id, place]));
+  for (const place of places as CatalogRecord[]) {
+    if (!Number.isSafeInteger(place?.parentId)) {
+      continue;
+    }
+    const where = `catalog/places.json: place ${place.id} (${JSON.stringify(place.name)})`;
+    if (!byId.has(place.parentId)) {
+      errors.push(`${where}: parentId ${place.parentId} doesn't match any place`);
+      continue;
+    }
+    const visited = new Set<unknown>([place.id]);
+    for (let parent = byId.get(place.parentId); parent; parent = byId.get(parent.parentId)) {
+      if (visited.has(parent.id)) {
+        errors.push(`${where}: its parents loop back to place ${parent.id}`);
+        break;
+      }
+      visited.add(parent.id);
+    }
+  }
   return errors;
 }
 

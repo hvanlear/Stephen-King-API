@@ -22,6 +22,9 @@ function errorsAfter(change: (catalog: any) => void, base?: Catalog): string[] {
   return validate(catalog, base);
 }
 
+const place = (catalog: any, name: string) =>
+  catalog["places.json"].find((record: { name: string }) => record.name === name);
+
 function assertFlags(errors: string[], pattern: RegExp): void {
   assert.ok(
     errors.some((error) => pattern.test(error)),
@@ -101,6 +104,26 @@ describe("validate-data", () => {
       books.push({ ...books[books.length - 1], id: 72, Title: "New Book", handle: "new-book", ISBN: "978-0-000-00000-0" });
     });
     assertFlags(errors, /book 72 \("New Book"\): id 72 was used by the old database and can't be reused$/);
+  });
+
+  it("flags a place whose parent doesn't exist", () => {
+    const errors = errorsAfter((c) => (place(c, "Marsten House").parentId = 9999));
+    assertFlags(errors, /^catalog\/places\.json: place \d+ \("Marsten House"\): parentId 9999 doesn't match any place$/);
+  });
+
+  it("flags places whose parents loop", () => {
+    const errors = errorsAfter((c) => (place(c, "Maine").parentId = place(c, "Marsten House").id));
+    assertFlags(errors, /place \d+ \("Marsten House"\): its parents loop back to place \d+$/);
+  });
+
+  it("flags an unknown place type", () => {
+    const errors = errorsAfter((c) => (place(c, "Derry, Maine").type = "city"));
+    assertFlags(errors, /place \d+ \("Derry, Maine"\): type must be one of world, region, country, state, town, landmark, building$/);
+  });
+
+  it("lets a place share a handle with a book", () => {
+    const errors = errorsAfter((c) => (place(c, "Marsten House").handle = "carrie"));
+    assert.deepEqual(errors, []);
   });
 
   it("allows new records with new ids", () => {

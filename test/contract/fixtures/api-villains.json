@@ -4596,6 +4596,31 @@
           }
         ],
         "shorts": []
+      },
+      {
+        "id": 201,
+        "name": "Nadine Cross",
+        "gender": "Female",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Female Characters",
+          "Deceased Characters",
+          "The Stand",
+          "Lovers"
+        ],
+        "created_at": "2026-10-28T20:19:37.000Z",
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          },
+          {
+            "title": "The Stand Uncut",
+            "url": "https://stephen-king-api.onrender.com/api/book/24"
+          }
+        ],
+        "shorts": []
       }
     ]
   }

@@ -81,6 +81,10 @@
           {
             "name": "Margaret White",
             "url": "https://stephen-king-api.onrender.com/api/villain/113"
+          },
+          {
+            "name": "Tommy Erbter",
+            "url": "https://stephen-king-api.onrender.com/api/villain/170"
           }
         ]
       },
@@ -131,6 +135,10 @@
           {
             "name": "Jack Torrance",
             "url": "https://stephen-king-api.onrender.com/api/villain/106"
+          },
+          {
+            "name": "Roger the Dog Man",
+            "url": "https://stephen-king-api.onrender.com/api/villain/162"
           }
         ]
       },
@@ -185,6 +193,18 @@
           {
             "name": "Rat Man",
             "url": "https://stephen-king-api.onrender.com/api/villain/87"
+          },
+          {
+            "name": "Andrew Freeman",
+            "url": "https://stephen-king-api.onrender.com/api/villain/117"
+          },
+          {
+            "name": "Jenny Engstrom",
+            "url": "https://stephen-king-api.onrender.com/api/villain/140"
+          },
+          {
+            "name": "Julie Lawry",
+            "url": "https://stephen-king-api.onrender.com/api/villain/146"
           }
         ]
       },

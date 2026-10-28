@@ -92,7 +92,12 @@
         ],
         "year": 2020,
         "created_at": "2023-11-13T23:49:21.695Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Chet Ondowsky",
+            "url": "https://stephen-king-api.onrender.com/api/villain/127"
+          }
+        ]
       },
       {
         "id": 208,

@@ -81,6 +81,10 @@
           {
             "name": "Margaret White",
             "url": "https://stephen-king-api.onrender.com/api/villain/113"
+          },
+          {
+            "name": "Tommy Erbter",
+            "url": "https://stephen-king-api.onrender.com/api/villain/170"
           }
         ]
       },
@@ -131,6 +135,10 @@
           {
             "name": "Jack Torrance",
             "url": "https://stephen-king-api.onrender.com/api/villain/106"
+          },
+          {
+            "name": "Roger the Dog Man",
+            "url": "https://stephen-king-api.onrender.com/api/villain/162"
           }
         ]
       },
@@ -185,6 +193,18 @@
           {
             "name": "Rat Man",
             "url": "https://stephen-king-api.onrender.com/api/villain/87"
+          },
+          {
+            "name": "Andrew Freeman",
+            "url": "https://stephen-king-api.onrender.com/api/villain/117"
+          },
+          {
+            "name": "Jenny Engstrom",
+            "url": "https://stephen-king-api.onrender.com/api/villain/140"
+          },
+          {
+            "name": "Julie Lawry",
+            "url": "https://stephen-king-api.onrender.com/api/villain/146"
           }
         ]
       },
@@ -380,6 +400,14 @@
           {
             "name": "Arnie Cunningham",
             "url": "https://stephen-king-api.onrender.com/api/villain/20"
+          },
+          {
+            "name": "Buddy Repperton",
+            "url": "https://stephen-king-api.onrender.com/api/villain/125"
+          },
+          {
+            "name": "Moochie Welch",
+            "url": "https://stephen-king-api.onrender.com/api/villain/153"
           }
         ]
       },
@@ -448,7 +476,12 @@
           "Runner-up (4th place), Locus Award for Best Fantasy Novel, 1985[2]"
         ],
         "created_at": "2023-11-13T23:48:49.872Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Morgan Sloat",
+            "url": "https://stephen-king-api.onrender.com/api/villain/154"
+          }
+        ]
       },
       {
         "id": 17,
@@ -561,6 +594,22 @@
           {
             "name": "Christopher Unwin",
             "url": "https://stephen-king-api.onrender.com/api/villain/107"
+          },
+          {
+            "name": "Al Bradley",
+            "url": "https://stephen-king-api.onrender.com/api/villain/116"
+          },
+          {
+            "name": "George Bradley",
+            "url": "https://stephen-king-api.onrender.com/api/villain/136"
+          },
+          {
+            "name": "Maine Legion of White Decency",
+            "url": "https://stephen-king-api.onrender.com/api/villain/149"
+          },
+          {
+            "name": "Marc Lamonica",
+            "url": "https://stephen-king-api.onrender.com/api/villain/150"
           }
         ]
       },
@@ -773,6 +822,10 @@
           {
             "name": "Susan Day",
             "url": "https://stephen-king-api.onrender.com/api/villain/23"
+          },
+          {
+            "name": "Atropos",
+            "url": "https://stephen-king-api.onrender.com/api/villain/120"
           }
         ]
       },
@@ -796,6 +849,10 @@
           {
             "name": "Susan Day",
             "url": "https://stephen-king-api.onrender.com/api/villain/23"
+          },
+          {
+            "name": "Harley Bissington",
+            "url": "https://stephen-king-api.onrender.com/api/villain/138"
           }
         ]
       },
@@ -836,7 +893,16 @@
           "Winner, Locus Award for Best Horror/Dark Fantasy Novel, 1997[2]"
         ],
         "created_at": "2023-11-13T23:48:51.784Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Collie Entragian",
+            "url": "https://stephen-king-api.onrender.com/api/villain/129"
+          },
+          {
+            "name": "Tak",
+            "url": "https://stephen-king-api.onrender.com/api/villain/165"
+          }
+        ]
       },
       {
         "id": 33,
@@ -851,7 +917,16 @@
           "Twin novel of Desperation"
         ],
         "created_at": "2023-11-13T23:48:51.900Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Collie Entragian",
+            "url": "https://stephen-king-api.onrender.com/api/villain/129"
+          },
+          {
+            "name": "Tak",
+            "url": "https://stephen-king-api.onrender.com/api/villain/165"
+          }
+        ]
       },
       {
         "id": 34,
@@ -890,6 +965,14 @@
           {
             "name": "Eldred Jonas",
             "url": "https://stephen-king-api.onrender.com/api/villain/60"
+          },
+          {
+            "name": "Clay Reynolds",
+            "url": "https://stephen-king-api.onrender.com/api/villain/128"
+          },
+          {
+            "name": "Roy Depape",
+            "url": "https://stephen-king-api.onrender.com/api/villain/163"
           }
         ]
       },
@@ -931,7 +1014,12 @@
         "Pages": 620,
         "Notes": [],
         "created_at": "2023-11-13T23:48:52.368Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Mr. Gray",
+            "url": "https://stephen-king-api.onrender.com/api/villain/156"
+          }
+        ]
       },
       {
         "id": 38,
@@ -1155,7 +1243,12 @@
           "Runner-up (2nd place), Locus Award for Best Science Fiction Novel, 2012[2]"
         ],
         "created_at": "2023-11-13T23:48:53.869Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Frank Dunning",
+            "url": "https://stephen-king-api.onrender.com/api/villain/134"
+          }
+        ]
       },
       {
         "id": 50,
@@ -1169,7 +1262,12 @@
           "The eighth Dark Tower novel, but chronologically set between the fourth and fifth volumes."
         ],
         "created_at": "2023-11-13T23:48:53.984Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Bern Kells",
+            "url": "https://stephen-king-api.onrender.com/api/villain/122"
+          }
+        ]
       },
       {
         "id": 51,
@@ -1217,6 +1315,30 @@
           {
             "name": "Jack Torrance",
             "url": "https://stephen-king-api.onrender.com/api/villain/106"
+          },
+          {
+            "name": "Barry",
+            "url": "https://stephen-king-api.onrender.com/api/villain/121"
+          },
+          {
+            "name": "Crow Daddy",
+            "url": "https://stephen-king-api.onrender.com/api/villain/130"
+          },
+          {
+            "name": "Grampa Flick",
+            "url": "https://stephen-king-api.onrender.com/api/villain/137"
+          },
+          {
+            "name": "Jimmy Numbers",
+            "url": "https://stephen-king-api.onrender.com/api/villain/142"
+          },
+          {
+            "name": "Snakebite Andi",
+            "url": "https://stephen-king-api.onrender.com/api/villain/164"
+          },
+          {
+            "name": "Walnut",
+            "url": "https://stephen-king-api.onrender.com/api/villain/174"
           }
         ]
       },
@@ -1275,6 +1397,14 @@
           {
             "name": "Brady Hartsfield",
             "url": "https://stephen-king-api.onrender.com/api/villain/50"
+          },
+          {
+            "name": "Andrew Halliday",
+            "url": "https://stephen-king-api.onrender.com/api/villain/118"
+          },
+          {
+            "name": "Morris Bellamy",
+            "url": "https://stephen-king-api.onrender.com/api/villain/155"
           }
         ]
       },
@@ -1309,7 +1439,12 @@
           "Written with Richard Chizmar"
         ],
         "created_at": "2023-11-13T23:48:54.850Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Frankie Stone",
+            "url": "https://stephen-king-api.onrender.com/api/villain/135"
+          }
+        ]
       },
       {
         "id": 58,
@@ -1375,6 +1510,38 @@
           {
             "name": "Gladys Hickson",
             "url": "https://stephen-king-api.onrender.com/api/villain/52"
+          },
+          {
+            "name": "Dr. Hendricks",
+            "url": "https://stephen-king-api.onrender.com/api/villain/132"
+          },
+          {
+            "name": "Joe Brinks",
+            "url": "https://stephen-king-api.onrender.com/api/villain/143"
+          },
+          {
+            "name": "Julia Sigsby",
+            "url": "https://stephen-king-api.onrender.com/api/villain/145"
+          },
+          {
+            "name": "Priscilla (The Institute)",
+            "url": "https://stephen-king-api.onrender.com/api/villain/159"
+          },
+          {
+            "name": "Tony Fizzale",
+            "url": "https://stephen-king-api.onrender.com/api/villain/171"
+          },
+          {
+            "name": "Trevor Stackhouse",
+            "url": "https://stephen-king-api.onrender.com/api/villain/172"
+          },
+          {
+            "name": "Winona Briggs",
+            "url": "https://stephen-king-api.onrender.com/api/villain/175"
+          },
+          {
+            "name": "Zeke Ionidis",
+            "url": "https://stephen-king-api.onrender.com/api/villain/176"
           }
         ]
       },
@@ -1439,7 +1606,16 @@
         "Pages": 449,
         "Notes": [],
         "created_at": "2026-10-28T18:48:53.000Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Emily Harris",
+            "url": "https://stephen-king-api.onrender.com/api/villain/133"
+          },
+          {
+            "name": "Rodney Harris",
+            "url": "https://stephen-king-api.onrender.com/api/villain/161"
+          }
+        ]
       },
       {
         "id": 76,

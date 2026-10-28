@@ -2272,5 +2272,1105 @@
       "Villains"
     ],
     "created_at": "2023-11-13T23:49:36.745Z"
+  },
+  {
+    "id": 116,
+    "name": "Al Bradley",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "it"
+    ],
+    "notes": [
+      "Deceased Characters",
+      "Derry residents",
+      "IT",
+      "Leaders",
+      "Residents of Maine",
+      "Males",
+      "Antagonists"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 117,
+    "name": "Andrew Freeman",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-stand"
+    ],
+    "notes": [
+      "Crime",
+      "Deceased",
+      "Antagonists",
+      "Males",
+      "Adult",
+      "The Stand"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 118,
+    "name": "Andrew Halliday",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "finders-keepers"
+    ],
+    "notes": [
+      "Characters",
+      "Antagonists",
+      "Rapists",
+      "Bill Hodges",
+      "Villains",
+      "Deceased Characters",
+      "Males",
+      "Murder Victims",
+      "LGBT"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 119,
+    "name": "Ardelia Lortz",
+    "gender": "Female",
+    "status": "Deceased",
+    "types_id": 3,
+    "appears_in": [
+      "the-library-policeman"
+    ],
+    "notes": [
+      "Librarians",
+      "Females",
+      "Demons"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 120,
+    "name": "Atropos",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 3,
+    "appears_in": [
+      "insomnia"
+    ],
+    "notes": [
+      "Antagonists"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 121,
+    "name": "Barry",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "doctor-sleep"
+    ],
+    "notes": [
+      "Deceased Characters",
+      "Antagonists",
+      "Doctor Sleep",
+      "Males",
+      "Murderers",
+      "Vampires"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 122,
+    "name": "Bern Kells",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-dark-tower-the-wind-through-the-keyhole"
+    ],
+    "notes": [
+      "Characters",
+      "Males",
+      "Antagonists",
+      "The Dark Tower"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 123,
+    "name": "Billy Tessio",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "the-body"
+    ],
+    "notes": [
+      "Males",
+      "Bullies",
+      "Castle Rock residents",
+      "Residents of Maine",
+      "Antagonists"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 124,
+    "name": "Boogeyman",
+    "gender": null,
+    "status": "Alive",
+    "types_id": 3,
+    "appears_in": [
+      "the-boogeyman"
+    ],
+    "notes": [
+      "Creatures",
+      "Monsters",
+      "Antagonists",
+      "Villains"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 125,
+    "name": "Buddy Repperton",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "christine"
+    ],
+    "notes": [
+      "Leaders",
+      "Males",
+      "Deceased Characters",
+      "Bullies",
+      "Seekers of vengeance",
+      "Antagonists",
+      "Victims",
+      "Christine",
+      "Gang Leaders"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 126,
+    "name": "Charlie Hogan",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "the-body"
+    ],
+    "notes": [
+      "Males",
+      "Castle Rock residents",
+      "Bullies",
+      "Residents of Maine",
+      "Antagonists"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 127,
+    "name": "Chet Ondowsky",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 3,
+    "appears_in": [
+      "if-it-bleeds"
+    ],
+    "notes": [
+      "Characters",
+      "Males",
+      "Stubs",
+      "Villains"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 128,
+    "name": "Clay Reynolds",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-dark-tower-iv-wizard-and-glass"
+    ],
+    "notes": [
+      "Males",
+      "Antagonists",
+      "The Dark Tower"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 129,
+    "name": "Collie Entragian",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "desperation",
+      "the-regulators"
+    ],
+    "notes": [
+      "Deceased Characters",
+      "Police",
+      "Males",
+      "Antagonists",
+      "Victims"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 130,
+    "name": "Crow Daddy",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "doctor-sleep"
+    ],
+    "notes": [
+      "Antagonists",
+      "Doctor Sleep",
+      "Deceased Characters",
+      "Harassers",
+      "Males",
+      "Vampires"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 131,
+    "name": "Cthun",
+    "gender": null,
+    "status": "Alive",
+    "types_id": 3,
+    "appears_in": [
+      "n-"
+    ],
+    "notes": [
+      "Creatures",
+      "The Dark Tower",
+      "Monsters"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 132,
+    "name": "Dr. Hendricks",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "the-institute"
+    ],
+    "notes": [
+      "The Institute",
+      "Males",
+      "Status dependant on version",
+      "Murderers",
+      "Deceased",
+      "Deceased Characters",
+      "Antagonists",
+      "Bullies"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 133,
+    "name": "Emily Harris",
+    "gender": "Female",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "holly"
+    ],
+    "notes": [
+      "Females",
+      "Antagonists",
+      "Deceased",
+      "Adult",
+      "Teachers",
+      "Murderers"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 134,
+    "name": "Frank Dunning",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "11-22-63"
+    ],
+    "notes": [
+      "Males",
+      "Derry residents",
+      "Antagonists",
+      "Deceased Characters"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 135,
+    "name": "Frankie Stone",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "gwendy-s-button-box"
+    ],
+    "notes": [
+      "Males",
+      "Villains",
+      "Murderers",
+      "Murder Victims",
+      "Rapists"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 136,
+    "name": "George Bradley",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "it"
+    ],
+    "notes": [
+      "Deceased Characters",
+      "Derry residents",
+      "IT",
+      "Leaders",
+      "Residents of Maine",
+      "Males",
+      "Antagonists"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 137,
+    "name": "Grampa Flick",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "doctor-sleep"
+    ],
+    "notes": [
+      "Antagonists",
+      "Doctor Sleep",
+      "Deceased Characters",
+      "Vampires"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 138,
+    "name": "Harley Bissington",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "rose-madder"
+    ],
+    "notes": [
+      "Males",
+      "Police",
+      "Government employees",
+      "Rose Madder",
+      "Antagonists"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 139,
+    "name": "He Who Walks Behind the Rows",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 3,
+    "appears_in": [
+      "children-of-the-corn"
+    ],
+    "notes": [
+      "Antagonists",
+      "Monsters",
+      "Vehicles",
+      "Short stories"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 140,
+    "name": "Jenny Engstrom",
+    "gender": "Female",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-stand"
+    ],
+    "notes": [
+      "Deceased Characters",
+      "Females",
+      "Antagonists"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 141,
+    "name": "Jim Pickering",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-gingerbread-girl"
+    ],
+    "notes": [
+      "Males",
+      "Murderers"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 142,
+    "name": "Jimmy Numbers",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "doctor-sleep"
+    ],
+    "notes": [
+      "Antagonists",
+      "Deceased Characters",
+      "Doctor Sleep",
+      "Vampires"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 143,
+    "name": "Joe Brinks",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "the-institute"
+    ],
+    "notes": [
+      "The Institute",
+      "Males",
+      "Characters",
+      "Murderers",
+      "Bullies",
+      "Antagonists",
+      "Seekers of vengeance"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 144,
+    "name": "John Shooter",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "secret-window-secret-garden"
+    ],
+    "notes": [
+      "Antagonists"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 145,
+    "name": "Julia Sigsby",
+    "gender": "Female",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-institute"
+    ],
+    "notes": [
+      "The Institute",
+      "Females",
+      "Characters",
+      "Deceased Characters",
+      "Murderers",
+      "Bullies",
+      "Antagonists",
+      "Seekers of vengeance",
+      "Status dependant on version"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 146,
+    "name": "Julie Lawry",
+    "gender": "Female",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-stand"
+    ],
+    "notes": [
+      "Females",
+      "Deceased Characters",
+      "Characters with mental illness",
+      "Antagonists",
+      "The Stand"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 147,
+    "name": "Langoliers",
+    "gender": null,
+    "status": "Alive",
+    "types_id": 3,
+    "appears_in": [
+      "the-langoliers"
+    ],
+    "notes": [
+      "Creatures",
+      "Antagonists"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 148,
+    "name": "Lee",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "rest-stop"
+    ],
+    "notes": [
+      "Males",
+      "Lovers",
+      "Antagonists"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 149,
+    "name": "Maine Legion of White Decency",
+    "gender": null,
+    "status": "Alive",
+    "types_id": 5,
+    "appears_in": [
+      "it"
+    ],
+    "notes": [
+      "Villains",
+      "Groups",
+      "Seekers of vengeance",
+      "Antagonists",
+      "Characters",
+      "IT",
+      "Adult"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 150,
+    "name": "Marc Lamonica",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "it"
+    ],
+    "notes": [
+      "Characters",
+      "IT",
+      "Characters with mental illness",
+      "Villains"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 151,
+    "name": "Milo Pressman",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "the-body"
+    ],
+    "notes": [
+      "Antagonists",
+      "Bullies",
+      "Stand By Me"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 152,
+    "name": "Monkey",
+    "gender": null,
+    "status": "Alive",
+    "types_id": 6,
+    "appears_in": [
+      "the-monkey"
+    ],
+    "notes": [
+      "The Monkey",
+      "Objects",
+      "Antagonists",
+      "Demonic items",
+      "Murderers",
+      "Demons",
+      "Villains"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 153,
+    "name": "Moochie Welch",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "christine"
+    ],
+    "notes": [
+      "Bullies",
+      "Males",
+      "Deceased Characters",
+      "Christine",
+      "Antagonists",
+      "Victims"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 154,
+    "name": "Morgan Sloat",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-talisman"
+    ],
+    "notes": [
+      "Antagonists",
+      "Characters",
+      "Males",
+      "Male Characters"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 155,
+    "name": "Morris Bellamy",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "finders-keepers"
+    ],
+    "notes": [
+      "Bill Hodges",
+      "Antagonists",
+      "Males",
+      "Murderers",
+      "Adult",
+      "Deceased"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 156,
+    "name": "Mr. Gray",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 4,
+    "appears_in": [
+      "dreamcatcher"
+    ],
+    "notes": [
+      "Characters",
+      "Villains",
+      "Aliens"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 157,
+    "name": "Mrs. Carmody",
+    "gender": "Female",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-mist"
+    ],
+    "notes": [
+      "Female Characters",
+      "Residents of Maine",
+      "Deceased Characters",
+      "Antagonists"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 158,
+    "name": "Norman Bracowicz",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "the-body"
+    ],
+    "notes": [
+      "Castle Rock residents",
+      "Residents of Maine",
+      "Bullies",
+      "Males",
+      "Stand By Me",
+      "Antagonists"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 159,
+    "name": "Priscilla (The Institute)",
+    "gender": "Female",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "the-institute"
+    ],
+    "notes": [
+      "The Institute",
+      "Characters",
+      "Females",
+      "Murderers",
+      "Bullies",
+      "Antagonists"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 160,
+    "name": "Richard Chambers",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "the-body"
+    ],
+    "notes": [
+      "Bullies",
+      "Residents of Maine",
+      "Castle Rock residents",
+      "Deceased Characters",
+      "Antagonists"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 161,
+    "name": "Rodney Harris",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "holly"
+    ],
+    "notes": [
+      "Males",
+      "Antagonists",
+      "Deceased",
+      "Adult",
+      "Murderers",
+      "Teachers"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 162,
+    "name": "Roger the Dog Man",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 7,
+    "appears_in": [
+      "the-shining"
+    ],
+    "notes": [
+      "Males",
+      "Male Characters",
+      "The Shining",
+      "Ghosts",
+      "Antagonists",
+      "Villains",
+      "Deceased",
+      "LGBT",
+      "Harassers"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 163,
+    "name": "Roy Depape",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-dark-tower-iv-wizard-and-glass"
+    ],
+    "notes": [
+      "The Dark Tower",
+      "Males",
+      "Antagonists"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 164,
+    "name": "Snakebite Andi",
+    "gender": "Female",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "doctor-sleep"
+    ],
+    "notes": [
+      "Antagonists",
+      "Deceased Characters",
+      "Doctor Sleep",
+      "Victims",
+      "Seekers of vengeance",
+      "LGBT",
+      "Vampires"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 165,
+    "name": "Tak",
+    "gender": null,
+    "status": "Alive",
+    "types_id": 3,
+    "appears_in": [
+      "desperation",
+      "the-regulators"
+    ],
+    "notes": [
+      "Creatures",
+      "Demons",
+      "Beings",
+      "Multiverse",
+      "Antagonists",
+      "Interdimensional Travelers"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 166,
+    "name": "The Children",
+    "gender": null,
+    "status": "Alive",
+    "types_id": 5,
+    "appears_in": [
+      "children-of-the-corn"
+    ],
+    "notes": [
+      "Groups",
+      "Antagonists"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 167,
+    "name": "The Mangler (character)",
+    "gender": null,
+    "status": "Alive",
+    "types_id": 6,
+    "appears_in": [
+      "the-mangler"
+    ],
+    "notes": [
+      "Antagonists",
+      "Demons"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 168,
+    "name": "The Mist (phenomenon)",
+    "gender": null,
+    "status": "Alive",
+    "types_id": 3,
+    "appears_in": [
+      "the-mist"
+    ],
+    "notes": [
+      "Monsters",
+      "Antagonists",
+      "Villains"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 169,
+    "name": "Todd Bowden",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "apt-pupil"
+    ],
+    "notes": [
+      "Males",
+      "Antagonists",
+      "Protagonists"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 170,
+    "name": "Tommy Erbter",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "carrie"
+    ],
+    "notes": [
+      "Males",
+      "Chamberlain residents",
+      "Bullies",
+      "Residents of Maine",
+      "Antagonists",
+      "Carrie"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 171,
+    "name": "Tony Fizzale",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-institute"
+    ],
+    "notes": [
+      "Males",
+      "The Institute",
+      "Murderers",
+      "Seekers of vengeance",
+      "Bullies",
+      "Antagonists",
+      "Deceased",
+      "Deceased Characters"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 172,
+    "name": "Trevor Stackhouse",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "the-institute"
+    ],
+    "notes": [
+      "The Institute",
+      "Males",
+      "Status dependant on version",
+      "Murderers",
+      "Deceased",
+      "Deceased Characters",
+      "Antagonists",
+      "Bullies"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 173,
+    "name": "Vince Desjardins",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "the-body"
+    ],
+    "notes": [
+      "Males",
+      "Bullies",
+      "Castle Rock residents",
+      "Residents of Maine",
+      "Antagonists"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 174,
+    "name": "Walnut",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "doctor-sleep"
+    ],
+    "notes": [
+      "Deceased Characters",
+      "Antagonists",
+      "Doctor Sleep",
+      "Vampires"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 175,
+    "name": "Winona Briggs",
+    "gender": "Female",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-institute"
+    ],
+    "notes": [
+      "The Institute",
+      "Deceased Characters",
+      "Bullies",
+      "Antagonists"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 176,
+    "name": "Zeke Ionidis",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "the-institute"
+    ],
+    "notes": [
+      "Characters",
+      "Males",
+      "The Institute",
+      "Bullies",
+      "Murderers",
+      "Seekers of vengeance",
+      "Antagonists",
+      "Deceased Characters",
+      "Deceased"
+    ],
+    "created_at": "2026-10-28T19:57:08.000Z"
   }
 ]

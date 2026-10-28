@@ -22,6 +22,10 @@
         {
           "name": "Susan Day",
           "url": "https://stephen-king-api.onrender.com/api/villain/23"
+        },
+        {
+          "name": "Harley Bissington",
+          "url": "https://stephen-king-api.onrender.com/api/villain/138"
         }
       ]
     }

@@ -557,7 +557,12 @@
         "notes": [],
         "year": 1972,
         "created_at": "2023-11-13T23:49:01.192Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "The Mangler (character)",
+            "url": "https://stephen-king-api.onrender.com/api/villain/167"
+          }
+        ]
       },
       {
         "id": 43,
@@ -569,7 +574,12 @@
         "notes": [],
         "year": 1973,
         "created_at": "2023-11-13T23:49:01.311Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Boogeyman",
+            "url": "https://stephen-king-api.onrender.com/api/villain/124"
+          }
+        ]
       },
       {
         "id": 44,
@@ -708,6 +718,14 @@
           {
             "name": "Isaac Chroner",
             "url": "https://stephen-king-api.onrender.com/api/villain/12"
+          },
+          {
+            "name": "He Who Walks Behind the Rows",
+            "url": "https://stephen-king-api.onrender.com/api/villain/139"
+          },
+          {
+            "name": "The Children",
+            "url": "https://stephen-king-api.onrender.com/api/villain/166"
           }
         ]
       },
@@ -904,7 +922,16 @@
         ],
         "year": 1980,
         "created_at": "2023-11-13T23:49:04.363Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Mrs. Carmody",
+            "url": "https://stephen-king-api.onrender.com/api/villain/157"
+          },
+          {
+            "name": "The Mist (phenomenon)",
+            "url": "https://stephen-king-api.onrender.com/api/villain/168"
+          }
+        ]
       },
       {
         "id": 68,
@@ -961,7 +988,12 @@
         ],
         "year": 1980,
         "created_at": "2023-11-13T23:49:04.929Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Monkey",
+            "url": "https://stephen-king-api.onrender.com/api/villain/152"
+          }
+        ]
       },
       {
         "id": 72,
@@ -1135,6 +1167,10 @@
           {
             "name": "Kurt Dussander",
             "url": "https://stephen-king-api.onrender.com/api/villain/33"
+          },
+          {
+            "name": "Todd Bowden",
+            "url": "https://stephen-king-api.onrender.com/api/villain/169"
           }
         ]
       },
@@ -1152,6 +1188,30 @@
           {
             "name": "John \"Ace\" Merrill",
             "url": "https://stephen-king-api.onrender.com/api/villain/74"
+          },
+          {
+            "name": "Billy Tessio",
+            "url": "https://stephen-king-api.onrender.com/api/villain/123"
+          },
+          {
+            "name": "Charlie Hogan",
+            "url": "https://stephen-king-api.onrender.com/api/villain/126"
+          },
+          {
+            "name": "Milo Pressman",
+            "url": "https://stephen-king-api.onrender.com/api/villain/151"
+          },
+          {
+            "name": "Norman Bracowicz",
+            "url": "https://stephen-king-api.onrender.com/api/villain/158"
+          },
+          {
+            "name": "Richard Chambers",
+            "url": "https://stephen-king-api.onrender.com/api/villain/160"
+          },
+          {
+            "name": "Vince Desjardins",
+            "url": "https://stephen-king-api.onrender.com/api/villain/173"
           }
         ]
       },
@@ -1566,6 +1626,10 @@
           {
             "name": "Craig Toomey",
             "url": "https://stephen-king-api.onrender.com/api/villain/105"
+          },
+          {
+            "name": "Langoliers",
+            "url": "https://stephen-king-api.onrender.com/api/villain/147"
           }
         ]
       },
@@ -1579,7 +1643,12 @@
         "notes": [],
         "year": 1990,
         "created_at": "2023-11-13T23:49:10.391Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Ardelia Lortz",
+            "url": "https://stephen-king-api.onrender.com/api/villain/119"
+          }
+        ]
       },
       {
         "id": 116,
@@ -1591,7 +1660,12 @@
         "notes": [],
         "year": 1990,
         "created_at": "2023-11-13T23:49:10.514Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "John Shooter",
+            "url": "https://stephen-king-api.onrender.com/api/villain/144"
+          }
+        ]
       },
       {
         "id": 117,
@@ -2120,7 +2194,12 @@
         "notes": [],
         "year": 2003,
         "created_at": "2023-11-13T23:49:15.396Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Lee",
+            "url": "https://stephen-king-api.onrender.com/api/villain/148"
+          }
+        ]
       },
       {
         "id": 157,
@@ -2214,7 +2293,12 @@
         "notes": [],
         "year": 2007,
         "created_at": "2023-11-13T23:49:16.379Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Jim Pickering",
+            "url": "https://stephen-king-api.onrender.com/api/villain/141"
+          }
+        ]
       },
       {
         "id": 164,
@@ -2276,7 +2360,12 @@
         ],
         "year": 2008,
         "created_at": "2023-11-13T23:49:16.973Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Cthun",
+            "url": "https://stephen-king-api.onrender.com/api/villain/131"
+          }
+        ]
       },
       {
         "id": 169,
@@ -2715,7 +2804,12 @@
         ],
         "year": 2017,
         "created_at": "2023-11-13T23:49:20.861Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Frankie Stone",
+            "url": "https://stephen-king-api.onrender.com/api/villain/135"
+          }
+        ]
       },
       {
         "id": 201,
@@ -2806,7 +2900,12 @@
         ],
         "year": 2020,
         "created_at": "2023-11-13T23:49:21.695Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Chet Ondowsky",
+            "url": "https://stephen-king-api.onrender.com/api/villain/127"
+          }
+        ]
       },
       {
         "id": 208,

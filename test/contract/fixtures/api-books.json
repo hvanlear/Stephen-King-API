@@ -183,10 +183,6 @@
             "url": "https://stephen-king-api.onrender.com/api/villain/51"
           },
           {
-            "name": "The Kid",
-            "url": "https://stephen-king-api.onrender.com/api/villain/62"
-          },
-          {
             "name": "Harold Lauder",
             "url": "https://stephen-king-api.onrender.com/api/villain/64"
           },
@@ -707,7 +703,44 @@
           "Runner-up (2nd place), Locus Award's Best Horror/Dark Fantasy Novel, 1991[2]"
         ],
         "created_at": "2023-11-13T23:48:50.809Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Donald Merwin Elbert",
+            "url": "https://stephen-king-api.onrender.com/api/villain/34"
+          },
+          {
+            "name": "Randall Flagg",
+            "url": "https://stephen-king-api.onrender.com/api/villain/37"
+          },
+          {
+            "name": "Lloyd Henreid",
+            "url": "https://stephen-king-api.onrender.com/api/villain/51"
+          },
+          {
+            "name": "The Kid",
+            "url": "https://stephen-king-api.onrender.com/api/villain/62"
+          },
+          {
+            "name": "Harold Lauder",
+            "url": "https://stephen-king-api.onrender.com/api/villain/64"
+          },
+          {
+            "name": "Rat Man",
+            "url": "https://stephen-king-api.onrender.com/api/villain/87"
+          },
+          {
+            "name": "Andrew Freeman",
+            "url": "https://stephen-king-api.onrender.com/api/villain/117"
+          },
+          {
+            "name": "Jenny Engstrom",
+            "url": "https://stephen-king-api.onrender.com/api/villain/140"
+          },
+          {
+            "name": "Julie Lawry",
+            "url": "https://stephen-king-api.onrender.com/api/villain/146"
+          }
+        ]
       },
       {
         "id": 25,

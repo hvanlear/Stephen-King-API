@@ -673,7 +673,8 @@
     "status": "Deceased",
     "types_id": 1,
     "appears_in": [
-      "the-stand"
+      "the-stand",
+      "the-stand-uncut"
     ],
     "notes": [
       "Characters",
@@ -729,6 +730,7 @@
     "types_id": 3,
     "appears_in": [
       "the-stand",
+      "the-stand-uncut",
       "the-eyes-of-the-dragon",
       "the-dark-tower-the-gunslinger",
       "the-dark-tower-vii-the-dark-tower",
@@ -1012,7 +1014,8 @@
     "status": "Deceased",
     "types_id": 1,
     "appears_in": [
-      "the-stand"
+      "the-stand",
+      "the-stand-uncut"
     ],
     "notes": [
       "Characters",
@@ -1229,7 +1232,7 @@
     "status": "Deceased",
     "types_id": 1,
     "appears_in": [
-      "the-stand"
+      "the-stand-uncut"
     ],
     "notes": [
       "Characters",
@@ -1261,7 +1264,8 @@
     "status": "Deceased",
     "types_id": 1,
     "appears_in": [
-      "the-stand"
+      "the-stand",
+      "the-stand-uncut"
     ],
     "notes": [
       "Characters",
@@ -1701,7 +1705,8 @@
     "status": "Deceased",
     "types_id": 1,
     "appears_in": [
-      "the-stand"
+      "the-stand",
+      "the-stand-uncut"
     ],
     "notes": [
       "Characters",
@@ -2300,7 +2305,8 @@
     "status": "Deceased",
     "types_id": 1,
     "appears_in": [
-      "the-stand"
+      "the-stand",
+      "the-stand-uncut"
     ],
     "notes": [
       "Crime",
@@ -2716,7 +2722,8 @@
     "status": "Deceased",
     "types_id": 1,
     "appears_in": [
-      "the-stand"
+      "the-stand",
+      "the-stand-uncut"
     ],
     "notes": [
       "Deceased Characters",
@@ -2820,7 +2827,8 @@
     "status": "Deceased",
     "types_id": 1,
     "appears_in": [
-      "the-stand"
+      "the-stand",
+      "the-stand-uncut"
     ],
     "notes": [
       "Females",

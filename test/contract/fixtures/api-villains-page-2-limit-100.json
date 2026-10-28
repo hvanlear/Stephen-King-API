@@ -413,6 +413,10 @@
           {
             "title": "The Stand",
             "url": "https://stephen-king-api.onrender.com/api/book/5"
+          },
+          {
+            "title": "The Stand Uncut",
+            "url": "https://stephen-king-api.onrender.com/api/book/24"
           }
         ],
         "shorts": []
@@ -926,6 +930,10 @@
           {
             "title": "The Stand",
             "url": "https://stephen-king-api.onrender.com/api/book/5"
+          },
+          {
+            "title": "The Stand Uncut",
+            "url": "https://stephen-king-api.onrender.com/api/book/24"
           }
         ],
         "shorts": []
@@ -1056,6 +1064,10 @@
           {
             "title": "The Stand",
             "url": "https://stephen-king-api.onrender.com/api/book/5"
+          },
+          {
+            "title": "The Stand Uncut",
+            "url": "https://stephen-king-api.onrender.com/api/book/24"
           }
         ],
         "shorts": []

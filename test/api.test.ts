@@ -1,11 +1,17 @@
+import fs from "fs";
+import path from "path";
 import { describe, it, before, after } from "node:test";
 import assert from "node:assert/strict";
 import { startServer, TestServer } from "./server";
 
+// From the files, so adding a record doesn't mean editing this test
+const count = (file: string) =>
+  JSON.parse(fs.readFileSync(path.join(__dirname, "..", "catalog", file), "utf8")).length;
+
 const resources = [
-  { list: "/api/books", detail: "/api/book", total: 63, missing: "Book not found" },
-  { list: "/api/shorts", detail: "/api/short", total: 212, missing: "Short not found" },
-  { list: "/api/villains", detail: "/api/villain", total: 115, missing: "Villain not found" },
+  { list: "/api/books", detail: "/api/book", total: count("books.json"), missing: "Book not found" },
+  { list: "/api/shorts", detail: "/api/short", total: count("shorts.json"), missing: "Short not found" },
+  { list: "/api/villains", detail: "/api/villain", total: count("villains.json"), missing: "Villain not found" },
 ];
 
 let server: TestServer;

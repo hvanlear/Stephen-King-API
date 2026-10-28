@@ -154,7 +154,12 @@
           "Published under pseudonym Richard Bachman"
         ],
         "created_at": "2023-11-13T23:48:48.339Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Charlie Decker",
+            "url": "https://stephen-king-api.onrender.com/api/villain/179"
+          }
+        ]
       },
       {
         "id": 5,

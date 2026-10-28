@@ -1736,12 +1736,413 @@
           }
         ],
         "shorts": []
+      },
+      {
+        "id": 177,
+        "name": "Andy",
+        "gender": null,
+        "status": "Deceased",
+        "types_id": 6,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 178,
+        "name": "Ben Slightman",
+        "gender": "Male",
+        "status": "Alive",
+        "types_id": 1,
+        "notes": [
+          "Males",
+          "Calla Bryn Sturgis residents",
+          "Residents of All-world"
+        ],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 179,
+        "name": "Charlie Decker",
+        "gender": "Male",
+        "status": "Alive",
+        "types_id": 1,
+        "notes": [
+          "Male Characters"
+        ],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Rage",
+            "url": "https://stephen-king-api.onrender.com/api/book/4"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 180,
+        "name": "Don Peters",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Sleeping Beauties",
+            "url": "https://stephen-king-api.onrender.com/api/book/58"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 181,
+        "name": "Eric Blass",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Sleeping Beauties",
+            "url": "https://stephen-king-api.onrender.com/api/book/58"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 182,
+        "name": "Flight Killer",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 3,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Fairy Tale",
+            "url": "https://stephen-king-api.onrender.com/api/book/74"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 183,
+        "name": "Frank Geary",
+        "gender": "Male",
+        "status": "Alive",
+        "types_id": 1,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Sleeping Beauties",
+            "url": "https://stephen-king-api.onrender.com/api/book/58"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 184,
+        "name": "Gareth Winston",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Gwendy's Final Task",
+            "url": "https://stephen-king-api.onrender.com/api/book/73"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 185,
+        "name": "God of the Lost",
+        "gender": null,
+        "status": "Alive",
+        "types_id": 3,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "The Girl Who Loved Tom Gordon",
+            "url": "https://stephen-king-api.onrender.com/api/book/36"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 186,
+        "name": "Gogmagog",
+        "gender": null,
+        "status": "Alive",
+        "types_id": 3,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Fairy Tale",
+            "url": "https://stephen-king-api.onrender.com/api/book/74"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 187,
+        "name": "Jim Dooley",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [
+          "Males",
+          "Lisey's Story",
+          "Lisey's Story Characters"
+        ],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Lisey's Story",
+            "url": "https://stephen-king-api.onrender.com/api/book/45"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 188,
+        "name": "Kenneth Therriault",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 7,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Later",
+            "url": "https://stephen-king-api.onrender.com/api/book/62"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 189,
+        "name": "Liz Dutton",
+        "gender": "Female",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Later",
+            "url": "https://stephen-king-api.onrender.com/api/book/62"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 190,
+        "name": "Long Boy",
+        "gender": null,
+        "status": "Alive",
+        "types_id": 3,
+        "notes": [
+          "Lisey's Story",
+          "Lisey's Story Characters"
+        ],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Lisey's Story",
+            "url": "https://stephen-king-api.onrender.com/api/book/45"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 191,
+        "name": "Max Devore",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Bag of Bones",
+            "url": "https://stephen-king-api.onrender.com/api/book/35"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 192,
+        "name": "Nick Majarian",
+        "gender": "Male",
+        "status": "Alive",
+        "types_id": 1,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Billy Summers",
+            "url": "https://stephen-king-api.onrender.com/api/book/63"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 193,
+        "name": "Perse",
+        "gender": "Female",
+        "status": "Alive",
+        "types_id": 3,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Duma Key",
+            "url": "https://stephen-king-api.onrender.com/api/book/47"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 194,
+        "name": "Roger Klerke",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Billy Summers",
+            "url": "https://stephen-king-api.onrender.com/api/book/63"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 195,
+        "name": "Rogette Whitmore",
+        "gender": "Female",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Bag of Bones",
+            "url": "https://stephen-king-api.onrender.com/api/book/35"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 196,
+        "name": "Sara Tidwell",
+        "gender": "Female",
+        "status": "Deceased",
+        "types_id": 7,
+        "notes": [
+          "Females",
+          "Deceased Characters",
+          "Ghosts"
+        ],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Bag of Bones",
+            "url": "https://stephen-king-api.onrender.com/api/book/35"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 197,
+        "name": "Taduz Lemke",
+        "gender": "Male",
+        "status": "Alive",
+        "types_id": 1,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Thinner",
+            "url": "https://stephen-king-api.onrender.com/api/book/18"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 198,
+        "name": "Terry Coombs",
+        "gender": "Male",
+        "status": "Deceased",
+        "types_id": 1,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Sleeping Beauties",
+            "url": "https://stephen-king-api.onrender.com/api/book/58"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 199,
+        "name": "The Hitler Brothers",
+        "gender": null,
+        "status": "Alive",
+        "types_id": 5,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40"
+          }
+        ],
+        "shorts": []
+      },
+      {
+        "id": 200,
+        "name": "Wolves of Thunderclap",
+        "gender": null,
+        "status": "Deceased",
+        "types_id": 5,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40"
+          }
+        ],
+        "shorts": []
       }
     ],
     "pagination": {
       "page": 2,
       "limit": 100,
-      "total": 176,
+      "total": 200,
       "totalPages": 2
     }
   }

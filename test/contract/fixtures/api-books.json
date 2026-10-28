@@ -154,7 +154,12 @@
           "Published under pseudonym Richard Bachman"
         ],
         "created_at": "2023-11-13T23:48:48.339Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Charlie Decker",
+            "url": "https://stephen-king-api.onrender.com/api/villain/179"
+          }
+        ]
       },
       {
         "id": 5,
@@ -510,7 +515,12 @@
           "Published under pseudonym Richard Bachman"
         ],
         "created_at": "2023-11-13T23:48:50.102Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Taduz Lemke",
+            "url": "https://stephen-king-api.onrender.com/api/villain/197"
+          }
+        ]
       },
       {
         "id": 19,
@@ -1023,7 +1033,20 @@
           "Winner, Locus Award for Best Dark Fantasy/Horror Novel, 1999[2]"
         ],
         "created_at": "2023-11-13T23:48:52.137Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Max Devore",
+            "url": "https://stephen-king-api.onrender.com/api/villain/191"
+          },
+          {
+            "name": "Rogette Whitmore",
+            "url": "https://stephen-king-api.onrender.com/api/villain/195"
+          },
+          {
+            "name": "Sara Tidwell",
+            "url": "https://stephen-king-api.onrender.com/api/villain/196"
+          }
+        ]
       },
       {
         "id": 36,
@@ -1035,7 +1058,12 @@
         "Pages": 224,
         "Notes": [],
         "created_at": "2023-11-13T23:48:52.251Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "God of the Lost",
+            "url": "https://stephen-king-api.onrender.com/api/villain/185"
+          }
+        ]
       },
       {
         "id": 37,
@@ -1108,7 +1136,24 @@
           "Runner-up (4th place), Locus Award for Best Fantasy Novel, 2004[2]"
         ],
         "created_at": "2023-11-13T23:48:52.735Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Andy",
+            "url": "https://stephen-king-api.onrender.com/api/villain/177"
+          },
+          {
+            "name": "Ben Slightman",
+            "url": "https://stephen-king-api.onrender.com/api/villain/178"
+          },
+          {
+            "name": "The Hitler Brothers",
+            "url": "https://stephen-king-api.onrender.com/api/villain/199"
+          },
+          {
+            "name": "Wolves of Thunderclap",
+            "url": "https://stephen-king-api.onrender.com/api/villain/200"
+          }
+        ]
       },
       {
         "id": 41,
@@ -1204,7 +1249,16 @@
           "Runner-up (10th place), Locus Award for Best Fantasy Novel, 2007[2]"
         ],
         "created_at": "2023-11-13T23:48:53.382Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Jim Dooley",
+            "url": "https://stephen-king-api.onrender.com/api/villain/187"
+          },
+          {
+            "name": "Long Boy",
+            "url": "https://stephen-king-api.onrender.com/api/villain/190"
+          }
+        ]
       },
       {
         "id": 46,
@@ -1232,7 +1286,12 @@
           "Winner, Bram Stoker Award,  2009[2]"
         ],
         "created_at": "2023-11-13T23:48:53.622Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Perse",
+            "url": "https://stephen-king-api.onrender.com/api/villain/193"
+          }
+        ]
       },
       {
         "id": 48,
@@ -1492,7 +1551,24 @@
           "Nominee, Bram Stoker Award, 2018[2]"
         ],
         "created_at": "2023-11-13T23:48:54.973Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Don Peters",
+            "url": "https://stephen-king-api.onrender.com/api/villain/180"
+          },
+          {
+            "name": "Eric Blass",
+            "url": "https://stephen-king-api.onrender.com/api/villain/181"
+          },
+          {
+            "name": "Frank Geary",
+            "url": "https://stephen-king-api.onrender.com/api/villain/183"
+          },
+          {
+            "name": "Terry Coombs",
+            "url": "https://stephen-king-api.onrender.com/api/villain/198"
+          }
+        ]
       },
       {
         "id": 59,
@@ -1588,7 +1664,16 @@
         "Pages": 256,
         "Notes": [],
         "created_at": "2023-11-13T23:48:55.579Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Kenneth Therriault",
+            "url": "https://stephen-king-api.onrender.com/api/villain/188"
+          },
+          {
+            "name": "Liz Dutton",
+            "url": "https://stephen-king-api.onrender.com/api/villain/189"
+          }
+        ]
       },
       {
         "id": 63,
@@ -1600,7 +1685,16 @@
         "Pages": 528,
         "Notes": [],
         "created_at": "2023-11-13T23:48:55.753Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Nick Majarian",
+            "url": "https://stephen-king-api.onrender.com/api/villain/192"
+          },
+          {
+            "name": "Roger Klerke",
+            "url": "https://stephen-king-api.onrender.com/api/villain/194"
+          }
+        ]
       },
       {
         "id": 73,
@@ -1615,7 +1709,12 @@
           "Written with Richard Chizmar"
         ],
         "created_at": "2026-10-28T18:48:53.000Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Gareth Winston",
+            "url": "https://stephen-king-api.onrender.com/api/villain/184"
+          }
+        ]
       },
       {
         "id": 74,
@@ -1627,7 +1726,16 @@
         "Pages": 599,
         "Notes": [],
         "created_at": "2026-10-28T18:48:53.000Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Flight Killer",
+            "url": "https://stephen-king-api.onrender.com/api/villain/182"
+          },
+          {
+            "name": "Gogmagog",
+            "url": "https://stephen-king-api.onrender.com/api/villain/186"
+          }
+        ]
       },
       {
         "id": 75,

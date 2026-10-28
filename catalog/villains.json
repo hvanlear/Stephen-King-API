@@ -3380,5 +3380,310 @@
       "Deceased"
     ],
     "created_at": "2026-10-28T19:57:08.000Z"
+  },
+  {
+    "id": 177,
+    "name": "Andy",
+    "gender": null,
+    "status": "Deceased",
+    "types_id": 6,
+    "appears_in": [
+      "the-dark-tower-v-wolves-of-the-calla"
+    ],
+    "notes": [],
+    "created_at": "2026-10-28T20:12:34.000Z"
+  },
+  {
+    "id": 178,
+    "name": "Ben Slightman",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "the-dark-tower-v-wolves-of-the-calla"
+    ],
+    "notes": [
+      "Males",
+      "Calla Bryn Sturgis residents",
+      "Residents of All-world"
+    ],
+    "created_at": "2026-10-28T20:12:34.000Z"
+  },
+  {
+    "id": 179,
+    "name": "Charlie Decker",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "rage"
+    ],
+    "notes": [
+      "Male Characters"
+    ],
+    "created_at": "2026-10-28T20:12:34.000Z"
+  },
+  {
+    "id": 180,
+    "name": "Don Peters",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "sleeping-beauties"
+    ],
+    "notes": [],
+    "created_at": "2026-10-28T20:12:34.000Z"
+  },
+  {
+    "id": 181,
+    "name": "Eric Blass",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "sleeping-beauties"
+    ],
+    "notes": [],
+    "created_at": "2026-10-28T20:12:34.000Z"
+  },
+  {
+    "id": 182,
+    "name": "Flight Killer",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 3,
+    "appears_in": [
+      "fairy-tale"
+    ],
+    "notes": [],
+    "created_at": "2026-10-28T20:12:34.000Z"
+  },
+  {
+    "id": 183,
+    "name": "Frank Geary",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "sleeping-beauties"
+    ],
+    "notes": [],
+    "created_at": "2026-10-28T20:12:34.000Z"
+  },
+  {
+    "id": 184,
+    "name": "Gareth Winston",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "gwendy-s-final-task"
+    ],
+    "notes": [],
+    "created_at": "2026-10-28T20:12:34.000Z"
+  },
+  {
+    "id": 185,
+    "name": "God of the Lost",
+    "gender": null,
+    "status": "Alive",
+    "types_id": 3,
+    "appears_in": [
+      "the-girl-who-loved-tom-gordon"
+    ],
+    "notes": [],
+    "created_at": "2026-10-28T20:12:34.000Z"
+  },
+  {
+    "id": 186,
+    "name": "Gogmagog",
+    "gender": null,
+    "status": "Alive",
+    "types_id": 3,
+    "appears_in": [
+      "fairy-tale"
+    ],
+    "notes": [],
+    "created_at": "2026-10-28T20:12:34.000Z"
+  },
+  {
+    "id": 187,
+    "name": "Jim Dooley",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "lisey-s-story"
+    ],
+    "notes": [
+      "Males",
+      "Lisey's Story",
+      "Lisey's Story Characters"
+    ],
+    "created_at": "2026-10-28T20:12:34.000Z"
+  },
+  {
+    "id": 188,
+    "name": "Kenneth Therriault",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 7,
+    "appears_in": [
+      "later"
+    ],
+    "notes": [],
+    "created_at": "2026-10-28T20:12:34.000Z"
+  },
+  {
+    "id": 189,
+    "name": "Liz Dutton",
+    "gender": "Female",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "later"
+    ],
+    "notes": [],
+    "created_at": "2026-10-28T20:12:34.000Z"
+  },
+  {
+    "id": 190,
+    "name": "Long Boy",
+    "gender": null,
+    "status": "Alive",
+    "types_id": 3,
+    "appears_in": [
+      "lisey-s-story"
+    ],
+    "notes": [
+      "Lisey's Story",
+      "Lisey's Story Characters"
+    ],
+    "created_at": "2026-10-28T20:12:34.000Z"
+  },
+  {
+    "id": 191,
+    "name": "Max Devore",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "bag-of-bones"
+    ],
+    "notes": [],
+    "created_at": "2026-10-28T20:12:34.000Z"
+  },
+  {
+    "id": 192,
+    "name": "Nick Majarian",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "billy-summers"
+    ],
+    "notes": [],
+    "created_at": "2026-10-28T20:12:34.000Z"
+  },
+  {
+    "id": 193,
+    "name": "Perse",
+    "gender": "Female",
+    "status": "Alive",
+    "types_id": 3,
+    "appears_in": [
+      "duma-key"
+    ],
+    "notes": [],
+    "created_at": "2026-10-28T20:12:34.000Z"
+  },
+  {
+    "id": 194,
+    "name": "Roger Klerke",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "billy-summers"
+    ],
+    "notes": [],
+    "created_at": "2026-10-28T20:12:34.000Z"
+  },
+  {
+    "id": 195,
+    "name": "Rogette Whitmore",
+    "gender": "Female",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "bag-of-bones"
+    ],
+    "notes": [],
+    "created_at": "2026-10-28T20:12:34.000Z"
+  },
+  {
+    "id": 196,
+    "name": "Sara Tidwell",
+    "gender": "Female",
+    "status": "Deceased",
+    "types_id": 7,
+    "appears_in": [
+      "bag-of-bones"
+    ],
+    "notes": [
+      "Females",
+      "Deceased Characters",
+      "Ghosts"
+    ],
+    "created_at": "2026-10-28T20:12:34.000Z"
+  },
+  {
+    "id": 197,
+    "name": "Taduz Lemke",
+    "gender": "Male",
+    "status": "Alive",
+    "types_id": 1,
+    "appears_in": [
+      "thinner"
+    ],
+    "notes": [],
+    "created_at": "2026-10-28T20:12:34.000Z"
+  },
+  {
+    "id": 198,
+    "name": "Terry Coombs",
+    "gender": "Male",
+    "status": "Deceased",
+    "types_id": 1,
+    "appears_in": [
+      "sleeping-beauties"
+    ],
+    "notes": [],
+    "created_at": "2026-10-28T20:12:34.000Z"
+  },
+  {
+    "id": 199,
+    "name": "The Hitler Brothers",
+    "gender": null,
+    "status": "Alive",
+    "types_id": 5,
+    "appears_in": [
+      "the-dark-tower-v-wolves-of-the-calla"
+    ],
+    "notes": [],
+    "created_at": "2026-10-28T20:12:34.000Z"
+  },
+  {
+    "id": 200,
+    "name": "Wolves of Thunderclap",
+    "gender": null,
+    "status": "Deceased",
+    "types_id": 5,
+    "appears_in": [
+      "the-dark-tower-v-wolves-of-the-calla"
+    ],
+    "notes": [],
+    "created_at": "2026-10-28T20:12:34.000Z"
   }
 ]

@@ -12,7 +12,16 @@
       "Pages": 528,
       "Notes": [],
       "created_at": "2023-11-13T23:48:55.753Z",
-      "villains": []
+      "villains": [
+        {
+          "name": "Nick Majarian",
+          "url": "https://stephen-king-api.onrender.com/api/villain/192"
+        },
+        {
+          "name": "Roger Klerke",
+          "url": "https://stephen-king-api.onrender.com/api/villain/194"
+        }
+      ]
     }
   }
 }

@@ -858,7 +858,12 @@
         ],
         "year": 1978,
         "created_at": "2023-11-13T23:49:04.008Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Sylvia Pittston",
+            "url": "https://stephen-king-api.onrender.com/api/villain/84"
+          }
+        ]
       },
       {
         "id": 65,
@@ -1048,7 +1053,12 @@
         ],
         "year": 1981,
         "created_at": "2023-11-13T23:49:06.053Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "It (Creature)",
+            "url": "https://stephen-king-api.onrender.com/api/villain/57"
+          }
+        ]
       },
       {
         "id": 79,
@@ -1062,7 +1072,12 @@
         ],
         "year": 1981,
         "created_at": "2023-11-13T23:49:06.176Z",
-        "villains": []
+        "villains": [
+          {
+            "name": "Marten Broadcloak",
+            "url": "https://stephen-king-api.onrender.com/api/villain/10"
+          }
+        ]
       },
       {
         "id": 80,

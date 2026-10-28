@@ -202,10 +202,6 @@
         "created_at": "2023-11-13T23:48:48.608Z",
         "villains": [
           {
-            "name": "Randall Flagg",
-            "url": "https://stephen-king-api.onrender.com/api/villain/37"
-          },
-          {
             "name": "The Major",
             "url": "https://stephen-king-api.onrender.com/api/villain/70"
           }

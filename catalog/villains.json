@@ -61,7 +61,7 @@
     "id": 4,
     "name": "Tina Blake",
     "gender": "Female",
-    "status": "Deceased",
+    "status": "Alive",
     "types_id": 1,
     "appears_in": [
       "carrie"
@@ -195,7 +195,8 @@
     "status": "Alive",
     "types_id": 1,
     "appears_in": [
-      "the-dark-tower-the-gunslinger"
+      "the-dark-tower-the-gunslinger",
+      "the-gunslinger-and-the-dark-man"
     ],
     "notes": [
       "Stubs",
@@ -216,7 +217,8 @@
     "status": "Alive",
     "types_id": 6,
     "appears_in": [
-      "christine"
+      "christine",
+      "it"
     ],
     "notes": [
       "Characters",
@@ -235,7 +237,7 @@
     "id": 12,
     "name": "Isaac Chroner",
     "gender": "Male",
-    "status": "Deceased",
+    "status": "Alive",
     "types_id": 6,
     "appears_in": [
       "children-of-the-corn"
@@ -520,7 +522,8 @@
     "status": "Deceased",
     "types_id": 7,
     "appears_in": [
-      "the-shining"
+      "the-shining",
+      "doctor-sleep"
     ],
     "notes": [
       "Stubs",
@@ -540,7 +543,8 @@
     "status": "Deceased",
     "types_id": 3,
     "appears_in": [
-      "the-dark-tower-vii-the-dark-tower"
+      "the-dark-tower-vii-the-dark-tower",
+      "the-dark-tower-vi-song-of-susannah"
     ],
     "notes": [
       "Characters",
@@ -726,7 +730,6 @@
     "appears_in": [
       "the-stand",
       "the-eyes-of-the-dragon",
-      "the-long-walk",
       "the-dark-tower-the-gunslinger",
       "the-dark-tower-vii-the-dark-tower",
       "the-dark-tower-iv-wizard-and-glass",
@@ -750,7 +753,7 @@
     "id": 38,
     "name": "Kenny Garson",
     "gender": "Male",
-    "status": "Deceased",
+    "status": "Alive",
     "types_id": 1,
     "appears_in": [
       "carrie"
@@ -1130,7 +1133,9 @@
     "status": "Deceased",
     "types_id": 4,
     "appears_in": [
-      "it"
+      "it",
+      "the-tommyknockers",
+      "the-bird-and-the-album"
     ],
     "notes": [
       "Characters",
@@ -1438,7 +1443,8 @@
     "status": "Deceased",
     "types_id": 1,
     "appears_in": [
-      "the-body"
+      "the-body",
+      "needful-things"
     ],
     "notes": [
       "Characters",
@@ -1460,7 +1466,7 @@
     "id": 75,
     "name": "Vic Mooney",
     "gender": "Male",
-    "status": "Deceased",
+    "status": "Alive",
     "types_id": 1,
     "appears_in": [
       "carrie"
@@ -1642,7 +1648,8 @@
     "status": "Deceased",
     "types_id": 1,
     "appears_in": [
-      "the-dark-tower-the-gunslinger"
+      "the-dark-tower-the-gunslinger",
+      "the-gunslinger"
     ],
     "notes": [
       "Characters",
@@ -1925,7 +1932,7 @@
     "id": 99,
     "name": "Jackie Talbot",
     "gender": "Male",
-    "status": "Deceased",
+    "status": "Alive",
     "types_id": 1,
     "appears_in": [
       "carrie"
@@ -2068,7 +2075,8 @@
     "status": "Deceased",
     "types_id": 1,
     "appears_in": [
-      "the-shining"
+      "the-shining",
+      "doctor-sleep"
     ],
     "notes": [
       "Characters",

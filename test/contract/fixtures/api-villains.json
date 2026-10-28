@@ -80,7 +80,7 @@
         "id": 4,
         "name": "Tina Blake",
         "gender": "Female",
-        "status": "Deceased",
+        "status": "Alive",
         "types_id": 1,
         "notes": [
           "Characters",
@@ -254,7 +254,12 @@
             "url": "https://stephen-king-api.onrender.com/api/book/12"
           }
         ],
-        "shorts": []
+        "shorts": [
+          {
+            "title": "The Gunslinger and the Dark Man",
+            "url": "https://stephen-king-api.onrender.com/api/short/79"
+          }
+        ]
       },
       {
         "id": 11,
@@ -278,6 +283,10 @@
           {
             "title": "Christine",
             "url": "https://stephen-king-api.onrender.com/api/book/13"
+          },
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
           }
         ],
         "shorts": []
@@ -286,7 +295,7 @@
         "id": 12,
         "name": "Isaac Chroner",
         "gender": "Male",
-        "status": "Deceased",
+        "status": "Alive",
         "types_id": 6,
         "notes": [
           "Characters",
@@ -652,6 +661,10 @@
           {
             "title": "The Shining",
             "url": "https://stephen-king-api.onrender.com/api/book/3"
+          },
+          {
+            "title": "Doctor Sleep",
+            "url": "https://stephen-king-api.onrender.com/api/book/52"
           }
         ],
         "shorts": []
@@ -675,6 +688,10 @@
           {
             "title": "The Dark Tower VII: The Dark Tower",
             "url": "https://stephen-king-api.onrender.com/api/book/42"
+          },
+          {
+            "title": "The Dark Tower VI: Song of Susannah",
+            "url": "https://stephen-king-api.onrender.com/api/book/41"
           }
         ],
         "shorts": []
@@ -909,10 +926,6 @@
             "url": "https://stephen-king-api.onrender.com/api/book/17"
           },
           {
-            "title": "The Long Walk",
-            "url": "https://stephen-king-api.onrender.com/api/book/6"
-          },
-          {
             "title": "The Dark Tower: The Gunslinger",
             "url": "https://stephen-king-api.onrender.com/api/book/12"
           },
@@ -935,7 +948,7 @@
         "id": 38,
         "name": "Kenny Garson",
         "gender": "Male",
-        "status": "Deceased",
+        "status": "Alive",
         "types_id": 1,
         "notes": [
           "Characters",
@@ -1413,9 +1426,18 @@
           {
             "title": "It",
             "url": "https://stephen-king-api.onrender.com/api/book/19"
+          },
+          {
+            "title": "The Tommyknockers",
+            "url": "https://stephen-king-api.onrender.com/api/book/22"
           }
         ],
-        "shorts": []
+        "shorts": [
+          {
+            "title": "The Bird and the Album",
+            "url": "https://stephen-king-api.onrender.com/api/short/78"
+          }
+        ]
       },
       {
         "id": 58,
@@ -1792,7 +1814,12 @@
           "Villains"
         ],
         "created_at": "2023-11-13T23:49:31.390Z",
-        "books": [],
+        "books": [
+          {
+            "title": "Needful Things",
+            "url": "https://stephen-king-api.onrender.com/api/book/26"
+          }
+        ],
         "shorts": [
           {
             "title": "The Body",
@@ -1804,7 +1831,7 @@
         "id": 75,
         "name": "Vic Mooney",
         "gender": "Male",
-        "status": "Deceased",
+        "status": "Alive",
         "types_id": 1,
         "notes": [
           "Characters",
@@ -2035,7 +2062,12 @@
             "url": "https://stephen-king-api.onrender.com/api/book/12"
           }
         ],
-        "shorts": []
+        "shorts": [
+          {
+            "title": "The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/short/64"
+          }
+        ]
       },
       {
         "id": 85,
@@ -2365,7 +2397,7 @@
         "id": 99,
         "name": "Jackie Talbot",
         "gender": "Male",
-        "status": "Deceased",
+        "status": "Alive",
         "types_id": 1,
         "notes": [
           "Characters",
@@ -2557,6 +2589,10 @@
           {
             "title": "The Shining",
             "url": "https://stephen-king-api.onrender.com/api/book/3"
+          },
+          {
+            "title": "Doctor Sleep",
+            "url": "https://stephen-king-api.onrender.com/api/book/52"
           }
         ],
         "shorts": []

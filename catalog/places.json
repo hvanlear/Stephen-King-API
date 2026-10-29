@@ -1,0 +1,1474 @@
+[
+  {
+    "id": 1,
+    "name": "All-world",
+    "handle": "all-world",
+    "type": "world",
+    "parentId": null,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Boo'ya Moon",
+    "handle": "boo-ya-moon",
+    "type": "world",
+    "parentId": null,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Macroverse",
+    "handle": "macroverse",
+    "type": "world",
+    "parentId": null,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 4,
+    "name": "The Null",
+    "handle": "the-null",
+    "type": "world",
+    "parentId": null,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 5,
+    "name": "The Territories",
+    "handle": "the-territories",
+    "type": "world",
+    "parentId": null,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 6,
+    "name": "Todash Space",
+    "handle": "todash-space",
+    "type": "world",
+    "parentId": null,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 7,
+    "name": "England",
+    "handle": "england",
+    "type": "country",
+    "parentId": null,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 8,
+    "name": "United States",
+    "handle": "united-states",
+    "type": "country",
+    "parentId": null,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 9,
+    "name": "Ettinger's Pier",
+    "handle": "ettinger-s-pier",
+    "type": "landmark",
+    "parentId": null,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 10,
+    "name": "Patin",
+    "handle": "patin",
+    "type": "landmark",
+    "parentId": null,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 11,
+    "name": "Daughters and Sisters",
+    "handle": "daughters-and-sisters",
+    "type": "building",
+    "parentId": null,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 12,
+    "name": "Horlicks University",
+    "handle": "horlicks-university",
+    "type": "building",
+    "parentId": null,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 13,
+    "name": "New Sharon College",
+    "handle": "new-sharon-college",
+    "type": "building",
+    "parentId": null,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 14,
+    "name": "Supr Savr",
+    "handle": "supr-savr",
+    "type": "building",
+    "parentId": null,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 15,
+    "name": "Trans Corporation",
+    "handle": "trans-corporation",
+    "type": "building",
+    "parentId": null,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 16,
+    "name": "End-world",
+    "handle": "end-world",
+    "type": "region",
+    "parentId": 1,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 17,
+    "name": "In-world",
+    "handle": "in-world",
+    "type": "region",
+    "parentId": 1,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 18,
+    "name": "Mid-world",
+    "handle": "mid-world",
+    "type": "region",
+    "parentId": 1,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 19,
+    "name": "Arkansas",
+    "handle": "arkansas",
+    "type": "state",
+    "parentId": 8,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 20,
+    "name": "California",
+    "handle": "california",
+    "type": "state",
+    "parentId": 8,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 21,
+    "name": "Colorado",
+    "handle": "colorado",
+    "type": "state",
+    "parentId": 8,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 22,
+    "name": "Connecticut",
+    "handle": "connecticut",
+    "type": "state",
+    "parentId": 8,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 23,
+    "name": "Florida",
+    "handle": "florida",
+    "type": "state",
+    "parentId": 8,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 24,
+    "name": "Indiana",
+    "handle": "indiana",
+    "type": "state",
+    "parentId": 8,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 25,
+    "name": "Iowa",
+    "handle": "iowa",
+    "type": "state",
+    "parentId": 8,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 26,
+    "name": "Kansas",
+    "handle": "kansas",
+    "type": "state",
+    "parentId": 8,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 27,
+    "name": "Louisiana",
+    "handle": "louisiana",
+    "type": "state",
+    "parentId": 8,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 28,
+    "name": "Maine",
+    "handle": "maine",
+    "type": "state",
+    "parentId": 8,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 29,
+    "name": "Massachusetts",
+    "handle": "massachusetts",
+    "type": "state",
+    "parentId": 8,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 30,
+    "name": "Mississippi",
+    "handle": "mississippi",
+    "type": "state",
+    "parentId": 8,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 31,
+    "name": "Nebraska",
+    "handle": "nebraska",
+    "type": "state",
+    "parentId": 8,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 32,
+    "name": "Nevada",
+    "handle": "nevada",
+    "type": "state",
+    "parentId": 8,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 33,
+    "name": "New Hampshire",
+    "handle": "new-hampshire",
+    "type": "state",
+    "parentId": 8,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 34,
+    "name": "New York",
+    "handle": "new-york",
+    "type": "state",
+    "parentId": 8,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 35,
+    "name": "North Carolina",
+    "handle": "north-carolina",
+    "type": "state",
+    "parentId": 8,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 36,
+    "name": "Ohio",
+    "handle": "ohio",
+    "type": "state",
+    "parentId": 8,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 37,
+    "name": "Oklahoma",
+    "handle": "oklahoma",
+    "type": "state",
+    "parentId": 8,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 38,
+    "name": "Texas",
+    "handle": "texas",
+    "type": "state",
+    "parentId": 8,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 39,
+    "name": "Vermont",
+    "handle": "vermont",
+    "type": "state",
+    "parentId": 8,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 40,
+    "name": "London",
+    "handle": "london",
+    "type": "town",
+    "parentId": 7,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 41,
+    "name": "Hemingford County, Nebraska",
+    "handle": "hemingford-county-nebraska",
+    "type": "region",
+    "parentId": 31,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 42,
+    "name": "Mejis",
+    "handle": "mejis",
+    "type": "region",
+    "parentId": 17,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 43,
+    "name": "Mohaine Desert",
+    "handle": "mohaine-desert",
+    "type": "region",
+    "parentId": 18,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 44,
+    "name": "New Canaan",
+    "handle": "new-canaan",
+    "type": "region",
+    "parentId": 17,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 45,
+    "name": "Arnette, Texas",
+    "handle": "arnette-texas",
+    "type": "town",
+    "parentId": 38,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 46,
+    "name": "Augusta, Maine",
+    "handle": "augusta-maine",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 47,
+    "name": "Bakersfield, California",
+    "handle": "bakersfield-california",
+    "type": "town",
+    "parentId": 20,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 48,
+    "name": "Bankerton, Iowa",
+    "handle": "bankerton-iowa",
+    "type": "town",
+    "parentId": 25,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 49,
+    "name": "Boston",
+    "handle": "boston",
+    "type": "town",
+    "parentId": 29,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 50,
+    "name": "Boulder, Colorado",
+    "handle": "boulder-colorado",
+    "type": "town",
+    "parentId": 21,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 51,
+    "name": "Braintree, Texas",
+    "handle": "braintree-texas",
+    "type": "town",
+    "parentId": 38,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 52,
+    "name": "Bridgton, Maine",
+    "handle": "bridgton-maine",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 53,
+    "name": "Calla Bryn Sturgis",
+    "handle": "calla-bryn-sturgis",
+    "type": "town",
+    "parentId": 18,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 54,
+    "name": "Caslin, Nebraska",
+    "handle": "caslin-nebraska",
+    "type": "town",
+    "parentId": 31,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 55,
+    "name": "Castle Rock, Maine",
+    "handle": "castle-rock-maine",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 56,
+    "name": "Castle View, Maine",
+    "handle": "castle-view-maine",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 57,
+    "name": "Chamberlain, Maine",
+    "handle": "chamberlain-maine",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 58,
+    "name": "Chester's Mill, Maine",
+    "handle": "chester-s-mill-maine",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 59,
+    "name": "Crouch End",
+    "handle": "crouch-end",
+    "type": "town",
+    "parentId": 40,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 60,
+    "name": "Davenport, Iowa",
+    "handle": "davenport-iowa",
+    "type": "town",
+    "parentId": 25,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 61,
+    "name": "Debaria",
+    "handle": "debaria",
+    "type": "town",
+    "parentId": 17,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 62,
+    "name": "Derry, Maine",
+    "handle": "derry-maine",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 63,
+    "name": "Desperation, Nevada",
+    "handle": "desperation-nevada",
+    "type": "town",
+    "parentId": 32,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 64,
+    "name": "Eluria",
+    "handle": "eluria",
+    "type": "town",
+    "parentId": 18,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 65,
+    "name": "Eustace, Oklahoma",
+    "handle": "eustace-oklahoma",
+    "type": "town",
+    "parentId": 37,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 66,
+    "name": "Fedic",
+    "handle": "fedic",
+    "type": "town",
+    "parentId": 16,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 67,
+    "name": "Freeport, Maine",
+    "handle": "freeport-maine",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 68,
+    "name": "Gates Falls",
+    "handle": "gates-falls",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 69,
+    "name": "Gatlin, Nebraska",
+    "handle": "gatlin-nebraska",
+    "type": "town",
+    "parentId": 31,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 70,
+    "name": "Hammer Crossing, Kansas",
+    "handle": "hammer-crossing-kansas",
+    "type": "town",
+    "parentId": 26,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 71,
+    "name": "Harrison, Ohio",
+    "handle": "harrison-ohio",
+    "type": "town",
+    "parentId": 36,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 72,
+    "name": "Harwich, Connecticut",
+    "handle": "harwich-connecticut",
+    "type": "town",
+    "parentId": 22,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 73,
+    "name": "Hastings Glen",
+    "handle": "hastings-glen",
+    "type": "town",
+    "parentId": 34,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 74,
+    "name": "Haven, Maine",
+    "handle": "haven-maine",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 75,
+    "name": "Heaven's Bay, North Carolina",
+    "handle": "heaven-s-bay-north-carolina",
+    "type": "town",
+    "parentId": 35,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 76,
+    "name": "Jerusalem's Lot, Maine",
+    "handle": "jerusalem-s-lot-maine",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 77,
+    "name": "Junction City, Iowa",
+    "handle": "junction-city-iowa",
+    "type": "town",
+    "parentId": 25,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 78,
+    "name": "Kashwakamak, Maine",
+    "handle": "kashwakamak-maine",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 79,
+    "name": "Lake Belle Reve, Mississippi",
+    "handle": "lake-belle-reve-mississippi",
+    "type": "town",
+    "parentId": 30,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 80,
+    "name": "Las Vegas, Nevada",
+    "handle": "las-vegas-nevada",
+    "type": "town",
+    "parentId": 32,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 81,
+    "name": "Lewiston, Maine",
+    "handle": "lewiston-maine",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 82,
+    "name": "Lexingworth",
+    "handle": "lexingworth",
+    "type": "town",
+    "parentId": 18,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 83,
+    "name": "Little Tall Island",
+    "handle": "little-tall-island",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 84,
+    "name": "Lovell, Maine",
+    "handle": "lovell-maine",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 85,
+    "name": "Lud",
+    "handle": "lud",
+    "type": "town",
+    "parentId": 18,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 86,
+    "name": "Ludlow, Maine",
+    "handle": "ludlow-maine",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 87,
+    "name": "May, Oklahoma",
+    "handle": "may-oklahoma",
+    "type": "town",
+    "parentId": 37,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 88,
+    "name": "Moose-Lookit Island",
+    "handle": "moose-lookit-island",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 89,
+    "name": "Motton, Maine",
+    "handle": "motton-maine",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 90,
+    "name": "New York City",
+    "handle": "new-york-city",
+    "type": "town",
+    "parentId": 34,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 91,
+    "name": "Nodd's Ridge, Maine",
+    "handle": "nodd-s-ridge-maine",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 92,
+    "name": "Ogunquit, Maine",
+    "handle": "ogunquit-maine",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 93,
+    "name": "Placerville, Maine",
+    "handle": "placerville-maine",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 94,
+    "name": "Polliston, Kansas",
+    "handle": "polliston-kansas",
+    "type": "town",
+    "parentId": 26,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 95,
+    "name": "Portland, Maine",
+    "handle": "portland-maine",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 96,
+    "name": "Pownal, Maine",
+    "handle": "pownal-maine",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 97,
+    "name": "Powtanville, Indiana",
+    "handle": "powtanville-indiana",
+    "type": "town",
+    "parentId": 24,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 98,
+    "name": "Pratt, Kansas",
+    "handle": "pratt-kansas",
+    "type": "town",
+    "parentId": 26,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 99,
+    "name": "Preacher's Corners, Maine",
+    "handle": "preacher-s-corners-maine",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 100,
+    "name": "Princetown",
+    "handle": "princetown",
+    "type": "town",
+    "parentId": 18,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 101,
+    "name": "Ridgeway, New Hampshire",
+    "handle": "ridgeway-new-hampshire",
+    "type": "town",
+    "parentId": 33,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 102,
+    "name": "River Crossing",
+    "handle": "river-crossing",
+    "type": "town",
+    "parentId": 18,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 103,
+    "name": "Santo Donato",
+    "handle": "santo-donato",
+    "type": "town",
+    "parentId": 20,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 104,
+    "name": "Sarasota, Florida",
+    "handle": "sarasota-florida",
+    "type": "town",
+    "parentId": 23,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 105,
+    "name": "Shoyo, Arkansas",
+    "handle": "shoyo-arkansas",
+    "type": "town",
+    "parentId": 19,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 106,
+    "name": "Sidewinder, Colorado",
+    "handle": "sidewinder-colorado",
+    "type": "town",
+    "parentId": 21,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 107,
+    "name": "South Gansett, New Hampshire",
+    "handle": "south-gansett-new-hampshire",
+    "type": "town",
+    "parentId": 33,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 108,
+    "name": "Stovington, Vermont",
+    "handle": "stovington-vermont",
+    "type": "town",
+    "parentId": 39,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 109,
+    "name": "Tarker's Mill, Maine",
+    "handle": "tarker-s-mill-maine",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 110,
+    "name": "Tashmore, Maine",
+    "handle": "tashmore-maine",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 111,
+    "name": "Taunton",
+    "handle": "taunton",
+    "type": "town",
+    "parentId": 17,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 112,
+    "name": "Tejuas",
+    "handle": "tejuas",
+    "type": "town",
+    "parentId": 18,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 113,
+    "name": "Tinnock Village, Maine",
+    "handle": "tinnock-village-maine",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 114,
+    "name": "TR-90, Maine",
+    "handle": "tr-90-maine",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 115,
+    "name": "Trimbull, New Hampshire",
+    "handle": "trimbull-new-hampshire",
+    "type": "town",
+    "parentId": 33,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 116,
+    "name": "Tull",
+    "handle": "tull",
+    "type": "town",
+    "parentId": 18,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 117,
+    "name": "Waterville, Maine",
+    "handle": "waterville-maine",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 118,
+    "name": "Westover, Maine",
+    "handle": "westover-maine",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 119,
+    "name": "Yarmouth, Maine",
+    "handle": "yarmouth-maine",
+    "type": "town",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 120,
+    "name": "Ackerman's Field",
+    "handle": "ackerman-s-field",
+    "type": "landmark",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 121,
+    "name": "Castle Lake",
+    "handle": "castle-lake",
+    "type": "landmark",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 122,
+    "name": "Cyclopean Mountains",
+    "handle": "cyclopean-mountains",
+    "type": "landmark",
+    "parentId": 18,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 123,
+    "name": "Dark Score Lake",
+    "handle": "dark-score-lake",
+    "type": "landmark",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 124,
+    "name": "Desatoya Mountains",
+    "handle": "desatoya-mountains",
+    "type": "landmark",
+    "parentId": 32,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 125,
+    "name": "Dingle Nook",
+    "handle": "dingle-nook",
+    "type": "landmark",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 126,
+    "name": "Rattlesnake Key",
+    "handle": "rattlesnake-key",
+    "type": "landmark",
+    "parentId": 23,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 127,
+    "name": "Second Horizons",
+    "handle": "second-horizons",
+    "type": "landmark",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 128,
+    "name": "Cold Mountain Penitentiary",
+    "handle": "cold-mountain-penitentiary",
+    "type": "building",
+    "parentId": 27,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 129,
+    "name": "Cumberland Consolidated High School",
+    "handle": "cumberland-consolidated-high-school",
+    "type": "building",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 130,
+    "name": "Dogan",
+    "handle": "dogan",
+    "type": "building",
+    "parentId": 18,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 131,
+    "name": "Le Casse Roi Russe",
+    "handle": "le-casse-roi-russe",
+    "type": "building",
+    "parentId": 16,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 132,
+    "name": "Mills High School",
+    "handle": "mills-high-school",
+    "type": "building",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 133,
+    "name": "Overlook Hotel",
+    "handle": "overlook-hotel",
+    "type": "building",
+    "parentId": 21,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 134,
+    "name": "Shawshank State Prison",
+    "handle": "shawshank-state-prison",
+    "type": "building",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 135,
+    "name": "South Windham Boys' Training Facility",
+    "handle": "south-windham-boys-training-facility",
+    "type": "building",
+    "parentId": 28,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 136,
+    "name": "Gilead",
+    "handle": "gilead",
+    "type": "town",
+    "parentId": 44,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 137,
+    "name": "Hambry, Mejis",
+    "handle": "hambry-mejis",
+    "type": "town",
+    "parentId": 42,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 138,
+    "name": "Hemingford City, Nebraska",
+    "handle": "hemingford-city-nebraska",
+    "type": "town",
+    "parentId": 41,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 139,
+    "name": "Hemingford Home, Nebraska",
+    "handle": "hemingford-home-nebraska",
+    "type": "town",
+    "parentId": 41,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 140,
+    "name": "Black Ridge",
+    "handle": "black-ridge",
+    "type": "landmark",
+    "parentId": 58,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 141,
+    "name": "Carbine Street",
+    "handle": "carbine-street",
+    "type": "landmark",
+    "parentId": 55,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 142,
+    "name": "Dead Man's Trail",
+    "handle": "dead-man-s-trail",
+    "type": "landmark",
+    "parentId": 96,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 143,
+    "name": "Derry Cemetery",
+    "handle": "derry-cemetery",
+    "type": "landmark",
+    "parentId": 62,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 144,
+    "name": "Hammock Beach, Maine",
+    "handle": "hammock-beach-maine",
+    "type": "landmark",
+    "parentId": 88,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 145,
+    "name": "Harmony Hill Cemetery",
+    "handle": "harmony-hill-cemetery",
+    "type": "landmark",
+    "parentId": 76,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 146,
+    "name": "Joyland Park",
+    "handle": "joyland-park",
+    "type": "landmark",
+    "parentId": 75,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 147,
+    "name": "Lake East Point",
+    "handle": "lake-east-point",
+    "type": "landmark",
+    "parentId": 58,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 148,
+    "name": "Little Hay Beach",
+    "handle": "little-hay-beach",
+    "type": "landmark",
+    "parentId": 88,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 149,
+    "name": "Moose Cove",
+    "handle": "moose-cove",
+    "type": "landmark",
+    "parentId": 88,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 150,
+    "name": "Pennywise's Lair",
+    "handle": "pennywise-s-lair",
+    "type": "landmark",
+    "parentId": 62,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 151,
+    "name": "Seaview Cemetery",
+    "handle": "seaview-cemetery",
+    "type": "landmark",
+    "parentId": 113,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 152,
+    "name": "Sixth Street Bridge",
+    "handle": "sixth-street-bridge",
+    "type": "landmark",
+    "parentId": 58,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 153,
+    "name": "Tashmore Lake",
+    "handle": "tashmore-lake",
+    "type": "landmark",
+    "parentId": 110,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 154,
+    "name": "Tracker Brothers (baseball field)",
+    "handle": "tracker-brothers-baseball-field",
+    "type": "landmark",
+    "parentId": 62,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 155,
+    "name": "Augusta Veterinary Clinic",
+    "handle": "augusta-veterinary-clinic",
+    "type": "building",
+    "parentId": 46,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 156,
+    "name": "Big Lost Weekend Bar & Grille",
+    "handle": "big-lost-weekend-bar-grille",
+    "type": "building",
+    "parentId": 46,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 157,
+    "name": "Brock Street School",
+    "handle": "brock-street-school",
+    "type": "building",
+    "parentId": 76,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 158,
+    "name": "Castle Rock High School",
+    "handle": "castle-rock-high-school",
+    "type": "building",
+    "parentId": 55,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 159,
+    "name": "Castle Rock Middle School",
+    "handle": "castle-rock-middle-school",
+    "type": "building",
+    "parentId": 55,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 160,
+    "name": "Catherine Russell Hospital",
+    "handle": "catherine-russell-hospital",
+    "type": "building",
+    "parentId": 58,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 161,
+    "name": "Denbrough House",
+    "handle": "denbrough-house",
+    "type": "building",
+    "parentId": 62,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 162,
+    "name": "Derry Civic Center",
+    "handle": "derry-civic-center",
+    "type": "building",
+    "parentId": 62,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 163,
+    "name": "Derry High School",
+    "handle": "derry-high-school",
+    "type": "building",
+    "parentId": 62,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 164,
+    "name": "Derry Public Library",
+    "handle": "derry-public-library",
+    "type": "building",
+    "parentId": 62,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 165,
+    "name": "East Street Grammar School",
+    "handle": "east-street-grammar-school",
+    "type": "building",
+    "parentId": 58,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 166,
+    "name": "Ed Smith Stadium",
+    "handle": "ed-smith-stadium",
+    "type": "building",
+    "parentId": 104,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 167,
+    "name": "Harrison State College",
+    "handle": "harrison-state-college",
+    "type": "building",
+    "parentId": 71,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 168,
+    "name": "Hotel Dolphin",
+    "handle": "hotel-dolphin",
+    "type": "building",
+    "parentId": 90,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 169,
+    "name": "Jerusalem's Lot Public Library",
+    "handle": "jerusalem-s-lot-public-library",
+    "type": "building",
+    "parentId": 76,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 170,
+    "name": "Marsten House",
+    "handle": "marsten-house",
+    "type": "building",
+    "parentId": 76,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 171,
+    "name": "Ottershaw Christian Home for Boys",
+    "handle": "ottershaw-christian-home-for-boys",
+    "type": "building",
+    "parentId": 60,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 172,
+    "name": "Room 237",
+    "handle": "room-237",
+    "type": "building",
+    "parentId": 133,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 173,
+    "name": "Stanley Street Elementary School",
+    "handle": "stanley-street-elementary-school",
+    "type": "building",
+    "parentId": 76,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 174,
+    "name": "Tashmore Methodist Church",
+    "handle": "tashmore-methodist-church",
+    "type": "building",
+    "parentId": 110,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 175,
+    "name": "The Cavalier Bar",
+    "handle": "the-cavalier-bar",
+    "type": "building",
+    "parentId": 57,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 176,
+    "name": "The Club",
+    "handle": "the-club",
+    "type": "building",
+    "parentId": 90,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 177,
+    "name": "The Falcon",
+    "handle": "the-falcon",
+    "type": "building",
+    "parentId": 62,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 178,
+    "name": "The Slumberland Motel",
+    "handle": "the-slumberland-motel",
+    "type": "building",
+    "parentId": 73,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 179,
+    "name": "The Standpipe",
+    "handle": "the-standpipe",
+    "type": "building",
+    "parentId": 62,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 180,
+    "name": "The Way Station",
+    "handle": "the-way-station",
+    "type": "building",
+    "parentId": 43,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 181,
+    "name": "Thomas Ewen Consolidated High School",
+    "handle": "thomas-ewen-consolidated-high-school",
+    "type": "building",
+    "parentId": 57,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 182,
+    "name": "WCIK",
+    "handle": "wcik",
+    "type": "building",
+    "parentId": 58,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 183,
+    "name": "Well House",
+    "handle": "well-house",
+    "type": "building",
+    "parentId": 62,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  },
+  {
+    "id": 184,
+    "name": "WomanCare",
+    "handle": "womancare",
+    "type": "building",
+    "parentId": 62,
+    "created_at": "2026-10-28T20:25:46.000Z"
+  }
+]

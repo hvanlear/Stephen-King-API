@@ -57,12 +57,13 @@ Other commands:
 
 ## Adding or Fixing Data
 
-The data lives in three files: `catalog/books.json`, `catalog/shorts.json` and `catalog/villains.json`. The API serves the records as they are, so a change to a file is a change to the API.
+The data lives in four files: `catalog/books.json`, `catalog/shorts.json`, `catalog/villains.json` and `catalog/places.json`. The API serves the records as they are, so a change to a file is a change to the API. Places aren't served yet.
 
 1. **To fix a record**, edit its fields in place.
 1. **To add a record**, copy an existing record from the same file to the end of the list, so the field names and order match. Give it the next id: one higher than the last id in the file. Book ids 64–72 are skipped, because the old database used them. Set `created_at` to the current UTC time, like `2026-10-26T18:00:00.000Z`. The `handle` is the title in lowercase with hyphens, like `the-shining`.
 1. **Never change or remove an id.** Apps save links like `/api/book/3`, and those have to keep pointing at the same book.
 1. **To link a villain** to the works it appears in, list their `handle`s in the villain's `appears_in`. Books and shorts get their `villains` links from that list.
+1. **To add a place**, give it a `type` (world, region, country, state, town, landmark or building) and the `parentId` of the place it's in: Marsten House is in Jerusalem's Lot, Maine, which is in Maine. Use `null` for a place the stories don't put anywhere named.
 1. **Run `npm run validate-data`** and fix anything it reports.
 1. **Update the test snapshots** with `npx ts-node test/contract/capture.ts --local`. The tests compare responses against them, so every data change shows up there too. Check that the diff only shows your change.
 1. **Open a pull request.** CI runs the build, the tests and the data check. The PR can't be merged until they all pass.

@@ -266,7 +266,7 @@
     "name": "Isaac Chroner",
     "gender": "Male",
     "status": "Alive",
-    "types_id": 6,
+    "types_id": 1,
     "appears_in": [
       "children-of-the-corn"
     ],
@@ -678,7 +678,7 @@
     "name": "Rose the Hat",
     "gender": "Female",
     "status": "Deceased",
-    "types_id": 1,
+    "types_id": 2,
     "appears_in": [
       "doctor-sleep"
     ],
@@ -884,7 +884,7 @@
     "name": "Leland Gaunt",
     "gender": "Male",
     "status": "Alive",
-    "types_id": 6,
+    "types_id": 3,
     "appears_in": [
       "needful-things"
     ],
@@ -2619,7 +2619,7 @@
     "name": "Barry",
     "gender": "Male",
     "status": "Deceased",
-    "types_id": 1,
+    "types_id": 2,
     "appears_in": [
       "doctor-sleep"
     ],
@@ -2795,7 +2795,7 @@
     "name": "Crow Daddy",
     "gender": "Male",
     "status": "Deceased",
-    "types_id": 1,
+    "types_id": 2,
     "appears_in": [
       "doctor-sleep"
     ],
@@ -2936,7 +2936,7 @@
     "name": "Grampa Flick",
     "gender": "Male",
     "status": "Deceased",
-    "types_id": 1,
+    "types_id": 2,
     "appears_in": [
       "doctor-sleep"
     ],
@@ -3025,7 +3025,7 @@
     "name": "Jimmy Numbers",
     "gender": "Male",
     "status": "Deceased",
-    "types_id": 1,
+    "types_id": 2,
     "appears_in": [
       "doctor-sleep"
     ],
@@ -3454,7 +3454,7 @@
     "name": "Snakebite Andi",
     "gender": "Female",
     "status": "Deceased",
-    "types_id": 1,
+    "types_id": 2,
     "appears_in": [
       "doctor-sleep"
     ],
@@ -3649,7 +3649,7 @@
     "name": "Walnut",
     "gender": "Male",
     "status": "Deceased",
-    "types_id": 1,
+    "types_id": 2,
     "appears_in": [
       "doctor-sleep"
     ],

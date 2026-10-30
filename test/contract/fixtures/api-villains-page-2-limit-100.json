@@ -559,7 +559,7 @@
         "name": "Barry",
         "gender": "Male",
         "status": "Deceased",
-        "types_id": 1,
+        "types_id": 2,
         "notes": [
           "Deceased Characters",
           "Antagonists",
@@ -780,7 +780,7 @@
         "name": "Crow Daddy",
         "gender": "Male",
         "status": "Deceased",
-        "types_id": 1,
+        "types_id": 2,
         "notes": [
           "Antagonists",
           "Doctor Sleep",
@@ -960,7 +960,7 @@
         "name": "Grampa Flick",
         "gender": "Male",
         "status": "Deceased",
-        "types_id": 1,
+        "types_id": 2,
         "notes": [
           "Antagonists",
           "Doctor Sleep",
@@ -1072,7 +1072,7 @@
         "name": "Jimmy Numbers",
         "gender": "Male",
         "status": "Deceased",
-        "types_id": 1,
+        "types_id": 2,
         "notes": [
           "Antagonists",
           "Deceased Characters",
@@ -1607,7 +1607,7 @@
         "name": "Snakebite Andi",
         "gender": "Female",
         "status": "Deceased",
-        "types_id": 1,
+        "types_id": 2,
         "notes": [
           "Antagonists",
           "Deceased Characters",
@@ -1851,7 +1851,7 @@
         "name": "Walnut",
         "gender": "Male",
         "status": "Deceased",
-        "types_id": 1,
+        "types_id": 2,
         "notes": [
           "Deceased Characters",
           "Antagonists",

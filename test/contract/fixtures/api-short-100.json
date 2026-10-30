@@ -9,6 +9,10 @@
       "handle": "morning-deliveries-milkman-1-",
       "originallyPublishedIn": "Skeleton Crew (June 1985)",
       "collectedIn": "Skeleton Crew (1985)",
+      "collection": {
+        "name": "Skeleton Crew",
+        "url": "https://stephen-king-api.onrender.com/api/collection/4"
+      },
       "notes": [],
       "year": 1985,
       "created_at": "2023-11-13T23:49:08.643Z",

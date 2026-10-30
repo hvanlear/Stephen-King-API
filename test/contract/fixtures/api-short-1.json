@@ -9,6 +9,10 @@
       "handle": "land-of-1-000-000-years-ago",
       "originallyPublishedIn": "",
       "collectedIn": "Uncollected",
+      "collection": {
+        "name": "Uncollected",
+        "url": "https://stephen-king-api.onrender.com/api/collection/16"
+      },
       "notes": [
         "Self-published"
       ],

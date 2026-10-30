@@ -9,6 +9,7 @@ type FieldRule =
   | "id"
   | "nullable id"
   | "integer"
+  | "nullable integer"
   | "text" // non-empty string
   | "string" // may be empty
   | "nullable text"
@@ -69,6 +70,8 @@ export const SPECS: Record<string, FileSpec> = {
       handle: "text",
       originallyPublishedIn: "string",
       collectedIn: "string",
+      // A collection handle, served as a link
+      collection: "text",
       notes: "list",
       year: "integer",
       created_at: "timestamp",
@@ -129,6 +132,20 @@ export const SPECS: Record<string, FileSpec> = {
     // villain, so 5 stays unused rather than coming back meaning something else.
     retiredIds: [5],
   },
+  "collections.json": {
+    label: "collection",
+    nameField: "name",
+    identity: "handle",
+    fields: {
+      id: "id",
+      name: "text",
+      handle: "text",
+      // null for the shorts that were never collected
+      year: "nullable integer",
+      created_at: "timestamp",
+    },
+    unique: ["id", "handle", "name"],
+  },
 };
 
 // File name → parsed contents
@@ -161,6 +178,8 @@ function checkField(rule: FieldRule, value: unknown): string | null {
         : "must be null or a positive whole number";
     case "integer":
       return Number.isSafeInteger(value) ? null : "must be a whole number";
+    case "nullable integer":
+      return value === null || Number.isSafeInteger(value) ? null : "must be null or a whole number";
     case "text":
       return isText(value)
         ? null
@@ -286,6 +305,7 @@ export function validate(catalog: Catalog, base?: Catalog): string[] {
   const typeHandles = new Set(Array.isArray(types) ? types.map((type: CatalogRecord) => type?.handle) : []);
   errors.push(...checkHandles(catalog, "villains.json", "kinds", typeHandles, "type"));
   errors.push(...checkVillainTypes(catalog["villains.json"], types));
+  errors.push(...checkCollections(catalog["shorts.json"], catalog["collections.json"], catalog["books.json"]));
 
   errors.push(...checkParents("places.json", places));
   errors.push(...checkParents("types.json", types));
@@ -363,6 +383,46 @@ function checkVillainTypes(villains: unknown, types: unknown): string[] {
       }
     }
   });
+  return errors;
+}
+
+// A short's collection has to exist and say the same as its collectedIn
+// text, such as "Night Shift (1978)", so the two can't drift apart. A
+// collection that shares a handle with a book links to it, so it has to be
+// that book.
+function checkCollections(shorts: unknown, collections: unknown, books: unknown): string[] {
+  if (!Array.isArray(shorts) || !Array.isArray(collections)) {
+    return [];
+  }
+  const errors: string[] = [];
+  const byHandle = new Map<unknown, CatalogRecord>(
+    collections.map((collection: CatalogRecord) => [collection?.handle, collection])
+  );
+  const label = (collection: CatalogRecord) =>
+    collection.year === null ? collection.name : `${collection.name} (${collection.year})`;
+  shorts.forEach((short: CatalogRecord, index) => {
+    if (typeof short?.collection !== "string") {
+      return;
+    }
+    const where = `catalog/shorts.json: short ${short.id ?? `at position ${index}`} (${JSON.stringify(short.title)})`;
+    const collection = byHandle.get(short.collection);
+    if (!collection) {
+      errors.push(`${where}: collection ${JSON.stringify(short.collection)} doesn't match any collection handle`);
+    } else if (short.collectedIn !== label(collection)) {
+      errors.push(`${where}: collectedIn ${JSON.stringify(short.collectedIn)} should be ${JSON.stringify(label(collection))}, to match its collection`);
+    }
+  });
+  const booksByHandle = new Map<unknown, CatalogRecord>(
+    Array.isArray(books) ? books.map((book: CatalogRecord) => [book?.handle, book]) : []
+  );
+  for (const collection of collections as CatalogRecord[]) {
+    const book = booksByHandle.get(collection?.handle);
+    if (book && (book.Title !== collection.name || book.Year !== collection.year)) {
+      errors.push(
+        `catalog/collections.json: collection ${collection.id} (${JSON.stringify(collection.name)}): handle ${JSON.stringify(collection.handle)} is also used by book ${book.id} (${JSON.stringify(book.Title)}, ${book.Year}), so it would link to that book`
+      );
+    }
+  }
   return errors;
 }
 

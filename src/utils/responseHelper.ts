@@ -4,11 +4,13 @@ import {
   Villain,
   Place,
   Type,
+  Collection,
   books,
   shorts,
   villains,
   places,
   types,
+  collections,
   villainIdsByBook,
   villainIdsByShort,
   bookIdsByVillain,
@@ -23,6 +25,10 @@ import {
   typeIdsByParent,
   villainIdsByType,
   kindIdsByVillain,
+  shortIdsByCollection,
+  collectionIdByShort,
+  collectionIdByBook,
+  bookIdByCollection,
 } from "../catalog";
 import config from "../config";
 
@@ -33,6 +39,7 @@ const bookTitles = new Map(books.map((b) => [b.id, b.Title]));
 const shortTitles = new Map(shorts.map((s) => [s.id, s.title]));
 const placeNames = new Map(places.map((p) => [p.id, p.name]));
 const typeNames = new Map(types.map((t) => [t.id, t.name]));
+const collectionNames = new Map(collections.map((c) => [c.id, c.name]));
 
 const villainLinks = (ids: number[] = []) =>
   ids.map((id) => ({
@@ -52,14 +59,23 @@ const typeLinks = (ids: number[] = []) =>
     url: `${URL}/api/type/${id}`,
   }));
 
+// One link, or null where there isn't one, as for most books
+const collectionLink = (id: number | undefined) =>
+  id === undefined
+    ? null
+    : { name: collectionNames.get(id), url: `${URL}/api/collection/${id}` };
+
 export const bookResponse = (book: Book) => ({
   ...book,
   villains: villainLinks(villainIdsByBook.get(book.id)),
   places: placeLinks(placeIdsByBook.get(book.id)),
+  collection: collectionLink(collectionIdByBook.get(book.id)),
 });
 
+// collection holds a handle, which is served as a link in the same place
 export const shortResponse = (short: Short) => ({
   ...short,
+  collection: collectionLink(collectionIdByShort.get(short.id)),
   villains: villainLinks(villainIdsByShort.get(short.id)),
   places: placeLinks(placeIdsByShort.get(short.id)),
 });
@@ -103,3 +119,13 @@ export const typeResponse = ({ parentId, ...type }: Type) => ({
   types: typeLinks(typeIdsByParent.get(type.id)),
   villains: villainLinks(villainIdsByType.get(type.id)),
 });
+
+// A collection that's also a catalog book links to it
+export const collectionResponse = (collection: Collection) => {
+  const bookId = bookIdByCollection.get(collection.id);
+  return {
+    ...collection,
+    book: bookId === undefined ? null : bookLinks([bookId])[0],
+    shorts: shortLinks(shortIdsByCollection.get(collection.id)),
+  };
+};

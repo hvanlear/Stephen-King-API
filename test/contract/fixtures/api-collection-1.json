@@ -1,0 +1,96 @@
+{
+  "path": "/api/collection/1",
+  "status": 200,
+  "body": {
+    "data": {
+      "id": 1,
+      "name": "Night Shift",
+      "handle": "night-shift",
+      "year": 1978,
+      "created_at": "2026-10-30T01:26:00.000Z",
+      "book": null,
+      "shorts": [
+        {
+          "title": "Strawberry Spring",
+          "url": "https://stephen-king-api.onrender.com/api/short/23"
+        },
+        {
+          "title": "Night Surf",
+          "url": "https://stephen-king-api.onrender.com/api/short/24"
+        },
+        {
+          "title": "Graveyard Shift",
+          "url": "https://stephen-king-api.onrender.com/api/short/29"
+        },
+        {
+          "title": "I Am the Doorway",
+          "url": "https://stephen-king-api.onrender.com/api/short/34"
+        },
+        {
+          "title": "Battleground",
+          "url": "https://stephen-king-api.onrender.com/api/short/41"
+        },
+        {
+          "title": "The Mangler",
+          "url": "https://stephen-king-api.onrender.com/api/short/42"
+        },
+        {
+          "title": "The Boogeyman",
+          "url": "https://stephen-king-api.onrender.com/api/short/43"
+        },
+        {
+          "title": "Trucks",
+          "url": "https://stephen-king-api.onrender.com/api/short/44"
+        },
+        {
+          "title": "Gray Matter",
+          "url": "https://stephen-king-api.onrender.com/api/short/45"
+        },
+        {
+          "title": "Sometimes They Come Back",
+          "url": "https://stephen-king-api.onrender.com/api/short/47"
+        },
+        {
+          "title": "The Lawnmower Man",
+          "url": "https://stephen-king-api.onrender.com/api/short/48"
+        },
+        {
+          "title": "The Ledge",
+          "url": "https://stephen-king-api.onrender.com/api/short/51"
+        },
+        {
+          "title": "I Know What You Need",
+          "url": "https://stephen-king-api.onrender.com/api/short/52"
+        },
+        {
+          "title": "Children of the Corn",
+          "url": "https://stephen-king-api.onrender.com/api/short/53"
+        },
+        {
+          "title": "One for the Road",
+          "url": "https://stephen-king-api.onrender.com/api/short/54"
+        },
+        {
+          "title": "The Man Who Loved Flowers",
+          "url": "https://stephen-king-api.onrender.com/api/short/57"
+        },
+        {
+          "title": "Jerusalem's Lot",
+          "url": "https://stephen-king-api.onrender.com/api/short/58"
+        },
+        {
+          "title": "The Last Rung on the Ladder",
+          "url": "https://stephen-king-api.onrender.com/api/short/59"
+        },
+        {
+          "title": "Quitters, Inc.",
+          "url": "https://stephen-king-api.onrender.com/api/short/60"
+        },
+        {
+          "title": "The Woman in the Room",
+          "url": "https://stephen-king-api.onrender.com/api/short/61"
+        }
+      ]
+    }
+  }
+}

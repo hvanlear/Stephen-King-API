@@ -1,0 +1,1072 @@
+{
+  "path": "/api/collections",
+  "status": 200,
+  "body": {
+    "data": [
+      {
+        "id": 1,
+        "name": "Night Shift",
+        "handle": "night-shift",
+        "year": 1978,
+        "created_at": "2026-10-30T01:26:00.000Z",
+        "book": null,
+        "shorts": [
+          {
+            "title": "Strawberry Spring",
+            "url": "https://stephen-king-api.onrender.com/api/short/23"
+          },
+          {
+            "title": "Night Surf",
+            "url": "https://stephen-king-api.onrender.com/api/short/24"
+          },
+          {
+            "title": "Graveyard Shift",
+            "url": "https://stephen-king-api.onrender.com/api/short/29"
+          },
+          {
+            "title": "I Am the Doorway",
+            "url": "https://stephen-king-api.onrender.com/api/short/34"
+          },
+          {
+            "title": "Battleground",
+            "url": "https://stephen-king-api.onrender.com/api/short/41"
+          },
+          {
+            "title": "The Mangler",
+            "url": "https://stephen-king-api.onrender.com/api/short/42"
+          },
+          {
+            "title": "The Boogeyman",
+            "url": "https://stephen-king-api.onrender.com/api/short/43"
+          },
+          {
+            "title": "Trucks",
+            "url": "https://stephen-king-api.onrender.com/api/short/44"
+          },
+          {
+            "title": "Gray Matter",
+            "url": "https://stephen-king-api.onrender.com/api/short/45"
+          },
+          {
+            "title": "Sometimes They Come Back",
+            "url": "https://stephen-king-api.onrender.com/api/short/47"
+          },
+          {
+            "title": "The Lawnmower Man",
+            "url": "https://stephen-king-api.onrender.com/api/short/48"
+          },
+          {
+            "title": "The Ledge",
+            "url": "https://stephen-king-api.onrender.com/api/short/51"
+          },
+          {
+            "title": "I Know What You Need",
+            "url": "https://stephen-king-api.onrender.com/api/short/52"
+          },
+          {
+            "title": "Children of the Corn",
+            "url": "https://stephen-king-api.onrender.com/api/short/53"
+          },
+          {
+            "title": "One for the Road",
+            "url": "https://stephen-king-api.onrender.com/api/short/54"
+          },
+          {
+            "title": "The Man Who Loved Flowers",
+            "url": "https://stephen-king-api.onrender.com/api/short/57"
+          },
+          {
+            "title": "Jerusalem's Lot",
+            "url": "https://stephen-king-api.onrender.com/api/short/58"
+          },
+          {
+            "title": "The Last Rung on the Ladder",
+            "url": "https://stephen-king-api.onrender.com/api/short/59"
+          },
+          {
+            "title": "Quitters, Inc.",
+            "url": "https://stephen-king-api.onrender.com/api/short/60"
+          },
+          {
+            "title": "The Woman in the Room",
+            "url": "https://stephen-king-api.onrender.com/api/short/61"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "The Dark Tower: The Gunslinger",
+        "handle": "the-dark-tower-the-gunslinger",
+        "year": 1982,
+        "created_at": "2026-10-30T01:26:00.000Z",
+        "book": {
+          "title": "The Dark Tower: The Gunslinger",
+          "url": "https://stephen-king-api.onrender.com/api/book/12"
+        },
+        "shorts": [
+          {
+            "title": "The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/short/64"
+          },
+          {
+            "title": "The Way Station",
+            "url": "https://stephen-king-api.onrender.com/api/short/69"
+          },
+          {
+            "title": "The Oracle and the Mountains",
+            "url": "https://stephen-king-api.onrender.com/api/short/73"
+          },
+          {
+            "title": "The Slow Mutants",
+            "url": "https://stephen-king-api.onrender.com/api/short/75"
+          },
+          {
+            "title": "The Gunslinger and the Dark Man",
+            "url": "https://stephen-king-api.onrender.com/api/short/79"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Different Seasons",
+        "handle": "different-seasons",
+        "year": 1982,
+        "created_at": "2026-10-30T01:26:00.000Z",
+        "book": null,
+        "shorts": [
+          {
+            "title": "Apt Pupil",
+            "url": "https://stephen-king-api.onrender.com/api/short/83"
+          },
+          {
+            "title": "The Body",
+            "url": "https://stephen-king-api.onrender.com/api/short/84"
+          },
+          {
+            "title": "The Breathing Method",
+            "url": "https://stephen-king-api.onrender.com/api/short/85"
+          },
+          {
+            "title": "Rita Hayworth and Shawshank Redemption",
+            "url": "https://stephen-king-api.onrender.com/api/short/86"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Skeleton Crew",
+        "handle": "skeleton-crew",
+        "year": 1985,
+        "created_at": "2026-10-30T01:26:00.000Z",
+        "book": null,
+        "shorts": [
+          {
+            "title": "Cain Rose Up",
+            "url": "https://stephen-king-api.onrender.com/api/short/20"
+          },
+          {
+            "title": "Here There Be Tygers",
+            "url": "https://stephen-king-api.onrender.com/api/short/21"
+          },
+          {
+            "title": "The Reaper's Image",
+            "url": "https://stephen-king-api.onrender.com/api/short/25"
+          },
+          {
+            "title": "Nona",
+            "url": "https://stephen-king-api.onrender.com/api/short/63"
+          },
+          {
+            "title": "The Mist",
+            "url": "https://stephen-king-api.onrender.com/api/short/67"
+          },
+          {
+            "title": "Big Wheels: A Tale of the Laundry Game (Milkman #2)",
+            "url": "https://stephen-king-api.onrender.com/api/short/70"
+          },
+          {
+            "title": "The Monkey",
+            "url": "https://stephen-king-api.onrender.com/api/short/71"
+          },
+          {
+            "title": "The Wedding Gig",
+            "url": "https://stephen-king-api.onrender.com/api/short/72"
+          },
+          {
+            "title": "The Jaunt",
+            "url": "https://stephen-king-api.onrender.com/api/short/74"
+          },
+          {
+            "title": "The Man Who Would Not Shake Hands",
+            "url": "https://stephen-king-api.onrender.com/api/short/76"
+          },
+          {
+            "title": "The Reach",
+            "url": "https://stephen-king-api.onrender.com/api/short/80"
+          },
+          {
+            "title": "Survivor Type",
+            "url": "https://stephen-king-api.onrender.com/api/short/81"
+          },
+          {
+            "title": "The Raft",
+            "url": "https://stephen-king-api.onrender.com/api/short/87"
+          },
+          {
+            "title": "Word Processor of the Gods",
+            "url": "https://stephen-king-api.onrender.com/api/short/89"
+          },
+          {
+            "title": "Uncle Otto's Truck",
+            "url": "https://stephen-king-api.onrender.com/api/short/90"
+          },
+          {
+            "title": "Gramma",
+            "url": "https://stephen-king-api.onrender.com/api/short/93"
+          },
+          {
+            "title": "Mrs. Todd's Shortcut",
+            "url": "https://stephen-king-api.onrender.com/api/short/94"
+          },
+          {
+            "title": "The Ballad of the Flexible Bullet",
+            "url": "https://stephen-king-api.onrender.com/api/short/95"
+          },
+          {
+            "title": "Beachworld",
+            "url": "https://stephen-king-api.onrender.com/api/short/97"
+          },
+          {
+            "title": "For Owen",
+            "url": "https://stephen-king-api.onrender.com/api/short/99"
+          },
+          {
+            "title": "Morning Deliveries (Milkman #1)",
+            "url": "https://stephen-king-api.onrender.com/api/short/100"
+          },
+          {
+            "title": "Paranoid: A Chant",
+            "url": "https://stephen-king-api.onrender.com/api/short/101"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Four Past Midnight",
+        "handle": "four-past-midnight",
+        "year": 1990,
+        "created_at": "2026-10-30T01:26:00.000Z",
+        "book": null,
+        "shorts": [
+          {
+            "title": "The Langoliers",
+            "url": "https://stephen-king-api.onrender.com/api/short/114"
+          },
+          {
+            "title": "The Library Policeman",
+            "url": "https://stephen-king-api.onrender.com/api/short/115"
+          },
+          {
+            "title": "Secret Window, Secret Garden",
+            "url": "https://stephen-king-api.onrender.com/api/short/116"
+          },
+          {
+            "title": "The Sun Dog",
+            "url": "https://stephen-king-api.onrender.com/api/short/117"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Nightmares & Dreamscapes",
+        "handle": "nightmares-dreamscapes",
+        "year": 1993,
+        "created_at": "2026-10-30T01:26:00.000Z",
+        "book": null,
+        "shorts": [
+          {
+            "title": "Brooklyn August",
+            "url": "https://stephen-king-api.onrender.com/api/short/35"
+          },
+          {
+            "title": "Suffer the Little Children",
+            "url": "https://stephen-king-api.onrender.com/api/short/39"
+          },
+          {
+            "title": "The Fifth Quarter",
+            "url": "https://stephen-king-api.onrender.com/api/short/40"
+          },
+          {
+            "title": "It Grows on You",
+            "url": "https://stephen-king-api.onrender.com/api/short/46"
+          },
+          {
+            "title": "Crouch End",
+            "url": "https://stephen-king-api.onrender.com/api/short/68"
+          },
+          {
+            "title": "Dolan's Cadillac",
+            "url": "https://stephen-king-api.onrender.com/api/short/98"
+          },
+          {
+            "title": "The End of the Whole Mess",
+            "url": "https://stephen-king-api.onrender.com/api/short/103"
+          },
+          {
+            "title": "Popsy",
+            "url": "https://stephen-king-api.onrender.com/api/short/104"
+          },
+          {
+            "title": "The Doctor's Case",
+            "url": "https://stephen-king-api.onrender.com/api/short/105"
+          },
+          {
+            "title": "The Night Flier",
+            "url": "https://stephen-king-api.onrender.com/api/short/106"
+          },
+          {
+            "title": "Dedication",
+            "url": "https://stephen-king-api.onrender.com/api/short/107"
+          },
+          {
+            "title": "Sneakers",
+            "url": "https://stephen-king-api.onrender.com/api/short/109"
+          },
+          {
+            "title": "Rainy Season",
+            "url": "https://stephen-king-api.onrender.com/api/short/110"
+          },
+          {
+            "title": "Home Delivery",
+            "url": "https://stephen-king-api.onrender.com/api/short/111"
+          },
+          {
+            "title": "My Pretty Pony",
+            "url": "https://stephen-king-api.onrender.com/api/short/112"
+          },
+          {
+            "title": "The Moving Finger",
+            "url": "https://stephen-king-api.onrender.com/api/short/119"
+          },
+          {
+            "title": "You Know They Got a Hell of a Band",
+            "url": "https://stephen-king-api.onrender.com/api/short/120"
+          },
+          {
+            "title": "Chattery Teeth",
+            "url": "https://stephen-king-api.onrender.com/api/short/121"
+          },
+          {
+            "title": "The Beggar and the Diamond",
+            "url": "https://stephen-king-api.onrender.com/api/short/122"
+          },
+          {
+            "title": "The House on Maple Street",
+            "url": "https://stephen-king-api.onrender.com/api/short/123"
+          },
+          {
+            "title": "Sorry, Right Number",
+            "url": "https://stephen-king-api.onrender.com/api/short/124"
+          },
+          {
+            "title": "The Ten O'Clock People",
+            "url": "https://stephen-king-api.onrender.com/api/short/125"
+          },
+          {
+            "title": "Umney's Last Case",
+            "url": "https://stephen-king-api.onrender.com/api/short/126"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Hearts in Atlantis",
+        "handle": "hearts-in-atlantis",
+        "year": 1999,
+        "created_at": "2026-10-30T01:26:00.000Z",
+        "book": null,
+        "shorts": [
+          {
+            "title": "Blind Willie",
+            "url": "https://stephen-king-api.onrender.com/api/short/129"
+          },
+          {
+            "title": "Hearts in Atlantis",
+            "url": "https://stephen-king-api.onrender.com/api/short/142"
+          },
+          {
+            "title": "Heavenly Shades of Night Are Falling",
+            "url": "https://stephen-king-api.onrender.com/api/short/143"
+          },
+          {
+            "title": "Low Men in Yellow Coats",
+            "url": "https://stephen-king-api.onrender.com/api/short/144"
+          },
+          {
+            "title": "Why We're in Vietnam",
+            "url": "https://stephen-king-api.onrender.com/api/short/145"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Secret Windows",
+        "handle": "secret-windows",
+        "year": 2000,
+        "created_at": "2026-10-30T01:26:00.000Z",
+        "book": null,
+        "shorts": [
+          {
+            "title": "Jumper",
+            "url": "https://stephen-king-api.onrender.com/api/short/3"
+          },
+          {
+            "title": "Rush Call",
+            "url": "https://stephen-king-api.onrender.com/api/short/4"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Everything's Eventual",
+        "handle": "everything-s-eventual",
+        "year": 2002,
+        "created_at": "2026-10-30T01:26:00.000Z",
+        "book": null,
+        "shorts": [
+          {
+            "title": "The Man in the Black Suit",
+            "url": "https://stephen-king-api.onrender.com/api/short/130"
+          },
+          {
+            "title": "Luckey Quarter",
+            "url": "https://stephen-king-api.onrender.com/api/short/132"
+          },
+          {
+            "title": "Lunch at the Gotham Café",
+            "url": "https://stephen-king-api.onrender.com/api/short/133"
+          },
+          {
+            "title": "Autopsy Room Four",
+            "url": "https://stephen-king-api.onrender.com/api/short/134"
+          },
+          {
+            "title": "L. T.'s Theory of Pets",
+            "url": "https://stephen-king-api.onrender.com/api/short/135"
+          },
+          {
+            "title": "Everything's Eventual",
+            "url": "https://stephen-king-api.onrender.com/api/short/137"
+          },
+          {
+            "title": "That Feeling, You Can Only Say What It Is in French",
+            "url": "https://stephen-king-api.onrender.com/api/short/138"
+          },
+          {
+            "title": "The Little Sisters of Eluria",
+            "url": "https://stephen-king-api.onrender.com/api/short/139"
+          },
+          {
+            "title": "The Road Virus Heads North",
+            "url": "https://stephen-king-api.onrender.com/api/short/141"
+          },
+          {
+            "title": "1408",
+            "url": "https://stephen-king-api.onrender.com/api/short/146"
+          },
+          {
+            "title": "In the Deathroom",
+            "url": "https://stephen-king-api.onrender.com/api/short/147"
+          },
+          {
+            "title": "Riding the Bullet",
+            "url": "https://stephen-king-api.onrender.com/api/short/148"
+          },
+          {
+            "title": "All That You Love Will Be Carried Away",
+            "url": "https://stephen-king-api.onrender.com/api/short/150"
+          },
+          {
+            "title": "The Death of Jack Hamilton",
+            "url": "https://stephen-king-api.onrender.com/api/short/152"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Blaze",
+        "handle": "blaze",
+        "year": 2007,
+        "created_at": "2026-10-30T01:26:00.000Z",
+        "book": {
+          "title": "Blaze",
+          "url": "https://stephen-king-api.onrender.com/api/book/46"
+        },
+        "shorts": [
+          {
+            "title": "Memory",
+            "url": "https://stephen-king-api.onrender.com/api/short/160"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Just After Sunset",
+        "handle": "just-after-sunset",
+        "year": 2008,
+        "created_at": "2026-10-30T01:26:00.000Z",
+        "book": null,
+        "shorts": [
+          {
+            "title": "The Cat from Hell",
+            "url": "https://stephen-king-api.onrender.com/api/short/55"
+          },
+          {
+            "title": "Harvey's Dream",
+            "url": "https://stephen-king-api.onrender.com/api/short/154"
+          },
+          {
+            "title": "Stationary Bike",
+            "url": "https://stephen-king-api.onrender.com/api/short/155"
+          },
+          {
+            "title": "Rest Stop",
+            "url": "https://stephen-king-api.onrender.com/api/short/156"
+          },
+          {
+            "title": "The Things They Left Behind",
+            "url": "https://stephen-king-api.onrender.com/api/short/159"
+          },
+          {
+            "title": "Willa",
+            "url": "https://stephen-king-api.onrender.com/api/short/161"
+          },
+          {
+            "title": "Graduation Afternoon",
+            "url": "https://stephen-king-api.onrender.com/api/short/162"
+          },
+          {
+            "title": "The Gingerbread Girl",
+            "url": "https://stephen-king-api.onrender.com/api/short/163"
+          },
+          {
+            "title": "Ayana",
+            "url": "https://stephen-king-api.onrender.com/api/short/164"
+          },
+          {
+            "title": "Mute",
+            "url": "https://stephen-king-api.onrender.com/api/short/165"
+          },
+          {
+            "title": "A Very Tight Place",
+            "url": "https://stephen-king-api.onrender.com/api/short/166"
+          },
+          {
+            "title": "The New York Times at Special Bargain Rates",
+            "url": "https://stephen-king-api.onrender.com/api/short/167"
+          },
+          {
+            "title": "N.",
+            "url": "https://stephen-king-api.onrender.com/api/short/168"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Full Dark, No Stars",
+        "handle": "full-dark-no-stars",
+        "year": 2010,
+        "created_at": "2026-10-30T01:26:00.000Z",
+        "book": null,
+        "shorts": [
+          {
+            "title": "1922",
+            "url": "https://stephen-king-api.onrender.com/api/short/177"
+          },
+          {
+            "title": "Big Driver",
+            "url": "https://stephen-king-api.onrender.com/api/short/178"
+          },
+          {
+            "title": "Fair Extension",
+            "url": "https://stephen-king-api.onrender.com/api/short/179"
+          },
+          {
+            "title": "A Good Marriage",
+            "url": "https://stephen-king-api.onrender.com/api/short/180"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "The Bazaar of Bad Dreams",
+        "handle": "the-bazaar-of-bad-dreams",
+        "year": 2015,
+        "created_at": "2026-10-30T01:26:00.000Z",
+        "book": null,
+        "shorts": [
+          {
+            "title": "Ur",
+            "url": "https://stephen-king-api.onrender.com/api/short/170"
+          },
+          {
+            "title": "Morality",
+            "url": "https://stephen-king-api.onrender.com/api/short/171"
+          },
+          {
+            "title": "The Bone Church",
+            "url": "https://stephen-king-api.onrender.com/api/short/173"
+          },
+          {
+            "title": "Premium Harmony",
+            "url": "https://stephen-king-api.onrender.com/api/short/174"
+          },
+          {
+            "title": "Tommy",
+            "url": "https://stephen-king-api.onrender.com/api/short/175"
+          },
+          {
+            "title": "Blockade Billy",
+            "url": "https://stephen-king-api.onrender.com/api/short/176"
+          },
+          {
+            "title": "Herman Wouk Is Still Alive",
+            "url": "https://stephen-king-api.onrender.com/api/short/181"
+          },
+          {
+            "title": "Under the Weather",
+            "url": "https://stephen-king-api.onrender.com/api/short/182"
+          },
+          {
+            "title": "Mile 81",
+            "url": "https://stephen-king-api.onrender.com/api/short/183"
+          },
+          {
+            "title": "The Little Green God of Agony",
+            "url": "https://stephen-king-api.onrender.com/api/short/184"
+          },
+          {
+            "title": "The Dune",
+            "url": "https://stephen-king-api.onrender.com/api/short/185"
+          },
+          {
+            "title": "Batman and Robin Have an Altercation",
+            "url": "https://stephen-king-api.onrender.com/api/short/188"
+          },
+          {
+            "title": "Afterlife",
+            "url": "https://stephen-king-api.onrender.com/api/short/189"
+          },
+          {
+            "title": "Summer Thunder",
+            "url": "https://stephen-king-api.onrender.com/api/short/191"
+          },
+          {
+            "title": "Bad Little Kid",
+            "url": "https://stephen-king-api.onrender.com/api/short/192"
+          },
+          {
+            "title": "That Bus Is Another World",
+            "url": "https://stephen-king-api.onrender.com/api/short/193"
+          },
+          {
+            "title": "A Death",
+            "url": "https://stephen-king-api.onrender.com/api/short/194"
+          },
+          {
+            "title": "Drunken Fireworks",
+            "url": "https://stephen-king-api.onrender.com/api/short/195"
+          },
+          {
+            "title": "Mister Yummy",
+            "url": "https://stephen-king-api.onrender.com/api/short/196"
+          },
+          {
+            "title": "Obits",
+            "url": "https://stephen-king-api.onrender.com/api/short/197"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "If It Bleeds",
+        "handle": "if-it-bleeds",
+        "year": 2020,
+        "created_at": "2026-10-30T01:26:00.000Z",
+        "book": null,
+        "shorts": [
+          {
+            "title": "If It Bleeds",
+            "url": "https://stephen-king-api.onrender.com/api/short/207"
+          },
+          {
+            "title": "The Life of Chuck",
+            "url": "https://stephen-king-api.onrender.com/api/short/208"
+          },
+          {
+            "title": "Mr. Harrigan's Phone",
+            "url": "https://stephen-king-api.onrender.com/api/short/209"
+          },
+          {
+            "title": "Rat",
+            "url": "https://stephen-king-api.onrender.com/api/short/210"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "You Like It Darker",
+        "handle": "you-like-it-darker",
+        "year": 2024,
+        "created_at": "2026-10-30T01:26:00.000Z",
+        "book": null,
+        "shorts": [
+          {
+            "title": "Laurie",
+            "url": "https://stephen-king-api.onrender.com/api/short/202"
+          },
+          {
+            "title": "The Turbulence Expert",
+            "url": "https://stephen-king-api.onrender.com/api/short/204"
+          },
+          {
+            "title": "The Fifth Step",
+            "url": "https://stephen-king-api.onrender.com/api/short/206"
+          },
+          {
+            "title": "On Slide Inn Road",
+            "url": "https://stephen-king-api.onrender.com/api/short/211"
+          },
+          {
+            "title": "Willie the Weirdo",
+            "url": "https://stephen-king-api.onrender.com/api/short/212"
+          },
+          {
+            "title": "Red Screen",
+            "url": "https://stephen-king-api.onrender.com/api/short/213"
+          },
+          {
+            "title": "Finn",
+            "url": "https://stephen-king-api.onrender.com/api/short/214"
+          },
+          {
+            "title": "Two Talented Bastids",
+            "url": "https://stephen-king-api.onrender.com/api/short/215"
+          },
+          {
+            "title": "Danny Coughlin's Bad Dream",
+            "url": "https://stephen-king-api.onrender.com/api/short/216"
+          },
+          {
+            "title": "Rattlesnakes",
+            "url": "https://stephen-king-api.onrender.com/api/short/217"
+          },
+          {
+            "title": "The Dreamers",
+            "url": "https://stephen-king-api.onrender.com/api/short/218"
+          },
+          {
+            "title": "The Answer Man",
+            "url": "https://stephen-king-api.onrender.com/api/short/219"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Uncollected",
+        "handle": "uncollected",
+        "year": null,
+        "created_at": "2026-10-30T01:26:00.000Z",
+        "book": null,
+        "shorts": [
+          {
+            "title": "Land of 1,000,000 Years Ago",
+            "url": "https://stephen-king-api.onrender.com/api/short/1"
+          },
+          {
+            "title": "Thirty-One of the Classics",
+            "url": "https://stephen-king-api.onrender.com/api/short/2"
+          },
+          {
+            "title": "The Cursed Expedition",
+            "url": "https://stephen-king-api.onrender.com/api/short/5"
+          },
+          {
+            "title": "I've Got to Get Away!",
+            "url": "https://stephen-king-api.onrender.com/api/short/6"
+          },
+          {
+            "title": "Hotel at the End of the Road",
+            "url": "https://stephen-king-api.onrender.com/api/short/7"
+          },
+          {
+            "title": "Never Look Behind You",
+            "url": "https://stephen-king-api.onrender.com/api/short/8"
+          },
+          {
+            "title": "The Other Side of the Fog",
+            "url": "https://stephen-king-api.onrender.com/api/short/9"
+          },
+          {
+            "title": "The Stranger",
+            "url": "https://stephen-king-api.onrender.com/api/short/10"
+          },
+          {
+            "title": "The Thing at the Bottom of the Well",
+            "url": "https://stephen-king-api.onrender.com/api/short/11"
+          },
+          {
+            "title": "The Pit and the Pendulum",
+            "url": "https://stephen-king-api.onrender.com/api/short/12"
+          },
+          {
+            "title": "The Undead",
+            "url": "https://stephen-king-api.onrender.com/api/short/13"
+          },
+          {
+            "title": "Trigger Finger",
+            "url": "https://stephen-king-api.onrender.com/api/short/14"
+          },
+          {
+            "title": "The Star Invaders",
+            "url": "https://stephen-king-api.onrender.com/api/short/15"
+          },
+          {
+            "title": "Codename: Mousetrap",
+            "url": "https://stephen-king-api.onrender.com/api/short/16"
+          },
+          {
+            "title": "I Was a Teenage Grave Robber",
+            "url": "https://stephen-king-api.onrender.com/api/short/17"
+          },
+          {
+            "title": "The 43rd Dream",
+            "url": "https://stephen-king-api.onrender.com/api/short/18"
+          },
+          {
+            "title": "The Glass Floor",
+            "url": "https://stephen-king-api.onrender.com/api/short/19"
+          },
+          {
+            "title": "Harrison State Park '68",
+            "url": "https://stephen-king-api.onrender.com/api/short/22"
+          },
+          {
+            "title": "The Dark Man",
+            "url": "https://stephen-king-api.onrender.com/api/short/26"
+          },
+          {
+            "title": "Stud City",
+            "url": "https://stephen-king-api.onrender.com/api/short/27"
+          },
+          {
+            "title": "Slade",
+            "url": "https://stephen-king-api.onrender.com/api/short/28"
+          },
+          {
+            "title": "Donovan's Brain",
+            "url": "https://stephen-king-api.onrender.com/api/short/30"
+          },
+          {
+            "title": "Silence",
+            "url": "https://stephen-king-api.onrender.com/api/short/31"
+          },
+          {
+            "title": "The Blue Air Compressor",
+            "url": "https://stephen-king-api.onrender.com/api/short/32"
+          },
+          {
+            "title": "In the Key Chords of Dawn",
+            "url": "https://stephen-king-api.onrender.com/api/short/33"
+          },
+          {
+            "title": "She Has Gone to Sleep While...",
+            "url": "https://stephen-king-api.onrender.com/api/short/36"
+          },
+          {
+            "title": "Woman with Child",
+            "url": "https://stephen-king-api.onrender.com/api/short/37"
+          },
+          {
+            "title": "The Hardcase Speaks",
+            "url": "https://stephen-king-api.onrender.com/api/short/38"
+          },
+          {
+            "title": "The Revenge of Lard Ass Hogan",
+            "url": "https://stephen-king-api.onrender.com/api/short/49"
+          },
+          {
+            "title": "Weeds",
+            "url": "https://stephen-king-api.onrender.com/api/short/50"
+          },
+          {
+            "title": "The King Family and the Wicked Witch",
+            "url": "https://stephen-king-api.onrender.com/api/short/56"
+          },
+          {
+            "title": "The Night of the Tiger",
+            "url": "https://stephen-king-api.onrender.com/api/short/62"
+          },
+          {
+            "title": "Man With a Belly",
+            "url": "https://stephen-king-api.onrender.com/api/short/65"
+          },
+          {
+            "title": "The Crate",
+            "url": "https://stephen-king-api.onrender.com/api/short/66"
+          },
+          {
+            "title": "The Monster in the Closet",
+            "url": "https://stephen-king-api.onrender.com/api/short/77"
+          },
+          {
+            "title": "The Bird and the Album",
+            "url": "https://stephen-king-api.onrender.com/api/short/78"
+          },
+          {
+            "title": "Before the Play",
+            "url": "https://stephen-king-api.onrender.com/api/short/82"
+          },
+          {
+            "title": "Skybar",
+            "url": "https://stephen-king-api.onrender.com/api/short/88"
+          },
+          {
+            "title": "The Return of Timmy Baterman",
+            "url": "https://stephen-king-api.onrender.com/api/short/92"
+          },
+          {
+            "title": "The Revelations of 'Becka Paulson",
+            "url": "https://stephen-king-api.onrender.com/api/short/96"
+          },
+          {
+            "title": "For the Birds",
+            "url": "https://stephen-king-api.onrender.com/api/short/102"
+          },
+          {
+            "title": "The Reploids",
+            "url": "https://stephen-king-api.onrender.com/api/short/108"
+          },
+          {
+            "title": "An Evening at God's",
+            "url": "https://stephen-king-api.onrender.com/api/short/113"
+          },
+          {
+            "title": "The Bear",
+            "url": "https://stephen-king-api.onrender.com/api/short/118"
+          },
+          {
+            "title": "Jhonathan and the Witches",
+            "url": "https://stephen-king-api.onrender.com/api/short/127"
+          },
+          {
+            "title": "The Killer",
+            "url": "https://stephen-king-api.onrender.com/api/short/128"
+          },
+          {
+            "title": "Dino",
+            "url": "https://stephen-king-api.onrender.com/api/short/131"
+          },
+          {
+            "title": "General",
+            "url": "https://stephen-king-api.onrender.com/api/short/136"
+          },
+          {
+            "title": "The New Lieutenant's Rap",
+            "url": "https://stephen-king-api.onrender.com/api/short/140"
+          },
+          {
+            "title": "The Old Dude's Ticker",
+            "url": "https://stephen-king-api.onrender.com/api/short/149"
+          },
+          {
+            "title": "Calla Bryn Sturgis",
+            "url": "https://stephen-king-api.onrender.com/api/short/151"
+          },
+          {
+            "title": "The Tale of Gray Dick",
+            "url": "https://stephen-king-api.onrender.com/api/short/153"
+          },
+          {
+            "title": "Lisey and the Madman",
+            "url": "https://stephen-king-api.onrender.com/api/short/157"
+          },
+          {
+            "title": "The Furnace",
+            "url": "https://stephen-king-api.onrender.com/api/short/158"
+          },
+          {
+            "title": "Throttle",
+            "url": "https://stephen-king-api.onrender.com/api/short/169"
+          },
+          {
+            "title": "Mostly Old Men",
+            "url": "https://stephen-king-api.onrender.com/api/short/172"
+          },
+          {
+            "title": "In the Tall Grass",
+            "url": "https://stephen-king-api.onrender.com/api/short/186"
+          },
+          {
+            "title": "A Face in the Crowd",
+            "url": "https://stephen-king-api.onrender.com/api/short/187"
+          },
+          {
+            "title": "The Rock and Roll Dead Zone",
+            "url": "https://stephen-king-api.onrender.com/api/short/190"
+          },
+          {
+            "title": "Cookie Jar",
+            "url": "https://stephen-king-api.onrender.com/api/short/198"
+          },
+          {
+            "title": "The Music Room",
+            "url": "https://stephen-king-api.onrender.com/api/short/199"
+          },
+          {
+            "title": "Thin Scenery",
+            "url": "https://stephen-king-api.onrender.com/api/short/201"
+          },
+          {
+            "title": "Squad D",
+            "url": "https://stephen-king-api.onrender.com/api/short/205"
+          },
+          {
+            "title": "The Extra Hour",
+            "url": "https://stephen-king-api.onrender.com/api/short/220"
+          },
+          {
+            "title": "Dinah's Hat",
+            "url": "https://stephen-king-api.onrender.com/api/short/222"
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Uncollected (standalone book)",
+        "handle": "uncollected-standalone-book",
+        "year": null,
+        "created_at": "2026-10-30T01:26:00.000Z",
+        "book": null,
+        "shorts": [
+          {
+            "title": "Cycle of the Werewolf",
+            "url": "https://stephen-king-api.onrender.com/api/short/91"
+          },
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/short/200"
+          },
+          {
+            "title": "Elevation",
+            "url": "https://stephen-king-api.onrender.com/api/short/203"
+          },
+          {
+            "title": "Hansel and Gretel",
+            "url": "https://stephen-king-api.onrender.com/api/short/221"
+          }
+        ]
+      }
+    ]
+  }
+}

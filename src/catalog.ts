@@ -20,6 +20,7 @@ export interface Short {
   handle: string;
   originallyPublishedIn: string;
   collectedIn: string;
+  collection: string;
   notes: string[];
   year: number;
   created_at: string;
@@ -57,6 +58,14 @@ export interface Type {
   created_at: string;
 }
 
+export interface Collection {
+  id: number;
+  name: string;
+  handle: string;
+  year: number | null;
+  created_at: string;
+}
+
 // catalog/ sits next to both src/ and dist/
 const CATALOG_DIR = path.join(__dirname, "..", "catalog");
 
@@ -85,6 +94,7 @@ export const shorts = load<Short>("shorts.json");
 export const villains = load<Villain>("villains.json");
 export const places = load<Place>("places.json");
 export const types = load<Type>("types.json");
+export const collections = load<Collection>("collections.json");
 
 // Links come from each villain's appears_in handles. Building them in
 // villain order matches what Postgres returned: a book's villains are in
@@ -211,4 +221,30 @@ for (const villain of villains) {
     }
   }
   typeIds.forEach((id) => link(villainIdsByType, id, villain.id));
+}
+
+// Each short names the collection it was published in, so a collection lists
+// its shorts in short id order. A collection that's also a catalog book, such
+// as The Gunslinger, shares the book's handle, and the two link to each other.
+export const shortIdsByCollection = new Map<number, number[]>();
+export const collectionIdByShort = new Map<number, number>();
+export const collectionIdByBook = new Map<number, number>();
+export const bookIdByCollection = new Map<number, number>();
+
+const collectionIdsByHandle = new Map(collections.map((c) => [c.handle, c.id]));
+
+for (const short of shorts) {
+  const id = collectionIdsByHandle.get(short.collection);
+  if (id !== undefined) {
+    link(shortIdsByCollection, id, short.id);
+    collectionIdByShort.set(short.id, id);
+  }
+}
+
+for (const collection of collections) {
+  const book = bookWithHandle(collection.handle);
+  if (book) {
+    collectionIdByBook.set(book.id, collection.id);
+    bookIdByCollection.set(collection.id, book.id);
+  }
 }

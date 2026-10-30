@@ -171,6 +171,31 @@ describe("validate-data", () => {
     assertFlags(errors, /type 5 \("Group"\): id 5 was used by the old database and can't be reused$/);
   });
 
+  it("flags a short whose collection matches nothing", () => {
+    const errors = errorsAfter((c) => (c["shorts.json"][0].collection = "no-such-collection"));
+    assertFlags(errors, /^catalog\/shorts\.json: short 1 \(.*\): collection "no-such-collection" doesn't match any collection handle$/);
+  });
+
+  it("flags a short whose collectedIn disagrees with its collection", () => {
+    const errors = errorsAfter((c) => (c["shorts.json"][0].collection = "night-shift"));
+    assertFlags(errors, /short 1 \(.*\): collectedIn "Uncollected" should be "Night Shift \(1978\)", to match its collection$/);
+  });
+
+  it("flags a collection year that isn't a whole number", () => {
+    const errors = errorsAfter((c) => (c["collections.json"][0].year = "1978"));
+    assertFlags(errors, /collection 1 \("Night Shift"\): year must be null or a whole number$/);
+  });
+
+  it("flags a collection that shares a handle with a different book", () => {
+    const errors = errorsAfter((c) => (c["collections.json"][0].handle = "carrie"));
+    assertFlags(errors, /collection 1 \("Night Shift"\): handle "carrie" is also used by book 1 \("Carrie", 1974\), so it would link to that book$/);
+  });
+
+  it("flags a collection removed since the base", () => {
+    const errors = errorsAfter((c) => c["collections.json"].pop(), loadCatalog());
+    assertFlags(errors, /collection 17 \("Uncollected \(standalone book\)"\) was removed; ids must never disappear/);
+  });
+
   it("allows new records with new ids", () => {
     const errors = errorsAfter((c) => {
       const books = c["books.json"];

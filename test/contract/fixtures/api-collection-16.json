@@ -1,0 +1,276 @@
+{
+  "path": "/api/collection/16",
+  "status": 200,
+  "body": {
+    "data": {
+      "id": 16,
+      "name": "Uncollected",
+      "handle": "uncollected",
+      "year": null,
+      "created_at": "2026-10-30T01:26:00.000Z",
+      "book": null,
+      "shorts": [
+        {
+          "title": "Land of 1,000,000 Years Ago",
+          "url": "https://stephen-king-api.onrender.com/api/short/1"
+        },
+        {
+          "title": "Thirty-One of the Classics",
+          "url": "https://stephen-king-api.onrender.com/api/short/2"
+        },
+        {
+          "title": "The Cursed Expedition",
+          "url": "https://stephen-king-api.onrender.com/api/short/5"
+        },
+        {
+          "title": "I've Got to Get Away!",
+          "url": "https://stephen-king-api.onrender.com/api/short/6"
+        },
+        {
+          "title": "Hotel at the End of the Road",
+          "url": "https://stephen-king-api.onrender.com/api/short/7"
+        },
+        {
+          "title": "Never Look Behind You",
+          "url": "https://stephen-king-api.onrender.com/api/short/8"
+        },
+        {
+          "title": "The Other Side of the Fog",
+          "url": "https://stephen-king-api.onrender.com/api/short/9"
+        },
+        {
+          "title": "The Stranger",
+          "url": "https://stephen-king-api.onrender.com/api/short/10"
+        },
+        {
+          "title": "The Thing at the Bottom of the Well",
+          "url": "https://stephen-king-api.onrender.com/api/short/11"
+        },
+        {
+          "title": "The Pit and the Pendulum",
+          "url": "https://stephen-king-api.onrender.com/api/short/12"
+        },
+        {
+          "title": "The Undead",
+          "url": "https://stephen-king-api.onrender.com/api/short/13"
+        },
+        {
+          "title": "Trigger Finger",
+          "url": "https://stephen-king-api.onrender.com/api/short/14"
+        },
+        {
+          "title": "The Star Invaders",
+          "url": "https://stephen-king-api.onrender.com/api/short/15"
+        },
+        {
+          "title": "Codename: Mousetrap",
+          "url": "https://stephen-king-api.onrender.com/api/short/16"
+        },
+        {
+          "title": "I Was a Teenage Grave Robber",
+          "url": "https://stephen-king-api.onrender.com/api/short/17"
+        },
+        {
+          "title": "The 43rd Dream",
+          "url": "https://stephen-king-api.onrender.com/api/short/18"
+        },
+        {
+          "title": "The Glass Floor",
+          "url": "https://stephen-king-api.onrender.com/api/short/19"
+        },
+        {
+          "title": "Harrison State Park '68",
+          "url": "https://stephen-king-api.onrender.com/api/short/22"
+        },
+        {
+          "title": "The Dark Man",
+          "url": "https://stephen-king-api.onrender.com/api/short/26"
+        },
+        {
+          "title": "Stud City",
+          "url": "https://stephen-king-api.onrender.com/api/short/27"
+        },
+        {
+          "title": "Slade",
+          "url": "https://stephen-king-api.onrender.com/api/short/28"
+        },
+        {
+          "title": "Donovan's Brain",
+          "url": "https://stephen-king-api.onrender.com/api/short/30"
+        },
+        {
+          "title": "Silence",
+          "url": "https://stephen-king-api.onrender.com/api/short/31"
+        },
+        {
+          "title": "The Blue Air Compressor",
+          "url": "https://stephen-king-api.onrender.com/api/short/32"
+        },
+        {
+          "title": "In the Key Chords of Dawn",
+          "url": "https://stephen-king-api.onrender.com/api/short/33"
+        },
+        {
+          "title": "She Has Gone to Sleep While...",
+          "url": "https://stephen-king-api.onrender.com/api/short/36"
+        },
+        {
+          "title": "Woman with Child",
+          "url": "https://stephen-king-api.onrender.com/api/short/37"
+        },
+        {
+          "title": "The Hardcase Speaks",
+          "url": "https://stephen-king-api.onrender.com/api/short/38"
+        },
+        {
+          "title": "The Revenge of Lard Ass Hogan",
+          "url": "https://stephen-king-api.onrender.com/api/short/49"
+        },
+        {
+          "title": "Weeds",
+          "url": "https://stephen-king-api.onrender.com/api/short/50"
+        },
+        {
+          "title": "The King Family and the Wicked Witch",
+          "url": "https://stephen-king-api.onrender.com/api/short/56"
+        },
+        {
+          "title": "The Night of the Tiger",
+          "url": "https://stephen-king-api.onrender.com/api/short/62"
+        },
+        {
+          "title": "Man With a Belly",
+          "url": "https://stephen-king-api.onrender.com/api/short/65"
+        },
+        {
+          "title": "The Crate",
+          "url": "https://stephen-king-api.onrender.com/api/short/66"
+        },
+        {
+          "title": "The Monster in the Closet",
+          "url": "https://stephen-king-api.onrender.com/api/short/77"
+        },
+        {
+          "title": "The Bird and the Album",
+          "url": "https://stephen-king-api.onrender.com/api/short/78"
+        },
+        {
+          "title": "Before the Play",
+          "url": "https://stephen-king-api.onrender.com/api/short/82"
+        },
+        {
+          "title": "Skybar",
+          "url": "https://stephen-king-api.onrender.com/api/short/88"
+        },
+        {
+          "title": "The Return of Timmy Baterman",
+          "url": "https://stephen-king-api.onrender.com/api/short/92"
+        },
+        {
+          "title": "The Revelations of 'Becka Paulson",
+          "url": "https://stephen-king-api.onrender.com/api/short/96"
+        },
+        {
+          "title": "For the Birds",
+          "url": "https://stephen-king-api.onrender.com/api/short/102"
+        },
+        {
+          "title": "The Reploids",
+          "url": "https://stephen-king-api.onrender.com/api/short/108"
+        },
+        {
+          "title": "An Evening at God's",
+          "url": "https://stephen-king-api.onrender.com/api/short/113"
+        },
+        {
+          "title": "The Bear",
+          "url": "https://stephen-king-api.onrender.com/api/short/118"
+        },
+        {
+          "title": "Jhonathan and the Witches",
+          "url": "https://stephen-king-api.onrender.com/api/short/127"
+        },
+        {
+          "title": "The Killer",
+          "url": "https://stephen-king-api.onrender.com/api/short/128"
+        },
+        {
+          "title": "Dino",
+          "url": "https://stephen-king-api.onrender.com/api/short/131"
+        },
+        {
+          "title": "General",
+          "url": "https://stephen-king-api.onrender.com/api/short/136"
+        },
+        {
+          "title": "The New Lieutenant's Rap",
+          "url": "https://stephen-king-api.onrender.com/api/short/140"
+        },
+        {
+          "title": "The Old Dude's Ticker",
+          "url": "https://stephen-king-api.onrender.com/api/short/149"
+        },
+        {
+          "title": "Calla Bryn Sturgis",
+          "url": "https://stephen-king-api.onrender.com/api/short/151"
+        },
+        {
+          "title": "The Tale of Gray Dick",
+          "url": "https://stephen-king-api.onrender.com/api/short/153"
+        },
+        {
+          "title": "Lisey and the Madman",
+          "url": "https://stephen-king-api.onrender.com/api/short/157"
+        },
+        {
+          "title": "The Furnace",
+          "url": "https://stephen-king-api.onrender.com/api/short/158"
+        },
+        {
+          "title": "Throttle",
+          "url": "https://stephen-king-api.onrender.com/api/short/169"
+        },
+        {
+          "title": "Mostly Old Men",
+          "url": "https://stephen-king-api.onrender.com/api/short/172"
+        },
+        {
+          "title": "In the Tall Grass",
+          "url": "https://stephen-king-api.onrender.com/api/short/186"
+        },
+        {
+          "title": "A Face in the Crowd",
+          "url": "https://stephen-king-api.onrender.com/api/short/187"
+        },
+        {
+          "title": "The Rock and Roll Dead Zone",
+          "url": "https://stephen-king-api.onrender.com/api/short/190"
+        },
+        {
+          "title": "Cookie Jar",
+          "url": "https://stephen-king-api.onrender.com/api/short/198"
+        },
+        {
+          "title": "The Music Room",
+          "url": "https://stephen-king-api.onrender.com/api/short/199"
+        },
+        {
+          "title": "Thin Scenery",
+          "url": "https://stephen-king-api.onrender.com/api/short/201"
+        },
+        {
+          "title": "Squad D",
+          "url": "https://stephen-king-api.onrender.com/api/short/205"
+        },
+        {
+          "title": "The Extra Hour",
+          "url": "https://stephen-king-api.onrender.com/api/short/220"
+        },
+        {
+          "title": "Dinah's Hat",
+          "url": "https://stephen-king-api.onrender.com/api/short/222"
+        }
+      ]
+    }
+  }
+}

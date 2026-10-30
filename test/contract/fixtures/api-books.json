@@ -116,7 +116,8 @@
             "name": "Thomas Ewen Consolidated High School",
             "url": "https://stephen-king-api.onrender.com/api/place/181"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 2,
@@ -181,7 +182,8 @@
             "name": "Stanley Street Elementary School",
             "url": "https://stephen-king-api.onrender.com/api/place/173"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 3,
@@ -234,7 +236,8 @@
             "name": "Room 237",
             "url": "https://stephen-king-api.onrender.com/api/place/172"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 4,
@@ -263,7 +266,8 @@
             "name": "Placerville, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/93"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 5,
@@ -365,7 +369,8 @@
             "name": "Hemingford Home, Nebraska",
             "url": "https://stephen-king-api.onrender.com/api/place/139"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 6,
@@ -394,7 +399,8 @@
             "name": "Freeport, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/67"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 7,
@@ -455,7 +461,8 @@
             "name": "Trimbull, New Hampshire",
             "url": "https://stephen-king-api.onrender.com/api/place/115"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 8,
@@ -501,7 +508,8 @@
             "name": "The Slumberland Motel",
             "url": "https://stephen-king-api.onrender.com/api/place/178"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 9,
@@ -516,7 +524,8 @@
         ],
         "created_at": "2023-11-13T23:48:49.005Z",
         "villains": [],
-        "places": []
+        "places": [],
+        "collection": null
       },
       {
         "id": 10,
@@ -546,7 +555,8 @@
             "name": "Castle Rock, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/55"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 11,
@@ -579,7 +589,8 @@
             "name": "Derry, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/62"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 12,
@@ -654,7 +665,11 @@
             "name": "The Way Station",
             "url": "https://stephen-king-api.onrender.com/api/place/180"
           }
-        ]
+        ],
+        "collection": {
+          "name": "The Dark Tower: The Gunslinger",
+          "url": "https://stephen-king-api.onrender.com/api/collection/2"
+        }
       },
       {
         "id": 13,
@@ -686,7 +701,8 @@
             "url": "https://stephen-king-api.onrender.com/api/villain/153"
           }
         ],
-        "places": []
+        "places": [],
+        "collection": null
       },
       {
         "id": 14,
@@ -732,7 +748,8 @@
             "name": "Ludlow, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/86"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 15,
@@ -761,7 +778,8 @@
             "name": "Tarker's Mill, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/109"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 16,
@@ -792,7 +810,8 @@
             "name": "The Territories",
             "url": "https://stephen-king-api.onrender.com/api/place/5"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 17,
@@ -821,7 +840,8 @@
             "name": "In-world",
             "url": "https://stephen-king-api.onrender.com/api/place/17"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 18,
@@ -841,7 +861,8 @@
             "url": "https://stephen-king-api.onrender.com/api/villain/197"
           }
         ],
-        "places": []
+        "places": [],
+        "collection": null
       },
       {
         "id": 19,
@@ -996,7 +1017,8 @@
             "name": "Well House",
             "url": "https://stephen-king-api.onrender.com/api/place/183"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 20,
@@ -1033,7 +1055,8 @@
             "name": "Mid-world",
             "url": "https://stephen-king-api.onrender.com/api/place/18"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 21,
@@ -1063,7 +1086,8 @@
             "name": "Sidewinder, Colorado",
             "url": "https://stephen-king-api.onrender.com/api/place/106"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 22,
@@ -1112,7 +1136,8 @@
             "name": "Big Lost Weekend Bar & Grille",
             "url": "https://stephen-king-api.onrender.com/api/place/156"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 23,
@@ -1145,7 +1170,8 @@
             "name": "Ludlow, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/86"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 24,
@@ -1202,7 +1228,8 @@
             "url": "https://stephen-king-api.onrender.com/api/villain/201"
           }
         ],
-        "places": []
+        "places": [],
+        "collection": null
       },
       {
         "id": 25,
@@ -1252,7 +1279,8 @@
             "name": "River Crossing",
             "url": "https://stephen-king-api.onrender.com/api/place/102"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 26,
@@ -1290,7 +1318,8 @@
             "name": "Castle View, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/56"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 27,
@@ -1329,7 +1358,8 @@
             "name": "Kashwakamak, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/78"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 28,
@@ -1362,7 +1392,8 @@
             "name": "Shawshank State Prison",
             "url": "https://stephen-king-api.onrender.com/api/place/134"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 29,
@@ -1412,7 +1443,8 @@
             "name": "WomanCare",
             "url": "https://stephen-king-api.onrender.com/api/place/184"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 30,
@@ -1449,7 +1481,8 @@
             "name": "Daughters and Sisters",
             "url": "https://stephen-king-api.onrender.com/api/place/11"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 31,
@@ -1479,7 +1512,8 @@
             "name": "Cold Mountain Penitentiary",
             "url": "https://stephen-king-api.onrender.com/api/place/128"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 32,
@@ -1517,7 +1551,8 @@
             "name": "Desatoya Mountains",
             "url": "https://stephen-king-api.onrender.com/api/place/124"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 33,
@@ -1551,7 +1586,8 @@
             "name": "Junction City, Iowa",
             "url": "https://stephen-king-api.onrender.com/api/place/77"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 34,
@@ -1633,7 +1669,8 @@
             "name": "Hambry, Mejis",
             "url": "https://stephen-king-api.onrender.com/api/place/137"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 35,
@@ -1684,7 +1721,8 @@
             "name": "Dark Score Lake",
             "url": "https://stephen-king-api.onrender.com/api/place/123"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 36,
@@ -1715,7 +1753,8 @@
             "name": "TR-90, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/114"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 37,
@@ -1742,7 +1781,8 @@
             "name": "Derry, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/62"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 38,
@@ -1770,7 +1810,8 @@
             "name": "The Territories",
             "url": "https://stephen-king-api.onrender.com/api/place/5"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 39,
@@ -1790,7 +1831,8 @@
             "url": "https://stephen-king-api.onrender.com/api/villain/66"
           }
         ],
-        "places": []
+        "places": [],
+        "collection": null
       },
       {
         "id": 40,
@@ -1852,7 +1894,8 @@
             "name": "Dogan",
             "url": "https://stephen-king-api.onrender.com/api/place/130"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 41,
@@ -1897,7 +1940,8 @@
             "name": "Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/28"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 42,
@@ -1963,7 +2007,8 @@
             "name": "Le Casse Roi Russe",
             "url": "https://stephen-king-api.onrender.com/api/place/131"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 43,
@@ -1993,7 +2038,8 @@
             "name": "Moose Cove",
             "url": "https://stephen-king-api.onrender.com/api/place/149"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 44,
@@ -2028,7 +2074,8 @@
             "name": "TR-90, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/114"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 45,
@@ -2075,7 +2122,8 @@
             "name": "Derry, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/62"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 46,
@@ -2095,7 +2143,11 @@
             "name": "Shawshank State Prison",
             "url": "https://stephen-king-api.onrender.com/api/place/134"
           }
-        ]
+        ],
+        "collection": {
+          "name": "Blaze",
+          "url": "https://stephen-king-api.onrender.com/api/collection/10"
+        }
       },
       {
         "id": 47,
@@ -2115,7 +2167,8 @@
             "url": "https://stephen-king-api.onrender.com/api/villain/193"
           }
         ],
-        "places": []
+        "places": [],
+        "collection": null
       },
       {
         "id": 48,
@@ -2193,7 +2246,8 @@
             "name": "WCIK",
             "url": "https://stephen-king-api.onrender.com/api/place/182"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 49,
@@ -2224,7 +2278,8 @@
             "name": "Derry, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/62"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 50,
@@ -2253,7 +2308,8 @@
             "name": "Debaria",
             "url": "https://stephen-king-api.onrender.com/api/place/61"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 51,
@@ -2283,7 +2339,8 @@
             "name": "Joyland Park",
             "url": "https://stephen-king-api.onrender.com/api/place/146"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 52,
@@ -2346,7 +2403,8 @@
             "name": "Sidewinder, Colorado",
             "url": "https://stephen-king-api.onrender.com/api/place/106"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 53,
@@ -2367,7 +2425,8 @@
             "url": "https://stephen-king-api.onrender.com/api/villain/50"
           }
         ],
-        "places": []
+        "places": [],
+        "collection": null
       },
       {
         "id": 54,
@@ -2400,7 +2459,8 @@
             "name": "Motton, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/89"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 55,
@@ -2428,7 +2488,8 @@
             "url": "https://stephen-king-api.onrender.com/api/villain/155"
           }
         ],
-        "places": []
+        "places": [],
+        "collection": null
       },
       {
         "id": 56,
@@ -2448,7 +2509,8 @@
             "url": "https://stephen-king-api.onrender.com/api/villain/50"
           }
         ],
-        "places": []
+        "places": [],
+        "collection": null
       },
       {
         "id": 57,
@@ -2497,7 +2559,8 @@
             "name": "Castle Rock Middle School",
             "url": "https://stephen-king-api.onrender.com/api/place/159"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 58,
@@ -2530,7 +2593,8 @@
             "url": "https://stephen-king-api.onrender.com/api/villain/198"
           }
         ],
-        "places": []
+        "places": [],
+        "collection": null
       },
       {
         "id": 59,
@@ -2551,7 +2615,8 @@
             "url": "https://stephen-king-api.onrender.com/api/villain/82"
           }
         ],
-        "places": []
+        "places": [],
+        "collection": null
       },
       {
         "id": 60,
@@ -2573,7 +2638,8 @@
             "name": "Castle View, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/56"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 61,
@@ -2631,7 +2697,8 @@
             "name": "Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/28"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 62,
@@ -2653,7 +2720,8 @@
             "url": "https://stephen-king-api.onrender.com/api/villain/189"
           }
         ],
-        "places": []
+        "places": [],
+        "collection": null
       },
       {
         "id": 63,
@@ -2684,7 +2752,8 @@
             "name": "Hemingford Home, Nebraska",
             "url": "https://stephen-king-api.onrender.com/api/place/139"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 73,
@@ -2722,7 +2791,8 @@
             "name": "Lewiston, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/81"
           }
-        ]
+        ],
+        "collection": null
       },
       {
         "id": 74,
@@ -2744,7 +2814,8 @@
             "url": "https://stephen-king-api.onrender.com/api/villain/186"
           }
         ],
-        "places": []
+        "places": [],
+        "collection": null
       },
       {
         "id": 75,
@@ -2766,7 +2837,8 @@
             "url": "https://stephen-king-api.onrender.com/api/villain/161"
           }
         ],
-        "places": []
+        "places": [],
+        "collection": null
       },
       {
         "id": 76,
@@ -2779,7 +2851,8 @@
         "Notes": [],
         "created_at": "2026-10-28T18:48:53.000Z",
         "villains": [],
-        "places": []
+        "places": [],
+        "collection": null
       },
       {
         "id": 77,
@@ -2800,7 +2873,8 @@
             "name": "Hemingford Home, Nebraska",
             "url": "https://stephen-king-api.onrender.com/api/place/139"
           }
-        ]
+        ],
+        "collection": null
       }
     ]
   }

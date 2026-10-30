@@ -1,0 +1,44 @@
+{
+  "path": "/api/collection/18",
+  "status": 200,
+  "body": {
+    "data": {
+      "id": 18,
+      "name": "People, Places and Things",
+      "handle": "people-places-and-things",
+      "year": 1960,
+      "created_at": "2026-10-30T01:38:00.000Z",
+      "book": null,
+      "shorts": [
+        {
+          "title": "The Cursed Expedition",
+          "url": "https://stephen-king-api.onrender.com/api/short/5"
+        },
+        {
+          "title": "I've Got to Get Away!",
+          "url": "https://stephen-king-api.onrender.com/api/short/6"
+        },
+        {
+          "title": "Hotel at the End of the Road",
+          "url": "https://stephen-king-api.onrender.com/api/short/7"
+        },
+        {
+          "title": "Never Look Behind You",
+          "url": "https://stephen-king-api.onrender.com/api/short/8"
+        },
+        {
+          "title": "The Other Side of the Fog",
+          "url": "https://stephen-king-api.onrender.com/api/short/9"
+        },
+        {
+          "title": "The Stranger",
+          "url": "https://stephen-king-api.onrender.com/api/short/10"
+        },
+        {
+          "title": "The Thing at the Bottom of the Well",
+          "url": "https://stephen-king-api.onrender.com/api/short/11"
+        }
+      ]
+    }
+  }
+}

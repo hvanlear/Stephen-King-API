@@ -113,7 +113,7 @@ describe("validate-data", () => {
       const books = c["books.json"];
       books.push({ ...books[books.length - 1], id: 72, Title: "New Book", handle: "new-book", ISBN: "978-0-000-00000-0" });
     });
-    assertFlags(errors, /book 72 \("New Book"\): id 72 was used by the old database and can't be reused$/);
+    assertFlags(errors, /book 72 \("New Book"\): id 72 is retired and can't be reused$/);
   });
 
   it("flags a place whose parent doesn't exist", () => {
@@ -168,7 +168,7 @@ describe("validate-data", () => {
 
   it("keeps type id 5 retired", () => {
     const errors = errorsAfter((c) => c["types.json"].push({ ...c["types.json"][0], id: 5, name: "Group", handle: "group" }));
-    assertFlags(errors, /type 5 \("Group"\): id 5 was used by the old database and can't be reused$/);
+    assertFlags(errors, /type 5 \("Group"\): id 5 is retired and can't be reused$/);
   });
 
   it("flags a short whose collection matches nothing", () => {
@@ -181,9 +181,14 @@ describe("validate-data", () => {
     assertFlags(errors, /short 1 \(.*\): collectedIn "Uncollected" should be "Night Shift \(1978\)", to match its collection$/);
   });
 
+  it("flags a collected short with no collection", () => {
+    const errors = errorsAfter((c) => (c["shorts.json"].find((s: { collectedIn: string }) => s.collectedIn === "Night Shift (1978)").collection = null));
+    assertFlags(errors, /short \d+ \(.*\): collectedIn "Night Shift \(1978\)" names a collection, so collection needs its handle$/);
+  });
+
   it("flags a collection year that isn't a whole number", () => {
     const errors = errorsAfter((c) => (c["collections.json"][0].year = "1978"));
-    assertFlags(errors, /collection 1 \("Night Shift"\): year must be null or a whole number$/);
+    assertFlags(errors, /collection 1 \("Night Shift"\): year must be a whole number$/);
   });
 
   it("flags a collection that shares a handle with a different book", () => {
@@ -191,9 +196,18 @@ describe("validate-data", () => {
     assertFlags(errors, /collection 1 \("Night Shift"\): handle "carrie" is also used by book 1 \("Carrie", 1974\), so it would link to that book$/);
   });
 
+  it("lets a retired collection id disappear, but not come back", () => {
+    const base = loadCatalog();
+    const uncollected = { ...base["collections.json"][0], id: 16, name: "Uncollected", handle: "uncollected" };
+    base["collections.json"].push(uncollected);
+    assert.deepEqual(errorsAfter(() => {}, base), []);
+    const errors = errorsAfter((c) => c["collections.json"].push(uncollected));
+    assertFlags(errors, /collection 16 \("Uncollected"\): id 16 is retired and can't be reused$/);
+  });
+
   it("flags a collection removed since the base", () => {
     const errors = errorsAfter((c) => c["collections.json"].pop(), loadCatalog());
-    assertFlags(errors, /collection 17 \("Uncollected \(standalone book\)"\) was removed; ids must never disappear/);
+    assertFlags(errors, /collection 18 \("People, Places and Things"\) was removed; ids must never disappear/);
   });
 
   it("allows new records with new ids", () => {

@@ -10,10 +10,7 @@
         "handle": "land-of-1-000-000-years-ago",
         "originallyPublishedIn": "",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Self-published"
         ],
@@ -29,10 +26,7 @@
         "handle": "thirty-one-of-the-classics",
         "originallyPublishedIn": "",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Self-published"
         ],
@@ -85,10 +79,10 @@
         "type": "short story",
         "handle": "the-cursed-expedition",
         "originallyPublishedIn": "People, Places and Things (1960)",
-        "collectedIn": "Uncollected",
+        "collectedIn": "People, Places and Things (1960)",
         "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
+          "name": "People, Places and Things",
+          "url": "https://stephen-king-api.onrender.com/api/collection/18"
         },
         "notes": [
           "Self-published"
@@ -104,10 +98,10 @@
         "type": "short story",
         "handle": "i-ve-got-to-get-away-",
         "originallyPublishedIn": "People, Places and Things (1960)",
-        "collectedIn": "Uncollected",
+        "collectedIn": "People, Places and Things (1960)",
         "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
+          "name": "People, Places and Things",
+          "url": "https://stephen-king-api.onrender.com/api/collection/18"
         },
         "notes": [
           "Self-published"
@@ -123,10 +117,10 @@
         "type": "short story",
         "handle": "hotel-at-the-end-of-the-road",
         "originallyPublishedIn": "People, Places and Things (1960)",
-        "collectedIn": "Uncollected",
+        "collectedIn": "People, Places and Things (1960)",
         "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
+          "name": "People, Places and Things",
+          "url": "https://stephen-king-api.onrender.com/api/collection/18"
         },
         "notes": [
           "Self-published"
@@ -142,10 +136,10 @@
         "type": "short story",
         "handle": "never-look-behind-you",
         "originallyPublishedIn": "People, Places and Things (1960)",
-        "collectedIn": "Uncollected",
+        "collectedIn": "People, Places and Things (1960)",
         "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
+          "name": "People, Places and Things",
+          "url": "https://stephen-king-api.onrender.com/api/collection/18"
         },
         "notes": [
           "Self-published"
@@ -161,10 +155,10 @@
         "type": "short story",
         "handle": "the-other-side-of-the-fog",
         "originallyPublishedIn": "People, Places and Things (1960)",
-        "collectedIn": "Uncollected",
+        "collectedIn": "People, Places and Things (1960)",
         "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
+          "name": "People, Places and Things",
+          "url": "https://stephen-king-api.onrender.com/api/collection/18"
         },
         "notes": [
           "Self-published"
@@ -180,10 +174,10 @@
         "type": "short story",
         "handle": "the-stranger",
         "originallyPublishedIn": "People, Places and Things (1960)",
-        "collectedIn": "Uncollected",
+        "collectedIn": "People, Places and Things (1960)",
         "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
+          "name": "People, Places and Things",
+          "url": "https://stephen-king-api.onrender.com/api/collection/18"
         },
         "notes": [
           "Self-published"
@@ -199,10 +193,10 @@
         "type": "short story",
         "handle": "the-thing-at-the-bottom-of-the-well",
         "originallyPublishedIn": "People, Places and Things (1960)",
-        "collectedIn": "Uncollected",
+        "collectedIn": "People, Places and Things (1960)",
         "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
+          "name": "People, Places and Things",
+          "url": "https://stephen-king-api.onrender.com/api/collection/18"
         },
         "notes": [
           "Self-published"
@@ -219,10 +213,7 @@
         "handle": "the-pit-and-the-pendulum",
         "originallyPublishedIn": "The Pit and the Pendulum (1961)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Self-published"
         ],
@@ -238,10 +229,7 @@
         "handle": "the-undead",
         "originallyPublishedIn": "The Undead (1963)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Self-published"
         ],
@@ -257,10 +245,7 @@
         "handle": "trigger-finger",
         "originallyPublishedIn": "Trigger Finger (1963)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Self-published"
         ],
@@ -276,10 +261,7 @@
         "handle": "the-star-invaders",
         "originallyPublishedIn": "The Star Invaders (1964)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Self-published"
         ],
@@ -295,10 +277,7 @@
         "handle": "codename-mousetrap",
         "originallyPublishedIn": "The Drum (October 27, 1965)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Lisbon Falls High School publication"
         ],
@@ -314,10 +293,7 @@
         "handle": "i-was-a-teenage-grave-robber",
         "originallyPublishedIn": "Comics Review (1965)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "First published in Comics Review, 1965. Later reprinted in Stories of Suspense (1965) retitled as “In a Half-World of Terror”. Partly reprinted in The Stephen King Illustrated Companion (edited by Bev Vincent, 2009)."
         ],
@@ -333,10 +309,7 @@
         "handle": "the-43rd-dream",
         "originallyPublishedIn": "The Drum (January 29, 1966)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Lisbon Falls High School publication"
         ],
@@ -352,10 +325,7 @@
         "handle": "the-glass-floor",
         "originallyPublishedIn": "Startling Mystery Stories (Fall 1967)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "First professional story"
         ],
@@ -405,10 +375,7 @@
         "handle": "harrison-state-park-68",
         "originallyPublishedIn": "Ubris (Fall 1968)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [],
         "year": 1968,
         "created_at": "2023-11-13T23:48:58.740Z",
@@ -484,10 +451,7 @@
         "handle": "the-dark-man",
         "originallyPublishedIn": "Ubris (Fall 1969)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Republished as a standalone book (2013)"
         ],
@@ -503,10 +467,7 @@
         "handle": "stud-city",
         "originallyPublishedIn": "Ubris (Fall 1969)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Incorporated into The Body (1982)"
         ],
@@ -522,10 +483,7 @@
         "handle": "slade",
         "originallyPublishedIn": "The Maine Campus (June 11 – August 6, 1970)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [],
         "year": 1970,
         "created_at": "2023-11-13T23:48:59.464Z",
@@ -561,10 +519,7 @@
         "handle": "donovan-s-brain",
         "originallyPublishedIn": "Moth  (1970)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [],
         "year": 1970,
         "created_at": "2023-11-13T23:48:59.726Z",
@@ -578,10 +533,7 @@
         "handle": "silence",
         "originallyPublishedIn": "Moth  (1970)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [],
         "year": 1970,
         "created_at": "2023-11-13T23:48:59.845Z",
@@ -595,10 +547,7 @@
         "handle": "the-blue-air-compressor",
         "originallyPublishedIn": "Onan (January 1971)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Republished revised in Heavy Metal (July 1981)"
         ],
@@ -614,10 +563,7 @@
         "handle": "in-the-key-chords-of-dawn",
         "originallyPublishedIn": "Onan (January 1971)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [],
         "year": 1971,
         "created_at": "2023-11-13T23:49:00.091Z",
@@ -665,10 +611,7 @@
         "handle": "she-has-gone-to-sleep-while-",
         "originallyPublishedIn": "Contraband #1 (1971)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [],
         "year": 1971,
         "created_at": "2023-11-13T23:49:00.453Z",
@@ -682,10 +625,7 @@
         "handle": "woman-with-child",
         "originallyPublishedIn": "Contraband #1 (1971)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [],
         "year": 1971,
         "created_at": "2023-11-13T23:49:00.582Z",
@@ -699,10 +639,7 @@
         "handle": "the-hardcase-speaks",
         "originallyPublishedIn": "Contraband #2 (1971)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [],
         "year": 1971,
         "created_at": "2023-11-13T23:49:00.702Z",
@@ -915,10 +852,7 @@
         "handle": "the-revenge-of-lard-ass-hogan",
         "originallyPublishedIn": "The Maine Review (July 1975)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Incorporated into The Body (1982)"
         ],
@@ -934,10 +868,7 @@
         "handle": "weeds",
         "originallyPublishedIn": "Cavalier (May 1976)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Appears in comic book form in Creepshow (1982) as The Lonesome Death of Jordy Verrill"
         ],
@@ -1083,10 +1014,7 @@
         "handle": "the-king-family-and-the-wicked-witch",
         "originallyPublishedIn": "Flint (August 25, 1977)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [],
         "year": 1977,
         "created_at": "2023-11-13T23:49:02.876Z",
@@ -1204,10 +1132,7 @@
         "handle": "the-night-of-the-tiger",
         "originallyPublishedIn": "The Magazine of Fantasy & Science Fiction (February 1978)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [],
         "year": 1978,
         "created_at": "2023-11-13T23:49:03.773Z",
@@ -1268,10 +1193,7 @@
         "handle": "man-with-a-belly",
         "originallyPublishedIn": "Cavalier (December 1978)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [],
         "year": 1978,
         "created_at": "2023-11-13T23:49:04.130Z",
@@ -1285,10 +1207,7 @@
         "handle": "the-crate",
         "originallyPublishedIn": "Gallery (July 1979)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Appears in comic book form in Creepshow (1982)Nominee, Locus Award, 1980[2]"
         ],
@@ -1542,10 +1461,7 @@
         "handle": "the-monster-in-the-closet",
         "originallyPublishedIn": "Ladies' Home Journal (October 1981)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Incorporated into Cujo (1981)"
         ],
@@ -1561,10 +1477,7 @@
         "handle": "the-bird-and-the-album",
         "originallyPublishedIn": "A Fantasy Reader (October 30, 1981)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Incorporated into It (1986)"
         ],
@@ -1650,10 +1563,7 @@
         "handle": "before-the-play",
         "originallyPublishedIn": "Whispers (August 1982)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Unused prologue to The Shining (1977)"
         ],
@@ -1853,10 +1763,7 @@
         "handle": "skybar",
         "originallyPublishedIn": "The Do-It-Yourself Bestseller (1982)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Partial short story"
         ],
@@ -1914,10 +1821,7 @@
         "handle": "cycle-of-the-werewolf",
         "originallyPublishedIn": "Land of Enchantment (November 1983)",
         "collectedIn": "Uncollected (standalone book)",
-        "collection": {
-          "name": "Uncollected (standalone book)",
-          "url": "https://stephen-king-api.onrender.com/api/collection/17"
-        },
+        "collection": null,
         "notes": [],
         "year": 1983,
         "created_at": "2023-11-13T23:49:07.598Z",
@@ -1945,10 +1849,7 @@
         "handle": "the-return-of-timmy-baterman",
         "originallyPublishedIn": "Satyricon II (1983)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Incorporated into Pet Sematary (1983)"
         ],
@@ -2036,10 +1937,7 @@
         "handle": "the-revelations-of-becka-paulson",
         "originallyPublishedIn": "Rolling Stone (July 19 – August 2, 1984)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Collected in the limited edition of Skeleton Crew (1985)",
           "incorporated into The Tommyknockers (1987)"
@@ -2151,10 +2049,7 @@
         "handle": "for-the-birds",
         "originallyPublishedIn": "Bred Any Good Rooks Lately? (January 1986)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [],
         "year": 1986,
         "created_at": "2023-11-13T23:49:08.884Z",
@@ -2262,10 +2157,7 @@
         "handle": "the-reploids",
         "originallyPublishedIn": "Night Visions 5 (August 1988)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [],
         "year": 1988,
         "created_at": "2023-11-13T23:49:09.585Z",
@@ -2354,10 +2246,7 @@
         "handle": "an-evening-at-god-s",
         "originallyPublishedIn": "Institute for Advanced Theater Training (April 23, 1990)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [],
         "year": 1990,
         "created_at": "2023-11-13T23:49:10.164Z",
@@ -2483,10 +2372,7 @@
         "handle": "the-bear",
         "originallyPublishedIn": "The Magazine of Fantasy & Science Fiction (December 1990)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Incorporated into The Dark Tower III: The Waste Lands (1991)"
         ],
@@ -2644,10 +2530,7 @@
         "handle": "jhonathan-and-the-witches",
         "originallyPublishedIn": "First Words (October 1993)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Written in 1956"
         ],
@@ -2663,10 +2546,7 @@
         "handle": "the-killer",
         "originallyPublishedIn": "Famous Monsters of Filmland #202 (Spring 1994)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Written in the mid-1960s"
         ],
@@ -2733,10 +2613,7 @@
         "handle": "dino",
         "originallyPublishedIn": "Salt Hill Journal (Fall 1994)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [],
         "year": 1994,
         "created_at": "2023-11-13T23:49:12.269Z",
@@ -2828,10 +2705,7 @@
         "handle": "general",
         "originallyPublishedIn": "Screamplays  (September 1997)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Written around 1985 for the film Cat's Eye (1985)"
         ],
@@ -2932,10 +2806,7 @@
         "handle": "the-new-lieutenant-s-rap",
         "originallyPublishedIn": "The New Lieutenant's Rap (April 1999)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Incorporated into Why We're in Vietnam (1999)"
         ],
@@ -3119,10 +2990,7 @@
         "handle": "the-old-dude-s-ticker",
         "originallyPublishedIn": "NECON XX (July 2000)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Written in the early 1970s"
         ],
@@ -3155,10 +3023,7 @@
         "handle": "calla-bryn-sturgis",
         "originallyPublishedIn": "stephenking.com (2001)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Incorporated into The Dark Tower V: Wolves of the Calla (2003)"
         ],
@@ -3196,10 +3061,7 @@
         "handle": "the-tale-of-gray-dick",
         "originallyPublishedIn": "McSweeney's Mammoth Treasury of Thrilling Tales (March 25, 2003)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Incorporated into The Dark Tower V: Wolves of the Calla (2003)"
         ],
@@ -3273,10 +3135,7 @@
         "handle": "lisey-and-the-madman",
         "originallyPublishedIn": "McSweeney’s Enchanted Chamber of Astonishing Stories (2004)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Incorporated into Lisey's Story (2006)Nominee, Bram Stoker Award, 2005[2]"
         ],
@@ -3292,10 +3151,7 @@
         "handle": "the-furnace",
         "originallyPublishedIn": "Weekly Reader (September 2005)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Partial short story"
         ],
@@ -3525,10 +3381,7 @@
         "handle": "throttle",
         "originallyPublishedIn": "He Is Legend (February 1, 2009)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "In collaboration with Joe Hill, part of Hill's collection Full Throttle"
         ],
@@ -3584,10 +3437,7 @@
         "handle": "mostly-old-men",
         "originallyPublishedIn": "Tin House #40 (August 2009)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [],
         "year": 2009,
         "created_at": "2023-11-13T23:49:17.430Z",
@@ -3882,10 +3732,7 @@
         "handle": "in-the-tall-grass",
         "originallyPublishedIn": "Esquire (June/July–August 2012)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "In collaboration with Joe Hill, part of Hill's collection Full Throttle"
         ],
@@ -3906,10 +3753,7 @@
         "handle": "a-face-in-the-crowd",
         "originallyPublishedIn": "A Face in the Crowd (August 21, 2012)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Originally published as an ebook",
           "in collaboration with Stewart O'Nan"
@@ -3960,10 +3804,7 @@
         "handle": "the-rock-and-roll-dead-zone",
         "originallyPublishedIn": "Hard Listening (June 18, 2013)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Originally published as an ebook"
         ],
@@ -4104,10 +3945,7 @@
         "handle": "cookie-jar",
         "originallyPublishedIn": "Virginia Quarterly Review (Spring 2016)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Appears in the paperback edition of The Bazaar of Bad Dreams (2016)"
         ],
@@ -4123,10 +3961,7 @@
         "handle": "the-music-room",
         "originallyPublishedIn": "Playboy (December 2016)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "Included with audio readings of Gwendy's Button Box"
         ],
@@ -4142,10 +3977,7 @@
         "handle": "gwendy-s-button-box",
         "originallyPublishedIn": "Gwendy's Button Box (May 2017)",
         "collectedIn": "Uncollected (standalone book)",
-        "collection": {
-          "name": "Uncollected (standalone book)",
-          "url": "https://stephen-king-api.onrender.com/api/collection/17"
-        },
+        "collection": null,
         "notes": [
           "written with Richard Chizmar"
         ],
@@ -4195,10 +4027,7 @@
         "handle": "thin-scenery",
         "originallyPublishedIn": "Ploughshares (Summer 2017)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [],
         "year": 2017,
         "created_at": "2023-11-13T23:49:20.979Z",
@@ -4237,10 +4066,7 @@
         "handle": "elevation",
         "originallyPublishedIn": "Elevation (October 2018)",
         "collectedIn": "Uncollected (standalone book)",
-        "collection": {
-          "name": "Uncollected (standalone book)",
-          "url": "https://stephen-king-api.onrender.com/api/collection/17"
-        },
+        "collection": null,
         "notes": [],
         "year": 2018,
         "created_at": "2023-11-13T23:49:21.223Z",
@@ -4280,10 +4106,7 @@
         "handle": "squad-d",
         "originallyPublishedIn": "Shivers VIII  (April 18, 2019)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "written in the late 1970s"
         ],
@@ -4580,10 +4403,7 @@
         "handle": "the-extra-hour",
         "originallyPublishedIn": "Cemetery Dance #79 (January 2025)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [],
         "year": 2025,
         "created_at": "2026-10-28T18:48:53.000Z",
@@ -4597,10 +4417,7 @@
         "handle": "hansel-and-gretel",
         "originallyPublishedIn": "Hansel and Gretel (September 2025)",
         "collectedIn": "Uncollected (standalone book)",
-        "collection": {
-          "name": "Uncollected (standalone book)",
-          "url": "https://stephen-king-api.onrender.com/api/collection/17"
-        },
+        "collection": null,
         "notes": [
           "Children's picture book illustrated by Maurice Sendak"
         ],
@@ -4616,10 +4433,7 @@
         "handle": "dinah-s-hat",
         "originallyPublishedIn": "The Atlantic (June 2026)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [],
         "year": 2026,
         "created_at": "2026-10-28T18:48:53.000Z",

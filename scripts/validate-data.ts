@@ -9,7 +9,6 @@ type FieldRule =
   | "id"
   | "nullable id"
   | "integer"
-  | "nullable integer"
   | "text" // non-empty string
   | "string" // may be empty
   | "nullable text"
@@ -29,7 +28,8 @@ interface FileSpec {
   unique: string[];
   // Villains and places link to these records through appears_in
   linkable?: boolean;
-  // Handed out before the catalog moved to files, so never used again
+  // Handed out and then taken back, so never used again. Only a retired id
+  // may disappear since the base.
   retiredIds?: number[];
 }
 
@@ -70,8 +70,8 @@ export const SPECS: Record<string, FileSpec> = {
       handle: "text",
       originallyPublishedIn: "string",
       collectedIn: "string",
-      // A collection handle, served as a link
-      collection: "text",
+      // A collection handle, served as a link, or null if it was never collected
+      collection: "nullable text",
       notes: "list",
       year: "integer",
       created_at: "timestamp",
@@ -140,11 +140,13 @@ export const SPECS: Record<string, FileSpec> = {
       id: "id",
       name: "text",
       handle: "text",
-      // null for the shorts that were never collected
-      year: "nullable integer",
+      year: "integer",
       created_at: "timestamp",
     },
     unique: ["id", "handle", "name"],
+    // 16 and 17 were Uncollected and Uncollected (standalone book). Shorts that
+    // were never collected now have no collection rather than a record.
+    retiredIds: [16, 17],
   },
 };
 
@@ -157,6 +159,9 @@ type CatalogRecord = Record<string, unknown>;
 // files. A villain listing one of these handles links to both records. Any
 // other handle shared between books and shorts is a mistake.
 const SHARED_HANDLES = new Set(["cycle-of-the-werewolf", "gwendy-s-button-box", "elevation"]);
+
+// What collectedIn says for a short with no collection
+const UNCOLLECTED = ["Uncollected", "Uncollected (standalone book)"];
 
 const TIMESTAMP = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d{3})?Z$/;
 
@@ -178,8 +183,6 @@ function checkField(rule: FieldRule, value: unknown): string | null {
         : "must be null or a positive whole number";
     case "integer":
       return Number.isSafeInteger(value) ? null : "must be a whole number";
-    case "nullable integer":
-      return value === null || Number.isSafeInteger(value) ? null : "must be null or a whole number";
     case "text":
       return isText(value)
         ? null
@@ -280,7 +283,7 @@ export function validate(catalog: Catalog, base?: Catalog): string[] {
         }
         previousId = Math.max(previousId, record.id as number);
         if (spec.retiredIds?.includes(record.id as number)) {
-          fail(record, index, `id ${record.id} was used by the old database and can't be reused`);
+          fail(record, index, `id ${record.id} is retired and can't be reused`);
         }
       }
 
@@ -387,9 +390,9 @@ function checkVillainTypes(villains: unknown, types: unknown): string[] {
 }
 
 // A short's collection has to exist and say the same as its collectedIn
-// text, such as "Night Shift (1978)", so the two can't drift apart. A
-// collection that shares a handle with a book links to it, so it has to be
-// that book.
+// text, such as "Night Shift (1978)", so the two can't drift apart. Only an
+// uncollected short has none. A collection that shares a handle with a book
+// links to it, so it has to be that book.
 function checkCollections(shorts: unknown, collections: unknown, books: unknown): string[] {
   if (!Array.isArray(shorts) || !Array.isArray(collections)) {
     return [];
@@ -398,13 +401,18 @@ function checkCollections(shorts: unknown, collections: unknown, books: unknown)
   const byHandle = new Map<unknown, CatalogRecord>(
     collections.map((collection: CatalogRecord) => [collection?.handle, collection])
   );
-  const label = (collection: CatalogRecord) =>
-    collection.year === null ? collection.name : `${collection.name} (${collection.year})`;
+  const label = (collection: CatalogRecord) => `${collection.name} (${collection.year})`;
   shorts.forEach((short: CatalogRecord, index) => {
+    const where = `catalog/shorts.json: short ${short?.id ?? `at position ${index}`} (${JSON.stringify(short?.title)})`;
+    if (short?.collection === null) {
+      if (typeof short.collectedIn === "string" && !UNCOLLECTED.includes(short.collectedIn)) {
+        errors.push(`${where}: collectedIn ${JSON.stringify(short.collectedIn)} names a collection, so collection needs its handle`);
+      }
+      return;
+    }
     if (typeof short?.collection !== "string") {
       return;
     }
-    const where = `catalog/shorts.json: short ${short.id ?? `at position ${index}`} (${JSON.stringify(short.title)})`;
     const collection = byHandle.get(short.collection);
     if (!collection) {
       errors.push(`${where}: collection ${JSON.stringify(short.collection)} doesn't match any collection handle`);
@@ -473,6 +481,9 @@ function compareIds(catalog: Catalog, base: Catalog): string[] {
       const label = `${spec.label} ${old.id} (${JSON.stringify(old[spec.nameField])})`;
       const current = nowById.get(old.id);
       const movedTo = nowByIdentity.get(identity);
+      if (!current && spec.retiredIds?.includes(old.id as number)) {
+        continue;
+      }
       if (!current) {
         errors.push(
           movedTo !== undefined

@@ -15,15 +15,17 @@ _All routes are GET routes. No API key is needed._
 | Route | Returns |
 | --- | --- |
 | `/api/books` | All books |
-| `/api/book/:id` | One book, with its villains and the places it's set in |
+| `/api/book/:id` | One book, with its villains, the places it's set in, and its collection if it's one |
 | `/api/shorts` | All short stories |
-| `/api/short/:id` | One short story, with its villains and the places it's set in |
+| `/api/short/:id` | One short story, with its villains, the places it's set in and the collection it was published in |
 | `/api/villains` | All villains |
 | `/api/villain/:id` | One villain, with the works it appears in, where it lives and its type |
 | `/api/places` | All places, from buildings up to towns, states and other worlds |
 | `/api/place/:id` | One place, with the place it's in, the places inside it, the works set there and the villains who live there |
 | `/api/types` | All villain types, from broad ones like Vampire to kinds from the stories like the True Knot |
 | `/api/type/:id` | One type, with its kinds and its villains |
+| `/api/collections` | All collections, such as Night Shift and Skeleton Crew |
+| `/api/collection/:id` | One collection, with its short stories |
 
 - The list routes return everything by default. To page through results instead, pass `page` and `limit` together (`limit` is capped at 100).
 - Each IP address can make 100 requests a minute.
@@ -61,7 +63,7 @@ Other commands:
 
 ## Adding or Fixing Data
 
-The data lives in five files: `catalog/books.json`, `catalog/shorts.json`, `catalog/villains.json`, `catalog/places.json` and `catalog/types.json`. The API serves the records as they are, so a change to a file is a change to the API.
+The data lives in six files: `catalog/books.json`, `catalog/shorts.json`, `catalog/villains.json`, `catalog/places.json`, `catalog/types.json` and `catalog/collections.json`. The API serves the records as they are, so a change to a file is a change to the API.
 
 1. **To fix a record**, edit its fields in place.
 1. **To add a record**, copy an existing record from the same file to the end of the list, so the field names and order match. Give it the next id: one higher than the last id in the file. Book ids 64–72 are skipped, because the old database used them. Set `created_at` to the current UTC time, like `2026-10-26T18:00:00.000Z`. The `handle` is the title in lowercase with hyphens, like `the-shining`.
@@ -71,6 +73,7 @@ The data lives in five files: `catalog/books.json`, `catalog/shorts.json`, `cata
 1. **To link a place** to the works set there, list their `handle`s in the place's `appears_in`. Leave out works that only mention it. The books and shorts get their `places` links from that list.
 1. **To say where a villain lives**, list place `handle`s in the villain's `residence`. Give the most specific place: the villain's `residence` links to the Marsten House, and Jerusalem's Lot and Maine list the villain as well.
 1. **To type a villain**, set `types_id` to a broad type from `catalog/types.json` (one with no `parentId`), and list any kinds from the stories under that type in `kinds`, such as `true-knot` under Vampire. Set `group` to `true` when the record is a gang, cult or race rather than one villain. Type id 5 is retired: the old database used it for groups.
+1. **To say where a short was collected**, set its `collection` to a handle from `catalog/collections.json`, and its `collectedIn` to the collection's name and year, like `Night Shift (1978)`. Stories that were never collected use `uncollected` (`Uncollected`), or `uncollected-standalone-book` (`Uncollected (standalone book)`) when they were published as a book of their own. A collection that's also a book takes the book's `handle`, and the two link to each other.
 1. **Run `npm run validate-data`** and fix anything it reports.
 1. **Update the test snapshots** with `npx ts-node test/contract/capture.ts --local`. The tests compare responses against them, so every data change shows up there too. Check that the diff only shows your change.
 1. **Open a pull request.** CI runs the build, the tests and the data check. The PR can't be merged until they all pass.

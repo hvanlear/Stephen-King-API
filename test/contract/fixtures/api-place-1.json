@@ -22,6 +22,54 @@
           "name": "Mid-world",
           "url": "https://stephen-king-api.onrender.com/api/place/18"
         }
+      ],
+      "books": [
+        {
+          "title": "The Dark Tower: The Gunslinger",
+          "url": "https://stephen-king-api.onrender.com/api/book/12"
+        },
+        {
+          "title": "The Talisman",
+          "url": "https://stephen-king-api.onrender.com/api/book/16"
+        },
+        {
+          "title": "The Eyes of the Dragon",
+          "url": "https://stephen-king-api.onrender.com/api/book/17"
+        },
+        {
+          "title": "The Dark Tower II: The Drawing of the Three",
+          "url": "https://stephen-king-api.onrender.com/api/book/20"
+        },
+        {
+          "title": "The Dark Tower III: The Waste Lands",
+          "url": "https://stephen-king-api.onrender.com/api/book/25"
+        },
+        {
+          "title": "The Dark Tower IV: Wizard and Glass",
+          "url": "https://stephen-king-api.onrender.com/api/book/34"
+        },
+        {
+          "title": "The Dark Tower V: Wolves of the Calla",
+          "url": "https://stephen-king-api.onrender.com/api/book/40"
+        },
+        {
+          "title": "The Dark Tower VI: Song of Susannah",
+          "url": "https://stephen-king-api.onrender.com/api/book/41"
+        },
+        {
+          "title": "The Dark Tower VII: The Dark Tower",
+          "url": "https://stephen-king-api.onrender.com/api/book/42"
+        },
+        {
+          "title": "The Dark Tower: The Wind Through the Keyhole",
+          "url": "https://stephen-king-api.onrender.com/api/book/50"
+        }
+      ],
+      "shorts": [
+        {
+          "title": "The Little Sisters of Eluria",
+          "url": "https://stephen-king-api.onrender.com/api/short/139"
+        }
       ]
     }
   }

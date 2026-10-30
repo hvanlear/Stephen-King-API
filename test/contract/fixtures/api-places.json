@@ -23,6 +23,54 @@
             "name": "Mid-world",
             "url": "https://stephen-king-api.onrender.com/api/place/18"
           }
+        ],
+        "books": [
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12"
+          },
+          {
+            "title": "The Talisman",
+            "url": "https://stephen-king-api.onrender.com/api/book/16"
+          },
+          {
+            "title": "The Eyes of the Dragon",
+            "url": "https://stephen-king-api.onrender.com/api/book/17"
+          },
+          {
+            "title": "The Dark Tower II: The Drawing of the Three",
+            "url": "https://stephen-king-api.onrender.com/api/book/20"
+          },
+          {
+            "title": "The Dark Tower III: The Waste Lands",
+            "url": "https://stephen-king-api.onrender.com/api/book/25"
+          },
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34"
+          },
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40"
+          },
+          {
+            "title": "The Dark Tower VI: Song of Susannah",
+            "url": "https://stephen-king-api.onrender.com/api/book/41"
+          },
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42"
+          },
+          {
+            "title": "The Dark Tower: The Wind Through the Keyhole",
+            "url": "https://stephen-king-api.onrender.com/api/book/50"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "The Little Sisters of Eluria",
+            "url": "https://stephen-king-api.onrender.com/api/short/139"
+          }
         ]
       },
       {
@@ -32,7 +80,14 @@
         "type": "world",
         "created_at": "2026-10-28T20:25:46.000Z",
         "parent": null,
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Lisey's Story",
+            "url": "https://stephen-king-api.onrender.com/api/book/45"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 3,
@@ -41,7 +96,14 @@
         "type": "world",
         "created_at": "2026-10-28T20:25:46.000Z",
         "parent": null,
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 4,
@@ -50,7 +112,14 @@
         "type": "world",
         "created_at": "2026-10-28T20:25:46.000Z",
         "parent": null,
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Revival",
+            "url": "https://stephen-king-api.onrender.com/api/book/54"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 5,
@@ -59,7 +128,18 @@
         "type": "world",
         "created_at": "2026-10-28T20:25:46.000Z",
         "parent": null,
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Talisman",
+            "url": "https://stephen-king-api.onrender.com/api/book/16"
+          },
+          {
+            "title": "Black House",
+            "url": "https://stephen-king-api.onrender.com/api/book/38"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 6,
@@ -68,7 +148,43 @@
         "type": "world",
         "created_at": "2026-10-28T20:25:46.000Z",
         "parent": null,
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Salem's Lot",
+            "url": "https://stephen-king-api.onrender.com/api/book/2"
+          },
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          },
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40"
+          },
+          {
+            "title": "The Dark Tower VI: Song of Susannah",
+            "url": "https://stephen-king-api.onrender.com/api/book/41"
+          },
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "The Mist",
+            "url": "https://stephen-king-api.onrender.com/api/short/67"
+          },
+          {
+            "title": "Crouch End",
+            "url": "https://stephen-king-api.onrender.com/api/short/68"
+          },
+          {
+            "title": "N.",
+            "url": "https://stephen-king-api.onrender.com/api/short/168"
+          }
+        ]
       },
       {
         "id": 7,
@@ -82,7 +198,9 @@
             "name": "London",
             "url": "https://stephen-king-api.onrender.com/api/place/40"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 8,
@@ -176,7 +294,9 @@
             "name": "Vermont",
             "url": "https://stephen-king-api.onrender.com/api/place/39"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 9,
@@ -185,7 +305,14 @@
         "type": "landmark",
         "created_at": "2026-10-28T20:25:46.000Z",
         "parent": null,
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Rose Madder",
+            "url": "https://stephen-king-api.onrender.com/api/book/30"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 10,
@@ -194,7 +321,14 @@
         "type": "landmark",
         "created_at": "2026-10-28T20:25:46.000Z",
         "parent": null,
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Apt Pupil",
+            "url": "https://stephen-king-api.onrender.com/api/short/83"
+          }
+        ]
       },
       {
         "id": 11,
@@ -203,7 +337,14 @@
         "type": "building",
         "created_at": "2026-10-28T20:25:46.000Z",
         "parent": null,
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Rose Madder",
+            "url": "https://stephen-king-api.onrender.com/api/book/30"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 12,
@@ -212,7 +353,14 @@
         "type": "building",
         "created_at": "2026-10-28T20:25:46.000Z",
         "parent": null,
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "The Crate",
+            "url": "https://stephen-king-api.onrender.com/api/short/66"
+          }
+        ]
       },
       {
         "id": 13,
@@ -221,7 +369,18 @@
         "type": "building",
         "created_at": "2026-10-28T20:25:46.000Z",
         "parent": null,
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Strawberry Spring",
+            "url": "https://stephen-king-api.onrender.com/api/short/23"
+          },
+          {
+            "title": "I Know What You Need",
+            "url": "https://stephen-king-api.onrender.com/api/short/52"
+          }
+        ]
       },
       {
         "id": 14,
@@ -230,7 +389,14 @@
         "type": "building",
         "created_at": "2026-10-28T20:25:46.000Z",
         "parent": null,
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Everything's Eventual",
+            "url": "https://stephen-king-api.onrender.com/api/short/137"
+          }
+        ]
       },
       {
         "id": 15,
@@ -239,7 +405,14 @@
         "type": "building",
         "created_at": "2026-10-28T20:25:46.000Z",
         "parent": null,
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Everything's Eventual",
+            "url": "https://stephen-king-api.onrender.com/api/short/137"
+          }
+        ]
       },
       {
         "id": 16,
@@ -260,7 +433,38 @@
             "name": "Le Casse Roi Russe",
             "url": "https://stephen-king-api.onrender.com/api/place/131"
           }
-        ]
+        ],
+        "books": [
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12"
+          },
+          {
+            "title": "The Dark Tower II: The Drawing of the Three",
+            "url": "https://stephen-king-api.onrender.com/api/book/20"
+          },
+          {
+            "title": "The Dark Tower III: The Waste Lands",
+            "url": "https://stephen-king-api.onrender.com/api/book/25"
+          },
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34"
+          },
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40"
+          },
+          {
+            "title": "The Dark Tower VI: Song of Susannah",
+            "url": "https://stephen-king-api.onrender.com/api/book/41"
+          },
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 17,
@@ -289,7 +493,42 @@
             "name": "Taunton",
             "url": "https://stephen-king-api.onrender.com/api/place/111"
           }
-        ]
+        ],
+        "books": [
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12"
+          },
+          {
+            "title": "The Eyes of the Dragon",
+            "url": "https://stephen-king-api.onrender.com/api/book/17"
+          },
+          {
+            "title": "The Dark Tower II: The Drawing of the Three",
+            "url": "https://stephen-king-api.onrender.com/api/book/20"
+          },
+          {
+            "title": "The Dark Tower III: The Waste Lands",
+            "url": "https://stephen-king-api.onrender.com/api/book/25"
+          },
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34"
+          },
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40"
+          },
+          {
+            "title": "The Dark Tower VI: Song of Susannah",
+            "url": "https://stephen-king-api.onrender.com/api/book/41"
+          },
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 18,
@@ -346,7 +585,38 @@
             "name": "Dogan",
             "url": "https://stephen-king-api.onrender.com/api/place/130"
           }
-        ]
+        ],
+        "books": [
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12"
+          },
+          {
+            "title": "The Dark Tower II: The Drawing of the Three",
+            "url": "https://stephen-king-api.onrender.com/api/book/20"
+          },
+          {
+            "title": "The Dark Tower III: The Waste Lands",
+            "url": "https://stephen-king-api.onrender.com/api/book/25"
+          },
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34"
+          },
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40"
+          },
+          {
+            "title": "The Dark Tower VI: Song of Susannah",
+            "url": "https://stephen-king-api.onrender.com/api/book/41"
+          },
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 19,
@@ -363,7 +633,9 @@
             "name": "Shoyo, Arkansas",
             "url": "https://stephen-king-api.onrender.com/api/place/105"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 20,
@@ -384,7 +656,9 @@
             "name": "Santo Donato",
             "url": "https://stephen-king-api.onrender.com/api/place/103"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 21,
@@ -409,7 +683,9 @@
             "name": "Overlook Hotel",
             "url": "https://stephen-king-api.onrender.com/api/place/133"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 22,
@@ -426,7 +702,9 @@
             "name": "Harwich, Connecticut",
             "url": "https://stephen-king-api.onrender.com/api/place/72"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 23,
@@ -447,7 +725,9 @@
             "name": "Rattlesnake Key",
             "url": "https://stephen-king-api.onrender.com/api/place/126"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 24,
@@ -464,7 +744,9 @@
             "name": "Powtanville, Indiana",
             "url": "https://stephen-king-api.onrender.com/api/place/97"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 25,
@@ -489,7 +771,9 @@
             "name": "Junction City, Iowa",
             "url": "https://stephen-king-api.onrender.com/api/place/77"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 26,
@@ -514,7 +798,9 @@
             "name": "Pratt, Kansas",
             "url": "https://stephen-king-api.onrender.com/api/place/98"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 27,
@@ -531,7 +817,9 @@
             "name": "Cold Mountain Penitentiary",
             "url": "https://stephen-king-api.onrender.com/api/place/128"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 28,
@@ -704,6 +992,150 @@
             "name": "South Windham Boys' Training Facility",
             "url": "https://stephen-king-api.onrender.com/api/place/135"
           }
+        ],
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          },
+          {
+            "title": "Salem's Lot",
+            "url": "https://stephen-king-api.onrender.com/api/book/2"
+          },
+          {
+            "title": "Rage",
+            "url": "https://stephen-king-api.onrender.com/api/book/4"
+          },
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          },
+          {
+            "title": "The Long Walk",
+            "url": "https://stephen-king-api.onrender.com/api/book/6"
+          },
+          {
+            "title": "The Dead Zone",
+            "url": "https://stephen-king-api.onrender.com/api/book/7"
+          },
+          {
+            "title": "Cujo",
+            "url": "https://stephen-king-api.onrender.com/api/book/10"
+          },
+          {
+            "title": "The Running Man",
+            "url": "https://stephen-king-api.onrender.com/api/book/11"
+          },
+          {
+            "title": "Pet Sematary",
+            "url": "https://stephen-king-api.onrender.com/api/book/14"
+          },
+          {
+            "title": "Cycle of the Werewolf",
+            "url": "https://stephen-king-api.onrender.com/api/book/15"
+          },
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          },
+          {
+            "title": "The Tommyknockers",
+            "url": "https://stephen-king-api.onrender.com/api/book/22"
+          },
+          {
+            "title": "The Dark Half",
+            "url": "https://stephen-king-api.onrender.com/api/book/23"
+          },
+          {
+            "title": "Needful Things",
+            "url": "https://stephen-king-api.onrender.com/api/book/26"
+          },
+          {
+            "title": "Gerald's Game",
+            "url": "https://stephen-king-api.onrender.com/api/book/27"
+          },
+          {
+            "title": "Dolores Claiborne",
+            "url": "https://stephen-king-api.onrender.com/api/book/28"
+          },
+          {
+            "title": "Insomnia",
+            "url": "https://stephen-king-api.onrender.com/api/book/29"
+          },
+          {
+            "title": "Bag of Bones",
+            "url": "https://stephen-king-api.onrender.com/api/book/35"
+          },
+          {
+            "title": "The Girl Who Loved Tom Gordon",
+            "url": "https://stephen-king-api.onrender.com/api/book/36"
+          },
+          {
+            "title": "Dreamcatcher",
+            "url": "https://stephen-king-api.onrender.com/api/book/37"
+          },
+          {
+            "title": "The Dark Tower VI: Song of Susannah",
+            "url": "https://stephen-king-api.onrender.com/api/book/41"
+          },
+          {
+            "title": "The Colorado Kid",
+            "url": "https://stephen-king-api.onrender.com/api/book/43"
+          },
+          {
+            "title": "Cell",
+            "url": "https://stephen-king-api.onrender.com/api/book/44"
+          },
+          {
+            "title": "Lisey's Story",
+            "url": "https://stephen-king-api.onrender.com/api/book/45"
+          },
+          {
+            "title": "Under the Dome",
+            "url": "https://stephen-king-api.onrender.com/api/book/48"
+          },
+          {
+            "title": "11/22/63",
+            "url": "https://stephen-king-api.onrender.com/api/book/49"
+          },
+          {
+            "title": "Revival",
+            "url": "https://stephen-king-api.onrender.com/api/book/54"
+          },
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/book/57"
+          },
+          {
+            "title": "The Institute",
+            "url": "https://stephen-king-api.onrender.com/api/book/61"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "The Body",
+            "url": "https://stephen-king-api.onrender.com/api/short/84"
+          },
+          {
+            "title": "Cycle of the Werewolf",
+            "url": "https://stephen-king-api.onrender.com/api/short/91"
+          },
+          {
+            "title": "Everything's Eventual",
+            "url": "https://stephen-king-api.onrender.com/api/short/137"
+          },
+          {
+            "title": "Hearts in Atlantis",
+            "url": "https://stephen-king-api.onrender.com/api/short/142"
+          },
+          {
+            "title": "N.",
+            "url": "https://stephen-king-api.onrender.com/api/short/168"
+          },
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/short/200"
+          }
         ]
       },
       {
@@ -721,7 +1153,9 @@
             "name": "Boston",
             "url": "https://stephen-king-api.onrender.com/api/place/49"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 30,
@@ -738,7 +1172,9 @@
             "name": "Lake Belle Reve, Mississippi",
             "url": "https://stephen-king-api.onrender.com/api/place/79"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 31,
@@ -763,7 +1199,9 @@
             "name": "Gatlin, Nebraska",
             "url": "https://stephen-king-api.onrender.com/api/place/69"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 32,
@@ -788,7 +1226,9 @@
             "name": "Desatoya Mountains",
             "url": "https://stephen-king-api.onrender.com/api/place/124"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 33,
@@ -813,7 +1253,9 @@
             "name": "Trimbull, New Hampshire",
             "url": "https://stephen-king-api.onrender.com/api/place/115"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 34,
@@ -834,7 +1276,9 @@
             "name": "New York City",
             "url": "https://stephen-king-api.onrender.com/api/place/90"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 35,
@@ -851,7 +1295,9 @@
             "name": "Heaven's Bay, North Carolina",
             "url": "https://stephen-king-api.onrender.com/api/place/75"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 36,
@@ -868,7 +1314,9 @@
             "name": "Harrison, Ohio",
             "url": "https://stephen-king-api.onrender.com/api/place/71"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 37,
@@ -889,7 +1337,9 @@
             "name": "May, Oklahoma",
             "url": "https://stephen-king-api.onrender.com/api/place/87"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 38,
@@ -910,7 +1360,9 @@
             "name": "Braintree, Texas",
             "url": "https://stephen-king-api.onrender.com/api/place/51"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 39,
@@ -927,7 +1379,9 @@
             "name": "Stovington, Vermont",
             "url": "https://stephen-king-api.onrender.com/api/place/108"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 40,
@@ -944,7 +1398,9 @@
             "name": "Crouch End",
             "url": "https://stephen-king-api.onrender.com/api/place/59"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 41,
@@ -965,6 +1421,13 @@
             "name": "Hemingford Home, Nebraska",
             "url": "https://stephen-king-api.onrender.com/api/place/139"
           }
+        ],
+        "books": [],
+        "shorts": [
+          {
+            "title": "1922",
+            "url": "https://stephen-king-api.onrender.com/api/short/177"
+          }
         ]
       },
       {
@@ -982,7 +1445,14 @@
             "name": "Hambry, Mejis",
             "url": "https://stephen-king-api.onrender.com/api/place/137"
           }
-        ]
+        ],
+        "books": [
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 43,
@@ -999,7 +1469,14 @@
             "name": "The Way Station",
             "url": "https://stephen-king-api.onrender.com/api/place/180"
           }
-        ]
+        ],
+        "books": [
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 44,
@@ -1016,7 +1493,18 @@
             "name": "Gilead",
             "url": "https://stephen-king-api.onrender.com/api/place/136"
           }
-        ]
+        ],
+        "books": [
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12"
+          },
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 45,
@@ -1028,7 +1516,19 @@
           "name": "Texas",
           "url": "https://stephen-king-api.onrender.com/api/place/38"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "The Monkey",
+            "url": "https://stephen-king-api.onrender.com/api/short/71"
+          }
+        ]
       },
       {
         "id": 46,
@@ -1049,7 +1549,14 @@
             "name": "Big Lost Weekend Bar & Grille",
             "url": "https://stephen-king-api.onrender.com/api/place/156"
           }
-        ]
+        ],
+        "books": [
+          {
+            "title": "The Tommyknockers",
+            "url": "https://stephen-king-api.onrender.com/api/book/22"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 47,
@@ -1061,7 +1568,9 @@
           "name": "California",
           "url": "https://stephen-king-api.onrender.com/api/place/20"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 48,
@@ -1073,7 +1582,14 @@
           "name": "Iowa",
           "url": "https://stephen-king-api.onrender.com/api/place/25"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Doctor Sleep",
+            "url": "https://stephen-king-api.onrender.com/api/book/52"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 49,
@@ -1085,7 +1601,9 @@
           "name": "Massachusetts",
           "url": "https://stephen-king-api.onrender.com/api/place/29"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 50,
@@ -1097,7 +1615,22 @@
           "name": "Colorado",
           "url": "https://stephen-king-api.onrender.com/api/place/21"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Shining",
+            "url": "https://stephen-king-api.onrender.com/api/book/3"
+          },
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          },
+          {
+            "title": "Misery",
+            "url": "https://stephen-king-api.onrender.com/api/book/21"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 51,
@@ -1109,7 +1642,14 @@
           "name": "Texas",
           "url": "https://stephen-king-api.onrender.com/api/place/38"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 52,
@@ -1121,7 +1661,18 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Trucks",
+            "url": "https://stephen-king-api.onrender.com/api/short/44"
+          },
+          {
+            "title": "The Mist",
+            "url": "https://stephen-king-api.onrender.com/api/short/67"
+          }
+        ]
       },
       {
         "id": 53,
@@ -1133,7 +1684,19 @@
           "name": "Mid-world",
           "url": "https://stephen-king-api.onrender.com/api/place/18"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Calla Bryn Sturgis",
+            "url": "https://stephen-king-api.onrender.com/api/short/151"
+          }
+        ]
       },
       {
         "id": 54,
@@ -1145,7 +1708,9 @@
           "name": "Nebraska",
           "url": "https://stephen-king-api.onrender.com/api/place/31"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 55,
@@ -1170,6 +1735,82 @@
             "name": "Castle Rock Middle School",
             "url": "https://stephen-king-api.onrender.com/api/place/159"
           }
+        ],
+        "books": [
+          {
+            "title": "The Dead Zone",
+            "url": "https://stephen-king-api.onrender.com/api/book/7"
+          },
+          {
+            "title": "Cujo",
+            "url": "https://stephen-king-api.onrender.com/api/book/10"
+          },
+          {
+            "title": "The Dark Half",
+            "url": "https://stephen-king-api.onrender.com/api/book/23"
+          },
+          {
+            "title": "Needful Things",
+            "url": "https://stephen-king-api.onrender.com/api/book/26"
+          },
+          {
+            "title": "Bag of Bones",
+            "url": "https://stephen-king-api.onrender.com/api/book/35"
+          },
+          {
+            "title": "Lisey's Story",
+            "url": "https://stephen-king-api.onrender.com/api/book/45"
+          },
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/book/57"
+          },
+          {
+            "title": "Elevation",
+            "url": "https://stephen-king-api.onrender.com/api/book/60"
+          },
+          {
+            "title": "Gwendy's Final Task",
+            "url": "https://stephen-king-api.onrender.com/api/book/73"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "It Grows on You",
+            "url": "https://stephen-king-api.onrender.com/api/short/46"
+          },
+          {
+            "title": "The Body",
+            "url": "https://stephen-king-api.onrender.com/api/short/84"
+          },
+          {
+            "title": "Uncle Otto's Truck",
+            "url": "https://stephen-king-api.onrender.com/api/short/90"
+          },
+          {
+            "title": "Gramma",
+            "url": "https://stephen-king-api.onrender.com/api/short/93"
+          },
+          {
+            "title": "The Sun Dog",
+            "url": "https://stephen-king-api.onrender.com/api/short/117"
+          },
+          {
+            "title": "The Man in the Black Suit",
+            "url": "https://stephen-king-api.onrender.com/api/short/130"
+          },
+          {
+            "title": "Premium Harmony",
+            "url": "https://stephen-king-api.onrender.com/api/short/174"
+          },
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/short/200"
+          },
+          {
+            "title": "Elevation",
+            "url": "https://stephen-king-api.onrender.com/api/short/203"
+          }
         ]
       },
       {
@@ -1182,7 +1823,59 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Needful Things",
+            "url": "https://stephen-king-api.onrender.com/api/book/26"
+          },
+          {
+            "title": "The Girl Who Loved Tom Gordon",
+            "url": "https://stephen-king-api.onrender.com/api/book/36"
+          },
+          {
+            "title": "Lisey's Story",
+            "url": "https://stephen-king-api.onrender.com/api/book/45"
+          },
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/book/57"
+          },
+          {
+            "title": "Elevation",
+            "url": "https://stephen-king-api.onrender.com/api/book/60"
+          },
+          {
+            "title": "Gwendy's Final Task",
+            "url": "https://stephen-king-api.onrender.com/api/book/73"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "The Body",
+            "url": "https://stephen-king-api.onrender.com/api/short/84"
+          },
+          {
+            "title": "Gramma",
+            "url": "https://stephen-king-api.onrender.com/api/short/93"
+          },
+          {
+            "title": "A Good Marriage",
+            "url": "https://stephen-king-api.onrender.com/api/short/180"
+          },
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/short/200"
+          },
+          {
+            "title": "Elevation",
+            "url": "https://stephen-king-api.onrender.com/api/short/203"
+          },
+          {
+            "title": "Two Talented Bastids",
+            "url": "https://stephen-king-api.onrender.com/api/short/215"
+          }
+        ]
       },
       {
         "id": 57,
@@ -1203,7 +1896,18 @@
             "name": "Thomas Ewen Consolidated High School",
             "url": "https://stephen-king-api.onrender.com/api/place/181"
           }
-        ]
+        ],
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          },
+          {
+            "title": "Cell",
+            "url": "https://stephen-king-api.onrender.com/api/book/44"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 58,
@@ -1240,6 +1944,18 @@
             "name": "WCIK",
             "url": "https://stephen-king-api.onrender.com/api/place/182"
           }
+        ],
+        "books": [
+          {
+            "title": "Under the Dome",
+            "url": "https://stephen-king-api.onrender.com/api/book/48"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "N.",
+            "url": "https://stephen-king-api.onrender.com/api/short/168"
+          }
         ]
       },
       {
@@ -1252,7 +1968,14 @@
           "name": "London",
           "url": "https://stephen-king-api.onrender.com/api/place/40"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Crouch End",
+            "url": "https://stephen-king-api.onrender.com/api/short/68"
+          }
+        ]
       },
       {
         "id": 60,
@@ -1269,7 +1992,9 @@
             "name": "Ottershaw Christian Home for Boys",
             "url": "https://stephen-king-api.onrender.com/api/place/171"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 61,
@@ -1281,7 +2006,14 @@
           "name": "In-world",
           "url": "https://stephen-king-api.onrender.com/api/place/17"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Dark Tower: The Wind Through the Keyhole",
+            "url": "https://stephen-king-api.onrender.com/api/book/50"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 62,
@@ -1338,6 +2070,94 @@
             "name": "WomanCare",
             "url": "https://stephen-king-api.onrender.com/api/place/184"
           }
+        ],
+        "books": [
+          {
+            "title": "The Running Man",
+            "url": "https://stephen-king-api.onrender.com/api/book/11"
+          },
+          {
+            "title": "Pet Sematary",
+            "url": "https://stephen-king-api.onrender.com/api/book/14"
+          },
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          },
+          {
+            "title": "The Tommyknockers",
+            "url": "https://stephen-king-api.onrender.com/api/book/22"
+          },
+          {
+            "title": "Gerald's Game",
+            "url": "https://stephen-king-api.onrender.com/api/book/27"
+          },
+          {
+            "title": "Insomnia",
+            "url": "https://stephen-king-api.onrender.com/api/book/29"
+          },
+          {
+            "title": "Bag of Bones",
+            "url": "https://stephen-king-api.onrender.com/api/book/35"
+          },
+          {
+            "title": "Dreamcatcher",
+            "url": "https://stephen-king-api.onrender.com/api/book/37"
+          },
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42"
+          },
+          {
+            "title": "Lisey's Story",
+            "url": "https://stephen-king-api.onrender.com/api/book/45"
+          },
+          {
+            "title": "11/22/63",
+            "url": "https://stephen-king-api.onrender.com/api/book/49"
+          },
+          {
+            "title": "Gwendy's Final Task",
+            "url": "https://stephen-king-api.onrender.com/api/book/73"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "The Bird and the Album",
+            "url": "https://stephen-king-api.onrender.com/api/short/78"
+          },
+          {
+            "title": "Mrs. Todd's Shortcut",
+            "url": "https://stephen-king-api.onrender.com/api/short/94"
+          },
+          {
+            "title": "The Night Flier",
+            "url": "https://stephen-king-api.onrender.com/api/short/106"
+          },
+          {
+            "title": "Secret Window, Secret Garden",
+            "url": "https://stephen-king-api.onrender.com/api/short/116"
+          },
+          {
+            "title": "Autopsy Room Four",
+            "url": "https://stephen-king-api.onrender.com/api/short/134"
+          },
+          {
+            "title": "The Road Virus Heads North",
+            "url": "https://stephen-king-api.onrender.com/api/short/141"
+          },
+          {
+            "title": "Hearts in Atlantis",
+            "url": "https://stephen-king-api.onrender.com/api/short/142"
+          },
+          {
+            "title": "Mute",
+            "url": "https://stephen-king-api.onrender.com/api/short/165"
+          },
+          {
+            "title": "Fair Extension",
+            "url": "https://stephen-king-api.onrender.com/api/short/179"
+          }
         ]
       },
       {
@@ -1350,7 +2170,18 @@
           "name": "Nevada",
           "url": "https://stephen-king-api.onrender.com/api/place/32"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Desperation",
+            "url": "https://stephen-king-api.onrender.com/api/book/32"
+          },
+          {
+            "title": "The Regulators",
+            "url": "https://stephen-king-api.onrender.com/api/book/33"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 64,
@@ -1362,7 +2193,14 @@
           "name": "Mid-world",
           "url": "https://stephen-king-api.onrender.com/api/place/18"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "The Little Sisters of Eluria",
+            "url": "https://stephen-king-api.onrender.com/api/short/139"
+          }
+        ]
       },
       {
         "id": 65,
@@ -1374,7 +2212,14 @@
           "name": "Oklahoma",
           "url": "https://stephen-king-api.onrender.com/api/place/37"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 66,
@@ -1386,7 +2231,14 @@
           "name": "End-world",
           "url": "https://stephen-king-api.onrender.com/api/place/16"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 67,
@@ -1398,7 +2250,14 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Long Walk",
+            "url": "https://stephen-king-api.onrender.com/api/book/6"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 68,
@@ -1410,7 +2269,14 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Graveyard Shift",
+            "url": "https://stephen-king-api.onrender.com/api/short/29"
+          }
+        ]
       },
       {
         "id": 69,
@@ -1422,7 +2288,14 @@
           "name": "Nebraska",
           "url": "https://stephen-king-api.onrender.com/api/place/31"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Children of the Corn",
+            "url": "https://stephen-king-api.onrender.com/api/short/53"
+          }
+        ]
       },
       {
         "id": 70,
@@ -1434,7 +2307,14 @@
           "name": "Kansas",
           "url": "https://stephen-king-api.onrender.com/api/place/26"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 71,
@@ -1451,7 +2331,14 @@
             "name": "Harrison State College",
             "url": "https://stephen-king-api.onrender.com/api/place/167"
           }
-        ]
+        ],
+        "books": [
+          {
+            "title": "Firestarter",
+            "url": "https://stephen-king-api.onrender.com/api/book/8"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 72,
@@ -1463,7 +2350,14 @@
           "name": "Connecticut",
           "url": "https://stephen-king-api.onrender.com/api/place/22"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Low Men in Yellow Coats",
+            "url": "https://stephen-king-api.onrender.com/api/short/144"
+          }
+        ]
       },
       {
         "id": 73,
@@ -1480,7 +2374,14 @@
             "name": "The Slumberland Motel",
             "url": "https://stephen-king-api.onrender.com/api/place/178"
           }
-        ]
+        ],
+        "books": [
+          {
+            "title": "Firestarter",
+            "url": "https://stephen-king-api.onrender.com/api/book/8"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 74,
@@ -1492,7 +2393,23 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Tommyknockers",
+            "url": "https://stephen-king-api.onrender.com/api/book/22"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Mrs. Todd's Shortcut",
+            "url": "https://stephen-king-api.onrender.com/api/short/94"
+          },
+          {
+            "title": "The Revelations of 'Becka Paulson",
+            "url": "https://stephen-king-api.onrender.com/api/short/96"
+          }
+        ]
       },
       {
         "id": 75,
@@ -1509,7 +2426,14 @@
             "name": "Joyland Park",
             "url": "https://stephen-king-api.onrender.com/api/place/146"
           }
-        ]
+        ],
+        "books": [
+          {
+            "title": "Joyland",
+            "url": "https://stephen-king-api.onrender.com/api/book/51"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 76,
@@ -1542,6 +2466,22 @@
             "name": "Stanley Street Elementary School",
             "url": "https://stephen-king-api.onrender.com/api/place/173"
           }
+        ],
+        "books": [
+          {
+            "title": "Salem's Lot",
+            "url": "https://stephen-king-api.onrender.com/api/book/2"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "One for the Road",
+            "url": "https://stephen-king-api.onrender.com/api/short/54"
+          },
+          {
+            "title": "Jerusalem's Lot",
+            "url": "https://stephen-king-api.onrender.com/api/short/58"
+          }
         ]
       },
       {
@@ -1554,7 +2494,23 @@
           "name": "Iowa",
           "url": "https://stephen-king-api.onrender.com/api/place/25"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Desperation",
+            "url": "https://stephen-king-api.onrender.com/api/book/32"
+          },
+          {
+            "title": "The Regulators",
+            "url": "https://stephen-king-api.onrender.com/api/book/33"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "The Library Policeman",
+            "url": "https://stephen-king-api.onrender.com/api/short/115"
+          }
+        ]
       },
       {
         "id": 78,
@@ -1566,7 +2522,23 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Gerald's Game",
+            "url": "https://stephen-king-api.onrender.com/api/book/27"
+          },
+          {
+            "title": "Cell",
+            "url": "https://stephen-king-api.onrender.com/api/book/44"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "The Man in the Black Suit",
+            "url": "https://stephen-king-api.onrender.com/api/short/130"
+          }
+        ]
       },
       {
         "id": 79,
@@ -1578,7 +2550,9 @@
           "name": "Mississippi",
           "url": "https://stephen-king-api.onrender.com/api/place/30"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 80,
@@ -1590,7 +2564,19 @@
           "name": "Nevada",
           "url": "https://stephen-king-api.onrender.com/api/place/32"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Dolan's Cadillac",
+            "url": "https://stephen-king-api.onrender.com/api/short/98"
+          }
+        ]
       },
       {
         "id": 81,
@@ -1602,7 +2588,18 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          },
+          {
+            "title": "Gwendy's Final Task",
+            "url": "https://stephen-king-api.onrender.com/api/book/73"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 82,
@@ -1614,7 +2611,9 @@
           "name": "Mid-world",
           "url": "https://stephen-king-api.onrender.com/api/place/18"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 83,
@@ -1626,7 +2625,19 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Dolores Claiborne",
+            "url": "https://stephen-king-api.onrender.com/api/book/28"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Home Delivery",
+            "url": "https://stephen-king-api.onrender.com/api/short/111"
+          }
+        ]
       },
       {
         "id": 84,
@@ -1638,7 +2649,9 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 85,
@@ -1650,7 +2663,14 @@
           "name": "Mid-world",
           "url": "https://stephen-king-api.onrender.com/api/place/18"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Dark Tower III: The Waste Lands",
+            "url": "https://stephen-king-api.onrender.com/api/book/25"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 86,
@@ -1662,7 +2682,18 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Pet Sematary",
+            "url": "https://stephen-king-api.onrender.com/api/book/14"
+          },
+          {
+            "title": "The Dark Half",
+            "url": "https://stephen-king-api.onrender.com/api/book/23"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 87,
@@ -1674,7 +2705,9 @@
           "name": "Oklahoma",
           "url": "https://stephen-king-api.onrender.com/api/place/37"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 88,
@@ -1699,7 +2732,14 @@
             "name": "Moose Cove",
             "url": "https://stephen-king-api.onrender.com/api/place/149"
           }
-        ]
+        ],
+        "books": [
+          {
+            "title": "The Colorado Kid",
+            "url": "https://stephen-king-api.onrender.com/api/book/43"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 89,
@@ -1711,7 +2751,31 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          },
+          {
+            "title": "Under the Dome",
+            "url": "https://stephen-king-api.onrender.com/api/book/48"
+          },
+          {
+            "title": "Revival",
+            "url": "https://stephen-king-api.onrender.com/api/book/54"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "The Man in the Black Suit",
+            "url": "https://stephen-king-api.onrender.com/api/short/130"
+          },
+          {
+            "title": "N.",
+            "url": "https://stephen-king-api.onrender.com/api/short/168"
+          }
+        ]
       },
       {
         "id": 90,
@@ -1732,7 +2796,9 @@
             "name": "The Club",
             "url": "https://stephen-king-api.onrender.com/api/place/176"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 91,
@@ -1744,7 +2810,9 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 92,
@@ -1756,7 +2824,14 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 93,
@@ -1768,7 +2843,14 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Rage",
+            "url": "https://stephen-king-api.onrender.com/api/book/4"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 94,
@@ -1780,7 +2862,14 @@
           "name": "Kansas",
           "url": "https://stephen-king-api.onrender.com/api/place/26"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 95,
@@ -1792,7 +2881,14 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Salem's Lot",
+            "url": "https://stephen-king-api.onrender.com/api/book/2"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 96,
@@ -1809,7 +2905,9 @@
             "name": "Dead Man's Trail",
             "url": "https://stephen-king-api.onrender.com/api/place/142"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 97,
@@ -1821,7 +2919,9 @@
           "name": "Indiana",
           "url": "https://stephen-king-api.onrender.com/api/place/24"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 98,
@@ -1833,7 +2933,9 @@
           "name": "Kansas",
           "url": "https://stephen-king-api.onrender.com/api/place/26"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 99,
@@ -1845,7 +2947,14 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Jerusalem's Lot",
+            "url": "https://stephen-king-api.onrender.com/api/short/58"
+          }
+        ]
       },
       {
         "id": 100,
@@ -1857,7 +2966,14 @@
           "name": "Mid-world",
           "url": "https://stephen-king-api.onrender.com/api/place/18"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 101,
@@ -1869,7 +2985,14 @@
           "name": "New Hampshire",
           "url": "https://stephen-king-api.onrender.com/api/place/33"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Dead Zone",
+            "url": "https://stephen-king-api.onrender.com/api/book/7"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 102,
@@ -1881,7 +3004,14 @@
           "name": "Mid-world",
           "url": "https://stephen-king-api.onrender.com/api/place/18"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Dark Tower III: The Waste Lands",
+            "url": "https://stephen-king-api.onrender.com/api/book/25"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 103,
@@ -1893,7 +3023,14 @@
           "name": "California",
           "url": "https://stephen-king-api.onrender.com/api/place/20"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Apt Pupil",
+            "url": "https://stephen-king-api.onrender.com/api/short/83"
+          }
+        ]
       },
       {
         "id": 104,
@@ -1910,7 +3047,9 @@
             "name": "Ed Smith Stadium",
             "url": "https://stephen-king-api.onrender.com/api/place/166"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 105,
@@ -1922,7 +3061,14 @@
           "name": "Arkansas",
           "url": "https://stephen-king-api.onrender.com/api/place/19"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 106,
@@ -1934,7 +3080,26 @@
           "name": "Colorado",
           "url": "https://stephen-king-api.onrender.com/api/place/21"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Shining",
+            "url": "https://stephen-king-api.onrender.com/api/book/3"
+          },
+          {
+            "title": "Misery",
+            "url": "https://stephen-king-api.onrender.com/api/book/21"
+          },
+          {
+            "title": "Doctor Sleep",
+            "url": "https://stephen-king-api.onrender.com/api/book/52"
+          },
+          {
+            "title": "Billy Summers",
+            "url": "https://stephen-king-api.onrender.com/api/book/63"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 107,
@@ -1946,7 +3111,9 @@
           "name": "New Hampshire",
           "url": "https://stephen-king-api.onrender.com/api/place/33"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 108,
@@ -1958,7 +3125,22 @@
           "name": "Vermont",
           "url": "https://stephen-king-api.onrender.com/api/place/39"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Shining",
+            "url": "https://stephen-king-api.onrender.com/api/book/3"
+          },
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          },
+          {
+            "title": "The Dead Zone",
+            "url": "https://stephen-king-api.onrender.com/api/book/7"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 109,
@@ -1970,7 +3152,23 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Cycle of the Werewolf",
+            "url": "https://stephen-king-api.onrender.com/api/book/15"
+          },
+          {
+            "title": "Under the Dome",
+            "url": "https://stephen-king-api.onrender.com/api/book/48"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Cycle of the Werewolf",
+            "url": "https://stephen-king-api.onrender.com/api/short/91"
+          }
+        ]
       },
       {
         "id": 110,
@@ -1991,6 +3189,13 @@
             "name": "Tashmore Methodist Church",
             "url": "https://stephen-king-api.onrender.com/api/place/174"
           }
+        ],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Secret Window, Secret Garden",
+            "url": "https://stephen-king-api.onrender.com/api/short/116"
+          }
         ]
       },
       {
@@ -2003,7 +3208,9 @@
           "name": "In-world",
           "url": "https://stephen-king-api.onrender.com/api/place/17"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 112,
@@ -2015,7 +3222,9 @@
           "name": "Mid-world",
           "url": "https://stephen-king-api.onrender.com/api/place/18"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 113,
@@ -2032,7 +3241,14 @@
             "name": "Seaview Cemetery",
             "url": "https://stephen-king-api.onrender.com/api/place/151"
           }
-        ]
+        ],
+        "books": [
+          {
+            "title": "The Colorado Kid",
+            "url": "https://stephen-king-api.onrender.com/api/book/43"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 114,
@@ -2044,7 +3260,35 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Bag of Bones",
+            "url": "https://stephen-king-api.onrender.com/api/book/35"
+          },
+          {
+            "title": "The Girl Who Loved Tom Gordon",
+            "url": "https://stephen-king-api.onrender.com/api/book/36"
+          },
+          {
+            "title": "Cell",
+            "url": "https://stephen-king-api.onrender.com/api/book/44"
+          },
+          {
+            "title": "Under the Dome",
+            "url": "https://stephen-king-api.onrender.com/api/book/48"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Rat",
+            "url": "https://stephen-king-api.onrender.com/api/short/210"
+          },
+          {
+            "title": "Two Talented Bastids",
+            "url": "https://stephen-king-api.onrender.com/api/short/215"
+          }
+        ]
       },
       {
         "id": 115,
@@ -2056,7 +3300,14 @@
           "name": "New Hampshire",
           "url": "https://stephen-king-api.onrender.com/api/place/33"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Dead Zone",
+            "url": "https://stephen-king-api.onrender.com/api/book/7"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 116,
@@ -2068,7 +3319,19 @@
           "name": "Mid-world",
           "url": "https://stephen-king-api.onrender.com/api/place/18"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/short/64"
+          }
+        ]
       },
       {
         "id": 117,
@@ -2080,7 +3343,9 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 118,
@@ -2092,7 +3357,14 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 119,
@@ -2104,7 +3376,9 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 120,
@@ -2116,7 +3390,14 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "N.",
+            "url": "https://stephen-king-api.onrender.com/api/short/168"
+          }
+        ]
       },
       {
         "id": 121,
@@ -2128,7 +3409,19 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/book/57"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/short/200"
+          }
+        ]
       },
       {
         "id": 122,
@@ -2140,7 +3433,14 @@
           "name": "Mid-world",
           "url": "https://stephen-king-api.onrender.com/api/place/18"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 123,
@@ -2152,7 +3452,27 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Bag of Bones",
+            "url": "https://stephen-king-api.onrender.com/api/book/35"
+          },
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/book/57"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/short/200"
+          },
+          {
+            "title": "The Dreamers",
+            "url": "https://stephen-king-api.onrender.com/api/short/218"
+          }
+        ]
       },
       {
         "id": 124,
@@ -2164,7 +3484,19 @@
           "name": "Nevada",
           "url": "https://stephen-king-api.onrender.com/api/place/32"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Desperation",
+            "url": "https://stephen-king-api.onrender.com/api/book/32"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "The Little Sisters of Eluria",
+            "url": "https://stephen-king-api.onrender.com/api/short/139"
+          }
+        ]
       },
       {
         "id": 125,
@@ -2176,7 +3508,9 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 126,
@@ -2188,7 +3522,18 @@
           "name": "Florida",
           "url": "https://stephen-king-api.onrender.com/api/place/23"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Laurie",
+            "url": "https://stephen-king-api.onrender.com/api/short/202"
+          },
+          {
+            "title": "Rattlesnakes",
+            "url": "https://stephen-king-api.onrender.com/api/short/217"
+          }
+        ]
       },
       {
         "id": 127,
@@ -2200,7 +3545,14 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Under the Dome",
+            "url": "https://stephen-king-api.onrender.com/api/book/48"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 128,
@@ -2212,7 +3564,14 @@
           "name": "Louisiana",
           "url": "https://stephen-king-api.onrender.com/api/place/27"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Green Mile",
+            "url": "https://stephen-king-api.onrender.com/api/book/31"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 129,
@@ -2224,7 +3583,14 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Salem's Lot",
+            "url": "https://stephen-king-api.onrender.com/api/book/2"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 130,
@@ -2236,7 +3602,14 @@
           "name": "Mid-world",
           "url": "https://stephen-king-api.onrender.com/api/place/18"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 131,
@@ -2248,7 +3621,14 @@
           "name": "End-world",
           "url": "https://stephen-king-api.onrender.com/api/place/16"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 132,
@@ -2260,7 +3640,14 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Under the Dome",
+            "url": "https://stephen-king-api.onrender.com/api/book/48"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 133,
@@ -2277,7 +3664,14 @@
             "name": "Room 237",
             "url": "https://stephen-king-api.onrender.com/api/place/172"
           }
-        ]
+        ],
+        "books": [
+          {
+            "title": "The Shining",
+            "url": "https://stephen-king-api.onrender.com/api/book/3"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 134,
@@ -2289,7 +3683,31 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          },
+          {
+            "title": "Dolores Claiborne",
+            "url": "https://stephen-king-api.onrender.com/api/book/28"
+          },
+          {
+            "title": "Blaze",
+            "url": "https://stephen-king-api.onrender.com/api/book/46"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Apt Pupil",
+            "url": "https://stephen-king-api.onrender.com/api/short/83"
+          },
+          {
+            "title": "Rita Hayworth and Shawshank Redemption",
+            "url": "https://stephen-king-api.onrender.com/api/short/86"
+          }
+        ]
       },
       {
         "id": 135,
@@ -2301,7 +3719,9 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 136,
@@ -2313,7 +3733,18 @@
           "name": "New Canaan",
           "url": "https://stephen-king-api.onrender.com/api/place/44"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12"
+          },
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 137,
@@ -2325,7 +3756,14 @@
           "name": "Mejis",
           "url": "https://stephen-king-api.onrender.com/api/place/42"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 138,
@@ -2337,7 +3775,9 @@
           "name": "Hemingford County, Nebraska",
           "url": "https://stephen-king-api.onrender.com/api/place/41"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 139,
@@ -2349,7 +3789,39 @@
           "name": "Hemingford County, Nebraska",
           "url": "https://stephen-king-api.onrender.com/api/place/41"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          },
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          },
+          {
+            "title": "Billy Summers",
+            "url": "https://stephen-king-api.onrender.com/api/book/63"
+          },
+          {
+            "title": "Other Worlds Than These",
+            "url": "https://stephen-king-api.onrender.com/api/book/77"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Children of the Corn",
+            "url": "https://stephen-king-api.onrender.com/api/short/53"
+          },
+          {
+            "title": "The Last Rung on the Ladder",
+            "url": "https://stephen-king-api.onrender.com/api/short/59"
+          },
+          {
+            "title": "1922",
+            "url": "https://stephen-king-api.onrender.com/api/short/177"
+          }
+        ]
       },
       {
         "id": 140,
@@ -2361,7 +3833,14 @@
           "name": "Chester's Mill, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/58"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Under the Dome",
+            "url": "https://stephen-king-api.onrender.com/api/book/48"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 141,
@@ -2373,7 +3852,9 @@
           "name": "Castle Rock, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/55"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 142,
@@ -2385,7 +3866,14 @@
           "name": "Pownal, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/96"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "A Good Marriage",
+            "url": "https://stephen-king-api.onrender.com/api/short/180"
+          }
+        ]
       },
       {
         "id": 143,
@@ -2397,7 +3885,9 @@
           "name": "Derry, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/62"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 144,
@@ -2409,7 +3899,9 @@
           "name": "Moose-Lookit Island",
           "url": "https://stephen-king-api.onrender.com/api/place/88"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 145,
@@ -2421,7 +3913,19 @@
           "name": "Jerusalem's Lot, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/76"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Salem's Lot",
+            "url": "https://stephen-king-api.onrender.com/api/book/2"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Rattlesnakes",
+            "url": "https://stephen-king-api.onrender.com/api/short/217"
+          }
+        ]
       },
       {
         "id": 146,
@@ -2433,7 +3937,14 @@
           "name": "Heaven's Bay, North Carolina",
           "url": "https://stephen-king-api.onrender.com/api/place/75"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Joyland",
+            "url": "https://stephen-king-api.onrender.com/api/book/51"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 147,
@@ -2445,7 +3956,9 @@
           "name": "Chester's Mill, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/58"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 148,
@@ -2457,7 +3970,9 @@
           "name": "Moose-Lookit Island",
           "url": "https://stephen-king-api.onrender.com/api/place/88"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 149,
@@ -2469,7 +3984,14 @@
           "name": "Moose-Lookit Island",
           "url": "https://stephen-king-api.onrender.com/api/place/88"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Colorado Kid",
+            "url": "https://stephen-king-api.onrender.com/api/book/43"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 150,
@@ -2481,7 +4003,14 @@
           "name": "Derry, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/62"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 151,
@@ -2493,7 +4022,9 @@
           "name": "Tinnock Village, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/113"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 152,
@@ -2505,7 +4036,9 @@
           "name": "Chester's Mill, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/58"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 153,
@@ -2517,7 +4050,14 @@
           "name": "Tashmore, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/110"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Secret Window, Secret Garden",
+            "url": "https://stephen-king-api.onrender.com/api/short/116"
+          }
+        ]
       },
       {
         "id": 154,
@@ -2529,7 +4069,14 @@
           "name": "Derry, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/62"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 155,
@@ -2541,7 +4088,14 @@
           "name": "Augusta, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/46"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Tommyknockers",
+            "url": "https://stephen-king-api.onrender.com/api/book/22"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 156,
@@ -2553,7 +4107,14 @@
           "name": "Augusta, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/46"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Tommyknockers",
+            "url": "https://stephen-king-api.onrender.com/api/book/22"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 157,
@@ -2565,7 +4126,14 @@
           "name": "Jerusalem's Lot, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/76"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Salem's Lot",
+            "url": "https://stephen-king-api.onrender.com/api/book/2"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 158,
@@ -2577,7 +4145,19 @@
           "name": "Castle Rock, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/55"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/book/57"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/short/200"
+          }
+        ]
       },
       {
         "id": 159,
@@ -2589,7 +4169,19 @@
           "name": "Castle Rock, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/55"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/book/57"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/short/200"
+          }
+        ]
       },
       {
         "id": 160,
@@ -2601,7 +4193,14 @@
           "name": "Chester's Mill, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/58"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Under the Dome",
+            "url": "https://stephen-king-api.onrender.com/api/book/48"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 161,
@@ -2613,7 +4212,14 @@
           "name": "Derry, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/62"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 162,
@@ -2625,7 +4231,18 @@
           "name": "Derry, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/62"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Insomnia",
+            "url": "https://stephen-king-api.onrender.com/api/book/29"
+          },
+          {
+            "title": "Under the Dome",
+            "url": "https://stephen-king-api.onrender.com/api/book/48"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 163,
@@ -2637,7 +4254,14 @@
           "name": "Derry, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/62"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 164,
@@ -2649,7 +4273,18 @@
           "name": "Derry, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/62"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          },
+          {
+            "title": "Insomnia",
+            "url": "https://stephen-king-api.onrender.com/api/book/29"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 165,
@@ -2661,7 +4296,14 @@
           "name": "Chester's Mill, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/58"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Under the Dome",
+            "url": "https://stephen-king-api.onrender.com/api/book/48"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 166,
@@ -2673,7 +4315,14 @@
           "name": "Sarasota, Florida",
           "url": "https://stephen-king-api.onrender.com/api/place/104"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Blockade Billy",
+            "url": "https://stephen-king-api.onrender.com/api/short/176"
+          }
+        ]
       },
       {
         "id": 167,
@@ -2685,7 +4334,14 @@
           "name": "Harrison, Ohio",
           "url": "https://stephen-king-api.onrender.com/api/place/71"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Firestarter",
+            "url": "https://stephen-king-api.onrender.com/api/book/8"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 168,
@@ -2697,7 +4353,14 @@
           "name": "New York City",
           "url": "https://stephen-king-api.onrender.com/api/place/90"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "1408",
+            "url": "https://stephen-king-api.onrender.com/api/short/146"
+          }
+        ]
       },
       {
         "id": 169,
@@ -2709,7 +4372,14 @@
           "name": "Jerusalem's Lot, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/76"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Salem's Lot",
+            "url": "https://stephen-king-api.onrender.com/api/book/2"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 170,
@@ -2721,7 +4391,14 @@
           "name": "Jerusalem's Lot, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/76"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Salem's Lot",
+            "url": "https://stephen-king-api.onrender.com/api/book/2"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 171,
@@ -2733,7 +4410,14 @@
           "name": "Davenport, Iowa",
           "url": "https://stephen-king-api.onrender.com/api/place/60"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Blockade Billy",
+            "url": "https://stephen-king-api.onrender.com/api/short/176"
+          }
+        ]
       },
       {
         "id": 172,
@@ -2745,7 +4429,14 @@
           "name": "Overlook Hotel",
           "url": "https://stephen-king-api.onrender.com/api/place/133"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Shining",
+            "url": "https://stephen-king-api.onrender.com/api/book/3"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 173,
@@ -2757,7 +4448,14 @@
           "name": "Jerusalem's Lot, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/76"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Salem's Lot",
+            "url": "https://stephen-king-api.onrender.com/api/book/2"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 174,
@@ -2769,7 +4467,9 @@
           "name": "Tashmore, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/110"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": []
       },
       {
         "id": 175,
@@ -2781,7 +4481,14 @@
           "name": "Chamberlain, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/57"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 176,
@@ -2793,7 +4500,18 @@
           "name": "New York City",
           "url": "https://stephen-king-api.onrender.com/api/place/90"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "The Man Who Would Not Shake Hands",
+            "url": "https://stephen-king-api.onrender.com/api/short/76"
+          },
+          {
+            "title": "The Breathing Method",
+            "url": "https://stephen-king-api.onrender.com/api/short/85"
+          }
+        ]
       },
       {
         "id": 177,
@@ -2805,7 +4523,14 @@
           "name": "Derry, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/62"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 178,
@@ -2817,7 +4542,14 @@
           "name": "Hastings Glen",
           "url": "https://stephen-king-api.onrender.com/api/place/73"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Firestarter",
+            "url": "https://stephen-king-api.onrender.com/api/book/8"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 179,
@@ -2829,7 +4561,14 @@
           "name": "Derry, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/62"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 180,
@@ -2841,7 +4580,19 @@
           "name": "Mohaine Desert",
           "url": "https://stephen-king-api.onrender.com/api/place/43"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "The Way Station",
+            "url": "https://stephen-king-api.onrender.com/api/short/69"
+          }
+        ]
       },
       {
         "id": 181,
@@ -2853,7 +4604,14 @@
           "name": "Chamberlain, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/57"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 182,
@@ -2865,7 +4623,14 @@
           "name": "Chester's Mill, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/58"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Under the Dome",
+            "url": "https://stephen-king-api.onrender.com/api/book/48"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 183,
@@ -2877,7 +4642,14 @@
           "name": "Derry, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/62"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": []
       },
       {
         "id": 184,
@@ -2889,7 +4661,14 @@
           "name": "Derry, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/62"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Insomnia",
+            "url": "https://stephen-king-api.onrender.com/api/book/29"
+          }
+        ],
+        "shorts": []
       }
     ]
   }

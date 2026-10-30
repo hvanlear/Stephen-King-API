@@ -153,4 +153,22 @@ describe("links", () => {
       }
     }
   });
+
+  it("from places to books and shorts use their titles", async () => {
+    const names = new Map<string, string>();
+    for (const { list, detail } of resources.slice(0, 2)) {
+      const { body } = await get(list);
+      for (const record of body.data) {
+        names.set(`${detail}/${record.id}`, record.Title ?? record.title);
+      }
+    }
+    const { body } = await get("/api/places");
+    for (const place of body.data) {
+      for (const link of [...place.books, ...place.shorts]) {
+        const linked = new URL(link.url).pathname;
+        assert.ok(names.has(linked), `place ${place.id} links ${link.url}, which doesn't exist`);
+        assert.equal(link.title, names.get(linked), `place ${place.id} links ${link.url} under the wrong title`);
+      }
+    }
+  });
 });

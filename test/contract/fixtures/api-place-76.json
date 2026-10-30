@@ -33,6 +33,22 @@
           "name": "Stanley Street Elementary School",
           "url": "https://stephen-king-api.onrender.com/api/place/173"
         }
+      ],
+      "books": [
+        {
+          "title": "Salem's Lot",
+          "url": "https://stephen-king-api.onrender.com/api/book/2"
+        }
+      ],
+      "shorts": [
+        {
+          "title": "One for the Road",
+          "url": "https://stephen-king-api.onrender.com/api/short/54"
+        },
+        {
+          "title": "Jerusalem's Lot",
+          "url": "https://stephen-king-api.onrender.com/api/short/58"
+        }
       ]
     }
   }

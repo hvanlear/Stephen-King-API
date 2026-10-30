@@ -12,7 +12,14 @@
         "name": "Jerusalem's Lot, Maine",
         "url": "https://stephen-king-api.onrender.com/api/place/76"
       },
-      "places": []
+      "places": [],
+      "books": [
+        {
+          "title": "Salem's Lot",
+          "url": "https://stephen-king-api.onrender.com/api/book/2"
+        }
+      ],
+      "shorts": []
     }
   }
 }

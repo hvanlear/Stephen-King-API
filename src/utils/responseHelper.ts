@@ -12,6 +12,8 @@ import {
   bookIdsByVillain,
   shortIdsByVillain,
   placeIdsByParent,
+  bookIdsByPlace,
+  shortIdsByPlace,
 } from "../catalog";
 import config from "../config";
 
@@ -38,17 +40,23 @@ export const shortResponse = (short: Short) => ({
   villains: villainLinks(villainIdsByShort.get(short.id)),
 });
 
+const bookLinks = (ids: number[] = []) =>
+  ids.map((id) => ({
+    title: bookTitles.get(id),
+    url: `${URL}/api/book/${id}`,
+  }));
+
+const shortLinks = (ids: number[] = []) =>
+  ids.map((id) => ({
+    title: shortTitles.get(id),
+    url: `${URL}/api/short/${id}`,
+  }));
+
 // appears_in only exists to build the links, so it isn't returned
 export const villainResponse = ({ appears_in, ...villain }: Villain) => ({
   ...villain,
-  books: (bookIdsByVillain.get(villain.id) || []).map((id) => ({
-    title: bookTitles.get(id),
-    url: `${URL}/api/book/${id}`,
-  })),
-  shorts: (shortIdsByVillain.get(villain.id) || []).map((id) => ({
-    title: shortTitles.get(id),
-    url: `${URL}/api/short/${id}`,
-  })),
+  books: bookLinks(bookIdsByVillain.get(villain.id)),
+  shorts: shortLinks(shortIdsByVillain.get(villain.id)),
 });
 
 const placeLink = (id: number) => ({
@@ -56,9 +64,11 @@ const placeLink = (id: number) => ({
   url: `${URL}/api/place/${id}`,
 });
 
-// parentId only exists to build the parent link, so it isn't returned
-export const placeResponse = ({ parentId, ...place }: Place) => ({
+// parentId and appears_in only exist to build the links, so they aren't returned
+export const placeResponse = ({ parentId, appears_in, ...place }: Place) => ({
   ...place,
   parent: parentId === null ? null : placeLink(parentId),
   places: (placeIdsByParent.get(place.id) || []).map(placeLink),
+  books: bookLinks(bookIdsByPlace.get(place.id)),
+  shorts: shortLinks(shortIdsByPlace.get(place.id)),
 });

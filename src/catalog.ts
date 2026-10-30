@@ -42,6 +42,7 @@ export interface Place {
   handle: string;
   type: string;
   parentId: number | null;
+  appears_in: string[];
   created_at: string;
 }
 
@@ -92,16 +93,19 @@ function link(map: Map<number, number[]>, key: number, value: number): void {
   }
 }
 
+const bookWithHandle = (handle: string) => books.find((b) => b.handle === handle);
+const shortWithHandle = (handle: string) => shorts.find((s) => s.handle === handle);
+
 for (const villain of villains) {
   for (const handle of villain.appears_in) {
-    const book = books.find((b) => b.handle === handle);
+    const book = bookWithHandle(handle);
     if (book) {
       link(villainIdsByBook, book.id, villain.id);
       link(bookIdsByVillain, villain.id, book.id);
     }
   }
   for (const handle of villain.appears_in) {
-    const short = shorts.find((s) => s.handle === handle);
+    const short = shortWithHandle(handle);
     if (short) {
       link(villainIdsByShort, short.id, villain.id);
       link(shortIdsByVillain, villain.id, short.id);
@@ -116,4 +120,23 @@ for (const place of places) {
   if (place.parentId !== null) {
     link(placeIdsByParent, place.parentId, place.id);
   }
+}
+
+// A place's books and shorts come from its own appears_in, in id order
+export const bookIdsByPlace = new Map<number, number[]>();
+export const shortIdsByPlace = new Map<number, number[]>();
+
+for (const place of places) {
+  for (const handle of place.appears_in) {
+    const book = bookWithHandle(handle);
+    if (book) {
+      link(bookIdsByPlace, place.id, book.id);
+    }
+    const short = shortWithHandle(handle);
+    if (short) {
+      link(shortIdsByPlace, place.id, short.id);
+    }
+  }
+  bookIdsByPlace.get(place.id)?.sort((a, b) => a - b);
+  shortIdsByPlace.get(place.id)?.sort((a, b) => a - b);
 }

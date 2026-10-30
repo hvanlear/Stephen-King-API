@@ -44,12 +44,17 @@ describe("validate-data", () => {
 
   it("flags a handle shared by a book and a short", () => {
     const errors = errorsAfter((c) => (c["shorts.json"][0].handle = "carrie"));
-    assertFlags(errors, /^catalog\/shorts\.json: short 1 \(.*\): handle "carrie" is also used by book 1, so villains would link to both$/);
+    assertFlags(errors, /^catalog\/shorts\.json: short 1 \(.*\): handle "carrie" is also used by book 1, so villains and places would link to both$/);
   });
 
   it("flags an appears_in handle that matches nothing", () => {
     const errors = errorsAfter((c) => c["villains.json"][0].appears_in.push("no-such-book"));
     assertFlags(errors, /villain 1 \("Bob Anderson"\): appears_in "no-such-book" doesn't match/);
+  });
+
+  it("flags a place appears_in handle that matches nothing", () => {
+    const errors = errorsAfter((c) => place(c, "Marsten House").appears_in.push("marsten-house"));
+    assertFlags(errors, /place \d+ \("Marsten House"\): appears_in "marsten-house" doesn't match any book or short handle$/);
   });
 
   it("flags empty strings in lists", () => {

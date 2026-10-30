@@ -9,6 +9,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Stubs",
           "Characters",
@@ -33,7 +34,12 @@
             "name": "Chester's Mill, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/58"
           }
-        ]
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 102,
@@ -41,6 +47,7 @@
         "gender": "Female",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Characters",
           "Ewen High School students",
@@ -69,7 +76,12 @@
             "name": "Chamberlain, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/57"
           }
-        ]
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 103,
@@ -77,6 +89,7 @@
         "gender": "Male",
         "status": "Alive",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Characters",
           "Residents of Maine",
@@ -97,7 +110,12 @@
             "name": "Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/28"
           }
-        ]
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 104,
@@ -105,6 +123,7 @@
         "gender": null,
         "status": "Alive",
         "types_id": 4,
+        "group": true,
         "notes": [
           "Villains",
           "The Tommyknockers"
@@ -117,7 +136,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Alien",
+          "url": "https://stephen-king-api.onrender.com/api/type/4"
+        },
+        "kinds": []
       },
       {
         "id": 105,
@@ -125,6 +149,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Characters",
           "Characters with mental illness",
@@ -140,7 +165,12 @@
             "url": "https://stephen-king-api.onrender.com/api/short/114"
           }
         ],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 106,
@@ -148,6 +178,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Characters",
           "Writers",
@@ -177,7 +208,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 107,
@@ -185,6 +221,7 @@
         "gender": "Male",
         "status": "Alive",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Stubs",
           "Characters",
@@ -207,7 +244,12 @@
             "name": "Derry, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/62"
           }
-        ]
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 108,
@@ -215,6 +257,7 @@
         "gender": "Female",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Characters",
           "Bullies",
@@ -241,7 +284,12 @@
             "name": "Chamberlain, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/57"
           }
-        ]
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 109,
@@ -249,6 +297,7 @@
         "gender": "Female",
         "status": "Alive",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Characters",
           "Bullies",
@@ -272,7 +321,12 @@
             "name": "Chamberlain, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/57"
           }
-        ]
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 110,
@@ -280,6 +334,7 @@
         "gender": "Male",
         "status": "Alive",
         "types_id": 3,
+        "group": false,
         "notes": [
           "Pet Sematary",
           "Villains"
@@ -292,7 +347,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": []
       },
       {
         "id": 111,
@@ -300,6 +360,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Characters",
           "The Green Mile",
@@ -320,7 +381,12 @@
             "name": "Louisiana",
             "url": "https://stephen-king-api.onrender.com/api/place/27"
           }
-        ]
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 112,
@@ -328,6 +394,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Stubs",
           "Characters",
@@ -342,7 +409,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 113,
@@ -350,6 +422,7 @@
         "gender": "Female",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Characters",
           "Unsourced quotes",
@@ -381,7 +454,12 @@
             "name": "Chamberlain, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/57"
           }
-        ]
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 114,
@@ -389,6 +467,7 @@
         "gender": "Female",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Characters",
           "Villains",
@@ -406,7 +485,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 115,
@@ -414,6 +498,7 @@
         "gender": "Male",
         "status": "Alive",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Stubs",
           "Characters",
@@ -427,7 +512,12 @@
             "url": "https://stephen-king-api.onrender.com/api/short/86"
           }
         ],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 116,
@@ -435,6 +525,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Deceased Characters",
           "Derry residents",
@@ -457,7 +548,12 @@
             "name": "Derry, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/62"
           }
-        ]
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 117,
@@ -465,6 +561,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Crime",
           "Deceased",
@@ -485,7 +582,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 118,
@@ -493,6 +595,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Characters",
           "Antagonists",
@@ -512,7 +615,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 119,
@@ -520,6 +628,7 @@
         "gender": "Female",
         "status": "Deceased",
         "types_id": 3,
+        "group": false,
         "notes": [
           "Librarians",
           "Females",
@@ -533,7 +642,17 @@
             "url": "https://stephen-king-api.onrender.com/api/short/115"
           }
         ],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": [
+          {
+            "name": "Demon",
+            "url": "https://stephen-king-api.onrender.com/api/type/12"
+          }
+        ]
       },
       {
         "id": 120,
@@ -541,6 +660,7 @@
         "gender": "Male",
         "status": "Alive",
         "types_id": 3,
+        "group": false,
         "notes": [
           "Antagonists"
         ],
@@ -552,7 +672,17 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": [
+          {
+            "name": "Little Bald Doctor",
+            "url": "https://stephen-king-api.onrender.com/api/type/13"
+          }
+        ]
       },
       {
         "id": 121,
@@ -560,6 +690,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 2,
+        "group": false,
         "notes": [
           "Deceased Characters",
           "Antagonists",
@@ -576,7 +707,17 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Vampire",
+          "url": "https://stephen-king-api.onrender.com/api/type/2"
+        },
+        "kinds": [
+          {
+            "name": "True Knot",
+            "url": "https://stephen-king-api.onrender.com/api/type/10"
+          }
+        ]
       },
       {
         "id": 122,
@@ -584,6 +725,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Characters",
           "Males",
@@ -598,7 +740,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 123,
@@ -606,6 +753,7 @@
         "gender": "Male",
         "status": "Alive",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Males",
           "Bullies",
@@ -626,7 +774,12 @@
             "name": "Castle Rock, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/55"
           }
-        ]
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 124,
@@ -634,6 +787,7 @@
         "gender": null,
         "status": "Alive",
         "types_id": 3,
+        "group": false,
         "notes": [
           "Creatures",
           "Monsters",
@@ -648,7 +802,12 @@
             "url": "https://stephen-king-api.onrender.com/api/short/43"
           }
         ],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": []
       },
       {
         "id": 125,
@@ -656,6 +815,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Leaders",
           "Males",
@@ -675,7 +835,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 126,
@@ -683,6 +848,7 @@
         "gender": "Male",
         "status": "Alive",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Males",
           "Castle Rock residents",
@@ -703,7 +869,12 @@
             "name": "Castle Rock, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/55"
           }
-        ]
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 127,
@@ -711,6 +882,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 3,
+        "group": false,
         "notes": [
           "Characters",
           "Males",
@@ -725,7 +897,17 @@
             "url": "https://stephen-king-api.onrender.com/api/short/207"
           }
         ],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": [
+          {
+            "name": "Outsider",
+            "url": "https://stephen-king-api.onrender.com/api/type/14"
+          }
+        ]
       },
       {
         "id": 128,
@@ -733,6 +915,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Males",
           "Antagonists",
@@ -746,7 +929,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 129,
@@ -754,6 +942,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Deceased Characters",
           "Police",
@@ -773,7 +962,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 130,
@@ -781,6 +975,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 2,
+        "group": false,
         "notes": [
           "Antagonists",
           "Doctor Sleep",
@@ -797,7 +992,17 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Vampire",
+          "url": "https://stephen-king-api.onrender.com/api/type/2"
+        },
+        "kinds": [
+          {
+            "name": "True Knot",
+            "url": "https://stephen-king-api.onrender.com/api/type/10"
+          }
+        ]
       },
       {
         "id": 131,
@@ -805,6 +1010,7 @@
         "gender": null,
         "status": "Alive",
         "types_id": 3,
+        "group": false,
         "notes": [
           "Creatures",
           "The Dark Tower",
@@ -818,7 +1024,12 @@
             "url": "https://stephen-king-api.onrender.com/api/short/168"
           }
         ],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": []
       },
       {
         "id": 132,
@@ -826,6 +1037,7 @@
         "gender": "Male",
         "status": "Alive",
         "types_id": 1,
+        "group": false,
         "notes": [
           "The Institute",
           "Males",
@@ -844,7 +1056,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 133,
@@ -852,6 +1069,7 @@
         "gender": "Female",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Females",
           "Antagonists",
@@ -868,7 +1086,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 134,
@@ -876,6 +1099,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Males",
           "Derry residents",
@@ -895,7 +1119,12 @@
             "name": "Derry, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/62"
           }
-        ]
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 135,
@@ -903,6 +1132,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Males",
           "Villains",
@@ -923,7 +1153,12 @@
             "url": "https://stephen-king-api.onrender.com/api/short/200"
           }
         ],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 136,
@@ -931,6 +1166,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Deceased Characters",
           "Derry residents",
@@ -953,7 +1189,12 @@
             "name": "Derry, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/62"
           }
-        ]
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 137,
@@ -961,6 +1202,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 2,
+        "group": false,
         "notes": [
           "Antagonists",
           "Doctor Sleep",
@@ -975,7 +1217,17 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Vampire",
+          "url": "https://stephen-king-api.onrender.com/api/type/2"
+        },
+        "kinds": [
+          {
+            "name": "True Knot",
+            "url": "https://stephen-king-api.onrender.com/api/type/10"
+          }
+        ]
       },
       {
         "id": 138,
@@ -983,6 +1235,7 @@
         "gender": "Male",
         "status": "Alive",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Males",
           "Police",
@@ -998,7 +1251,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 139,
@@ -1006,6 +1264,7 @@
         "gender": "Male",
         "status": "Alive",
         "types_id": 3,
+        "group": false,
         "notes": [
           "Antagonists",
           "Monsters",
@@ -1020,7 +1279,17 @@
             "url": "https://stephen-king-api.onrender.com/api/short/53"
           }
         ],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": [
+          {
+            "name": "Demon",
+            "url": "https://stephen-king-api.onrender.com/api/type/12"
+          }
+        ]
       },
       {
         "id": 140,
@@ -1028,6 +1297,7 @@
         "gender": "Female",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Deceased Characters",
           "Females",
@@ -1045,7 +1315,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 141,
@@ -1053,6 +1328,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Males",
           "Murderers"
@@ -1065,7 +1341,12 @@
             "url": "https://stephen-king-api.onrender.com/api/short/163"
           }
         ],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 142,
@@ -1073,6 +1354,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 2,
+        "group": false,
         "notes": [
           "Antagonists",
           "Deceased Characters",
@@ -1087,7 +1369,17 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Vampire",
+          "url": "https://stephen-king-api.onrender.com/api/type/2"
+        },
+        "kinds": [
+          {
+            "name": "True Knot",
+            "url": "https://stephen-king-api.onrender.com/api/type/10"
+          }
+        ]
       },
       {
         "id": 143,
@@ -1095,6 +1387,7 @@
         "gender": "Male",
         "status": "Alive",
         "types_id": 1,
+        "group": false,
         "notes": [
           "The Institute",
           "Males",
@@ -1112,7 +1405,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 144,
@@ -1120,6 +1418,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Antagonists"
         ],
@@ -1131,7 +1430,12 @@
             "url": "https://stephen-king-api.onrender.com/api/short/116"
           }
         ],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 145,
@@ -1139,6 +1443,7 @@
         "gender": "Female",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "The Institute",
           "Females",
@@ -1158,7 +1463,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 146,
@@ -1166,6 +1476,7 @@
         "gender": "Female",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Females",
           "Deceased Characters",
@@ -1190,7 +1501,12 @@
             "name": "Pratt, Kansas",
             "url": "https://stephen-king-api.onrender.com/api/place/98"
           }
-        ]
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 147,
@@ -1198,6 +1514,7 @@
         "gender": null,
         "status": "Alive",
         "types_id": 3,
+        "group": true,
         "notes": [
           "Creatures",
           "Antagonists"
@@ -1210,7 +1527,12 @@
             "url": "https://stephen-king-api.onrender.com/api/short/114"
           }
         ],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": []
       },
       {
         "id": 148,
@@ -1218,6 +1540,7 @@
         "gender": "Male",
         "status": "Alive",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Males",
           "Lovers",
@@ -1231,14 +1554,20 @@
             "url": "https://stephen-king-api.onrender.com/api/short/156"
           }
         ],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 149,
         "name": "Maine Legion of White Decency",
         "gender": null,
         "status": "Alive",
-        "types_id": 5,
+        "types_id": 1,
+        "group": true,
         "notes": [
           "Villains",
           "Groups",
@@ -1256,7 +1585,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 150,
@@ -1264,6 +1598,7 @@
         "gender": "Male",
         "status": "Alive",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Characters",
           "IT",
@@ -1278,7 +1613,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 151,
@@ -1286,6 +1626,7 @@
         "gender": "Male",
         "status": "Alive",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Antagonists",
           "Bullies",
@@ -1304,7 +1645,12 @@
             "name": "Castle Rock, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/55"
           }
-        ]
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 152,
@@ -1312,6 +1658,7 @@
         "gender": null,
         "status": "Alive",
         "types_id": 6,
+        "group": false,
         "notes": [
           "The Monkey",
           "Objects",
@@ -1329,7 +1676,12 @@
             "url": "https://stephen-king-api.onrender.com/api/short/71"
           }
         ],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Machine or object",
+          "url": "https://stephen-king-api.onrender.com/api/type/6"
+        },
+        "kinds": []
       },
       {
         "id": 153,
@@ -1337,6 +1689,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Bullies",
           "Males",
@@ -1353,7 +1706,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 154,
@@ -1361,6 +1719,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Antagonists",
           "Characters",
@@ -1375,7 +1734,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 155,
@@ -1383,6 +1747,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Bill Hodges",
           "Antagonists",
@@ -1399,7 +1764,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 156,
@@ -1407,6 +1777,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 4,
+        "group": false,
         "notes": [
           "Characters",
           "Villains",
@@ -1420,7 +1791,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Alien",
+          "url": "https://stephen-king-api.onrender.com/api/type/4"
+        },
+        "kinds": []
       },
       {
         "id": 157,
@@ -1428,6 +1804,7 @@
         "gender": "Female",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Female Characters",
           "Residents of Maine",
@@ -1447,7 +1824,12 @@
             "name": "Bridgton, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/52"
           }
-        ]
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 158,
@@ -1455,6 +1837,7 @@
         "gender": "Male",
         "status": "Alive",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Castle Rock residents",
           "Residents of Maine",
@@ -1476,7 +1859,12 @@
             "name": "Castle Rock, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/55"
           }
-        ]
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 159,
@@ -1484,6 +1872,7 @@
         "gender": "Female",
         "status": "Alive",
         "types_id": 1,
+        "group": false,
         "notes": [
           "The Institute",
           "Characters",
@@ -1500,7 +1889,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 160,
@@ -1508,6 +1902,7 @@
         "gender": "Male",
         "status": "Alive",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Bullies",
           "Residents of Maine",
@@ -1528,7 +1923,12 @@
             "name": "Castle Rock, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/55"
           }
-        ]
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 161,
@@ -1536,6 +1936,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Males",
           "Antagonists",
@@ -1552,7 +1953,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 162,
@@ -1560,6 +1966,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 7,
+        "group": false,
         "notes": [
           "Males",
           "Male Characters",
@@ -1579,7 +1986,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Ghost",
+          "url": "https://stephen-king-api.onrender.com/api/type/7"
+        },
+        "kinds": []
       },
       {
         "id": 163,
@@ -1587,6 +1999,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "The Dark Tower",
           "Males",
@@ -1600,7 +2013,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 164,
@@ -1608,6 +2026,7 @@
         "gender": "Female",
         "status": "Deceased",
         "types_id": 2,
+        "group": false,
         "notes": [
           "Antagonists",
           "Deceased Characters",
@@ -1625,7 +2044,17 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Vampire",
+          "url": "https://stephen-king-api.onrender.com/api/type/2"
+        },
+        "kinds": [
+          {
+            "name": "True Knot",
+            "url": "https://stephen-king-api.onrender.com/api/type/10"
+          }
+        ]
       },
       {
         "id": 165,
@@ -1633,6 +2062,7 @@
         "gender": null,
         "status": "Alive",
         "types_id": 3,
+        "group": false,
         "notes": [
           "Creatures",
           "Demons",
@@ -1653,14 +2083,25 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": [
+          {
+            "name": "Demon",
+            "url": "https://stephen-king-api.onrender.com/api/type/12"
+          }
+        ]
       },
       {
         "id": 166,
         "name": "The Children",
         "gender": null,
         "status": "Alive",
-        "types_id": 5,
+        "types_id": 1,
+        "group": true,
         "notes": [
           "Groups",
           "Antagonists"
@@ -1673,7 +2114,12 @@
             "url": "https://stephen-king-api.onrender.com/api/short/53"
           }
         ],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 167,
@@ -1681,6 +2127,7 @@
         "gender": null,
         "status": "Alive",
         "types_id": 6,
+        "group": false,
         "notes": [
           "Antagonists",
           "Demons"
@@ -1693,7 +2140,12 @@
             "url": "https://stephen-king-api.onrender.com/api/short/42"
           }
         ],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Machine or object",
+          "url": "https://stephen-king-api.onrender.com/api/type/6"
+        },
+        "kinds": []
       },
       {
         "id": 168,
@@ -1701,6 +2153,7 @@
         "gender": null,
         "status": "Alive",
         "types_id": 3,
+        "group": false,
         "notes": [
           "Monsters",
           "Antagonists",
@@ -1714,7 +2167,12 @@
             "url": "https://stephen-king-api.onrender.com/api/short/67"
           }
         ],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": []
       },
       {
         "id": 169,
@@ -1722,6 +2180,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Males",
           "Antagonists",
@@ -1735,7 +2194,12 @@
             "url": "https://stephen-king-api.onrender.com/api/short/83"
           }
         ],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 170,
@@ -1743,6 +2207,7 @@
         "gender": "Male",
         "status": "Alive",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Males",
           "Chamberlain residents",
@@ -1764,7 +2229,12 @@
             "name": "Chamberlain, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/57"
           }
-        ]
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 171,
@@ -1772,6 +2242,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Males",
           "The Institute",
@@ -1790,7 +2261,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 172,
@@ -1798,6 +2274,7 @@
         "gender": "Male",
         "status": "Alive",
         "types_id": 1,
+        "group": false,
         "notes": [
           "The Institute",
           "Males",
@@ -1816,7 +2293,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 173,
@@ -1824,6 +2306,7 @@
         "gender": "Male",
         "status": "Alive",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Males",
           "Bullies",
@@ -1844,7 +2327,12 @@
             "name": "Castle Rock, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/55"
           }
-        ]
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 174,
@@ -1852,6 +2340,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 2,
+        "group": false,
         "notes": [
           "Deceased Characters",
           "Antagonists",
@@ -1866,7 +2355,17 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Vampire",
+          "url": "https://stephen-king-api.onrender.com/api/type/2"
+        },
+        "kinds": [
+          {
+            "name": "True Knot",
+            "url": "https://stephen-king-api.onrender.com/api/type/10"
+          }
+        ]
       },
       {
         "id": 175,
@@ -1874,6 +2373,7 @@
         "gender": "Female",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "The Institute",
           "Deceased Characters",
@@ -1888,7 +2388,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 176,
@@ -1896,6 +2401,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Characters",
           "Males",
@@ -1915,7 +2421,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 177,
@@ -1923,6 +2434,7 @@
         "gender": null,
         "status": "Deceased",
         "types_id": 6,
+        "group": false,
         "notes": [],
         "created_at": "2026-10-28T20:12:34.000Z",
         "books": [
@@ -1932,7 +2444,17 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Machine or object",
+          "url": "https://stephen-king-api.onrender.com/api/type/6"
+        },
+        "kinds": [
+          {
+            "name": "North Central Positronics",
+            "url": "https://stephen-king-api.onrender.com/api/type/16"
+          }
+        ]
       },
       {
         "id": 178,
@@ -1940,6 +2462,7 @@
         "gender": "Male",
         "status": "Alive",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Males",
           "Calla Bryn Sturgis residents",
@@ -1958,7 +2481,12 @@
             "name": "Calla Bryn Sturgis",
             "url": "https://stephen-king-api.onrender.com/api/place/53"
           }
-        ]
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 179,
@@ -1966,6 +2494,7 @@
         "gender": "Male",
         "status": "Alive",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Male Characters"
         ],
@@ -1977,7 +2506,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 180,
@@ -1985,6 +2519,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [],
         "created_at": "2026-10-28T20:12:34.000Z",
         "books": [
@@ -1994,7 +2529,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 181,
@@ -2002,6 +2542,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [],
         "created_at": "2026-10-28T20:12:34.000Z",
         "books": [
@@ -2011,7 +2552,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 182,
@@ -2019,6 +2565,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 3,
+        "group": false,
         "notes": [],
         "created_at": "2026-10-28T20:12:34.000Z",
         "books": [
@@ -2028,7 +2575,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": []
       },
       {
         "id": 183,
@@ -2036,6 +2588,7 @@
         "gender": "Male",
         "status": "Alive",
         "types_id": 1,
+        "group": false,
         "notes": [],
         "created_at": "2026-10-28T20:12:34.000Z",
         "books": [
@@ -2045,7 +2598,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 184,
@@ -2053,6 +2611,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [],
         "created_at": "2026-10-28T20:12:34.000Z",
         "books": [
@@ -2062,7 +2621,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 185,
@@ -2070,6 +2634,7 @@
         "gender": null,
         "status": "Alive",
         "types_id": 3,
+        "group": false,
         "notes": [],
         "created_at": "2026-10-28T20:12:34.000Z",
         "books": [
@@ -2079,7 +2644,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": []
       },
       {
         "id": 186,
@@ -2087,6 +2657,7 @@
         "gender": null,
         "status": "Alive",
         "types_id": 3,
+        "group": false,
         "notes": [],
         "created_at": "2026-10-28T20:12:34.000Z",
         "books": [
@@ -2096,7 +2667,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": []
       },
       {
         "id": 187,
@@ -2104,6 +2680,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [
           "Males",
           "Lisey's Story",
@@ -2122,7 +2699,12 @@
             "name": "Lovell, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/84"
           }
-        ]
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 188,
@@ -2130,6 +2712,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 7,
+        "group": false,
         "notes": [],
         "created_at": "2026-10-28T20:12:34.000Z",
         "books": [
@@ -2139,7 +2722,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Ghost",
+          "url": "https://stephen-king-api.onrender.com/api/type/7"
+        },
+        "kinds": []
       },
       {
         "id": 189,
@@ -2147,6 +2735,7 @@
         "gender": "Female",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [],
         "created_at": "2026-10-28T20:12:34.000Z",
         "books": [
@@ -2156,7 +2745,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 190,
@@ -2164,6 +2758,7 @@
         "gender": null,
         "status": "Alive",
         "types_id": 3,
+        "group": false,
         "notes": [
           "Lisey's Story",
           "Lisey's Story Characters"
@@ -2181,7 +2776,12 @@
             "name": "Boo'ya Moon",
             "url": "https://stephen-king-api.onrender.com/api/place/2"
           }
-        ]
+        ],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": []
       },
       {
         "id": 191,
@@ -2189,6 +2789,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [],
         "created_at": "2026-10-28T20:12:34.000Z",
         "books": [
@@ -2198,7 +2799,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 192,
@@ -2206,6 +2812,7 @@
         "gender": "Male",
         "status": "Alive",
         "types_id": 1,
+        "group": false,
         "notes": [],
         "created_at": "2026-10-28T20:12:34.000Z",
         "books": [
@@ -2215,7 +2822,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 193,
@@ -2223,6 +2835,7 @@
         "gender": "Female",
         "status": "Alive",
         "types_id": 3,
+        "group": false,
         "notes": [],
         "created_at": "2026-10-28T20:12:34.000Z",
         "books": [
@@ -2232,7 +2845,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": []
       },
       {
         "id": 194,
@@ -2240,6 +2858,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [],
         "created_at": "2026-10-28T20:12:34.000Z",
         "books": [
@@ -2249,7 +2868,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 195,
@@ -2257,6 +2881,7 @@
         "gender": "Female",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [],
         "created_at": "2026-10-28T20:12:34.000Z",
         "books": [
@@ -2266,7 +2891,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 196,
@@ -2274,6 +2904,7 @@
         "gender": "Female",
         "status": "Deceased",
         "types_id": 7,
+        "group": false,
         "notes": [
           "Females",
           "Deceased Characters",
@@ -2287,7 +2918,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Ghost",
+          "url": "https://stephen-king-api.onrender.com/api/type/7"
+        },
+        "kinds": []
       },
       {
         "id": 197,
@@ -2295,6 +2931,7 @@
         "gender": "Male",
         "status": "Alive",
         "types_id": 1,
+        "group": false,
         "notes": [],
         "created_at": "2026-10-28T20:12:34.000Z",
         "books": [
@@ -2304,7 +2941,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 198,
@@ -2312,6 +2954,7 @@
         "gender": "Male",
         "status": "Deceased",
         "types_id": 1,
+        "group": false,
         "notes": [],
         "created_at": "2026-10-28T20:12:34.000Z",
         "books": [
@@ -2321,14 +2964,20 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 199,
         "name": "The Hitler Brothers",
         "gender": null,
         "status": "Alive",
-        "types_id": 5,
+        "types_id": 1,
+        "group": true,
         "notes": [],
         "created_at": "2026-10-28T20:12:34.000Z",
         "books": [
@@ -2338,14 +2987,20 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": []
       },
       {
         "id": 200,
         "name": "Wolves of Thunderclap",
         "gender": null,
         "status": "Deceased",
-        "types_id": 5,
+        "types_id": 6,
+        "group": true,
         "notes": [],
         "created_at": "2026-10-28T20:12:34.000Z",
         "books": [
@@ -2355,7 +3010,12 @@
           }
         ],
         "shorts": [],
-        "residence": []
+        "residence": [],
+        "type": {
+          "name": "Machine or object",
+          "url": "https://stephen-king-api.onrender.com/api/type/6"
+        },
+        "kinds": []
       }
     ],
     "pagination": {

@@ -8,6 +8,7 @@
       "gender": "Male",
       "status": "Deceased",
       "types_id": 1,
+      "group": false,
       "notes": [
         "Characters",
         "The Dark Tower",
@@ -27,7 +28,12 @@
           "name": "Hambry, Mejis",
           "url": "https://stephen-king-api.onrender.com/api/place/137"
         }
-      ]
+      ],
+      "type": {
+        "name": "Human",
+        "url": "https://stephen-king-api.onrender.com/api/type/1"
+      },
+      "kinds": []
     }
   }
 }

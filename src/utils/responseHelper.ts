@@ -3,10 +3,12 @@ import {
   Short,
   Villain,
   Place,
+  Type,
   books,
   shorts,
   villains,
   places,
+  types,
   villainIdsByBook,
   villainIdsByShort,
   bookIdsByVillain,
@@ -18,6 +20,9 @@ import {
   placeIdsByBook,
   placeIdsByShort,
   placeIdsByVillain,
+  typeIdsByParent,
+  villainIdsByType,
+  kindIdsByVillain,
 } from "../catalog";
 import config from "../config";
 
@@ -27,6 +32,7 @@ const villainNames = new Map(villains.map((v) => [v.id, v.name]));
 const bookTitles = new Map(books.map((b) => [b.id, b.Title]));
 const shortTitles = new Map(shorts.map((s) => [s.id, s.title]));
 const placeNames = new Map(places.map((p) => [p.id, p.name]));
+const typeNames = new Map(types.map((t) => [t.id, t.name]));
 
 const villainLinks = (ids: number[] = []) =>
   ids.map((id) => ({
@@ -38,6 +44,12 @@ const placeLinks = (ids: number[] = []) =>
   ids.map((id) => ({
     name: placeNames.get(id),
     url: `${URL}/api/place/${id}`,
+  }));
+
+const typeLinks = (ids: number[] = []) =>
+  ids.map((id) => ({
+    name: typeNames.get(id),
+    url: `${URL}/api/type/${id}`,
   }));
 
 export const bookResponse = (book: Book) => ({
@@ -64,12 +76,14 @@ const shortLinks = (ids: number[] = []) =>
     url: `${URL}/api/short/${id}`,
   }));
 
-// appears_in and residence hold handles, which are served as links instead
-export const villainResponse = ({ appears_in, residence, ...villain }: Villain) => ({
+// appears_in, residence and kinds hold handles, which are served as links instead
+export const villainResponse = ({ appears_in, residence, kinds, ...villain }: Villain) => ({
   ...villain,
   books: bookLinks(bookIdsByVillain.get(villain.id)),
   shorts: shortLinks(shortIdsByVillain.get(villain.id)),
   residence: placeLinks(placeIdsByVillain.get(villain.id)),
+  type: typeLinks([villain.types_id])[0],
+  kinds: typeLinks(kindIdsByVillain.get(villain.id)),
 });
 
 // parentId and appears_in only exist to build the links, so they aren't returned
@@ -80,4 +94,12 @@ export const placeResponse = ({ parentId, appears_in, ...place }: Place) => ({
   books: bookLinks(bookIdsByPlace.get(place.id)),
   shorts: shortLinks(shortIdsByPlace.get(place.id)),
   villains: villainLinks(villainIdsByPlace.get(place.id)),
+});
+
+// parentId only exists to build the parent link, so it isn't returned
+export const typeResponse = ({ parentId, ...type }: Type) => ({
+  ...type,
+  parent: parentId === null ? null : typeLinks([parentId])[0],
+  types: typeLinks(typeIdsByParent.get(type.id)),
+  villains: villainLinks(villainIdsByType.get(type.id)),
 });

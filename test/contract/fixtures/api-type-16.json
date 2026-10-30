@@ -1,0 +1,27 @@
+{
+  "path": "/api/type/16",
+  "status": 200,
+  "body": {
+    "data": {
+      "id": 16,
+      "name": "North Central Positronics",
+      "handle": "north-central-positronics",
+      "created_at": "2026-10-30T00:54:07.000Z",
+      "parent": {
+        "name": "Machine or object",
+        "url": "https://stephen-king-api.onrender.com/api/type/6"
+      },
+      "types": [],
+      "villains": [
+        {
+          "name": "Blaine the Mono",
+          "url": "https://stephen-king-api.onrender.com/api/villain/3"
+        },
+        {
+          "name": "Andy",
+          "url": "https://stephen-king-api.onrender.com/api/villain/177"
+        }
+      ]
+    }
+  }
+}

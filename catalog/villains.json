@@ -5,6 +5,7 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "a-good-marriage"
     ],
@@ -12,6 +13,7 @@
       "pownal-maine",
       "yarmouth-maine"
     ],
+    "kinds": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -29,11 +31,15 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 2,
+    "group": false,
     "appears_in": [
       "salem-s-lot"
     ],
     "residence": [
       "marsten-house"
+    ],
+    "kinds": [
+      "type-one-vampire"
     ],
     "notes": [
       "Characters",
@@ -50,11 +56,15 @@
     "gender": null,
     "status": "Deceased",
     "types_id": 6,
+    "group": false,
     "appears_in": [
       "the-dark-tower-iv-wizard-and-glass",
       "the-dark-tower-iii-the-waste-lands"
     ],
     "residence": [],
+    "kinds": [
+      "north-central-positronics"
+    ],
     "notes": [
       "Characters",
       "Unsourced quotes",
@@ -71,12 +81,14 @@
     "gender": "Female",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "carrie"
     ],
     "residence": [
       "chamberlain-maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Ewen High School students",
@@ -98,10 +110,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "children-of-the-corn"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -116,12 +130,14 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "jerusalem-s-lot"
     ],
     "residence": [
       "jerusalem-s-lot-maine"
     ],
+    "kinds": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -136,12 +152,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "it"
     ],
     "residence": [
       "derry-maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Unsourced quotes",
@@ -167,12 +185,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "it"
     ],
     "residence": [
       "derry-maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Unsourced quotes",
@@ -193,12 +213,14 @@
     "gender": "Female",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "it"
     ],
     "residence": [
       "derry-maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Derry residents",
@@ -218,6 +240,7 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-dark-tower-the-gunslinger",
       "the-gunslinger-and-the-dark-man"
@@ -225,6 +248,7 @@
     "residence": [
       "gilead"
     ],
+    "kinds": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -243,11 +267,13 @@
     "gender": "Female",
     "status": "Alive",
     "types_id": 6,
+    "group": false,
     "appears_in": [
       "christine",
       "it"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "Objects",
@@ -267,10 +293,12 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "children-of-the-corn"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "Villains",
@@ -284,12 +312,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 8,
+    "group": false,
     "appears_in": [
       "pet-sematary"
     ],
     "residence": [
       "ludlow-maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Cats",
@@ -306,12 +336,14 @@
     "gender": "Female",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "carrie"
     ],
     "residence": [
       "chamberlain-maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Ewen High School students",
@@ -334,12 +366,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 3,
+    "group": false,
     "appears_in": [
       "pet-sematary"
     ],
     "residence": [
       "ludlow-maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Villains",
@@ -357,12 +391,14 @@
     "gender": "Female",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "carrie"
     ],
     "residence": [
       "chamberlain-maine"
     ],
+    "kinds": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -385,6 +421,7 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 3,
+    "group": false,
     "appears_in": [
       "insomnia",
       "the-dark-tower-the-gunslinger",
@@ -392,6 +429,7 @@
       "the-dark-tower-vii-the-dark-tower"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "The Dark Tower",
@@ -407,12 +445,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "it"
     ],
     "residence": [
       "derry-maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Unsourced quotes",
@@ -433,12 +473,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 8,
+    "group": false,
     "appears_in": [
       "cujo"
     ],
     "residence": [
       "castle-rock-maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Dogs",
@@ -456,10 +498,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "christine"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "Unsourced quotes",
@@ -480,10 +524,12 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 2,
+    "group": false,
     "appears_in": [
       "the-dark-tower-vii-the-dark-tower"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "Villains"
@@ -496,10 +542,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "rose-madder"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "Unsourced quotes",
@@ -516,11 +564,13 @@
     "gender": "Female",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "rose-madder",
       "insomnia"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -534,10 +584,12 @@
     "gender": "Female",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-dark-tower-iv-wizard-and-glass"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "Villains",
@@ -552,12 +604,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "carrie"
     ],
     "residence": [
       "chamberlain-maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Chamberlain residents",
@@ -577,6 +631,7 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 7,
+    "group": false,
     "appears_in": [
       "the-shining",
       "doctor-sleep"
@@ -584,6 +639,7 @@
     "residence": [
       "overlook-hotel"
     ],
+    "kinds": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -601,11 +657,13 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 3,
+    "group": false,
     "appears_in": [
       "the-dark-tower-vii-the-dark-tower",
       "the-dark-tower-vi-song-of-susannah"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "ESPers",
@@ -622,10 +680,12 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "rita-hayworth-and-shawshank-redemption"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -640,10 +700,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-dead-zone"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "Police",
@@ -662,10 +724,12 @@
     "gender": "Female",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-dead-zone"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "The Dead Zone",
@@ -679,10 +743,14 @@
     "gender": "Female",
     "status": "Deceased",
     "types_id": 2,
+    "group": false,
     "appears_in": [
       "doctor-sleep"
     ],
     "residence": [],
+    "kinds": [
+      "true-knot"
+    ],
     "notes": [
       "Characters",
       "Doctor Sleep",
@@ -700,12 +768,14 @@
     "gender": "Female",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-dark-tower-iv-wizard-and-glass"
     ],
     "residence": [
       "hambry-mejis"
     ],
+    "kinds": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -723,10 +793,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "apt-pupil"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -740,6 +812,7 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-stand",
       "the-stand-uncut"
@@ -747,6 +820,7 @@
     "residence": [
       "powtanville-indiana"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Villains",
@@ -762,12 +836,14 @@
     "gender": "Female",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "it"
     ],
     "residence": [
       "derry-maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Derry residents",
@@ -784,10 +860,12 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-dark-tower-iv-wizard-and-glass"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -803,6 +881,7 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 3,
+    "group": false,
     "appears_in": [
       "the-stand",
       "the-stand-uncut",
@@ -813,6 +892,7 @@
       "the-dark-tower-iii-the-waste-lands"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "The Stand",
@@ -833,12 +913,14 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "carrie"
     ],
     "residence": [
       "chamberlain-maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Ewen High School students",
@@ -860,12 +942,14 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "it"
     ],
     "residence": [
       "derry-maine"
     ],
+    "kinds": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -885,11 +969,15 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 3,
+    "group": false,
     "appears_in": [
       "needful-things"
     ],
     "residence": [
       "castle-rock-maine"
+    ],
+    "kinds": [
+      "demon"
     ],
     "notes": [
       "Characters",
@@ -905,12 +993,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "gerald-s-game"
     ],
     "residence": [
       "maine"
     ],
+    "kinds": [],
     "notes": [
       "Antagonists",
       "Spouses",
@@ -925,11 +1015,13 @@
     "name": "The Gladiators",
     "gender": "Male",
     "status": "Alive",
-    "types_id": 5,
+    "types_id": 1,
+    "group": true,
     "appears_in": [
       "the-running-man"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "Villains"
@@ -942,12 +1034,14 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "it"
     ],
     "residence": [
       "derry-maine"
     ],
+    "kinds": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -967,12 +1061,14 @@
     "gender": "Female",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "carrie"
     ],
     "residence": [
       "chamberlain-maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Ewen High School students",
@@ -990,12 +1086,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 7,
+    "group": false,
     "appears_in": [
       "the-shining"
     ],
     "residence": [
       "overlook-hotel"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Spouses",
@@ -1013,10 +1111,12 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "rita-hayworth-and-shawshank-redemption"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -1032,10 +1132,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-cat-from-hell"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -1049,10 +1151,12 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "joyland"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -1067,12 +1171,14 @@
     "gender": "Female",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "carrie"
     ],
     "residence": [
       "chamberlain-maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Unsourced quotes",
@@ -1098,12 +1204,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "mr-mercedes",
       "finders-keepers",
       "end-of-watch"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "Villains",
@@ -1118,11 +1226,13 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-stand",
       "the-stand-uncut"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "Unsourced quotes",
@@ -1139,10 +1249,12 @@
     "gender": "Female",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-institute"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "The Institute",
@@ -1158,12 +1270,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "it"
     ],
     "residence": [
       "derry-maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Unsourced quotes",
@@ -1187,10 +1301,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "firestarter"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -1206,12 +1322,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "it"
     ],
     "residence": [
       "derry-maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Bullies",
@@ -1231,10 +1349,12 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "in-the-tall-grass"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -1250,6 +1370,7 @@
     "gender": "Unknown",
     "status": "Deceased",
     "types_id": 4,
+    "group": false,
     "appears_in": [
       "it",
       "the-tommyknockers",
@@ -1260,6 +1381,7 @@
       "macroverse",
       "well-house"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Unsourced quotes",
@@ -1280,12 +1402,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "1922"
     ],
     "residence": [
       "hemingford-home-nebraska"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Villains"
@@ -1298,12 +1422,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "1922"
     ],
     "residence": [
       "hemingford-home-nebraska"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Librarians",
@@ -1320,12 +1446,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-dark-tower-iv-wizard-and-glass"
     ],
     "residence": [
       "hambry-mejis"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "The Dark Tower",
@@ -1340,12 +1468,14 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "gerald-s-game"
     ],
     "residence": [
       "maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Residents of Maine",
@@ -1363,10 +1493,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-stand-uncut"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "Villains",
@@ -1380,10 +1512,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-running-man"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "Villains",
@@ -1397,6 +1531,7 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-stand",
       "the-stand-uncut"
@@ -1404,6 +1539,7 @@
     "residence": [
       "ogunquit-maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Unsourced quotes",
@@ -1421,10 +1557,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "sometimes-they-come-back"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "Unsourced quotes",
@@ -1441,10 +1579,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "from-a-buick-8"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -1459,10 +1599,12 @@
     "gender": null,
     "status": "Alive",
     "types_id": 2,
+    "group": true,
     "appears_in": [
       "the-little-sisters-of-eluria"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Organizations",
       "The Dark Tower novels",
@@ -1476,11 +1618,15 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 3,
+    "group": false,
     "appears_in": [
       "cycle-of-the-werewolf"
     ],
     "residence": [
       "tarker-s-mill-maine"
+    ],
+    "kinds": [
+      "werewolf"
     ],
     "notes": [
       "Characters",
@@ -1497,12 +1643,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "it"
     ],
     "residence": [
       "derry-maine"
     ],
+    "kinds": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -1517,10 +1665,12 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-long-walk"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -1535,10 +1685,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-dead-zone"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Murderers",
       "The Dead Zone",
@@ -1552,12 +1704,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "it"
     ],
     "residence": [
       "derry-maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "IT",
@@ -1576,12 +1730,14 @@
     "gender": "Female",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "firestarter"
     ],
     "residence": [
       "harrison-ohio"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "ESPers",
@@ -1600,6 +1756,7 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-body",
       "needful-things"
@@ -1607,6 +1764,7 @@
     "residence": [
       "castle-rock-maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Castle Rock residents",
@@ -1629,12 +1787,14 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "carrie"
     ],
     "residence": [
       "chamberlain-maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Unsourced quotes",
@@ -1659,10 +1819,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-dark-tower-ii-the-drawing-of-the-three"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -1678,11 +1840,13 @@
     "name": "The Mortimer Snerds",
     "gender": null,
     "status": "Deceased",
-    "types_id": 5,
+    "types_id": 1,
+    "group": true,
     "appears_in": [
       "carrie"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Villains",
       "Victims",
@@ -1702,10 +1866,12 @@
     "gender": "Female",
     "status": "Alive",
     "types_id": 3,
+    "group": false,
     "appears_in": [
       "revival"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "Villains",
@@ -1719,12 +1885,14 @@
     "gender": "Female",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "it"
     ],
     "residence": [
       "derry-maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "IT",
@@ -1741,12 +1909,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "carrie"
     ],
     "residence": [
       "chamberlain-maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Leaders",
@@ -1772,10 +1942,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "rita-hayworth-and-shawshank-redemption"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "Villains",
@@ -1790,10 +1962,14 @@
     "gender": null,
     "status": "Deceased",
     "types_id": 3,
+    "group": false,
     "appears_in": [
       "the-outsider"
     ],
     "residence": [],
+    "kinds": [
+      "outsider"
+    ],
     "notes": [
       "Shape-Shifters",
       "The Outsider Characters",
@@ -1807,10 +1983,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "pet-sematary"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "Pet Sematary"
@@ -1823,6 +2001,7 @@
     "gender": "Female",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-dark-tower-the-gunslinger",
       "the-gunslinger"
@@ -1830,6 +2009,7 @@
     "residence": [
       "tull"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Reverends",
@@ -1845,10 +2025,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "cell"
     ],
     "residence": [],
+    "kinds": [
+      "phoner"
+    ],
     "notes": [
       "Characters",
       "Villains"
@@ -1861,10 +2045,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "firestarter"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -1881,11 +2067,13 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-stand",
       "the-stand-uncut"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "Villains",
@@ -1899,12 +2087,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "under-the-dome"
     ],
     "residence": [
       "chester-s-mill-maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Police",
@@ -1925,12 +2115,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "under-the-dome"
     ],
     "residence": [
       "chester-s-mill-maine"
     ],
+    "kinds": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -1950,12 +2142,14 @@
     "gender": "Female",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "carrie"
     ],
     "residence": [
       "chamberlain-maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Chamberlain residents",
@@ -1970,10 +2164,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "it"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "Characters with mental illness",
@@ -1994,10 +2190,12 @@
     "gender": null,
     "status": "Alive",
     "types_id": 8,
+    "group": false,
     "appears_in": [
       "the-cat-from-hell"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Cats",
       "Villains",
@@ -2011,10 +2209,12 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-dead-zone"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "Villains",
@@ -2028,12 +2228,14 @@
     "gender": "Female",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "carrie"
     ],
     "residence": [
       "chamberlain-maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Bullies",
@@ -2056,12 +2258,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "dolores-claiborne"
     ],
     "residence": [
       "little-tall-island"
     ],
+    "kinds": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -2080,10 +2284,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-dark-half"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "Writers",
@@ -2099,10 +2305,12 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-dead-zone"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "Politicians",
@@ -2120,12 +2328,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "salem-s-lot"
     ],
     "residence": [
       "marsten-house"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Villains",
@@ -2140,12 +2350,14 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "carrie"
     ],
     "residence": [
       "chamberlain-maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Ewen High School students",
@@ -2168,11 +2380,13 @@
     "name": "The Devil's Dozen",
     "gender": null,
     "status": "Alive",
-    "types_id": 5,
+    "types_id": 1,
+    "group": true,
     "appears_in": [
       "the-dead-zone"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Villains",
       "Crime"
@@ -2185,12 +2399,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "under-the-dome"
     ],
     "residence": [
       "chester-s-mill-maine"
     ],
+    "kinds": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -2210,12 +2426,14 @@
     "gender": "Female",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "carrie"
     ],
     "residence": [
       "chamberlain-maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Ewen High School students",
@@ -2239,12 +2457,14 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "gerald-s-game"
     ],
     "residence": [
       "maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Residents of Maine",
@@ -2260,10 +2480,12 @@
     "gender": null,
     "status": "Alive",
     "types_id": 4,
+    "group": true,
     "appears_in": [
       "the-tommyknockers"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Villains",
       "The Tommyknockers"
@@ -2276,10 +2498,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-langoliers"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "Characters with mental illness",
@@ -2295,11 +2519,13 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-shining",
       "doctor-sleep"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "Writers",
@@ -2325,12 +2551,14 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "it"
     ],
     "residence": [
       "derry-maine"
     ],
+    "kinds": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -2348,12 +2576,14 @@
     "gender": "Female",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "carrie"
     ],
     "residence": [
       "chamberlain-maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Bullies",
@@ -2375,12 +2605,14 @@
     "gender": "Female",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "carrie"
     ],
     "residence": [
       "chamberlain-maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Bullies",
@@ -2399,10 +2631,12 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 3,
+    "group": false,
     "appears_in": [
       "pet-sematary"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Pet Sematary",
       "Villains"
@@ -2415,12 +2649,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-green-mile"
     ],
     "residence": [
       "louisiana"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "The Green Mile",
@@ -2436,10 +2672,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-green-mile"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -2454,6 +2692,7 @@
     "gender": "Female",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "carrie"
     ],
@@ -2461,6 +2700,7 @@
       "motton-maine",
       "chamberlain-maine"
     ],
+    "kinds": [],
     "notes": [
       "Characters",
       "Unsourced quotes",
@@ -2483,10 +2723,12 @@
     "gender": "Female",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "misery"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "Villains",
@@ -2504,10 +2746,12 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "rita-hayworth-and-shawshank-redemption"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -2521,12 +2765,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "it"
     ],
     "residence": [
       "derry-maine"
     ],
+    "kinds": [],
     "notes": [
       "Deceased Characters",
       "Derry residents",
@@ -2544,11 +2790,13 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-stand",
       "the-stand-uncut"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Crime",
       "Deceased",
@@ -2565,10 +2813,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "finders-keepers"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "Antagonists",
@@ -2588,10 +2838,14 @@
     "gender": "Female",
     "status": "Deceased",
     "types_id": 3,
+    "group": false,
     "appears_in": [
       "the-library-policeman"
     ],
     "residence": [],
+    "kinds": [
+      "demon"
+    ],
     "notes": [
       "Librarians",
       "Females",
@@ -2605,10 +2859,14 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 3,
+    "group": false,
     "appears_in": [
       "insomnia"
     ],
     "residence": [],
+    "kinds": [
+      "little-bald-doctor"
+    ],
     "notes": [
       "Antagonists"
     ],
@@ -2620,10 +2878,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 2,
+    "group": false,
     "appears_in": [
       "doctor-sleep"
     ],
     "residence": [],
+    "kinds": [
+      "true-knot"
+    ],
     "notes": [
       "Deceased Characters",
       "Antagonists",
@@ -2640,10 +2902,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-dark-tower-the-wind-through-the-keyhole"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "Males",
@@ -2658,12 +2922,14 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-body"
     ],
     "residence": [
       "castle-rock-maine"
     ],
+    "kinds": [],
     "notes": [
       "Males",
       "Bullies",
@@ -2679,10 +2945,12 @@
     "gender": null,
     "status": "Alive",
     "types_id": 3,
+    "group": false,
     "appears_in": [
       "the-boogeyman"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Creatures",
       "Monsters",
@@ -2697,10 +2965,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "christine"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Leaders",
       "Males",
@@ -2720,12 +2990,14 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-body"
     ],
     "residence": [
       "castle-rock-maine"
     ],
+    "kinds": [],
     "notes": [
       "Males",
       "Castle Rock residents",
@@ -2741,10 +3013,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 3,
+    "group": false,
     "appears_in": [
       "if-it-bleeds"
     ],
     "residence": [],
+    "kinds": [
+      "outsider"
+    ],
     "notes": [
       "Characters",
       "Males",
@@ -2759,10 +3035,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-dark-tower-iv-wizard-and-glass"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Males",
       "Antagonists",
@@ -2776,11 +3054,13 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "desperation",
       "the-regulators"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Deceased Characters",
       "Police",
@@ -2796,10 +3076,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 2,
+    "group": false,
     "appears_in": [
       "doctor-sleep"
     ],
     "residence": [],
+    "kinds": [
+      "true-knot"
+    ],
     "notes": [
       "Antagonists",
       "Doctor Sleep",
@@ -2816,10 +3100,12 @@
     "gender": null,
     "status": "Alive",
     "types_id": 3,
+    "group": false,
     "appears_in": [
       "n-"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Creatures",
       "The Dark Tower",
@@ -2833,10 +3119,12 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-institute"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "The Institute",
       "Males",
@@ -2855,10 +3143,12 @@
     "gender": "Female",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "holly"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Females",
       "Antagonists",
@@ -2875,12 +3165,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "11-22-63"
     ],
     "residence": [
       "derry-maine"
     ],
+    "kinds": [],
     "notes": [
       "Males",
       "Derry residents",
@@ -2895,10 +3187,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "gwendy-s-button-box"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Males",
       "Villains",
@@ -2914,12 +3208,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "it"
     ],
     "residence": [
       "derry-maine"
     ],
+    "kinds": [],
     "notes": [
       "Deceased Characters",
       "Derry residents",
@@ -2937,10 +3233,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 2,
+    "group": false,
     "appears_in": [
       "doctor-sleep"
     ],
     "residence": [],
+    "kinds": [
+      "true-knot"
+    ],
     "notes": [
       "Antagonists",
       "Doctor Sleep",
@@ -2955,10 +3255,12 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "rose-madder"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Males",
       "Police",
@@ -2974,10 +3276,14 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 3,
+    "group": false,
     "appears_in": [
       "children-of-the-corn"
     ],
     "residence": [],
+    "kinds": [
+      "demon"
+    ],
     "notes": [
       "Antagonists",
       "Monsters",
@@ -2992,11 +3298,13 @@
     "gender": "Female",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-stand",
       "the-stand-uncut"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Deceased Characters",
       "Females",
@@ -3010,10 +3318,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-gingerbread-girl"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Males",
       "Murderers"
@@ -3026,10 +3336,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 2,
+    "group": false,
     "appears_in": [
       "doctor-sleep"
     ],
     "residence": [],
+    "kinds": [
+      "true-knot"
+    ],
     "notes": [
       "Antagonists",
       "Deceased Characters",
@@ -3044,10 +3358,12 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-institute"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "The Institute",
       "Males",
@@ -3065,10 +3381,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "secret-window-secret-garden"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Antagonists"
     ],
@@ -3080,10 +3398,12 @@
     "gender": "Female",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-institute"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "The Institute",
       "Females",
@@ -3103,6 +3423,7 @@
     "gender": "Female",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-stand",
       "the-stand-uncut"
@@ -3110,6 +3431,7 @@
     "residence": [
       "pratt-kansas"
     ],
+    "kinds": [],
     "notes": [
       "Females",
       "Deceased Characters",
@@ -3125,10 +3447,12 @@
     "gender": null,
     "status": "Alive",
     "types_id": 3,
+    "group": true,
     "appears_in": [
       "the-langoliers"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Creatures",
       "Antagonists"
@@ -3141,10 +3465,12 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "rest-stop"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Males",
       "Lovers",
@@ -3157,11 +3483,13 @@
     "name": "Maine Legion of White Decency",
     "gender": null,
     "status": "Alive",
-    "types_id": 5,
+    "types_id": 1,
+    "group": true,
     "appears_in": [
       "it"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Villains",
       "Groups",
@@ -3179,10 +3507,12 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "it"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "IT",
@@ -3197,12 +3527,14 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-body"
     ],
     "residence": [
       "castle-rock-maine"
     ],
+    "kinds": [],
     "notes": [
       "Antagonists",
       "Bullies",
@@ -3216,10 +3548,12 @@
     "gender": null,
     "status": "Alive",
     "types_id": 6,
+    "group": false,
     "appears_in": [
       "the-monkey"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "The Monkey",
       "Objects",
@@ -3237,10 +3571,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "christine"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Bullies",
       "Males",
@@ -3257,10 +3593,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-talisman"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Antagonists",
       "Characters",
@@ -3275,10 +3613,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "finders-keepers"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Bill Hodges",
       "Antagonists",
@@ -3295,10 +3635,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 4,
+    "group": false,
     "appears_in": [
       "dreamcatcher"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "Villains",
@@ -3312,12 +3654,14 @@
     "gender": "Female",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-mist"
     ],
     "residence": [
       "bridgton-maine"
     ],
+    "kinds": [],
     "notes": [
       "Female Characters",
       "Residents of Maine",
@@ -3332,12 +3676,14 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-body"
     ],
     "residence": [
       "castle-rock-maine"
     ],
+    "kinds": [],
     "notes": [
       "Castle Rock residents",
       "Residents of Maine",
@@ -3354,10 +3700,12 @@
     "gender": "Female",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-institute"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "The Institute",
       "Characters",
@@ -3374,12 +3722,14 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-body"
     ],
     "residence": [
       "castle-rock-maine"
     ],
+    "kinds": [],
     "notes": [
       "Bullies",
       "Residents of Maine",
@@ -3395,10 +3745,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "holly"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Males",
       "Antagonists",
@@ -3415,10 +3767,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 7,
+    "group": false,
     "appears_in": [
       "the-shining"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Males",
       "Male Characters",
@@ -3438,10 +3792,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-dark-tower-iv-wizard-and-glass"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "The Dark Tower",
       "Males",
@@ -3455,10 +3811,14 @@
     "gender": "Female",
     "status": "Deceased",
     "types_id": 2,
+    "group": false,
     "appears_in": [
       "doctor-sleep"
     ],
     "residence": [],
+    "kinds": [
+      "true-knot"
+    ],
     "notes": [
       "Antagonists",
       "Deceased Characters",
@@ -3476,11 +3836,15 @@
     "gender": null,
     "status": "Alive",
     "types_id": 3,
+    "group": false,
     "appears_in": [
       "desperation",
       "the-regulators"
     ],
     "residence": [],
+    "kinds": [
+      "demon"
+    ],
     "notes": [
       "Creatures",
       "Demons",
@@ -3496,11 +3860,13 @@
     "name": "The Children",
     "gender": null,
     "status": "Alive",
-    "types_id": 5,
+    "types_id": 1,
+    "group": true,
     "appears_in": [
       "children-of-the-corn"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Groups",
       "Antagonists"
@@ -3513,10 +3879,12 @@
     "gender": null,
     "status": "Alive",
     "types_id": 6,
+    "group": false,
     "appears_in": [
       "the-mangler"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Antagonists",
       "Demons"
@@ -3529,10 +3897,12 @@
     "gender": null,
     "status": "Alive",
     "types_id": 3,
+    "group": false,
     "appears_in": [
       "the-mist"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Monsters",
       "Antagonists",
@@ -3546,10 +3916,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "apt-pupil"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Males",
       "Antagonists",
@@ -3563,12 +3935,14 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "carrie"
     ],
     "residence": [
       "chamberlain-maine"
     ],
+    "kinds": [],
     "notes": [
       "Males",
       "Chamberlain residents",
@@ -3585,10 +3959,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-institute"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Males",
       "The Institute",
@@ -3607,10 +3983,12 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-institute"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "The Institute",
       "Males",
@@ -3629,12 +4007,14 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-body"
     ],
     "residence": [
       "castle-rock-maine"
     ],
+    "kinds": [],
     "notes": [
       "Males",
       "Bullies",
@@ -3650,10 +4030,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 2,
+    "group": false,
     "appears_in": [
       "doctor-sleep"
     ],
     "residence": [],
+    "kinds": [
+      "true-knot"
+    ],
     "notes": [
       "Deceased Characters",
       "Antagonists",
@@ -3668,10 +4052,12 @@
     "gender": "Female",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-institute"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "The Institute",
       "Deceased Characters",
@@ -3686,10 +4072,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-institute"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Characters",
       "Males",
@@ -3709,10 +4097,14 @@
     "gender": null,
     "status": "Deceased",
     "types_id": 6,
+    "group": false,
     "appears_in": [
       "the-dark-tower-v-wolves-of-the-calla"
     ],
     "residence": [],
+    "kinds": [
+      "north-central-positronics"
+    ],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3722,12 +4114,14 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-dark-tower-v-wolves-of-the-calla"
     ],
     "residence": [
       "calla-bryn-sturgis"
     ],
+    "kinds": [],
     "notes": [
       "Males",
       "Calla Bryn Sturgis residents",
@@ -3741,10 +4135,12 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "rage"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Male Characters"
     ],
@@ -3756,10 +4152,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "sleeping-beauties"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3769,10 +4167,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "sleeping-beauties"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3782,10 +4182,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 3,
+    "group": false,
     "appears_in": [
       "fairy-tale"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3795,10 +4197,12 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "sleeping-beauties"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3808,10 +4212,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "gwendy-s-final-task"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3821,10 +4227,12 @@
     "gender": null,
     "status": "Alive",
     "types_id": 3,
+    "group": false,
     "appears_in": [
       "the-girl-who-loved-tom-gordon"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3834,10 +4242,12 @@
     "gender": null,
     "status": "Alive",
     "types_id": 3,
+    "group": false,
     "appears_in": [
       "fairy-tale"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3847,12 +4257,14 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "lisey-s-story"
     ],
     "residence": [
       "lovell-maine"
     ],
+    "kinds": [],
     "notes": [
       "Males",
       "Lisey's Story",
@@ -3866,10 +4278,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 7,
+    "group": false,
     "appears_in": [
       "later"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3879,10 +4293,12 @@
     "gender": "Female",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "later"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3892,12 +4308,14 @@
     "gender": null,
     "status": "Alive",
     "types_id": 3,
+    "group": false,
     "appears_in": [
       "lisey-s-story"
     ],
     "residence": [
       "boo-ya-moon"
     ],
+    "kinds": [],
     "notes": [
       "Lisey's Story",
       "Lisey's Story Characters"
@@ -3910,10 +4328,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "bag-of-bones"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3923,10 +4343,12 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "billy-summers"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3936,10 +4358,12 @@
     "gender": "Female",
     "status": "Alive",
     "types_id": 3,
+    "group": false,
     "appears_in": [
       "duma-key"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3949,10 +4373,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "billy-summers"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3962,10 +4388,12 @@
     "gender": "Female",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "bag-of-bones"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3975,10 +4403,12 @@
     "gender": "Female",
     "status": "Deceased",
     "types_id": 7,
+    "group": false,
     "appears_in": [
       "bag-of-bones"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Females",
       "Deceased Characters",
@@ -3992,10 +4422,12 @@
     "gender": "Male",
     "status": "Alive",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "thinner"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -4005,10 +4437,12 @@
     "gender": "Male",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "sleeping-beauties"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -4017,11 +4451,13 @@
     "name": "The Hitler Brothers",
     "gender": null,
     "status": "Alive",
-    "types_id": 5,
+    "types_id": 1,
+    "group": true,
     "appears_in": [
       "the-dark-tower-v-wolves-of-the-calla"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -4030,11 +4466,13 @@
     "name": "Wolves of Thunderclap",
     "gender": null,
     "status": "Deceased",
-    "types_id": 5,
+    "types_id": 6,
+    "group": true,
     "appears_in": [
       "the-dark-tower-v-wolves-of-the-calla"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -4044,11 +4482,13 @@
     "gender": "Female",
     "status": "Deceased",
     "types_id": 1,
+    "group": false,
     "appears_in": [
       "the-stand",
       "the-stand-uncut"
     ],
     "residence": [],
+    "kinds": [],
     "notes": [
       "Female Characters",
       "Deceased Characters",

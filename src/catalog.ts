@@ -31,8 +31,10 @@ export interface Villain {
   gender: string | null;
   status: string;
   types_id: number;
+  group: boolean;
   appears_in: string[];
   residence: string[];
+  kinds: string[];
   notes: string[];
   created_at: string;
 }
@@ -44,6 +46,14 @@ export interface Place {
   type: string;
   parentId: number | null;
   appears_in: string[];
+  created_at: string;
+}
+
+export interface Type {
+  id: number;
+  name: string;
+  handle: string;
+  parentId: number | null;
   created_at: string;
 }
 
@@ -74,6 +84,7 @@ export const books = load<Book>("books.json");
 export const shorts = load<Short>("shorts.json");
 export const villains = load<Villain>("villains.json");
 export const places = load<Place>("places.json");
+export const types = load<Type>("types.json");
 
 // Links come from each villain's appears_in handles. Building them in
 // villain order matches what Postgres returned: a book's villains are in
@@ -169,4 +180,35 @@ for (const villain of villains) {
     }
   }
   homes.forEach((id) => link(villainIdsByPlace, id, villain.id));
+}
+
+// Types nest like places: a broad type such as Vampire holds the kinds from
+// the stories, such as the True Knot. A type lists every villain of that type
+// or a kind inside it, in villain id order; a villain lists its own kinds.
+export const typeIdsByParent = new Map<number, number[]>();
+export const villainIdsByType = new Map<number, number[]>();
+export const kindIdsByVillain = new Map<number, number[]>();
+
+const typeIdsByHandle = new Map(types.map((t) => [t.handle, t.id]));
+const typeParentIds = new Map(types.map((t) => [t.id, t.parentId]));
+
+for (const type of types) {
+  if (type.parentId !== null) {
+    link(typeIdsByParent, type.parentId, type.id);
+  }
+}
+
+for (const villain of villains) {
+  const typeIds = new Set<number>([villain.types_id]);
+  for (const handle of villain.kinds) {
+    let id: number | null | undefined = typeIdsByHandle.get(handle);
+    if (id !== undefined) {
+      link(kindIdsByVillain, villain.id, id);
+    }
+    while (id !== undefined && id !== null) {
+      typeIds.add(id);
+      id = typeParentIds.get(id);
+    }
+  }
+  typeIds.forEach((id) => link(villainIdsByType, id, villain.id));
 }

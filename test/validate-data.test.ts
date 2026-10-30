@@ -136,6 +136,41 @@ describe("validate-data", () => {
     assert.deepEqual(errors, []);
   });
 
+  it("flags a villain type that doesn't exist", () => {
+    const errors = errorsAfter((c) => (c["villains.json"][0].types_id = 5));
+    assertFlags(errors, /villain 1 \("Bob Anderson"\): types_id 5 doesn't match any type$/);
+  });
+
+  it("flags a kind used as a villain's type", () => {
+    const errors = errorsAfter((c) => (c["villains.json"][1].types_id = 11));
+    assertFlags(errors, /villain 2 \("Kurt Barlow"\): types_id 11 is a kind/);
+  });
+
+  it("flags a kind that isn't under the villain's type", () => {
+    const errors = errorsAfter((c) => c["villains.json"][0].kinds.push("type-one-vampire"));
+    assertFlags(errors, /villain 1 \("Bob Anderson"\): kinds "type-one-vampire" isn't a kind of "Human", the villain's type$/);
+  });
+
+  it("flags a kind that matches no type", () => {
+    const errors = errorsAfter((c) => c["villains.json"][0].kinds.push("serial-killer"));
+    assertFlags(errors, /villain 1 \("Bob Anderson"\): kinds "serial-killer" doesn't match any type handle$/);
+  });
+
+  it("flags a group flag that isn't true or false", () => {
+    const errors = errorsAfter((c) => (c["villains.json"][0].group = "no"));
+    assertFlags(errors, /villain 1 .*: group must be true or false$/);
+  });
+
+  it("flags a type whose parent doesn't exist", () => {
+    const errors = errorsAfter((c) => (c["types.json"].find((t: { handle: string }) => t.handle === "werewolf").parentId = 99));
+    assertFlags(errors, /^catalog\/types\.json: type \d+ \("Werewolf"\): parentId 99 doesn't match any type$/);
+  });
+
+  it("keeps type id 5 retired", () => {
+    const errors = errorsAfter((c) => c["types.json"].push({ ...c["types.json"][0], id: 5, name: "Group", handle: "group" }));
+    assertFlags(errors, /type 5 \("Group"\): id 5 was used by the old database and can't be reused$/);
+  });
+
   it("allows new records with new ids", () => {
     const errors = errorsAfter((c) => {
       const books = c["books.json"];

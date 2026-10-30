@@ -8,6 +8,7 @@
       "gender": "Male",
       "status": "Deceased",
       "types_id": 1,
+      "group": false,
       "notes": [
         "Stubs",
         "Characters",
@@ -34,7 +35,12 @@
           "name": "Yarmouth, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/119"
         }
-      ]
+      ],
+      "type": {
+        "name": "Human",
+        "url": "https://stephen-king-api.onrender.com/api/type/1"
+      },
+      "kinds": []
     }
   }
 }

@@ -13,6 +13,7 @@ type FieldRule =
   | "string" // may be empty
   | "nullable text"
   | "list" // of non-empty strings
+  | "boolean"
   | "timestamp"
   | { oneOf: readonly string[] };
 
@@ -83,10 +84,15 @@ export const SPECS: Record<string, FileSpec> = {
       name: "text",
       gender: "nullable text",
       status: "text",
-      types_id: "integer",
+      // A broad type from types.json, one with no parent
+      types_id: "id",
+      // Whether the record is a gang, race or other set of villains
+      group: "boolean",
       appears_in: "list",
-      // Place handles. They're served as the places' villains, not on the villain.
+      // Place handles, served as links
       residence: "list",
+      // Type handles for the in-universe kinds under types_id, served as links
+      kinds: "list",
       notes: "list",
       created_at: "timestamp",
     },
@@ -106,6 +112,22 @@ export const SPECS: Record<string, FileSpec> = {
       created_at: "timestamp",
     },
     unique: ["id", "handle", "name"],
+  },
+  "types.json": {
+    label: "type",
+    nameField: "name",
+    identity: "handle",
+    fields: {
+      id: "id",
+      name: "text",
+      handle: "text",
+      parentId: "nullable id",
+      created_at: "timestamp",
+    },
+    unique: ["id", "handle", "name"],
+    // 5 meant "group" in the old database. Groups are now flagged on the
+    // villain, so 5 stays unused rather than coming back meaning something else.
+    retiredIds: [5],
   },
 };
 
@@ -160,6 +182,8 @@ function checkField(rule: FieldRule, value: unknown): string | null {
         ? null
         : `item ${bad} must be non-empty text without surrounding spaces, got ${JSON.stringify(value[bad])}`;
     }
+    case "boolean":
+      return typeof value === "boolean" ? null : "must be true or false";
     case "timestamp":
       return typeof value === "string" &&
         TIMESTAMP.test(value) &&
@@ -258,8 +282,13 @@ export function validate(catalog: Catalog, base?: Catalog): string[] {
   errors.push(...checkHandles(catalog, "villains.json", "appears_in", linkable, "book or short"));
   errors.push(...checkHandles(catalog, "villains.json", "residence", placeHandles, "place"));
   errors.push(...checkHandles(catalog, "places.json", "appears_in", linkable, "book or short"));
+  const types = catalog["types.json"];
+  const typeHandles = new Set(Array.isArray(types) ? types.map((type: CatalogRecord) => type?.handle) : []);
+  errors.push(...checkHandles(catalog, "villains.json", "kinds", typeHandles, "type"));
+  errors.push(...checkVillainTypes(catalog["villains.json"], types));
 
-  errors.push(...checkParents(places));
+  errors.push(...checkParents("places.json", places));
+  errors.push(...checkParents("types.json", types));
 
   if (base) {
     errors.push(...compareIds(catalog, base));
@@ -300,26 +329,64 @@ function checkHandles(
   return errors;
 }
 
-// Every parent has to exist, and following parents has to end at the top
-function checkParents(places: unknown): string[] {
-  if (!Array.isArray(places)) {
+// A villain's types_id has to be a broad type, and each of its kinds has to
+// sit under that type, so a type lists the same villains the villains list
+function checkVillainTypes(villains: unknown, types: unknown): string[] {
+  if (!Array.isArray(villains) || !Array.isArray(types)) {
     return [];
   }
   const errors: string[] = [];
-  const byId = new Map<unknown, CatalogRecord>(places.map((place: CatalogRecord) => [place?.id, place]));
-  for (const place of places as CatalogRecord[]) {
-    if (!Number.isSafeInteger(place?.parentId)) {
+  const byId = new Map<unknown, CatalogRecord>(types.map((type: CatalogRecord) => [type?.id, type]));
+  const byHandle = new Map<unknown, CatalogRecord>(types.map((type: CatalogRecord) => [type?.handle, type]));
+  villains.forEach((villain: CatalogRecord, index) => {
+    if (!Number.isSafeInteger(villain?.types_id)) {
+      return;
+    }
+    const where = `catalog/villains.json: villain ${villain.id ?? `at position ${index}`} (${JSON.stringify(villain.name)})`;
+    const type = byId.get(villain.types_id);
+    if (!type) {
+      errors.push(`${where}: types_id ${villain.types_id} doesn't match any type`);
+      return;
+    }
+    if (type.parentId !== null) {
+      errors.push(`${where}: types_id ${villain.types_id} is a kind, so it goes in kinds, and types_id is the type above it`);
+      return;
+    }
+    for (const handle of Array.isArray(villain.kinds) ? villain.kinds : []) {
+      const kind = byHandle.get(handle);
+      const ancestors = new Set<unknown>();
+      for (let parent = byId.get(kind?.parentId); parent && !ancestors.has(parent.id); parent = byId.get(parent.parentId)) {
+        ancestors.add(parent.id);
+      }
+      if (kind && !ancestors.has(villain.types_id)) {
+        errors.push(`${where}: kinds ${JSON.stringify(handle)} isn't a kind of ${JSON.stringify(type.name)}, the villain's type`);
+      }
+    }
+  });
+  return errors;
+}
+
+// Every parent has to exist, and following parents has to end at the top
+function checkParents(file: string, records: unknown): string[] {
+  if (!Array.isArray(records)) {
+    return [];
+  }
+  const { label, nameField } = SPECS[file];
+  const errors: string[] = [];
+  const byId = new Map<unknown, CatalogRecord>(records.map((record: CatalogRecord) => [record?.id, record]));
+  for (const record of records as CatalogRecord[]) {
+    if (!Number.isSafeInteger(record?.parentId)) {
       continue;
     }
-    const where = `catalog/places.json: place ${place.id} (${JSON.stringify(place.name)})`;
-    if (!byId.has(place.parentId)) {
-      errors.push(`${where}: parentId ${place.parentId} doesn't match any place`);
+    const where = `catalog/${file}: ${label} ${record.id} (${JSON.stringify(record[nameField])})`;
+    if (!byId.has(record.parentId)) {
+      errors.push(`${where}: parentId ${record.parentId} doesn't match any ${label}`);
       continue;
     }
-    const visited = new Set<unknown>([place.id]);
-    for (let parent = byId.get(place.parentId); parent; parent = byId.get(parent.parentId)) {
+    const visited = new Set<unknown>([record.id]);
+    for (let parent = byId.get(record.parentId); parent; parent = byId.get(parent.parentId)) {
       if (visited.has(parent.id)) {
-        errors.push(`${where}: its parents loop back to place ${parent.id}`);
+        errors.push(`${where}: its parents loop back to ${label} ${parent.id}`);
         break;
       }
       visited.add(parent.id);

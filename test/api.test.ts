@@ -13,6 +13,7 @@ const resources = [
   { list: "/api/shorts", detail: "/api/short", total: count("shorts.json"), missing: "Short not found" },
   { list: "/api/villains", detail: "/api/villain", total: count("villains.json"), missing: "Villain not found" },
   { list: "/api/places", detail: "/api/place", total: count("places.json"), missing: "Place not found" },
+  { list: "/api/types", detail: "/api/type", total: count("types.json"), missing: "Type not found" },
 ];
 
 let server: TestServer;
@@ -40,11 +41,13 @@ for (const { list, detail, total, missing } of resources) {
     });
 
     it("paginates when page and limit are both given", async () => {
+      const { body: all } = await get(list);
       const { status, body } = await get(`${list}?page=2&limit=10`);
       assert.equal(status, 200);
+      // Ids can skip retired numbers, so page 2 is the 11th to 20th records
       assert.deepEqual(
         body.data.map((record: { id: number }) => record.id),
-        Array.from({ length: 10 }, (_, i) => 11 + i)
+        all.data.slice(10, 20).map((record: { id: number }) => record.id)
       );
       assert.deepEqual(body.pagination, {
         page: 2,
@@ -103,7 +106,8 @@ for (const { list, detail, total, missing } of resources) {
       const { status, body } = await get(`${list}?page=0&limit=5`);
       assert.equal(status, 200);
       assert.equal(body.pagination.page, 1);
-      assert.deepEqual(body.data.map((record: { id: number }) => record.id), [1, 2, 3, 4, 5]);
+      const { body: all } = await get(list);
+      assert.deepEqual(body.data, all.data.slice(0, 5));
     });
   });
 }
@@ -203,6 +207,34 @@ describe("links", () => {
           `place ${place.data.id} doesn't list villain ${villain.id}`
         );
       }
+    }
+  });
+
+  it("point both ways between villains and their types", async () => {
+    const { body: typeList } = await get("/api/types");
+    const parents = new Map(
+      typeList.data.map((type: any) => [`/api/type/${type.id}`, type.parent && new URL(type.parent.url).pathname])
+    );
+    // A villain belongs to its type, its kinds and every type above a kind
+    const expected = new Map<string, number[]>();
+    const { body } = await get("/api/villains");
+    for (const villain of body.data) {
+      const typePaths = new Set<string>();
+      for (const link of [villain.type, ...villain.kinds]) {
+        for (let at = new URL(link.url).pathname; at; at = parents.get(at) as string) {
+          typePaths.add(at);
+        }
+      }
+      for (const at of typePaths) {
+        expected.set(at, [...(expected.get(at) || []), villain.id]);
+      }
+    }
+    for (const type of typeList.data) {
+      assert.deepEqual(
+        type.villains.map((link: { url: string }) => Number(link.url.split("/").pop())),
+        expected.get(`/api/type/${type.id}`) || [],
+        `type ${type.id} (${type.name}) lists the wrong villains`
+      );
     }
   });
 

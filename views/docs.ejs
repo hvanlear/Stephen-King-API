@@ -51,6 +51,7 @@
             <li><a href="#places">Places</a></li>
             <li><a href="#types">Types</a></li>
             <li><a href="#collections">Collections</a></li>
+            <li><a href="#publications">Publications</a></li>
             <li><a href="#data-models">Data Models</a></li>
           </ul>
         </nav>
@@ -59,7 +60,7 @@
         <section id="introduction" class="docs-section">
           <h2>Introduction</h2>
           <p>
-            The Stephen King API is a free, open-source REST API providing data about Stephen King's novels, short stories, the collections they were published in, villains, places, and the types of villain. No authentication is required. All endpoints are read-only (<code>GET</code> requests only).
+            The Stephen King API is a free, open-source REST API providing data about Stephen King's novels, short stories, the collections they were published in, the magazines and anthologies they first appeared in, villains, places, and the types of villain. No authentication is required. All endpoints are read-only (<code>GET</code> requests only).
           </p>
           <p>
             Responses are returned in JSON format. Related resources include links to their associated endpoints for easy traversal.
@@ -366,6 +367,7 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
       "type": "short story",
       "handle": "land-of-1-000-000-years-ago",
       "originallyPublishedIn": "",
+      "publication": null,
       "collectedIn": "Uncollected",
       "collection": null,
       "notes": [
@@ -405,6 +407,7 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
     "type": "novella",
     "handle": "the-langoliers",
     "originallyPublishedIn": "Four Past Midnight (September 1990)",
+    "publication": null,
     "collectedIn": "Four Past Midnight (1990)",
     "collection": {
       "name": "Four Past Midnight",
@@ -996,6 +999,88 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
           </div>
         </section>
 
+        <!-- Publications -->
+        <section id="publications" class="docs-section">
+          <h2>Publications</h2>
+          <p>
+            A short story links to the <code>publication</code> it first appeared in, such as <em>Cavalier</em>, <em>The New Yorker</em> or the anthology <em>Dark Forces</em>, and a publication lists its stories in id order. A publication's <code>type</code> is <code>"magazine"</code>, <code>"anthology"</code>, <code>"newspaper"</code> or <code>"other"</code>, which covers King's own small books, convention books, websites and ebook stores. A magazine or anthology series is one publication, so <em>Shadows</em> holds the stories from <em>Shadows</em> and <em>Shadows 4</em>; the issue and date stay in the story's <code>originallyPublishedIn</code>. Stories that first appeared in their own collection, or as a book of their own, have <code>null</code>.
+          </p>
+
+          <!-- GET /api/publications -->
+          <div class="endpoint-card">
+            <div class="endpoint-header">
+              <span class="endpoint-method">GET</span>
+              <span class="endpoint-path">/api/publications</span>
+            </div>
+            <p>Returns all publications. Supports <a href="#pagination">pagination</a>.</p>
+            <h4>Example Request</h4>
+            <div class="docs-code-block">
+              <code>GET <%= url %>/api/publications?page=1&limit=1</code>
+            </div>
+            <h4>Example Response</h4>
+            <pre class="docs-json">{
+  "data": [
+    {
+      "id": 1,
+      "name": "Dave's Rag",
+      "handle": "dave-s-rag",
+      "type": "newspaper",
+      "created_at": "2026-10-30T01:50:00.000Z",
+      "shorts": [
+        {
+          "title": "Jumper",
+          "url": "<%= url %>/api/short/3"
+        },
+        {
+          "title": "Rush Call",
+          "url": "<%= url %>/api/short/4"
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "limit": 1,
+    "total": 87,
+    "totalPages": 87
+  }
+}</pre>
+          </div>
+
+          <!-- GET /api/publication/:id -->
+          <div class="endpoint-card">
+            <div class="endpoint-header">
+              <span class="endpoint-method">GET</span>
+              <span class="endpoint-path">/api/publication/:id</span>
+            </div>
+            <p>Returns a single publication by ID.</p>
+            <h4>Example Request</h4>
+            <div class="docs-code-block">
+              <code>GET <%= url %>/api/publication/20</code>
+            </div>
+            <h4>Example Response</h4>
+            <pre class="docs-json">{
+  "data": {
+    "id": 20,
+    "name": "Shadows",
+    "handle": "shadows",
+    "type": "anthology",
+    "created_at": "2026-10-30T01:50:00.000Z",
+    "shorts": [
+      {
+        "title": "Nona",
+        "url": "<%= url %>/api/short/63"
+      },
+      {
+        "title": "The Man Who Would Not Shake Hands",
+        "url": "<%= url %>/api/short/76"
+      }
+    ]
+  }
+}</pre>
+          </div>
+        </section>
+
         <!-- Data Models -->
         <section id="data-models" class="docs-section">
           <h2>Data Models</h2>
@@ -1107,6 +1192,11 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
                 <td><code>originallyPublishedIn</code></td>
                 <td>string</td>
                 <td>Original publication</td>
+              </tr>
+              <tr>
+                <td><code>publication</code></td>
+                <td>object?</td>
+                <td>The magazine, anthology or other <a href="#publications">publication</a> it first appeared in, with name and URL, or <code>null</code> when it first appeared in its collection or on its own</td>
               </tr>
               <tr>
                 <td><code>collectedIn</code></td>
@@ -1377,6 +1467,49 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
                 <td><code>shorts</code></td>
                 <td>array</td>
                 <td>The stories in it, with title and URL, in id order</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3>Publication</h3>
+          <table class="docs-table">
+            <thead>
+              <tr>
+                <th>Field</th>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>id</code></td>
+                <td>integer</td>
+                <td>Unique identifier</td>
+              </tr>
+              <tr>
+                <td><code>name</code></td>
+                <td>string</td>
+                <td>Magazine, anthology or other title, without the issue</td>
+              </tr>
+              <tr>
+                <td><code>handle</code></td>
+                <td>string</td>
+                <td>URL-friendly slug</td>
+              </tr>
+              <tr>
+                <td><code>type</code></td>
+                <td>string</td>
+                <td><code>"magazine"</code>, <code>"anthology"</code>, <code>"newspaper"</code> or <code>"other"</code></td>
+              </tr>
+              <tr>
+                <td><code>created_at</code></td>
+                <td>datetime</td>
+                <td>Record creation timestamp</td>
+              </tr>
+              <tr>
+                <td><code>shorts</code></td>
+                <td>array</td>
+                <td>The stories that first appeared in it, with title and URL, in id order</td>
               </tr>
             </tbody>
           </table>

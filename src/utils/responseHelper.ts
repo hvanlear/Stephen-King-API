@@ -2,13 +2,16 @@ import {
   Book,
   Short,
   Villain,
+  Place,
   books,
   shorts,
   villains,
+  places,
   villainIdsByBook,
   villainIdsByShort,
   bookIdsByVillain,
   shortIdsByVillain,
+  placeIdsByParent,
 } from "../catalog";
 import config from "../config";
 
@@ -17,6 +20,7 @@ const URL = config.url;
 const villainNames = new Map(villains.map((v) => [v.id, v.name]));
 const bookTitles = new Map(books.map((b) => [b.id, b.Title]));
 const shortTitles = new Map(shorts.map((s) => [s.id, s.title]));
+const placeNames = new Map(places.map((p) => [p.id, p.name]));
 
 const villainLinks = (ids: number[] = []) =>
   ids.map((id) => ({
@@ -45,4 +49,16 @@ export const villainResponse = ({ appears_in, ...villain }: Villain) => ({
     title: shortTitles.get(id),
     url: `${URL}/api/short/${id}`,
   })),
+});
+
+const placeLink = (id: number) => ({
+  name: placeNames.get(id),
+  url: `${URL}/api/place/${id}`,
+});
+
+// parentId only exists to build the parent link, so it isn't returned
+export const placeResponse = ({ parentId, ...place }: Place) => ({
+  ...place,
+  parent: parentId === null ? null : placeLink(parentId),
+  places: (placeIdsByParent.get(place.id) || []).map(placeLink),
 });

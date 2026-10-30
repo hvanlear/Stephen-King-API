@@ -36,6 +36,15 @@ export interface Villain {
   created_at: string;
 }
 
+export interface Place {
+  id: number;
+  name: string;
+  handle: string;
+  type: string;
+  parentId: number | null;
+  created_at: string;
+}
+
 // catalog/ sits next to both src/ and dist/
 const CATALOG_DIR = path.join(__dirname, "..", "catalog");
 
@@ -62,6 +71,7 @@ function load<T extends { id: number }>(file: string): T[] {
 export const books = load<Book>("books.json");
 export const shorts = load<Short>("shorts.json");
 export const villains = load<Villain>("villains.json");
+export const places = load<Place>("places.json");
 
 // Links come from each villain's appears_in handles. Building them in
 // villain order matches what Postgres returned: a book's villains are in
@@ -96,5 +106,14 @@ for (const villain of villains) {
       link(villainIdsByShort, short.id, villain.id);
       link(shortIdsByVillain, villain.id, short.id);
     }
+  }
+}
+
+// The places in each place, in id order
+export const placeIdsByParent = new Map<number, number[]>();
+
+for (const place of places) {
+  if (place.parentId !== null) {
+    link(placeIdsByParent, place.parentId, place.id);
   }
 }

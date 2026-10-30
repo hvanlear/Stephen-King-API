@@ -1,0 +1,18 @@
+{
+  "path": "/api/place/170",
+  "status": 200,
+  "body": {
+    "data": {
+      "id": 170,
+      "name": "Marsten House",
+      "handle": "marsten-house",
+      "type": "building",
+      "created_at": "2026-10-28T20:25:46.000Z",
+      "parent": {
+        "name": "Jerusalem's Lot, Maine",
+        "url": "https://stephen-king-api.onrender.com/api/place/76"
+      },
+      "places": []
+    }
+  }
+}

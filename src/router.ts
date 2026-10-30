@@ -2,6 +2,7 @@ import { Router } from "express";
 import { getBooks, getOneBook } from "./handlers/book";
 import { getShorts, getOneShort } from "./handlers/short";
 import { getOneVillain, getVillains } from "./handlers/villains";
+import { getOnePlace, getPlaces } from "./handlers/places";
 
 const router = Router();
 
@@ -16,5 +17,9 @@ router.get("/short/:id", getOneShort);
 //Villains Router
 router.get("/villains", getVillains);
 router.get("/villain/:id", getOneVillain);
+
+//Places Router
+router.get("/places", getPlaces);
+router.get("/place/:id", getOnePlace);
 
 export default router;

@@ -30,10 +30,17 @@ const PATHS = [
   "/api/villain/1",
   "/api/villain/60",
   "/api/villain/115",
+  // Places: the list, a page, then a world, a town and a building
+  "/api/places",
+  "/api/places?page=2&limit=50",
+  "/api/place/1",
+  "/api/place/76",
+  "/api/place/170",
   // Not found (72 was the deleted junk book)
   "/api/book/72",
   "/api/short/9999",
   "/api/villain/9999",
+  "/api/place/9999",
 ];
 
 function fixtureName(requestPath: string): string {

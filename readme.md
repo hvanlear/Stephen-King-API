@@ -20,6 +20,8 @@ _All routes are GET routes. No API key is needed._
 | `/api/short/:id` | One short story |
 | `/api/villains` | All villains |
 | `/api/villain/:id` | One villain |
+| `/api/places` | All places, from buildings up to towns, states and other worlds |
+| `/api/place/:id` | One place, with the place it's in and the places inside it |
 
 - The list routes return everything by default. To page through results instead, pass `page` and `limit` together (`limit` is capped at 100).
 - Each IP address can make 100 requests a minute.
@@ -57,7 +59,7 @@ Other commands:
 
 ## Adding or Fixing Data
 
-The data lives in four files: `catalog/books.json`, `catalog/shorts.json`, `catalog/villains.json` and `catalog/places.json`. The API serves the records as they are, so a change to a file is a change to the API. Places aren't served yet.
+The data lives in four files: `catalog/books.json`, `catalog/shorts.json`, `catalog/villains.json` and `catalog/places.json`. The API serves the records as they are, so a change to a file is a change to the API.
 
 1. **To fix a record**, edit its fields in place.
 1. **To add a record**, copy an existing record from the same file to the end of the list, so the field names and order match. Give it the next id: one higher than the last id in the file. Book ids 64–72 are skipped, because the old database used them. Set `created_at` to the current UTC time, like `2026-10-26T18:00:00.000Z`. The `handle` is the title in lowercase with hyphens, like `the-shining`.

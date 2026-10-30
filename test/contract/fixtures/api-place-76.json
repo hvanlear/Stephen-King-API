@@ -1,0 +1,39 @@
+{
+  "path": "/api/place/76",
+  "status": 200,
+  "body": {
+    "data": {
+      "id": 76,
+      "name": "Jerusalem's Lot, Maine",
+      "handle": "jerusalem-s-lot-maine",
+      "type": "town",
+      "created_at": "2026-10-28T20:25:46.000Z",
+      "parent": {
+        "name": "Maine",
+        "url": "https://stephen-king-api.onrender.com/api/place/28"
+      },
+      "places": [
+        {
+          "name": "Harmony Hill Cemetery",
+          "url": "https://stephen-king-api.onrender.com/api/place/145"
+        },
+        {
+          "name": "Brock Street School",
+          "url": "https://stephen-king-api.onrender.com/api/place/157"
+        },
+        {
+          "name": "Jerusalem's Lot Public Library",
+          "url": "https://stephen-king-api.onrender.com/api/place/169"
+        },
+        {
+          "name": "Marsten House",
+          "url": "https://stephen-king-api.onrender.com/api/place/170"
+        },
+        {
+          "name": "Stanley Street Elementary School",
+          "url": "https://stephen-king-api.onrender.com/api/place/173"
+        }
+      ]
+    }
+  }
+}

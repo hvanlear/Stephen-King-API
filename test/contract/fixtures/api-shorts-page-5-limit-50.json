@@ -10,10 +10,7 @@
         "handle": "thin-scenery",
         "originallyPublishedIn": "Ploughshares (Summer 2017)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [],
         "year": 2017,
         "created_at": "2023-11-13T23:49:20.979Z",
@@ -52,10 +49,7 @@
         "handle": "elevation",
         "originallyPublishedIn": "Elevation (October 2018)",
         "collectedIn": "Uncollected (standalone book)",
-        "collection": {
-          "name": "Uncollected (standalone book)",
-          "url": "https://stephen-king-api.onrender.com/api/collection/17"
-        },
+        "collection": null,
         "notes": [],
         "year": 2018,
         "created_at": "2023-11-13T23:49:21.223Z",
@@ -95,10 +89,7 @@
         "handle": "squad-d",
         "originallyPublishedIn": "Shivers VIII  (April 18, 2019)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [
           "written in the late 1970s"
         ],
@@ -395,10 +386,7 @@
         "handle": "the-extra-hour",
         "originallyPublishedIn": "Cemetery Dance #79 (January 2025)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [],
         "year": 2025,
         "created_at": "2026-10-28T18:48:53.000Z",
@@ -412,10 +400,7 @@
         "handle": "hansel-and-gretel",
         "originallyPublishedIn": "Hansel and Gretel (September 2025)",
         "collectedIn": "Uncollected (standalone book)",
-        "collection": {
-          "name": "Uncollected (standalone book)",
-          "url": "https://stephen-king-api.onrender.com/api/collection/17"
-        },
+        "collection": null,
         "notes": [
           "Children's picture book illustrated by Maurice Sendak"
         ],
@@ -431,10 +416,7 @@
         "handle": "dinah-s-hat",
         "originallyPublishedIn": "The Atlantic (June 2026)",
         "collectedIn": "Uncollected",
-        "collection": {
-          "name": "Uncollected",
-          "url": "https://stephen-king-api.onrender.com/api/collection/16"
-        },
+        "collection": null,
         "notes": [],
         "year": 2026,
         "created_at": "2026-10-28T18:48:53.000Z",

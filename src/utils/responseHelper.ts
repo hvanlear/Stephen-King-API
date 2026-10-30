@@ -59,7 +59,7 @@ const typeLinks = (ids: number[] = []) =>
     url: `${URL}/api/type/${id}`,
   }));
 
-// One link, or null where there isn't one, as for most books
+// One link, or null where there isn't one, as for most books and uncollected shorts
 const collectionLink = (id: number | undefined) =>
   id === undefined
     ? null

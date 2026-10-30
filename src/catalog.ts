@@ -20,7 +20,7 @@ export interface Short {
   handle: string;
   originallyPublishedIn: string;
   collectedIn: string;
-  collection: string;
+  collection: string | null;
   notes: string[];
   year: number;
   created_at: string;
@@ -62,7 +62,7 @@ export interface Collection {
   id: number;
   name: string;
   handle: string;
-  year: number | null;
+  year: number;
   created_at: string;
 }
 
@@ -223,8 +223,8 @@ for (const villain of villains) {
   typeIds.forEach((id) => link(villainIdsByType, id, villain.id));
 }
 
-// Each short names the collection it was published in, so a collection lists
-// its shorts in short id order. A collection that's also a catalog book, such
+// Each collected short names the collection it was published in, so a
+// collection lists its shorts in short id order. A collection that's also a catalog book, such
 // as The Gunslinger, shares the book's handle, and the two link to each other.
 export const shortIdsByCollection = new Map<number, number[]>();
 export const collectionIdByShort = new Map<number, number>();
@@ -234,7 +234,7 @@ export const bookIdByCollection = new Map<number, number>();
 const collectionIdsByHandle = new Map(collections.map((c) => [c.handle, c.id]));
 
 for (const short of shorts) {
-  const id = collectionIdsByHandle.get(short.collection);
+  const id = short.collection === null ? undefined : collectionIdsByHandle.get(short.collection);
   if (id !== undefined) {
     link(shortIdsByCollection, id, short.id);
     collectionIdByShort.set(short.id, id);

@@ -246,7 +246,10 @@ describe("links", () => {
     const names = new Map(collectionList.data.map((collection: { id: number; name: string }) => [collection.id, collection.name]));
     const fromShorts = new Map<number, number[]>();
     for (const short of shortList.data) {
-      // Every short has one, even if it's the Uncollected record
+      if (short.collectedIn.startsWith("Uncollected")) {
+        assert.equal(short.collection, null, `short ${short.id} is uncollected but links a collection`);
+        continue;
+      }
       assert.ok(short.collection, `short ${short.id} has no collection`);
       assert.match(short.collection.url, /\/api\/collection\/\d+$/);
       assert.equal(short.collection.name, names.get(idOf(short.collection)), `short ${short.id} links its collection under the wrong name`);

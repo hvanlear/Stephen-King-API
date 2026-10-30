@@ -367,10 +367,7 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
       "handle": "land-of-1-000-000-years-ago",
       "originallyPublishedIn": "",
       "collectedIn": "Uncollected",
-      "collection": {
-        "name": "Uncollected",
-        "url": "<%= url %>/api/collection/16"
-      },
+      "collection": null,
       "notes": [
         "Self-published"
       ],
@@ -896,7 +893,7 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
         <section id="collections" class="docs-section">
           <h2>Collections</h2>
           <p>
-            Every short story links to the <code>collection</code> it was published in, such as <em>Night Shift</em> or <em>Skeleton Crew</em>, and a collection lists its stories in id order. A collection that's also a book in the catalog, such as <em>The Dark Tower: The Gunslinger</em>, links to that <code>book</code>, and the book links back with <code>collection</code>. Stories that were never collected belong to Uncollected, or to Uncollected (standalone book) for the ones published as a book of their own. Those two have no <code>year</code>.
+            Every short story links to the <code>collection</code> it was published in, such as <em>Night Shift</em> or <em>Skeleton Crew</em>, and a collection lists its stories in id order. A collection that's also a book in the catalog, such as <em>The Dark Tower: The Gunslinger</em>, links to that <code>book</code>, and the book links back with <code>collection</code>. Stories that were never collected have no collection: their <code>collection</code> is <code>null</code>, and <code>collectedIn</code> says <code>"Uncollected"</code>.
           </p>
 
           <!-- GET /api/collections -->
@@ -950,8 +947,8 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
   "pagination": {
     "page": 2,
     "limit": 1,
-    "total": 17,
-    "totalPages": 17
+    "total": 15,
+    "totalPages": 15
   }
 }</pre>
           </div>
@@ -962,7 +959,7 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
               <span class="endpoint-method">GET</span>
               <span class="endpoint-path">/api/collection/:id</span>
             </div>
-            <p>Returns a single collection by ID.</p>
+            <p>Returns a single collection by ID. Ids 16 and 17 are unused: they were Uncollected and Uncollected (standalone book), which are now a <code>null</code> collection.</p>
             <h4>Example Request</h4>
             <div class="docs-code-block">
               <code>GET <%= url %>/api/collection/3</code>
@@ -1118,8 +1115,8 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
               </tr>
               <tr>
                 <td><code>collection</code></td>
-                <td>object</td>
-                <td>The same collection, with name and URL</td>
+                <td>object?</td>
+                <td>The same collection, with name and URL, or <code>null</code> for a story that was never collected</td>
               </tr>
               <tr>
                 <td><code>notes</code></td>
@@ -1363,8 +1360,8 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
               </tr>
               <tr>
                 <td><code>year</code></td>
-                <td>integer?</td>
-                <td>Year of publication, or <code>null</code> for Uncollected and Uncollected (standalone book)</td>
+                <td>integer</td>
+                <td>Year of publication</td>
               </tr>
               <tr>
                 <td><code>created_at</code></td>

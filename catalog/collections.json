@@ -103,19 +103,5 @@
     "handle": "you-like-it-darker",
     "year": 2024,
     "created_at": "2026-10-30T01:26:00.000Z"
-  },
-  {
-    "id": 16,
-    "name": "Uncollected",
-    "handle": "uncollected",
-    "year": null,
-    "created_at": "2026-10-30T01:26:00.000Z"
-  },
-  {
-    "id": 17,
-    "name": "Uncollected (standalone book)",
-    "handle": "uncollected-standalone-book",
-    "year": null,
-    "created_at": "2026-10-30T01:26:00.000Z"
   }
 ]

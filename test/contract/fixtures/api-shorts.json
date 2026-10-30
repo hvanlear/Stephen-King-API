@@ -15,7 +15,8 @@
         ],
         "year": 1959,
         "created_at": "2023-11-13T23:48:55.954Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 2,
@@ -29,7 +30,8 @@
         ],
         "year": 1959,
         "created_at": "2023-11-13T23:48:56.271Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 3,
@@ -43,7 +45,8 @@
         ],
         "year": 1959,
         "created_at": "2023-11-13T23:48:56.385Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 4,
@@ -57,7 +60,8 @@
         ],
         "year": 1960,
         "created_at": "2023-11-13T23:48:56.521Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 5,
@@ -71,7 +75,8 @@
         ],
         "year": 1960,
         "created_at": "2023-11-13T23:48:56.637Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 6,
@@ -85,7 +90,8 @@
         ],
         "year": 1960,
         "created_at": "2023-11-13T23:48:56.761Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 7,
@@ -99,7 +105,8 @@
         ],
         "year": 1960,
         "created_at": "2023-11-13T23:48:56.880Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 8,
@@ -113,7 +120,8 @@
         ],
         "year": 1960,
         "created_at": "2023-11-13T23:48:57.004Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 9,
@@ -127,7 +135,8 @@
         ],
         "year": 1960,
         "created_at": "2023-11-13T23:48:57.127Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 10,
@@ -141,7 +150,8 @@
         ],
         "year": 1960,
         "created_at": "2023-11-13T23:48:57.249Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 11,
@@ -155,7 +165,8 @@
         ],
         "year": 1960,
         "created_at": "2023-11-13T23:48:57.371Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 12,
@@ -169,7 +180,8 @@
         ],
         "year": 1961,
         "created_at": "2023-11-13T23:48:57.497Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 13,
@@ -183,7 +195,8 @@
         ],
         "year": 1963,
         "created_at": "2023-11-13T23:48:57.617Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 14,
@@ -197,7 +210,8 @@
         ],
         "year": 1963,
         "created_at": "2023-11-13T23:48:57.736Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 15,
@@ -211,7 +225,8 @@
         ],
         "year": 1964,
         "created_at": "2023-11-13T23:48:57.861Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 16,
@@ -225,7 +240,8 @@
         ],
         "year": 1965,
         "created_at": "2023-11-13T23:48:57.981Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 17,
@@ -239,7 +255,8 @@
         ],
         "year": 1965,
         "created_at": "2023-11-13T23:48:58.106Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 18,
@@ -253,7 +270,8 @@
         ],
         "year": 1966,
         "created_at": "2023-11-13T23:48:58.231Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 19,
@@ -267,7 +285,8 @@
         ],
         "year": 1967,
         "created_at": "2023-11-13T23:48:58.360Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 20,
@@ -279,7 +298,8 @@
         "notes": [],
         "year": 1968,
         "created_at": "2023-11-13T23:48:58.480Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 21,
@@ -291,7 +311,8 @@
         "notes": [],
         "year": 1968,
         "created_at": "2023-11-13T23:48:58.612Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 22,
@@ -303,7 +324,8 @@
         "notes": [],
         "year": 1968,
         "created_at": "2023-11-13T23:48:58.740Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 23,
@@ -317,7 +339,13 @@
         ],
         "year": 1968,
         "created_at": "2023-11-13T23:48:58.863Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "New Sharon College",
+            "url": "https://stephen-king-api.onrender.com/api/place/13"
+          }
+        ]
       },
       {
         "id": 24,
@@ -331,7 +359,8 @@
         ],
         "year": 1969,
         "created_at": "2023-11-13T23:48:58.978Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 25,
@@ -345,7 +374,8 @@
         ],
         "year": 1969,
         "created_at": "2023-11-13T23:48:59.097Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 26,
@@ -359,7 +389,8 @@
         ],
         "year": 1969,
         "created_at": "2023-11-13T23:48:59.213Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 27,
@@ -373,7 +404,8 @@
         ],
         "year": 1969,
         "created_at": "2023-11-13T23:48:59.343Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 28,
@@ -385,7 +417,8 @@
         "notes": [],
         "year": 1970,
         "created_at": "2023-11-13T23:48:59.464Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 29,
@@ -397,7 +430,13 @@
         "notes": [],
         "year": 1970,
         "created_at": "2023-11-13T23:48:59.601Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Gates Falls",
+            "url": "https://stephen-king-api.onrender.com/api/place/68"
+          }
+        ]
       },
       {
         "id": 30,
@@ -409,7 +448,8 @@
         "notes": [],
         "year": 1970,
         "created_at": "2023-11-13T23:48:59.726Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 31,
@@ -421,7 +461,8 @@
         "notes": [],
         "year": 1970,
         "created_at": "2023-11-13T23:48:59.845Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 32,
@@ -435,7 +476,8 @@
         ],
         "year": 1971,
         "created_at": "2023-11-13T23:48:59.967Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 33,
@@ -447,7 +489,8 @@
         "notes": [],
         "year": 1971,
         "created_at": "2023-11-13T23:49:00.091Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 34,
@@ -459,7 +502,8 @@
         "notes": [],
         "year": 1971,
         "created_at": "2023-11-13T23:49:00.211Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 35,
@@ -471,7 +515,8 @@
         "notes": [],
         "year": 1971,
         "created_at": "2023-11-13T23:49:00.332Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 36,
@@ -483,7 +528,8 @@
         "notes": [],
         "year": 1971,
         "created_at": "2023-11-13T23:49:00.453Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 37,
@@ -495,7 +541,8 @@
         "notes": [],
         "year": 1971,
         "created_at": "2023-11-13T23:49:00.582Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 38,
@@ -507,7 +554,8 @@
         "notes": [],
         "year": 1971,
         "created_at": "2023-11-13T23:49:00.702Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 39,
@@ -519,7 +567,8 @@
         "notes": [],
         "year": 1972,
         "created_at": "2023-11-13T23:49:00.825Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 40,
@@ -533,7 +582,8 @@
         ],
         "year": 1972,
         "created_at": "2023-11-13T23:49:00.949Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 41,
@@ -545,7 +595,8 @@
         "notes": [],
         "year": 1972,
         "created_at": "2023-11-13T23:49:01.075Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 42,
@@ -562,7 +613,8 @@
             "name": "The Mangler (character)",
             "url": "https://stephen-king-api.onrender.com/api/villain/167"
           }
-        ]
+        ],
+        "places": []
       },
       {
         "id": 43,
@@ -579,7 +631,8 @@
             "name": "Boogeyman",
             "url": "https://stephen-king-api.onrender.com/api/villain/124"
           }
-        ]
+        ],
+        "places": []
       },
       {
         "id": 44,
@@ -591,7 +644,13 @@
         "notes": [],
         "year": 1973,
         "created_at": "2023-11-13T23:49:01.428Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Bridgton, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/52"
+          }
+        ]
       },
       {
         "id": 45,
@@ -603,7 +662,8 @@
         "notes": [],
         "year": 1973,
         "created_at": "2023-11-13T23:49:01.545Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 46,
@@ -617,7 +677,13 @@
         ],
         "year": 1973,
         "created_at": "2023-11-13T23:49:01.672Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ]
       },
       {
         "id": 47,
@@ -634,7 +700,8 @@
             "name": "Richard Lawson",
             "url": "https://stephen-king-api.onrender.com/api/villain/65"
           }
-        ]
+        ],
+        "places": []
       },
       {
         "id": 48,
@@ -646,7 +713,8 @@
         "notes": [],
         "year": 1975,
         "created_at": "2023-11-13T23:49:01.908Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 49,
@@ -660,7 +728,8 @@
         ],
         "year": 1975,
         "created_at": "2023-11-13T23:49:02.033Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 50,
@@ -674,7 +743,8 @@
         ],
         "year": 1976,
         "created_at": "2023-11-13T23:49:02.164Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 51,
@@ -686,7 +756,8 @@
         "notes": [],
         "year": 1976,
         "created_at": "2023-11-13T23:49:02.284Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 52,
@@ -698,7 +769,13 @@
         "notes": [],
         "year": 1976,
         "created_at": "2023-11-13T23:49:02.408Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "New Sharon College",
+            "url": "https://stephen-king-api.onrender.com/api/place/13"
+          }
+        ]
       },
       {
         "id": 53,
@@ -727,6 +804,16 @@
             "name": "The Children",
             "url": "https://stephen-king-api.onrender.com/api/villain/166"
           }
+        ],
+        "places": [
+          {
+            "name": "Gatlin, Nebraska",
+            "url": "https://stephen-king-api.onrender.com/api/place/69"
+          },
+          {
+            "name": "Hemingford Home, Nebraska",
+            "url": "https://stephen-king-api.onrender.com/api/place/139"
+          }
         ]
       },
       {
@@ -739,7 +826,13 @@
         "notes": [],
         "year": 1977,
         "created_at": "2023-11-13T23:49:02.645Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Jerusalem's Lot, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/76"
+          }
+        ]
       },
       {
         "id": 55,
@@ -760,7 +853,8 @@
             "name": "Sam (cat)",
             "url": "https://stephen-king-api.onrender.com/api/villain/92"
           }
-        ]
+        ],
+        "places": []
       },
       {
         "id": 56,
@@ -772,7 +866,8 @@
         "notes": [],
         "year": 1977,
         "created_at": "2023-11-13T23:49:02.876Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 57,
@@ -784,7 +879,8 @@
         "notes": [],
         "year": 1977,
         "created_at": "2023-11-13T23:49:03.137Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 58,
@@ -801,6 +897,16 @@
             "name": "James Boon",
             "url": "https://stephen-king-api.onrender.com/api/villain/6"
           }
+        ],
+        "places": [
+          {
+            "name": "Jerusalem's Lot, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/76"
+          },
+          {
+            "name": "Preacher's Corners, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/99"
+          }
         ]
       },
       {
@@ -813,7 +919,13 @@
         "notes": [],
         "year": 1978,
         "created_at": "2023-11-13T23:49:03.401Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Hemingford Home, Nebraska",
+            "url": "https://stephen-king-api.onrender.com/api/place/139"
+          }
+        ]
       },
       {
         "id": 60,
@@ -825,7 +937,8 @@
         "notes": [],
         "year": 1978,
         "created_at": "2023-11-13T23:49:03.529Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 61,
@@ -837,7 +950,8 @@
         "notes": [],
         "year": 1978,
         "created_at": "2023-11-13T23:49:03.651Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 62,
@@ -849,7 +963,8 @@
         "notes": [],
         "year": 1978,
         "created_at": "2023-11-13T23:49:03.773Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 63,
@@ -861,7 +976,8 @@
         "notes": [],
         "year": 1978,
         "created_at": "2023-11-13T23:49:03.889Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 64,
@@ -881,6 +997,12 @@
             "name": "Sylvia Pittston",
             "url": "https://stephen-king-api.onrender.com/api/villain/84"
           }
+        ],
+        "places": [
+          {
+            "name": "Tull",
+            "url": "https://stephen-king-api.onrender.com/api/place/116"
+          }
         ]
       },
       {
@@ -893,7 +1015,8 @@
         "notes": [],
         "year": 1978,
         "created_at": "2023-11-13T23:49:04.130Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 66,
@@ -907,7 +1030,13 @@
         ],
         "year": 1979,
         "created_at": "2023-11-13T23:49:04.251Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Horlicks University",
+            "url": "https://stephen-king-api.onrender.com/api/place/12"
+          }
+        ]
       },
       {
         "id": 67,
@@ -931,6 +1060,16 @@
             "name": "The Mist (phenomenon)",
             "url": "https://stephen-king-api.onrender.com/api/villain/168"
           }
+        ],
+        "places": [
+          {
+            "name": "Todash Space",
+            "url": "https://stephen-king-api.onrender.com/api/place/6"
+          },
+          {
+            "name": "Bridgton, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/52"
+          }
         ]
       },
       {
@@ -945,7 +1084,17 @@
         ],
         "year": 1980,
         "created_at": "2023-11-13T23:49:04.505Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Todash Space",
+            "url": "https://stephen-king-api.onrender.com/api/place/6"
+          },
+          {
+            "name": "Crouch End",
+            "url": "https://stephen-king-api.onrender.com/api/place/59"
+          }
+        ]
       },
       {
         "id": 69,
@@ -961,7 +1110,13 @@
         ],
         "year": 1980,
         "created_at": "2023-11-13T23:49:04.673Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "The Way Station",
+            "url": "https://stephen-king-api.onrender.com/api/place/180"
+          }
+        ]
       },
       {
         "id": 70,
@@ -973,7 +1128,8 @@
         "notes": [],
         "year": 1980,
         "created_at": "2023-11-13T23:49:04.800Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 71,
@@ -993,6 +1149,12 @@
             "name": "Monkey",
             "url": "https://stephen-king-api.onrender.com/api/villain/152"
           }
+        ],
+        "places": [
+          {
+            "name": "Arnette, Texas",
+            "url": "https://stephen-king-api.onrender.com/api/place/45"
+          }
         ]
       },
       {
@@ -1005,7 +1167,8 @@
         "notes": [],
         "year": 1980,
         "created_at": "2023-11-13T23:49:05.066Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 73,
@@ -1019,7 +1182,8 @@
         ],
         "year": 1981,
         "created_at": "2023-11-13T23:49:05.187Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 74,
@@ -1031,7 +1195,8 @@
         "notes": [],
         "year": 1981,
         "created_at": "2023-11-13T23:49:05.359Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 75,
@@ -1045,7 +1210,8 @@
         ],
         "year": 1981,
         "created_at": "2023-11-13T23:49:05.477Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 76,
@@ -1057,7 +1223,13 @@
         "notes": [],
         "year": 1981,
         "created_at": "2023-11-13T23:49:05.666Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "The Club",
+            "url": "https://stephen-king-api.onrender.com/api/place/176"
+          }
+        ]
       },
       {
         "id": 77,
@@ -1071,7 +1243,8 @@
         ],
         "year": 1981,
         "created_at": "2023-11-13T23:49:05.875Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 78,
@@ -1089,6 +1262,12 @@
           {
             "name": "It (Creature)",
             "url": "https://stephen-king-api.onrender.com/api/villain/57"
+          }
+        ],
+        "places": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
           }
         ]
       },
@@ -1109,7 +1288,8 @@
             "name": "Marten Broadcloak",
             "url": "https://stephen-king-api.onrender.com/api/villain/10"
           }
-        ]
+        ],
+        "places": []
       },
       {
         "id": 80,
@@ -1123,7 +1303,8 @@
         ],
         "year": 1981,
         "created_at": "2023-11-13T23:49:06.292Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 81,
@@ -1135,7 +1316,8 @@
         "notes": [],
         "year": 1982,
         "created_at": "2023-11-13T23:49:06.409Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 82,
@@ -1149,7 +1331,8 @@
         ],
         "year": 1982,
         "created_at": "2023-11-13T23:49:06.526Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 83,
@@ -1171,6 +1354,20 @@
           {
             "name": "Todd Bowden",
             "url": "https://stephen-king-api.onrender.com/api/villain/169"
+          }
+        ],
+        "places": [
+          {
+            "name": "Patin",
+            "url": "https://stephen-king-api.onrender.com/api/place/10"
+          },
+          {
+            "name": "Santo Donato",
+            "url": "https://stephen-king-api.onrender.com/api/place/103"
+          },
+          {
+            "name": "Shawshank State Prison",
+            "url": "https://stephen-king-api.onrender.com/api/place/134"
           }
         ]
       },
@@ -1213,6 +1410,20 @@
             "name": "Vince Desjardins",
             "url": "https://stephen-king-api.onrender.com/api/villain/173"
           }
+        ],
+        "places": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          },
+          {
+            "name": "Castle View, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/56"
+          }
         ]
       },
       {
@@ -1229,7 +1440,13 @@
         ],
         "year": 1982,
         "created_at": "2023-11-13T23:49:06.881Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "The Club",
+            "url": "https://stephen-king-api.onrender.com/api/place/176"
+          }
+        ]
       },
       {
         "id": 86,
@@ -1258,6 +1475,12 @@
             "name": "Tim Youngblood",
             "url": "https://stephen-king-api.onrender.com/api/villain/115"
           }
+        ],
+        "places": [
+          {
+            "name": "Shawshank State Prison",
+            "url": "https://stephen-king-api.onrender.com/api/place/134"
+          }
         ]
       },
       {
@@ -1272,7 +1495,8 @@
         ],
         "year": 1982,
         "created_at": "2023-11-13T23:49:07.113Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 88,
@@ -1286,7 +1510,8 @@
         ],
         "year": 1982,
         "created_at": "2023-11-13T23:49:07.224Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 89,
@@ -1301,7 +1526,8 @@
         ],
         "year": 1983,
         "created_at": "2023-11-13T23:49:07.336Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 90,
@@ -1313,7 +1539,13 @@
         "notes": [],
         "year": 1983,
         "created_at": "2023-11-13T23:49:07.450Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ]
       },
       {
         "id": 91,
@@ -1330,6 +1562,16 @@
             "name": "Lester Lowe",
             "url": "https://stephen-king-api.onrender.com/api/villain/68"
           }
+        ],
+        "places": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Tarker's Mill, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/109"
+          }
         ]
       },
       {
@@ -1344,7 +1586,8 @@
         ],
         "year": 1983,
         "created_at": "2023-11-13T23:49:07.714Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 93,
@@ -1356,7 +1599,17 @@
         "notes": [],
         "year": 1984,
         "created_at": "2023-11-13T23:49:07.827Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          },
+          {
+            "name": "Castle View, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/56"
+          }
+        ]
       },
       {
         "id": 94,
@@ -1368,7 +1621,17 @@
         "notes": [],
         "year": 1984,
         "created_at": "2023-11-13T23:49:07.949Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          },
+          {
+            "name": "Haven, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/74"
+          }
+        ]
       },
       {
         "id": 95,
@@ -1383,7 +1646,8 @@
         ],
         "year": 1984,
         "created_at": "2023-11-13T23:49:08.062Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 96,
@@ -1398,7 +1662,13 @@
         ],
         "year": 1984,
         "created_at": "2023-11-13T23:49:08.176Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Haven, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/74"
+          }
+        ]
       },
       {
         "id": 97,
@@ -1410,7 +1680,8 @@
         "notes": [],
         "year": 1984,
         "created_at": "2023-11-13T23:49:08.291Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 98,
@@ -1422,7 +1693,13 @@
         "notes": [],
         "year": 1985,
         "created_at": "2023-11-13T23:49:08.405Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Las Vegas, Nevada",
+            "url": "https://stephen-king-api.onrender.com/api/place/80"
+          }
+        ]
       },
       {
         "id": 99,
@@ -1434,7 +1711,8 @@
         "notes": [],
         "year": 1985,
         "created_at": "2023-11-13T23:49:08.524Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 100,
@@ -1446,7 +1724,8 @@
         "notes": [],
         "year": 1985,
         "created_at": "2023-11-13T23:49:08.643Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 101,
@@ -1458,7 +1737,8 @@
         "notes": [],
         "year": 1985,
         "created_at": "2023-11-13T23:49:08.760Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 102,
@@ -1470,7 +1750,8 @@
         "notes": [],
         "year": 1986,
         "created_at": "2023-11-13T23:49:08.884Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 103,
@@ -1484,7 +1765,8 @@
         ],
         "year": 1986,
         "created_at": "2023-11-13T23:49:09.002Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 104,
@@ -1496,7 +1778,8 @@
         "notes": [],
         "year": 1987,
         "created_at": "2023-11-13T23:49:09.124Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 105,
@@ -1508,7 +1791,8 @@
         "notes": [],
         "year": 1987,
         "created_at": "2023-11-13T23:49:09.240Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 106,
@@ -1522,7 +1806,13 @@
         ],
         "year": 1988,
         "created_at": "2023-11-13T23:49:09.354Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ]
       },
       {
         "id": 107,
@@ -1534,7 +1824,8 @@
         "notes": [],
         "year": 1988,
         "created_at": "2023-11-13T23:49:09.469Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 108,
@@ -1546,7 +1837,8 @@
         "notes": [],
         "year": 1988,
         "created_at": "2023-11-13T23:49:09.585Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 109,
@@ -1558,7 +1850,8 @@
         "notes": [],
         "year": 1988,
         "created_at": "2023-11-13T23:49:09.699Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 110,
@@ -1570,7 +1863,8 @@
         "notes": [],
         "year": 1989,
         "created_at": "2023-11-13T23:49:09.819Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 111,
@@ -1582,7 +1876,13 @@
         "notes": [],
         "year": 1989,
         "created_at": "2023-11-13T23:49:09.928Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Little Tall Island",
+            "url": "https://stephen-king-api.onrender.com/api/place/83"
+          }
+        ]
       },
       {
         "id": 112,
@@ -1596,7 +1896,8 @@
         ],
         "year": 1989,
         "created_at": "2023-11-13T23:49:10.052Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 113,
@@ -1608,7 +1909,8 @@
         "notes": [],
         "year": 1990,
         "created_at": "2023-11-13T23:49:10.164Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 114,
@@ -1631,7 +1933,8 @@
             "name": "Langoliers",
             "url": "https://stephen-king-api.onrender.com/api/villain/147"
           }
-        ]
+        ],
+        "places": []
       },
       {
         "id": 115,
@@ -1647,6 +1950,12 @@
           {
             "name": "Ardelia Lortz",
             "url": "https://stephen-king-api.onrender.com/api/villain/119"
+          }
+        ],
+        "places": [
+          {
+            "name": "Junction City, Iowa",
+            "url": "https://stephen-king-api.onrender.com/api/place/77"
           }
         ]
       },
@@ -1665,6 +1974,20 @@
             "name": "John Shooter",
             "url": "https://stephen-king-api.onrender.com/api/villain/144"
           }
+        ],
+        "places": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          },
+          {
+            "name": "Tashmore, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/110"
+          },
+          {
+            "name": "Tashmore Lake",
+            "url": "https://stephen-king-api.onrender.com/api/place/153"
+          }
         ]
       },
       {
@@ -1677,7 +2000,13 @@
         "notes": [],
         "year": 1990,
         "created_at": "2023-11-13T23:49:10.643Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ]
       },
       {
         "id": 118,
@@ -1691,7 +2020,8 @@
         ],
         "year": 1990,
         "created_at": "2023-11-13T23:49:10.760Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 119,
@@ -1703,7 +2033,8 @@
         "notes": [],
         "year": 1990,
         "created_at": "2023-11-13T23:49:10.873Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 120,
@@ -1717,7 +2048,8 @@
         ],
         "year": 1992,
         "created_at": "2023-11-13T23:49:10.987Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 121,
@@ -1729,7 +2061,8 @@
         "notes": [],
         "year": 1992,
         "created_at": "2023-11-13T23:49:11.108Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 122,
@@ -1741,7 +2074,8 @@
         "notes": [],
         "year": 1993,
         "created_at": "2023-11-13T23:49:11.227Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 123,
@@ -1753,7 +2087,8 @@
         "notes": [],
         "year": 1993,
         "created_at": "2023-11-13T23:49:11.348Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 124,
@@ -1767,7 +2102,8 @@
         ],
         "year": 1993,
         "created_at": "2023-11-13T23:49:11.470Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 125,
@@ -1781,7 +2117,8 @@
         ],
         "year": 1993,
         "created_at": "2023-11-13T23:49:11.582Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 126,
@@ -1793,7 +2130,8 @@
         "notes": [],
         "year": 1993,
         "created_at": "2023-11-13T23:49:11.688Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 127,
@@ -1807,7 +2145,8 @@
         ],
         "year": 1993,
         "created_at": "2023-11-13T23:49:11.809Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 128,
@@ -1821,7 +2160,8 @@
         ],
         "year": 1994,
         "created_at": "2023-11-13T23:49:11.924Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 129,
@@ -1835,7 +2175,8 @@
         ],
         "year": 1994,
         "created_at": "2023-11-13T23:49:12.033Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 130,
@@ -1849,7 +2190,21 @@
         ],
         "year": 1994,
         "created_at": "2023-11-13T23:49:12.144Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          },
+          {
+            "name": "Kashwakamak, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/78"
+          },
+          {
+            "name": "Motton, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/89"
+          }
+        ]
       },
       {
         "id": 131,
@@ -1861,7 +2216,8 @@
         "notes": [],
         "year": 1994,
         "created_at": "2023-11-13T23:49:12.269Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 132,
@@ -1873,7 +2229,8 @@
         "notes": [],
         "year": 1995,
         "created_at": "2023-11-13T23:49:12.384Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 133,
@@ -1888,7 +2245,8 @@
         ],
         "year": 1995,
         "created_at": "2023-11-13T23:49:12.506Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 134,
@@ -1902,7 +2260,13 @@
         ],
         "year": 1997,
         "created_at": "2023-11-13T23:49:12.619Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ]
       },
       {
         "id": 135,
@@ -1914,7 +2278,8 @@
         "notes": [],
         "year": 1997,
         "created_at": "2023-11-13T23:49:12.743Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 136,
@@ -1928,7 +2293,8 @@
         ],
         "year": 1997,
         "created_at": "2023-11-13T23:49:12.860Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 137,
@@ -1943,7 +2309,21 @@
         ],
         "year": 1997,
         "created_at": "2023-11-13T23:49:12.981Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Supr Savr",
+            "url": "https://stephen-king-api.onrender.com/api/place/14"
+          },
+          {
+            "name": "Trans Corporation",
+            "url": "https://stephen-king-api.onrender.com/api/place/15"
+          },
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          }
+        ]
       },
       {
         "id": 138,
@@ -1955,7 +2335,8 @@
         "notes": [],
         "year": 1998,
         "created_at": "2023-11-13T23:49:13.113Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 139,
@@ -1972,6 +2353,20 @@
             "name": "Little Sisters",
             "url": "https://stephen-king-api.onrender.com/api/villain/67"
           }
+        ],
+        "places": [
+          {
+            "name": "All-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/1"
+          },
+          {
+            "name": "Eluria",
+            "url": "https://stephen-king-api.onrender.com/api/place/64"
+          },
+          {
+            "name": "Desatoya Mountains",
+            "url": "https://stephen-king-api.onrender.com/api/place/124"
+          }
         ]
       },
       {
@@ -1986,7 +2381,8 @@
         ],
         "year": 1999,
         "created_at": "2023-11-13T23:49:13.341Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 141,
@@ -1998,7 +2394,13 @@
         "notes": [],
         "year": 1999,
         "created_at": "2023-11-13T23:49:13.464Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ]
       },
       {
         "id": 142,
@@ -2010,7 +2412,17 @@
         "notes": [],
         "year": 1999,
         "created_at": "2023-11-13T23:49:13.588Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ]
       },
       {
         "id": 143,
@@ -2022,7 +2434,8 @@
         "notes": [],
         "year": 1999,
         "created_at": "2023-11-13T23:49:13.718Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 144,
@@ -2036,7 +2449,13 @@
         ],
         "year": 1999,
         "created_at": "2023-11-13T23:49:13.849Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Harwich, Connecticut",
+            "url": "https://stephen-king-api.onrender.com/api/place/72"
+          }
+        ]
       },
       {
         "id": 145,
@@ -2048,7 +2467,8 @@
         "notes": [],
         "year": 1999,
         "created_at": "2023-11-13T23:49:13.969Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 146,
@@ -2062,7 +2482,13 @@
         ],
         "year": 1999,
         "created_at": "2023-11-13T23:49:14.111Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Hotel Dolphin",
+            "url": "https://stephen-king-api.onrender.com/api/place/168"
+          }
+        ]
       },
       {
         "id": 147,
@@ -2076,7 +2502,8 @@
         ],
         "year": 1999,
         "created_at": "2023-11-13T23:49:14.230Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 148,
@@ -2090,7 +2517,8 @@
         ],
         "year": 2000,
         "created_at": "2023-11-13T23:49:14.350Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 149,
@@ -2104,7 +2532,8 @@
         ],
         "year": 2000,
         "created_at": "2023-11-13T23:49:14.472Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 150,
@@ -2116,7 +2545,8 @@
         "notes": [],
         "year": 2001,
         "created_at": "2023-11-13T23:49:14.601Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 151,
@@ -2130,7 +2560,13 @@
         ],
         "year": 2001,
         "created_at": "2023-11-13T23:49:14.743Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Calla Bryn Sturgis",
+            "url": "https://stephen-king-api.onrender.com/api/place/53"
+          }
+        ]
       },
       {
         "id": 152,
@@ -2142,7 +2578,8 @@
         "notes": [],
         "year": 2001,
         "created_at": "2023-11-13T23:49:14.889Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 153,
@@ -2156,7 +2593,8 @@
         ],
         "year": 2003,
         "created_at": "2023-11-13T23:49:15.033Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 154,
@@ -2170,7 +2608,8 @@
         ],
         "year": 2003,
         "created_at": "2023-11-13T23:49:15.159Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 155,
@@ -2182,7 +2621,8 @@
         "notes": [],
         "year": 2003,
         "created_at": "2023-11-13T23:49:15.280Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 156,
@@ -2199,7 +2639,8 @@
             "name": "Lee",
             "url": "https://stephen-king-api.onrender.com/api/villain/148"
           }
-        ]
+        ],
+        "places": []
       },
       {
         "id": 157,
@@ -2213,7 +2654,8 @@
         ],
         "year": 2004,
         "created_at": "2023-11-13T23:49:15.552Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 158,
@@ -2227,7 +2669,8 @@
         ],
         "year": 2005,
         "created_at": "2023-11-13T23:49:15.688Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 159,
@@ -2241,7 +2684,8 @@
         ],
         "year": 2005,
         "created_at": "2023-11-13T23:49:15.857Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 160,
@@ -2255,7 +2699,8 @@
         ],
         "year": 2006,
         "created_at": "2023-11-13T23:49:15.972Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 161,
@@ -2267,7 +2712,8 @@
         "notes": [],
         "year": 2006,
         "created_at": "2023-11-13T23:49:16.097Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 162,
@@ -2281,7 +2727,8 @@
         ],
         "year": 2007,
         "created_at": "2023-11-13T23:49:16.253Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 163,
@@ -2298,7 +2745,8 @@
             "name": "Jim Pickering",
             "url": "https://stephen-king-api.onrender.com/api/villain/141"
           }
-        ]
+        ],
+        "places": []
       },
       {
         "id": 164,
@@ -2310,7 +2758,8 @@
         "notes": [],
         "year": 2007,
         "created_at": "2023-11-13T23:49:16.500Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 165,
@@ -2322,7 +2771,13 @@
         "notes": [],
         "year": 2007,
         "created_at": "2023-11-13T23:49:16.620Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ]
       },
       {
         "id": 166,
@@ -2334,7 +2789,8 @@
         "notes": [],
         "year": 2008,
         "created_at": "2023-11-13T23:49:16.739Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 167,
@@ -2346,7 +2802,8 @@
         "notes": [],
         "year": 2008,
         "created_at": "2023-11-13T23:49:16.857Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 168,
@@ -2365,6 +2822,28 @@
             "name": "Cthun",
             "url": "https://stephen-king-api.onrender.com/api/villain/131"
           }
+        ],
+        "places": [
+          {
+            "name": "Todash Space",
+            "url": "https://stephen-king-api.onrender.com/api/place/6"
+          },
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Chester's Mill, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/58"
+          },
+          {
+            "name": "Motton, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/89"
+          },
+          {
+            "name": "Ackerman's Field",
+            "url": "https://stephen-king-api.onrender.com/api/place/120"
+          }
         ]
       },
       {
@@ -2379,7 +2858,8 @@
         ],
         "year": 2009,
         "created_at": "2023-11-13T23:49:17.087Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 170,
@@ -2394,7 +2874,8 @@
         ],
         "year": 2009,
         "created_at": "2023-11-13T23:49:17.203Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 171,
@@ -2409,7 +2890,8 @@
         ],
         "year": 2009,
         "created_at": "2023-11-13T23:49:17.317Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 172,
@@ -2421,7 +2903,8 @@
         "notes": [],
         "year": 2009,
         "created_at": "2023-11-13T23:49:17.430Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 173,
@@ -2433,7 +2916,8 @@
         "notes": [],
         "year": 2009,
         "created_at": "2023-11-13T23:49:17.542Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 174,
@@ -2445,7 +2929,13 @@
         "notes": [],
         "year": 2009,
         "created_at": "2023-11-13T23:49:17.688Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ]
       },
       {
         "id": 175,
@@ -2457,7 +2947,8 @@
         "notes": [],
         "year": 2010,
         "created_at": "2023-11-13T23:49:17.810Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 176,
@@ -2469,7 +2960,17 @@
         "notes": [],
         "year": 2010,
         "created_at": "2023-11-13T23:49:17.926Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Ed Smith Stadium",
+            "url": "https://stephen-king-api.onrender.com/api/place/166"
+          },
+          {
+            "name": "Ottershaw Christian Home for Boys",
+            "url": "https://stephen-king-api.onrender.com/api/place/171"
+          }
+        ]
       },
       {
         "id": 177,
@@ -2492,6 +2993,16 @@
             "name": "Wilfred James",
             "url": "https://stephen-king-api.onrender.com/api/villain/59"
           }
+        ],
+        "places": [
+          {
+            "name": "Hemingford County, Nebraska",
+            "url": "https://stephen-king-api.onrender.com/api/place/41"
+          },
+          {
+            "name": "Hemingford Home, Nebraska",
+            "url": "https://stephen-king-api.onrender.com/api/place/139"
+          }
         ]
       },
       {
@@ -2504,7 +3015,8 @@
         "notes": [],
         "year": 2010,
         "created_at": "2023-11-13T23:49:18.283Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 179,
@@ -2516,7 +3028,13 @@
         "notes": [],
         "year": 2010,
         "created_at": "2023-11-13T23:49:18.398Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ]
       },
       {
         "id": 180,
@@ -2533,6 +3051,16 @@
             "name": "Bob Anderson",
             "url": "https://stephen-king-api.onrender.com/api/villain/1"
           }
+        ],
+        "places": [
+          {
+            "name": "Castle View, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/56"
+          },
+          {
+            "name": "Dead Man's Trail",
+            "url": "https://stephen-king-api.onrender.com/api/place/142"
+          }
         ]
       },
       {
@@ -2547,7 +3075,8 @@
         ],
         "year": 2011,
         "created_at": "2023-11-13T23:49:18.630Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 182,
@@ -2559,7 +3088,8 @@
         "notes": [],
         "year": 2011,
         "created_at": "2023-11-13T23:49:18.744Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 183,
@@ -2573,7 +3103,8 @@
         ],
         "year": 2011,
         "created_at": "2023-11-13T23:49:18.862Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 184,
@@ -2588,7 +3119,8 @@
         ],
         "year": 2011,
         "created_at": "2023-11-13T23:49:18.978Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 185,
@@ -2600,7 +3132,8 @@
         "notes": [],
         "year": 2011,
         "created_at": "2023-11-13T23:49:19.102Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 186,
@@ -2619,7 +3152,8 @@
             "name": "Ross Humboldt",
             "url": "https://stephen-king-api.onrender.com/api/villain/56"
           }
-        ]
+        ],
+        "places": []
       },
       {
         "id": 187,
@@ -2634,7 +3168,8 @@
         ],
         "year": 2012,
         "created_at": "2023-11-13T23:49:19.329Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 188,
@@ -2646,7 +3181,8 @@
         "notes": [],
         "year": 2012,
         "created_at": "2023-11-13T23:49:19.448Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 189,
@@ -2658,7 +3194,8 @@
         "notes": [],
         "year": 2013,
         "created_at": "2023-11-13T23:49:19.570Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 190,
@@ -2672,7 +3209,8 @@
         ],
         "year": 2013,
         "created_at": "2023-11-13T23:49:19.692Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 191,
@@ -2684,7 +3222,8 @@
         "notes": [],
         "year": 2013,
         "created_at": "2023-11-13T23:49:19.805Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 192,
@@ -2698,7 +3237,8 @@
         ],
         "year": 2014,
         "created_at": "2023-11-13T23:49:19.926Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 193,
@@ -2710,7 +3250,8 @@
         "notes": [],
         "year": 2014,
         "created_at": "2023-11-13T23:49:20.046Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 194,
@@ -2722,7 +3263,8 @@
         "notes": [],
         "year": 2015,
         "created_at": "2023-11-13T23:49:20.166Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 195,
@@ -2736,7 +3278,8 @@
         ],
         "year": 2015,
         "created_at": "2023-11-13T23:49:20.279Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 196,
@@ -2748,7 +3291,8 @@
         "notes": [],
         "year": 2015,
         "created_at": "2023-11-13T23:49:20.398Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 197,
@@ -2762,7 +3306,8 @@
         ],
         "year": 2015,
         "created_at": "2023-11-13T23:49:20.519Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 198,
@@ -2776,7 +3321,8 @@
         ],
         "year": 2016,
         "created_at": "2023-11-13T23:49:20.635Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 199,
@@ -2790,7 +3336,8 @@
         ],
         "year": 2016,
         "created_at": "2023-11-13T23:49:20.745Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 200,
@@ -2809,6 +3356,36 @@
             "name": "Frankie Stone",
             "url": "https://stephen-king-api.onrender.com/api/villain/135"
           }
+        ],
+        "places": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          },
+          {
+            "name": "Castle View, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/56"
+          },
+          {
+            "name": "Castle Lake",
+            "url": "https://stephen-king-api.onrender.com/api/place/121"
+          },
+          {
+            "name": "Dark Score Lake",
+            "url": "https://stephen-king-api.onrender.com/api/place/123"
+          },
+          {
+            "name": "Castle Rock High School",
+            "url": "https://stephen-king-api.onrender.com/api/place/158"
+          },
+          {
+            "name": "Castle Rock Middle School",
+            "url": "https://stephen-king-api.onrender.com/api/place/159"
+          }
         ]
       },
       {
@@ -2821,7 +3398,8 @@
         "notes": [],
         "year": 2017,
         "created_at": "2023-11-13T23:49:20.979Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 202,
@@ -2836,7 +3414,13 @@
         ],
         "year": 2018,
         "created_at": "2023-11-13T23:49:21.100Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Rattlesnake Key",
+            "url": "https://stephen-king-api.onrender.com/api/place/126"
+          }
+        ]
       },
       {
         "id": 203,
@@ -2848,7 +3432,17 @@
         "notes": [],
         "year": 2018,
         "created_at": "2023-11-13T23:49:21.223Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          },
+          {
+            "name": "Castle View, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/56"
+          }
+        ]
       },
       {
         "id": 204,
@@ -2860,7 +3454,8 @@
         "notes": [],
         "year": 2018,
         "created_at": "2023-11-13T23:49:21.341Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 205,
@@ -2874,7 +3469,8 @@
         ],
         "year": 2019,
         "created_at": "2023-11-13T23:49:21.458Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 206,
@@ -2886,7 +3482,8 @@
         "notes": [],
         "year": 2020,
         "created_at": "2023-11-13T23:49:21.582Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 207,
@@ -2905,7 +3502,8 @@
             "name": "Chet Ondowsky",
             "url": "https://stephen-king-api.onrender.com/api/villain/127"
           }
-        ]
+        ],
+        "places": []
       },
       {
         "id": 208,
@@ -2917,7 +3515,8 @@
         "notes": [],
         "year": 2020,
         "created_at": "2023-11-13T23:49:21.816Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 209,
@@ -2929,7 +3528,8 @@
         "notes": [],
         "year": 2020,
         "created_at": "2023-11-13T23:49:21.928Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 210,
@@ -2941,7 +3541,13 @@
         "notes": [],
         "year": 2020,
         "created_at": "2023-11-13T23:49:22.042Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "TR-90, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/114"
+          }
+        ]
       },
       {
         "id": 211,
@@ -2953,7 +3559,8 @@
         "notes": [],
         "year": 2020,
         "created_at": "2023-11-13T23:49:22.160Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 212,
@@ -2967,7 +3574,8 @@
         ],
         "year": 2022,
         "created_at": "2023-11-13T23:49:22.279Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 213,
@@ -2981,7 +3589,8 @@
         ],
         "year": 2021,
         "created_at": "2026-10-28T18:48:53.000Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 214,
@@ -2995,7 +3604,8 @@
         ],
         "year": 2022,
         "created_at": "2026-10-28T18:48:53.000Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 215,
@@ -3007,7 +3617,17 @@
         "notes": [],
         "year": 2024,
         "created_at": "2026-10-28T18:48:53.000Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Castle View, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/56"
+          },
+          {
+            "name": "TR-90, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/114"
+          }
+        ]
       },
       {
         "id": 216,
@@ -3019,7 +3639,8 @@
         "notes": [],
         "year": 2024,
         "created_at": "2026-10-28T18:48:53.000Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 217,
@@ -3033,7 +3654,17 @@
         ],
         "year": 2024,
         "created_at": "2026-10-28T18:48:53.000Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Rattlesnake Key",
+            "url": "https://stephen-king-api.onrender.com/api/place/126"
+          },
+          {
+            "name": "Harmony Hill Cemetery",
+            "url": "https://stephen-king-api.onrender.com/api/place/145"
+          }
+        ]
       },
       {
         "id": 218,
@@ -3045,7 +3676,13 @@
         "notes": [],
         "year": 2024,
         "created_at": "2026-10-28T18:48:53.000Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Dark Score Lake",
+            "url": "https://stephen-king-api.onrender.com/api/place/123"
+          }
+        ]
       },
       {
         "id": 219,
@@ -3057,7 +3694,8 @@
         "notes": [],
         "year": 2024,
         "created_at": "2026-10-28T18:48:53.000Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 220,
@@ -3069,7 +3707,8 @@
         "notes": [],
         "year": 2025,
         "created_at": "2026-10-28T18:48:53.000Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 221,
@@ -3083,7 +3722,8 @@
         ],
         "year": 2025,
         "created_at": "2026-10-28T18:48:53.000Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 222,
@@ -3095,7 +3735,8 @@
         "notes": [],
         "year": 2026,
         "created_at": "2026-10-28T18:48:53.000Z",
-        "villains": []
+        "villains": [],
+        "places": []
       }
     ]
   }

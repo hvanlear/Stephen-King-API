@@ -119,8 +119,8 @@
   "pagination": {
     "page": 1,
     "limit": 5,
-    "total": 63,
-    "totalPages": 13
+    "total": 68,
+    "totalPages": 14
   }
 }</pre>
         </section>
@@ -214,14 +214,56 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
           "name": "Richard Straker",
           "url": "<%= url %>/api/villain/98"
         }
+      ],
+      "places": [
+        {
+          "name": "Todash Space",
+          "url": "<%= url %>/api/place/6"
+        },
+        {
+          "name": "Maine",
+          "url": "<%= url %>/api/place/28"
+        },
+        {
+          "name": "Jerusalem's Lot, Maine",
+          "url": "<%= url %>/api/place/76"
+        },
+        {
+          "name": "Portland, Maine",
+          "url": "<%= url %>/api/place/95"
+        },
+        {
+          "name": "Cumberland Consolidated High School",
+          "url": "<%= url %>/api/place/129"
+        },
+        {
+          "name": "Harmony Hill Cemetery",
+          "url": "<%= url %>/api/place/145"
+        },
+        {
+          "name": "Brock Street School",
+          "url": "<%= url %>/api/place/157"
+        },
+        {
+          "name": "Jerusalem's Lot Public Library",
+          "url": "<%= url %>/api/place/169"
+        },
+        {
+          "name": "Marsten House",
+          "url": "<%= url %>/api/place/170"
+        },
+        {
+          "name": "Stanley Street Elementary School",
+          "url": "<%= url %>/api/place/173"
+        }
       ]
     }
   ],
   "pagination": {
     "page": 2,
     "limit": 1,
-    "total": 63,
-    "totalPages": 63
+    "total": 68,
+    "totalPages": 68
   }
 }</pre>
           </div>
@@ -263,6 +305,32 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
       {
         "name": "Jack Torrance",
         "url": "<%= url %>/api/villain/106"
+      },
+      {
+        "name": "Roger the Dog Man",
+        "url": "<%= url %>/api/villain/162"
+      }
+    ],
+    "places": [
+      {
+        "name": "Boulder, Colorado",
+        "url": "<%= url %>/api/place/50"
+      },
+      {
+        "name": "Sidewinder, Colorado",
+        "url": "<%= url %>/api/place/106"
+      },
+      {
+        "name": "Stovington, Vermont",
+        "url": "<%= url %>/api/place/108"
+      },
+      {
+        "name": "Overlook Hotel",
+        "url": "<%= url %>/api/place/133"
+      },
+      {
+        "name": "Room 237",
+        "url": "<%= url %>/api/place/172"
       }
     ]
   }
@@ -300,14 +368,15 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
       ],
       "year": 1959,
       "created_at": "2023-11-13T23:48:55.954Z",
-      "villains": []
+      "villains": [],
+      "places": []
     }
   ],
   "pagination": {
     "page": 1,
     "limit": 1,
-    "total": 212,
-    "totalPages": 212
+    "total": 222,
+    "totalPages": 222
   }
 }</pre>
           </div>
@@ -341,8 +410,13 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
       {
         "name": "Craig Toomey",
         "url": "<%= url %>/api/villain/105"
+      },
+      {
+        "name": "Langoliers",
+        "url": "<%= url %>/api/villain/147"
       }
-    ]
+    ],
+    "places": []
   }
 }</pre>
           </div>
@@ -391,14 +465,24 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
           "title": "A Good Marriage",
           "url": "<%= url %>/api/short/180"
         }
+      ],
+      "residence": [
+        {
+          "name": "Pownal, Maine",
+          "url": "<%= url %>/api/place/96"
+        },
+        {
+          "name": "Yarmouth, Maine",
+          "url": "<%= url %>/api/place/119"
+        }
       ]
     }
   ],
   "pagination": {
     "page": 1,
     "limit": 1,
-    "total": 115,
-    "totalPages": 115
+    "total": 201,
+    "totalPages": 201
   }
 }</pre>
           </div>
@@ -436,7 +520,13 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
         "url": "<%= url %>/api/book/2"
       }
     ],
-    "shorts": []
+    "shorts": [],
+    "residence": [
+      {
+        "name": "Marsten House",
+        "url": "<%= url %>/api/place/170"
+      }
+    ]
   }
 }</pre>
           </div>
@@ -446,7 +536,7 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
         <section id="places" class="docs-section">
           <h2>Places</h2>
           <p>
-            Places run from buildings up to towns, states, countries and other worlds. Each place links to its <code>parent</code>, the place it's in, and lists the <code>places</code> inside it, so Marsten House leads to Jerusalem's Lot, then Maine, then the United States. A place also links to the <code>books</code> and <code>shorts</code> set there and the <code>villains</code> who live there, counting anyone living in a place inside it: Kurt Barlow lives in the Marsten House, so Jerusalem's Lot and Maine list him too.
+            Places run from buildings up to towns, states, countries and other worlds. Each place links to its <code>parent</code>, the place it's in, and lists the <code>places</code> inside it, so Marsten House leads to Jerusalem's Lot, then Maine, then the United States. A place also links to the <code>books</code> and <code>shorts</code> set there and the <code>villains</code> who live there, counting anyone living in a place inside it: Kurt Barlow lives in the Marsten House, so Jerusalem's Lot and Maine list him too. Books, shorts and villains link back: a book lists its <code>places</code>, and a villain lists its <code>residence</code>.
           </p>
 
           <!-- GET /api/places -->
@@ -705,6 +795,11 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
                 <td>Associated villains with name and URL</td>
               </tr>
               <tr>
+                <td><code>places</code></td>
+                <td>array</td>
+                <td>Places the story is set in, with name and URL, broadest first</td>
+              </tr>
+              <tr>
                 <td><code>created_at</code></td>
                 <td>datetime</td>
                 <td>Record creation timestamp</td>
@@ -768,6 +863,11 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
                 <td>Associated villains with name and URL</td>
               </tr>
               <tr>
+                <td><code>places</code></td>
+                <td>array</td>
+                <td>Places the story is set in, with name and URL, broadest first</td>
+              </tr>
+              <tr>
                 <td><code>created_at</code></td>
                 <td>datetime</td>
                 <td>Record creation timestamp</td>
@@ -824,6 +924,11 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
                 <td><code>shorts</code></td>
                 <td>array</td>
                 <td>Associated short stories with title and URL</td>
+              </tr>
+              <tr>
+                <td><code>residence</code></td>
+                <td>array</td>
+                <td>Where the villain lives, with name and URL</td>
               </tr>
               <tr>
                 <td><code>created_at</code></td>

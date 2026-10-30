@@ -86,6 +86,36 @@
             "name": "Tommy Erbter",
             "url": "https://stephen-king-api.onrender.com/api/villain/170"
           }
+        ],
+        "places": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Chamberlain, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/57"
+          },
+          {
+            "name": "Lewiston, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/81"
+          },
+          {
+            "name": "Motton, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/89"
+          },
+          {
+            "name": "Westover, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/118"
+          },
+          {
+            "name": "The Cavalier Bar",
+            "url": "https://stephen-king-api.onrender.com/api/place/175"
+          },
+          {
+            "name": "Thomas Ewen Consolidated High School",
+            "url": "https://stephen-king-api.onrender.com/api/place/181"
+          }
         ]
       },
       {
@@ -108,6 +138,48 @@
           {
             "name": "Richard Straker",
             "url": "https://stephen-king-api.onrender.com/api/villain/98"
+          }
+        ],
+        "places": [
+          {
+            "name": "Todash Space",
+            "url": "https://stephen-king-api.onrender.com/api/place/6"
+          },
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Jerusalem's Lot, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/76"
+          },
+          {
+            "name": "Portland, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/95"
+          },
+          {
+            "name": "Cumberland Consolidated High School",
+            "url": "https://stephen-king-api.onrender.com/api/place/129"
+          },
+          {
+            "name": "Harmony Hill Cemetery",
+            "url": "https://stephen-king-api.onrender.com/api/place/145"
+          },
+          {
+            "name": "Brock Street School",
+            "url": "https://stephen-king-api.onrender.com/api/place/157"
+          },
+          {
+            "name": "Jerusalem's Lot Public Library",
+            "url": "https://stephen-king-api.onrender.com/api/place/169"
+          },
+          {
+            "name": "Marsten House",
+            "url": "https://stephen-king-api.onrender.com/api/place/170"
+          },
+          {
+            "name": "Stanley Street Elementary School",
+            "url": "https://stephen-king-api.onrender.com/api/place/173"
           }
         ]
       },
@@ -140,6 +212,28 @@
             "name": "Roger the Dog Man",
             "url": "https://stephen-king-api.onrender.com/api/villain/162"
           }
+        ],
+        "places": [
+          {
+            "name": "Boulder, Colorado",
+            "url": "https://stephen-king-api.onrender.com/api/place/50"
+          },
+          {
+            "name": "Sidewinder, Colorado",
+            "url": "https://stephen-king-api.onrender.com/api/place/106"
+          },
+          {
+            "name": "Stovington, Vermont",
+            "url": "https://stephen-king-api.onrender.com/api/place/108"
+          },
+          {
+            "name": "Overlook Hotel",
+            "url": "https://stephen-king-api.onrender.com/api/place/133"
+          },
+          {
+            "name": "Room 237",
+            "url": "https://stephen-king-api.onrender.com/api/place/172"
+          }
         ]
       },
       {
@@ -158,6 +252,16 @@
           {
             "name": "Charlie Decker",
             "url": "https://stephen-king-api.onrender.com/api/villain/179"
+          }
+        ],
+        "places": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Placerville, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/93"
           }
         ]
       },
@@ -211,6 +315,56 @@
             "name": "Nadine Cross",
             "url": "https://stephen-king-api.onrender.com/api/villain/201"
           }
+        ],
+        "places": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Arnette, Texas",
+            "url": "https://stephen-king-api.onrender.com/api/place/45"
+          },
+          {
+            "name": "Boulder, Colorado",
+            "url": "https://stephen-king-api.onrender.com/api/place/50"
+          },
+          {
+            "name": "Braintree, Texas",
+            "url": "https://stephen-king-api.onrender.com/api/place/51"
+          },
+          {
+            "name": "Eustace, Oklahoma",
+            "url": "https://stephen-king-api.onrender.com/api/place/65"
+          },
+          {
+            "name": "Hammer Crossing, Kansas",
+            "url": "https://stephen-king-api.onrender.com/api/place/70"
+          },
+          {
+            "name": "Las Vegas, Nevada",
+            "url": "https://stephen-king-api.onrender.com/api/place/80"
+          },
+          {
+            "name": "Ogunquit, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/92"
+          },
+          {
+            "name": "Polliston, Kansas",
+            "url": "https://stephen-king-api.onrender.com/api/place/94"
+          },
+          {
+            "name": "Shoyo, Arkansas",
+            "url": "https://stephen-king-api.onrender.com/api/place/105"
+          },
+          {
+            "name": "Stovington, Vermont",
+            "url": "https://stephen-king-api.onrender.com/api/place/108"
+          },
+          {
+            "name": "Hemingford Home, Nebraska",
+            "url": "https://stephen-king-api.onrender.com/api/place/139"
+          }
         ]
       },
       {
@@ -229,6 +383,16 @@
           {
             "name": "The Major",
             "url": "https://stephen-king-api.onrender.com/api/villain/70"
+          }
+        ],
+        "places": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Freeport, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/67"
           }
         ]
       },
@@ -269,6 +433,28 @@
             "name": "The Devil's Dozen",
             "url": "https://stephen-king-api.onrender.com/api/villain/100"
           }
+        ],
+        "places": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          },
+          {
+            "name": "Ridgeway, New Hampshire",
+            "url": "https://stephen-king-api.onrender.com/api/place/101"
+          },
+          {
+            "name": "Stovington, Vermont",
+            "url": "https://stephen-king-api.onrender.com/api/place/108"
+          },
+          {
+            "name": "Trimbull, New Hampshire",
+            "url": "https://stephen-king-api.onrender.com/api/place/115"
+          }
         ]
       },
       {
@@ -297,6 +483,24 @@
             "name": "John Rainbird",
             "url": "https://stephen-king-api.onrender.com/api/villain/86"
           }
+        ],
+        "places": [
+          {
+            "name": "Harrison, Ohio",
+            "url": "https://stephen-king-api.onrender.com/api/place/71"
+          },
+          {
+            "name": "Hastings Glen",
+            "url": "https://stephen-king-api.onrender.com/api/place/73"
+          },
+          {
+            "name": "Harrison State College",
+            "url": "https://stephen-king-api.onrender.com/api/place/167"
+          },
+          {
+            "name": "The Slumberland Motel",
+            "url": "https://stephen-king-api.onrender.com/api/place/178"
+          }
         ]
       },
       {
@@ -311,7 +515,8 @@
           "Published under pseudonym Richard Bachman"
         ],
         "created_at": "2023-11-13T23:48:49.005Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 10,
@@ -330,6 +535,16 @@
           {
             "name": "Cujo",
             "url": "https://stephen-king-api.onrender.com/api/villain/19"
+          }
+        ],
+        "places": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
           }
         ]
       },
@@ -353,6 +568,16 @@
           {
             "name": "Damon Killian",
             "url": "https://stephen-king-api.onrender.com/api/villain/63"
+          }
+        ],
+        "places": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
           }
         ]
       },
@@ -382,6 +607,52 @@
           {
             "name": "Sylvia Pittston",
             "url": "https://stephen-king-api.onrender.com/api/villain/84"
+          }
+        ],
+        "places": [
+          {
+            "name": "All-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/1"
+          },
+          {
+            "name": "End-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/16"
+          },
+          {
+            "name": "In-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/17"
+          },
+          {
+            "name": "Mid-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/18"
+          },
+          {
+            "name": "Mohaine Desert",
+            "url": "https://stephen-king-api.onrender.com/api/place/43"
+          },
+          {
+            "name": "New Canaan",
+            "url": "https://stephen-king-api.onrender.com/api/place/44"
+          },
+          {
+            "name": "Princetown",
+            "url": "https://stephen-king-api.onrender.com/api/place/100"
+          },
+          {
+            "name": "Tull",
+            "url": "https://stephen-king-api.onrender.com/api/place/116"
+          },
+          {
+            "name": "Cyclopean Mountains",
+            "url": "https://stephen-king-api.onrender.com/api/place/122"
+          },
+          {
+            "name": "Gilead",
+            "url": "https://stephen-king-api.onrender.com/api/place/136"
+          },
+          {
+            "name": "The Way Station",
+            "url": "https://stephen-king-api.onrender.com/api/place/180"
           }
         ]
       },
@@ -414,7 +685,8 @@
             "name": "Moochie Welch",
             "url": "https://stephen-king-api.onrender.com/api/villain/153"
           }
-        ]
+        ],
+        "places": []
       },
       {
         "id": 14,
@@ -446,6 +718,20 @@
             "name": "Wendigo",
             "url": "https://stephen-king-api.onrender.com/api/villain/110"
           }
+        ],
+        "places": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          },
+          {
+            "name": "Ludlow, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/86"
+          }
         ]
       },
       {
@@ -464,6 +750,16 @@
           {
             "name": "Lester Lowe",
             "url": "https://stephen-king-api.onrender.com/api/villain/68"
+          }
+        ],
+        "places": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Tarker's Mill, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/109"
           }
         ]
       },
@@ -486,6 +782,16 @@
             "name": "Morgan Sloat",
             "url": "https://stephen-king-api.onrender.com/api/villain/154"
           }
+        ],
+        "places": [
+          {
+            "name": "All-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/1"
+          },
+          {
+            "name": "The Territories",
+            "url": "https://stephen-king-api.onrender.com/api/place/5"
+          }
         ]
       },
       {
@@ -504,6 +810,16 @@
           {
             "name": "Randall Flagg",
             "url": "https://stephen-king-api.onrender.com/api/villain/37"
+          }
+        ],
+        "places": [
+          {
+            "name": "All-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/1"
+          },
+          {
+            "name": "In-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/17"
           }
         ]
       },
@@ -524,7 +840,8 @@
             "name": "Taduz Lemke",
             "url": "https://stephen-king-api.onrender.com/api/villain/197"
           }
-        ]
+        ],
+        "places": []
       },
       {
         "id": 19,
@@ -621,6 +938,64 @@
             "name": "Marc Lamonica",
             "url": "https://stephen-king-api.onrender.com/api/villain/150"
           }
+        ],
+        "places": [
+          {
+            "name": "Macroverse",
+            "url": "https://stephen-king-api.onrender.com/api/place/3"
+          },
+          {
+            "name": "Todash Space",
+            "url": "https://stephen-king-api.onrender.com/api/place/6"
+          },
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          },
+          {
+            "name": "Shawshank State Prison",
+            "url": "https://stephen-king-api.onrender.com/api/place/134"
+          },
+          {
+            "name": "Hemingford Home, Nebraska",
+            "url": "https://stephen-king-api.onrender.com/api/place/139"
+          },
+          {
+            "name": "Pennywise's Lair",
+            "url": "https://stephen-king-api.onrender.com/api/place/150"
+          },
+          {
+            "name": "Tracker Brothers (baseball field)",
+            "url": "https://stephen-king-api.onrender.com/api/place/154"
+          },
+          {
+            "name": "Denbrough House",
+            "url": "https://stephen-king-api.onrender.com/api/place/161"
+          },
+          {
+            "name": "Derry High School",
+            "url": "https://stephen-king-api.onrender.com/api/place/163"
+          },
+          {
+            "name": "Derry Public Library",
+            "url": "https://stephen-king-api.onrender.com/api/place/164"
+          },
+          {
+            "name": "The Falcon",
+            "url": "https://stephen-king-api.onrender.com/api/place/177"
+          },
+          {
+            "name": "The Standpipe",
+            "url": "https://stephen-king-api.onrender.com/api/place/179"
+          },
+          {
+            "name": "Well House",
+            "url": "https://stephen-king-api.onrender.com/api/place/183"
+          }
         ]
       },
       {
@@ -639,6 +1014,24 @@
           {
             "name": "Jack Mort",
             "url": "https://stephen-king-api.onrender.com/api/villain/76"
+          }
+        ],
+        "places": [
+          {
+            "name": "All-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/1"
+          },
+          {
+            "name": "End-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/16"
+          },
+          {
+            "name": "In-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/17"
+          },
+          {
+            "name": "Mid-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/18"
           }
         ]
       },
@@ -659,6 +1052,16 @@
           {
             "name": "Annie Wilkes",
             "url": "https://stephen-king-api.onrender.com/api/villain/114"
+          }
+        ],
+        "places": [
+          {
+            "name": "Boulder, Colorado",
+            "url": "https://stephen-king-api.onrender.com/api/place/50"
+          },
+          {
+            "name": "Sidewinder, Colorado",
+            "url": "https://stephen-king-api.onrender.com/api/place/106"
           }
         ]
       },
@@ -683,6 +1086,32 @@
             "name": "Tommyknockers",
             "url": "https://stephen-king-api.onrender.com/api/villain/104"
           }
+        ],
+        "places": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Augusta, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/46"
+          },
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          },
+          {
+            "name": "Haven, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/74"
+          },
+          {
+            "name": "Augusta Veterinary Clinic",
+            "url": "https://stephen-king-api.onrender.com/api/place/155"
+          },
+          {
+            "name": "Big Lost Weekend Bar & Grille",
+            "url": "https://stephen-king-api.onrender.com/api/place/156"
+          }
         ]
       },
       {
@@ -701,6 +1130,20 @@
           {
             "name": "George Stark",
             "url": "https://stephen-king-api.onrender.com/api/villain/96"
+          }
+        ],
+        "places": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          },
+          {
+            "name": "Ludlow, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/86"
           }
         ]
       },
@@ -758,7 +1201,8 @@
             "name": "Nadine Cross",
             "url": "https://stephen-king-api.onrender.com/api/villain/201"
           }
-        ]
+        ],
+        "places": []
       },
       {
         "id": 25,
@@ -781,6 +1225,32 @@
           {
             "name": "Randall Flagg",
             "url": "https://stephen-king-api.onrender.com/api/villain/37"
+          }
+        ],
+        "places": [
+          {
+            "name": "All-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/1"
+          },
+          {
+            "name": "End-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/16"
+          },
+          {
+            "name": "In-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/17"
+          },
+          {
+            "name": "Mid-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/18"
+          },
+          {
+            "name": "Lud",
+            "url": "https://stephen-king-api.onrender.com/api/place/85"
+          },
+          {
+            "name": "River Crossing",
+            "url": "https://stephen-king-api.onrender.com/api/place/102"
           }
         ]
       },
@@ -805,6 +1275,20 @@
           {
             "name": "John \"Ace\" Merrill",
             "url": "https://stephen-king-api.onrender.com/api/villain/74"
+          }
+        ],
+        "places": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          },
+          {
+            "name": "Castle View, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/56"
           }
         ]
       },
@@ -831,6 +1315,20 @@
             "name": "Tom Mahout",
             "url": "https://stephen-king-api.onrender.com/api/villain/103"
           }
+        ],
+        "places": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          },
+          {
+            "name": "Kashwakamak, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/78"
+          }
         ]
       },
       {
@@ -849,6 +1347,20 @@
           {
             "name": "Joe St. George",
             "url": "https://stephen-king-api.onrender.com/api/villain/95"
+          }
+        ],
+        "places": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Little Tall Island",
+            "url": "https://stephen-king-api.onrender.com/api/place/83"
+          },
+          {
+            "name": "Shawshank State Prison",
+            "url": "https://stephen-king-api.onrender.com/api/place/134"
           }
         ]
       },
@@ -878,6 +1390,28 @@
             "name": "Atropos",
             "url": "https://stephen-king-api.onrender.com/api/villain/120"
           }
+        ],
+        "places": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          },
+          {
+            "name": "Derry Civic Center",
+            "url": "https://stephen-king-api.onrender.com/api/place/162"
+          },
+          {
+            "name": "Derry Public Library",
+            "url": "https://stephen-king-api.onrender.com/api/place/164"
+          },
+          {
+            "name": "WomanCare",
+            "url": "https://stephen-king-api.onrender.com/api/place/184"
+          }
         ]
       },
       {
@@ -905,6 +1439,16 @@
             "name": "Harley Bissington",
             "url": "https://stephen-king-api.onrender.com/api/villain/138"
           }
+        ],
+        "places": [
+          {
+            "name": "Ettinger's Pier",
+            "url": "https://stephen-king-api.onrender.com/api/place/9"
+          },
+          {
+            "name": "Daughters and Sisters",
+            "url": "https://stephen-king-api.onrender.com/api/place/11"
+          }
         ]
       },
       {
@@ -928,6 +1472,12 @@
           {
             "name": "William Wharton",
             "url": "https://stephen-king-api.onrender.com/api/villain/112"
+          }
+        ],
+        "places": [
+          {
+            "name": "Cold Mountain Penitentiary",
+            "url": "https://stephen-king-api.onrender.com/api/place/128"
           }
         ]
       },
@@ -953,6 +1503,20 @@
             "name": "Tak",
             "url": "https://stephen-king-api.onrender.com/api/villain/165"
           }
+        ],
+        "places": [
+          {
+            "name": "Desperation, Nevada",
+            "url": "https://stephen-king-api.onrender.com/api/place/63"
+          },
+          {
+            "name": "Junction City, Iowa",
+            "url": "https://stephen-king-api.onrender.com/api/place/77"
+          },
+          {
+            "name": "Desatoya Mountains",
+            "url": "https://stephen-king-api.onrender.com/api/place/124"
+          }
         ]
       },
       {
@@ -976,6 +1540,16 @@
           {
             "name": "Tak",
             "url": "https://stephen-king-api.onrender.com/api/villain/165"
+          }
+        ],
+        "places": [
+          {
+            "name": "Desperation, Nevada",
+            "url": "https://stephen-king-api.onrender.com/api/place/63"
+          },
+          {
+            "name": "Junction City, Iowa",
+            "url": "https://stephen-king-api.onrender.com/api/place/77"
           }
         ]
       },
@@ -1025,6 +1599,40 @@
             "name": "Roy Depape",
             "url": "https://stephen-king-api.onrender.com/api/villain/163"
           }
+        ],
+        "places": [
+          {
+            "name": "All-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/1"
+          },
+          {
+            "name": "End-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/16"
+          },
+          {
+            "name": "In-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/17"
+          },
+          {
+            "name": "Mid-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/18"
+          },
+          {
+            "name": "Mejis",
+            "url": "https://stephen-king-api.onrender.com/api/place/42"
+          },
+          {
+            "name": "New Canaan",
+            "url": "https://stephen-king-api.onrender.com/api/place/44"
+          },
+          {
+            "name": "Gilead",
+            "url": "https://stephen-king-api.onrender.com/api/place/136"
+          },
+          {
+            "name": "Hambry, Mejis",
+            "url": "https://stephen-king-api.onrender.com/api/place/137"
+          }
         ]
       },
       {
@@ -1054,6 +1662,28 @@
             "name": "Sara Tidwell",
             "url": "https://stephen-king-api.onrender.com/api/villain/196"
           }
+        ],
+        "places": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          },
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          },
+          {
+            "name": "TR-90, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/114"
+          },
+          {
+            "name": "Dark Score Lake",
+            "url": "https://stephen-king-api.onrender.com/api/place/123"
+          }
         ]
       },
       {
@@ -1071,6 +1701,20 @@
             "name": "God of the Lost",
             "url": "https://stephen-king-api.onrender.com/api/villain/185"
           }
+        ],
+        "places": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Castle View, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/56"
+          },
+          {
+            "name": "TR-90, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/114"
+          }
         ]
       },
       {
@@ -1087,6 +1731,16 @@
           {
             "name": "Mr. Gray",
             "url": "https://stephen-king-api.onrender.com/api/villain/156"
+          }
+        ],
+        "places": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
           }
         ]
       },
@@ -1110,6 +1764,12 @@
             "name": "Crimson King",
             "url": "https://stephen-king-api.onrender.com/api/villain/17"
           }
+        ],
+        "places": [
+          {
+            "name": "The Territories",
+            "url": "https://stephen-king-api.onrender.com/api/place/5"
+          }
         ]
       },
       {
@@ -1129,7 +1789,8 @@
             "name": "Brian Lippy",
             "url": "https://stephen-king-api.onrender.com/api/villain/66"
           }
-        ]
+        ],
+        "places": []
       },
       {
         "id": 40,
@@ -1161,6 +1822,36 @@
             "name": "Wolves of Thunderclap",
             "url": "https://stephen-king-api.onrender.com/api/villain/200"
           }
+        ],
+        "places": [
+          {
+            "name": "All-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/1"
+          },
+          {
+            "name": "Todash Space",
+            "url": "https://stephen-king-api.onrender.com/api/place/6"
+          },
+          {
+            "name": "End-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/16"
+          },
+          {
+            "name": "In-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/17"
+          },
+          {
+            "name": "Mid-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/18"
+          },
+          {
+            "name": "Calla Bryn Sturgis",
+            "url": "https://stephen-king-api.onrender.com/api/place/53"
+          },
+          {
+            "name": "Dogan",
+            "url": "https://stephen-king-api.onrender.com/api/place/130"
+          }
         ]
       },
       {
@@ -1179,6 +1870,32 @@
           {
             "name": "Mordred Deschain",
             "url": "https://stephen-king-api.onrender.com/api/villain/27"
+          }
+        ],
+        "places": [
+          {
+            "name": "All-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/1"
+          },
+          {
+            "name": "Todash Space",
+            "url": "https://stephen-king-api.onrender.com/api/place/6"
+          },
+          {
+            "name": "End-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/16"
+          },
+          {
+            "name": "In-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/17"
+          },
+          {
+            "name": "Mid-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/18"
+          },
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
           }
         ]
       },
@@ -1212,6 +1929,40 @@
             "name": "Randall Flagg",
             "url": "https://stephen-king-api.onrender.com/api/villain/37"
           }
+        ],
+        "places": [
+          {
+            "name": "All-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/1"
+          },
+          {
+            "name": "Todash Space",
+            "url": "https://stephen-king-api.onrender.com/api/place/6"
+          },
+          {
+            "name": "End-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/16"
+          },
+          {
+            "name": "In-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/17"
+          },
+          {
+            "name": "Mid-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/18"
+          },
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          },
+          {
+            "name": "Fedic",
+            "url": "https://stephen-king-api.onrender.com/api/place/66"
+          },
+          {
+            "name": "Le Casse Roi Russe",
+            "url": "https://stephen-king-api.onrender.com/api/place/131"
+          }
         ]
       },
       {
@@ -1224,7 +1975,25 @@
         "Pages": 184,
         "Notes": [],
         "created_at": "2023-11-13T23:48:53.124Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Moose-Lookit Island",
+            "url": "https://stephen-king-api.onrender.com/api/place/88"
+          },
+          {
+            "name": "Tinnock Village, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/113"
+          },
+          {
+            "name": "Moose Cove",
+            "url": "https://stephen-king-api.onrender.com/api/place/149"
+          }
+        ]
       },
       {
         "id": 44,
@@ -1240,6 +2009,24 @@
           {
             "name": "The Raggedy Man",
             "url": "https://stephen-king-api.onrender.com/api/villain/85"
+          }
+        ],
+        "places": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Chamberlain, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/57"
+          },
+          {
+            "name": "Kashwakamak, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/78"
+          },
+          {
+            "name": "TR-90, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/114"
           }
         ]
       },
@@ -1266,6 +2053,28 @@
             "name": "Long Boy",
             "url": "https://stephen-king-api.onrender.com/api/villain/190"
           }
+        ],
+        "places": [
+          {
+            "name": "Boo'ya Moon",
+            "url": "https://stephen-king-api.onrender.com/api/place/2"
+          },
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          },
+          {
+            "name": "Castle View, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/56"
+          },
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
         ]
       },
       {
@@ -1280,7 +2089,13 @@
           "Published under pseudonym Richard Bachman"
         ],
         "created_at": "2023-11-13T23:48:53.504Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Shawshank State Prison",
+            "url": "https://stephen-king-api.onrender.com/api/place/134"
+          }
+        ]
       },
       {
         "id": 47,
@@ -1299,7 +2114,8 @@
             "name": "Perse",
             "url": "https://stephen-king-api.onrender.com/api/villain/193"
           }
-        ]
+        ],
+        "places": []
       },
       {
         "id": 48,
@@ -1327,6 +2143,56 @@
             "name": "Carter Thibodeau",
             "url": "https://stephen-king-api.onrender.com/api/villain/101"
           }
+        ],
+        "places": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Chester's Mill, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/58"
+          },
+          {
+            "name": "Motton, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/89"
+          },
+          {
+            "name": "Tarker's Mill, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/109"
+          },
+          {
+            "name": "TR-90, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/114"
+          },
+          {
+            "name": "Second Horizons",
+            "url": "https://stephen-king-api.onrender.com/api/place/127"
+          },
+          {
+            "name": "Mills High School",
+            "url": "https://stephen-king-api.onrender.com/api/place/132"
+          },
+          {
+            "name": "Black Ridge",
+            "url": "https://stephen-king-api.onrender.com/api/place/140"
+          },
+          {
+            "name": "Catherine Russell Hospital",
+            "url": "https://stephen-king-api.onrender.com/api/place/160"
+          },
+          {
+            "name": "Derry Civic Center",
+            "url": "https://stephen-king-api.onrender.com/api/place/162"
+          },
+          {
+            "name": "East Street Grammar School",
+            "url": "https://stephen-king-api.onrender.com/api/place/165"
+          },
+          {
+            "name": "WCIK",
+            "url": "https://stephen-king-api.onrender.com/api/place/182"
+          }
         ]
       },
       {
@@ -1348,6 +2214,16 @@
             "name": "Frank Dunning",
             "url": "https://stephen-king-api.onrender.com/api/villain/134"
           }
+        ],
+        "places": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
         ]
       },
       {
@@ -1366,6 +2242,16 @@
           {
             "name": "Bern Kells",
             "url": "https://stephen-king-api.onrender.com/api/villain/122"
+          }
+        ],
+        "places": [
+          {
+            "name": "All-world",
+            "url": "https://stephen-king-api.onrender.com/api/place/1"
+          },
+          {
+            "name": "Debaria",
+            "url": "https://stephen-king-api.onrender.com/api/place/61"
           }
         ]
       },
@@ -1386,6 +2272,16 @@
           {
             "name": "Lane Hardy",
             "url": "https://stephen-king-api.onrender.com/api/villain/48"
+          }
+        ],
+        "places": [
+          {
+            "name": "Heaven's Bay, North Carolina",
+            "url": "https://stephen-king-api.onrender.com/api/place/75"
+          },
+          {
+            "name": "Joyland Park",
+            "url": "https://stephen-king-api.onrender.com/api/place/146"
           }
         ]
       },
@@ -1440,6 +2336,16 @@
             "name": "Walnut",
             "url": "https://stephen-king-api.onrender.com/api/villain/174"
           }
+        ],
+        "places": [
+          {
+            "name": "Bankerton, Iowa",
+            "url": "https://stephen-king-api.onrender.com/api/place/48"
+          },
+          {
+            "name": "Sidewinder, Colorado",
+            "url": "https://stephen-king-api.onrender.com/api/place/106"
+          }
         ]
       },
       {
@@ -1460,7 +2366,8 @@
             "name": "Brady Hartsfield",
             "url": "https://stephen-king-api.onrender.com/api/villain/50"
           }
-        ]
+        ],
+        "places": []
       },
       {
         "id": 54,
@@ -1478,6 +2385,20 @@
           {
             "name": "Mother of the Null",
             "url": "https://stephen-king-api.onrender.com/api/villain/78"
+          }
+        ],
+        "places": [
+          {
+            "name": "The Null",
+            "url": "https://stephen-king-api.onrender.com/api/place/4"
+          },
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Motton, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/89"
           }
         ]
       },
@@ -1506,7 +2427,8 @@
             "name": "Morris Bellamy",
             "url": "https://stephen-king-api.onrender.com/api/villain/155"
           }
-        ]
+        ],
+        "places": []
       },
       {
         "id": 56,
@@ -1525,7 +2447,8 @@
             "name": "Brady Hartsfield",
             "url": "https://stephen-king-api.onrender.com/api/villain/50"
           }
-        ]
+        ],
+        "places": []
       },
       {
         "id": 57,
@@ -1543,6 +2466,36 @@
           {
             "name": "Frankie Stone",
             "url": "https://stephen-king-api.onrender.com/api/villain/135"
+          }
+        ],
+        "places": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          },
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          },
+          {
+            "name": "Castle View, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/56"
+          },
+          {
+            "name": "Castle Lake",
+            "url": "https://stephen-king-api.onrender.com/api/place/121"
+          },
+          {
+            "name": "Dark Score Lake",
+            "url": "https://stephen-king-api.onrender.com/api/place/123"
+          },
+          {
+            "name": "Castle Rock High School",
+            "url": "https://stephen-king-api.onrender.com/api/place/158"
+          },
+          {
+            "name": "Castle Rock Middle School",
+            "url": "https://stephen-king-api.onrender.com/api/place/159"
           }
         ]
       },
@@ -1576,7 +2529,8 @@
             "name": "Terry Coombs",
             "url": "https://stephen-king-api.onrender.com/api/villain/198"
           }
-        ]
+        ],
+        "places": []
       },
       {
         "id": 59,
@@ -1596,7 +2550,8 @@
             "name": "The Outsider (Creature)",
             "url": "https://stephen-king-api.onrender.com/api/villain/82"
           }
-        ]
+        ],
+        "places": []
       },
       {
         "id": 60,
@@ -1608,7 +2563,17 @@
         "Pages": 144,
         "Notes": [],
         "created_at": "2023-11-13T23:48:55.291Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          },
+          {
+            "name": "Castle View, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/56"
+          }
+        ]
       },
       {
         "id": 61,
@@ -1660,6 +2625,12 @@
             "name": "Zeke Ionidis",
             "url": "https://stephen-king-api.onrender.com/api/villain/176"
           }
+        ],
+        "places": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          }
         ]
       },
       {
@@ -1681,7 +2652,8 @@
             "name": "Liz Dutton",
             "url": "https://stephen-king-api.onrender.com/api/villain/189"
           }
-        ]
+        ],
+        "places": []
       },
       {
         "id": 63,
@@ -1702,6 +2674,16 @@
             "name": "Roger Klerke",
             "url": "https://stephen-king-api.onrender.com/api/villain/194"
           }
+        ],
+        "places": [
+          {
+            "name": "Sidewinder, Colorado",
+            "url": "https://stephen-king-api.onrender.com/api/place/106"
+          },
+          {
+            "name": "Hemingford Home, Nebraska",
+            "url": "https://stephen-king-api.onrender.com/api/place/139"
+          }
         ]
       },
       {
@@ -1721,6 +2703,24 @@
           {
             "name": "Gareth Winston",
             "url": "https://stephen-king-api.onrender.com/api/villain/184"
+          }
+        ],
+        "places": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          },
+          {
+            "name": "Castle View, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/56"
+          },
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          },
+          {
+            "name": "Lewiston, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/81"
           }
         ]
       },
@@ -1743,7 +2743,8 @@
             "name": "Gogmagog",
             "url": "https://stephen-king-api.onrender.com/api/villain/186"
           }
-        ]
+        ],
+        "places": []
       },
       {
         "id": 75,
@@ -1764,7 +2765,8 @@
             "name": "Rodney Harris",
             "url": "https://stephen-king-api.onrender.com/api/villain/161"
           }
-        ]
+        ],
+        "places": []
       },
       {
         "id": 76,
@@ -1776,7 +2778,8 @@
         "Pages": 448,
         "Notes": [],
         "created_at": "2026-10-28T18:48:53.000Z",
-        "villains": []
+        "villains": [],
+        "places": []
       },
       {
         "id": 77,
@@ -1791,7 +2794,13 @@
           "Written with Peter Straub"
         ],
         "created_at": "2026-10-28T18:48:53.000Z",
-        "villains": []
+        "villains": [],
+        "places": [
+          {
+            "name": "Hemingford Home, Nebraska",
+            "url": "https://stephen-king-api.onrender.com/api/place/139"
+          }
+        ]
       }
     ]
   }

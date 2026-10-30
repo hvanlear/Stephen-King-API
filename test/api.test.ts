@@ -172,6 +172,40 @@ describe("links", () => {
     }
   });
 
+  it("point both ways between places and the works set there", async () => {
+    const { body: placeList } = await get("/api/places");
+    const fromPlaces = new Set<string>();
+    for (const place of placeList.data) {
+      for (const link of [...place.books, ...place.shorts]) {
+        fromPlaces.add(`${new URL(link.url).pathname} ${place.id}`);
+      }
+    }
+    const fromWorks = new Set<string>();
+    for (const [list, detail] of [["/api/books", "/api/book"], ["/api/shorts", "/api/short"]]) {
+      const { body } = await get(list);
+      for (const work of body.data) {
+        for (const link of work.places) {
+          fromWorks.add(`${detail}/${work.id} ${Number(link.url.split("/").pop())}`);
+        }
+      }
+    }
+    assert.deepEqual([...fromWorks].sort(), [...fromPlaces].sort());
+  });
+
+  it("list each villain's home among the place's residents", async () => {
+    const { body } = await get("/api/villains");
+    for (const villain of body.data) {
+      for (const home of villain.residence) {
+        const { body: place } = await get(new URL(home.url).pathname);
+        assert.equal(home.name, place.data.name);
+        assert.ok(
+          place.data.villains.some((v: { url: string }) => v.url.endsWith(`/api/villain/${villain.id}`)),
+          `place ${place.data.id} doesn't list villain ${villain.id}`
+        );
+      }
+    }
+  });
+
   it("list a place's residents in every place it's in", async () => {
     const { body } = await get("/api/places");
     const byUrl = new Map(body.data.map((place: { id: number }) => [`/api/place/${place.id}`, place]));

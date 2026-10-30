@@ -25,6 +25,16 @@
             "title": "A Good Marriage",
             "url": "https://stephen-king-api.onrender.com/api/short/180"
           }
+        ],
+        "residence": [
+          {
+            "name": "Pownal, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/96"
+          },
+          {
+            "name": "Yarmouth, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/119"
+          }
         ]
       },
       {
@@ -47,7 +57,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/2"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Marsten House",
+            "url": "https://stephen-king-api.onrender.com/api/place/170"
+          }
+        ]
       },
       {
         "id": 3,
@@ -74,7 +90,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/25"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 4,
@@ -102,7 +119,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/1"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Chamberlain, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/57"
+          }
+        ]
       },
       {
         "id": 5,
@@ -123,7 +146,8 @@
             "title": "Children of the Corn",
             "url": "https://stephen-king-api.onrender.com/api/short/53"
           }
-        ]
+        ],
+        "residence": []
       },
       {
         "id": 6,
@@ -143,6 +167,12 @@
           {
             "title": "Jerusalem's Lot",
             "url": "https://stephen-king-api.onrender.com/api/short/58"
+          }
+        ],
+        "residence": [
+          {
+            "name": "Jerusalem's Lot, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/76"
           }
         ]
       },
@@ -176,7 +206,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/19"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ]
       },
       {
         "id": 8,
@@ -203,7 +239,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/19"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ]
       },
       {
         "id": 9,
@@ -229,7 +271,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/19"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ]
       },
       {
         "id": 10,
@@ -258,6 +306,12 @@
           {
             "title": "The Gunslinger and the Dark Man",
             "url": "https://stephen-king-api.onrender.com/api/short/79"
+          }
+        ],
+        "residence": [
+          {
+            "name": "Gilead",
+            "url": "https://stephen-king-api.onrender.com/api/place/136"
           }
         ]
       },
@@ -289,7 +343,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/19"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 12,
@@ -309,7 +364,8 @@
             "title": "Children of the Corn",
             "url": "https://stephen-king-api.onrender.com/api/short/53"
           }
-        ]
+        ],
+        "residence": []
       },
       {
         "id": 13,
@@ -332,7 +388,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/14"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Ludlow, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/86"
+          }
+        ]
       },
       {
         "id": 14,
@@ -361,7 +423,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/1"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Chamberlain, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/57"
+          }
+        ]
       },
       {
         "id": 15,
@@ -385,7 +453,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/14"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Ludlow, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/86"
+          }
+        ]
       },
       {
         "id": 16,
@@ -414,7 +488,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/1"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Chamberlain, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/57"
+          }
+        ]
       },
       {
         "id": 17,
@@ -448,7 +528,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/42"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 18,
@@ -475,7 +556,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/19"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ]
       },
       {
         "id": 19,
@@ -499,7 +586,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/10"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ]
       },
       {
         "id": 20,
@@ -526,7 +619,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/13"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 21,
@@ -545,7 +639,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/42"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 22,
@@ -568,7 +663,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/30"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 23,
@@ -592,7 +688,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/29"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 24,
@@ -613,7 +710,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/34"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 25,
@@ -639,7 +737,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/1"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Chamberlain, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/57"
+          }
+        ]
       },
       {
         "id": 26,
@@ -667,7 +771,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/52"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Overlook Hotel",
+            "url": "https://stephen-king-api.onrender.com/api/place/133"
+          }
+        ]
       },
       {
         "id": 27,
@@ -694,7 +804,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/41"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 28,
@@ -715,7 +826,8 @@
             "title": "Rita Hayworth and Shawshank Redemption",
             "url": "https://stephen-king-api.onrender.com/api/short/86"
           }
-        ]
+        ],
+        "residence": []
       },
       {
         "id": 29,
@@ -740,7 +852,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/7"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 30,
@@ -760,7 +873,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/7"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 31,
@@ -784,7 +898,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/52"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 32,
@@ -808,7 +923,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/34"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Hambry, Mejis",
+            "url": "https://stephen-king-api.onrender.com/api/place/137"
+          }
+        ]
       },
       {
         "id": 33,
@@ -828,7 +949,8 @@
             "title": "Apt Pupil",
             "url": "https://stephen-king-api.onrender.com/api/short/83"
           }
-        ]
+        ],
+        "residence": []
       },
       {
         "id": 34,
@@ -854,7 +976,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/24"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Powtanville, Indiana",
+            "url": "https://stephen-king-api.onrender.com/api/place/97"
+          }
+        ]
       },
       {
         "id": 35,
@@ -877,7 +1005,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/19"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ]
       },
       {
         "id": 36,
@@ -899,7 +1033,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/34"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 37,
@@ -950,7 +1085,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/25"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 38,
@@ -978,7 +1114,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/1"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Chamberlain, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/57"
+          }
+        ]
       },
       {
         "id": 39,
@@ -1004,7 +1146,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/19"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ]
       },
       {
         "id": 40,
@@ -1025,7 +1173,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/26"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ]
       },
       {
         "id": 41,
@@ -1047,7 +1201,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/27"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          }
+        ]
       },
       {
         "id": 42,
@@ -1066,7 +1226,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/11"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 43,
@@ -1092,7 +1253,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/19"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ]
       },
       {
         "id": 44,
@@ -1116,7 +1283,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/1"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Chamberlain, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/57"
+          }
+        ]
       },
       {
         "id": 45,
@@ -1140,7 +1313,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/3"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Overlook Hotel",
+            "url": "https://stephen-king-api.onrender.com/api/place/133"
+          }
+        ]
       },
       {
         "id": 46,
@@ -1162,7 +1341,8 @@
             "title": "Rita Hayworth and Shawshank Redemption",
             "url": "https://stephen-king-api.onrender.com/api/short/86"
           }
-        ]
+        ],
+        "residence": []
       },
       {
         "id": 47,
@@ -1182,7 +1362,8 @@
             "title": "The Cat from Hell",
             "url": "https://stephen-king-api.onrender.com/api/short/55"
           }
-        ]
+        ],
+        "residence": []
       },
       {
         "id": 48,
@@ -1203,7 +1384,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/51"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 49,
@@ -1235,7 +1417,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/1"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Chamberlain, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/57"
+          }
+        ]
       },
       {
         "id": 50,
@@ -1264,7 +1452,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/56"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 51,
@@ -1291,7 +1480,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/24"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 52,
@@ -1313,7 +1503,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/61"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 53,
@@ -1343,7 +1534,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/19"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ]
       },
       {
         "id": 54,
@@ -1365,7 +1562,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/8"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 55,
@@ -1391,7 +1589,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/19"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ]
       },
       {
         "id": 56,
@@ -1413,7 +1617,8 @@
             "title": "In the Tall Grass",
             "url": "https://stephen-king-api.onrender.com/api/short/186"
           }
-        ]
+        ],
+        "residence": []
       },
       {
         "id": 57,
@@ -1449,6 +1654,20 @@
             "title": "The Bird and the Album",
             "url": "https://stephen-king-api.onrender.com/api/short/78"
           }
+        ],
+        "residence": [
+          {
+            "name": "Todash Space",
+            "url": "https://stephen-king-api.onrender.com/api/place/6"
+          },
+          {
+            "name": "Macroverse",
+            "url": "https://stephen-king-api.onrender.com/api/place/3"
+          },
+          {
+            "name": "Well House",
+            "url": "https://stephen-king-api.onrender.com/api/place/183"
+          }
         ]
       },
       {
@@ -1467,6 +1686,12 @@
           {
             "title": "1922",
             "url": "https://stephen-king-api.onrender.com/api/short/177"
+          }
+        ],
+        "residence": [
+          {
+            "name": "Hemingford Home, Nebraska",
+            "url": "https://stephen-king-api.onrender.com/api/place/139"
           }
         ]
       },
@@ -1491,6 +1716,12 @@
             "title": "1922",
             "url": "https://stephen-king-api.onrender.com/api/short/177"
           }
+        ],
+        "residence": [
+          {
+            "name": "Hemingford Home, Nebraska",
+            "url": "https://stephen-king-api.onrender.com/api/place/139"
+          }
         ]
       },
       {
@@ -1512,7 +1743,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/34"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Hambry, Mejis",
+            "url": "https://stephen-king-api.onrender.com/api/place/137"
+          }
+        ]
       },
       {
         "id": 61,
@@ -1536,7 +1773,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/27"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          }
+        ]
       },
       {
         "id": 62,
@@ -1556,7 +1799,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/24"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 63,
@@ -1576,7 +1820,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/11"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 64,
@@ -1604,7 +1849,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/24"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Ogunquit, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/92"
+          }
+        ]
       },
       {
         "id": 65,
@@ -1627,7 +1878,8 @@
             "title": "Sometimes They Come Back",
             "url": "https://stephen-king-api.onrender.com/api/short/47"
           }
-        ]
+        ],
+        "residence": []
       },
       {
         "id": 66,
@@ -1648,7 +1900,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/39"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 67,
@@ -1668,7 +1921,8 @@
             "title": "The Little Sisters of Eluria",
             "url": "https://stephen-king-api.onrender.com/api/short/139"
           }
-        ]
+        ],
+        "residence": []
       },
       {
         "id": 68,
@@ -1695,6 +1949,12 @@
             "title": "Cycle of the Werewolf",
             "url": "https://stephen-king-api.onrender.com/api/short/91"
           }
+        ],
+        "residence": [
+          {
+            "name": "Tarker's Mill, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/109"
+          }
         ]
       },
       {
@@ -1716,7 +1976,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/19"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ]
       },
       {
         "id": 70,
@@ -1737,7 +2003,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/6"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 71,
@@ -1757,7 +2024,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/7"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 72,
@@ -1782,7 +2050,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/19"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ]
       },
       {
         "id": 73,
@@ -1807,7 +2081,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/8"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Harrison, Ohio",
+            "url": "https://stephen-king-api.onrender.com/api/place/71"
+          }
+        ]
       },
       {
         "id": 74,
@@ -1841,6 +2121,12 @@
             "title": "The Body",
             "url": "https://stephen-king-api.onrender.com/api/short/84"
           }
+        ],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
         ]
       },
       {
@@ -1872,7 +2158,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/1"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Chamberlain, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/57"
+          }
+        ]
       },
       {
         "id": 76,
@@ -1895,7 +2187,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/20"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 77,
@@ -1921,7 +2214,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/1"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 78,
@@ -1941,7 +2235,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/54"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 79,
@@ -1964,7 +2259,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/19"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ]
       },
       {
         "id": 80,
@@ -1996,7 +2297,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/1"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Chamberlain, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/57"
+          }
+        ]
       },
       {
         "id": 81,
@@ -2017,7 +2324,8 @@
             "title": "Rita Hayworth and Shawshank Redemption",
             "url": "https://stephen-king-api.onrender.com/api/short/86"
           }
-        ]
+        ],
+        "residence": []
       },
       {
         "id": 82,
@@ -2037,7 +2345,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/59"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 83,
@@ -2056,7 +2365,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/14"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 84,
@@ -2083,6 +2393,12 @@
             "title": "The Gunslinger",
             "url": "https://stephen-king-api.onrender.com/api/short/64"
           }
+        ],
+        "residence": [
+          {
+            "name": "Tull",
+            "url": "https://stephen-king-api.onrender.com/api/place/116"
+          }
         ]
       },
       {
@@ -2102,7 +2418,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/44"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 86,
@@ -2125,7 +2442,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/8"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 87,
@@ -2149,7 +2467,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/24"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 88,
@@ -2176,7 +2495,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/48"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Chester's Mill, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/58"
+          }
+        ]
       },
       {
         "id": 89,
@@ -2202,7 +2527,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/48"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Chester's Mill, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/58"
+          }
+        ]
       },
       {
         "id": 90,
@@ -2223,7 +2554,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/1"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Chamberlain, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/57"
+          }
+        ]
       },
       {
         "id": 91,
@@ -2250,7 +2587,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/19"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 92,
@@ -2270,7 +2608,8 @@
             "title": "The Cat from Hell",
             "url": "https://stephen-king-api.onrender.com/api/short/55"
           }
-        ]
+        ],
+        "residence": []
       },
       {
         "id": 93,
@@ -2290,7 +2629,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/7"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 94,
@@ -2319,7 +2659,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/1"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Chamberlain, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/57"
+          }
+        ]
       },
       {
         "id": 95,
@@ -2344,7 +2690,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/28"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Little Tall Island",
+            "url": "https://stephen-king-api.onrender.com/api/place/83"
+          }
+        ]
       },
       {
         "id": 96,
@@ -2366,7 +2718,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/23"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 97,
@@ -2390,7 +2743,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/7"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 98,
@@ -2411,7 +2765,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/2"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Marsten House",
+            "url": "https://stephen-king-api.onrender.com/api/place/170"
+          }
+        ]
       },
       {
         "id": 99,
@@ -2441,7 +2801,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/1"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Chamberlain, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/57"
+          }
+        ]
       },
       {
         "id": 100,
@@ -2460,7 +2826,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/7"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 101,
@@ -2486,7 +2853,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/48"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Chester's Mill, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/58"
+          }
+        ]
       },
       {
         "id": 102,
@@ -2516,7 +2889,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/1"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Chamberlain, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/57"
+          }
+        ]
       },
       {
         "id": 103,
@@ -2538,7 +2917,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/27"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          }
+        ]
       },
       {
         "id": 104,
@@ -2557,7 +2942,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/22"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 105,
@@ -2579,7 +2965,8 @@
             "title": "The Langoliers",
             "url": "https://stephen-king-api.onrender.com/api/short/114"
           }
-        ]
+        ],
+        "residence": []
       },
       {
         "id": 106,
@@ -2615,7 +3002,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/52"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 107,
@@ -2639,7 +3027,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/19"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ]
       },
       {
         "id": 108,
@@ -2667,7 +3061,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/1"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Chamberlain, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/57"
+          }
+        ]
       },
       {
         "id": 109,
@@ -2692,7 +3092,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/1"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Chamberlain, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/57"
+          }
+        ]
       },
       {
         "id": 110,
@@ -2711,7 +3117,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/14"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 111,
@@ -2733,7 +3140,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/31"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Louisiana",
+            "url": "https://stephen-king-api.onrender.com/api/place/27"
+          }
+        ]
       },
       {
         "id": 112,
@@ -2754,7 +3167,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/31"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 113,
@@ -2783,7 +3197,17 @@
             "url": "https://stephen-king-api.onrender.com/api/book/1"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Motton, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/89"
+          },
+          {
+            "name": "Chamberlain, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/57"
+          }
+        ]
       },
       {
         "id": 114,
@@ -2807,7 +3231,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/21"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 115,
@@ -2827,7 +3252,8 @@
             "title": "Rita Hayworth and Shawshank Redemption",
             "url": "https://stephen-king-api.onrender.com/api/short/86"
           }
-        ]
+        ],
+        "residence": []
       },
       {
         "id": 116,
@@ -2851,7 +3277,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/19"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ]
       },
       {
         "id": 117,
@@ -2878,7 +3310,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/24"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 118,
@@ -2904,7 +3337,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/55"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 119,
@@ -2924,7 +3358,8 @@
             "title": "The Library Policeman",
             "url": "https://stephen-king-api.onrender.com/api/short/115"
           }
-        ]
+        ],
+        "residence": []
       },
       {
         "id": 120,
@@ -2942,7 +3377,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/29"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 121,
@@ -2965,7 +3401,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/52"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 122,
@@ -2986,7 +3423,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/50"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 123,
@@ -3007,6 +3445,12 @@
           {
             "title": "The Body",
             "url": "https://stephen-king-api.onrender.com/api/short/84"
+          }
+        ],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
           }
         ]
       },
@@ -3029,7 +3473,8 @@
             "title": "The Boogeyman",
             "url": "https://stephen-king-api.onrender.com/api/short/43"
           }
-        ]
+        ],
+        "residence": []
       },
       {
         "id": 125,
@@ -3055,7 +3500,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/13"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 126,
@@ -3076,6 +3522,12 @@
           {
             "title": "The Body",
             "url": "https://stephen-king-api.onrender.com/api/short/84"
+          }
+        ],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
           }
         ]
       },
@@ -3098,7 +3550,8 @@
             "title": "If It Bleeds",
             "url": "https://stephen-king-api.onrender.com/api/short/207"
           }
-        ]
+        ],
+        "residence": []
       },
       {
         "id": 128,
@@ -3118,7 +3571,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/34"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 129,
@@ -3144,7 +3598,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/33"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 130,
@@ -3167,7 +3622,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/52"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 131,
@@ -3187,7 +3643,8 @@
             "title": "N.",
             "url": "https://stephen-king-api.onrender.com/api/short/168"
           }
-        ]
+        ],
+        "residence": []
       },
       {
         "id": 132,
@@ -3212,7 +3669,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/61"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 133,
@@ -3235,7 +3693,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/75"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 134,
@@ -3256,7 +3715,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/49"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ]
       },
       {
         "id": 135,
@@ -3283,7 +3748,8 @@
             "title": "Gwendy's Button Box",
             "url": "https://stephen-king-api.onrender.com/api/short/200"
           }
-        ]
+        ],
+        "residence": []
       },
       {
         "id": 136,
@@ -3307,7 +3773,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/19"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ]
       },
       {
         "id": 137,
@@ -3328,7 +3800,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/52"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 138,
@@ -3350,7 +3823,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/30"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 139,
@@ -3371,7 +3845,8 @@
             "title": "Children of the Corn",
             "url": "https://stephen-king-api.onrender.com/api/short/53"
           }
-        ]
+        ],
+        "residence": []
       },
       {
         "id": 140,
@@ -3395,7 +3870,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/24"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 141,
@@ -3414,7 +3890,8 @@
             "title": "The Gingerbread Girl",
             "url": "https://stephen-king-api.onrender.com/api/short/163"
           }
-        ]
+        ],
+        "residence": []
       },
       {
         "id": 142,
@@ -3435,7 +3912,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/52"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 143,
@@ -3459,7 +3937,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/61"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 144,
@@ -3477,7 +3956,8 @@
             "title": "Secret Window, Secret Garden",
             "url": "https://stephen-king-api.onrender.com/api/short/116"
           }
-        ]
+        ],
+        "residence": []
       },
       {
         "id": 145,
@@ -3503,7 +3983,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/61"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 146,
@@ -3529,7 +4010,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/24"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Pratt, Kansas",
+            "url": "https://stephen-king-api.onrender.com/api/place/98"
+          }
+        ]
       },
       {
         "id": 147,
@@ -3548,7 +4035,8 @@
             "title": "The Langoliers",
             "url": "https://stephen-king-api.onrender.com/api/short/114"
           }
-        ]
+        ],
+        "residence": []
       },
       {
         "id": 148,
@@ -3568,7 +4056,8 @@
             "title": "Rest Stop",
             "url": "https://stephen-king-api.onrender.com/api/short/156"
           }
-        ]
+        ],
+        "residence": []
       },
       {
         "id": 149,
@@ -3592,7 +4081,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/19"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 150,
@@ -3613,7 +4103,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/19"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 151,
@@ -3632,6 +4123,12 @@
           {
             "title": "The Body",
             "url": "https://stephen-king-api.onrender.com/api/short/84"
+          }
+        ],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
           }
         ]
       },
@@ -3657,7 +4154,8 @@
             "title": "The Monkey",
             "url": "https://stephen-king-api.onrender.com/api/short/71"
           }
-        ]
+        ],
+        "residence": []
       },
       {
         "id": 153,
@@ -3680,7 +4178,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/13"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 154,
@@ -3701,7 +4200,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/16"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 155,
@@ -3724,7 +4224,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/55"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 156,
@@ -3744,7 +4245,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/37"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 157,
@@ -3764,6 +4266,12 @@
           {
             "title": "The Mist",
             "url": "https://stephen-king-api.onrender.com/api/short/67"
+          }
+        ],
+        "residence": [
+          {
+            "name": "Bridgton, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/52"
           }
         ]
       },
@@ -3788,6 +4296,12 @@
             "title": "The Body",
             "url": "https://stephen-king-api.onrender.com/api/short/84"
           }
+        ],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
         ]
       },
       {
@@ -3811,7 +4325,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/61"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 160,
@@ -3832,6 +4347,12 @@
           {
             "title": "The Body",
             "url": "https://stephen-king-api.onrender.com/api/short/84"
+          }
+        ],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
           }
         ]
       },
@@ -3856,7 +4377,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/75"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 162,
@@ -3882,7 +4404,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/3"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 163,
@@ -3902,7 +4425,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/34"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 164,
@@ -3926,7 +4450,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/52"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 165,
@@ -3953,7 +4478,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/33"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 166,
@@ -3972,7 +4498,8 @@
             "title": "Children of the Corn",
             "url": "https://stephen-king-api.onrender.com/api/short/53"
           }
-        ]
+        ],
+        "residence": []
       },
       {
         "id": 167,
@@ -3991,7 +4518,8 @@
             "title": "The Mangler",
             "url": "https://stephen-king-api.onrender.com/api/short/42"
           }
-        ]
+        ],
+        "residence": []
       },
       {
         "id": 168,
@@ -4011,7 +4539,8 @@
             "title": "The Mist",
             "url": "https://stephen-king-api.onrender.com/api/short/67"
           }
-        ]
+        ],
+        "residence": []
       },
       {
         "id": 169,
@@ -4031,7 +4560,8 @@
             "title": "Apt Pupil",
             "url": "https://stephen-king-api.onrender.com/api/short/83"
           }
-        ]
+        ],
+        "residence": []
       },
       {
         "id": 170,
@@ -4054,7 +4584,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/1"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Chamberlain, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/57"
+          }
+        ]
       },
       {
         "id": 171,
@@ -4079,7 +4615,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/61"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 172,
@@ -4104,7 +4641,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/61"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 173,
@@ -4125,6 +4663,12 @@
           {
             "title": "The Body",
             "url": "https://stephen-king-api.onrender.com/api/short/84"
+          }
+        ],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
           }
         ]
       },
@@ -4147,7 +4691,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/52"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 175,
@@ -4168,7 +4713,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/61"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 176,
@@ -4194,7 +4740,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/61"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 177,
@@ -4210,7 +4757,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/40"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 178,
@@ -4230,7 +4778,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/40"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Calla Bryn Sturgis",
+            "url": "https://stephen-king-api.onrender.com/api/place/53"
+          }
+        ]
       },
       {
         "id": 179,
@@ -4248,7 +4802,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/4"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 180,
@@ -4264,7 +4819,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/58"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 181,
@@ -4280,7 +4836,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/58"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 182,
@@ -4296,7 +4853,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/74"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 183,
@@ -4312,7 +4870,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/58"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 184,
@@ -4328,7 +4887,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/73"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 185,
@@ -4344,7 +4904,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/36"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 186,
@@ -4360,7 +4921,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/74"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 187,
@@ -4380,7 +4942,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/45"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Lovell, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/84"
+          }
+        ]
       },
       {
         "id": 188,
@@ -4396,7 +4964,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/62"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 189,
@@ -4412,7 +4981,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/62"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 190,
@@ -4431,7 +5001,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/45"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Boo'ya Moon",
+            "url": "https://stephen-king-api.onrender.com/api/place/2"
+          }
+        ]
       },
       {
         "id": 191,
@@ -4447,7 +5023,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/35"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 192,
@@ -4463,7 +5040,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/63"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 193,
@@ -4479,7 +5057,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/47"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 194,
@@ -4495,7 +5074,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/63"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 195,
@@ -4511,7 +5091,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/35"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 196,
@@ -4531,7 +5112,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/35"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 197,
@@ -4547,7 +5129,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/18"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 198,
@@ -4563,7 +5146,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/58"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 199,
@@ -4579,7 +5163,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/40"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 200,
@@ -4595,7 +5180,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/40"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       },
       {
         "id": 201,
@@ -4620,7 +5206,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/24"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "residence": []
       }
     ]
   }

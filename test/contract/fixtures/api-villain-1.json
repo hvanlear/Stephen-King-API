@@ -24,6 +24,16 @@
           "title": "A Good Marriage",
           "url": "https://stephen-king-api.onrender.com/api/short/180"
         }
+      ],
+      "residence": [
+        {
+          "name": "Pownal, Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/96"
+        },
+        {
+          "name": "Yarmouth, Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/119"
+        }
       ]
     }
   }

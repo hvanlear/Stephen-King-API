@@ -21,7 +21,13 @@
           "url": "https://stephen-king-api.onrender.com/api/book/34"
         }
       ],
-      "shorts": []
+      "shorts": [],
+      "residence": [
+        {
+          "name": "Hambry, Mejis",
+          "url": "https://stephen-king-api.onrender.com/api/place/137"
+        }
+      ]
     }
   }
 }

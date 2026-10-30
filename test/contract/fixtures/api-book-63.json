@@ -21,6 +21,16 @@
           "name": "Roger Klerke",
           "url": "https://stephen-king-api.onrender.com/api/villain/194"
         }
+      ],
+      "places": [
+        {
+          "name": "Sidewinder, Colorado",
+          "url": "https://stephen-king-api.onrender.com/api/place/106"
+        },
+        {
+          "name": "Hemingford Home, Nebraska",
+          "url": "https://stephen-king-api.onrender.com/api/place/139"
+        }
       ]
     }
   }

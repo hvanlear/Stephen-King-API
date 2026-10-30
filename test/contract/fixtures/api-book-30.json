@@ -27,6 +27,16 @@
           "name": "Harley Bissington",
           "url": "https://stephen-king-api.onrender.com/api/villain/138"
         }
+      ],
+      "places": [
+        {
+          "name": "Ettinger's Pier",
+          "url": "https://stephen-king-api.onrender.com/api/place/9"
+        },
+        {
+          "name": "Daughters and Sisters",
+          "url": "https://stephen-king-api.onrender.com/api/place/11"
+        }
       ]
     }
   }

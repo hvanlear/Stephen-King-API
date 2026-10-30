@@ -217,7 +217,26 @@ describe("validate-data", () => {
 
   it("flags a short whose originallyPublishedIn disagrees with its publication", () => {
     const errors = errorsAfter((c) => (c["shorts.json"][2].publication = "cavalier"));
-    assertFlags(errors, /short 3 \("Jumper"\): originallyPublishedIn "Dave's Rag \(1959\)" should start with "Cavalier", to match its publication$/);
+    assertFlags(errors, /short 3 \("Jumper"\): originallyPublishedIn "Dave's Rag \(1959\)" should name "Cavalier", with an issue at most, to match its publication$/);
+  });
+
+  it("flags a publication whose name only starts the venue", () => {
+    // McSweeney's Mammoth Treasury of Thrilling Tales is its own publication
+    const errors = errorsAfter((c) => (c["shorts.json"][152].publication = "mcsweeney-s"));
+    assertFlags(errors, /short 153 \("The Tale of Gray Dick"\): originallyPublishedIn "McSweeney's Mammoth Treasury of Thrilling Tales \(March 25, 2003\)" should name "McSweeney's", with an issue at most/);
+  });
+
+  it("allows a publication name with no issue or date", () => {
+    const errors = errorsAfter((c) => (c["shorts.json"][2].originallyPublishedIn = "Dave's Rag"));
+    assert.deepEqual(errors, []);
+  });
+
+  it("flags a missing publication for a short whose text only ends with a collection name", () => {
+    const errors = errorsAfter((c) => {
+      c["shorts.json"][2].publication = null;
+      c["shorts.json"][2].originallyPublishedIn = "Tales of Night Shift (1959)";
+    });
+    assertFlags(errors, /short 3 \("Jumper"\): publication is null, but originallyPublishedIn "Tales of Night Shift \(1959\)" names where it first appeared$/);
   });
 
   it("flags a missing publication for a short that names one", () => {

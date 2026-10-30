@@ -410,6 +410,14 @@ function checkVillainTypes(villains: unknown, types: unknown): string[] {
   return errors;
 }
 
+// How the checks below name a short
+const shortLabel = (short: CatalogRecord, index: number) =>
+  `catalog/shorts.json: short ${short?.id ?? `at position ${index}`} (${JSON.stringify(short?.title)})`;
+
+// handle → record, for the handles a short stores
+const byHandle = (records: CatalogRecord[]) =>
+  new Map<unknown, CatalogRecord>(records.map((record) => [record?.handle, record]));
+
 // A short's collection has to exist and say the same as its collectedIn
 // text, such as "Night Shift (1978)", so the two can't drift apart. Only an
 // uncollected short has none. A collection that shares a handle with a book
@@ -419,12 +427,10 @@ function checkCollections(shorts: unknown, collections: unknown, books: unknown)
     return [];
   }
   const errors: string[] = [];
-  const byHandle = new Map<unknown, CatalogRecord>(
-    collections.map((collection: CatalogRecord) => [collection?.handle, collection])
-  );
+  const collectionsByHandle = byHandle(collections);
   const label = (collection: CatalogRecord) => `${collection.name} (${collection.year})`;
   shorts.forEach((short: CatalogRecord, index) => {
-    const where = `catalog/shorts.json: short ${short?.id ?? `at position ${index}`} (${JSON.stringify(short?.title)})`;
+    const where = shortLabel(short, index);
     if (short?.collection === null) {
       if (typeof short.collectedIn === "string" && !UNCOLLECTED.includes(short.collectedIn)) {
         errors.push(`${where}: collectedIn ${JSON.stringify(short.collectedIn)} names a collection, so collection needs its handle`);
@@ -434,16 +440,14 @@ function checkCollections(shorts: unknown, collections: unknown, books: unknown)
     if (typeof short?.collection !== "string") {
       return;
     }
-    const collection = byHandle.get(short.collection);
+    const collection = collectionsByHandle.get(short.collection);
     if (!collection) {
       errors.push(`${where}: collection ${JSON.stringify(short.collection)} doesn't match any collection handle`);
     } else if (short.collectedIn !== label(collection)) {
       errors.push(`${where}: collectedIn ${JSON.stringify(short.collectedIn)} should be ${JSON.stringify(label(collection))}, to match its collection`);
     }
   });
-  const booksByHandle = new Map<unknown, CatalogRecord>(
-    Array.isArray(books) ? books.map((book: CatalogRecord) => [book?.handle, book]) : []
-  );
+  const booksByHandle = byHandle(Array.isArray(books) ? books : []);
   for (const collection of collections as CatalogRecord[]) {
     const book = booksByHandle.get(collection?.handle);
     if (book && (book.Title !== collection.name || book.Year !== collection.year)) {
@@ -455,19 +459,26 @@ function checkCollections(shorts: unknown, collections: unknown, books: unknown)
   return errors;
 }
 
-// A short's publication has to exist, and its originallyPublishedIn text has
-// to start with that publication's name, as "Cavalier (October 1970)" and
-// "Shadows 4 (October 1981)" do. A short has none only when the text is
-// empty, or names the short itself or a collection, which collection links
-// already cover. So a publication can't be named like a collection either.
+// The venue in an originallyPublishedIn text is what's left once the date in
+// parentheses is gone: "Cavalier (October 1970)" gives "Cavalier"
+const venueOf = (text: string) => text.replace(/\s*\([^()]*\)$/, "");
+
+// What may follow a publication's name in the venue: an issue or volume, as
+// in "Shadows 4", "Antaeus #75/76" and "Satyricon II"
+const ISSUE = /^ (#?\d+(\/\d+)?|[IVXLC]+)$/;
+
+// A short's publication has to exist, and the venue in its
+// originallyPublishedIn text has to be that publication's name, with an
+// issue at most, as "Cavalier (October 1970)" and "Shadows 4 (October 1981)"
+// are. A short has none only when the text is empty, or names the short
+// itself, a collection or an edition of one, which collection links already
+// cover. So a publication can't be named like a collection either.
 function checkPublications(shorts: unknown, publications: unknown, collections: unknown): string[] {
   if (!Array.isArray(shorts) || !Array.isArray(publications)) {
     return [];
   }
   const errors: string[] = [];
-  const byHandle = new Map<unknown, CatalogRecord>(
-    publications.map((publication: CatalogRecord) => [publication?.handle, publication])
-  );
+  const publicationsByHandle = byHandle(publications);
   const collectionNames: unknown[] = Array.isArray(collections)
     ? collections.map((collection: CatalogRecord) => collection?.name).filter(isText)
     : [];
@@ -476,21 +487,24 @@ function checkPublications(shorts: unknown, publications: unknown, collections: 
     if (typeof text !== "string") {
       return;
     }
-    const where = `catalog/shorts.json: short ${short.id ?? `at position ${index}`} (${JSON.stringify(short.title)})`;
+    const where = shortLabel(short, index);
+    const venue = venueOf(text);
     if (typeof short.publication === "string") {
-      const publication = byHandle.get(short.publication);
+      const publication = publicationsByHandle.get(short.publication);
       if (!publication) {
         errors.push(`${where}: publication ${JSON.stringify(short.publication)} doesn't match any publication handle`);
-      } else if (!text.startsWith(`${publication.name} `)) {
-        errors.push(`${where}: originallyPublishedIn ${JSON.stringify(text)} should start with ${JSON.stringify(publication.name)}, to match its publication`);
+        return;
+      }
+      const name = String(publication.name);
+      const issue = venue.startsWith(name) ? venue.slice(name.length) : null;
+      if (issue === null || (issue !== "" && !ISSUE.test(issue))) {
+        errors.push(`${where}: originallyPublishedIn ${JSON.stringify(text)} should name ${JSON.stringify(name)}, with an issue at most, to match its publication`);
       }
     } else if (short.publication === null) {
-      // What's left once the date is gone, which may be an edition of a collection
-      const venue = text.replace(/\s*\([^()]*\)$/, "");
       const covered =
         venue === "" ||
         venue === short.title ||
-        collectionNames.some((name) => venue === name || venue.endsWith(` ${name}`));
+        collectionNames.some((name) => venue === name || venue.endsWith(` edition of ${name}`));
       if (!covered) {
         errors.push(`${where}: publication is null, but originallyPublishedIn ${JSON.stringify(text)} names where it first appeared`);
       }

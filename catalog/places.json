@@ -5,6 +5,19 @@
     "handle": "all-world",
     "type": "world",
     "parentId": null,
+    "appears_in": [
+      "the-dark-tower-the-gunslinger",
+      "the-talisman",
+      "the-eyes-of-the-dragon",
+      "the-dark-tower-ii-the-drawing-of-the-three",
+      "the-dark-tower-iii-the-waste-lands",
+      "the-dark-tower-iv-wizard-and-glass",
+      "the-dark-tower-v-wolves-of-the-calla",
+      "the-dark-tower-vi-song-of-susannah",
+      "the-dark-tower-vii-the-dark-tower",
+      "the-dark-tower-the-wind-through-the-keyhole",
+      "the-little-sisters-of-eluria"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -13,6 +26,9 @@
     "handle": "boo-ya-moon",
     "type": "world",
     "parentId": null,
+    "appears_in": [
+      "lisey-s-story"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -21,6 +37,9 @@
     "handle": "macroverse",
     "type": "world",
     "parentId": null,
+    "appears_in": [
+      "it"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -29,6 +48,9 @@
     "handle": "the-null",
     "type": "world",
     "parentId": null,
+    "appears_in": [
+      "revival"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -37,6 +59,10 @@
     "handle": "the-territories",
     "type": "world",
     "parentId": null,
+    "appears_in": [
+      "the-talisman",
+      "black-house"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -45,6 +71,16 @@
     "handle": "todash-space",
     "type": "world",
     "parentId": null,
+    "appears_in": [
+      "salem-s-lot",
+      "it",
+      "the-dark-tower-v-wolves-of-the-calla",
+      "the-dark-tower-vi-song-of-susannah",
+      "the-dark-tower-vii-the-dark-tower",
+      "the-mist",
+      "crouch-end",
+      "n-"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -53,6 +89,7 @@
     "handle": "england",
     "type": "country",
     "parentId": null,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -61,6 +98,7 @@
     "handle": "united-states",
     "type": "country",
     "parentId": null,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -69,6 +107,9 @@
     "handle": "ettinger-s-pier",
     "type": "landmark",
     "parentId": null,
+    "appears_in": [
+      "rose-madder"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -77,6 +118,9 @@
     "handle": "patin",
     "type": "landmark",
     "parentId": null,
+    "appears_in": [
+      "apt-pupil"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -85,6 +129,9 @@
     "handle": "daughters-and-sisters",
     "type": "building",
     "parentId": null,
+    "appears_in": [
+      "rose-madder"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -93,6 +140,9 @@
     "handle": "horlicks-university",
     "type": "building",
     "parentId": null,
+    "appears_in": [
+      "the-crate"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -101,6 +151,10 @@
     "handle": "new-sharon-college",
     "type": "building",
     "parentId": null,
+    "appears_in": [
+      "strawberry-spring",
+      "i-know-what-you-need"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -109,6 +163,9 @@
     "handle": "supr-savr",
     "type": "building",
     "parentId": null,
+    "appears_in": [
+      "everything-s-eventual"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -117,6 +174,9 @@
     "handle": "trans-corporation",
     "type": "building",
     "parentId": null,
+    "appears_in": [
+      "everything-s-eventual"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -125,6 +185,15 @@
     "handle": "end-world",
     "type": "region",
     "parentId": 1,
+    "appears_in": [
+      "the-dark-tower-the-gunslinger",
+      "the-dark-tower-ii-the-drawing-of-the-three",
+      "the-dark-tower-iii-the-waste-lands",
+      "the-dark-tower-iv-wizard-and-glass",
+      "the-dark-tower-v-wolves-of-the-calla",
+      "the-dark-tower-vi-song-of-susannah",
+      "the-dark-tower-vii-the-dark-tower"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -133,6 +202,16 @@
     "handle": "in-world",
     "type": "region",
     "parentId": 1,
+    "appears_in": [
+      "the-dark-tower-the-gunslinger",
+      "the-eyes-of-the-dragon",
+      "the-dark-tower-ii-the-drawing-of-the-three",
+      "the-dark-tower-iii-the-waste-lands",
+      "the-dark-tower-iv-wizard-and-glass",
+      "the-dark-tower-v-wolves-of-the-calla",
+      "the-dark-tower-vi-song-of-susannah",
+      "the-dark-tower-vii-the-dark-tower"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -141,6 +220,15 @@
     "handle": "mid-world",
     "type": "region",
     "parentId": 1,
+    "appears_in": [
+      "the-dark-tower-the-gunslinger",
+      "the-dark-tower-ii-the-drawing-of-the-three",
+      "the-dark-tower-iii-the-waste-lands",
+      "the-dark-tower-iv-wizard-and-glass",
+      "the-dark-tower-v-wolves-of-the-calla",
+      "the-dark-tower-vi-song-of-susannah",
+      "the-dark-tower-vii-the-dark-tower"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -149,6 +237,7 @@
     "handle": "arkansas",
     "type": "state",
     "parentId": 8,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -157,6 +246,7 @@
     "handle": "california",
     "type": "state",
     "parentId": 8,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -165,6 +255,7 @@
     "handle": "colorado",
     "type": "state",
     "parentId": 8,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -173,6 +264,7 @@
     "handle": "connecticut",
     "type": "state",
     "parentId": 8,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -181,6 +273,7 @@
     "handle": "florida",
     "type": "state",
     "parentId": 8,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -189,6 +282,7 @@
     "handle": "indiana",
     "type": "state",
     "parentId": 8,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -197,6 +291,7 @@
     "handle": "iowa",
     "type": "state",
     "parentId": 8,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -205,6 +300,7 @@
     "handle": "kansas",
     "type": "state",
     "parentId": 8,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -213,6 +309,7 @@
     "handle": "louisiana",
     "type": "state",
     "parentId": 8,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -221,6 +318,41 @@
     "handle": "maine",
     "type": "state",
     "parentId": 8,
+    "appears_in": [
+      "carrie",
+      "salem-s-lot",
+      "rage",
+      "the-stand",
+      "the-long-walk",
+      "the-dead-zone",
+      "cujo",
+      "the-running-man",
+      "pet-sematary",
+      "cycle-of-the-werewolf",
+      "it",
+      "the-tommyknockers",
+      "the-dark-half",
+      "needful-things",
+      "gerald-s-game",
+      "dolores-claiborne",
+      "insomnia",
+      "bag-of-bones",
+      "the-girl-who-loved-tom-gordon",
+      "dreamcatcher",
+      "the-dark-tower-vi-song-of-susannah",
+      "the-colorado-kid",
+      "cell",
+      "lisey-s-story",
+      "under-the-dome",
+      "11-22-63",
+      "revival",
+      "gwendy-s-button-box",
+      "the-institute",
+      "the-body",
+      "everything-s-eventual",
+      "hearts-in-atlantis",
+      "n-"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -229,6 +361,7 @@
     "handle": "massachusetts",
     "type": "state",
     "parentId": 8,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -237,6 +370,7 @@
     "handle": "mississippi",
     "type": "state",
     "parentId": 8,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -245,6 +379,7 @@
     "handle": "nebraska",
     "type": "state",
     "parentId": 8,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -253,6 +388,7 @@
     "handle": "nevada",
     "type": "state",
     "parentId": 8,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -261,6 +397,7 @@
     "handle": "new-hampshire",
     "type": "state",
     "parentId": 8,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -269,6 +406,7 @@
     "handle": "new-york",
     "type": "state",
     "parentId": 8,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -277,6 +415,7 @@
     "handle": "north-carolina",
     "type": "state",
     "parentId": 8,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -285,6 +424,7 @@
     "handle": "ohio",
     "type": "state",
     "parentId": 8,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -293,6 +433,7 @@
     "handle": "oklahoma",
     "type": "state",
     "parentId": 8,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -301,6 +442,7 @@
     "handle": "texas",
     "type": "state",
     "parentId": 8,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -309,6 +451,7 @@
     "handle": "vermont",
     "type": "state",
     "parentId": 8,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -317,6 +460,7 @@
     "handle": "london",
     "type": "town",
     "parentId": 7,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -325,6 +469,9 @@
     "handle": "hemingford-county-nebraska",
     "type": "region",
     "parentId": 31,
+    "appears_in": [
+      "1922"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -333,6 +480,9 @@
     "handle": "mejis",
     "type": "region",
     "parentId": 17,
+    "appears_in": [
+      "the-dark-tower-iv-wizard-and-glass"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -341,6 +491,9 @@
     "handle": "mohaine-desert",
     "type": "region",
     "parentId": 18,
+    "appears_in": [
+      "the-dark-tower-the-gunslinger"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -349,6 +502,10 @@
     "handle": "new-canaan",
     "type": "region",
     "parentId": 17,
+    "appears_in": [
+      "the-dark-tower-the-gunslinger",
+      "the-dark-tower-iv-wizard-and-glass"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -357,6 +514,10 @@
     "handle": "arnette-texas",
     "type": "town",
     "parentId": 38,
+    "appears_in": [
+      "the-stand",
+      "the-monkey"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -365,6 +526,9 @@
     "handle": "augusta-maine",
     "type": "town",
     "parentId": 28,
+    "appears_in": [
+      "the-tommyknockers"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -373,6 +537,7 @@
     "handle": "bakersfield-california",
     "type": "town",
     "parentId": 20,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -381,6 +546,9 @@
     "handle": "bankerton-iowa",
     "type": "town",
     "parentId": 25,
+    "appears_in": [
+      "doctor-sleep"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -389,6 +557,7 @@
     "handle": "boston",
     "type": "town",
     "parentId": 29,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -397,6 +566,11 @@
     "handle": "boulder-colorado",
     "type": "town",
     "parentId": 21,
+    "appears_in": [
+      "the-shining",
+      "the-stand",
+      "misery"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -405,6 +579,9 @@
     "handle": "braintree-texas",
     "type": "town",
     "parentId": 38,
+    "appears_in": [
+      "the-stand"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -413,6 +590,10 @@
     "handle": "bridgton-maine",
     "type": "town",
     "parentId": 28,
+    "appears_in": [
+      "trucks",
+      "the-mist"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -421,6 +602,10 @@
     "handle": "calla-bryn-sturgis",
     "type": "town",
     "parentId": 18,
+    "appears_in": [
+      "the-dark-tower-v-wolves-of-the-calla",
+      "calla-bryn-sturgis"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -429,6 +614,7 @@
     "handle": "caslin-nebraska",
     "type": "town",
     "parentId": 31,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -437,6 +623,24 @@
     "handle": "castle-rock-maine",
     "type": "town",
     "parentId": 28,
+    "appears_in": [
+      "the-dead-zone",
+      "cujo",
+      "the-dark-half",
+      "needful-things",
+      "bag-of-bones",
+      "lisey-s-story",
+      "gwendy-s-button-box",
+      "elevation",
+      "gwendy-s-final-task",
+      "it-grows-on-you",
+      "the-body",
+      "uncle-otto-s-truck",
+      "gramma",
+      "the-sun-dog",
+      "the-man-in-the-black-suit",
+      "premium-harmony"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -445,6 +649,18 @@
     "handle": "castle-view-maine",
     "type": "town",
     "parentId": 28,
+    "appears_in": [
+      "needful-things",
+      "the-girl-who-loved-tom-gordon",
+      "lisey-s-story",
+      "gwendy-s-button-box",
+      "elevation",
+      "gwendy-s-final-task",
+      "the-body",
+      "gramma",
+      "a-good-marriage",
+      "two-talented-bastids"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -453,6 +669,10 @@
     "handle": "chamberlain-maine",
     "type": "town",
     "parentId": 28,
+    "appears_in": [
+      "carrie",
+      "cell"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -461,6 +681,10 @@
     "handle": "chester-s-mill-maine",
     "type": "town",
     "parentId": 28,
+    "appears_in": [
+      "under-the-dome",
+      "n-"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -469,6 +693,9 @@
     "handle": "crouch-end",
     "type": "town",
     "parentId": 40,
+    "appears_in": [
+      "crouch-end"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -477,6 +704,7 @@
     "handle": "davenport-iowa",
     "type": "town",
     "parentId": 25,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -485,6 +713,9 @@
     "handle": "debaria",
     "type": "town",
     "parentId": 17,
+    "appears_in": [
+      "the-dark-tower-the-wind-through-the-keyhole"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -493,6 +724,29 @@
     "handle": "derry-maine",
     "type": "town",
     "parentId": 28,
+    "appears_in": [
+      "the-running-man",
+      "pet-sematary",
+      "it",
+      "the-tommyknockers",
+      "gerald-s-game",
+      "insomnia",
+      "bag-of-bones",
+      "dreamcatcher",
+      "the-dark-tower-vii-the-dark-tower",
+      "lisey-s-story",
+      "11-22-63",
+      "gwendy-s-final-task",
+      "the-bird-and-the-album",
+      "mrs-todd-s-shortcut",
+      "the-night-flier",
+      "secret-window-secret-garden",
+      "autopsy-room-four",
+      "the-road-virus-heads-north",
+      "hearts-in-atlantis",
+      "mute",
+      "fair-extension"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -501,6 +755,10 @@
     "handle": "desperation-nevada",
     "type": "town",
     "parentId": 32,
+    "appears_in": [
+      "desperation",
+      "the-regulators"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -509,6 +767,9 @@
     "handle": "eluria",
     "type": "town",
     "parentId": 18,
+    "appears_in": [
+      "the-little-sisters-of-eluria"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -517,6 +778,9 @@
     "handle": "eustace-oklahoma",
     "type": "town",
     "parentId": 37,
+    "appears_in": [
+      "the-stand"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -525,6 +789,9 @@
     "handle": "fedic",
     "type": "town",
     "parentId": 16,
+    "appears_in": [
+      "the-dark-tower-vii-the-dark-tower"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -533,6 +800,9 @@
     "handle": "freeport-maine",
     "type": "town",
     "parentId": 28,
+    "appears_in": [
+      "the-long-walk"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -541,6 +811,9 @@
     "handle": "gates-falls",
     "type": "town",
     "parentId": 28,
+    "appears_in": [
+      "graveyard-shift"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -549,6 +822,9 @@
     "handle": "gatlin-nebraska",
     "type": "town",
     "parentId": 31,
+    "appears_in": [
+      "children-of-the-corn"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -557,6 +833,9 @@
     "handle": "hammer-crossing-kansas",
     "type": "town",
     "parentId": 26,
+    "appears_in": [
+      "the-stand"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -565,6 +844,9 @@
     "handle": "harrison-ohio",
     "type": "town",
     "parentId": 36,
+    "appears_in": [
+      "firestarter"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -573,6 +855,9 @@
     "handle": "harwich-connecticut",
     "type": "town",
     "parentId": 22,
+    "appears_in": [
+      "low-men-in-yellow-coats"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -581,6 +866,9 @@
     "handle": "hastings-glen",
     "type": "town",
     "parentId": 34,
+    "appears_in": [
+      "firestarter"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -589,6 +877,11 @@
     "handle": "haven-maine",
     "type": "town",
     "parentId": 28,
+    "appears_in": [
+      "the-tommyknockers",
+      "mrs-todd-s-shortcut",
+      "the-revelations-of-becka-paulson"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -597,6 +890,9 @@
     "handle": "heaven-s-bay-north-carolina",
     "type": "town",
     "parentId": 35,
+    "appears_in": [
+      "joyland"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -605,6 +901,11 @@
     "handle": "jerusalem-s-lot-maine",
     "type": "town",
     "parentId": 28,
+    "appears_in": [
+      "salem-s-lot",
+      "one-for-the-road",
+      "jerusalem-s-lot"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -613,6 +914,11 @@
     "handle": "junction-city-iowa",
     "type": "town",
     "parentId": 25,
+    "appears_in": [
+      "desperation",
+      "the-regulators",
+      "the-library-policeman"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -621,6 +927,11 @@
     "handle": "kashwakamak-maine",
     "type": "town",
     "parentId": 28,
+    "appears_in": [
+      "gerald-s-game",
+      "cell",
+      "the-man-in-the-black-suit"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -629,6 +940,7 @@
     "handle": "lake-belle-reve-mississippi",
     "type": "town",
     "parentId": 30,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -637,6 +949,10 @@
     "handle": "las-vegas-nevada",
     "type": "town",
     "parentId": 32,
+    "appears_in": [
+      "the-stand",
+      "dolan-s-cadillac"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -645,6 +961,10 @@
     "handle": "lewiston-maine",
     "type": "town",
     "parentId": 28,
+    "appears_in": [
+      "carrie",
+      "gwendy-s-final-task"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -653,6 +973,7 @@
     "handle": "lexingworth",
     "type": "town",
     "parentId": 18,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -661,6 +982,10 @@
     "handle": "little-tall-island",
     "type": "town",
     "parentId": 28,
+    "appears_in": [
+      "dolores-claiborne",
+      "home-delivery"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -669,6 +994,7 @@
     "handle": "lovell-maine",
     "type": "town",
     "parentId": 28,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -677,6 +1003,9 @@
     "handle": "lud",
     "type": "town",
     "parentId": 18,
+    "appears_in": [
+      "the-dark-tower-iii-the-waste-lands"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -685,6 +1014,10 @@
     "handle": "ludlow-maine",
     "type": "town",
     "parentId": 28,
+    "appears_in": [
+      "pet-sematary",
+      "the-dark-half"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -693,6 +1026,7 @@
     "handle": "may-oklahoma",
     "type": "town",
     "parentId": 37,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -701,6 +1035,9 @@
     "handle": "moose-lookit-island",
     "type": "town",
     "parentId": 28,
+    "appears_in": [
+      "the-colorado-kid"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -709,6 +1046,13 @@
     "handle": "motton-maine",
     "type": "town",
     "parentId": 28,
+    "appears_in": [
+      "carrie",
+      "under-the-dome",
+      "revival",
+      "the-man-in-the-black-suit",
+      "n-"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -717,6 +1061,7 @@
     "handle": "new-york-city",
     "type": "town",
     "parentId": 34,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -725,6 +1070,7 @@
     "handle": "nodd-s-ridge-maine",
     "type": "town",
     "parentId": 28,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -733,6 +1079,9 @@
     "handle": "ogunquit-maine",
     "type": "town",
     "parentId": 28,
+    "appears_in": [
+      "the-stand"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -741,6 +1090,9 @@
     "handle": "placerville-maine",
     "type": "town",
     "parentId": 28,
+    "appears_in": [
+      "rage"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -749,6 +1101,9 @@
     "handle": "polliston-kansas",
     "type": "town",
     "parentId": 26,
+    "appears_in": [
+      "the-stand"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -757,6 +1112,9 @@
     "handle": "portland-maine",
     "type": "town",
     "parentId": 28,
+    "appears_in": [
+      "salem-s-lot"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -765,6 +1123,7 @@
     "handle": "pownal-maine",
     "type": "town",
     "parentId": 28,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -773,6 +1132,7 @@
     "handle": "powtanville-indiana",
     "type": "town",
     "parentId": 24,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -781,6 +1141,7 @@
     "handle": "pratt-kansas",
     "type": "town",
     "parentId": 26,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -789,6 +1150,9 @@
     "handle": "preacher-s-corners-maine",
     "type": "town",
     "parentId": 28,
+    "appears_in": [
+      "jerusalem-s-lot"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -797,6 +1161,9 @@
     "handle": "princetown",
     "type": "town",
     "parentId": 18,
+    "appears_in": [
+      "the-dark-tower-the-gunslinger"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -805,6 +1172,9 @@
     "handle": "ridgeway-new-hampshire",
     "type": "town",
     "parentId": 33,
+    "appears_in": [
+      "the-dead-zone"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -813,6 +1183,9 @@
     "handle": "river-crossing",
     "type": "town",
     "parentId": 18,
+    "appears_in": [
+      "the-dark-tower-iii-the-waste-lands"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -821,6 +1194,9 @@
     "handle": "santo-donato",
     "type": "town",
     "parentId": 20,
+    "appears_in": [
+      "apt-pupil"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -829,6 +1205,7 @@
     "handle": "sarasota-florida",
     "type": "town",
     "parentId": 23,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -837,6 +1214,9 @@
     "handle": "shoyo-arkansas",
     "type": "town",
     "parentId": 19,
+    "appears_in": [
+      "the-stand"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -845,6 +1225,12 @@
     "handle": "sidewinder-colorado",
     "type": "town",
     "parentId": 21,
+    "appears_in": [
+      "the-shining",
+      "misery",
+      "doctor-sleep",
+      "billy-summers"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -853,6 +1239,7 @@
     "handle": "south-gansett-new-hampshire",
     "type": "town",
     "parentId": 33,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -861,6 +1248,11 @@
     "handle": "stovington-vermont",
     "type": "town",
     "parentId": 39,
+    "appears_in": [
+      "the-shining",
+      "the-stand",
+      "the-dead-zone"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -869,6 +1261,10 @@
     "handle": "tarker-s-mill-maine",
     "type": "town",
     "parentId": 28,
+    "appears_in": [
+      "cycle-of-the-werewolf",
+      "under-the-dome"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -877,6 +1273,9 @@
     "handle": "tashmore-maine",
     "type": "town",
     "parentId": 28,
+    "appears_in": [
+      "secret-window-secret-garden"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -885,6 +1284,7 @@
     "handle": "taunton",
     "type": "town",
     "parentId": 17,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -893,6 +1293,7 @@
     "handle": "tejuas",
     "type": "town",
     "parentId": 18,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -901,6 +1302,9 @@
     "handle": "tinnock-village-maine",
     "type": "town",
     "parentId": 28,
+    "appears_in": [
+      "the-colorado-kid"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -909,6 +1313,14 @@
     "handle": "tr-90-maine",
     "type": "town",
     "parentId": 28,
+    "appears_in": [
+      "bag-of-bones",
+      "the-girl-who-loved-tom-gordon",
+      "cell",
+      "under-the-dome",
+      "rat",
+      "two-talented-bastids"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -917,6 +1329,9 @@
     "handle": "trimbull-new-hampshire",
     "type": "town",
     "parentId": 33,
+    "appears_in": [
+      "the-dead-zone"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -925,6 +1340,10 @@
     "handle": "tull",
     "type": "town",
     "parentId": 18,
+    "appears_in": [
+      "the-dark-tower-the-gunslinger",
+      "the-gunslinger"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -933,6 +1352,7 @@
     "handle": "waterville-maine",
     "type": "town",
     "parentId": 28,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -941,6 +1361,9 @@
     "handle": "westover-maine",
     "type": "town",
     "parentId": 28,
+    "appears_in": [
+      "carrie"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -949,6 +1372,7 @@
     "handle": "yarmouth-maine",
     "type": "town",
     "parentId": 28,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -957,6 +1381,9 @@
     "handle": "ackerman-s-field",
     "type": "landmark",
     "parentId": 28,
+    "appears_in": [
+      "n-"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -965,6 +1392,9 @@
     "handle": "castle-lake",
     "type": "landmark",
     "parentId": 28,
+    "appears_in": [
+      "gwendy-s-button-box"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -973,6 +1403,9 @@
     "handle": "cyclopean-mountains",
     "type": "landmark",
     "parentId": 18,
+    "appears_in": [
+      "the-dark-tower-the-gunslinger"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -981,6 +1414,11 @@
     "handle": "dark-score-lake",
     "type": "landmark",
     "parentId": 28,
+    "appears_in": [
+      "bag-of-bones",
+      "gwendy-s-button-box",
+      "the-dreamers"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -989,6 +1427,10 @@
     "handle": "desatoya-mountains",
     "type": "landmark",
     "parentId": 32,
+    "appears_in": [
+      "desperation",
+      "the-little-sisters-of-eluria"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -997,6 +1439,7 @@
     "handle": "dingle-nook",
     "type": "landmark",
     "parentId": 28,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1005,6 +1448,10 @@
     "handle": "rattlesnake-key",
     "type": "landmark",
     "parentId": 23,
+    "appears_in": [
+      "laurie",
+      "rattlesnakes"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1013,6 +1460,9 @@
     "handle": "second-horizons",
     "type": "landmark",
     "parentId": 28,
+    "appears_in": [
+      "under-the-dome"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1021,6 +1471,9 @@
     "handle": "cold-mountain-penitentiary",
     "type": "building",
     "parentId": 27,
+    "appears_in": [
+      "the-green-mile"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1029,6 +1482,9 @@
     "handle": "cumberland-consolidated-high-school",
     "type": "building",
     "parentId": 28,
+    "appears_in": [
+      "salem-s-lot"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1037,6 +1493,9 @@
     "handle": "dogan",
     "type": "building",
     "parentId": 18,
+    "appears_in": [
+      "the-dark-tower-v-wolves-of-the-calla"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1045,6 +1504,9 @@
     "handle": "le-casse-roi-russe",
     "type": "building",
     "parentId": 16,
+    "appears_in": [
+      "the-dark-tower-vii-the-dark-tower"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1053,6 +1515,9 @@
     "handle": "mills-high-school",
     "type": "building",
     "parentId": 28,
+    "appears_in": [
+      "under-the-dome"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1061,6 +1526,9 @@
     "handle": "overlook-hotel",
     "type": "building",
     "parentId": 21,
+    "appears_in": [
+      "the-shining"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1069,6 +1537,13 @@
     "handle": "shawshank-state-prison",
     "type": "building",
     "parentId": 28,
+    "appears_in": [
+      "it",
+      "dolores-claiborne",
+      "blaze",
+      "apt-pupil",
+      "rita-hayworth-and-shawshank-redemption"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1077,6 +1552,7 @@
     "handle": "south-windham-boys-training-facility",
     "type": "building",
     "parentId": 28,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1085,6 +1561,10 @@
     "handle": "gilead",
     "type": "town",
     "parentId": 44,
+    "appears_in": [
+      "the-dark-tower-the-gunslinger",
+      "the-dark-tower-iv-wizard-and-glass"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1093,6 +1573,9 @@
     "handle": "hambry-mejis",
     "type": "town",
     "parentId": 42,
+    "appears_in": [
+      "the-dark-tower-iv-wizard-and-glass"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1101,6 +1584,7 @@
     "handle": "hemingford-city-nebraska",
     "type": "town",
     "parentId": 41,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1109,6 +1593,15 @@
     "handle": "hemingford-home-nebraska",
     "type": "town",
     "parentId": 41,
+    "appears_in": [
+      "the-stand",
+      "it",
+      "billy-summers",
+      "other-worlds-than-these",
+      "children-of-the-corn",
+      "the-last-rung-on-the-ladder",
+      "1922"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1117,6 +1610,9 @@
     "handle": "black-ridge",
     "type": "landmark",
     "parentId": 58,
+    "appears_in": [
+      "under-the-dome"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1125,6 +1621,7 @@
     "handle": "carbine-street",
     "type": "landmark",
     "parentId": 55,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1133,6 +1630,9 @@
     "handle": "dead-man-s-trail",
     "type": "landmark",
     "parentId": 96,
+    "appears_in": [
+      "a-good-marriage"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1141,6 +1641,7 @@
     "handle": "derry-cemetery",
     "type": "landmark",
     "parentId": 62,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1149,6 +1650,7 @@
     "handle": "hammock-beach-maine",
     "type": "landmark",
     "parentId": 88,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1157,6 +1659,10 @@
     "handle": "harmony-hill-cemetery",
     "type": "landmark",
     "parentId": 76,
+    "appears_in": [
+      "salem-s-lot",
+      "rattlesnakes"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1165,6 +1671,9 @@
     "handle": "joyland-park",
     "type": "landmark",
     "parentId": 75,
+    "appears_in": [
+      "joyland"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1173,6 +1682,7 @@
     "handle": "lake-east-point",
     "type": "landmark",
     "parentId": 58,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1181,6 +1691,7 @@
     "handle": "little-hay-beach",
     "type": "landmark",
     "parentId": 88,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1189,6 +1700,9 @@
     "handle": "moose-cove",
     "type": "landmark",
     "parentId": 88,
+    "appears_in": [
+      "the-colorado-kid"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1197,6 +1711,9 @@
     "handle": "pennywise-s-lair",
     "type": "landmark",
     "parentId": 62,
+    "appears_in": [
+      "it"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1205,6 +1722,7 @@
     "handle": "seaview-cemetery",
     "type": "landmark",
     "parentId": 113,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1213,6 +1731,7 @@
     "handle": "sixth-street-bridge",
     "type": "landmark",
     "parentId": 58,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1221,6 +1740,9 @@
     "handle": "tashmore-lake",
     "type": "landmark",
     "parentId": 110,
+    "appears_in": [
+      "secret-window-secret-garden"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1229,6 +1751,9 @@
     "handle": "tracker-brothers-baseball-field",
     "type": "landmark",
     "parentId": 62,
+    "appears_in": [
+      "it"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1237,6 +1762,9 @@
     "handle": "augusta-veterinary-clinic",
     "type": "building",
     "parentId": 46,
+    "appears_in": [
+      "the-tommyknockers"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1245,6 +1773,9 @@
     "handle": "big-lost-weekend-bar-grille",
     "type": "building",
     "parentId": 46,
+    "appears_in": [
+      "the-tommyknockers"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1253,6 +1784,9 @@
     "handle": "brock-street-school",
     "type": "building",
     "parentId": 76,
+    "appears_in": [
+      "salem-s-lot"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1261,6 +1795,9 @@
     "handle": "castle-rock-high-school",
     "type": "building",
     "parentId": 55,
+    "appears_in": [
+      "gwendy-s-button-box"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1269,6 +1806,9 @@
     "handle": "castle-rock-middle-school",
     "type": "building",
     "parentId": 55,
+    "appears_in": [
+      "gwendy-s-button-box"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1277,6 +1817,9 @@
     "handle": "catherine-russell-hospital",
     "type": "building",
     "parentId": 58,
+    "appears_in": [
+      "under-the-dome"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1285,6 +1828,9 @@
     "handle": "denbrough-house",
     "type": "building",
     "parentId": 62,
+    "appears_in": [
+      "it"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1293,6 +1839,10 @@
     "handle": "derry-civic-center",
     "type": "building",
     "parentId": 62,
+    "appears_in": [
+      "insomnia",
+      "under-the-dome"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1301,6 +1851,9 @@
     "handle": "derry-high-school",
     "type": "building",
     "parentId": 62,
+    "appears_in": [
+      "it"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1309,6 +1862,10 @@
     "handle": "derry-public-library",
     "type": "building",
     "parentId": 62,
+    "appears_in": [
+      "it",
+      "insomnia"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1317,6 +1874,9 @@
     "handle": "east-street-grammar-school",
     "type": "building",
     "parentId": 58,
+    "appears_in": [
+      "under-the-dome"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1325,6 +1885,9 @@
     "handle": "ed-smith-stadium",
     "type": "building",
     "parentId": 104,
+    "appears_in": [
+      "blockade-billy"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1333,6 +1896,9 @@
     "handle": "harrison-state-college",
     "type": "building",
     "parentId": 71,
+    "appears_in": [
+      "firestarter"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1341,6 +1907,9 @@
     "handle": "hotel-dolphin",
     "type": "building",
     "parentId": 90,
+    "appears_in": [
+      "1408"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1349,6 +1918,9 @@
     "handle": "jerusalem-s-lot-public-library",
     "type": "building",
     "parentId": 76,
+    "appears_in": [
+      "salem-s-lot"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1357,6 +1929,9 @@
     "handle": "marsten-house",
     "type": "building",
     "parentId": 76,
+    "appears_in": [
+      "salem-s-lot"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1365,6 +1940,9 @@
     "handle": "ottershaw-christian-home-for-boys",
     "type": "building",
     "parentId": 60,
+    "appears_in": [
+      "blockade-billy"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1373,6 +1951,9 @@
     "handle": "room-237",
     "type": "building",
     "parentId": 133,
+    "appears_in": [
+      "the-shining"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1381,6 +1962,9 @@
     "handle": "stanley-street-elementary-school",
     "type": "building",
     "parentId": 76,
+    "appears_in": [
+      "salem-s-lot"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1389,6 +1973,7 @@
     "handle": "tashmore-methodist-church",
     "type": "building",
     "parentId": 110,
+    "appears_in": [],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1397,6 +1982,9 @@
     "handle": "the-cavalier-bar",
     "type": "building",
     "parentId": 57,
+    "appears_in": [
+      "carrie"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1405,6 +1993,10 @@
     "handle": "the-club",
     "type": "building",
     "parentId": 90,
+    "appears_in": [
+      "the-man-who-would-not-shake-hands",
+      "the-breathing-method"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1413,6 +2005,9 @@
     "handle": "the-falcon",
     "type": "building",
     "parentId": 62,
+    "appears_in": [
+      "it"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1421,6 +2016,9 @@
     "handle": "the-slumberland-motel",
     "type": "building",
     "parentId": 73,
+    "appears_in": [
+      "firestarter"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1429,6 +2027,9 @@
     "handle": "the-standpipe",
     "type": "building",
     "parentId": 62,
+    "appears_in": [
+      "it"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1437,6 +2038,10 @@
     "handle": "the-way-station",
     "type": "building",
     "parentId": 43,
+    "appears_in": [
+      "the-dark-tower-the-gunslinger",
+      "the-way-station"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1445,6 +2050,9 @@
     "handle": "thomas-ewen-consolidated-high-school",
     "type": "building",
     "parentId": 57,
+    "appears_in": [
+      "carrie"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1453,6 +2061,9 @@
     "handle": "wcik",
     "type": "building",
     "parentId": 58,
+    "appears_in": [
+      "under-the-dome"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1461,6 +2072,9 @@
     "handle": "well-house",
     "type": "building",
     "parentId": 62,
+    "appears_in": [
+      "it"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   },
   {
@@ -1469,6 +2083,9 @@
     "handle": "womancare",
     "type": "building",
     "parentId": 62,
+    "appears_in": [
+      "insomnia"
+    ],
     "created_at": "2026-10-28T20:25:46.000Z"
   }
 ]

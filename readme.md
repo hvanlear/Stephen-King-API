@@ -21,7 +21,7 @@ _All routes are GET routes. No API key is needed._
 | `/api/villains` | All villains |
 | `/api/villain/:id` | One villain |
 | `/api/places` | All places, from buildings up to towns, states and other worlds |
-| `/api/place/:id` | One place, with the place it's in and the places inside it |
+| `/api/place/:id` | One place, with the place it's in, the places inside it, the works set there and the villains who live there |
 
 - The list routes return everything by default. To page through results instead, pass `page` and `limit` together (`limit` is capped at 100).
 - Each IP address can make 100 requests a minute.
@@ -66,6 +66,8 @@ The data lives in four files: `catalog/books.json`, `catalog/shorts.json`, `cata
 1. **Never change or remove an id.** Apps save links like `/api/book/3`, and those have to keep pointing at the same book.
 1. **To link a villain** to the works it appears in, list their `handle`s in the villain's `appears_in`. Books and shorts get their `villains` links from that list.
 1. **To add a place**, give it a `type` (world, region, country, state, town, landmark or building) and the `parentId` of the place it's in: Marsten House is in Jerusalem's Lot, Maine, which is in Maine. Use `null` for a place the stories don't put anywhere named.
+1. **To link a place** to the works set there, list their `handle`s in the place's `appears_in`. Leave out works that only mention it.
+1. **To say where a villain lives**, list place `handle`s in the villain's `residence`. Give the most specific place: a villain living in the Marsten House is listed under Jerusalem's Lot and Maine as well.
 1. **Run `npm run validate-data`** and fix anything it reports.
 1. **Update the test snapshots** with `npx ts-node test/contract/capture.ts --local`. The tests compare responses against them, so every data change shows up there too. Check that the diff only shows your change.
 1. **Open a pull request.** CI runs the build, the tests and the data check. The PR can't be merged until they all pass.

@@ -12,7 +12,24 @@
         "name": "Jerusalem's Lot, Maine",
         "url": "https://stephen-king-api.onrender.com/api/place/76"
       },
-      "places": []
+      "places": [],
+      "books": [
+        {
+          "title": "Salem's Lot",
+          "url": "https://stephen-king-api.onrender.com/api/book/2"
+        }
+      ],
+      "shorts": [],
+      "villains": [
+        {
+          "name": "Kurt Barlow",
+          "url": "https://stephen-king-api.onrender.com/api/villain/2"
+        },
+        {
+          "name": "Richard Straker",
+          "url": "https://stephen-king-api.onrender.com/api/villain/98"
+        }
+      ]
     }
   }
 }

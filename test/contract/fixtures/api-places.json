@@ -23,6 +23,76 @@
             "name": "Mid-world",
             "url": "https://stephen-king-api.onrender.com/api/place/18"
           }
+        ],
+        "books": [
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12"
+          },
+          {
+            "title": "The Talisman",
+            "url": "https://stephen-king-api.onrender.com/api/book/16"
+          },
+          {
+            "title": "The Eyes of the Dragon",
+            "url": "https://stephen-king-api.onrender.com/api/book/17"
+          },
+          {
+            "title": "The Dark Tower II: The Drawing of the Three",
+            "url": "https://stephen-king-api.onrender.com/api/book/20"
+          },
+          {
+            "title": "The Dark Tower III: The Waste Lands",
+            "url": "https://stephen-king-api.onrender.com/api/book/25"
+          },
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34"
+          },
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40"
+          },
+          {
+            "title": "The Dark Tower VI: Song of Susannah",
+            "url": "https://stephen-king-api.onrender.com/api/book/41"
+          },
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42"
+          },
+          {
+            "title": "The Dark Tower: The Wind Through the Keyhole",
+            "url": "https://stephen-king-api.onrender.com/api/book/50"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "The Little Sisters of Eluria",
+            "url": "https://stephen-king-api.onrender.com/api/short/139"
+          }
+        ],
+        "villains": [
+          {
+            "name": "Marten Broadcloak",
+            "url": "https://stephen-king-api.onrender.com/api/villain/10"
+          },
+          {
+            "name": "Rhea Dubativo",
+            "url": "https://stephen-king-api.onrender.com/api/villain/32"
+          },
+          {
+            "name": "Eldred Jonas",
+            "url": "https://stephen-king-api.onrender.com/api/villain/60"
+          },
+          {
+            "name": "Sylvia Pittston",
+            "url": "https://stephen-king-api.onrender.com/api/villain/84"
+          },
+          {
+            "name": "Ben Slightman",
+            "url": "https://stephen-king-api.onrender.com/api/villain/178"
+          }
         ]
       },
       {
@@ -32,7 +102,20 @@
         "type": "world",
         "created_at": "2026-10-28T20:25:46.000Z",
         "parent": null,
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Lisey's Story",
+            "url": "https://stephen-king-api.onrender.com/api/book/45"
+          }
+        ],
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Long Boy",
+            "url": "https://stephen-king-api.onrender.com/api/villain/190"
+          }
+        ]
       },
       {
         "id": 3,
@@ -41,7 +124,20 @@
         "type": "world",
         "created_at": "2026-10-28T20:25:46.000Z",
         "parent": null,
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": [],
+        "villains": [
+          {
+            "name": "It (Creature)",
+            "url": "https://stephen-king-api.onrender.com/api/villain/57"
+          }
+        ]
       },
       {
         "id": 4,
@@ -50,7 +146,15 @@
         "type": "world",
         "created_at": "2026-10-28T20:25:46.000Z",
         "parent": null,
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Revival",
+            "url": "https://stephen-king-api.onrender.com/api/book/54"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 5,
@@ -59,7 +163,19 @@
         "type": "world",
         "created_at": "2026-10-28T20:25:46.000Z",
         "parent": null,
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Talisman",
+            "url": "https://stephen-king-api.onrender.com/api/book/16"
+          },
+          {
+            "title": "Black House",
+            "url": "https://stephen-king-api.onrender.com/api/book/38"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 6,
@@ -68,7 +184,49 @@
         "type": "world",
         "created_at": "2026-10-28T20:25:46.000Z",
         "parent": null,
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Salem's Lot",
+            "url": "https://stephen-king-api.onrender.com/api/book/2"
+          },
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          },
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40"
+          },
+          {
+            "title": "The Dark Tower VI: Song of Susannah",
+            "url": "https://stephen-king-api.onrender.com/api/book/41"
+          },
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "The Mist",
+            "url": "https://stephen-king-api.onrender.com/api/short/67"
+          },
+          {
+            "title": "Crouch End",
+            "url": "https://stephen-king-api.onrender.com/api/short/68"
+          },
+          {
+            "title": "N.",
+            "url": "https://stephen-king-api.onrender.com/api/short/168"
+          }
+        ],
+        "villains": [
+          {
+            "name": "It (Creature)",
+            "url": "https://stephen-king-api.onrender.com/api/villain/57"
+          }
+        ]
       },
       {
         "id": 7,
@@ -82,7 +240,10 @@
             "name": "London",
             "url": "https://stephen-king-api.onrender.com/api/place/40"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 8,
@@ -176,6 +337,282 @@
             "name": "Vermont",
             "url": "https://stephen-king-api.onrender.com/api/place/39"
           }
+        ],
+        "books": [],
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Bob Anderson",
+            "url": "https://stephen-king-api.onrender.com/api/villain/1"
+          },
+          {
+            "name": "Kurt Barlow",
+            "url": "https://stephen-king-api.onrender.com/api/villain/2"
+          },
+          {
+            "name": "Tina Blake",
+            "url": "https://stephen-king-api.onrender.com/api/villain/4"
+          },
+          {
+            "name": "James Boon",
+            "url": "https://stephen-king-api.onrender.com/api/villain/6"
+          },
+          {
+            "name": "Henry Bowers",
+            "url": "https://stephen-king-api.onrender.com/api/villain/7"
+          },
+          {
+            "name": "Butch Bowers",
+            "url": "https://stephen-king-api.onrender.com/api/villain/8"
+          },
+          {
+            "name": "Greta Bowie",
+            "url": "https://stephen-king-api.onrender.com/api/villain/9"
+          },
+          {
+            "name": "Winston Church",
+            "url": "https://stephen-king-api.onrender.com/api/villain/13"
+          },
+          {
+            "name": "Cindi",
+            "url": "https://stephen-king-api.onrender.com/api/villain/14"
+          },
+          {
+            "name": "Gage Creed",
+            "url": "https://stephen-king-api.onrender.com/api/villain/15"
+          },
+          {
+            "name": "Myra Crewes",
+            "url": "https://stephen-king-api.onrender.com/api/villain/16"
+          },
+          {
+            "name": "Victor Criss",
+            "url": "https://stephen-king-api.onrender.com/api/villain/18"
+          },
+          {
+            "name": "Cujo",
+            "url": "https://stephen-king-api.onrender.com/api/villain/19"
+          },
+          {
+            "name": "Billy deLois",
+            "url": "https://stephen-king-api.onrender.com/api/villain/25"
+          },
+          {
+            "name": "Horace M. Derwent",
+            "url": "https://stephen-king-api.onrender.com/api/villain/26"
+          },
+          {
+            "name": "Donald Merwin Elbert",
+            "url": "https://stephen-king-api.onrender.com/api/villain/34"
+          },
+          {
+            "name": "Marcia Fadden",
+            "url": "https://stephen-king-api.onrender.com/api/villain/35"
+          },
+          {
+            "name": "Kenny Garson",
+            "url": "https://stephen-king-api.onrender.com/api/villain/38"
+          },
+          {
+            "name": "John Garton",
+            "url": "https://stephen-king-api.onrender.com/api/villain/39"
+          },
+          {
+            "name": "Leland Gaunt",
+            "url": "https://stephen-king-api.onrender.com/api/villain/40"
+          },
+          {
+            "name": "Gerald Burlingame",
+            "url": "https://stephen-king-api.onrender.com/api/villain/41"
+          },
+          {
+            "name": "Peter Gordon",
+            "url": "https://stephen-king-api.onrender.com/api/villain/43"
+          },
+          {
+            "name": "Mary Lila Grace",
+            "url": "https://stephen-king-api.onrender.com/api/villain/44"
+          },
+          {
+            "name": "Delbert Grady",
+            "url": "https://stephen-king-api.onrender.com/api/villain/45"
+          },
+          {
+            "name": "Christine Hargensen",
+            "url": "https://stephen-king-api.onrender.com/api/villain/49"
+          },
+          {
+            "name": "Patrick Hockstetter",
+            "url": "https://stephen-king-api.onrender.com/api/villain/53"
+          },
+          {
+            "name": "Belch Huggins",
+            "url": "https://stephen-king-api.onrender.com/api/villain/55"
+          },
+          {
+            "name": "It (Creature)",
+            "url": "https://stephen-king-api.onrender.com/api/villain/57"
+          },
+          {
+            "name": "Henry James",
+            "url": "https://stephen-king-api.onrender.com/api/villain/58"
+          },
+          {
+            "name": "Wilfred James",
+            "url": "https://stephen-king-api.onrender.com/api/villain/59"
+          },
+          {
+            "name": "Raymond Andrew Joubert",
+            "url": "https://stephen-king-api.onrender.com/api/villain/61"
+          },
+          {
+            "name": "Harold Lauder",
+            "url": "https://stephen-king-api.onrender.com/api/villain/64"
+          },
+          {
+            "name": "Lester Lowe",
+            "url": "https://stephen-king-api.onrender.com/api/villain/68"
+          },
+          {
+            "name": "Richard P. Macklin",
+            "url": "https://stephen-king-api.onrender.com/api/villain/69"
+          },
+          {
+            "name": "Alvin Marsh",
+            "url": "https://stephen-king-api.onrender.com/api/villain/72"
+          },
+          {
+            "name": "Charlie McGee",
+            "url": "https://stephen-king-api.onrender.com/api/villain/73"
+          },
+          {
+            "name": "John \"Ace\" Merrill",
+            "url": "https://stephen-king-api.onrender.com/api/villain/74"
+          },
+          {
+            "name": "Vic Mooney",
+            "url": "https://stephen-king-api.onrender.com/api/villain/75"
+          },
+          {
+            "name": "Sally Mueller",
+            "url": "https://stephen-king-api.onrender.com/api/villain/79"
+          },
+          {
+            "name": "Billy Nolan",
+            "url": "https://stephen-king-api.onrender.com/api/villain/80"
+          },
+          {
+            "name": "Jim Rennie, Jr.",
+            "url": "https://stephen-king-api.onrender.com/api/villain/88"
+          },
+          {
+            "name": "Jim Rennie",
+            "url": "https://stephen-king-api.onrender.com/api/villain/89"
+          },
+          {
+            "name": "Elenor Richmond",
+            "url": "https://stephen-king-api.onrender.com/api/villain/90"
+          },
+          {
+            "name": "Rachel Spies",
+            "url": "https://stephen-king-api.onrender.com/api/villain/94"
+          },
+          {
+            "name": "Joe St. George",
+            "url": "https://stephen-king-api.onrender.com/api/villain/95"
+          },
+          {
+            "name": "Richard Straker",
+            "url": "https://stephen-king-api.onrender.com/api/villain/98"
+          },
+          {
+            "name": "Jackie Talbot",
+            "url": "https://stephen-king-api.onrender.com/api/villain/99"
+          },
+          {
+            "name": "Carter Thibodeau",
+            "url": "https://stephen-king-api.onrender.com/api/villain/101"
+          },
+          {
+            "name": "Donna and Mary Lila Grace Thibodeau",
+            "url": "https://stephen-king-api.onrender.com/api/villain/102"
+          },
+          {
+            "name": "Tom Mahout",
+            "url": "https://stephen-king-api.onrender.com/api/villain/103"
+          },
+          {
+            "name": "Christopher Unwin",
+            "url": "https://stephen-king-api.onrender.com/api/villain/107"
+          },
+          {
+            "name": "Jessica Upshaw",
+            "url": "https://stephen-king-api.onrender.com/api/villain/108"
+          },
+          {
+            "name": "Norma Watson",
+            "url": "https://stephen-king-api.onrender.com/api/villain/109"
+          },
+          {
+            "name": "Percy Wetmore",
+            "url": "https://stephen-king-api.onrender.com/api/villain/111"
+          },
+          {
+            "name": "Margaret White",
+            "url": "https://stephen-king-api.onrender.com/api/villain/113"
+          },
+          {
+            "name": "Al Bradley",
+            "url": "https://stephen-king-api.onrender.com/api/villain/116"
+          },
+          {
+            "name": "Billy Tessio",
+            "url": "https://stephen-king-api.onrender.com/api/villain/123"
+          },
+          {
+            "name": "Charlie Hogan",
+            "url": "https://stephen-king-api.onrender.com/api/villain/126"
+          },
+          {
+            "name": "Frank Dunning",
+            "url": "https://stephen-king-api.onrender.com/api/villain/134"
+          },
+          {
+            "name": "George Bradley",
+            "url": "https://stephen-king-api.onrender.com/api/villain/136"
+          },
+          {
+            "name": "Julie Lawry",
+            "url": "https://stephen-king-api.onrender.com/api/villain/146"
+          },
+          {
+            "name": "Milo Pressman",
+            "url": "https://stephen-king-api.onrender.com/api/villain/151"
+          },
+          {
+            "name": "Mrs. Carmody",
+            "url": "https://stephen-king-api.onrender.com/api/villain/157"
+          },
+          {
+            "name": "Norman Bracowicz",
+            "url": "https://stephen-king-api.onrender.com/api/villain/158"
+          },
+          {
+            "name": "Richard Chambers",
+            "url": "https://stephen-king-api.onrender.com/api/villain/160"
+          },
+          {
+            "name": "Tommy Erbter",
+            "url": "https://stephen-king-api.onrender.com/api/villain/170"
+          },
+          {
+            "name": "Vince Desjardins",
+            "url": "https://stephen-king-api.onrender.com/api/villain/173"
+          },
+          {
+            "name": "Jim Dooley",
+            "url": "https://stephen-king-api.onrender.com/api/villain/187"
+          }
         ]
       },
       {
@@ -185,7 +622,15 @@
         "type": "landmark",
         "created_at": "2026-10-28T20:25:46.000Z",
         "parent": null,
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Rose Madder",
+            "url": "https://stephen-king-api.onrender.com/api/book/30"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 10,
@@ -194,7 +639,15 @@
         "type": "landmark",
         "created_at": "2026-10-28T20:25:46.000Z",
         "parent": null,
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Apt Pupil",
+            "url": "https://stephen-king-api.onrender.com/api/short/83"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 11,
@@ -203,7 +656,15 @@
         "type": "building",
         "created_at": "2026-10-28T20:25:46.000Z",
         "parent": null,
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Rose Madder",
+            "url": "https://stephen-king-api.onrender.com/api/book/30"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 12,
@@ -212,7 +673,15 @@
         "type": "building",
         "created_at": "2026-10-28T20:25:46.000Z",
         "parent": null,
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "The Crate",
+            "url": "https://stephen-king-api.onrender.com/api/short/66"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 13,
@@ -221,7 +690,19 @@
         "type": "building",
         "created_at": "2026-10-28T20:25:46.000Z",
         "parent": null,
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Strawberry Spring",
+            "url": "https://stephen-king-api.onrender.com/api/short/23"
+          },
+          {
+            "title": "I Know What You Need",
+            "url": "https://stephen-king-api.onrender.com/api/short/52"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 14,
@@ -230,7 +711,15 @@
         "type": "building",
         "created_at": "2026-10-28T20:25:46.000Z",
         "parent": null,
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Everything's Eventual",
+            "url": "https://stephen-king-api.onrender.com/api/short/137"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 15,
@@ -239,7 +728,15 @@
         "type": "building",
         "created_at": "2026-10-28T20:25:46.000Z",
         "parent": null,
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Everything's Eventual",
+            "url": "https://stephen-king-api.onrender.com/api/short/137"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 16,
@@ -260,7 +757,39 @@
             "name": "Le Casse Roi Russe",
             "url": "https://stephen-king-api.onrender.com/api/place/131"
           }
-        ]
+        ],
+        "books": [
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12"
+          },
+          {
+            "title": "The Dark Tower II: The Drawing of the Three",
+            "url": "https://stephen-king-api.onrender.com/api/book/20"
+          },
+          {
+            "title": "The Dark Tower III: The Waste Lands",
+            "url": "https://stephen-king-api.onrender.com/api/book/25"
+          },
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34"
+          },
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40"
+          },
+          {
+            "title": "The Dark Tower VI: Song of Susannah",
+            "url": "https://stephen-king-api.onrender.com/api/book/41"
+          },
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 17,
@@ -288,6 +817,55 @@
           {
             "name": "Taunton",
             "url": "https://stephen-king-api.onrender.com/api/place/111"
+          }
+        ],
+        "books": [
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12"
+          },
+          {
+            "title": "The Eyes of the Dragon",
+            "url": "https://stephen-king-api.onrender.com/api/book/17"
+          },
+          {
+            "title": "The Dark Tower II: The Drawing of the Three",
+            "url": "https://stephen-king-api.onrender.com/api/book/20"
+          },
+          {
+            "title": "The Dark Tower III: The Waste Lands",
+            "url": "https://stephen-king-api.onrender.com/api/book/25"
+          },
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34"
+          },
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40"
+          },
+          {
+            "title": "The Dark Tower VI: Song of Susannah",
+            "url": "https://stephen-king-api.onrender.com/api/book/41"
+          },
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42"
+          }
+        ],
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Marten Broadcloak",
+            "url": "https://stephen-king-api.onrender.com/api/villain/10"
+          },
+          {
+            "name": "Rhea Dubativo",
+            "url": "https://stephen-king-api.onrender.com/api/villain/32"
+          },
+          {
+            "name": "Eldred Jonas",
+            "url": "https://stephen-king-api.onrender.com/api/villain/60"
           }
         ]
       },
@@ -346,6 +924,47 @@
             "name": "Dogan",
             "url": "https://stephen-king-api.onrender.com/api/place/130"
           }
+        ],
+        "books": [
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12"
+          },
+          {
+            "title": "The Dark Tower II: The Drawing of the Three",
+            "url": "https://stephen-king-api.onrender.com/api/book/20"
+          },
+          {
+            "title": "The Dark Tower III: The Waste Lands",
+            "url": "https://stephen-king-api.onrender.com/api/book/25"
+          },
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34"
+          },
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40"
+          },
+          {
+            "title": "The Dark Tower VI: Song of Susannah",
+            "url": "https://stephen-king-api.onrender.com/api/book/41"
+          },
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42"
+          }
+        ],
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Sylvia Pittston",
+            "url": "https://stephen-king-api.onrender.com/api/villain/84"
+          },
+          {
+            "name": "Ben Slightman",
+            "url": "https://stephen-king-api.onrender.com/api/villain/178"
+          }
         ]
       },
       {
@@ -363,7 +982,10 @@
             "name": "Shoyo, Arkansas",
             "url": "https://stephen-king-api.onrender.com/api/place/105"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 20,
@@ -384,7 +1006,10 @@
             "name": "Santo Donato",
             "url": "https://stephen-king-api.onrender.com/api/place/103"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 21,
@@ -409,6 +1034,18 @@
             "name": "Overlook Hotel",
             "url": "https://stephen-king-api.onrender.com/api/place/133"
           }
+        ],
+        "books": [],
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Horace M. Derwent",
+            "url": "https://stephen-king-api.onrender.com/api/villain/26"
+          },
+          {
+            "name": "Delbert Grady",
+            "url": "https://stephen-king-api.onrender.com/api/villain/45"
+          }
         ]
       },
       {
@@ -426,7 +1063,10 @@
             "name": "Harwich, Connecticut",
             "url": "https://stephen-king-api.onrender.com/api/place/72"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 23,
@@ -447,7 +1087,10 @@
             "name": "Rattlesnake Key",
             "url": "https://stephen-king-api.onrender.com/api/place/126"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 24,
@@ -463,6 +1106,14 @@
           {
             "name": "Powtanville, Indiana",
             "url": "https://stephen-king-api.onrender.com/api/place/97"
+          }
+        ],
+        "books": [],
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Donald Merwin Elbert",
+            "url": "https://stephen-king-api.onrender.com/api/villain/34"
           }
         ]
       },
@@ -489,7 +1140,10 @@
             "name": "Junction City, Iowa",
             "url": "https://stephen-king-api.onrender.com/api/place/77"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 26,
@@ -514,6 +1168,14 @@
             "name": "Pratt, Kansas",
             "url": "https://stephen-king-api.onrender.com/api/place/98"
           }
+        ],
+        "books": [],
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Julie Lawry",
+            "url": "https://stephen-king-api.onrender.com/api/villain/146"
+          }
         ]
       },
       {
@@ -530,6 +1192,14 @@
           {
             "name": "Cold Mountain Penitentiary",
             "url": "https://stephen-king-api.onrender.com/api/place/128"
+          }
+        ],
+        "books": [],
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Percy Wetmore",
+            "url": "https://stephen-king-api.onrender.com/api/villain/111"
           }
         ]
       },
@@ -704,6 +1374,392 @@
             "name": "South Windham Boys' Training Facility",
             "url": "https://stephen-king-api.onrender.com/api/place/135"
           }
+        ],
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          },
+          {
+            "title": "Salem's Lot",
+            "url": "https://stephen-king-api.onrender.com/api/book/2"
+          },
+          {
+            "title": "Rage",
+            "url": "https://stephen-king-api.onrender.com/api/book/4"
+          },
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          },
+          {
+            "title": "The Long Walk",
+            "url": "https://stephen-king-api.onrender.com/api/book/6"
+          },
+          {
+            "title": "The Dead Zone",
+            "url": "https://stephen-king-api.onrender.com/api/book/7"
+          },
+          {
+            "title": "Cujo",
+            "url": "https://stephen-king-api.onrender.com/api/book/10"
+          },
+          {
+            "title": "The Running Man",
+            "url": "https://stephen-king-api.onrender.com/api/book/11"
+          },
+          {
+            "title": "Pet Sematary",
+            "url": "https://stephen-king-api.onrender.com/api/book/14"
+          },
+          {
+            "title": "Cycle of the Werewolf",
+            "url": "https://stephen-king-api.onrender.com/api/book/15"
+          },
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          },
+          {
+            "title": "The Tommyknockers",
+            "url": "https://stephen-king-api.onrender.com/api/book/22"
+          },
+          {
+            "title": "The Dark Half",
+            "url": "https://stephen-king-api.onrender.com/api/book/23"
+          },
+          {
+            "title": "Needful Things",
+            "url": "https://stephen-king-api.onrender.com/api/book/26"
+          },
+          {
+            "title": "Gerald's Game",
+            "url": "https://stephen-king-api.onrender.com/api/book/27"
+          },
+          {
+            "title": "Dolores Claiborne",
+            "url": "https://stephen-king-api.onrender.com/api/book/28"
+          },
+          {
+            "title": "Insomnia",
+            "url": "https://stephen-king-api.onrender.com/api/book/29"
+          },
+          {
+            "title": "Bag of Bones",
+            "url": "https://stephen-king-api.onrender.com/api/book/35"
+          },
+          {
+            "title": "The Girl Who Loved Tom Gordon",
+            "url": "https://stephen-king-api.onrender.com/api/book/36"
+          },
+          {
+            "title": "Dreamcatcher",
+            "url": "https://stephen-king-api.onrender.com/api/book/37"
+          },
+          {
+            "title": "The Dark Tower VI: Song of Susannah",
+            "url": "https://stephen-king-api.onrender.com/api/book/41"
+          },
+          {
+            "title": "The Colorado Kid",
+            "url": "https://stephen-king-api.onrender.com/api/book/43"
+          },
+          {
+            "title": "Cell",
+            "url": "https://stephen-king-api.onrender.com/api/book/44"
+          },
+          {
+            "title": "Lisey's Story",
+            "url": "https://stephen-king-api.onrender.com/api/book/45"
+          },
+          {
+            "title": "Under the Dome",
+            "url": "https://stephen-king-api.onrender.com/api/book/48"
+          },
+          {
+            "title": "11/22/63",
+            "url": "https://stephen-king-api.onrender.com/api/book/49"
+          },
+          {
+            "title": "Revival",
+            "url": "https://stephen-king-api.onrender.com/api/book/54"
+          },
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/book/57"
+          },
+          {
+            "title": "The Institute",
+            "url": "https://stephen-king-api.onrender.com/api/book/61"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "The Body",
+            "url": "https://stephen-king-api.onrender.com/api/short/84"
+          },
+          {
+            "title": "Cycle of the Werewolf",
+            "url": "https://stephen-king-api.onrender.com/api/short/91"
+          },
+          {
+            "title": "Everything's Eventual",
+            "url": "https://stephen-king-api.onrender.com/api/short/137"
+          },
+          {
+            "title": "Hearts in Atlantis",
+            "url": "https://stephen-king-api.onrender.com/api/short/142"
+          },
+          {
+            "title": "N.",
+            "url": "https://stephen-king-api.onrender.com/api/short/168"
+          },
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/short/200"
+          }
+        ],
+        "villains": [
+          {
+            "name": "Bob Anderson",
+            "url": "https://stephen-king-api.onrender.com/api/villain/1"
+          },
+          {
+            "name": "Kurt Barlow",
+            "url": "https://stephen-king-api.onrender.com/api/villain/2"
+          },
+          {
+            "name": "Tina Blake",
+            "url": "https://stephen-king-api.onrender.com/api/villain/4"
+          },
+          {
+            "name": "James Boon",
+            "url": "https://stephen-king-api.onrender.com/api/villain/6"
+          },
+          {
+            "name": "Henry Bowers",
+            "url": "https://stephen-king-api.onrender.com/api/villain/7"
+          },
+          {
+            "name": "Butch Bowers",
+            "url": "https://stephen-king-api.onrender.com/api/villain/8"
+          },
+          {
+            "name": "Greta Bowie",
+            "url": "https://stephen-king-api.onrender.com/api/villain/9"
+          },
+          {
+            "name": "Winston Church",
+            "url": "https://stephen-king-api.onrender.com/api/villain/13"
+          },
+          {
+            "name": "Cindi",
+            "url": "https://stephen-king-api.onrender.com/api/villain/14"
+          },
+          {
+            "name": "Gage Creed",
+            "url": "https://stephen-king-api.onrender.com/api/villain/15"
+          },
+          {
+            "name": "Myra Crewes",
+            "url": "https://stephen-king-api.onrender.com/api/villain/16"
+          },
+          {
+            "name": "Victor Criss",
+            "url": "https://stephen-king-api.onrender.com/api/villain/18"
+          },
+          {
+            "name": "Cujo",
+            "url": "https://stephen-king-api.onrender.com/api/villain/19"
+          },
+          {
+            "name": "Billy deLois",
+            "url": "https://stephen-king-api.onrender.com/api/villain/25"
+          },
+          {
+            "name": "Marcia Fadden",
+            "url": "https://stephen-king-api.onrender.com/api/villain/35"
+          },
+          {
+            "name": "Kenny Garson",
+            "url": "https://stephen-king-api.onrender.com/api/villain/38"
+          },
+          {
+            "name": "John Garton",
+            "url": "https://stephen-king-api.onrender.com/api/villain/39"
+          },
+          {
+            "name": "Leland Gaunt",
+            "url": "https://stephen-king-api.onrender.com/api/villain/40"
+          },
+          {
+            "name": "Gerald Burlingame",
+            "url": "https://stephen-king-api.onrender.com/api/villain/41"
+          },
+          {
+            "name": "Peter Gordon",
+            "url": "https://stephen-king-api.onrender.com/api/villain/43"
+          },
+          {
+            "name": "Mary Lila Grace",
+            "url": "https://stephen-king-api.onrender.com/api/villain/44"
+          },
+          {
+            "name": "Christine Hargensen",
+            "url": "https://stephen-king-api.onrender.com/api/villain/49"
+          },
+          {
+            "name": "Patrick Hockstetter",
+            "url": "https://stephen-king-api.onrender.com/api/villain/53"
+          },
+          {
+            "name": "Belch Huggins",
+            "url": "https://stephen-king-api.onrender.com/api/villain/55"
+          },
+          {
+            "name": "It (Creature)",
+            "url": "https://stephen-king-api.onrender.com/api/villain/57"
+          },
+          {
+            "name": "Raymond Andrew Joubert",
+            "url": "https://stephen-king-api.onrender.com/api/villain/61"
+          },
+          {
+            "name": "Harold Lauder",
+            "url": "https://stephen-king-api.onrender.com/api/villain/64"
+          },
+          {
+            "name": "Lester Lowe",
+            "url": "https://stephen-king-api.onrender.com/api/villain/68"
+          },
+          {
+            "name": "Richard P. Macklin",
+            "url": "https://stephen-king-api.onrender.com/api/villain/69"
+          },
+          {
+            "name": "Alvin Marsh",
+            "url": "https://stephen-king-api.onrender.com/api/villain/72"
+          },
+          {
+            "name": "John \"Ace\" Merrill",
+            "url": "https://stephen-king-api.onrender.com/api/villain/74"
+          },
+          {
+            "name": "Vic Mooney",
+            "url": "https://stephen-king-api.onrender.com/api/villain/75"
+          },
+          {
+            "name": "Sally Mueller",
+            "url": "https://stephen-king-api.onrender.com/api/villain/79"
+          },
+          {
+            "name": "Billy Nolan",
+            "url": "https://stephen-king-api.onrender.com/api/villain/80"
+          },
+          {
+            "name": "Jim Rennie, Jr.",
+            "url": "https://stephen-king-api.onrender.com/api/villain/88"
+          },
+          {
+            "name": "Jim Rennie",
+            "url": "https://stephen-king-api.onrender.com/api/villain/89"
+          },
+          {
+            "name": "Elenor Richmond",
+            "url": "https://stephen-king-api.onrender.com/api/villain/90"
+          },
+          {
+            "name": "Rachel Spies",
+            "url": "https://stephen-king-api.onrender.com/api/villain/94"
+          },
+          {
+            "name": "Joe St. George",
+            "url": "https://stephen-king-api.onrender.com/api/villain/95"
+          },
+          {
+            "name": "Richard Straker",
+            "url": "https://stephen-king-api.onrender.com/api/villain/98"
+          },
+          {
+            "name": "Jackie Talbot",
+            "url": "https://stephen-king-api.onrender.com/api/villain/99"
+          },
+          {
+            "name": "Carter Thibodeau",
+            "url": "https://stephen-king-api.onrender.com/api/villain/101"
+          },
+          {
+            "name": "Donna and Mary Lila Grace Thibodeau",
+            "url": "https://stephen-king-api.onrender.com/api/villain/102"
+          },
+          {
+            "name": "Tom Mahout",
+            "url": "https://stephen-king-api.onrender.com/api/villain/103"
+          },
+          {
+            "name": "Christopher Unwin",
+            "url": "https://stephen-king-api.onrender.com/api/villain/107"
+          },
+          {
+            "name": "Jessica Upshaw",
+            "url": "https://stephen-king-api.onrender.com/api/villain/108"
+          },
+          {
+            "name": "Norma Watson",
+            "url": "https://stephen-king-api.onrender.com/api/villain/109"
+          },
+          {
+            "name": "Margaret White",
+            "url": "https://stephen-king-api.onrender.com/api/villain/113"
+          },
+          {
+            "name": "Al Bradley",
+            "url": "https://stephen-king-api.onrender.com/api/villain/116"
+          },
+          {
+            "name": "Billy Tessio",
+            "url": "https://stephen-king-api.onrender.com/api/villain/123"
+          },
+          {
+            "name": "Charlie Hogan",
+            "url": "https://stephen-king-api.onrender.com/api/villain/126"
+          },
+          {
+            "name": "Frank Dunning",
+            "url": "https://stephen-king-api.onrender.com/api/villain/134"
+          },
+          {
+            "name": "George Bradley",
+            "url": "https://stephen-king-api.onrender.com/api/villain/136"
+          },
+          {
+            "name": "Milo Pressman",
+            "url": "https://stephen-king-api.onrender.com/api/villain/151"
+          },
+          {
+            "name": "Mrs. Carmody",
+            "url": "https://stephen-king-api.onrender.com/api/villain/157"
+          },
+          {
+            "name": "Norman Bracowicz",
+            "url": "https://stephen-king-api.onrender.com/api/villain/158"
+          },
+          {
+            "name": "Richard Chambers",
+            "url": "https://stephen-king-api.onrender.com/api/villain/160"
+          },
+          {
+            "name": "Tommy Erbter",
+            "url": "https://stephen-king-api.onrender.com/api/villain/170"
+          },
+          {
+            "name": "Vince Desjardins",
+            "url": "https://stephen-king-api.onrender.com/api/villain/173"
+          },
+          {
+            "name": "Jim Dooley",
+            "url": "https://stephen-king-api.onrender.com/api/villain/187"
+          }
         ]
       },
       {
@@ -721,7 +1777,10 @@
             "name": "Boston",
             "url": "https://stephen-king-api.onrender.com/api/place/49"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 30,
@@ -738,7 +1797,10 @@
             "name": "Lake Belle Reve, Mississippi",
             "url": "https://stephen-king-api.onrender.com/api/place/79"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 31,
@@ -762,6 +1824,18 @@
           {
             "name": "Gatlin, Nebraska",
             "url": "https://stephen-king-api.onrender.com/api/place/69"
+          }
+        ],
+        "books": [],
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Henry James",
+            "url": "https://stephen-king-api.onrender.com/api/villain/58"
+          },
+          {
+            "name": "Wilfred James",
+            "url": "https://stephen-king-api.onrender.com/api/villain/59"
           }
         ]
       },
@@ -788,7 +1862,10 @@
             "name": "Desatoya Mountains",
             "url": "https://stephen-king-api.onrender.com/api/place/124"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 33,
@@ -813,7 +1890,10 @@
             "name": "Trimbull, New Hampshire",
             "url": "https://stephen-king-api.onrender.com/api/place/115"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 34,
@@ -834,7 +1914,10 @@
             "name": "New York City",
             "url": "https://stephen-king-api.onrender.com/api/place/90"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 35,
@@ -851,7 +1934,10 @@
             "name": "Heaven's Bay, North Carolina",
             "url": "https://stephen-king-api.onrender.com/api/place/75"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 36,
@@ -867,6 +1953,14 @@
           {
             "name": "Harrison, Ohio",
             "url": "https://stephen-king-api.onrender.com/api/place/71"
+          }
+        ],
+        "books": [],
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Charlie McGee",
+            "url": "https://stephen-king-api.onrender.com/api/villain/73"
           }
         ]
       },
@@ -889,7 +1983,10 @@
             "name": "May, Oklahoma",
             "url": "https://stephen-king-api.onrender.com/api/place/87"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 38,
@@ -910,7 +2007,10 @@
             "name": "Braintree, Texas",
             "url": "https://stephen-king-api.onrender.com/api/place/51"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 39,
@@ -927,7 +2027,10 @@
             "name": "Stovington, Vermont",
             "url": "https://stephen-king-api.onrender.com/api/place/108"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 40,
@@ -944,7 +2047,10 @@
             "name": "Crouch End",
             "url": "https://stephen-king-api.onrender.com/api/place/59"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 41,
@@ -965,6 +2071,23 @@
             "name": "Hemingford Home, Nebraska",
             "url": "https://stephen-king-api.onrender.com/api/place/139"
           }
+        ],
+        "books": [],
+        "shorts": [
+          {
+            "title": "1922",
+            "url": "https://stephen-king-api.onrender.com/api/short/177"
+          }
+        ],
+        "villains": [
+          {
+            "name": "Henry James",
+            "url": "https://stephen-king-api.onrender.com/api/villain/58"
+          },
+          {
+            "name": "Wilfred James",
+            "url": "https://stephen-king-api.onrender.com/api/villain/59"
+          }
         ]
       },
       {
@@ -981,6 +2104,23 @@
           {
             "name": "Hambry, Mejis",
             "url": "https://stephen-king-api.onrender.com/api/place/137"
+          }
+        ],
+        "books": [
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34"
+          }
+        ],
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Rhea Dubativo",
+            "url": "https://stephen-king-api.onrender.com/api/villain/32"
+          },
+          {
+            "name": "Eldred Jonas",
+            "url": "https://stephen-king-api.onrender.com/api/villain/60"
           }
         ]
       },
@@ -999,7 +2139,15 @@
             "name": "The Way Station",
             "url": "https://stephen-king-api.onrender.com/api/place/180"
           }
-        ]
+        ],
+        "books": [
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 44,
@@ -1016,6 +2164,23 @@
             "name": "Gilead",
             "url": "https://stephen-king-api.onrender.com/api/place/136"
           }
+        ],
+        "books": [
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12"
+          },
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34"
+          }
+        ],
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Marten Broadcloak",
+            "url": "https://stephen-king-api.onrender.com/api/villain/10"
+          }
         ]
       },
       {
@@ -1028,7 +2193,20 @@
           "name": "Texas",
           "url": "https://stephen-king-api.onrender.com/api/place/38"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "The Monkey",
+            "url": "https://stephen-king-api.onrender.com/api/short/71"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 46,
@@ -1049,7 +2227,15 @@
             "name": "Big Lost Weekend Bar & Grille",
             "url": "https://stephen-king-api.onrender.com/api/place/156"
           }
-        ]
+        ],
+        "books": [
+          {
+            "title": "The Tommyknockers",
+            "url": "https://stephen-king-api.onrender.com/api/book/22"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 47,
@@ -1061,7 +2247,10 @@
           "name": "California",
           "url": "https://stephen-king-api.onrender.com/api/place/20"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 48,
@@ -1073,7 +2262,15 @@
           "name": "Iowa",
           "url": "https://stephen-king-api.onrender.com/api/place/25"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Doctor Sleep",
+            "url": "https://stephen-king-api.onrender.com/api/book/52"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 49,
@@ -1085,7 +2282,10 @@
           "name": "Massachusetts",
           "url": "https://stephen-king-api.onrender.com/api/place/29"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 50,
@@ -1097,7 +2297,23 @@
           "name": "Colorado",
           "url": "https://stephen-king-api.onrender.com/api/place/21"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Shining",
+            "url": "https://stephen-king-api.onrender.com/api/book/3"
+          },
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          },
+          {
+            "title": "Misery",
+            "url": "https://stephen-king-api.onrender.com/api/book/21"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 51,
@@ -1109,7 +2325,15 @@
           "name": "Texas",
           "url": "https://stephen-king-api.onrender.com/api/place/38"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 52,
@@ -1121,7 +2345,24 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Trucks",
+            "url": "https://stephen-king-api.onrender.com/api/short/44"
+          },
+          {
+            "title": "The Mist",
+            "url": "https://stephen-king-api.onrender.com/api/short/67"
+          }
+        ],
+        "villains": [
+          {
+            "name": "Mrs. Carmody",
+            "url": "https://stephen-king-api.onrender.com/api/villain/157"
+          }
+        ]
       },
       {
         "id": 53,
@@ -1133,7 +2374,25 @@
           "name": "Mid-world",
           "url": "https://stephen-king-api.onrender.com/api/place/18"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Calla Bryn Sturgis",
+            "url": "https://stephen-king-api.onrender.com/api/short/151"
+          }
+        ],
+        "villains": [
+          {
+            "name": "Ben Slightman",
+            "url": "https://stephen-king-api.onrender.com/api/villain/178"
+          }
+        ]
       },
       {
         "id": 54,
@@ -1145,7 +2404,10 @@
           "name": "Nebraska",
           "url": "https://stephen-king-api.onrender.com/api/place/31"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 55,
@@ -1170,6 +2432,120 @@
             "name": "Castle Rock Middle School",
             "url": "https://stephen-king-api.onrender.com/api/place/159"
           }
+        ],
+        "books": [
+          {
+            "title": "The Dead Zone",
+            "url": "https://stephen-king-api.onrender.com/api/book/7"
+          },
+          {
+            "title": "Cujo",
+            "url": "https://stephen-king-api.onrender.com/api/book/10"
+          },
+          {
+            "title": "The Dark Half",
+            "url": "https://stephen-king-api.onrender.com/api/book/23"
+          },
+          {
+            "title": "Needful Things",
+            "url": "https://stephen-king-api.onrender.com/api/book/26"
+          },
+          {
+            "title": "Bag of Bones",
+            "url": "https://stephen-king-api.onrender.com/api/book/35"
+          },
+          {
+            "title": "Lisey's Story",
+            "url": "https://stephen-king-api.onrender.com/api/book/45"
+          },
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/book/57"
+          },
+          {
+            "title": "Elevation",
+            "url": "https://stephen-king-api.onrender.com/api/book/60"
+          },
+          {
+            "title": "Gwendy's Final Task",
+            "url": "https://stephen-king-api.onrender.com/api/book/73"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "It Grows on You",
+            "url": "https://stephen-king-api.onrender.com/api/short/46"
+          },
+          {
+            "title": "The Body",
+            "url": "https://stephen-king-api.onrender.com/api/short/84"
+          },
+          {
+            "title": "Uncle Otto's Truck",
+            "url": "https://stephen-king-api.onrender.com/api/short/90"
+          },
+          {
+            "title": "Gramma",
+            "url": "https://stephen-king-api.onrender.com/api/short/93"
+          },
+          {
+            "title": "The Sun Dog",
+            "url": "https://stephen-king-api.onrender.com/api/short/117"
+          },
+          {
+            "title": "The Man in the Black Suit",
+            "url": "https://stephen-king-api.onrender.com/api/short/130"
+          },
+          {
+            "title": "Premium Harmony",
+            "url": "https://stephen-king-api.onrender.com/api/short/174"
+          },
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/short/200"
+          },
+          {
+            "title": "Elevation",
+            "url": "https://stephen-king-api.onrender.com/api/short/203"
+          }
+        ],
+        "villains": [
+          {
+            "name": "Cujo",
+            "url": "https://stephen-king-api.onrender.com/api/villain/19"
+          },
+          {
+            "name": "Leland Gaunt",
+            "url": "https://stephen-king-api.onrender.com/api/villain/40"
+          },
+          {
+            "name": "John \"Ace\" Merrill",
+            "url": "https://stephen-king-api.onrender.com/api/villain/74"
+          },
+          {
+            "name": "Billy Tessio",
+            "url": "https://stephen-king-api.onrender.com/api/villain/123"
+          },
+          {
+            "name": "Charlie Hogan",
+            "url": "https://stephen-king-api.onrender.com/api/villain/126"
+          },
+          {
+            "name": "Milo Pressman",
+            "url": "https://stephen-king-api.onrender.com/api/villain/151"
+          },
+          {
+            "name": "Norman Bracowicz",
+            "url": "https://stephen-king-api.onrender.com/api/villain/158"
+          },
+          {
+            "name": "Richard Chambers",
+            "url": "https://stephen-king-api.onrender.com/api/villain/160"
+          },
+          {
+            "name": "Vince Desjardins",
+            "url": "https://stephen-king-api.onrender.com/api/villain/173"
+          }
         ]
       },
       {
@@ -1182,7 +2558,60 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Needful Things",
+            "url": "https://stephen-king-api.onrender.com/api/book/26"
+          },
+          {
+            "title": "The Girl Who Loved Tom Gordon",
+            "url": "https://stephen-king-api.onrender.com/api/book/36"
+          },
+          {
+            "title": "Lisey's Story",
+            "url": "https://stephen-king-api.onrender.com/api/book/45"
+          },
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/book/57"
+          },
+          {
+            "title": "Elevation",
+            "url": "https://stephen-king-api.onrender.com/api/book/60"
+          },
+          {
+            "title": "Gwendy's Final Task",
+            "url": "https://stephen-king-api.onrender.com/api/book/73"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "The Body",
+            "url": "https://stephen-king-api.onrender.com/api/short/84"
+          },
+          {
+            "title": "Gramma",
+            "url": "https://stephen-king-api.onrender.com/api/short/93"
+          },
+          {
+            "title": "A Good Marriage",
+            "url": "https://stephen-king-api.onrender.com/api/short/180"
+          },
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/short/200"
+          },
+          {
+            "title": "Elevation",
+            "url": "https://stephen-king-api.onrender.com/api/short/203"
+          },
+          {
+            "title": "Two Talented Bastids",
+            "url": "https://stephen-king-api.onrender.com/api/short/215"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 57,
@@ -1202,6 +2631,87 @@
           {
             "name": "Thomas Ewen Consolidated High School",
             "url": "https://stephen-king-api.onrender.com/api/place/181"
+          }
+        ],
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          },
+          {
+            "title": "Cell",
+            "url": "https://stephen-king-api.onrender.com/api/book/44"
+          }
+        ],
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Tina Blake",
+            "url": "https://stephen-king-api.onrender.com/api/villain/4"
+          },
+          {
+            "name": "Cindi",
+            "url": "https://stephen-king-api.onrender.com/api/villain/14"
+          },
+          {
+            "name": "Myra Crewes",
+            "url": "https://stephen-king-api.onrender.com/api/villain/16"
+          },
+          {
+            "name": "Billy deLois",
+            "url": "https://stephen-king-api.onrender.com/api/villain/25"
+          },
+          {
+            "name": "Kenny Garson",
+            "url": "https://stephen-king-api.onrender.com/api/villain/38"
+          },
+          {
+            "name": "Mary Lila Grace",
+            "url": "https://stephen-king-api.onrender.com/api/villain/44"
+          },
+          {
+            "name": "Christine Hargensen",
+            "url": "https://stephen-king-api.onrender.com/api/villain/49"
+          },
+          {
+            "name": "Vic Mooney",
+            "url": "https://stephen-king-api.onrender.com/api/villain/75"
+          },
+          {
+            "name": "Billy Nolan",
+            "url": "https://stephen-king-api.onrender.com/api/villain/80"
+          },
+          {
+            "name": "Elenor Richmond",
+            "url": "https://stephen-king-api.onrender.com/api/villain/90"
+          },
+          {
+            "name": "Rachel Spies",
+            "url": "https://stephen-king-api.onrender.com/api/villain/94"
+          },
+          {
+            "name": "Jackie Talbot",
+            "url": "https://stephen-king-api.onrender.com/api/villain/99"
+          },
+          {
+            "name": "Donna and Mary Lila Grace Thibodeau",
+            "url": "https://stephen-king-api.onrender.com/api/villain/102"
+          },
+          {
+            "name": "Jessica Upshaw",
+            "url": "https://stephen-king-api.onrender.com/api/villain/108"
+          },
+          {
+            "name": "Norma Watson",
+            "url": "https://stephen-king-api.onrender.com/api/villain/109"
+          },
+          {
+            "name": "Margaret White",
+            "url": "https://stephen-king-api.onrender.com/api/villain/113"
+          },
+          {
+            "name": "Tommy Erbter",
+            "url": "https://stephen-king-api.onrender.com/api/villain/170"
           }
         ]
       },
@@ -1240,6 +2750,32 @@
             "name": "WCIK",
             "url": "https://stephen-king-api.onrender.com/api/place/182"
           }
+        ],
+        "books": [
+          {
+            "title": "Under the Dome",
+            "url": "https://stephen-king-api.onrender.com/api/book/48"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "N.",
+            "url": "https://stephen-king-api.onrender.com/api/short/168"
+          }
+        ],
+        "villains": [
+          {
+            "name": "Jim Rennie, Jr.",
+            "url": "https://stephen-king-api.onrender.com/api/villain/88"
+          },
+          {
+            "name": "Jim Rennie",
+            "url": "https://stephen-king-api.onrender.com/api/villain/89"
+          },
+          {
+            "name": "Carter Thibodeau",
+            "url": "https://stephen-king-api.onrender.com/api/villain/101"
+          }
         ]
       },
       {
@@ -1252,7 +2788,15 @@
           "name": "London",
           "url": "https://stephen-king-api.onrender.com/api/place/40"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Crouch End",
+            "url": "https://stephen-king-api.onrender.com/api/short/68"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 60,
@@ -1269,7 +2813,10 @@
             "name": "Ottershaw Christian Home for Boys",
             "url": "https://stephen-king-api.onrender.com/api/place/171"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 61,
@@ -1281,7 +2828,15 @@
           "name": "In-world",
           "url": "https://stephen-king-api.onrender.com/api/place/17"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Dark Tower: The Wind Through the Keyhole",
+            "url": "https://stephen-king-api.onrender.com/api/book/50"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 62,
@@ -1338,6 +2893,164 @@
             "name": "WomanCare",
             "url": "https://stephen-king-api.onrender.com/api/place/184"
           }
+        ],
+        "books": [
+          {
+            "title": "The Running Man",
+            "url": "https://stephen-king-api.onrender.com/api/book/11"
+          },
+          {
+            "title": "Pet Sematary",
+            "url": "https://stephen-king-api.onrender.com/api/book/14"
+          },
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          },
+          {
+            "title": "The Tommyknockers",
+            "url": "https://stephen-king-api.onrender.com/api/book/22"
+          },
+          {
+            "title": "Gerald's Game",
+            "url": "https://stephen-king-api.onrender.com/api/book/27"
+          },
+          {
+            "title": "Insomnia",
+            "url": "https://stephen-king-api.onrender.com/api/book/29"
+          },
+          {
+            "title": "Bag of Bones",
+            "url": "https://stephen-king-api.onrender.com/api/book/35"
+          },
+          {
+            "title": "Dreamcatcher",
+            "url": "https://stephen-king-api.onrender.com/api/book/37"
+          },
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42"
+          },
+          {
+            "title": "Lisey's Story",
+            "url": "https://stephen-king-api.onrender.com/api/book/45"
+          },
+          {
+            "title": "11/22/63",
+            "url": "https://stephen-king-api.onrender.com/api/book/49"
+          },
+          {
+            "title": "Gwendy's Final Task",
+            "url": "https://stephen-king-api.onrender.com/api/book/73"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "The Bird and the Album",
+            "url": "https://stephen-king-api.onrender.com/api/short/78"
+          },
+          {
+            "title": "Mrs. Todd's Shortcut",
+            "url": "https://stephen-king-api.onrender.com/api/short/94"
+          },
+          {
+            "title": "The Night Flier",
+            "url": "https://stephen-king-api.onrender.com/api/short/106"
+          },
+          {
+            "title": "Secret Window, Secret Garden",
+            "url": "https://stephen-king-api.onrender.com/api/short/116"
+          },
+          {
+            "title": "Autopsy Room Four",
+            "url": "https://stephen-king-api.onrender.com/api/short/134"
+          },
+          {
+            "title": "The Road Virus Heads North",
+            "url": "https://stephen-king-api.onrender.com/api/short/141"
+          },
+          {
+            "title": "Hearts in Atlantis",
+            "url": "https://stephen-king-api.onrender.com/api/short/142"
+          },
+          {
+            "title": "Mute",
+            "url": "https://stephen-king-api.onrender.com/api/short/165"
+          },
+          {
+            "title": "Fair Extension",
+            "url": "https://stephen-king-api.onrender.com/api/short/179"
+          }
+        ],
+        "villains": [
+          {
+            "name": "Henry Bowers",
+            "url": "https://stephen-king-api.onrender.com/api/villain/7"
+          },
+          {
+            "name": "Butch Bowers",
+            "url": "https://stephen-king-api.onrender.com/api/villain/8"
+          },
+          {
+            "name": "Greta Bowie",
+            "url": "https://stephen-king-api.onrender.com/api/villain/9"
+          },
+          {
+            "name": "Victor Criss",
+            "url": "https://stephen-king-api.onrender.com/api/villain/18"
+          },
+          {
+            "name": "Marcia Fadden",
+            "url": "https://stephen-king-api.onrender.com/api/villain/35"
+          },
+          {
+            "name": "John Garton",
+            "url": "https://stephen-king-api.onrender.com/api/villain/39"
+          },
+          {
+            "name": "Peter Gordon",
+            "url": "https://stephen-king-api.onrender.com/api/villain/43"
+          },
+          {
+            "name": "Patrick Hockstetter",
+            "url": "https://stephen-king-api.onrender.com/api/villain/53"
+          },
+          {
+            "name": "Belch Huggins",
+            "url": "https://stephen-king-api.onrender.com/api/villain/55"
+          },
+          {
+            "name": "It (Creature)",
+            "url": "https://stephen-king-api.onrender.com/api/villain/57"
+          },
+          {
+            "name": "Richard P. Macklin",
+            "url": "https://stephen-king-api.onrender.com/api/villain/69"
+          },
+          {
+            "name": "Alvin Marsh",
+            "url": "https://stephen-king-api.onrender.com/api/villain/72"
+          },
+          {
+            "name": "Sally Mueller",
+            "url": "https://stephen-king-api.onrender.com/api/villain/79"
+          },
+          {
+            "name": "Christopher Unwin",
+            "url": "https://stephen-king-api.onrender.com/api/villain/107"
+          },
+          {
+            "name": "Al Bradley",
+            "url": "https://stephen-king-api.onrender.com/api/villain/116"
+          },
+          {
+            "name": "Frank Dunning",
+            "url": "https://stephen-king-api.onrender.com/api/villain/134"
+          },
+          {
+            "name": "George Bradley",
+            "url": "https://stephen-king-api.onrender.com/api/villain/136"
+          }
         ]
       },
       {
@@ -1350,7 +3063,19 @@
           "name": "Nevada",
           "url": "https://stephen-king-api.onrender.com/api/place/32"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Desperation",
+            "url": "https://stephen-king-api.onrender.com/api/book/32"
+          },
+          {
+            "title": "The Regulators",
+            "url": "https://stephen-king-api.onrender.com/api/book/33"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 64,
@@ -1362,7 +3087,15 @@
           "name": "Mid-world",
           "url": "https://stephen-king-api.onrender.com/api/place/18"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "The Little Sisters of Eluria",
+            "url": "https://stephen-king-api.onrender.com/api/short/139"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 65,
@@ -1374,7 +3107,15 @@
           "name": "Oklahoma",
           "url": "https://stephen-king-api.onrender.com/api/place/37"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 66,
@@ -1386,7 +3127,15 @@
           "name": "End-world",
           "url": "https://stephen-king-api.onrender.com/api/place/16"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 67,
@@ -1398,7 +3147,15 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Long Walk",
+            "url": "https://stephen-king-api.onrender.com/api/book/6"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 68,
@@ -1410,7 +3167,15 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Graveyard Shift",
+            "url": "https://stephen-king-api.onrender.com/api/short/29"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 69,
@@ -1422,7 +3187,15 @@
           "name": "Nebraska",
           "url": "https://stephen-king-api.onrender.com/api/place/31"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Children of the Corn",
+            "url": "https://stephen-king-api.onrender.com/api/short/53"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 70,
@@ -1434,7 +3207,15 @@
           "name": "Kansas",
           "url": "https://stephen-king-api.onrender.com/api/place/26"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 71,
@@ -1451,6 +3232,19 @@
             "name": "Harrison State College",
             "url": "https://stephen-king-api.onrender.com/api/place/167"
           }
+        ],
+        "books": [
+          {
+            "title": "Firestarter",
+            "url": "https://stephen-king-api.onrender.com/api/book/8"
+          }
+        ],
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Charlie McGee",
+            "url": "https://stephen-king-api.onrender.com/api/villain/73"
+          }
         ]
       },
       {
@@ -1463,7 +3257,15 @@
           "name": "Connecticut",
           "url": "https://stephen-king-api.onrender.com/api/place/22"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Low Men in Yellow Coats",
+            "url": "https://stephen-king-api.onrender.com/api/short/144"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 73,
@@ -1480,7 +3282,15 @@
             "name": "The Slumberland Motel",
             "url": "https://stephen-king-api.onrender.com/api/place/178"
           }
-        ]
+        ],
+        "books": [
+          {
+            "title": "Firestarter",
+            "url": "https://stephen-king-api.onrender.com/api/book/8"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 74,
@@ -1492,7 +3302,24 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Tommyknockers",
+            "url": "https://stephen-king-api.onrender.com/api/book/22"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Mrs. Todd's Shortcut",
+            "url": "https://stephen-king-api.onrender.com/api/short/94"
+          },
+          {
+            "title": "The Revelations of 'Becka Paulson",
+            "url": "https://stephen-king-api.onrender.com/api/short/96"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 75,
@@ -1509,7 +3336,15 @@
             "name": "Joyland Park",
             "url": "https://stephen-king-api.onrender.com/api/place/146"
           }
-        ]
+        ],
+        "books": [
+          {
+            "title": "Joyland",
+            "url": "https://stephen-king-api.onrender.com/api/book/51"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 76,
@@ -1542,6 +3377,36 @@
             "name": "Stanley Street Elementary School",
             "url": "https://stephen-king-api.onrender.com/api/place/173"
           }
+        ],
+        "books": [
+          {
+            "title": "Salem's Lot",
+            "url": "https://stephen-king-api.onrender.com/api/book/2"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "One for the Road",
+            "url": "https://stephen-king-api.onrender.com/api/short/54"
+          },
+          {
+            "title": "Jerusalem's Lot",
+            "url": "https://stephen-king-api.onrender.com/api/short/58"
+          }
+        ],
+        "villains": [
+          {
+            "name": "Kurt Barlow",
+            "url": "https://stephen-king-api.onrender.com/api/villain/2"
+          },
+          {
+            "name": "James Boon",
+            "url": "https://stephen-king-api.onrender.com/api/villain/6"
+          },
+          {
+            "name": "Richard Straker",
+            "url": "https://stephen-king-api.onrender.com/api/villain/98"
+          }
         ]
       },
       {
@@ -1554,7 +3419,24 @@
           "name": "Iowa",
           "url": "https://stephen-king-api.onrender.com/api/place/25"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Desperation",
+            "url": "https://stephen-king-api.onrender.com/api/book/32"
+          },
+          {
+            "title": "The Regulators",
+            "url": "https://stephen-king-api.onrender.com/api/book/33"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "The Library Policeman",
+            "url": "https://stephen-king-api.onrender.com/api/short/115"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 78,
@@ -1566,7 +3448,24 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Gerald's Game",
+            "url": "https://stephen-king-api.onrender.com/api/book/27"
+          },
+          {
+            "title": "Cell",
+            "url": "https://stephen-king-api.onrender.com/api/book/44"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "The Man in the Black Suit",
+            "url": "https://stephen-king-api.onrender.com/api/short/130"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 79,
@@ -1578,7 +3477,10 @@
           "name": "Mississippi",
           "url": "https://stephen-king-api.onrender.com/api/place/30"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 80,
@@ -1590,7 +3492,20 @@
           "name": "Nevada",
           "url": "https://stephen-king-api.onrender.com/api/place/32"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Dolan's Cadillac",
+            "url": "https://stephen-king-api.onrender.com/api/short/98"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 81,
@@ -1602,7 +3517,19 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          },
+          {
+            "title": "Gwendy's Final Task",
+            "url": "https://stephen-king-api.onrender.com/api/book/73"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 82,
@@ -1614,7 +3541,10 @@
           "name": "Mid-world",
           "url": "https://stephen-king-api.onrender.com/api/place/18"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 83,
@@ -1626,7 +3556,25 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Dolores Claiborne",
+            "url": "https://stephen-king-api.onrender.com/api/book/28"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Home Delivery",
+            "url": "https://stephen-king-api.onrender.com/api/short/111"
+          }
+        ],
+        "villains": [
+          {
+            "name": "Joe St. George",
+            "url": "https://stephen-king-api.onrender.com/api/villain/95"
+          }
+        ]
       },
       {
         "id": 84,
@@ -1638,7 +3586,15 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Jim Dooley",
+            "url": "https://stephen-king-api.onrender.com/api/villain/187"
+          }
+        ]
       },
       {
         "id": 85,
@@ -1650,7 +3606,15 @@
           "name": "Mid-world",
           "url": "https://stephen-king-api.onrender.com/api/place/18"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Dark Tower III: The Waste Lands",
+            "url": "https://stephen-king-api.onrender.com/api/book/25"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 86,
@@ -1662,7 +3626,28 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Pet Sematary",
+            "url": "https://stephen-king-api.onrender.com/api/book/14"
+          },
+          {
+            "title": "The Dark Half",
+            "url": "https://stephen-king-api.onrender.com/api/book/23"
+          }
+        ],
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Winston Church",
+            "url": "https://stephen-king-api.onrender.com/api/villain/13"
+          },
+          {
+            "name": "Gage Creed",
+            "url": "https://stephen-king-api.onrender.com/api/villain/15"
+          }
+        ]
       },
       {
         "id": 87,
@@ -1674,7 +3659,10 @@
           "name": "Oklahoma",
           "url": "https://stephen-king-api.onrender.com/api/place/37"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 88,
@@ -1699,7 +3687,15 @@
             "name": "Moose Cove",
             "url": "https://stephen-king-api.onrender.com/api/place/149"
           }
-        ]
+        ],
+        "books": [
+          {
+            "title": "The Colorado Kid",
+            "url": "https://stephen-king-api.onrender.com/api/book/43"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 89,
@@ -1711,7 +3707,37 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          },
+          {
+            "title": "Under the Dome",
+            "url": "https://stephen-king-api.onrender.com/api/book/48"
+          },
+          {
+            "title": "Revival",
+            "url": "https://stephen-king-api.onrender.com/api/book/54"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "The Man in the Black Suit",
+            "url": "https://stephen-king-api.onrender.com/api/short/130"
+          },
+          {
+            "title": "N.",
+            "url": "https://stephen-king-api.onrender.com/api/short/168"
+          }
+        ],
+        "villains": [
+          {
+            "name": "Margaret White",
+            "url": "https://stephen-king-api.onrender.com/api/villain/113"
+          }
+        ]
       },
       {
         "id": 90,
@@ -1732,7 +3758,10 @@
             "name": "The Club",
             "url": "https://stephen-king-api.onrender.com/api/place/176"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 91,
@@ -1744,7 +3773,10 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 92,
@@ -1756,7 +3788,20 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          }
+        ],
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Harold Lauder",
+            "url": "https://stephen-king-api.onrender.com/api/villain/64"
+          }
+        ]
       },
       {
         "id": 93,
@@ -1768,7 +3813,15 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Rage",
+            "url": "https://stephen-king-api.onrender.com/api/book/4"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 94,
@@ -1780,7 +3833,15 @@
           "name": "Kansas",
           "url": "https://stephen-king-api.onrender.com/api/place/26"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 95,
@@ -1792,7 +3853,15 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Salem's Lot",
+            "url": "https://stephen-king-api.onrender.com/api/book/2"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 96,
@@ -1809,6 +3878,14 @@
             "name": "Dead Man's Trail",
             "url": "https://stephen-king-api.onrender.com/api/place/142"
           }
+        ],
+        "books": [],
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Bob Anderson",
+            "url": "https://stephen-king-api.onrender.com/api/villain/1"
+          }
         ]
       },
       {
@@ -1821,7 +3898,15 @@
           "name": "Indiana",
           "url": "https://stephen-king-api.onrender.com/api/place/24"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Donald Merwin Elbert",
+            "url": "https://stephen-king-api.onrender.com/api/villain/34"
+          }
+        ]
       },
       {
         "id": 98,
@@ -1833,7 +3918,15 @@
           "name": "Kansas",
           "url": "https://stephen-king-api.onrender.com/api/place/26"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Julie Lawry",
+            "url": "https://stephen-king-api.onrender.com/api/villain/146"
+          }
+        ]
       },
       {
         "id": 99,
@@ -1845,7 +3938,15 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Jerusalem's Lot",
+            "url": "https://stephen-king-api.onrender.com/api/short/58"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 100,
@@ -1857,7 +3958,15 @@
           "name": "Mid-world",
           "url": "https://stephen-king-api.onrender.com/api/place/18"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 101,
@@ -1869,7 +3978,15 @@
           "name": "New Hampshire",
           "url": "https://stephen-king-api.onrender.com/api/place/33"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Dead Zone",
+            "url": "https://stephen-king-api.onrender.com/api/book/7"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 102,
@@ -1881,7 +3998,15 @@
           "name": "Mid-world",
           "url": "https://stephen-king-api.onrender.com/api/place/18"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Dark Tower III: The Waste Lands",
+            "url": "https://stephen-king-api.onrender.com/api/book/25"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 103,
@@ -1893,7 +4018,15 @@
           "name": "California",
           "url": "https://stephen-king-api.onrender.com/api/place/20"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Apt Pupil",
+            "url": "https://stephen-king-api.onrender.com/api/short/83"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 104,
@@ -1910,7 +4043,10 @@
             "name": "Ed Smith Stadium",
             "url": "https://stephen-king-api.onrender.com/api/place/166"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 105,
@@ -1922,7 +4058,15 @@
           "name": "Arkansas",
           "url": "https://stephen-king-api.onrender.com/api/place/19"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 106,
@@ -1934,7 +4078,27 @@
           "name": "Colorado",
           "url": "https://stephen-king-api.onrender.com/api/place/21"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Shining",
+            "url": "https://stephen-king-api.onrender.com/api/book/3"
+          },
+          {
+            "title": "Misery",
+            "url": "https://stephen-king-api.onrender.com/api/book/21"
+          },
+          {
+            "title": "Doctor Sleep",
+            "url": "https://stephen-king-api.onrender.com/api/book/52"
+          },
+          {
+            "title": "Billy Summers",
+            "url": "https://stephen-king-api.onrender.com/api/book/63"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 107,
@@ -1946,7 +4110,10 @@
           "name": "New Hampshire",
           "url": "https://stephen-king-api.onrender.com/api/place/33"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 108,
@@ -1958,7 +4125,23 @@
           "name": "Vermont",
           "url": "https://stephen-king-api.onrender.com/api/place/39"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Shining",
+            "url": "https://stephen-king-api.onrender.com/api/book/3"
+          },
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          },
+          {
+            "title": "The Dead Zone",
+            "url": "https://stephen-king-api.onrender.com/api/book/7"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 109,
@@ -1970,7 +4153,29 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Cycle of the Werewolf",
+            "url": "https://stephen-king-api.onrender.com/api/book/15"
+          },
+          {
+            "title": "Under the Dome",
+            "url": "https://stephen-king-api.onrender.com/api/book/48"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Cycle of the Werewolf",
+            "url": "https://stephen-king-api.onrender.com/api/short/91"
+          }
+        ],
+        "villains": [
+          {
+            "name": "Lester Lowe",
+            "url": "https://stephen-king-api.onrender.com/api/villain/68"
+          }
+        ]
       },
       {
         "id": 110,
@@ -1991,7 +4196,15 @@
             "name": "Tashmore Methodist Church",
             "url": "https://stephen-king-api.onrender.com/api/place/174"
           }
-        ]
+        ],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Secret Window, Secret Garden",
+            "url": "https://stephen-king-api.onrender.com/api/short/116"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 111,
@@ -2003,7 +4216,10 @@
           "name": "In-world",
           "url": "https://stephen-king-api.onrender.com/api/place/17"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 112,
@@ -2015,7 +4231,10 @@
           "name": "Mid-world",
           "url": "https://stephen-king-api.onrender.com/api/place/18"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 113,
@@ -2032,7 +4251,15 @@
             "name": "Seaview Cemetery",
             "url": "https://stephen-king-api.onrender.com/api/place/151"
           }
-        ]
+        ],
+        "books": [
+          {
+            "title": "The Colorado Kid",
+            "url": "https://stephen-king-api.onrender.com/api/book/43"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 114,
@@ -2044,7 +4271,36 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Bag of Bones",
+            "url": "https://stephen-king-api.onrender.com/api/book/35"
+          },
+          {
+            "title": "The Girl Who Loved Tom Gordon",
+            "url": "https://stephen-king-api.onrender.com/api/book/36"
+          },
+          {
+            "title": "Cell",
+            "url": "https://stephen-king-api.onrender.com/api/book/44"
+          },
+          {
+            "title": "Under the Dome",
+            "url": "https://stephen-king-api.onrender.com/api/book/48"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Rat",
+            "url": "https://stephen-king-api.onrender.com/api/short/210"
+          },
+          {
+            "title": "Two Talented Bastids",
+            "url": "https://stephen-king-api.onrender.com/api/short/215"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 115,
@@ -2056,7 +4312,15 @@
           "name": "New Hampshire",
           "url": "https://stephen-king-api.onrender.com/api/place/33"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Dead Zone",
+            "url": "https://stephen-king-api.onrender.com/api/book/7"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 116,
@@ -2068,7 +4332,25 @@
           "name": "Mid-world",
           "url": "https://stephen-king-api.onrender.com/api/place/18"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/short/64"
+          }
+        ],
+        "villains": [
+          {
+            "name": "Sylvia Pittston",
+            "url": "https://stephen-king-api.onrender.com/api/villain/84"
+          }
+        ]
       },
       {
         "id": 117,
@@ -2080,7 +4362,10 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 118,
@@ -2092,7 +4377,15 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 119,
@@ -2104,7 +4397,15 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Bob Anderson",
+            "url": "https://stephen-king-api.onrender.com/api/villain/1"
+          }
+        ]
       },
       {
         "id": 120,
@@ -2116,7 +4417,15 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "N.",
+            "url": "https://stephen-king-api.onrender.com/api/short/168"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 121,
@@ -2128,7 +4437,20 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/book/57"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/short/200"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 122,
@@ -2140,7 +4462,15 @@
           "name": "Mid-world",
           "url": "https://stephen-king-api.onrender.com/api/place/18"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 123,
@@ -2152,7 +4482,28 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Bag of Bones",
+            "url": "https://stephen-king-api.onrender.com/api/book/35"
+          },
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/book/57"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/short/200"
+          },
+          {
+            "title": "The Dreamers",
+            "url": "https://stephen-king-api.onrender.com/api/short/218"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 124,
@@ -2164,7 +4515,20 @@
           "name": "Nevada",
           "url": "https://stephen-king-api.onrender.com/api/place/32"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Desperation",
+            "url": "https://stephen-king-api.onrender.com/api/book/32"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "The Little Sisters of Eluria",
+            "url": "https://stephen-king-api.onrender.com/api/short/139"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 125,
@@ -2176,7 +4540,10 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 126,
@@ -2188,7 +4555,19 @@
           "name": "Florida",
           "url": "https://stephen-king-api.onrender.com/api/place/23"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Laurie",
+            "url": "https://stephen-king-api.onrender.com/api/short/202"
+          },
+          {
+            "title": "Rattlesnakes",
+            "url": "https://stephen-king-api.onrender.com/api/short/217"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 127,
@@ -2200,7 +4579,15 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Under the Dome",
+            "url": "https://stephen-king-api.onrender.com/api/book/48"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 128,
@@ -2212,7 +4599,15 @@
           "name": "Louisiana",
           "url": "https://stephen-king-api.onrender.com/api/place/27"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Green Mile",
+            "url": "https://stephen-king-api.onrender.com/api/book/31"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 129,
@@ -2224,7 +4619,15 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Salem's Lot",
+            "url": "https://stephen-king-api.onrender.com/api/book/2"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 130,
@@ -2236,7 +4639,15 @@
           "name": "Mid-world",
           "url": "https://stephen-king-api.onrender.com/api/place/18"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 131,
@@ -2248,7 +4659,15 @@
           "name": "End-world",
           "url": "https://stephen-king-api.onrender.com/api/place/16"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 132,
@@ -2260,7 +4679,15 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Under the Dome",
+            "url": "https://stephen-king-api.onrender.com/api/book/48"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 133,
@@ -2277,6 +4704,23 @@
             "name": "Room 237",
             "url": "https://stephen-king-api.onrender.com/api/place/172"
           }
+        ],
+        "books": [
+          {
+            "title": "The Shining",
+            "url": "https://stephen-king-api.onrender.com/api/book/3"
+          }
+        ],
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Horace M. Derwent",
+            "url": "https://stephen-king-api.onrender.com/api/villain/26"
+          },
+          {
+            "name": "Delbert Grady",
+            "url": "https://stephen-king-api.onrender.com/api/villain/45"
+          }
         ]
       },
       {
@@ -2289,7 +4733,32 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          },
+          {
+            "title": "Dolores Claiborne",
+            "url": "https://stephen-king-api.onrender.com/api/book/28"
+          },
+          {
+            "title": "Blaze",
+            "url": "https://stephen-king-api.onrender.com/api/book/46"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Apt Pupil",
+            "url": "https://stephen-king-api.onrender.com/api/short/83"
+          },
+          {
+            "title": "Rita Hayworth and Shawshank Redemption",
+            "url": "https://stephen-king-api.onrender.com/api/short/86"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 135,
@@ -2301,7 +4770,10 @@
           "name": "Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/28"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 136,
@@ -2313,7 +4785,24 @@
           "name": "New Canaan",
           "url": "https://stephen-king-api.onrender.com/api/place/44"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12"
+          },
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34"
+          }
+        ],
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Marten Broadcloak",
+            "url": "https://stephen-king-api.onrender.com/api/villain/10"
+          }
+        ]
       },
       {
         "id": 137,
@@ -2325,7 +4814,24 @@
           "name": "Mejis",
           "url": "https://stephen-king-api.onrender.com/api/place/42"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34"
+          }
+        ],
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Rhea Dubativo",
+            "url": "https://stephen-king-api.onrender.com/api/villain/32"
+          },
+          {
+            "name": "Eldred Jonas",
+            "url": "https://stephen-king-api.onrender.com/api/villain/60"
+          }
+        ]
       },
       {
         "id": 138,
@@ -2337,7 +4843,10 @@
           "name": "Hemingford County, Nebraska",
           "url": "https://stephen-king-api.onrender.com/api/place/41"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 139,
@@ -2349,7 +4858,49 @@
           "name": "Hemingford County, Nebraska",
           "url": "https://stephen-king-api.onrender.com/api/place/41"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5"
+          },
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          },
+          {
+            "title": "Billy Summers",
+            "url": "https://stephen-king-api.onrender.com/api/book/63"
+          },
+          {
+            "title": "Other Worlds Than These",
+            "url": "https://stephen-king-api.onrender.com/api/book/77"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Children of the Corn",
+            "url": "https://stephen-king-api.onrender.com/api/short/53"
+          },
+          {
+            "title": "The Last Rung on the Ladder",
+            "url": "https://stephen-king-api.onrender.com/api/short/59"
+          },
+          {
+            "title": "1922",
+            "url": "https://stephen-king-api.onrender.com/api/short/177"
+          }
+        ],
+        "villains": [
+          {
+            "name": "Henry James",
+            "url": "https://stephen-king-api.onrender.com/api/villain/58"
+          },
+          {
+            "name": "Wilfred James",
+            "url": "https://stephen-king-api.onrender.com/api/villain/59"
+          }
+        ]
       },
       {
         "id": 140,
@@ -2361,7 +4912,15 @@
           "name": "Chester's Mill, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/58"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Under the Dome",
+            "url": "https://stephen-king-api.onrender.com/api/book/48"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 141,
@@ -2373,7 +4932,10 @@
           "name": "Castle Rock, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/55"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 142,
@@ -2385,7 +4947,15 @@
           "name": "Pownal, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/96"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "A Good Marriage",
+            "url": "https://stephen-king-api.onrender.com/api/short/180"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 143,
@@ -2397,7 +4967,10 @@
           "name": "Derry, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/62"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 144,
@@ -2409,7 +4982,10 @@
           "name": "Moose-Lookit Island",
           "url": "https://stephen-king-api.onrender.com/api/place/88"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 145,
@@ -2421,7 +4997,20 @@
           "name": "Jerusalem's Lot, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/76"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Salem's Lot",
+            "url": "https://stephen-king-api.onrender.com/api/book/2"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Rattlesnakes",
+            "url": "https://stephen-king-api.onrender.com/api/short/217"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 146,
@@ -2433,7 +5022,15 @@
           "name": "Heaven's Bay, North Carolina",
           "url": "https://stephen-king-api.onrender.com/api/place/75"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Joyland",
+            "url": "https://stephen-king-api.onrender.com/api/book/51"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 147,
@@ -2445,7 +5042,10 @@
           "name": "Chester's Mill, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/58"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 148,
@@ -2457,7 +5057,10 @@
           "name": "Moose-Lookit Island",
           "url": "https://stephen-king-api.onrender.com/api/place/88"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 149,
@@ -2469,7 +5072,15 @@
           "name": "Moose-Lookit Island",
           "url": "https://stephen-king-api.onrender.com/api/place/88"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Colorado Kid",
+            "url": "https://stephen-king-api.onrender.com/api/book/43"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 150,
@@ -2481,7 +5092,15 @@
           "name": "Derry, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/62"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 151,
@@ -2493,7 +5112,10 @@
           "name": "Tinnock Village, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/113"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 152,
@@ -2505,7 +5127,10 @@
           "name": "Chester's Mill, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/58"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 153,
@@ -2517,7 +5142,15 @@
           "name": "Tashmore, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/110"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Secret Window, Secret Garden",
+            "url": "https://stephen-king-api.onrender.com/api/short/116"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 154,
@@ -2529,7 +5162,15 @@
           "name": "Derry, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/62"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 155,
@@ -2541,7 +5182,15 @@
           "name": "Augusta, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/46"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Tommyknockers",
+            "url": "https://stephen-king-api.onrender.com/api/book/22"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 156,
@@ -2553,7 +5202,15 @@
           "name": "Augusta, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/46"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Tommyknockers",
+            "url": "https://stephen-king-api.onrender.com/api/book/22"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 157,
@@ -2565,7 +5222,15 @@
           "name": "Jerusalem's Lot, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/76"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Salem's Lot",
+            "url": "https://stephen-king-api.onrender.com/api/book/2"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 158,
@@ -2577,7 +5242,20 @@
           "name": "Castle Rock, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/55"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/book/57"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/short/200"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 159,
@@ -2589,7 +5267,20 @@
           "name": "Castle Rock, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/55"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/book/57"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/short/200"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 160,
@@ -2601,7 +5292,15 @@
           "name": "Chester's Mill, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/58"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Under the Dome",
+            "url": "https://stephen-king-api.onrender.com/api/book/48"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 161,
@@ -2613,7 +5312,15 @@
           "name": "Derry, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/62"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 162,
@@ -2625,7 +5332,19 @@
           "name": "Derry, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/62"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Insomnia",
+            "url": "https://stephen-king-api.onrender.com/api/book/29"
+          },
+          {
+            "title": "Under the Dome",
+            "url": "https://stephen-king-api.onrender.com/api/book/48"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 163,
@@ -2637,7 +5356,15 @@
           "name": "Derry, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/62"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 164,
@@ -2649,7 +5376,19 @@
           "name": "Derry, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/62"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          },
+          {
+            "title": "Insomnia",
+            "url": "https://stephen-king-api.onrender.com/api/book/29"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 165,
@@ -2661,7 +5400,15 @@
           "name": "Chester's Mill, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/58"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Under the Dome",
+            "url": "https://stephen-king-api.onrender.com/api/book/48"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 166,
@@ -2673,7 +5420,15 @@
           "name": "Sarasota, Florida",
           "url": "https://stephen-king-api.onrender.com/api/place/104"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Blockade Billy",
+            "url": "https://stephen-king-api.onrender.com/api/short/176"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 167,
@@ -2685,7 +5440,15 @@
           "name": "Harrison, Ohio",
           "url": "https://stephen-king-api.onrender.com/api/place/71"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Firestarter",
+            "url": "https://stephen-king-api.onrender.com/api/book/8"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 168,
@@ -2697,7 +5460,15 @@
           "name": "New York City",
           "url": "https://stephen-king-api.onrender.com/api/place/90"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "1408",
+            "url": "https://stephen-king-api.onrender.com/api/short/146"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 169,
@@ -2709,7 +5480,15 @@
           "name": "Jerusalem's Lot, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/76"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Salem's Lot",
+            "url": "https://stephen-king-api.onrender.com/api/book/2"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 170,
@@ -2721,7 +5500,24 @@
           "name": "Jerusalem's Lot, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/76"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Salem's Lot",
+            "url": "https://stephen-king-api.onrender.com/api/book/2"
+          }
+        ],
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Kurt Barlow",
+            "url": "https://stephen-king-api.onrender.com/api/villain/2"
+          },
+          {
+            "name": "Richard Straker",
+            "url": "https://stephen-king-api.onrender.com/api/villain/98"
+          }
+        ]
       },
       {
         "id": 171,
@@ -2733,7 +5529,15 @@
           "name": "Davenport, Iowa",
           "url": "https://stephen-king-api.onrender.com/api/place/60"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "Blockade Billy",
+            "url": "https://stephen-king-api.onrender.com/api/short/176"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 172,
@@ -2745,7 +5549,15 @@
           "name": "Overlook Hotel",
           "url": "https://stephen-king-api.onrender.com/api/place/133"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Shining",
+            "url": "https://stephen-king-api.onrender.com/api/book/3"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 173,
@@ -2757,7 +5569,15 @@
           "name": "Jerusalem's Lot, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/76"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Salem's Lot",
+            "url": "https://stephen-king-api.onrender.com/api/book/2"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 174,
@@ -2769,7 +5589,10 @@
           "name": "Tashmore, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/110"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 175,
@@ -2781,7 +5604,15 @@
           "name": "Chamberlain, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/57"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 176,
@@ -2793,7 +5624,19 @@
           "name": "New York City",
           "url": "https://stephen-king-api.onrender.com/api/place/90"
         },
-        "places": []
+        "places": [],
+        "books": [],
+        "shorts": [
+          {
+            "title": "The Man Who Would Not Shake Hands",
+            "url": "https://stephen-king-api.onrender.com/api/short/76"
+          },
+          {
+            "title": "The Breathing Method",
+            "url": "https://stephen-king-api.onrender.com/api/short/85"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 177,
@@ -2805,7 +5648,15 @@
           "name": "Derry, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/62"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 178,
@@ -2817,7 +5668,15 @@
           "name": "Hastings Glen",
           "url": "https://stephen-king-api.onrender.com/api/place/73"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Firestarter",
+            "url": "https://stephen-king-api.onrender.com/api/book/8"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 179,
@@ -2829,7 +5688,15 @@
           "name": "Derry, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/62"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 180,
@@ -2841,7 +5708,20 @@
           "name": "Mohaine Desert",
           "url": "https://stephen-king-api.onrender.com/api/place/43"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "The Way Station",
+            "url": "https://stephen-king-api.onrender.com/api/short/69"
+          }
+        ],
+        "villains": []
       },
       {
         "id": 181,
@@ -2853,7 +5733,15 @@
           "name": "Chamberlain, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/57"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 182,
@@ -2865,7 +5753,15 @@
           "name": "Chester's Mill, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/58"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Under the Dome",
+            "url": "https://stephen-king-api.onrender.com/api/book/48"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 183,
@@ -2877,7 +5773,20 @@
           "name": "Derry, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/62"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          }
+        ],
+        "shorts": [],
+        "villains": [
+          {
+            "name": "It (Creature)",
+            "url": "https://stephen-king-api.onrender.com/api/villain/57"
+          }
+        ]
       },
       {
         "id": 184,
@@ -2889,7 +5798,15 @@
           "name": "Derry, Maine",
           "url": "https://stephen-king-api.onrender.com/api/place/62"
         },
-        "places": []
+        "places": [],
+        "books": [
+          {
+            "title": "Insomnia",
+            "url": "https://stephen-king-api.onrender.com/api/book/29"
+          }
+        ],
+        "shorts": [],
+        "villains": []
       }
     ]
   }

@@ -25,7 +25,7 @@ interface FileSpec {
   // In the order the API returns them, since records are served as they are
   fields: Record<string, FieldRule>;
   unique: string[];
-  // Villains link to these records through appears_in
+  // Villains and places link to these records through appears_in
   linkable?: boolean;
   // Handed out before the catalog moved to files, so never used again
   retiredIds?: number[];
@@ -85,6 +85,8 @@ export const SPECS: Record<string, FileSpec> = {
       status: "text",
       types_id: "integer",
       appears_in: "list",
+      // Place handles. They're served as the places' villains, not on the villain.
+      residence: "list",
       notes: "list",
       created_at: "timestamp",
     },
@@ -100,6 +102,7 @@ export const SPECS: Record<string, FileSpec> = {
       handle: "text",
       type: { oneOf: PLACE_TYPES },
       parentId: "nullable id",
+      appears_in: "list",
       created_at: "timestamp",
     },
     unique: ["id", "handle", "name"],
@@ -243,38 +246,57 @@ export function validate(catalog: Catalog, base?: Catalog): string[] {
         if (owner === undefined) {
           linkable.set(record.handle, `${spec.label} ${record.id}`);
         } else if (!owner.startsWith(`${spec.label} `) && !SHARED_HANDLES.has(record.handle)) {
-          fail(record, index, `handle ${JSON.stringify(record.handle)} is also used by ${owner}, so villains would link to both`);
+          fail(record, index, `handle ${JSON.stringify(record.handle)} is also used by ${owner}, so villains and places would link to both`);
         }
       }
     });
   }
 
-  // Villain links are built from appears_in, so every handle has to resolve
-  const villains = catalog["villains.json"];
-  if (Array.isArray(villains)) {
-    villains.forEach((villain: CatalogRecord, index) => {
-      if (!Array.isArray(villain?.appears_in)) {
-        return;
-      }
-      const where = `catalog/villains.json: villain ${villain.id ?? `at position ${index}`} (${JSON.stringify(villain.name)})`;
-      const listed = new Set<unknown>();
-      for (const handle of villain.appears_in) {
-        if (listed.has(handle)) {
-          errors.push(`${where}: appears_in lists ${JSON.stringify(handle)} twice`);
-        } else if (typeof handle === "string" && !linkable.has(handle)) {
-          errors.push(`${where}: appears_in ${JSON.stringify(handle)} doesn't match any book or short handle`);
-        }
-        listed.add(handle);
-      }
-    });
-  }
+  // Links are built from these lists of handles, so every handle has to resolve
+  const places = catalog["places.json"];
+  const placeHandles = new Set(Array.isArray(places) ? places.map((place: CatalogRecord) => place?.handle) : []);
+  errors.push(...checkHandles(catalog, "villains.json", "appears_in", linkable, "book or short"));
+  errors.push(...checkHandles(catalog, "villains.json", "residence", placeHandles, "place"));
+  errors.push(...checkHandles(catalog, "places.json", "appears_in", linkable, "book or short"));
 
-  errors.push(...checkParents(catalog["places.json"]));
+  errors.push(...checkParents(places));
 
   if (base) {
     errors.push(...compareIds(catalog, base));
   }
 
+  return errors;
+}
+
+function checkHandles(
+  catalog: Catalog,
+  file: string,
+  field: string,
+  known: { has(handle: string): boolean },
+  kind: string
+): string[] {
+  const records = catalog[file];
+  if (!Array.isArray(records)) {
+    return [];
+  }
+  const { label, nameField } = SPECS[file];
+  const errors: string[] = [];
+  records.forEach((record: CatalogRecord, index) => {
+    const handles = record?.[field];
+    if (!Array.isArray(handles)) {
+      return;
+    }
+    const where = `catalog/${file}: ${label} ${record.id ?? `at position ${index}`} (${JSON.stringify(record[nameField])})`;
+    const listed = new Set<unknown>();
+    for (const handle of handles) {
+      if (listed.has(handle)) {
+        errors.push(`${where}: ${field} lists ${JSON.stringify(handle)} twice`);
+      } else if (typeof handle === "string" && !known.has(handle)) {
+        errors.push(`${where}: ${field} ${JSON.stringify(handle)} doesn't match any ${kind} handle`);
+      }
+      listed.add(handle);
+    }
+  });
   return errors;
 }
 

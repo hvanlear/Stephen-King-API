@@ -6,7 +6,7 @@ import cors from "cors";
 import config from "./config";
 import { trackApiHits } from "./modules/analyticsMiddleware";
 import { createApiLimiter } from "./modules/apiLimiter";
-import { apiNotFound, errorHandler } from "./modules/errorHandler";
+import { apiNotFound, pageNotFound, errorHandler } from "./modules/errorHandler";
 import {
   requireDashboardAuth,
   handleLogin,
@@ -54,6 +54,7 @@ app.get("/dashboard", requireDashboardAuth, showDashboard);
 
 app.use("/api", createApiLimiter(config.apiRateLimit), trackApiHits, router);
 app.use("/api", apiNotFound);
+app.use(pageNotFound);
 
 app.use(errorHandler);
 

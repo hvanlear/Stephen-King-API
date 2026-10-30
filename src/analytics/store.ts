@@ -23,6 +23,14 @@ const startedAt = new Date().toISOString();
 // Hits recorded since the last successful flush
 let pending = new Map<string, EndpointStats>();
 
+// Batches being saved right now. getStats counts them too, so hits don't
+// drop out of the dashboard between the swap and the commit.
+const inFlight = new Set<Map<string, EndpointStats>>();
+
+// A database outage is logged once, then once more when saving works again,
+// rather than every minute
+let failing = false;
+
 function addHits(
   target: Map<string, EndpointStats>,
   routeKey: string,
@@ -55,6 +63,9 @@ export async function getStats(): Promise<AnalyticsData> {
       });
     }
   }
+  for (const batch of inFlight) {
+    batch.forEach((stats, routeKey) => addHits(totals, routeKey, stats));
+  }
   pending.forEach((stats, routeKey) => addHits(totals, routeKey, stats));
 
   const endpoints: AnalyticsData["endpoints"] = {};
@@ -79,6 +90,7 @@ export async function flushStats(): Promise<void> {
 
   const batch = pending;
   pending = new Map();
+  inFlight.add(batch);
 
   try {
     await prisma.$transaction(
@@ -90,9 +102,18 @@ export async function flushStats(): Promise<void> {
         })
       )
     );
+    if (failing) {
+      failing = false;
+      console.log("Saving API hit counts works again");
+    }
   } catch (error) {
-    console.error("Failed to save API hit counts, will retry:", error);
+    if (!failing) {
+      failing = true;
+      console.error("Failed to save API hit counts, retrying every minute:", error);
+    }
     batch.forEach((stats, routeKey) => addHits(pending, routeKey, stats));
+  } finally {
+    inFlight.delete(batch);
   }
 }
 

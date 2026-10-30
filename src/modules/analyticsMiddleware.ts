@@ -8,7 +8,8 @@ export function trackApiHits(
 ): void {
   res.on("finish", () => {
     if (req.route) {
-      const routeKey = `${req.method} /api${req.route.path}`;
+      // The mount path plus the route pattern, such as "GET /api/book/:id"
+      const routeKey = `${req.method} ${req.baseUrl}${req.route.path}`;
       recordHit(routeKey);
     }
   });

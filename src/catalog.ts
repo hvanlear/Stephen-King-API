@@ -32,6 +32,7 @@ export interface Villain {
   status: string;
   types_id: number;
   appears_in: string[];
+  residence: string[];
   notes: string[];
   created_at: string;
 }
@@ -139,4 +140,23 @@ for (const place of places) {
   }
   bookIdsByPlace.get(place.id)?.sort((a, b) => a - b);
   shortIdsByPlace.get(place.id)?.sort((a, b) => a - b);
+}
+
+// A villain who lives in a place also lives in every place it's in, so a
+// town lists the villains in its buildings, in villain id order
+export const villainIdsByPlace = new Map<number, number[]>();
+
+const placeIdsByHandle = new Map(places.map((p) => [p.handle, p.id]));
+const parentIds = new Map(places.map((p) => [p.id, p.parentId]));
+
+for (const villain of villains) {
+  const homes = new Set<number>();
+  for (const handle of villain.residence) {
+    let id: number | null | undefined = placeIdsByHandle.get(handle);
+    while (id !== undefined && id !== null) {
+      homes.add(id);
+      id = parentIds.get(id);
+    }
+  }
+  homes.forEach((id) => link(villainIdsByPlace, id, villain.id));
 }

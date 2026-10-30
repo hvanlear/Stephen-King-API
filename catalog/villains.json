@@ -8,6 +8,10 @@
     "appears_in": [
       "a-good-marriage"
     ],
+    "residence": [
+      "pownal-maine",
+      "yarmouth-maine"
+    ],
     "notes": [
       "Stubs",
       "Characters",
@@ -28,6 +32,9 @@
     "appears_in": [
       "salem-s-lot"
     ],
+    "residence": [
+      "marsten-house"
+    ],
     "notes": [
       "Characters",
       "Jerusalem's Lot residents",
@@ -47,6 +54,7 @@
       "the-dark-tower-iv-wizard-and-glass",
       "the-dark-tower-iii-the-waste-lands"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Unsourced quotes",
@@ -65,6 +73,9 @@
     "types_id": 1,
     "appears_in": [
       "carrie"
+    ],
+    "residence": [
+      "chamberlain-maine"
     ],
     "notes": [
       "Characters",
@@ -90,6 +101,7 @@
     "appears_in": [
       "children-of-the-corn"
     ],
+    "residence": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -107,6 +119,9 @@
     "appears_in": [
       "jerusalem-s-lot"
     ],
+    "residence": [
+      "jerusalem-s-lot-maine"
+    ],
     "notes": [
       "Stubs",
       "Characters",
@@ -123,6 +138,9 @@
     "types_id": 1,
     "appears_in": [
       "it"
+    ],
+    "residence": [
+      "derry-maine"
     ],
     "notes": [
       "Characters",
@@ -152,6 +170,9 @@
     "appears_in": [
       "it"
     ],
+    "residence": [
+      "derry-maine"
+    ],
     "notes": [
       "Characters",
       "Unsourced quotes",
@@ -174,6 +195,9 @@
     "types_id": 1,
     "appears_in": [
       "it"
+    ],
+    "residence": [
+      "derry-maine"
     ],
     "notes": [
       "Characters",
@@ -198,6 +222,9 @@
       "the-dark-tower-the-gunslinger",
       "the-gunslinger-and-the-dark-man"
     ],
+    "residence": [
+      "gilead"
+    ],
     "notes": [
       "Stubs",
       "Characters",
@@ -220,6 +247,7 @@
       "christine",
       "it"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Objects",
@@ -242,6 +270,7 @@
     "appears_in": [
       "children-of-the-corn"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Villains",
@@ -257,6 +286,9 @@
     "types_id": 8,
     "appears_in": [
       "pet-sematary"
+    ],
+    "residence": [
+      "ludlow-maine"
     ],
     "notes": [
       "Characters",
@@ -276,6 +308,9 @@
     "types_id": 1,
     "appears_in": [
       "carrie"
+    ],
+    "residence": [
+      "chamberlain-maine"
     ],
     "notes": [
       "Characters",
@@ -302,6 +337,9 @@
     "appears_in": [
       "pet-sematary"
     ],
+    "residence": [
+      "ludlow-maine"
+    ],
     "notes": [
       "Characters",
       "Villains",
@@ -321,6 +359,9 @@
     "types_id": 1,
     "appears_in": [
       "carrie"
+    ],
+    "residence": [
+      "chamberlain-maine"
     ],
     "notes": [
       "Stubs",
@@ -350,6 +391,7 @@
       "black-house",
       "the-dark-tower-vii-the-dark-tower"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "The Dark Tower",
@@ -367,6 +409,9 @@
     "types_id": 1,
     "appears_in": [
       "it"
+    ],
+    "residence": [
+      "derry-maine"
     ],
     "notes": [
       "Characters",
@@ -391,6 +436,9 @@
     "appears_in": [
       "cujo"
     ],
+    "residence": [
+      "castle-rock-maine"
+    ],
     "notes": [
       "Characters",
       "Dogs",
@@ -411,6 +459,7 @@
     "appears_in": [
       "christine"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Unsourced quotes",
@@ -434,6 +483,7 @@
     "appears_in": [
       "the-dark-tower-vii-the-dark-tower"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Villains"
@@ -449,6 +499,7 @@
     "appears_in": [
       "rose-madder"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Unsourced quotes",
@@ -469,6 +520,7 @@
       "rose-madder",
       "insomnia"
     ],
+    "residence": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -485,6 +537,7 @@
     "appears_in": [
       "the-dark-tower-iv-wizard-and-glass"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Villains",
@@ -501,6 +554,9 @@
     "types_id": 1,
     "appears_in": [
       "carrie"
+    ],
+    "residence": [
+      "chamberlain-maine"
     ],
     "notes": [
       "Characters",
@@ -525,6 +581,9 @@
       "the-shining",
       "doctor-sleep"
     ],
+    "residence": [
+      "overlook-hotel"
+    ],
     "notes": [
       "Stubs",
       "Characters",
@@ -546,6 +605,7 @@
       "the-dark-tower-vii-the-dark-tower",
       "the-dark-tower-vi-song-of-susannah"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "ESPers",
@@ -565,6 +625,7 @@
     "appears_in": [
       "rita-hayworth-and-shawshank-redemption"
     ],
+    "residence": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -582,6 +643,7 @@
     "appears_in": [
       "the-dead-zone"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Police",
@@ -603,6 +665,7 @@
     "appears_in": [
       "the-dead-zone"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "The Dead Zone",
@@ -619,6 +682,7 @@
     "appears_in": [
       "doctor-sleep"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Doctor Sleep",
@@ -638,6 +702,9 @@
     "types_id": 1,
     "appears_in": [
       "the-dark-tower-iv-wizard-and-glass"
+    ],
+    "residence": [
+      "hambry-mejis"
     ],
     "notes": [
       "Stubs",
@@ -659,6 +726,7 @@
     "appears_in": [
       "apt-pupil"
     ],
+    "residence": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -675,6 +743,9 @@
     "appears_in": [
       "the-stand",
       "the-stand-uncut"
+    ],
+    "residence": [
+      "powtanville-indiana"
     ],
     "notes": [
       "Characters",
@@ -693,6 +764,9 @@
     "types_id": 1,
     "appears_in": [
       "it"
+    ],
+    "residence": [
+      "derry-maine"
     ],
     "notes": [
       "Characters",
@@ -713,6 +787,7 @@
     "appears_in": [
       "the-dark-tower-iv-wizard-and-glass"
     ],
+    "residence": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -737,6 +812,7 @@
       "the-dark-tower-iv-wizard-and-glass",
       "the-dark-tower-iii-the-waste-lands"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "The Stand",
@@ -759,6 +835,9 @@
     "types_id": 1,
     "appears_in": [
       "carrie"
+    ],
+    "residence": [
+      "chamberlain-maine"
     ],
     "notes": [
       "Characters",
@@ -784,6 +863,9 @@
     "appears_in": [
       "it"
     ],
+    "residence": [
+      "derry-maine"
+    ],
     "notes": [
       "Stubs",
       "Characters",
@@ -806,6 +888,9 @@
     "appears_in": [
       "needful-things"
     ],
+    "residence": [
+      "castle-rock-maine"
+    ],
     "notes": [
       "Characters",
       "Villains",
@@ -822,6 +907,9 @@
     "types_id": 1,
     "appears_in": [
       "gerald-s-game"
+    ],
+    "residence": [
+      "maine"
     ],
     "notes": [
       "Antagonists",
@@ -841,6 +929,7 @@
     "appears_in": [
       "the-running-man"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Villains"
@@ -855,6 +944,9 @@
     "types_id": 1,
     "appears_in": [
       "it"
+    ],
+    "residence": [
+      "derry-maine"
     ],
     "notes": [
       "Stubs",
@@ -878,6 +970,9 @@
     "appears_in": [
       "carrie"
     ],
+    "residence": [
+      "chamberlain-maine"
+    ],
     "notes": [
       "Characters",
       "Ewen High School students",
@@ -897,6 +992,9 @@
     "types_id": 7,
     "appears_in": [
       "the-shining"
+    ],
+    "residence": [
+      "overlook-hotel"
     ],
     "notes": [
       "Characters",
@@ -918,6 +1016,7 @@
     "appears_in": [
       "rita-hayworth-and-shawshank-redemption"
     ],
+    "residence": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -936,6 +1035,7 @@
     "appears_in": [
       "the-cat-from-hell"
     ],
+    "residence": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -952,6 +1052,7 @@
     "appears_in": [
       "joyland"
     ],
+    "residence": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -968,6 +1069,9 @@
     "types_id": 1,
     "appears_in": [
       "carrie"
+    ],
+    "residence": [
+      "chamberlain-maine"
     ],
     "notes": [
       "Characters",
@@ -999,6 +1103,7 @@
       "finders-keepers",
       "end-of-watch"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Villains",
@@ -1017,6 +1122,7 @@
       "the-stand",
       "the-stand-uncut"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Unsourced quotes",
@@ -1036,6 +1142,7 @@
     "appears_in": [
       "the-institute"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "The Institute",
@@ -1053,6 +1160,9 @@
     "types_id": 1,
     "appears_in": [
       "it"
+    ],
+    "residence": [
+      "derry-maine"
     ],
     "notes": [
       "Characters",
@@ -1080,6 +1190,7 @@
     "appears_in": [
       "firestarter"
     ],
+    "residence": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -1097,6 +1208,9 @@
     "types_id": 1,
     "appears_in": [
       "it"
+    ],
+    "residence": [
+      "derry-maine"
     ],
     "notes": [
       "Characters",
@@ -1120,6 +1234,7 @@
     "appears_in": [
       "in-the-tall-grass"
     ],
+    "residence": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -1139,6 +1254,11 @@
       "it",
       "the-tommyknockers",
       "the-bird-and-the-album"
+    ],
+    "residence": [
+      "todash-space",
+      "macroverse",
+      "well-house"
     ],
     "notes": [
       "Characters",
@@ -1163,6 +1283,9 @@
     "appears_in": [
       "1922"
     ],
+    "residence": [
+      "hemingford-home-nebraska"
+    ],
     "notes": [
       "Characters",
       "Villains"
@@ -1177,6 +1300,9 @@
     "types_id": 1,
     "appears_in": [
       "1922"
+    ],
+    "residence": [
+      "hemingford-home-nebraska"
     ],
     "notes": [
       "Characters",
@@ -1197,6 +1323,9 @@
     "appears_in": [
       "the-dark-tower-iv-wizard-and-glass"
     ],
+    "residence": [
+      "hambry-mejis"
+    ],
     "notes": [
       "Characters",
       "The Dark Tower",
@@ -1213,6 +1342,9 @@
     "types_id": 1,
     "appears_in": [
       "gerald-s-game"
+    ],
+    "residence": [
+      "maine"
     ],
     "notes": [
       "Characters",
@@ -1234,6 +1366,7 @@
     "appears_in": [
       "the-stand-uncut"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Villains",
@@ -1250,6 +1383,7 @@
     "appears_in": [
       "the-running-man"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Villains",
@@ -1266,6 +1400,9 @@
     "appears_in": [
       "the-stand",
       "the-stand-uncut"
+    ],
+    "residence": [
+      "ogunquit-maine"
     ],
     "notes": [
       "Characters",
@@ -1287,6 +1424,7 @@
     "appears_in": [
       "sometimes-they-come-back"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Unsourced quotes",
@@ -1306,6 +1444,7 @@
     "appears_in": [
       "from-a-buick-8"
     ],
+    "residence": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -1323,6 +1462,7 @@
     "appears_in": [
       "the-little-sisters-of-eluria"
     ],
+    "residence": [],
     "notes": [
       "Organizations",
       "The Dark Tower novels",
@@ -1338,6 +1478,9 @@
     "types_id": 3,
     "appears_in": [
       "cycle-of-the-werewolf"
+    ],
+    "residence": [
+      "tarker-s-mill-maine"
     ],
     "notes": [
       "Characters",
@@ -1357,6 +1500,9 @@
     "appears_in": [
       "it"
     ],
+    "residence": [
+      "derry-maine"
+    ],
     "notes": [
       "Stubs",
       "Characters",
@@ -1374,6 +1520,7 @@
     "appears_in": [
       "the-long-walk"
     ],
+    "residence": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -1391,6 +1538,7 @@
     "appears_in": [
       "the-dead-zone"
     ],
+    "residence": [],
     "notes": [
       "Murderers",
       "The Dead Zone",
@@ -1406,6 +1554,9 @@
     "types_id": 1,
     "appears_in": [
       "it"
+    ],
+    "residence": [
+      "derry-maine"
     ],
     "notes": [
       "Characters",
@@ -1428,6 +1579,9 @@
     "appears_in": [
       "firestarter"
     ],
+    "residence": [
+      "harrison-ohio"
+    ],
     "notes": [
       "Characters",
       "ESPers",
@@ -1449,6 +1603,9 @@
     "appears_in": [
       "the-body",
       "needful-things"
+    ],
+    "residence": [
+      "castle-rock-maine"
     ],
     "notes": [
       "Characters",
@@ -1474,6 +1631,9 @@
     "types_id": 1,
     "appears_in": [
       "carrie"
+    ],
+    "residence": [
+      "chamberlain-maine"
     ],
     "notes": [
       "Characters",
@@ -1502,6 +1662,7 @@
     "appears_in": [
       "the-dark-tower-ii-the-drawing-of-the-three"
     ],
+    "residence": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -1521,6 +1682,7 @@
     "appears_in": [
       "carrie"
     ],
+    "residence": [],
     "notes": [
       "Villains",
       "Victims",
@@ -1543,6 +1705,7 @@
     "appears_in": [
       "revival"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Villains",
@@ -1558,6 +1721,9 @@
     "types_id": 1,
     "appears_in": [
       "it"
+    ],
+    "residence": [
+      "derry-maine"
     ],
     "notes": [
       "Characters",
@@ -1577,6 +1743,9 @@
     "types_id": 1,
     "appears_in": [
       "carrie"
+    ],
+    "residence": [
+      "chamberlain-maine"
     ],
     "notes": [
       "Characters",
@@ -1606,6 +1775,7 @@
     "appears_in": [
       "rita-hayworth-and-shawshank-redemption"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Villains",
@@ -1623,6 +1793,7 @@
     "appears_in": [
       "the-outsider"
     ],
+    "residence": [],
     "notes": [
       "Shape-Shifters",
       "The Outsider Characters",
@@ -1639,6 +1810,7 @@
     "appears_in": [
       "pet-sematary"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Pet Sematary"
@@ -1654,6 +1826,9 @@
     "appears_in": [
       "the-dark-tower-the-gunslinger",
       "the-gunslinger"
+    ],
+    "residence": [
+      "tull"
     ],
     "notes": [
       "Characters",
@@ -1673,6 +1848,7 @@
     "appears_in": [
       "cell"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Villains"
@@ -1688,6 +1864,7 @@
     "appears_in": [
       "firestarter"
     ],
+    "residence": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -1708,6 +1885,7 @@
       "the-stand",
       "the-stand-uncut"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Villains",
@@ -1723,6 +1901,9 @@
     "types_id": 1,
     "appears_in": [
       "under-the-dome"
+    ],
+    "residence": [
+      "chester-s-mill-maine"
     ],
     "notes": [
       "Characters",
@@ -1747,6 +1928,9 @@
     "appears_in": [
       "under-the-dome"
     ],
+    "residence": [
+      "chester-s-mill-maine"
+    ],
     "notes": [
       "Stubs",
       "Characters",
@@ -1769,6 +1953,9 @@
     "appears_in": [
       "carrie"
     ],
+    "residence": [
+      "chamberlain-maine"
+    ],
     "notes": [
       "Characters",
       "Chamberlain residents",
@@ -1786,6 +1973,7 @@
     "appears_in": [
       "it"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Characters with mental illness",
@@ -1809,6 +1997,7 @@
     "appears_in": [
       "the-cat-from-hell"
     ],
+    "residence": [],
     "notes": [
       "Cats",
       "Villains",
@@ -1825,6 +2014,7 @@
     "appears_in": [
       "the-dead-zone"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Villains",
@@ -1840,6 +2030,9 @@
     "types_id": 1,
     "appears_in": [
       "carrie"
+    ],
+    "residence": [
+      "chamberlain-maine"
     ],
     "notes": [
       "Characters",
@@ -1866,6 +2059,9 @@
     "appears_in": [
       "dolores-claiborne"
     ],
+    "residence": [
+      "little-tall-island"
+    ],
     "notes": [
       "Stubs",
       "Characters",
@@ -1887,6 +2083,7 @@
     "appears_in": [
       "the-dark-half"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Writers",
@@ -1905,6 +2102,7 @@
     "appears_in": [
       "the-dead-zone"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Politicians",
@@ -1925,6 +2123,9 @@
     "appears_in": [
       "salem-s-lot"
     ],
+    "residence": [
+      "marsten-house"
+    ],
     "notes": [
       "Characters",
       "Villains",
@@ -1941,6 +2142,9 @@
     "types_id": 1,
     "appears_in": [
       "carrie"
+    ],
+    "residence": [
+      "chamberlain-maine"
     ],
     "notes": [
       "Characters",
@@ -1968,6 +2172,7 @@
     "appears_in": [
       "the-dead-zone"
     ],
+    "residence": [],
     "notes": [
       "Villains",
       "Crime"
@@ -1982,6 +2187,9 @@
     "types_id": 1,
     "appears_in": [
       "under-the-dome"
+    ],
+    "residence": [
+      "chester-s-mill-maine"
     ],
     "notes": [
       "Stubs",
@@ -2004,6 +2212,9 @@
     "types_id": 1,
     "appears_in": [
       "carrie"
+    ],
+    "residence": [
+      "chamberlain-maine"
     ],
     "notes": [
       "Characters",
@@ -2031,6 +2242,9 @@
     "appears_in": [
       "gerald-s-game"
     ],
+    "residence": [
+      "maine"
+    ],
     "notes": [
       "Characters",
       "Residents of Maine",
@@ -2049,6 +2263,7 @@
     "appears_in": [
       "the-tommyknockers"
     ],
+    "residence": [],
     "notes": [
       "Villains",
       "The Tommyknockers"
@@ -2064,6 +2279,7 @@
     "appears_in": [
       "the-langoliers"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Characters with mental illness",
@@ -2083,6 +2299,7 @@
       "the-shining",
       "doctor-sleep"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Writers",
@@ -2111,6 +2328,9 @@
     "appears_in": [
       "it"
     ],
+    "residence": [
+      "derry-maine"
+    ],
     "notes": [
       "Stubs",
       "Characters",
@@ -2130,6 +2350,9 @@
     "types_id": 1,
     "appears_in": [
       "carrie"
+    ],
+    "residence": [
+      "chamberlain-maine"
     ],
     "notes": [
       "Characters",
@@ -2155,6 +2378,9 @@
     "appears_in": [
       "carrie"
     ],
+    "residence": [
+      "chamberlain-maine"
+    ],
     "notes": [
       "Characters",
       "Bullies",
@@ -2176,6 +2402,7 @@
     "appears_in": [
       "pet-sematary"
     ],
+    "residence": [],
     "notes": [
       "Pet Sematary",
       "Villains"
@@ -2190,6 +2417,9 @@
     "types_id": 1,
     "appears_in": [
       "the-green-mile"
+    ],
+    "residence": [
+      "louisiana"
     ],
     "notes": [
       "Characters",
@@ -2209,6 +2439,7 @@
     "appears_in": [
       "the-green-mile"
     ],
+    "residence": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -2225,6 +2456,10 @@
     "types_id": 1,
     "appears_in": [
       "carrie"
+    ],
+    "residence": [
+      "motton-maine",
+      "chamberlain-maine"
     ],
     "notes": [
       "Characters",
@@ -2251,6 +2486,7 @@
     "appears_in": [
       "misery"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Villains",
@@ -2271,6 +2507,7 @@
     "appears_in": [
       "rita-hayworth-and-shawshank-redemption"
     ],
+    "residence": [],
     "notes": [
       "Stubs",
       "Characters",
@@ -2286,6 +2523,9 @@
     "types_id": 1,
     "appears_in": [
       "it"
+    ],
+    "residence": [
+      "derry-maine"
     ],
     "notes": [
       "Deceased Characters",
@@ -2308,6 +2548,7 @@
       "the-stand",
       "the-stand-uncut"
     ],
+    "residence": [],
     "notes": [
       "Crime",
       "Deceased",
@@ -2327,6 +2568,7 @@
     "appears_in": [
       "finders-keepers"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Antagonists",
@@ -2349,6 +2591,7 @@
     "appears_in": [
       "the-library-policeman"
     ],
+    "residence": [],
     "notes": [
       "Librarians",
       "Females",
@@ -2365,6 +2608,7 @@
     "appears_in": [
       "insomnia"
     ],
+    "residence": [],
     "notes": [
       "Antagonists"
     ],
@@ -2379,6 +2623,7 @@
     "appears_in": [
       "doctor-sleep"
     ],
+    "residence": [],
     "notes": [
       "Deceased Characters",
       "Antagonists",
@@ -2398,6 +2643,7 @@
     "appears_in": [
       "the-dark-tower-the-wind-through-the-keyhole"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Males",
@@ -2414,6 +2660,9 @@
     "types_id": 1,
     "appears_in": [
       "the-body"
+    ],
+    "residence": [
+      "castle-rock-maine"
     ],
     "notes": [
       "Males",
@@ -2433,6 +2682,7 @@
     "appears_in": [
       "the-boogeyman"
     ],
+    "residence": [],
     "notes": [
       "Creatures",
       "Monsters",
@@ -2450,6 +2700,7 @@
     "appears_in": [
       "christine"
     ],
+    "residence": [],
     "notes": [
       "Leaders",
       "Males",
@@ -2472,6 +2723,9 @@
     "appears_in": [
       "the-body"
     ],
+    "residence": [
+      "castle-rock-maine"
+    ],
     "notes": [
       "Males",
       "Castle Rock residents",
@@ -2490,6 +2744,7 @@
     "appears_in": [
       "if-it-bleeds"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Males",
@@ -2507,6 +2762,7 @@
     "appears_in": [
       "the-dark-tower-iv-wizard-and-glass"
     ],
+    "residence": [],
     "notes": [
       "Males",
       "Antagonists",
@@ -2524,6 +2780,7 @@
       "desperation",
       "the-regulators"
     ],
+    "residence": [],
     "notes": [
       "Deceased Characters",
       "Police",
@@ -2542,6 +2799,7 @@
     "appears_in": [
       "doctor-sleep"
     ],
+    "residence": [],
     "notes": [
       "Antagonists",
       "Doctor Sleep",
@@ -2561,6 +2819,7 @@
     "appears_in": [
       "n-"
     ],
+    "residence": [],
     "notes": [
       "Creatures",
       "The Dark Tower",
@@ -2577,6 +2836,7 @@
     "appears_in": [
       "the-institute"
     ],
+    "residence": [],
     "notes": [
       "The Institute",
       "Males",
@@ -2598,6 +2858,7 @@
     "appears_in": [
       "holly"
     ],
+    "residence": [],
     "notes": [
       "Females",
       "Antagonists",
@@ -2617,6 +2878,9 @@
     "appears_in": [
       "11-22-63"
     ],
+    "residence": [
+      "derry-maine"
+    ],
     "notes": [
       "Males",
       "Derry residents",
@@ -2634,6 +2898,7 @@
     "appears_in": [
       "gwendy-s-button-box"
     ],
+    "residence": [],
     "notes": [
       "Males",
       "Villains",
@@ -2651,6 +2916,9 @@
     "types_id": 1,
     "appears_in": [
       "it"
+    ],
+    "residence": [
+      "derry-maine"
     ],
     "notes": [
       "Deceased Characters",
@@ -2672,6 +2940,7 @@
     "appears_in": [
       "doctor-sleep"
     ],
+    "residence": [],
     "notes": [
       "Antagonists",
       "Doctor Sleep",
@@ -2689,6 +2958,7 @@
     "appears_in": [
       "rose-madder"
     ],
+    "residence": [],
     "notes": [
       "Males",
       "Police",
@@ -2707,6 +2977,7 @@
     "appears_in": [
       "children-of-the-corn"
     ],
+    "residence": [],
     "notes": [
       "Antagonists",
       "Monsters",
@@ -2725,6 +2996,7 @@
       "the-stand",
       "the-stand-uncut"
     ],
+    "residence": [],
     "notes": [
       "Deceased Characters",
       "Females",
@@ -2741,6 +3013,7 @@
     "appears_in": [
       "the-gingerbread-girl"
     ],
+    "residence": [],
     "notes": [
       "Males",
       "Murderers"
@@ -2756,6 +3029,7 @@
     "appears_in": [
       "doctor-sleep"
     ],
+    "residence": [],
     "notes": [
       "Antagonists",
       "Deceased Characters",
@@ -2773,6 +3047,7 @@
     "appears_in": [
       "the-institute"
     ],
+    "residence": [],
     "notes": [
       "The Institute",
       "Males",
@@ -2793,6 +3068,7 @@
     "appears_in": [
       "secret-window-secret-garden"
     ],
+    "residence": [],
     "notes": [
       "Antagonists"
     ],
@@ -2807,6 +3083,7 @@
     "appears_in": [
       "the-institute"
     ],
+    "residence": [],
     "notes": [
       "The Institute",
       "Females",
@@ -2830,6 +3107,9 @@
       "the-stand",
       "the-stand-uncut"
     ],
+    "residence": [
+      "pratt-kansas"
+    ],
     "notes": [
       "Females",
       "Deceased Characters",
@@ -2848,6 +3128,7 @@
     "appears_in": [
       "the-langoliers"
     ],
+    "residence": [],
     "notes": [
       "Creatures",
       "Antagonists"
@@ -2863,6 +3144,7 @@
     "appears_in": [
       "rest-stop"
     ],
+    "residence": [],
     "notes": [
       "Males",
       "Lovers",
@@ -2879,6 +3161,7 @@
     "appears_in": [
       "it"
     ],
+    "residence": [],
     "notes": [
       "Villains",
       "Groups",
@@ -2899,6 +3182,7 @@
     "appears_in": [
       "it"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "IT",
@@ -2916,6 +3200,9 @@
     "appears_in": [
       "the-body"
     ],
+    "residence": [
+      "castle-rock-maine"
+    ],
     "notes": [
       "Antagonists",
       "Bullies",
@@ -2932,6 +3219,7 @@
     "appears_in": [
       "the-monkey"
     ],
+    "residence": [],
     "notes": [
       "The Monkey",
       "Objects",
@@ -2952,6 +3240,7 @@
     "appears_in": [
       "christine"
     ],
+    "residence": [],
     "notes": [
       "Bullies",
       "Males",
@@ -2971,6 +3260,7 @@
     "appears_in": [
       "the-talisman"
     ],
+    "residence": [],
     "notes": [
       "Antagonists",
       "Characters",
@@ -2988,6 +3278,7 @@
     "appears_in": [
       "finders-keepers"
     ],
+    "residence": [],
     "notes": [
       "Bill Hodges",
       "Antagonists",
@@ -3007,6 +3298,7 @@
     "appears_in": [
       "dreamcatcher"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Villains",
@@ -3022,6 +3314,9 @@
     "types_id": 1,
     "appears_in": [
       "the-mist"
+    ],
+    "residence": [
+      "bridgton-maine"
     ],
     "notes": [
       "Female Characters",
@@ -3039,6 +3334,9 @@
     "types_id": 1,
     "appears_in": [
       "the-body"
+    ],
+    "residence": [
+      "castle-rock-maine"
     ],
     "notes": [
       "Castle Rock residents",
@@ -3059,6 +3357,7 @@
     "appears_in": [
       "the-institute"
     ],
+    "residence": [],
     "notes": [
       "The Institute",
       "Characters",
@@ -3078,6 +3377,9 @@
     "appears_in": [
       "the-body"
     ],
+    "residence": [
+      "castle-rock-maine"
+    ],
     "notes": [
       "Bullies",
       "Residents of Maine",
@@ -3096,6 +3398,7 @@
     "appears_in": [
       "holly"
     ],
+    "residence": [],
     "notes": [
       "Males",
       "Antagonists",
@@ -3115,6 +3418,7 @@
     "appears_in": [
       "the-shining"
     ],
+    "residence": [],
     "notes": [
       "Males",
       "Male Characters",
@@ -3137,6 +3441,7 @@
     "appears_in": [
       "the-dark-tower-iv-wizard-and-glass"
     ],
+    "residence": [],
     "notes": [
       "The Dark Tower",
       "Males",
@@ -3153,6 +3458,7 @@
     "appears_in": [
       "doctor-sleep"
     ],
+    "residence": [],
     "notes": [
       "Antagonists",
       "Deceased Characters",
@@ -3174,6 +3480,7 @@
       "desperation",
       "the-regulators"
     ],
+    "residence": [],
     "notes": [
       "Creatures",
       "Demons",
@@ -3193,6 +3500,7 @@
     "appears_in": [
       "children-of-the-corn"
     ],
+    "residence": [],
     "notes": [
       "Groups",
       "Antagonists"
@@ -3208,6 +3516,7 @@
     "appears_in": [
       "the-mangler"
     ],
+    "residence": [],
     "notes": [
       "Antagonists",
       "Demons"
@@ -3223,6 +3532,7 @@
     "appears_in": [
       "the-mist"
     ],
+    "residence": [],
     "notes": [
       "Monsters",
       "Antagonists",
@@ -3239,6 +3549,7 @@
     "appears_in": [
       "apt-pupil"
     ],
+    "residence": [],
     "notes": [
       "Males",
       "Antagonists",
@@ -3254,6 +3565,9 @@
     "types_id": 1,
     "appears_in": [
       "carrie"
+    ],
+    "residence": [
+      "chamberlain-maine"
     ],
     "notes": [
       "Males",
@@ -3274,6 +3588,7 @@
     "appears_in": [
       "the-institute"
     ],
+    "residence": [],
     "notes": [
       "Males",
       "The Institute",
@@ -3295,6 +3610,7 @@
     "appears_in": [
       "the-institute"
     ],
+    "residence": [],
     "notes": [
       "The Institute",
       "Males",
@@ -3316,6 +3632,9 @@
     "appears_in": [
       "the-body"
     ],
+    "residence": [
+      "castle-rock-maine"
+    ],
     "notes": [
       "Males",
       "Bullies",
@@ -3334,6 +3653,7 @@
     "appears_in": [
       "doctor-sleep"
     ],
+    "residence": [],
     "notes": [
       "Deceased Characters",
       "Antagonists",
@@ -3351,6 +3671,7 @@
     "appears_in": [
       "the-institute"
     ],
+    "residence": [],
     "notes": [
       "The Institute",
       "Deceased Characters",
@@ -3368,6 +3689,7 @@
     "appears_in": [
       "the-institute"
     ],
+    "residence": [],
     "notes": [
       "Characters",
       "Males",
@@ -3390,6 +3712,7 @@
     "appears_in": [
       "the-dark-tower-v-wolves-of-the-calla"
     ],
+    "residence": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3401,6 +3724,9 @@
     "types_id": 1,
     "appears_in": [
       "the-dark-tower-v-wolves-of-the-calla"
+    ],
+    "residence": [
+      "calla-bryn-sturgis"
     ],
     "notes": [
       "Males",
@@ -3418,6 +3744,7 @@
     "appears_in": [
       "rage"
     ],
+    "residence": [],
     "notes": [
       "Male Characters"
     ],
@@ -3432,6 +3759,7 @@
     "appears_in": [
       "sleeping-beauties"
     ],
+    "residence": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3444,6 +3772,7 @@
     "appears_in": [
       "sleeping-beauties"
     ],
+    "residence": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3456,6 +3785,7 @@
     "appears_in": [
       "fairy-tale"
     ],
+    "residence": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3468,6 +3798,7 @@
     "appears_in": [
       "sleeping-beauties"
     ],
+    "residence": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3480,6 +3811,7 @@
     "appears_in": [
       "gwendy-s-final-task"
     ],
+    "residence": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3492,6 +3824,7 @@
     "appears_in": [
       "the-girl-who-loved-tom-gordon"
     ],
+    "residence": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3504,6 +3837,7 @@
     "appears_in": [
       "fairy-tale"
     ],
+    "residence": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3515,6 +3849,9 @@
     "types_id": 1,
     "appears_in": [
       "lisey-s-story"
+    ],
+    "residence": [
+      "lovell-maine"
     ],
     "notes": [
       "Males",
@@ -3532,6 +3869,7 @@
     "appears_in": [
       "later"
     ],
+    "residence": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3544,6 +3882,7 @@
     "appears_in": [
       "later"
     ],
+    "residence": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3555,6 +3894,9 @@
     "types_id": 3,
     "appears_in": [
       "lisey-s-story"
+    ],
+    "residence": [
+      "boo-ya-moon"
     ],
     "notes": [
       "Lisey's Story",
@@ -3571,6 +3913,7 @@
     "appears_in": [
       "bag-of-bones"
     ],
+    "residence": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3583,6 +3926,7 @@
     "appears_in": [
       "billy-summers"
     ],
+    "residence": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3595,6 +3939,7 @@
     "appears_in": [
       "duma-key"
     ],
+    "residence": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3607,6 +3952,7 @@
     "appears_in": [
       "billy-summers"
     ],
+    "residence": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3619,6 +3965,7 @@
     "appears_in": [
       "bag-of-bones"
     ],
+    "residence": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3631,6 +3978,7 @@
     "appears_in": [
       "bag-of-bones"
     ],
+    "residence": [],
     "notes": [
       "Females",
       "Deceased Characters",
@@ -3647,6 +3995,7 @@
     "appears_in": [
       "thinner"
     ],
+    "residence": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3659,6 +4008,7 @@
     "appears_in": [
       "sleeping-beauties"
     ],
+    "residence": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3671,6 +4021,7 @@
     "appears_in": [
       "the-dark-tower-v-wolves-of-the-calla"
     ],
+    "residence": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3683,6 +4034,7 @@
     "appears_in": [
       "the-dark-tower-v-wolves-of-the-calla"
     ],
+    "residence": [],
     "notes": [],
     "created_at": "2026-10-28T20:12:34.000Z"
   },
@@ -3696,6 +4048,7 @@
       "the-stand",
       "the-stand-uncut"
     ],
+    "residence": [],
     "notes": [
       "Female Characters",
       "Deceased Characters",

@@ -49,6 +49,20 @@
           "title": "Jerusalem's Lot",
           "url": "https://stephen-king-api.onrender.com/api/short/58"
         }
+      ],
+      "villains": [
+        {
+          "name": "Kurt Barlow",
+          "url": "https://stephen-king-api.onrender.com/api/villain/2"
+        },
+        {
+          "name": "James Boon",
+          "url": "https://stephen-king-api.onrender.com/api/villain/6"
+        },
+        {
+          "name": "Richard Straker",
+          "url": "https://stephen-king-api.onrender.com/api/villain/98"
+        }
       ]
     }
   }

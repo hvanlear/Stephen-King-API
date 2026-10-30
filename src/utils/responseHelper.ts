@@ -14,6 +14,7 @@ import {
   placeIdsByParent,
   bookIdsByPlace,
   shortIdsByPlace,
+  villainIdsByPlace,
 } from "../catalog";
 import config from "../config";
 
@@ -52,8 +53,9 @@ const shortLinks = (ids: number[] = []) =>
     url: `${URL}/api/short/${id}`,
   }));
 
-// appears_in only exists to build the links, so it isn't returned
-export const villainResponse = ({ appears_in, ...villain }: Villain) => ({
+// appears_in only exists to build the links, so it isn't returned. Nor is
+// residence: the places list their residents.
+export const villainResponse = ({ appears_in, residence, ...villain }: Villain) => ({
   ...villain,
   books: bookLinks(bookIdsByVillain.get(villain.id)),
   shorts: shortLinks(shortIdsByVillain.get(villain.id)),
@@ -71,4 +73,5 @@ export const placeResponse = ({ parentId, appears_in, ...place }: Place) => ({
   places: (placeIdsByParent.get(place.id) || []).map(placeLink),
   books: bookLinks(bookIdsByPlace.get(place.id)),
   shorts: shortLinks(shortIdsByPlace.get(place.id)),
+  villains: villainLinks(villainIdsByPlace.get(place.id)),
 });

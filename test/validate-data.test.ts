@@ -52,6 +52,11 @@ describe("validate-data", () => {
     assertFlags(errors, /villain 1 \("Bob Anderson"\): appears_in "no-such-book" doesn't match/);
   });
 
+  it("flags a residence that matches no place", () => {
+    const errors = errorsAfter((c) => c["villains.json"][0].residence.push("no-such-place"));
+    assertFlags(errors, /villain 1 \("Bob Anderson"\): residence "no-such-place" doesn't match any place handle$/);
+  });
+
   it("flags a place appears_in handle that matches nothing", () => {
     const errors = errorsAfter((c) => place(c, "Marsten House").appears_in.push("marsten-house"));
     assertFlags(errors, /place \d+ \("Marsten House"\): appears_in "marsten-house" doesn't match any book or short handle$/);
@@ -127,7 +132,7 @@ describe("validate-data", () => {
   });
 
   it("lets a place share a handle with a book", () => {
-    const errors = errorsAfter((c) => (place(c, "Marsten House").handle = "carrie"));
+    const errors = errorsAfter((c) => (place(c, "Room 237").handle = "carrie"));
     assert.deepEqual(errors, []);
   });
 

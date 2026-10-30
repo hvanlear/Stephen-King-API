@@ -154,20 +154,34 @@ describe("links", () => {
     }
   });
 
-  it("from places to books and shorts use their titles", async () => {
+  it("from places to books, shorts and villains use their names", async () => {
     const names = new Map<string, string>();
-    for (const { list, detail } of resources.slice(0, 2)) {
+    for (const { list, detail } of resources) {
       const { body } = await get(list);
       for (const record of body.data) {
-        names.set(`${detail}/${record.id}`, record.Title ?? record.title);
+        names.set(`${detail}/${record.id}`, record.Title ?? record.title ?? record.name);
       }
     }
     const { body } = await get("/api/places");
     for (const place of body.data) {
-      for (const link of [...place.books, ...place.shorts]) {
+      for (const link of [...place.books, ...place.shorts, ...place.villains]) {
         const linked = new URL(link.url).pathname;
         assert.ok(names.has(linked), `place ${place.id} links ${link.url}, which doesn't exist`);
-        assert.equal(link.title, names.get(linked), `place ${place.id} links ${link.url} under the wrong title`);
+        assert.equal(link.title ?? link.name, names.get(linked), `place ${place.id} links ${link.url} under the wrong name`);
+      }
+    }
+  });
+
+  it("list a place's residents in every place it's in", async () => {
+    const { body } = await get("/api/places");
+    const byUrl = new Map(body.data.map((place: { id: number }) => [`/api/place/${place.id}`, place]));
+    for (const place of body.data) {
+      const parent: any = place.parent && byUrl.get(new URL(place.parent.url).pathname);
+      for (const villain of parent ? place.villains : []) {
+        assert.ok(
+          parent.villains.some((v: { url: string }) => v.url === villain.url),
+          `${villain.name} lives in place ${place.id} but isn't listed in ${parent.id}`
+        );
       }
     }
   });

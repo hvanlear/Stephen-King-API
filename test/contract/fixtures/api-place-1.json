@@ -70,6 +70,28 @@
           "title": "The Little Sisters of Eluria",
           "url": "https://stephen-king-api.onrender.com/api/short/139"
         }
+      ],
+      "villains": [
+        {
+          "name": "Marten Broadcloak",
+          "url": "https://stephen-king-api.onrender.com/api/villain/10"
+        },
+        {
+          "name": "Rhea Dubativo",
+          "url": "https://stephen-king-api.onrender.com/api/villain/32"
+        },
+        {
+          "name": "Eldred Jonas",
+          "url": "https://stephen-king-api.onrender.com/api/villain/60"
+        },
+        {
+          "name": "Sylvia Pittston",
+          "url": "https://stephen-king-api.onrender.com/api/villain/84"
+        },
+        {
+          "name": "Ben Slightman",
+          "url": "https://stephen-king-api.onrender.com/api/villain/178"
+        }
       ]
     }
   }

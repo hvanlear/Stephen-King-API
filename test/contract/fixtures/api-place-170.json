@@ -19,7 +19,17 @@
           "url": "https://stephen-king-api.onrender.com/api/book/2"
         }
       ],
-      "shorts": []
+      "shorts": [],
+      "villains": [
+        {
+          "name": "Kurt Barlow",
+          "url": "https://stephen-king-api.onrender.com/api/villain/2"
+        },
+        {
+          "name": "Richard Straker",
+          "url": "https://stephen-king-api.onrender.com/api/villain/98"
+        }
+      ]
     }
   }
 }

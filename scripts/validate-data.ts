@@ -85,6 +85,8 @@ export const SPECS: Record<string, FileSpec> = {
       status: "text",
       types_id: "integer",
       appears_in: "list",
+      // Place handles. They're served as the places' villains, not on the villain.
+      residence: "list",
       notes: "list",
       created_at: "timestamp",
     },
@@ -251,10 +253,13 @@ export function validate(catalog: Catalog, base?: Catalog): string[] {
   }
 
   // Links are built from these lists of handles, so every handle has to resolve
+  const places = catalog["places.json"];
+  const placeHandles = new Set(Array.isArray(places) ? places.map((place: CatalogRecord) => place?.handle) : []);
   errors.push(...checkHandles(catalog, "villains.json", "appears_in", linkable, "book or short"));
+  errors.push(...checkHandles(catalog, "villains.json", "residence", placeHandles, "place"));
   errors.push(...checkHandles(catalog, "places.json", "appears_in", linkable, "book or short"));
 
-  errors.push(...checkParents(catalog["places.json"]));
+  errors.push(...checkParents(places));
 
   if (base) {
     errors.push(...compareIds(catalog, base));

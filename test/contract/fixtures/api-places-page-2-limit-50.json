@@ -20,7 +20,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/5"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 52,
@@ -42,6 +43,12 @@
           {
             "title": "The Mist",
             "url": "https://stephen-king-api.onrender.com/api/short/67"
+          }
+        ],
+        "villains": [
+          {
+            "name": "Mrs. Carmody",
+            "url": "https://stephen-king-api.onrender.com/api/villain/157"
           }
         ]
       },
@@ -67,6 +74,12 @@
             "title": "Calla Bryn Sturgis",
             "url": "https://stephen-king-api.onrender.com/api/short/151"
           }
+        ],
+        "villains": [
+          {
+            "name": "Ben Slightman",
+            "url": "https://stephen-king-api.onrender.com/api/villain/178"
+          }
         ]
       },
       {
@@ -81,7 +94,8 @@
         },
         "places": [],
         "books": [],
-        "shorts": []
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 55,
@@ -182,6 +196,44 @@
             "title": "Elevation",
             "url": "https://stephen-king-api.onrender.com/api/short/203"
           }
+        ],
+        "villains": [
+          {
+            "name": "Cujo",
+            "url": "https://stephen-king-api.onrender.com/api/villain/19"
+          },
+          {
+            "name": "Leland Gaunt",
+            "url": "https://stephen-king-api.onrender.com/api/villain/40"
+          },
+          {
+            "name": "John \"Ace\" Merrill",
+            "url": "https://stephen-king-api.onrender.com/api/villain/74"
+          },
+          {
+            "name": "Billy Tessio",
+            "url": "https://stephen-king-api.onrender.com/api/villain/123"
+          },
+          {
+            "name": "Charlie Hogan",
+            "url": "https://stephen-king-api.onrender.com/api/villain/126"
+          },
+          {
+            "name": "Milo Pressman",
+            "url": "https://stephen-king-api.onrender.com/api/villain/151"
+          },
+          {
+            "name": "Norman Bracowicz",
+            "url": "https://stephen-king-api.onrender.com/api/villain/158"
+          },
+          {
+            "name": "Richard Chambers",
+            "url": "https://stephen-king-api.onrender.com/api/villain/160"
+          },
+          {
+            "name": "Vince Desjardins",
+            "url": "https://stephen-king-api.onrender.com/api/villain/173"
+          }
         ]
       },
       {
@@ -246,7 +298,8 @@
             "title": "Two Talented Bastids",
             "url": "https://stephen-king-api.onrender.com/api/short/215"
           }
-        ]
+        ],
+        "villains": []
       },
       {
         "id": 57,
@@ -278,7 +331,77 @@
             "url": "https://stephen-king-api.onrender.com/api/book/44"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Tina Blake",
+            "url": "https://stephen-king-api.onrender.com/api/villain/4"
+          },
+          {
+            "name": "Cindi",
+            "url": "https://stephen-king-api.onrender.com/api/villain/14"
+          },
+          {
+            "name": "Myra Crewes",
+            "url": "https://stephen-king-api.onrender.com/api/villain/16"
+          },
+          {
+            "name": "Billy deLois",
+            "url": "https://stephen-king-api.onrender.com/api/villain/25"
+          },
+          {
+            "name": "Kenny Garson",
+            "url": "https://stephen-king-api.onrender.com/api/villain/38"
+          },
+          {
+            "name": "Mary Lila Grace",
+            "url": "https://stephen-king-api.onrender.com/api/villain/44"
+          },
+          {
+            "name": "Christine Hargensen",
+            "url": "https://stephen-king-api.onrender.com/api/villain/49"
+          },
+          {
+            "name": "Vic Mooney",
+            "url": "https://stephen-king-api.onrender.com/api/villain/75"
+          },
+          {
+            "name": "Billy Nolan",
+            "url": "https://stephen-king-api.onrender.com/api/villain/80"
+          },
+          {
+            "name": "Elenor Richmond",
+            "url": "https://stephen-king-api.onrender.com/api/villain/90"
+          },
+          {
+            "name": "Rachel Spies",
+            "url": "https://stephen-king-api.onrender.com/api/villain/94"
+          },
+          {
+            "name": "Jackie Talbot",
+            "url": "https://stephen-king-api.onrender.com/api/villain/99"
+          },
+          {
+            "name": "Donna and Mary Lila Grace Thibodeau",
+            "url": "https://stephen-king-api.onrender.com/api/villain/102"
+          },
+          {
+            "name": "Jessica Upshaw",
+            "url": "https://stephen-king-api.onrender.com/api/villain/108"
+          },
+          {
+            "name": "Norma Watson",
+            "url": "https://stephen-king-api.onrender.com/api/villain/109"
+          },
+          {
+            "name": "Margaret White",
+            "url": "https://stephen-king-api.onrender.com/api/villain/113"
+          },
+          {
+            "name": "Tommy Erbter",
+            "url": "https://stephen-king-api.onrender.com/api/villain/170"
+          }
+        ]
       },
       {
         "id": 58,
@@ -327,6 +450,20 @@
             "title": "N.",
             "url": "https://stephen-king-api.onrender.com/api/short/168"
           }
+        ],
+        "villains": [
+          {
+            "name": "Jim Rennie, Jr.",
+            "url": "https://stephen-king-api.onrender.com/api/villain/88"
+          },
+          {
+            "name": "Jim Rennie",
+            "url": "https://stephen-king-api.onrender.com/api/villain/89"
+          },
+          {
+            "name": "Carter Thibodeau",
+            "url": "https://stephen-king-api.onrender.com/api/villain/101"
+          }
         ]
       },
       {
@@ -346,7 +483,8 @@
             "title": "Crouch End",
             "url": "https://stephen-king-api.onrender.com/api/short/68"
           }
-        ]
+        ],
+        "villains": []
       },
       {
         "id": 60,
@@ -365,7 +503,8 @@
           }
         ],
         "books": [],
-        "shorts": []
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 61,
@@ -384,7 +523,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/50"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 62,
@@ -529,6 +669,76 @@
             "title": "Fair Extension",
             "url": "https://stephen-king-api.onrender.com/api/short/179"
           }
+        ],
+        "villains": [
+          {
+            "name": "Henry Bowers",
+            "url": "https://stephen-king-api.onrender.com/api/villain/7"
+          },
+          {
+            "name": "Butch Bowers",
+            "url": "https://stephen-king-api.onrender.com/api/villain/8"
+          },
+          {
+            "name": "Greta Bowie",
+            "url": "https://stephen-king-api.onrender.com/api/villain/9"
+          },
+          {
+            "name": "Victor Criss",
+            "url": "https://stephen-king-api.onrender.com/api/villain/18"
+          },
+          {
+            "name": "Marcia Fadden",
+            "url": "https://stephen-king-api.onrender.com/api/villain/35"
+          },
+          {
+            "name": "John Garton",
+            "url": "https://stephen-king-api.onrender.com/api/villain/39"
+          },
+          {
+            "name": "Peter Gordon",
+            "url": "https://stephen-king-api.onrender.com/api/villain/43"
+          },
+          {
+            "name": "Patrick Hockstetter",
+            "url": "https://stephen-king-api.onrender.com/api/villain/53"
+          },
+          {
+            "name": "Belch Huggins",
+            "url": "https://stephen-king-api.onrender.com/api/villain/55"
+          },
+          {
+            "name": "It (Creature)",
+            "url": "https://stephen-king-api.onrender.com/api/villain/57"
+          },
+          {
+            "name": "Richard P. Macklin",
+            "url": "https://stephen-king-api.onrender.com/api/villain/69"
+          },
+          {
+            "name": "Alvin Marsh",
+            "url": "https://stephen-king-api.onrender.com/api/villain/72"
+          },
+          {
+            "name": "Sally Mueller",
+            "url": "https://stephen-king-api.onrender.com/api/villain/79"
+          },
+          {
+            "name": "Christopher Unwin",
+            "url": "https://stephen-king-api.onrender.com/api/villain/107"
+          },
+          {
+            "name": "Al Bradley",
+            "url": "https://stephen-king-api.onrender.com/api/villain/116"
+          },
+          {
+            "name": "Frank Dunning",
+            "url": "https://stephen-king-api.onrender.com/api/villain/134"
+          },
+          {
+            "name": "George Bradley",
+            "url": "https://stephen-king-api.onrender.com/api/villain/136"
+          }
         ]
       },
       {
@@ -552,7 +762,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/33"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 64,
@@ -571,7 +782,8 @@
             "title": "The Little Sisters of Eluria",
             "url": "https://stephen-king-api.onrender.com/api/short/139"
           }
-        ]
+        ],
+        "villains": []
       },
       {
         "id": 65,
@@ -590,7 +802,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/5"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 66,
@@ -609,7 +822,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/42"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 67,
@@ -628,7 +842,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/6"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 68,
@@ -647,7 +862,8 @@
             "title": "Graveyard Shift",
             "url": "https://stephen-king-api.onrender.com/api/short/29"
           }
-        ]
+        ],
+        "villains": []
       },
       {
         "id": 69,
@@ -666,7 +882,8 @@
             "title": "Children of the Corn",
             "url": "https://stephen-king-api.onrender.com/api/short/53"
           }
-        ]
+        ],
+        "villains": []
       },
       {
         "id": 70,
@@ -685,7 +902,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/5"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 71,
@@ -709,7 +927,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/8"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Charlie McGee",
+            "url": "https://stephen-king-api.onrender.com/api/villain/73"
+          }
+        ]
       },
       {
         "id": 72,
@@ -728,7 +952,8 @@
             "title": "Low Men in Yellow Coats",
             "url": "https://stephen-king-api.onrender.com/api/short/144"
           }
-        ]
+        ],
+        "villains": []
       },
       {
         "id": 73,
@@ -752,7 +977,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/8"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 74,
@@ -780,7 +1006,8 @@
             "title": "The Revelations of 'Becka Paulson",
             "url": "https://stephen-king-api.onrender.com/api/short/96"
           }
-        ]
+        ],
+        "villains": []
       },
       {
         "id": 75,
@@ -804,7 +1031,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/51"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 76,
@@ -853,6 +1081,20 @@
             "title": "Jerusalem's Lot",
             "url": "https://stephen-king-api.onrender.com/api/short/58"
           }
+        ],
+        "villains": [
+          {
+            "name": "Kurt Barlow",
+            "url": "https://stephen-king-api.onrender.com/api/villain/2"
+          },
+          {
+            "name": "James Boon",
+            "url": "https://stephen-king-api.onrender.com/api/villain/6"
+          },
+          {
+            "name": "Richard Straker",
+            "url": "https://stephen-king-api.onrender.com/api/villain/98"
+          }
         ]
       },
       {
@@ -881,7 +1123,8 @@
             "title": "The Library Policeman",
             "url": "https://stephen-king-api.onrender.com/api/short/115"
           }
-        ]
+        ],
+        "villains": []
       },
       {
         "id": 78,
@@ -909,7 +1152,8 @@
             "title": "The Man in the Black Suit",
             "url": "https://stephen-king-api.onrender.com/api/short/130"
           }
-        ]
+        ],
+        "villains": []
       },
       {
         "id": 79,
@@ -923,7 +1167,8 @@
         },
         "places": [],
         "books": [],
-        "shorts": []
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 80,
@@ -947,7 +1192,8 @@
             "title": "Dolan's Cadillac",
             "url": "https://stephen-king-api.onrender.com/api/short/98"
           }
-        ]
+        ],
+        "villains": []
       },
       {
         "id": 81,
@@ -970,7 +1216,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/73"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 82,
@@ -984,7 +1231,8 @@
         },
         "places": [],
         "books": [],
-        "shorts": []
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 83,
@@ -1008,6 +1256,12 @@
             "title": "Home Delivery",
             "url": "https://stephen-king-api.onrender.com/api/short/111"
           }
+        ],
+        "villains": [
+          {
+            "name": "Joe St. George",
+            "url": "https://stephen-king-api.onrender.com/api/villain/95"
+          }
         ]
       },
       {
@@ -1022,7 +1276,13 @@
         },
         "places": [],
         "books": [],
-        "shorts": []
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Jim Dooley",
+            "url": "https://stephen-king-api.onrender.com/api/villain/187"
+          }
+        ]
       },
       {
         "id": 85,
@@ -1041,7 +1301,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/25"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 86,
@@ -1064,7 +1325,17 @@
             "url": "https://stephen-king-api.onrender.com/api/book/23"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Winston Church",
+            "url": "https://stephen-king-api.onrender.com/api/villain/13"
+          },
+          {
+            "name": "Gage Creed",
+            "url": "https://stephen-king-api.onrender.com/api/villain/15"
+          }
+        ]
       },
       {
         "id": 87,
@@ -1078,7 +1349,8 @@
         },
         "places": [],
         "books": [],
-        "shorts": []
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 88,
@@ -1110,7 +1382,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/43"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 89,
@@ -1146,6 +1419,12 @@
             "title": "N.",
             "url": "https://stephen-king-api.onrender.com/api/short/168"
           }
+        ],
+        "villains": [
+          {
+            "name": "Margaret White",
+            "url": "https://stephen-king-api.onrender.com/api/villain/113"
+          }
         ]
       },
       {
@@ -1169,7 +1448,8 @@
           }
         ],
         "books": [],
-        "shorts": []
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 91,
@@ -1183,7 +1463,8 @@
         },
         "places": [],
         "books": [],
-        "shorts": []
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 92,
@@ -1202,7 +1483,13 @@
             "url": "https://stephen-king-api.onrender.com/api/book/5"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Harold Lauder",
+            "url": "https://stephen-king-api.onrender.com/api/villain/64"
+          }
+        ]
       },
       {
         "id": 93,
@@ -1221,7 +1508,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/4"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 94,
@@ -1240,7 +1528,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/5"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 95,
@@ -1259,7 +1548,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/2"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "villains": []
       },
       {
         "id": 96,
@@ -1278,7 +1568,13 @@
           }
         ],
         "books": [],
-        "shorts": []
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Bob Anderson",
+            "url": "https://stephen-king-api.onrender.com/api/villain/1"
+          }
+        ]
       },
       {
         "id": 97,
@@ -1292,7 +1588,13 @@
         },
         "places": [],
         "books": [],
-        "shorts": []
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Donald Merwin Elbert",
+            "url": "https://stephen-king-api.onrender.com/api/villain/34"
+          }
+        ]
       },
       {
         "id": 98,
@@ -1306,7 +1608,13 @@
         },
         "places": [],
         "books": [],
-        "shorts": []
+        "shorts": [],
+        "villains": [
+          {
+            "name": "Julie Lawry",
+            "url": "https://stephen-king-api.onrender.com/api/villain/146"
+          }
+        ]
       },
       {
         "id": 99,
@@ -1325,7 +1633,8 @@
             "title": "Jerusalem's Lot",
             "url": "https://stephen-king-api.onrender.com/api/short/58"
           }
-        ]
+        ],
+        "villains": []
       },
       {
         "id": 100,
@@ -1344,7 +1653,8 @@
             "url": "https://stephen-king-api.onrender.com/api/book/12"
           }
         ],
-        "shorts": []
+        "shorts": [],
+        "villains": []
       }
     ],
     "pagination": {

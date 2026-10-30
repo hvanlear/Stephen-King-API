@@ -7,6 +7,10 @@ const COOKIE_NAME = "dashboard_session";
 const COOKIE_PATH = "/dashboard";
 const SESSION_MS = 24 * 60 * 60 * 1000; // 24 hours
 
+// Logging out ends every session issued before it, since a cookie that was
+// copied can't be taken back. Starts over when the server restarts.
+let sessionsEndedAt = 0;
+
 // The dashboard stays off until both are set, so there's never a guessable
 // fallback secret.
 function dashboardSettings(): { password: string; secret: string } | null {
@@ -36,7 +40,8 @@ function sign(expires: number, secret: string): string {
 // The expiry lives inside the signed value, so a copied cookie stops working
 // after SESSION_MS no matter what the browser does with it.
 function createSession(secret: string): string {
-  const expires = Date.now() + SESSION_MS;
+  // Issued strictly after the last logout, so it isn't ended by it
+  const expires = Math.max(Date.now(), sessionsEndedAt + 1) + SESSION_MS;
   return `${expires}.${sign(expires, secret)}`;
 }
 
@@ -47,6 +52,9 @@ function isValidSession(value: unknown, secret: string): boolean {
   const [expiresPart, signature] = value.split(".");
   const expires = Number(expiresPart);
   if (!Number.isSafeInteger(expires) || expires < Date.now() || !signature) {
+    return false;
+  }
+  if (expires - SESSION_MS <= sessionsEndedAt) {
     return false;
   }
   return safeEqual(signature, sign(expires, secret));
@@ -94,6 +102,7 @@ export function handleLogin(req: Request, res: Response): void {
 }
 
 export function clearSession(res: Response): void {
+  sessionsEndedAt = Date.now();
   res.clearCookie(COOKIE_NAME, { path: COOKIE_PATH });
 }
 

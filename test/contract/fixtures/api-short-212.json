@@ -8,6 +8,10 @@
       "type": "short story",
       "handle": "willie-the-weirdo",
       "originallyPublishedIn": "McSweeney's 66 (Spring 2022)",
+      "publication": {
+        "name": "McSweeney's",
+        "url": "https://stephen-king-api.onrender.com/api/publication/74"
+      },
       "collectedIn": "You Like It Darker (2024)",
       "collection": {
         "name": "You Like It Darker",

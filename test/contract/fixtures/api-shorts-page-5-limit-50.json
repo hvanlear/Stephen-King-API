@@ -9,6 +9,10 @@
         "type": "play",
         "handle": "thin-scenery",
         "originallyPublishedIn": "Ploughshares (Summer 2017)",
+        "publication": {
+          "name": "Ploughshares",
+          "url": "https://stephen-king-api.onrender.com/api/publication/83"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [],
@@ -23,6 +27,10 @@
         "type": "short story",
         "handle": "laurie",
         "originallyPublishedIn": "stephenking.com (May 17, 2018)",
+        "publication": {
+          "name": "stephenking.com",
+          "url": "https://stephen-king-api.onrender.com/api/publication/64"
+        },
         "collectedIn": "You Like It Darker (2024)",
         "collection": {
           "name": "You Like It Darker",
@@ -48,6 +56,7 @@
         "type": "novella",
         "handle": "elevation",
         "originallyPublishedIn": "Elevation (October 2018)",
+        "publication": null,
         "collectedIn": "Uncollected (standalone book)",
         "collection": null,
         "notes": [],
@@ -71,6 +80,10 @@
         "type": "short story",
         "handle": "the-turbulence-expert",
         "originallyPublishedIn": "Flight or Fright (September 4, 2018)",
+        "publication": {
+          "name": "Flight or Fright",
+          "url": "https://stephen-king-api.onrender.com/api/publication/84"
+        },
         "collectedIn": "You Like It Darker (2024)",
         "collection": {
           "name": "You Like It Darker",
@@ -88,6 +101,10 @@
         "type": "short story",
         "handle": "squad-d",
         "originallyPublishedIn": "Shivers VIII  (April 18, 2019)",
+        "publication": {
+          "name": "Shivers",
+          "url": "https://stephen-king-api.onrender.com/api/publication/85"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -104,6 +121,10 @@
         "type": "short story",
         "handle": "the-fifth-step",
         "originallyPublishedIn": "Harper's Magazine (March 2020)",
+        "publication": {
+          "name": "Harper's Magazine",
+          "url": "https://stephen-king-api.onrender.com/api/publication/79"
+        },
         "collectedIn": "You Like It Darker (2024)",
         "collection": {
           "name": "You Like It Darker",
@@ -121,6 +142,7 @@
         "type": "novella",
         "handle": "if-it-bleeds",
         "originallyPublishedIn": "If It Bleeds (April 2020)",
+        "publication": null,
         "collectedIn": "If It Bleeds (2020)",
         "collection": {
           "name": "If It Bleeds",
@@ -145,6 +167,7 @@
         "type": "novella",
         "handle": "the-life-of-chuck",
         "originallyPublishedIn": "If It Bleeds (April 2020)",
+        "publication": null,
         "collectedIn": "If It Bleeds (2020)",
         "collection": {
           "name": "If It Bleeds",
@@ -162,6 +185,7 @@
         "type": "novella",
         "handle": "mr-harrigan-s-phone",
         "originallyPublishedIn": "If It Bleeds (April 2020)",
+        "publication": null,
         "collectedIn": "If It Bleeds (2020)",
         "collection": {
           "name": "If It Bleeds",
@@ -179,6 +203,7 @@
         "type": "novella",
         "handle": "rat",
         "originallyPublishedIn": "If It Bleeds (April 2020)",
+        "publication": null,
         "collectedIn": "If It Bleeds (2020)",
         "collection": {
           "name": "If It Bleeds",
@@ -201,6 +226,10 @@
         "type": "short story",
         "handle": "on-slide-inn-road",
         "originallyPublishedIn": "Esquire Magazine (October/November 2020)",
+        "publication": {
+          "name": "Esquire",
+          "url": "https://stephen-king-api.onrender.com/api/publication/67"
+        },
         "collectedIn": "You Like It Darker (2024)",
         "collection": {
           "name": "You Like It Darker",
@@ -218,6 +247,10 @@
         "type": "short story",
         "handle": "willie-the-weirdo",
         "originallyPublishedIn": "McSweeney's 66 (Spring 2022)",
+        "publication": {
+          "name": "McSweeney's",
+          "url": "https://stephen-king-api.onrender.com/api/publication/74"
+        },
         "collectedIn": "You Like It Darker (2024)",
         "collection": {
           "name": "You Like It Darker",
@@ -237,6 +270,10 @@
         "type": "short story",
         "handle": "red-screen",
         "originallyPublishedIn": "Humble Bundle (September 9, 2021)",
+        "publication": {
+          "name": "Humble Bundle",
+          "url": "https://stephen-king-api.onrender.com/api/publication/86"
+        },
         "collectedIn": "You Like It Darker (2024)",
         "collection": {
           "name": "You Like It Darker",
@@ -256,6 +293,10 @@
         "type": "short story",
         "handle": "finn",
         "originallyPublishedIn": "Scribd (May 25, 2022)",
+        "publication": {
+          "name": "Scribd",
+          "url": "https://stephen-king-api.onrender.com/api/publication/87"
+        },
         "collectedIn": "You Like It Darker (2024)",
         "collection": {
           "name": "You Like It Darker",
@@ -275,6 +316,7 @@
         "type": "novella",
         "handle": "two-talented-bastids",
         "originallyPublishedIn": "You Like It Darker (May 2024)",
+        "publication": null,
         "collectedIn": "You Like It Darker (2024)",
         "collection": {
           "name": "You Like It Darker",
@@ -301,6 +343,7 @@
         "type": "novella",
         "handle": "danny-coughlin-s-bad-dream",
         "originallyPublishedIn": "You Like It Darker (May 2024)",
+        "publication": null,
         "collectedIn": "You Like It Darker (2024)",
         "collection": {
           "name": "You Like It Darker",
@@ -318,6 +361,7 @@
         "type": "novella",
         "handle": "rattlesnakes",
         "originallyPublishedIn": "You Like It Darker (May 2024)",
+        "publication": null,
         "collectedIn": "You Like It Darker (2024)",
         "collection": {
           "name": "You Like It Darker",
@@ -346,6 +390,7 @@
         "type": "novella",
         "handle": "the-dreamers",
         "originallyPublishedIn": "You Like It Darker (May 2024)",
+        "publication": null,
         "collectedIn": "You Like It Darker (2024)",
         "collection": {
           "name": "You Like It Darker",
@@ -368,6 +413,7 @@
         "type": "novella",
         "handle": "the-answer-man",
         "originallyPublishedIn": "You Like It Darker (May 2024)",
+        "publication": null,
         "collectedIn": "You Like It Darker (2024)",
         "collection": {
           "name": "You Like It Darker",
@@ -385,6 +431,10 @@
         "type": "short story",
         "handle": "the-extra-hour",
         "originallyPublishedIn": "Cemetery Dance #79 (January 2025)",
+        "publication": {
+          "name": "Cemetery Dance",
+          "url": "https://stephen-king-api.onrender.com/api/publication/50"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [],
@@ -399,6 +449,7 @@
         "type": "short story",
         "handle": "hansel-and-gretel",
         "originallyPublishedIn": "Hansel and Gretel (September 2025)",
+        "publication": null,
         "collectedIn": "Uncollected (standalone book)",
         "collection": null,
         "notes": [
@@ -415,6 +466,10 @@
         "type": "short story",
         "handle": "dinah-s-hat",
         "originallyPublishedIn": "The Atlantic (June 2026)",
+        "publication": {
+          "name": "The Atlantic",
+          "url": "https://stephen-king-api.onrender.com/api/publication/76"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [],

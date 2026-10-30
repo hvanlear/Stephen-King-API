@@ -1,0 +1,23 @@
+{
+  "path": "/api/publication/20",
+  "status": 200,
+  "body": {
+    "data": {
+      "id": 20,
+      "name": "Shadows",
+      "handle": "shadows",
+      "type": "anthology",
+      "created_at": "2026-10-30T01:50:00.000Z",
+      "shorts": [
+        {
+          "title": "Nona",
+          "url": "https://stephen-king-api.onrender.com/api/short/63"
+        },
+        {
+          "title": "The Man Who Would Not Shake Hands",
+          "url": "https://stephen-king-api.onrender.com/api/short/76"
+        }
+      ]
+    }
+  }
+}

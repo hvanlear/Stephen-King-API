@@ -5,6 +5,7 @@ import { getOneVillain, getVillains } from "./handlers/villains";
 import { getOnePlace, getPlaces } from "./handlers/places";
 import { getOneType, getTypes } from "./handlers/types";
 import { getCollections, getOneCollection } from "./handlers/collections";
+import { getOnePublication, getPublications } from "./handlers/publications";
 
 const router = Router();
 
@@ -31,5 +32,9 @@ router.get("/type/:id", getOneType);
 //Collections Router
 router.get("/collections", getCollections);
 router.get("/collection/:id", getOneCollection);
+
+//Publications Router
+router.get("/publications", getPublications);
+router.get("/publication/:id", getOnePublication);
 
 export default router;

@@ -1,0 +1,7 @@
+{
+  "path": "/api/publication/9999",
+  "status": 404,
+  "body": {
+    "error": "Publication not found"
+  }
+}

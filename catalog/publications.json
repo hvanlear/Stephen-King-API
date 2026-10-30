@@ -1,0 +1,611 @@
+[
+  {
+    "id": 1,
+    "name": "Dave's Rag",
+    "handle": "dave-s-rag",
+    "type": "newspaper",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 2,
+    "name": "The Drum",
+    "handle": "the-drum",
+    "type": "newspaper",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Comics Review",
+    "handle": "comics-review",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Startling Mystery Stories",
+    "handle": "startling-mystery-stories",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Ubris",
+    "handle": "ubris",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 6,
+    "name": "The Maine Campus",
+    "handle": "the-maine-campus",
+    "type": "newspaper",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 7,
+    "name": "Cavalier",
+    "handle": "cavalier",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 8,
+    "name": "Moth",
+    "handle": "moth",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 9,
+    "name": "Onan",
+    "handle": "onan",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 10,
+    "name": "Io",
+    "handle": "io",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 11,
+    "name": "Contraband",
+    "handle": "contraband",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 12,
+    "name": "Marshroots",
+    "handle": "marshroots",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 13,
+    "name": "The Maine Review",
+    "handle": "the-maine-review",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 14,
+    "name": "Penthouse",
+    "handle": "penthouse",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 15,
+    "name": "Cosmopolitan",
+    "handle": "cosmopolitan",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 16,
+    "name": "Maine",
+    "handle": "maine",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 17,
+    "name": "Flint",
+    "handle": "flint",
+    "type": "newspaper",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 18,
+    "name": "Gallery",
+    "handle": "gallery",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 19,
+    "name": "The Magazine of Fantasy & Science Fiction",
+    "handle": "the-magazine-of-fantasy-science-fiction",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 20,
+    "name": "Shadows",
+    "handle": "shadows",
+    "type": "anthology",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 21,
+    "name": "Dark Forces",
+    "handle": "dark-forces",
+    "type": "anthology",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 22,
+    "name": "New Tales of the Cthulhu Mythos",
+    "handle": "new-tales-of-the-cthulhu-mythos",
+    "type": "anthology",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 23,
+    "name": "New Terrors",
+    "handle": "new-terrors",
+    "type": "anthology",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 24,
+    "name": "Ellery Queen's Mystery Magazine",
+    "handle": "ellery-queen-s-mystery-magazine",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 25,
+    "name": "The Twilight Zone Magazine",
+    "handle": "the-twilight-zone-magazine",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 26,
+    "name": "Ladies' Home Journal",
+    "handle": "ladies-home-journal",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 27,
+    "name": "A Fantasy Reader",
+    "handle": "a-fantasy-reader",
+    "type": "anthology",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 28,
+    "name": "Yankee",
+    "handle": "yankee",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 29,
+    "name": "Terrors",
+    "handle": "terrors",
+    "type": "anthology",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 30,
+    "name": "Whispers",
+    "handle": "whispers",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 31,
+    "name": "The Do-It-Yourself Bestseller",
+    "handle": "the-do-it-yourself-bestseller",
+    "type": "anthology",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 32,
+    "name": "Playboy",
+    "handle": "playboy",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 33,
+    "name": "Land of Enchantment",
+    "handle": "land-of-enchantment",
+    "type": "other",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 34,
+    "name": "Satyricon",
+    "handle": "satyricon",
+    "type": "other",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 35,
+    "name": "Weirdbook",
+    "handle": "weirdbook",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 36,
+    "name": "Redbook",
+    "handle": "redbook",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 37,
+    "name": "Rolling Stone",
+    "handle": "rolling-stone",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 38,
+    "name": "Weird Tales",
+    "handle": "weird-tales",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 39,
+    "name": "Castle Rock",
+    "handle": "castle-rock",
+    "type": "other",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 40,
+    "name": "Bred Any Good Rooks Lately?",
+    "handle": "bred-any-good-rooks-lately",
+    "type": "anthology",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 41,
+    "name": "Omni",
+    "handle": "omni",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 42,
+    "name": "Masques",
+    "handle": "masques",
+    "type": "anthology",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 43,
+    "name": "The New Adventures of Sherlock Holmes",
+    "handle": "the-new-adventures-of-sherlock-holmes",
+    "type": "anthology",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 44,
+    "name": "Prime Evil",
+    "handle": "prime-evil",
+    "type": "anthology",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 45,
+    "name": "Night Visions",
+    "handle": "night-visions",
+    "type": "anthology",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 46,
+    "name": "Midnight Graffiti",
+    "handle": "midnight-graffiti",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 47,
+    "name": "Book of the Dead",
+    "handle": "book-of-the-dead",
+    "type": "anthology",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 48,
+    "name": "Institute for Advanced Theater Training",
+    "handle": "institute-for-advanced-theater-training",
+    "type": "other",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 49,
+    "name": "Shock Rock",
+    "handle": "shock-rock",
+    "type": "anthology",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 50,
+    "name": "Cemetery Dance",
+    "handle": "cemetery-dance",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 51,
+    "name": "First Words",
+    "handle": "first-words",
+    "type": "anthology",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 52,
+    "name": "Famous Monsters of Filmland",
+    "handle": "famous-monsters-of-filmland",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 53,
+    "name": "Antaeus",
+    "handle": "antaeus",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 54,
+    "name": "The New Yorker",
+    "handle": "the-new-yorker",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 55,
+    "name": "Salt Hill Journal",
+    "handle": "salt-hill-journal",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 56,
+    "name": "USA Weekend",
+    "handle": "usa-weekend",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 57,
+    "name": "Dark Love",
+    "handle": "dark-love",
+    "type": "anthology",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 58,
+    "name": "Six Stories",
+    "handle": "six-stories",
+    "type": "other",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 59,
+    "name": "Screamplays",
+    "handle": "screamplays",
+    "type": "anthology",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 60,
+    "name": "Legends",
+    "handle": "legends",
+    "type": "anthology",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 61,
+    "name": "999",
+    "handle": "999",
+    "type": "anthology",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 62,
+    "name": "Blood and Smoke",
+    "handle": "blood-and-smoke",
+    "type": "other",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 63,
+    "name": "NECON",
+    "handle": "necon",
+    "type": "other",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 64,
+    "name": "stephenking.com",
+    "handle": "stephenking-com",
+    "type": "other",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 65,
+    "name": "McSweeney's Mammoth Treasury of Thrilling Tales",
+    "handle": "mcsweeney-s-mammoth-treasury-of-thrilling-tales",
+    "type": "anthology",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 66,
+    "name": "Borderlands",
+    "handle": "borderlands",
+    "type": "anthology",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 67,
+    "name": "Esquire",
+    "handle": "esquire",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 68,
+    "name": "McSweeney’s Enchanted Chamber of Astonishing Stories",
+    "handle": "mcsweeney-s-enchanted-chamber-of-astonishing-stories",
+    "type": "anthology",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 69,
+    "name": "Weekly Reader",
+    "handle": "weekly-reader",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 70,
+    "name": "Transgressions",
+    "handle": "transgressions",
+    "type": "anthology",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 71,
+    "name": "Tin House",
+    "handle": "tin-house",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 72,
+    "name": "Postscripts",
+    "handle": "postscripts",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 73,
+    "name": "The Paris Review",
+    "handle": "the-paris-review",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 74,
+    "name": "McSweeney's",
+    "handle": "mcsweeney-s",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 75,
+    "name": "He Is Legend",
+    "handle": "he-is-legend",
+    "type": "anthology",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 76,
+    "name": "The Atlantic",
+    "handle": "the-atlantic",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 77,
+    "name": "A Book of Horrors",
+    "handle": "a-book-of-horrors",
+    "type": "anthology",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 78,
+    "name": "Granta",
+    "handle": "granta",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 79,
+    "name": "Harper's Magazine",
+    "handle": "harper-s-magazine",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 80,
+    "name": "Hard Listening",
+    "handle": "hard-listening",
+    "type": "anthology",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 81,
+    "name": "Turn Down the Lights",
+    "handle": "turn-down-the-lights",
+    "type": "anthology",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 82,
+    "name": "Virginia Quarterly Review",
+    "handle": "virginia-quarterly-review",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 83,
+    "name": "Ploughshares",
+    "handle": "ploughshares",
+    "type": "magazine",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 84,
+    "name": "Flight or Fright",
+    "handle": "flight-or-fright",
+    "type": "anthology",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 85,
+    "name": "Shivers",
+    "handle": "shivers",
+    "type": "anthology",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 86,
+    "name": "Humble Bundle",
+    "handle": "humble-bundle",
+    "type": "other",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  },
+  {
+    "id": 87,
+    "name": "Scribd",
+    "handle": "scribd",
+    "type": "other",
+    "created_at": "2026-10-30T01:50:00.000Z"
+  }
+]

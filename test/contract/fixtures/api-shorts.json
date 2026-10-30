@@ -9,6 +9,7 @@
         "type": "short story",
         "handle": "land-of-1-000-000-years-ago",
         "originallyPublishedIn": "",
+        "publication": null,
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -25,6 +26,7 @@
         "type": "novella",
         "handle": "thirty-one-of-the-classics",
         "originallyPublishedIn": "",
+        "publication": null,
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -41,6 +43,10 @@
         "type": "short story",
         "handle": "jumper",
         "originallyPublishedIn": "Dave's Rag (1959)",
+        "publication": {
+          "name": "Dave's Rag",
+          "url": "https://stephen-king-api.onrender.com/api/publication/1"
+        },
         "collectedIn": "Secret Windows (2000)",
         "collection": {
           "name": "Secret Windows",
@@ -60,6 +66,10 @@
         "type": "short story",
         "handle": "rush-call",
         "originallyPublishedIn": "Dave's Rag (1960)",
+        "publication": {
+          "name": "Dave's Rag",
+          "url": "https://stephen-king-api.onrender.com/api/publication/1"
+        },
         "collectedIn": "Secret Windows (2000)",
         "collection": {
           "name": "Secret Windows",
@@ -79,6 +89,7 @@
         "type": "short story",
         "handle": "the-cursed-expedition",
         "originallyPublishedIn": "People, Places and Things (1960)",
+        "publication": null,
         "collectedIn": "People, Places and Things (1960)",
         "collection": {
           "name": "People, Places and Things",
@@ -98,6 +109,7 @@
         "type": "short story",
         "handle": "i-ve-got-to-get-away-",
         "originallyPublishedIn": "People, Places and Things (1960)",
+        "publication": null,
         "collectedIn": "People, Places and Things (1960)",
         "collection": {
           "name": "People, Places and Things",
@@ -117,6 +129,7 @@
         "type": "short story",
         "handle": "hotel-at-the-end-of-the-road",
         "originallyPublishedIn": "People, Places and Things (1960)",
+        "publication": null,
         "collectedIn": "People, Places and Things (1960)",
         "collection": {
           "name": "People, Places and Things",
@@ -136,6 +149,7 @@
         "type": "short story",
         "handle": "never-look-behind-you",
         "originallyPublishedIn": "People, Places and Things (1960)",
+        "publication": null,
         "collectedIn": "People, Places and Things (1960)",
         "collection": {
           "name": "People, Places and Things",
@@ -155,6 +169,7 @@
         "type": "short story",
         "handle": "the-other-side-of-the-fog",
         "originallyPublishedIn": "People, Places and Things (1960)",
+        "publication": null,
         "collectedIn": "People, Places and Things (1960)",
         "collection": {
           "name": "People, Places and Things",
@@ -174,6 +189,7 @@
         "type": "short story",
         "handle": "the-stranger",
         "originallyPublishedIn": "People, Places and Things (1960)",
+        "publication": null,
         "collectedIn": "People, Places and Things (1960)",
         "collection": {
           "name": "People, Places and Things",
@@ -193,6 +209,7 @@
         "type": "short story",
         "handle": "the-thing-at-the-bottom-of-the-well",
         "originallyPublishedIn": "People, Places and Things (1960)",
+        "publication": null,
         "collectedIn": "People, Places and Things (1960)",
         "collection": {
           "name": "People, Places and Things",
@@ -212,6 +229,7 @@
         "type": "short story",
         "handle": "the-pit-and-the-pendulum",
         "originallyPublishedIn": "The Pit and the Pendulum (1961)",
+        "publication": null,
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -228,6 +246,7 @@
         "type": "short story",
         "handle": "the-undead",
         "originallyPublishedIn": "The Undead (1963)",
+        "publication": null,
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -244,6 +263,7 @@
         "type": "short story",
         "handle": "trigger-finger",
         "originallyPublishedIn": "Trigger Finger (1963)",
+        "publication": null,
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -260,6 +280,7 @@
         "type": "short story",
         "handle": "the-star-invaders",
         "originallyPublishedIn": "The Star Invaders (1964)",
+        "publication": null,
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -276,6 +297,10 @@
         "type": "short story",
         "handle": "codename-mousetrap",
         "originallyPublishedIn": "The Drum (October 27, 1965)",
+        "publication": {
+          "name": "The Drum",
+          "url": "https://stephen-king-api.onrender.com/api/publication/2"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -292,6 +317,10 @@
         "type": "short story",
         "handle": "i-was-a-teenage-grave-robber",
         "originallyPublishedIn": "Comics Review (1965)",
+        "publication": {
+          "name": "Comics Review",
+          "url": "https://stephen-king-api.onrender.com/api/publication/3"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -308,6 +337,10 @@
         "type": "short story",
         "handle": "the-43rd-dream",
         "originallyPublishedIn": "The Drum (January 29, 1966)",
+        "publication": {
+          "name": "The Drum",
+          "url": "https://stephen-king-api.onrender.com/api/publication/2"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -324,6 +357,10 @@
         "type": "short story",
         "handle": "the-glass-floor",
         "originallyPublishedIn": "Startling Mystery Stories (Fall 1967)",
+        "publication": {
+          "name": "Startling Mystery Stories",
+          "url": "https://stephen-king-api.onrender.com/api/publication/4"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -340,6 +377,10 @@
         "type": "short story",
         "handle": "cain-rose-up",
         "originallyPublishedIn": "Ubris (Spring 1968)",
+        "publication": {
+          "name": "Ubris",
+          "url": "https://stephen-king-api.onrender.com/api/publication/5"
+        },
         "collectedIn": "Skeleton Crew (1985)",
         "collection": {
           "name": "Skeleton Crew",
@@ -357,6 +398,10 @@
         "type": "short story",
         "handle": "here-there-be-tygers",
         "originallyPublishedIn": "Ubris (Spring 1968)",
+        "publication": {
+          "name": "Ubris",
+          "url": "https://stephen-king-api.onrender.com/api/publication/5"
+        },
         "collectedIn": "Skeleton Crew (1985)",
         "collection": {
           "name": "Skeleton Crew",
@@ -374,6 +419,10 @@
         "type": "poem",
         "handle": "harrison-state-park-68",
         "originallyPublishedIn": "Ubris (Fall 1968)",
+        "publication": {
+          "name": "Ubris",
+          "url": "https://stephen-king-api.onrender.com/api/publication/5"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [],
@@ -388,6 +437,10 @@
         "type": "short story",
         "handle": "strawberry-spring",
         "originallyPublishedIn": "Ubris (Fall 1968)",
+        "publication": {
+          "name": "Ubris",
+          "url": "https://stephen-king-api.onrender.com/api/publication/5"
+        },
         "collectedIn": "Night Shift (1978)",
         "collection": {
           "name": "Night Shift",
@@ -412,6 +465,10 @@
         "type": "short story",
         "handle": "night-surf",
         "originallyPublishedIn": "Ubris (Spring 1969)",
+        "publication": {
+          "name": "Ubris",
+          "url": "https://stephen-king-api.onrender.com/api/publication/5"
+        },
         "collectedIn": "Night Shift (1978)",
         "collection": {
           "name": "Night Shift",
@@ -431,6 +488,10 @@
         "type": "short story",
         "handle": "the-reaper-s-image",
         "originallyPublishedIn": "Startling Mystery Stories (Spring 1969)",
+        "publication": {
+          "name": "Startling Mystery Stories",
+          "url": "https://stephen-king-api.onrender.com/api/publication/4"
+        },
         "collectedIn": "Skeleton Crew (1985)",
         "collection": {
           "name": "Skeleton Crew",
@@ -450,6 +511,10 @@
         "type": "poem",
         "handle": "the-dark-man",
         "originallyPublishedIn": "Ubris (Fall 1969)",
+        "publication": {
+          "name": "Ubris",
+          "url": "https://stephen-king-api.onrender.com/api/publication/5"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -466,6 +531,10 @@
         "type": "short story",
         "handle": "stud-city",
         "originallyPublishedIn": "Ubris (Fall 1969)",
+        "publication": {
+          "name": "Ubris",
+          "url": "https://stephen-king-api.onrender.com/api/publication/5"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -482,6 +551,10 @@
         "type": "short story",
         "handle": "slade",
         "originallyPublishedIn": "The Maine Campus (June 11 – August 6, 1970)",
+        "publication": {
+          "name": "The Maine Campus",
+          "url": "https://stephen-king-api.onrender.com/api/publication/6"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [],
@@ -496,6 +569,10 @@
         "type": "short story",
         "handle": "graveyard-shift",
         "originallyPublishedIn": "Cavalier (October 1970)",
+        "publication": {
+          "name": "Cavalier",
+          "url": "https://stephen-king-api.onrender.com/api/publication/7"
+        },
         "collectedIn": "Night Shift (1978)",
         "collection": {
           "name": "Night Shift",
@@ -518,6 +595,10 @@
         "type": "poem",
         "handle": "donovan-s-brain",
         "originallyPublishedIn": "Moth  (1970)",
+        "publication": {
+          "name": "Moth",
+          "url": "https://stephen-king-api.onrender.com/api/publication/8"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [],
@@ -532,6 +613,10 @@
         "type": "poem",
         "handle": "silence",
         "originallyPublishedIn": "Moth  (1970)",
+        "publication": {
+          "name": "Moth",
+          "url": "https://stephen-king-api.onrender.com/api/publication/8"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [],
@@ -546,6 +631,10 @@
         "type": "short story",
         "handle": "the-blue-air-compressor",
         "originallyPublishedIn": "Onan (January 1971)",
+        "publication": {
+          "name": "Onan",
+          "url": "https://stephen-king-api.onrender.com/api/publication/9"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -562,6 +651,10 @@
         "type": "poem",
         "handle": "in-the-key-chords-of-dawn",
         "originallyPublishedIn": "Onan (January 1971)",
+        "publication": {
+          "name": "Onan",
+          "url": "https://stephen-king-api.onrender.com/api/publication/9"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [],
@@ -576,6 +669,10 @@
         "type": "short story",
         "handle": "i-am-the-doorway",
         "originallyPublishedIn": "Cavalier (March 1971)",
+        "publication": {
+          "name": "Cavalier",
+          "url": "https://stephen-king-api.onrender.com/api/publication/7"
+        },
         "collectedIn": "Night Shift (1978)",
         "collection": {
           "name": "Night Shift",
@@ -593,6 +690,10 @@
         "type": "poem",
         "handle": "brooklyn-august",
         "originallyPublishedIn": "Io #10 (1971)",
+        "publication": {
+          "name": "Io",
+          "url": "https://stephen-king-api.onrender.com/api/publication/10"
+        },
         "collectedIn": "Nightmares & Dreamscapes (1993)",
         "collection": {
           "name": "Nightmares & Dreamscapes",
@@ -610,6 +711,10 @@
         "type": "poem",
         "handle": "she-has-gone-to-sleep-while-",
         "originallyPublishedIn": "Contraband #1 (1971)",
+        "publication": {
+          "name": "Contraband",
+          "url": "https://stephen-king-api.onrender.com/api/publication/11"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [],
@@ -624,6 +729,10 @@
         "type": "poem",
         "handle": "woman-with-child",
         "originallyPublishedIn": "Contraband #1 (1971)",
+        "publication": {
+          "name": "Contraband",
+          "url": "https://stephen-king-api.onrender.com/api/publication/11"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [],
@@ -638,6 +747,10 @@
         "type": "poem",
         "handle": "the-hardcase-speaks",
         "originallyPublishedIn": "Contraband #2 (1971)",
+        "publication": {
+          "name": "Contraband",
+          "url": "https://stephen-king-api.onrender.com/api/publication/11"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [],
@@ -652,6 +765,10 @@
         "type": "short story",
         "handle": "suffer-the-little-children",
         "originallyPublishedIn": "Cavalier (February 1972)",
+        "publication": {
+          "name": "Cavalier",
+          "url": "https://stephen-king-api.onrender.com/api/publication/7"
+        },
         "collectedIn": "Nightmares & Dreamscapes (1993)",
         "collection": {
           "name": "Nightmares & Dreamscapes",
@@ -669,6 +786,10 @@
         "type": "short story",
         "handle": "the-fifth-quarter",
         "originallyPublishedIn": "Cavalier (April 1972)",
+        "publication": {
+          "name": "Cavalier",
+          "url": "https://stephen-king-api.onrender.com/api/publication/7"
+        },
         "collectedIn": "Nightmares & Dreamscapes (1993)",
         "collection": {
           "name": "Nightmares & Dreamscapes",
@@ -688,6 +809,10 @@
         "type": "short story",
         "handle": "battleground",
         "originallyPublishedIn": "Cavalier (September 1972)",
+        "publication": {
+          "name": "Cavalier",
+          "url": "https://stephen-king-api.onrender.com/api/publication/7"
+        },
         "collectedIn": "Night Shift (1978)",
         "collection": {
           "name": "Night Shift",
@@ -705,6 +830,10 @@
         "type": "short story",
         "handle": "the-mangler",
         "originallyPublishedIn": "Cavalier (December 1972)",
+        "publication": {
+          "name": "Cavalier",
+          "url": "https://stephen-king-api.onrender.com/api/publication/7"
+        },
         "collectedIn": "Night Shift (1978)",
         "collection": {
           "name": "Night Shift",
@@ -727,6 +856,10 @@
         "type": "short story",
         "handle": "the-boogeyman",
         "originallyPublishedIn": "Cavalier (March 1973)",
+        "publication": {
+          "name": "Cavalier",
+          "url": "https://stephen-king-api.onrender.com/api/publication/7"
+        },
         "collectedIn": "Night Shift (1978)",
         "collection": {
           "name": "Night Shift",
@@ -749,6 +882,10 @@
         "type": "short story",
         "handle": "trucks",
         "originallyPublishedIn": "Cavalier (June 1973)",
+        "publication": {
+          "name": "Cavalier",
+          "url": "https://stephen-king-api.onrender.com/api/publication/7"
+        },
         "collectedIn": "Night Shift (1978)",
         "collection": {
           "name": "Night Shift",
@@ -771,6 +908,10 @@
         "type": "short story",
         "handle": "gray-matter",
         "originallyPublishedIn": "Cavalier (October 1973)",
+        "publication": {
+          "name": "Cavalier",
+          "url": "https://stephen-king-api.onrender.com/api/publication/7"
+        },
         "collectedIn": "Night Shift (1978)",
         "collection": {
           "name": "Night Shift",
@@ -788,6 +929,10 @@
         "type": "short story",
         "handle": "it-grows-on-you",
         "originallyPublishedIn": "Marshroots (Fall 1973)",
+        "publication": {
+          "name": "Marshroots",
+          "url": "https://stephen-king-api.onrender.com/api/publication/12"
+        },
         "collectedIn": "Nightmares & Dreamscapes (1993)",
         "collection": {
           "name": "Nightmares & Dreamscapes",
@@ -812,6 +957,10 @@
         "type": "short story",
         "handle": "sometimes-they-come-back",
         "originallyPublishedIn": "Cavalier (March 1974)",
+        "publication": {
+          "name": "Cavalier",
+          "url": "https://stephen-king-api.onrender.com/api/publication/7"
+        },
         "collectedIn": "Night Shift (1978)",
         "collection": {
           "name": "Night Shift",
@@ -834,6 +983,10 @@
         "type": "short story",
         "handle": "the-lawnmower-man",
         "originallyPublishedIn": "Cavalier (May 1975)",
+        "publication": {
+          "name": "Cavalier",
+          "url": "https://stephen-king-api.onrender.com/api/publication/7"
+        },
         "collectedIn": "Night Shift (1978)",
         "collection": {
           "name": "Night Shift",
@@ -851,6 +1004,10 @@
         "type": "short story",
         "handle": "the-revenge-of-lard-ass-hogan",
         "originallyPublishedIn": "The Maine Review (July 1975)",
+        "publication": {
+          "name": "The Maine Review",
+          "url": "https://stephen-king-api.onrender.com/api/publication/13"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -867,6 +1024,10 @@
         "type": "short story",
         "handle": "weeds",
         "originallyPublishedIn": "Cavalier (May 1976)",
+        "publication": {
+          "name": "Cavalier",
+          "url": "https://stephen-king-api.onrender.com/api/publication/7"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -883,6 +1044,10 @@
         "type": "short story",
         "handle": "the-ledge",
         "originallyPublishedIn": "Penthouse (July 1976)",
+        "publication": {
+          "name": "Penthouse",
+          "url": "https://stephen-king-api.onrender.com/api/publication/14"
+        },
         "collectedIn": "Night Shift (1978)",
         "collection": {
           "name": "Night Shift",
@@ -900,6 +1065,10 @@
         "type": "short story",
         "handle": "i-know-what-you-need",
         "originallyPublishedIn": "Cosmopolitan (September 1976)",
+        "publication": {
+          "name": "Cosmopolitan",
+          "url": "https://stephen-king-api.onrender.com/api/publication/15"
+        },
         "collectedIn": "Night Shift (1978)",
         "collection": {
           "name": "Night Shift",
@@ -922,6 +1091,10 @@
         "type": "short story",
         "handle": "children-of-the-corn",
         "originallyPublishedIn": "Penthouse (March 1977)",
+        "publication": {
+          "name": "Penthouse",
+          "url": "https://stephen-king-api.onrender.com/api/publication/14"
+        },
         "collectedIn": "Night Shift (1978)",
         "collection": {
           "name": "Night Shift",
@@ -965,6 +1138,10 @@
         "type": "short story",
         "handle": "one-for-the-road",
         "originallyPublishedIn": "Maine (March/April 1977)",
+        "publication": {
+          "name": "Maine",
+          "url": "https://stephen-king-api.onrender.com/api/publication/16"
+        },
         "collectedIn": "Night Shift (1978)",
         "collection": {
           "name": "Night Shift",
@@ -987,6 +1164,10 @@
         "type": "short story",
         "handle": "the-cat-from-hell",
         "originallyPublishedIn": "Cavalier (June 1977)",
+        "publication": {
+          "name": "Cavalier",
+          "url": "https://stephen-king-api.onrender.com/api/publication/7"
+        },
         "collectedIn": "Just After Sunset (2008)",
         "collection": {
           "name": "Just After Sunset",
@@ -1013,6 +1194,10 @@
         "type": "short story",
         "handle": "the-king-family-and-the-wicked-witch",
         "originallyPublishedIn": "Flint (August 25, 1977)",
+        "publication": {
+          "name": "Flint",
+          "url": "https://stephen-king-api.onrender.com/api/publication/17"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [],
@@ -1027,6 +1212,10 @@
         "type": "short story",
         "handle": "the-man-who-loved-flowers",
         "originallyPublishedIn": "Gallery (August 1977)",
+        "publication": {
+          "name": "Gallery",
+          "url": "https://stephen-king-api.onrender.com/api/publication/18"
+        },
         "collectedIn": "Night Shift (1978)",
         "collection": {
           "name": "Night Shift",
@@ -1044,6 +1233,7 @@
         "type": "short story",
         "handle": "jerusalem-s-lot",
         "originallyPublishedIn": "Night Shift (February 1978)",
+        "publication": null,
         "collectedIn": "Night Shift (1978)",
         "collection": {
           "name": "Night Shift",
@@ -1075,6 +1265,7 @@
         "type": "short story",
         "handle": "the-last-rung-on-the-ladder",
         "originallyPublishedIn": "Night Shift (February 1978)",
+        "publication": null,
         "collectedIn": "Night Shift (1978)",
         "collection": {
           "name": "Night Shift",
@@ -1097,6 +1288,7 @@
         "type": "short story",
         "handle": "quitters-inc-",
         "originallyPublishedIn": "Night Shift (February 1978)",
+        "publication": null,
         "collectedIn": "Night Shift (1978)",
         "collection": {
           "name": "Night Shift",
@@ -1114,6 +1306,7 @@
         "type": "short story",
         "handle": "the-woman-in-the-room",
         "originallyPublishedIn": "Night Shift (February 1978)",
+        "publication": null,
         "collectedIn": "Night Shift (1978)",
         "collection": {
           "name": "Night Shift",
@@ -1131,6 +1324,10 @@
         "type": "short story",
         "handle": "the-night-of-the-tiger",
         "originallyPublishedIn": "The Magazine of Fantasy & Science Fiction (February 1978)",
+        "publication": {
+          "name": "The Magazine of Fantasy & Science Fiction",
+          "url": "https://stephen-king-api.onrender.com/api/publication/19"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [],
@@ -1145,6 +1342,10 @@
         "type": "short story",
         "handle": "nona",
         "originallyPublishedIn": "Shadows (September 1978)",
+        "publication": {
+          "name": "Shadows",
+          "url": "https://stephen-king-api.onrender.com/api/publication/20"
+        },
         "collectedIn": "Skeleton Crew (1985)",
         "collection": {
           "name": "Skeleton Crew",
@@ -1162,6 +1363,10 @@
         "type": "novella",
         "handle": "the-gunslinger",
         "originallyPublishedIn": "The Magazine of Fantasy & Science Fiction (October 1978)",
+        "publication": {
+          "name": "The Magazine of Fantasy & Science Fiction",
+          "url": "https://stephen-king-api.onrender.com/api/publication/19"
+        },
         "collectedIn": "The Dark Tower: The Gunslinger (1982)",
         "collection": {
           "name": "The Dark Tower: The Gunslinger",
@@ -1192,6 +1397,10 @@
         "type": "short story",
         "handle": "man-with-a-belly",
         "originallyPublishedIn": "Cavalier (December 1978)",
+        "publication": {
+          "name": "Cavalier",
+          "url": "https://stephen-king-api.onrender.com/api/publication/7"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [],
@@ -1206,6 +1415,10 @@
         "type": "short story",
         "handle": "the-crate",
         "originallyPublishedIn": "Gallery (July 1979)",
+        "publication": {
+          "name": "Gallery",
+          "url": "https://stephen-king-api.onrender.com/api/publication/18"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -1227,6 +1440,10 @@
         "type": "novella",
         "handle": "the-mist",
         "originallyPublishedIn": "Dark Forces (January 1, 1980)",
+        "publication": {
+          "name": "Dark Forces",
+          "url": "https://stephen-king-api.onrender.com/api/publication/21"
+        },
         "collectedIn": "Skeleton Crew (1985)",
         "collection": {
           "name": "Skeleton Crew",
@@ -1265,6 +1482,10 @@
         "type": "short story",
         "handle": "crouch-end",
         "originallyPublishedIn": "New Tales of the Cthulhu Mythos (January 1980)",
+        "publication": {
+          "name": "New Tales of the Cthulhu Mythos",
+          "url": "https://stephen-king-api.onrender.com/api/publication/22"
+        },
         "collectedIn": "Nightmares & Dreamscapes (1993)",
         "collection": {
           "name": "Nightmares & Dreamscapes",
@@ -1293,6 +1514,10 @@
         "type": "novella",
         "handle": "the-way-station",
         "originallyPublishedIn": "The Magazine of Fantasy & Science Fiction (April 1980)",
+        "publication": {
+          "name": "The Magazine of Fantasy & Science Fiction",
+          "url": "https://stephen-king-api.onrender.com/api/publication/19"
+        },
         "collectedIn": "The Dark Tower: The Gunslinger (1982)",
         "collection": {
           "name": "The Dark Tower: The Gunslinger",
@@ -1319,6 +1544,10 @@
         "type": "short story",
         "handle": "big-wheels-a-tale-of-the-laundry-game-milkman-2-",
         "originallyPublishedIn": "New Terrors (July 1980)",
+        "publication": {
+          "name": "New Terrors",
+          "url": "https://stephen-king-api.onrender.com/api/publication/23"
+        },
         "collectedIn": "Skeleton Crew (1985)",
         "collection": {
           "name": "Skeleton Crew",
@@ -1336,6 +1565,10 @@
         "type": "short story",
         "handle": "the-monkey",
         "originallyPublishedIn": "Gallery (November 1980)",
+        "publication": {
+          "name": "Gallery",
+          "url": "https://stephen-king-api.onrender.com/api/publication/18"
+        },
         "collectedIn": "Skeleton Crew (1985)",
         "collection": {
           "name": "Skeleton Crew",
@@ -1366,6 +1599,10 @@
         "type": "short story",
         "handle": "the-wedding-gig",
         "originallyPublishedIn": "Ellery Queen's Mystery Magazine (December 1980)",
+        "publication": {
+          "name": "Ellery Queen's Mystery Magazine",
+          "url": "https://stephen-king-api.onrender.com/api/publication/24"
+        },
         "collectedIn": "Skeleton Crew (1985)",
         "collection": {
           "name": "Skeleton Crew",
@@ -1383,6 +1620,10 @@
         "type": "novella",
         "handle": "the-oracle-and-the-mountains",
         "originallyPublishedIn": "The Magazine of Fantasy & Science Fiction (February 1981)",
+        "publication": {
+          "name": "The Magazine of Fantasy & Science Fiction",
+          "url": "https://stephen-king-api.onrender.com/api/publication/19"
+        },
         "collectedIn": "The Dark Tower: The Gunslinger (1982)",
         "collection": {
           "name": "The Dark Tower: The Gunslinger",
@@ -1402,6 +1643,10 @@
         "type": "short story",
         "handle": "the-jaunt",
         "originallyPublishedIn": "The Twilight Zone Magazine (June 1981)",
+        "publication": {
+          "name": "The Twilight Zone Magazine",
+          "url": "https://stephen-king-api.onrender.com/api/publication/25"
+        },
         "collectedIn": "Skeleton Crew (1985)",
         "collection": {
           "name": "Skeleton Crew",
@@ -1419,6 +1664,10 @@
         "type": "novella",
         "handle": "the-slow-mutants",
         "originallyPublishedIn": "The Magazine of Fantasy & Science Fiction (July 1981)",
+        "publication": {
+          "name": "The Magazine of Fantasy & Science Fiction",
+          "url": "https://stephen-king-api.onrender.com/api/publication/19"
+        },
         "collectedIn": "The Dark Tower: The Gunslinger (1982)",
         "collection": {
           "name": "The Dark Tower: The Gunslinger",
@@ -1438,6 +1687,10 @@
         "type": "short story",
         "handle": "the-man-who-would-not-shake-hands",
         "originallyPublishedIn": "Shadows 4 (October 1981)",
+        "publication": {
+          "name": "Shadows",
+          "url": "https://stephen-king-api.onrender.com/api/publication/20"
+        },
         "collectedIn": "Skeleton Crew (1985)",
         "collection": {
           "name": "Skeleton Crew",
@@ -1460,6 +1713,10 @@
         "type": "short story",
         "handle": "the-monster-in-the-closet",
         "originallyPublishedIn": "Ladies' Home Journal (October 1981)",
+        "publication": {
+          "name": "Ladies' Home Journal",
+          "url": "https://stephen-king-api.onrender.com/api/publication/26"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -1476,6 +1733,10 @@
         "type": "short story",
         "handle": "the-bird-and-the-album",
         "originallyPublishedIn": "A Fantasy Reader (October 30, 1981)",
+        "publication": {
+          "name": "A Fantasy Reader",
+          "url": "https://stephen-king-api.onrender.com/api/publication/27"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -1502,6 +1763,10 @@
         "type": "novella",
         "handle": "the-gunslinger-and-the-dark-man",
         "originallyPublishedIn": "The Magazine of Fantasy & Science Fiction (November 1981)",
+        "publication": {
+          "name": "The Magazine of Fantasy & Science Fiction",
+          "url": "https://stephen-king-api.onrender.com/api/publication/19"
+        },
         "collectedIn": "The Dark Tower: The Gunslinger (1982)",
         "collection": {
           "name": "The Dark Tower: The Gunslinger",
@@ -1526,6 +1791,10 @@
         "type": "short story",
         "handle": "the-reach",
         "originallyPublishedIn": "Yankee (November 1981)",
+        "publication": {
+          "name": "Yankee",
+          "url": "https://stephen-king-api.onrender.com/api/publication/28"
+        },
         "collectedIn": "Skeleton Crew (1985)",
         "collection": {
           "name": "Skeleton Crew",
@@ -1545,6 +1814,10 @@
         "type": "short story",
         "handle": "survivor-type",
         "originallyPublishedIn": "Terrors (July 1982)",
+        "publication": {
+          "name": "Terrors",
+          "url": "https://stephen-king-api.onrender.com/api/publication/29"
+        },
         "collectedIn": "Skeleton Crew (1985)",
         "collection": {
           "name": "Skeleton Crew",
@@ -1562,6 +1835,10 @@
         "type": "short story",
         "handle": "before-the-play",
         "originallyPublishedIn": "Whispers (August 1982)",
+        "publication": {
+          "name": "Whispers",
+          "url": "https://stephen-king-api.onrender.com/api/publication/30"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -1578,6 +1855,7 @@
         "type": "novella",
         "handle": "apt-pupil",
         "originallyPublishedIn": "Different Seasons (August 27, 1982)",
+        "publication": null,
         "collectedIn": "Different Seasons (1982)",
         "collection": {
           "name": "Different Seasons",
@@ -1619,6 +1897,7 @@
         "type": "novella",
         "handle": "the-body",
         "originallyPublishedIn": "Different Seasons (August 27, 1982)",
+        "publication": null,
         "collectedIn": "Different Seasons (1982)",
         "collection": {
           "name": "Different Seasons",
@@ -1678,6 +1957,7 @@
         "type": "novella",
         "handle": "the-breathing-method",
         "originallyPublishedIn": "Different Seasons (August 27, 1982)",
+        "publication": null,
         "collectedIn": "Different Seasons (1982)",
         "collection": {
           "name": "Different Seasons",
@@ -1704,6 +1984,7 @@
         "type": "novella",
         "handle": "rita-hayworth-and-shawshank-redemption",
         "originallyPublishedIn": "Different Seasons (August 27, 1982)",
+        "publication": null,
         "collectedIn": "Different Seasons (1982)",
         "collection": {
           "name": "Different Seasons",
@@ -1743,6 +2024,10 @@
         "type": "short story",
         "handle": "the-raft",
         "originallyPublishedIn": "Gallery (November 1982)",
+        "publication": {
+          "name": "Gallery",
+          "url": "https://stephen-king-api.onrender.com/api/publication/18"
+        },
         "collectedIn": "Skeleton Crew (1985)",
         "collection": {
           "name": "Skeleton Crew",
@@ -1762,6 +2047,10 @@
         "type": "short story",
         "handle": "skybar",
         "originallyPublishedIn": "The Do-It-Yourself Bestseller (1982)",
+        "publication": {
+          "name": "The Do-It-Yourself Bestseller",
+          "url": "https://stephen-king-api.onrender.com/api/publication/31"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -1778,6 +2067,10 @@
         "type": "short story",
         "handle": "word-processor-of-the-gods",
         "originallyPublishedIn": "Playboy (January 1983)",
+        "publication": {
+          "name": "Playboy",
+          "url": "https://stephen-king-api.onrender.com/api/publication/32"
+        },
         "collectedIn": "Skeleton Crew (1985)",
         "collection": {
           "name": "Skeleton Crew",
@@ -1798,6 +2091,10 @@
         "type": "short story",
         "handle": "uncle-otto-s-truck",
         "originallyPublishedIn": "Yankee (October 1983)",
+        "publication": {
+          "name": "Yankee",
+          "url": "https://stephen-king-api.onrender.com/api/publication/28"
+        },
         "collectedIn": "Skeleton Crew (1985)",
         "collection": {
           "name": "Skeleton Crew",
@@ -1820,6 +2117,10 @@
         "type": "novella",
         "handle": "cycle-of-the-werewolf",
         "originallyPublishedIn": "Land of Enchantment (November 1983)",
+        "publication": {
+          "name": "Land of Enchantment",
+          "url": "https://stephen-king-api.onrender.com/api/publication/33"
+        },
         "collectedIn": "Uncollected (standalone book)",
         "collection": null,
         "notes": [],
@@ -1848,6 +2149,10 @@
         "type": "short story",
         "handle": "the-return-of-timmy-baterman",
         "originallyPublishedIn": "Satyricon II (1983)",
+        "publication": {
+          "name": "Satyricon",
+          "url": "https://stephen-king-api.onrender.com/api/publication/34"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -1864,6 +2169,10 @@
         "type": "short story",
         "handle": "gramma",
         "originallyPublishedIn": "Weirdbook (Spring 1984)",
+        "publication": {
+          "name": "Weirdbook",
+          "url": "https://stephen-king-api.onrender.com/api/publication/35"
+        },
         "collectedIn": "Skeleton Crew (1985)",
         "collection": {
           "name": "Skeleton Crew",
@@ -1890,6 +2199,10 @@
         "type": "short story",
         "handle": "mrs-todd-s-shortcut",
         "originallyPublishedIn": "Redbook (May 1984)",
+        "publication": {
+          "name": "Redbook",
+          "url": "https://stephen-king-api.onrender.com/api/publication/36"
+        },
         "collectedIn": "Skeleton Crew (1985)",
         "collection": {
           "name": "Skeleton Crew",
@@ -1916,6 +2229,10 @@
         "type": "novella",
         "handle": "the-ballad-of-the-flexible-bullet",
         "originallyPublishedIn": "The Magazine of Fantasy & Science Fiction (June 1984)",
+        "publication": {
+          "name": "The Magazine of Fantasy & Science Fiction",
+          "url": "https://stephen-king-api.onrender.com/api/publication/19"
+        },
         "collectedIn": "Skeleton Crew (1985)",
         "collection": {
           "name": "Skeleton Crew",
@@ -1936,6 +2253,10 @@
         "type": "short story",
         "handle": "the-revelations-of-becka-paulson",
         "originallyPublishedIn": "Rolling Stone (July 19 – August 2, 1984)",
+        "publication": {
+          "name": "Rolling Stone",
+          "url": "https://stephen-king-api.onrender.com/api/publication/37"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -1958,6 +2279,10 @@
         "type": "short story",
         "handle": "beachworld",
         "originallyPublishedIn": "Weird Tales (Fall 1984)",
+        "publication": {
+          "name": "Weird Tales",
+          "url": "https://stephen-king-api.onrender.com/api/publication/38"
+        },
         "collectedIn": "Skeleton Crew (1985)",
         "collection": {
           "name": "Skeleton Crew",
@@ -1975,6 +2300,10 @@
         "type": "novella",
         "handle": "dolan-s-cadillac",
         "originallyPublishedIn": "Castle Rock (February – June 1985)",
+        "publication": {
+          "name": "Castle Rock",
+          "url": "https://stephen-king-api.onrender.com/api/publication/39"
+        },
         "collectedIn": "Nightmares & Dreamscapes (1993)",
         "collection": {
           "name": "Nightmares & Dreamscapes",
@@ -1997,6 +2326,7 @@
         "type": "poem",
         "handle": "for-owen",
         "originallyPublishedIn": "Skeleton Crew (June 1985)",
+        "publication": null,
         "collectedIn": "Skeleton Crew (1985)",
         "collection": {
           "name": "Skeleton Crew",
@@ -2014,6 +2344,7 @@
         "type": "short story",
         "handle": "morning-deliveries-milkman-1-",
         "originallyPublishedIn": "Skeleton Crew (June 1985)",
+        "publication": null,
         "collectedIn": "Skeleton Crew (1985)",
         "collection": {
           "name": "Skeleton Crew",
@@ -2031,6 +2362,7 @@
         "type": "poem",
         "handle": "paranoid-a-chant",
         "originallyPublishedIn": "Skeleton Crew (June 1985)",
+        "publication": null,
         "collectedIn": "Skeleton Crew (1985)",
         "collection": {
           "name": "Skeleton Crew",
@@ -2048,6 +2380,10 @@
         "type": "short story",
         "handle": "for-the-birds",
         "originallyPublishedIn": "Bred Any Good Rooks Lately? (January 1986)",
+        "publication": {
+          "name": "Bred Any Good Rooks Lately?",
+          "url": "https://stephen-king-api.onrender.com/api/publication/40"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [],
@@ -2062,6 +2398,10 @@
         "type": "short story",
         "handle": "the-end-of-the-whole-mess",
         "originallyPublishedIn": "Omni (October 1986)",
+        "publication": {
+          "name": "Omni",
+          "url": "https://stephen-king-api.onrender.com/api/publication/41"
+        },
         "collectedIn": "Nightmares & Dreamscapes (1993)",
         "collection": {
           "name": "Nightmares & Dreamscapes",
@@ -2081,6 +2421,10 @@
         "type": "short story",
         "handle": "popsy",
         "originallyPublishedIn": "Masques II (June 1987)",
+        "publication": {
+          "name": "Masques",
+          "url": "https://stephen-king-api.onrender.com/api/publication/42"
+        },
         "collectedIn": "Nightmares & Dreamscapes (1993)",
         "collection": {
           "name": "Nightmares & Dreamscapes",
@@ -2098,6 +2442,10 @@
         "type": "short story",
         "handle": "the-doctor-s-case",
         "originallyPublishedIn": "The New Adventures of Sherlock Holmes (November 1987)",
+        "publication": {
+          "name": "The New Adventures of Sherlock Holmes",
+          "url": "https://stephen-king-api.onrender.com/api/publication/43"
+        },
         "collectedIn": "Nightmares & Dreamscapes (1993)",
         "collection": {
           "name": "Nightmares & Dreamscapes",
@@ -2115,6 +2463,10 @@
         "type": "short story",
         "handle": "the-night-flier",
         "originallyPublishedIn": "Prime Evil (June 1988)",
+        "publication": {
+          "name": "Prime Evil",
+          "url": "https://stephen-king-api.onrender.com/api/publication/44"
+        },
         "collectedIn": "Nightmares & Dreamscapes (1993)",
         "collection": {
           "name": "Nightmares & Dreamscapes",
@@ -2139,6 +2491,10 @@
         "type": "short story",
         "handle": "dedication",
         "originallyPublishedIn": "Night Visions 5 (August 1988)",
+        "publication": {
+          "name": "Night Visions",
+          "url": "https://stephen-king-api.onrender.com/api/publication/45"
+        },
         "collectedIn": "Nightmares & Dreamscapes (1993)",
         "collection": {
           "name": "Nightmares & Dreamscapes",
@@ -2156,6 +2512,10 @@
         "type": "short story",
         "handle": "the-reploids",
         "originallyPublishedIn": "Night Visions 5 (August 1988)",
+        "publication": {
+          "name": "Night Visions",
+          "url": "https://stephen-king-api.onrender.com/api/publication/45"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [],
@@ -2170,6 +2530,10 @@
         "type": "short story",
         "handle": "sneakers",
         "originallyPublishedIn": "Night Visions 5 (August 1988)",
+        "publication": {
+          "name": "Night Visions",
+          "url": "https://stephen-king-api.onrender.com/api/publication/45"
+        },
         "collectedIn": "Nightmares & Dreamscapes (1993)",
         "collection": {
           "name": "Nightmares & Dreamscapes",
@@ -2187,6 +2551,10 @@
         "type": "short story",
         "handle": "rainy-season",
         "originallyPublishedIn": "Midnight Graffiti (Spring 1989)",
+        "publication": {
+          "name": "Midnight Graffiti",
+          "url": "https://stephen-king-api.onrender.com/api/publication/46"
+        },
         "collectedIn": "Nightmares & Dreamscapes (1993)",
         "collection": {
           "name": "Nightmares & Dreamscapes",
@@ -2204,6 +2572,10 @@
         "type": "short story",
         "handle": "home-delivery",
         "originallyPublishedIn": "Book of the Dead (June 1989)",
+        "publication": {
+          "name": "Book of the Dead",
+          "url": "https://stephen-king-api.onrender.com/api/publication/47"
+        },
         "collectedIn": "Nightmares & Dreamscapes (1993)",
         "collection": {
           "name": "Nightmares & Dreamscapes",
@@ -2226,6 +2598,7 @@
         "type": "short story",
         "handle": "my-pretty-pony",
         "originallyPublishedIn": "My Pretty Pony (September 1989)",
+        "publication": null,
         "collectedIn": "Nightmares & Dreamscapes (1993)",
         "collection": {
           "name": "Nightmares & Dreamscapes",
@@ -2245,6 +2618,10 @@
         "type": "play",
         "handle": "an-evening-at-god-s",
         "originallyPublishedIn": "Institute for Advanced Theater Training (April 23, 1990)",
+        "publication": {
+          "name": "Institute for Advanced Theater Training",
+          "url": "https://stephen-king-api.onrender.com/api/publication/48"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [],
@@ -2259,6 +2636,7 @@
         "type": "novella",
         "handle": "the-langoliers",
         "originallyPublishedIn": "Four Past Midnight (September 1990)",
+        "publication": null,
         "collectedIn": "Four Past Midnight (1990)",
         "collection": {
           "name": "Four Past Midnight",
@@ -2287,6 +2665,7 @@
         "type": "novella",
         "handle": "the-library-policeman",
         "originallyPublishedIn": "Four Past Midnight (September 1990)",
+        "publication": null,
         "collectedIn": "Four Past Midnight (1990)",
         "collection": {
           "name": "Four Past Midnight",
@@ -2314,6 +2693,7 @@
         "type": "novella",
         "handle": "secret-window-secret-garden",
         "originallyPublishedIn": "Four Past Midnight (September 1990)",
+        "publication": null,
         "collectedIn": "Four Past Midnight (1990)",
         "collection": {
           "name": "Four Past Midnight",
@@ -2349,6 +2729,7 @@
         "type": "novella",
         "handle": "the-sun-dog",
         "originallyPublishedIn": "Four Past Midnight (September 1990)",
+        "publication": null,
         "collectedIn": "Four Past Midnight (1990)",
         "collection": {
           "name": "Four Past Midnight",
@@ -2371,6 +2752,10 @@
         "type": "short story",
         "handle": "the-bear",
         "originallyPublishedIn": "The Magazine of Fantasy & Science Fiction (December 1990)",
+        "publication": {
+          "name": "The Magazine of Fantasy & Science Fiction",
+          "url": "https://stephen-king-api.onrender.com/api/publication/19"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -2387,6 +2772,10 @@
         "type": "short story",
         "handle": "the-moving-finger",
         "originallyPublishedIn": "The Magazine of Fantasy & Science Fiction (December 1990)",
+        "publication": {
+          "name": "The Magazine of Fantasy & Science Fiction",
+          "url": "https://stephen-king-api.onrender.com/api/publication/19"
+        },
         "collectedIn": "Nightmares & Dreamscapes (1993)",
         "collection": {
           "name": "Nightmares & Dreamscapes",
@@ -2404,6 +2793,10 @@
         "type": "short story",
         "handle": "you-know-they-got-a-hell-of-a-band",
         "originallyPublishedIn": "Shock Rock (January 1992)",
+        "publication": {
+          "name": "Shock Rock",
+          "url": "https://stephen-king-api.onrender.com/api/publication/49"
+        },
         "collectedIn": "Nightmares & Dreamscapes (1993)",
         "collection": {
           "name": "Nightmares & Dreamscapes",
@@ -2423,6 +2816,10 @@
         "type": "short story",
         "handle": "chattery-teeth",
         "originallyPublishedIn": "Cemetery Dance (Fall 1992)",
+        "publication": {
+          "name": "Cemetery Dance",
+          "url": "https://stephen-king-api.onrender.com/api/publication/50"
+        },
         "collectedIn": "Nightmares & Dreamscapes (1993)",
         "collection": {
           "name": "Nightmares & Dreamscapes",
@@ -2440,6 +2837,7 @@
         "type": "short story",
         "handle": "the-beggar-and-the-diamond",
         "originallyPublishedIn": "Nightmares & Dreamscapes (September 1993)",
+        "publication": null,
         "collectedIn": "Nightmares & Dreamscapes (1993)",
         "collection": {
           "name": "Nightmares & Dreamscapes",
@@ -2457,6 +2855,7 @@
         "type": "short story",
         "handle": "the-house-on-maple-street",
         "originallyPublishedIn": "Nightmares & Dreamscapes (September 1993)",
+        "publication": null,
         "collectedIn": "Nightmares & Dreamscapes (1993)",
         "collection": {
           "name": "Nightmares & Dreamscapes",
@@ -2474,6 +2873,7 @@
         "type": "teleplay",
         "handle": "sorry-right-number",
         "originallyPublishedIn": "Nightmares & Dreamscapes (September 1993)",
+        "publication": null,
         "collectedIn": "Nightmares & Dreamscapes (1993)",
         "collection": {
           "name": "Nightmares & Dreamscapes",
@@ -2493,6 +2893,7 @@
         "type": "short story",
         "handle": "the-ten-o-clock-people",
         "originallyPublishedIn": "Nightmares & Dreamscapes (September 1993)",
+        "publication": null,
         "collectedIn": "Nightmares & Dreamscapes (1993)",
         "collection": {
           "name": "Nightmares & Dreamscapes",
@@ -2512,6 +2913,7 @@
         "type": "short story",
         "handle": "umney-s-last-case",
         "originallyPublishedIn": "Nightmares & Dreamscapes (September 1993)",
+        "publication": null,
         "collectedIn": "Nightmares & Dreamscapes (1993)",
         "collection": {
           "name": "Nightmares & Dreamscapes",
@@ -2529,6 +2931,10 @@
         "type": "short story",
         "handle": "jhonathan-and-the-witches",
         "originallyPublishedIn": "First Words (October 1993)",
+        "publication": {
+          "name": "First Words",
+          "url": "https://stephen-king-api.onrender.com/api/publication/51"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -2545,6 +2951,10 @@
         "type": "short story",
         "handle": "the-killer",
         "originallyPublishedIn": "Famous Monsters of Filmland #202 (Spring 1994)",
+        "publication": {
+          "name": "Famous Monsters of Filmland",
+          "url": "https://stephen-king-api.onrender.com/api/publication/52"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -2561,6 +2971,10 @@
         "type": "short story",
         "handle": "blind-willie",
         "originallyPublishedIn": "Antaeus #75/76 (October 1994)",
+        "publication": {
+          "name": "Antaeus",
+          "url": "https://stephen-king-api.onrender.com/api/publication/53"
+        },
         "collectedIn": "Hearts in Atlantis (1999)",
         "collection": {
           "name": "Hearts in Atlantis",
@@ -2580,6 +2994,10 @@
         "type": "short story",
         "handle": "the-man-in-the-black-suit",
         "originallyPublishedIn": "The New Yorker (October 31, 1994)",
+        "publication": {
+          "name": "The New Yorker",
+          "url": "https://stephen-king-api.onrender.com/api/publication/54"
+        },
         "collectedIn": "Everything's Eventual (2002)",
         "collection": {
           "name": "Everything's Eventual",
@@ -2612,6 +3030,10 @@
         "type": "poem",
         "handle": "dino",
         "originallyPublishedIn": "Salt Hill Journal (Fall 1994)",
+        "publication": {
+          "name": "Salt Hill Journal",
+          "url": "https://stephen-king-api.onrender.com/api/publication/55"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [],
@@ -2626,6 +3048,10 @@
         "type": "short story",
         "handle": "luckey-quarter",
         "originallyPublishedIn": "USA Weekend (June 30 – July 2, 1995)",
+        "publication": {
+          "name": "USA Weekend",
+          "url": "https://stephen-king-api.onrender.com/api/publication/56"
+        },
         "collectedIn": "Everything's Eventual (2002)",
         "collection": {
           "name": "Everything's Eventual",
@@ -2643,6 +3069,10 @@
         "type": "short story",
         "handle": "lunch-at-the-gotham-café",
         "originallyPublishedIn": "Dark Love (November 1995)",
+        "publication": {
+          "name": "Dark Love",
+          "url": "https://stephen-king-api.onrender.com/api/publication/57"
+        },
         "collectedIn": "Everything's Eventual (2002)",
         "collection": {
           "name": "Everything's Eventual",
@@ -2663,6 +3093,10 @@
         "type": "short story",
         "handle": "autopsy-room-four",
         "originallyPublishedIn": "Six Stories (April 1997)",
+        "publication": {
+          "name": "Six Stories",
+          "url": "https://stephen-king-api.onrender.com/api/publication/58"
+        },
         "collectedIn": "Everything's Eventual (2002)",
         "collection": {
           "name": "Everything's Eventual",
@@ -2687,6 +3121,10 @@
         "type": "short story",
         "handle": "l-t-s-theory-of-pets",
         "originallyPublishedIn": "Six Stories (April 1997)",
+        "publication": {
+          "name": "Six Stories",
+          "url": "https://stephen-king-api.onrender.com/api/publication/58"
+        },
         "collectedIn": "Everything's Eventual (2002)",
         "collection": {
           "name": "Everything's Eventual",
@@ -2704,6 +3142,10 @@
         "type": "screenplay",
         "handle": "general",
         "originallyPublishedIn": "Screamplays  (September 1997)",
+        "publication": {
+          "name": "Screamplays",
+          "url": "https://stephen-king-api.onrender.com/api/publication/59"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -2720,6 +3162,10 @@
         "type": "novella",
         "handle": "everything-s-eventual",
         "originallyPublishedIn": "The Magazine of Fantasy & Science Fiction (October–November 1997)",
+        "publication": {
+          "name": "The Magazine of Fantasy & Science Fiction",
+          "url": "https://stephen-king-api.onrender.com/api/publication/19"
+        },
         "collectedIn": "Everything's Eventual (2002)",
         "collection": {
           "name": "Everything's Eventual",
@@ -2753,6 +3199,10 @@
         "type": "short story",
         "handle": "that-feeling-you-can-only-say-what-it-is-in-french",
         "originallyPublishedIn": "The New Yorker (June 22, 1998)",
+        "publication": {
+          "name": "The New Yorker",
+          "url": "https://stephen-king-api.onrender.com/api/publication/54"
+        },
         "collectedIn": "Everything's Eventual (2002)",
         "collection": {
           "name": "Everything's Eventual",
@@ -2770,6 +3220,10 @@
         "type": "novella",
         "handle": "the-little-sisters-of-eluria",
         "originallyPublishedIn": "Legends (October 1998)",
+        "publication": {
+          "name": "Legends",
+          "url": "https://stephen-king-api.onrender.com/api/publication/60"
+        },
         "collectedIn": "Everything's Eventual (2002)",
         "collection": {
           "name": "Everything's Eventual",
@@ -2805,6 +3259,7 @@
         "type": "short story",
         "handle": "the-new-lieutenant-s-rap",
         "originallyPublishedIn": "The New Lieutenant's Rap (April 1999)",
+        "publication": null,
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -2821,6 +3276,10 @@
         "type": "short story",
         "handle": "the-road-virus-heads-north",
         "originallyPublishedIn": "999 (September 7, 1999)",
+        "publication": {
+          "name": "999",
+          "url": "https://stephen-king-api.onrender.com/api/publication/61"
+        },
         "collectedIn": "Everything's Eventual (2002)",
         "collection": {
           "name": "Everything's Eventual",
@@ -2843,6 +3302,7 @@
         "type": "novella",
         "handle": "hearts-in-atlantis",
         "originallyPublishedIn": "Hearts in Atlantis (September 14, 1999)",
+        "publication": null,
         "collectedIn": "Hearts in Atlantis (1999)",
         "collection": {
           "name": "Hearts in Atlantis",
@@ -2869,6 +3329,7 @@
         "type": "short story",
         "handle": "heavenly-shades-of-night-are-falling",
         "originallyPublishedIn": "Hearts in Atlantis (September 14, 1999)",
+        "publication": null,
         "collectedIn": "Hearts in Atlantis (1999)",
         "collection": {
           "name": "Hearts in Atlantis",
@@ -2886,6 +3347,7 @@
         "type": "novella",
         "handle": "low-men-in-yellow-coats",
         "originallyPublishedIn": "Hearts in Atlantis (September 14, 1999)",
+        "publication": null,
         "collectedIn": "Hearts in Atlantis (1999)",
         "collection": {
           "name": "Hearts in Atlantis",
@@ -2910,6 +3372,7 @@
         "type": "novella",
         "handle": "why-we-re-in-vietnam",
         "originallyPublishedIn": "Hearts in Atlantis (September 14, 1999)",
+        "publication": null,
         "collectedIn": "Hearts in Atlantis (1999)",
         "collection": {
           "name": "Hearts in Atlantis",
@@ -2927,6 +3390,10 @@
         "type": "short story",
         "handle": "1408",
         "originallyPublishedIn": "Blood and Smoke (November 1999)",
+        "publication": {
+          "name": "Blood and Smoke",
+          "url": "https://stephen-king-api.onrender.com/api/publication/62"
+        },
         "collectedIn": "Everything's Eventual (2002)",
         "collection": {
           "name": "Everything's Eventual",
@@ -2951,6 +3418,10 @@
         "type": "short story",
         "handle": "in-the-deathroom",
         "originallyPublishedIn": "Blood and Smoke (November 1999)",
+        "publication": {
+          "name": "Blood and Smoke",
+          "url": "https://stephen-king-api.onrender.com/api/publication/62"
+        },
         "collectedIn": "Everything's Eventual (2002)",
         "collection": {
           "name": "Everything's Eventual",
@@ -2970,6 +3441,7 @@
         "type": "novella",
         "handle": "riding-the-bullet",
         "originallyPublishedIn": "Riding the Bullet (March 14, 2000)",
+        "publication": null,
         "collectedIn": "Everything's Eventual (2002)",
         "collection": {
           "name": "Everything's Eventual",
@@ -2989,6 +3461,10 @@
         "type": "short story",
         "handle": "the-old-dude-s-ticker",
         "originallyPublishedIn": "NECON XX (July 2000)",
+        "publication": {
+          "name": "NECON",
+          "url": "https://stephen-king-api.onrender.com/api/publication/63"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -3005,6 +3481,10 @@
         "type": "short story",
         "handle": "all-that-you-love-will-be-carried-away",
         "originallyPublishedIn": "The New Yorker (January 29, 2001)",
+        "publication": {
+          "name": "The New Yorker",
+          "url": "https://stephen-king-api.onrender.com/api/publication/54"
+        },
         "collectedIn": "Everything's Eventual (2002)",
         "collection": {
           "name": "Everything's Eventual",
@@ -3022,6 +3502,10 @@
         "type": "short story",
         "handle": "calla-bryn-sturgis",
         "originallyPublishedIn": "stephenking.com (2001)",
+        "publication": {
+          "name": "stephenking.com",
+          "url": "https://stephen-king-api.onrender.com/api/publication/64"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -3043,6 +3527,10 @@
         "type": "short story",
         "handle": "the-death-of-jack-hamilton",
         "originallyPublishedIn": "The New Yorker (December 24–31, 2001)",
+        "publication": {
+          "name": "The New Yorker",
+          "url": "https://stephen-king-api.onrender.com/api/publication/54"
+        },
         "collectedIn": "Everything's Eventual (2002)",
         "collection": {
           "name": "Everything's Eventual",
@@ -3060,6 +3548,10 @@
         "type": "short story",
         "handle": "the-tale-of-gray-dick",
         "originallyPublishedIn": "McSweeney's Mammoth Treasury of Thrilling Tales (March 25, 2003)",
+        "publication": {
+          "name": "McSweeney's Mammoth Treasury of Thrilling Tales",
+          "url": "https://stephen-king-api.onrender.com/api/publication/65"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -3076,6 +3568,10 @@
         "type": "short story",
         "handle": "harvey-s-dream",
         "originallyPublishedIn": "The New Yorker (June 30, 2003)",
+        "publication": {
+          "name": "The New Yorker",
+          "url": "https://stephen-king-api.onrender.com/api/publication/54"
+        },
         "collectedIn": "Just After Sunset (2008)",
         "collection": {
           "name": "Just After Sunset",
@@ -3095,6 +3591,10 @@
         "type": "short story",
         "handle": "stationary-bike",
         "originallyPublishedIn": "Borderlands 5 (November 2003)",
+        "publication": {
+          "name": "Borderlands",
+          "url": "https://stephen-king-api.onrender.com/api/publication/66"
+        },
         "collectedIn": "Just After Sunset (2008)",
         "collection": {
           "name": "Just After Sunset",
@@ -3112,6 +3612,10 @@
         "type": "short story",
         "handle": "rest-stop",
         "originallyPublishedIn": "Esquire (December 2003)",
+        "publication": {
+          "name": "Esquire",
+          "url": "https://stephen-king-api.onrender.com/api/publication/67"
+        },
         "collectedIn": "Just After Sunset (2008)",
         "collection": {
           "name": "Just After Sunset",
@@ -3134,6 +3638,10 @@
         "type": "short story",
         "handle": "lisey-and-the-madman",
         "originallyPublishedIn": "McSweeney’s Enchanted Chamber of Astonishing Stories (2004)",
+        "publication": {
+          "name": "McSweeney’s Enchanted Chamber of Astonishing Stories",
+          "url": "https://stephen-king-api.onrender.com/api/publication/68"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -3150,6 +3658,10 @@
         "type": "short story",
         "handle": "the-furnace",
         "originallyPublishedIn": "Weekly Reader (September 2005)",
+        "publication": {
+          "name": "Weekly Reader",
+          "url": "https://stephen-king-api.onrender.com/api/publication/69"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -3166,6 +3678,10 @@
         "type": "short story",
         "handle": "the-things-they-left-behind",
         "originallyPublishedIn": "Transgressions  (May 2005)",
+        "publication": {
+          "name": "Transgressions",
+          "url": "https://stephen-king-api.onrender.com/api/publication/70"
+        },
         "collectedIn": "Just After Sunset (2008)",
         "collection": {
           "name": "Just After Sunset",
@@ -3185,6 +3701,10 @@
         "type": "short story",
         "handle": "memory",
         "originallyPublishedIn": "Tin House #28 (July 2006)",
+        "publication": {
+          "name": "Tin House",
+          "url": "https://stephen-king-api.onrender.com/api/publication/71"
+        },
         "collectedIn": "Blaze (2007)",
         "collection": {
           "name": "Blaze",
@@ -3204,6 +3724,10 @@
         "type": "short story",
         "handle": "willa",
         "originallyPublishedIn": "Playboy (December 2006)",
+        "publication": {
+          "name": "Playboy",
+          "url": "https://stephen-king-api.onrender.com/api/publication/32"
+        },
         "collectedIn": "Just After Sunset (2008)",
         "collection": {
           "name": "Just After Sunset",
@@ -3221,6 +3745,10 @@
         "type": "short story",
         "handle": "graduation-afternoon",
         "originallyPublishedIn": "Postscripts (March 2007)",
+        "publication": {
+          "name": "Postscripts",
+          "url": "https://stephen-king-api.onrender.com/api/publication/72"
+        },
         "collectedIn": "Just After Sunset (2008)",
         "collection": {
           "name": "Just After Sunset",
@@ -3240,6 +3768,10 @@
         "type": "novella",
         "handle": "the-gingerbread-girl",
         "originallyPublishedIn": "Esquire (July 2007)",
+        "publication": {
+          "name": "Esquire",
+          "url": "https://stephen-king-api.onrender.com/api/publication/67"
+        },
         "collectedIn": "Just After Sunset (2008)",
         "collection": {
           "name": "Just After Sunset",
@@ -3262,6 +3794,10 @@
         "type": "short story",
         "handle": "ayana",
         "originallyPublishedIn": "The Paris Review (Fall 2007)",
+        "publication": {
+          "name": "The Paris Review",
+          "url": "https://stephen-king-api.onrender.com/api/publication/73"
+        },
         "collectedIn": "Just After Sunset (2008)",
         "collection": {
           "name": "Just After Sunset",
@@ -3279,6 +3815,10 @@
         "type": "short story",
         "handle": "mute",
         "originallyPublishedIn": "Playboy (December 2007)",
+        "publication": {
+          "name": "Playboy",
+          "url": "https://stephen-king-api.onrender.com/api/publication/32"
+        },
         "collectedIn": "Just After Sunset (2008)",
         "collection": {
           "name": "Just After Sunset",
@@ -3301,6 +3841,10 @@
         "type": "novella",
         "handle": "a-very-tight-place",
         "originallyPublishedIn": "McSweeney's #27 (Spring 2008)",
+        "publication": {
+          "name": "McSweeney's",
+          "url": "https://stephen-king-api.onrender.com/api/publication/74"
+        },
         "collectedIn": "Just After Sunset (2008)",
         "collection": {
           "name": "Just After Sunset",
@@ -3318,6 +3862,10 @@
         "type": "short story",
         "handle": "the-new-york-times-at-special-bargain-rates",
         "originallyPublishedIn": "The Magazine of Fantasy & Science Fiction (October/November 2008)",
+        "publication": {
+          "name": "The Magazine of Fantasy & Science Fiction",
+          "url": "https://stephen-king-api.onrender.com/api/publication/19"
+        },
         "collectedIn": "Just After Sunset (2008)",
         "collection": {
           "name": "Just After Sunset",
@@ -3335,6 +3883,7 @@
         "type": "novella",
         "handle": "n-",
         "originallyPublishedIn": "Just After Sunset (November 2008)",
+        "publication": null,
         "collectedIn": "Just After Sunset (2008)",
         "collection": {
           "name": "Just After Sunset",
@@ -3380,6 +3929,10 @@
         "type": "novella",
         "handle": "throttle",
         "originallyPublishedIn": "He Is Legend (February 1, 2009)",
+        "publication": {
+          "name": "He Is Legend",
+          "url": "https://stephen-king-api.onrender.com/api/publication/75"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -3396,6 +3949,7 @@
         "type": "novella",
         "handle": "ur",
         "originallyPublishedIn": "Ur (February 12, 2009)",
+        "publication": null,
         "collectedIn": "The Bazaar of Bad Dreams (2015)",
         "collection": {
           "name": "The Bazaar of Bad Dreams",
@@ -3416,6 +3970,10 @@
         "type": "novella",
         "handle": "morality",
         "originallyPublishedIn": "Esquire (July 2009)",
+        "publication": {
+          "name": "Esquire",
+          "url": "https://stephen-king-api.onrender.com/api/publication/67"
+        },
         "collectedIn": "The Bazaar of Bad Dreams (2015)",
         "collection": {
           "name": "The Bazaar of Bad Dreams",
@@ -3436,6 +3994,10 @@
         "type": "poem",
         "handle": "mostly-old-men",
         "originallyPublishedIn": "Tin House #40 (August 2009)",
+        "publication": {
+          "name": "Tin House",
+          "url": "https://stephen-king-api.onrender.com/api/publication/71"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [],
@@ -3450,6 +4012,10 @@
         "type": "poem",
         "handle": "the-bone-church",
         "originallyPublishedIn": "Playboy (November 2009)",
+        "publication": {
+          "name": "Playboy",
+          "url": "https://stephen-king-api.onrender.com/api/publication/32"
+        },
         "collectedIn": "The Bazaar of Bad Dreams (2015)",
         "collection": {
           "name": "The Bazaar of Bad Dreams",
@@ -3467,6 +4033,10 @@
         "type": "short story",
         "handle": "premium-harmony",
         "originallyPublishedIn": "The New Yorker (November 9, 2009)",
+        "publication": {
+          "name": "The New Yorker",
+          "url": "https://stephen-king-api.onrender.com/api/publication/54"
+        },
         "collectedIn": "The Bazaar of Bad Dreams (2015)",
         "collection": {
           "name": "The Bazaar of Bad Dreams",
@@ -3489,6 +4059,10 @@
         "type": "poem",
         "handle": "tommy",
         "originallyPublishedIn": "Playboy (March 2010)",
+        "publication": {
+          "name": "Playboy",
+          "url": "https://stephen-king-api.onrender.com/api/publication/32"
+        },
         "collectedIn": "The Bazaar of Bad Dreams (2015)",
         "collection": {
           "name": "The Bazaar of Bad Dreams",
@@ -3506,6 +4080,7 @@
         "type": "novella",
         "handle": "blockade-billy",
         "originallyPublishedIn": "Blockade Billy (April 2010)",
+        "publication": null,
         "collectedIn": "The Bazaar of Bad Dreams (2015)",
         "collection": {
           "name": "The Bazaar of Bad Dreams",
@@ -3532,6 +4107,7 @@
         "type": "novella",
         "handle": "1922",
         "originallyPublishedIn": "Full Dark, No Stars (November 2010)",
+        "publication": null,
         "collectedIn": "Full Dark, No Stars (2010)",
         "collection": {
           "name": "Full Dark, No Stars",
@@ -3569,6 +4145,7 @@
         "type": "novella",
         "handle": "big-driver",
         "originallyPublishedIn": "Full Dark, No Stars (November 2010)",
+        "publication": null,
         "collectedIn": "Full Dark, No Stars (2010)",
         "collection": {
           "name": "Full Dark, No Stars",
@@ -3586,6 +4163,7 @@
         "type": "novella",
         "handle": "fair-extension",
         "originallyPublishedIn": "Full Dark, No Stars (November 2010)",
+        "publication": null,
         "collectedIn": "Full Dark, No Stars (2010)",
         "collection": {
           "name": "Full Dark, No Stars",
@@ -3608,6 +4186,7 @@
         "type": "novella",
         "handle": "a-good-marriage",
         "originallyPublishedIn": "Full Dark, No Stars (November 2010)",
+        "publication": null,
         "collectedIn": "Full Dark, No Stars (2010)",
         "collection": {
           "name": "Full Dark, No Stars",
@@ -3639,6 +4218,10 @@
         "type": "short story",
         "handle": "herman-wouk-is-still-alive",
         "originallyPublishedIn": "The Atlantic (May 2011)",
+        "publication": {
+          "name": "The Atlantic",
+          "url": "https://stephen-king-api.onrender.com/api/publication/76"
+        },
         "collectedIn": "The Bazaar of Bad Dreams (2015)",
         "collection": {
           "name": "The Bazaar of Bad Dreams",
@@ -3658,6 +4241,7 @@
         "type": "short story",
         "handle": "under-the-weather",
         "originallyPublishedIn": "Paperback edition of Full Dark, No Stars (May 2011)",
+        "publication": null,
         "collectedIn": "The Bazaar of Bad Dreams (2015)",
         "collection": {
           "name": "The Bazaar of Bad Dreams",
@@ -3675,6 +4259,7 @@
         "type": "novella",
         "handle": "mile-81",
         "originallyPublishedIn": "Mile 81 (September 1, 2011)",
+        "publication": null,
         "collectedIn": "The Bazaar of Bad Dreams (2015)",
         "collection": {
           "name": "The Bazaar of Bad Dreams",
@@ -3694,6 +4279,10 @@
         "type": "short story",
         "handle": "the-little-green-god-of-agony",
         "originallyPublishedIn": "A Book of Horrors (September 29, 2011)",
+        "publication": {
+          "name": "A Book of Horrors",
+          "url": "https://stephen-king-api.onrender.com/api/publication/77"
+        },
         "collectedIn": "The Bazaar of Bad Dreams (2015)",
         "collection": {
           "name": "The Bazaar of Bad Dreams",
@@ -3714,6 +4303,10 @@
         "type": "short story",
         "handle": "the-dune",
         "originallyPublishedIn": "Granta #117 (Fall 2011)",
+        "publication": {
+          "name": "Granta",
+          "url": "https://stephen-king-api.onrender.com/api/publication/78"
+        },
         "collectedIn": "The Bazaar of Bad Dreams (2015)",
         "collection": {
           "name": "The Bazaar of Bad Dreams",
@@ -3731,6 +4324,10 @@
         "type": "novella",
         "handle": "in-the-tall-grass",
         "originallyPublishedIn": "Esquire (June/July–August 2012)",
+        "publication": {
+          "name": "Esquire",
+          "url": "https://stephen-king-api.onrender.com/api/publication/67"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -3752,6 +4349,7 @@
         "type": "novella",
         "handle": "a-face-in-the-crowd",
         "originallyPublishedIn": "A Face in the Crowd (August 21, 2012)",
+        "publication": null,
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -3769,6 +4367,10 @@
         "type": "short story",
         "handle": "batman-and-robin-have-an-altercation",
         "originallyPublishedIn": "Harper's Magazine (September 2012)",
+        "publication": {
+          "name": "Harper's Magazine",
+          "url": "https://stephen-king-api.onrender.com/api/publication/79"
+        },
         "collectedIn": "The Bazaar of Bad Dreams (2015)",
         "collection": {
           "name": "The Bazaar of Bad Dreams",
@@ -3786,6 +4388,10 @@
         "type": "short story",
         "handle": "afterlife",
         "originallyPublishedIn": "Tin House #56 (June 2013)",
+        "publication": {
+          "name": "Tin House",
+          "url": "https://stephen-king-api.onrender.com/api/publication/71"
+        },
         "collectedIn": "The Bazaar of Bad Dreams (2015)",
         "collection": {
           "name": "The Bazaar of Bad Dreams",
@@ -3803,6 +4409,10 @@
         "type": "short story",
         "handle": "the-rock-and-roll-dead-zone",
         "originallyPublishedIn": "Hard Listening (June 18, 2013)",
+        "publication": {
+          "name": "Hard Listening",
+          "url": "https://stephen-king-api.onrender.com/api/publication/80"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -3819,6 +4429,10 @@
         "type": "short story",
         "handle": "summer-thunder",
         "originallyPublishedIn": "Turn Down the Lights (December 2013)",
+        "publication": {
+          "name": "Turn Down the Lights",
+          "url": "https://stephen-king-api.onrender.com/api/publication/81"
+        },
         "collectedIn": "The Bazaar of Bad Dreams (2015)",
         "collection": {
           "name": "The Bazaar of Bad Dreams",
@@ -3836,6 +4450,7 @@
         "type": "short story",
         "handle": "bad-little-kid",
         "originallyPublishedIn": "Bad Little Kid (March 14, 2014)",
+        "publication": null,
         "collectedIn": "The Bazaar of Bad Dreams (2015)",
         "collection": {
           "name": "The Bazaar of Bad Dreams",
@@ -3855,6 +4470,10 @@
         "type": "short story",
         "handle": "that-bus-is-another-world",
         "originallyPublishedIn": "Esquire (August 2014)",
+        "publication": {
+          "name": "Esquire",
+          "url": "https://stephen-king-api.onrender.com/api/publication/67"
+        },
         "collectedIn": "The Bazaar of Bad Dreams (2015)",
         "collection": {
           "name": "The Bazaar of Bad Dreams",
@@ -3872,6 +4491,10 @@
         "type": "short story",
         "handle": "a-death",
         "originallyPublishedIn": "The New Yorker (March 9, 2015)",
+        "publication": {
+          "name": "The New Yorker",
+          "url": "https://stephen-king-api.onrender.com/api/publication/54"
+        },
         "collectedIn": "The Bazaar of Bad Dreams (2015)",
         "collection": {
           "name": "The Bazaar of Bad Dreams",
@@ -3889,6 +4512,7 @@
         "type": "short story",
         "handle": "drunken-fireworks",
         "originallyPublishedIn": "Drunken Fireworks (June 30, 2015)",
+        "publication": null,
         "collectedIn": "The Bazaar of Bad Dreams (2015)",
         "collection": {
           "name": "The Bazaar of Bad Dreams",
@@ -3908,6 +4532,7 @@
         "type": "short story",
         "handle": "mister-yummy",
         "originallyPublishedIn": "The Bazaar of Bad Dreams (November 2015)",
+        "publication": null,
         "collectedIn": "The Bazaar of Bad Dreams (2015)",
         "collection": {
           "name": "The Bazaar of Bad Dreams",
@@ -3925,6 +4550,7 @@
         "type": "short story",
         "handle": "obits",
         "originallyPublishedIn": "The Bazaar of Bad Dreams (November 2015)",
+        "publication": null,
         "collectedIn": "The Bazaar of Bad Dreams (2015)",
         "collection": {
           "name": "The Bazaar of Bad Dreams",
@@ -3944,6 +4570,10 @@
         "type": "short story",
         "handle": "cookie-jar",
         "originallyPublishedIn": "Virginia Quarterly Review (Spring 2016)",
+        "publication": {
+          "name": "Virginia Quarterly Review",
+          "url": "https://stephen-king-api.onrender.com/api/publication/82"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -3960,6 +4590,10 @@
         "type": "short story",
         "handle": "the-music-room",
         "originallyPublishedIn": "Playboy (December 2016)",
+        "publication": {
+          "name": "Playboy",
+          "url": "https://stephen-king-api.onrender.com/api/publication/32"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -3976,6 +4610,7 @@
         "type": "novella",
         "handle": "gwendy-s-button-box",
         "originallyPublishedIn": "Gwendy's Button Box (May 2017)",
+        "publication": null,
         "collectedIn": "Uncollected (standalone book)",
         "collection": null,
         "notes": [
@@ -4026,6 +4661,10 @@
         "type": "play",
         "handle": "thin-scenery",
         "originallyPublishedIn": "Ploughshares (Summer 2017)",
+        "publication": {
+          "name": "Ploughshares",
+          "url": "https://stephen-king-api.onrender.com/api/publication/83"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [],
@@ -4040,6 +4679,10 @@
         "type": "short story",
         "handle": "laurie",
         "originallyPublishedIn": "stephenking.com (May 17, 2018)",
+        "publication": {
+          "name": "stephenking.com",
+          "url": "https://stephen-king-api.onrender.com/api/publication/64"
+        },
         "collectedIn": "You Like It Darker (2024)",
         "collection": {
           "name": "You Like It Darker",
@@ -4065,6 +4708,7 @@
         "type": "novella",
         "handle": "elevation",
         "originallyPublishedIn": "Elevation (October 2018)",
+        "publication": null,
         "collectedIn": "Uncollected (standalone book)",
         "collection": null,
         "notes": [],
@@ -4088,6 +4732,10 @@
         "type": "short story",
         "handle": "the-turbulence-expert",
         "originallyPublishedIn": "Flight or Fright (September 4, 2018)",
+        "publication": {
+          "name": "Flight or Fright",
+          "url": "https://stephen-king-api.onrender.com/api/publication/84"
+        },
         "collectedIn": "You Like It Darker (2024)",
         "collection": {
           "name": "You Like It Darker",
@@ -4105,6 +4753,10 @@
         "type": "short story",
         "handle": "squad-d",
         "originallyPublishedIn": "Shivers VIII  (April 18, 2019)",
+        "publication": {
+          "name": "Shivers",
+          "url": "https://stephen-king-api.onrender.com/api/publication/85"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [
@@ -4121,6 +4773,10 @@
         "type": "short story",
         "handle": "the-fifth-step",
         "originallyPublishedIn": "Harper's Magazine (March 2020)",
+        "publication": {
+          "name": "Harper's Magazine",
+          "url": "https://stephen-king-api.onrender.com/api/publication/79"
+        },
         "collectedIn": "You Like It Darker (2024)",
         "collection": {
           "name": "You Like It Darker",
@@ -4138,6 +4794,7 @@
         "type": "novella",
         "handle": "if-it-bleeds",
         "originallyPublishedIn": "If It Bleeds (April 2020)",
+        "publication": null,
         "collectedIn": "If It Bleeds (2020)",
         "collection": {
           "name": "If It Bleeds",
@@ -4162,6 +4819,7 @@
         "type": "novella",
         "handle": "the-life-of-chuck",
         "originallyPublishedIn": "If It Bleeds (April 2020)",
+        "publication": null,
         "collectedIn": "If It Bleeds (2020)",
         "collection": {
           "name": "If It Bleeds",
@@ -4179,6 +4837,7 @@
         "type": "novella",
         "handle": "mr-harrigan-s-phone",
         "originallyPublishedIn": "If It Bleeds (April 2020)",
+        "publication": null,
         "collectedIn": "If It Bleeds (2020)",
         "collection": {
           "name": "If It Bleeds",
@@ -4196,6 +4855,7 @@
         "type": "novella",
         "handle": "rat",
         "originallyPublishedIn": "If It Bleeds (April 2020)",
+        "publication": null,
         "collectedIn": "If It Bleeds (2020)",
         "collection": {
           "name": "If It Bleeds",
@@ -4218,6 +4878,10 @@
         "type": "short story",
         "handle": "on-slide-inn-road",
         "originallyPublishedIn": "Esquire Magazine (October/November 2020)",
+        "publication": {
+          "name": "Esquire",
+          "url": "https://stephen-king-api.onrender.com/api/publication/67"
+        },
         "collectedIn": "You Like It Darker (2024)",
         "collection": {
           "name": "You Like It Darker",
@@ -4235,6 +4899,10 @@
         "type": "short story",
         "handle": "willie-the-weirdo",
         "originallyPublishedIn": "McSweeney's 66 (Spring 2022)",
+        "publication": {
+          "name": "McSweeney's",
+          "url": "https://stephen-king-api.onrender.com/api/publication/74"
+        },
         "collectedIn": "You Like It Darker (2024)",
         "collection": {
           "name": "You Like It Darker",
@@ -4254,6 +4922,10 @@
         "type": "short story",
         "handle": "red-screen",
         "originallyPublishedIn": "Humble Bundle (September 9, 2021)",
+        "publication": {
+          "name": "Humble Bundle",
+          "url": "https://stephen-king-api.onrender.com/api/publication/86"
+        },
         "collectedIn": "You Like It Darker (2024)",
         "collection": {
           "name": "You Like It Darker",
@@ -4273,6 +4945,10 @@
         "type": "short story",
         "handle": "finn",
         "originallyPublishedIn": "Scribd (May 25, 2022)",
+        "publication": {
+          "name": "Scribd",
+          "url": "https://stephen-king-api.onrender.com/api/publication/87"
+        },
         "collectedIn": "You Like It Darker (2024)",
         "collection": {
           "name": "You Like It Darker",
@@ -4292,6 +4968,7 @@
         "type": "novella",
         "handle": "two-talented-bastids",
         "originallyPublishedIn": "You Like It Darker (May 2024)",
+        "publication": null,
         "collectedIn": "You Like It Darker (2024)",
         "collection": {
           "name": "You Like It Darker",
@@ -4318,6 +4995,7 @@
         "type": "novella",
         "handle": "danny-coughlin-s-bad-dream",
         "originallyPublishedIn": "You Like It Darker (May 2024)",
+        "publication": null,
         "collectedIn": "You Like It Darker (2024)",
         "collection": {
           "name": "You Like It Darker",
@@ -4335,6 +5013,7 @@
         "type": "novella",
         "handle": "rattlesnakes",
         "originallyPublishedIn": "You Like It Darker (May 2024)",
+        "publication": null,
         "collectedIn": "You Like It Darker (2024)",
         "collection": {
           "name": "You Like It Darker",
@@ -4363,6 +5042,7 @@
         "type": "novella",
         "handle": "the-dreamers",
         "originallyPublishedIn": "You Like It Darker (May 2024)",
+        "publication": null,
         "collectedIn": "You Like It Darker (2024)",
         "collection": {
           "name": "You Like It Darker",
@@ -4385,6 +5065,7 @@
         "type": "novella",
         "handle": "the-answer-man",
         "originallyPublishedIn": "You Like It Darker (May 2024)",
+        "publication": null,
         "collectedIn": "You Like It Darker (2024)",
         "collection": {
           "name": "You Like It Darker",
@@ -4402,6 +5083,10 @@
         "type": "short story",
         "handle": "the-extra-hour",
         "originallyPublishedIn": "Cemetery Dance #79 (January 2025)",
+        "publication": {
+          "name": "Cemetery Dance",
+          "url": "https://stephen-king-api.onrender.com/api/publication/50"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [],
@@ -4416,6 +5101,7 @@
         "type": "short story",
         "handle": "hansel-and-gretel",
         "originallyPublishedIn": "Hansel and Gretel (September 2025)",
+        "publication": null,
         "collectedIn": "Uncollected (standalone book)",
         "collection": null,
         "notes": [
@@ -4432,6 +5118,10 @@
         "type": "short story",
         "handle": "dinah-s-hat",
         "originallyPublishedIn": "The Atlantic (June 2026)",
+        "publication": {
+          "name": "The Atlantic",
+          "url": "https://stephen-king-api.onrender.com/api/publication/76"
+        },
         "collectedIn": "Uncollected",
         "collection": null,
         "notes": [],

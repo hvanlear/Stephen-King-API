@@ -85,6 +85,36 @@
           "name": "Tommy Erbter",
           "url": "https://stephen-king-api.onrender.com/api/villain/170"
         }
+      ],
+      "places": [
+        {
+          "name": "Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/28"
+        },
+        {
+          "name": "Chamberlain, Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/57"
+        },
+        {
+          "name": "Lewiston, Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/81"
+        },
+        {
+          "name": "Motton, Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/89"
+        },
+        {
+          "name": "Westover, Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/118"
+        },
+        {
+          "name": "The Cavalier Bar",
+          "url": "https://stephen-king-api.onrender.com/api/place/175"
+        },
+        {
+          "name": "Thomas Ewen Consolidated High School",
+          "url": "https://stephen-king-api.onrender.com/api/place/181"
+        }
       ]
     }
   }

@@ -36,11 +36,16 @@ const PATHS = [
   "/api/place/1",
   "/api/place/76",
   "/api/place/170",
-  // Not found (72 was the deleted junk book)
+  // Types: the list, a broad type and a kind
+  "/api/types",
+  "/api/type/2",
+  "/api/type/16",
+  // Not found (72 was the deleted junk book, and type 5 the old "group")
   "/api/book/72",
   "/api/short/9999",
   "/api/villain/9999",
   "/api/place/9999",
+  "/api/type/5",
 ];
 
 function fixtureName(requestPath: string): string {

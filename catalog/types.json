@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "Human",
+    "handle": "human",
+    "parentId": null,
+    "created_at": "2026-10-30T00:54:07.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Vampire",
+    "handle": "vampire",
+    "parentId": null,
+    "created_at": "2026-10-30T00:54:07.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Supernatural being",
+    "handle": "supernatural-being",
+    "parentId": null,
+    "created_at": "2026-10-30T00:54:07.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Alien",
+    "handle": "alien",
+    "parentId": null,
+    "created_at": "2026-10-30T00:54:07.000Z"
+  },
+  {
+    "id": 6,
+    "name": "Machine or object",
+    "handle": "machine-or-object",
+    "parentId": null,
+    "created_at": "2026-10-30T00:54:07.000Z"
+  },
+  {
+    "id": 7,
+    "name": "Ghost",
+    "handle": "ghost",
+    "parentId": null,
+    "created_at": "2026-10-30T00:54:07.000Z"
+  },
+  {
+    "id": 8,
+    "name": "Animal",
+    "handle": "animal",
+    "parentId": null,
+    "created_at": "2026-10-30T00:54:07.000Z"
+  },
+  {
+    "id": 9,
+    "name": "Phoner",
+    "handle": "phoner",
+    "parentId": 1,
+    "created_at": "2026-10-30T00:54:07.000Z"
+  },
+  {
+    "id": 10,
+    "name": "True Knot",
+    "handle": "true-knot",
+    "parentId": 2,
+    "created_at": "2026-10-30T00:54:07.000Z"
+  },
+  {
+    "id": 11,
+    "name": "Type One vampire",
+    "handle": "type-one-vampire",
+    "parentId": 2,
+    "created_at": "2026-10-30T00:54:07.000Z"
+  },
+  {
+    "id": 12,
+    "name": "Demon",
+    "handle": "demon",
+    "parentId": 3,
+    "created_at": "2026-10-30T00:54:07.000Z"
+  },
+  {
+    "id": 13,
+    "name": "Little Bald Doctor",
+    "handle": "little-bald-doctor",
+    "parentId": 3,
+    "created_at": "2026-10-30T00:54:07.000Z"
+  },
+  {
+    "id": 14,
+    "name": "Outsider",
+    "handle": "outsider",
+    "parentId": 3,
+    "created_at": "2026-10-30T00:54:07.000Z"
+  },
+  {
+    "id": 15,
+    "name": "Werewolf",
+    "handle": "werewolf",
+    "parentId": 3,
+    "created_at": "2026-10-30T00:54:07.000Z"
+  },
+  {
+    "id": 16,
+    "name": "North Central Positronics",
+    "handle": "north-central-positronics",
+    "parentId": 6,
+    "created_at": "2026-10-30T00:54:07.000Z"
+  }
+]

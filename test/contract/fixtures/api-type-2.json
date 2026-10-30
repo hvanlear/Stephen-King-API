@@ -1,0 +1,65 @@
+{
+  "path": "/api/type/2",
+  "status": 200,
+  "body": {
+    "data": {
+      "id": 2,
+      "name": "Vampire",
+      "handle": "vampire",
+      "created_at": "2026-10-30T00:54:07.000Z",
+      "parent": null,
+      "types": [
+        {
+          "name": "True Knot",
+          "url": "https://stephen-king-api.onrender.com/api/type/10"
+        },
+        {
+          "name": "Type One vampire",
+          "url": "https://stephen-king-api.onrender.com/api/type/11"
+        }
+      ],
+      "villains": [
+        {
+          "name": "Kurt Barlow",
+          "url": "https://stephen-king-api.onrender.com/api/villain/2"
+        },
+        {
+          "name": "Dandelo",
+          "url": "https://stephen-king-api.onrender.com/api/villain/21"
+        },
+        {
+          "name": "Rose the Hat",
+          "url": "https://stephen-king-api.onrender.com/api/villain/31"
+        },
+        {
+          "name": "Little Sisters",
+          "url": "https://stephen-king-api.onrender.com/api/villain/67"
+        },
+        {
+          "name": "Barry",
+          "url": "https://stephen-king-api.onrender.com/api/villain/121"
+        },
+        {
+          "name": "Crow Daddy",
+          "url": "https://stephen-king-api.onrender.com/api/villain/130"
+        },
+        {
+          "name": "Grampa Flick",
+          "url": "https://stephen-king-api.onrender.com/api/villain/137"
+        },
+        {
+          "name": "Jimmy Numbers",
+          "url": "https://stephen-king-api.onrender.com/api/villain/142"
+        },
+        {
+          "name": "Snakebite Andi",
+          "url": "https://stephen-king-api.onrender.com/api/villain/164"
+        },
+        {
+          "name": "Walnut",
+          "url": "https://stephen-king-api.onrender.com/api/villain/174"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1098 @@
+{
+  "path": "/api/types",
+  "status": 200,
+  "body": {
+    "data": [
+      {
+        "id": 1,
+        "name": "Human",
+        "handle": "human",
+        "created_at": "2026-10-30T00:54:07.000Z",
+        "parent": null,
+        "types": [
+          {
+            "name": "Phoner",
+            "url": "https://stephen-king-api.onrender.com/api/type/9"
+          }
+        ],
+        "villains": [
+          {
+            "name": "Bob Anderson",
+            "url": "https://stephen-king-api.onrender.com/api/villain/1"
+          },
+          {
+            "name": "Tina Blake",
+            "url": "https://stephen-king-api.onrender.com/api/villain/4"
+          },
+          {
+            "name": "Malachai Boardman",
+            "url": "https://stephen-king-api.onrender.com/api/villain/5"
+          },
+          {
+            "name": "James Boon",
+            "url": "https://stephen-king-api.onrender.com/api/villain/6"
+          },
+          {
+            "name": "Henry Bowers",
+            "url": "https://stephen-king-api.onrender.com/api/villain/7"
+          },
+          {
+            "name": "Butch Bowers",
+            "url": "https://stephen-king-api.onrender.com/api/villain/8"
+          },
+          {
+            "name": "Greta Bowie",
+            "url": "https://stephen-king-api.onrender.com/api/villain/9"
+          },
+          {
+            "name": "Marten Broadcloak",
+            "url": "https://stephen-king-api.onrender.com/api/villain/10"
+          },
+          {
+            "name": "Isaac Chroner",
+            "url": "https://stephen-king-api.onrender.com/api/villain/12"
+          },
+          {
+            "name": "Cindi",
+            "url": "https://stephen-king-api.onrender.com/api/villain/14"
+          },
+          {
+            "name": "Myra Crewes",
+            "url": "https://stephen-king-api.onrender.com/api/villain/16"
+          },
+          {
+            "name": "Victor Criss",
+            "url": "https://stephen-king-api.onrender.com/api/villain/18"
+          },
+          {
+            "name": "Arnie Cunningham",
+            "url": "https://stephen-king-api.onrender.com/api/villain/20"
+          },
+          {
+            "name": "Norman Daniels",
+            "url": "https://stephen-king-api.onrender.com/api/villain/22"
+          },
+          {
+            "name": "Susan Day",
+            "url": "https://stephen-king-api.onrender.com/api/villain/23"
+          },
+          {
+            "name": "Cordelia Delgado",
+            "url": "https://stephen-king-api.onrender.com/api/villain/24"
+          },
+          {
+            "name": "Billy deLois",
+            "url": "https://stephen-king-api.onrender.com/api/villain/25"
+          },
+          {
+            "name": "Bogs Diamond",
+            "url": "https://stephen-king-api.onrender.com/api/villain/28"
+          },
+          {
+            "name": "Frank Dodd",
+            "url": "https://stephen-king-api.onrender.com/api/villain/29"
+          },
+          {
+            "name": "Henrietta Dodd",
+            "url": "https://stephen-king-api.onrender.com/api/villain/30"
+          },
+          {
+            "name": "Rhea Dubativo",
+            "url": "https://stephen-king-api.onrender.com/api/villain/32"
+          },
+          {
+            "name": "Kurt Dussander",
+            "url": "https://stephen-king-api.onrender.com/api/villain/33"
+          },
+          {
+            "name": "Donald Merwin Elbert",
+            "url": "https://stephen-king-api.onrender.com/api/villain/34"
+          },
+          {
+            "name": "Marcia Fadden",
+            "url": "https://stephen-king-api.onrender.com/api/villain/35"
+          },
+          {
+            "name": "John Farson",
+            "url": "https://stephen-king-api.onrender.com/api/villain/36"
+          },
+          {
+            "name": "Kenny Garson",
+            "url": "https://stephen-king-api.onrender.com/api/villain/38"
+          },
+          {
+            "name": "John Garton",
+            "url": "https://stephen-king-api.onrender.com/api/villain/39"
+          },
+          {
+            "name": "Gerald Burlingame",
+            "url": "https://stephen-king-api.onrender.com/api/villain/41"
+          },
+          {
+            "name": "The Gladiators",
+            "url": "https://stephen-king-api.onrender.com/api/villain/42"
+          },
+          {
+            "name": "Peter Gordon",
+            "url": "https://stephen-king-api.onrender.com/api/villain/43"
+          },
+          {
+            "name": "Mary Lila Grace",
+            "url": "https://stephen-king-api.onrender.com/api/villain/44"
+          },
+          {
+            "name": "Byron Hadley",
+            "url": "https://stephen-king-api.onrender.com/api/villain/46"
+          },
+          {
+            "name": "John Halston",
+            "url": "https://stephen-king-api.onrender.com/api/villain/47"
+          },
+          {
+            "name": "Lane Hardy",
+            "url": "https://stephen-king-api.onrender.com/api/villain/48"
+          },
+          {
+            "name": "Christine Hargensen",
+            "url": "https://stephen-king-api.onrender.com/api/villain/49"
+          },
+          {
+            "name": "Brady Hartsfield",
+            "url": "https://stephen-king-api.onrender.com/api/villain/50"
+          },
+          {
+            "name": "Lloyd Henreid",
+            "url": "https://stephen-king-api.onrender.com/api/villain/51"
+          },
+          {
+            "name": "Gladys Hickson",
+            "url": "https://stephen-king-api.onrender.com/api/villain/52"
+          },
+          {
+            "name": "Patrick Hockstetter",
+            "url": "https://stephen-king-api.onrender.com/api/villain/53"
+          },
+          {
+            "name": "James Hollister",
+            "url": "https://stephen-king-api.onrender.com/api/villain/54"
+          },
+          {
+            "name": "Belch Huggins",
+            "url": "https://stephen-king-api.onrender.com/api/villain/55"
+          },
+          {
+            "name": "Ross Humboldt",
+            "url": "https://stephen-king-api.onrender.com/api/villain/56"
+          },
+          {
+            "name": "Henry James",
+            "url": "https://stephen-king-api.onrender.com/api/villain/58"
+          },
+          {
+            "name": "Wilfred James",
+            "url": "https://stephen-king-api.onrender.com/api/villain/59"
+          },
+          {
+            "name": "Eldred Jonas",
+            "url": "https://stephen-king-api.onrender.com/api/villain/60"
+          },
+          {
+            "name": "Raymond Andrew Joubert",
+            "url": "https://stephen-king-api.onrender.com/api/villain/61"
+          },
+          {
+            "name": "The Kid",
+            "url": "https://stephen-king-api.onrender.com/api/villain/62"
+          },
+          {
+            "name": "Damon Killian",
+            "url": "https://stephen-king-api.onrender.com/api/villain/63"
+          },
+          {
+            "name": "Harold Lauder",
+            "url": "https://stephen-king-api.onrender.com/api/villain/64"
+          },
+          {
+            "name": "Richard Lawson",
+            "url": "https://stephen-king-api.onrender.com/api/villain/65"
+          },
+          {
+            "name": "Brian Lippy",
+            "url": "https://stephen-king-api.onrender.com/api/villain/66"
+          },
+          {
+            "name": "Richard P. Macklin",
+            "url": "https://stephen-king-api.onrender.com/api/villain/69"
+          },
+          {
+            "name": "The Major",
+            "url": "https://stephen-king-api.onrender.com/api/villain/70"
+          },
+          {
+            "name": "Malcolm Janus",
+            "url": "https://stephen-king-api.onrender.com/api/villain/71"
+          },
+          {
+            "name": "Alvin Marsh",
+            "url": "https://stephen-king-api.onrender.com/api/villain/72"
+          },
+          {
+            "name": "Charlie McGee",
+            "url": "https://stephen-king-api.onrender.com/api/villain/73"
+          },
+          {
+            "name": "John \"Ace\" Merrill",
+            "url": "https://stephen-king-api.onrender.com/api/villain/74"
+          },
+          {
+            "name": "Vic Mooney",
+            "url": "https://stephen-king-api.onrender.com/api/villain/75"
+          },
+          {
+            "name": "Jack Mort",
+            "url": "https://stephen-king-api.onrender.com/api/villain/76"
+          },
+          {
+            "name": "The Mortimer Snerds",
+            "url": "https://stephen-king-api.onrender.com/api/villain/77"
+          },
+          {
+            "name": "Sally Mueller",
+            "url": "https://stephen-king-api.onrender.com/api/villain/79"
+          },
+          {
+            "name": "Billy Nolan",
+            "url": "https://stephen-king-api.onrender.com/api/villain/80"
+          },
+          {
+            "name": "Samuel Norton",
+            "url": "https://stephen-king-api.onrender.com/api/villain/81"
+          },
+          {
+            "name": "Victor Pascow",
+            "url": "https://stephen-king-api.onrender.com/api/villain/83"
+          },
+          {
+            "name": "Sylvia Pittston",
+            "url": "https://stephen-king-api.onrender.com/api/villain/84"
+          },
+          {
+            "name": "The Raggedy Man",
+            "url": "https://stephen-king-api.onrender.com/api/villain/85"
+          },
+          {
+            "name": "John Rainbird",
+            "url": "https://stephen-king-api.onrender.com/api/villain/86"
+          },
+          {
+            "name": "Rat Man",
+            "url": "https://stephen-king-api.onrender.com/api/villain/87"
+          },
+          {
+            "name": "Jim Rennie, Jr.",
+            "url": "https://stephen-king-api.onrender.com/api/villain/88"
+          },
+          {
+            "name": "Jim Rennie",
+            "url": "https://stephen-king-api.onrender.com/api/villain/89"
+          },
+          {
+            "name": "Elenor Richmond",
+            "url": "https://stephen-king-api.onrender.com/api/villain/90"
+          },
+          {
+            "name": "Tom Rogan",
+            "url": "https://stephen-king-api.onrender.com/api/villain/91"
+          },
+          {
+            "name": "Sonny Elliman",
+            "url": "https://stephen-king-api.onrender.com/api/villain/93"
+          },
+          {
+            "name": "Rachel Spies",
+            "url": "https://stephen-king-api.onrender.com/api/villain/94"
+          },
+          {
+            "name": "Joe St. George",
+            "url": "https://stephen-king-api.onrender.com/api/villain/95"
+          },
+          {
+            "name": "George Stark",
+            "url": "https://stephen-king-api.onrender.com/api/villain/96"
+          },
+          {
+            "name": "Greg Stillson",
+            "url": "https://stephen-king-api.onrender.com/api/villain/97"
+          },
+          {
+            "name": "Richard Straker",
+            "url": "https://stephen-king-api.onrender.com/api/villain/98"
+          },
+          {
+            "name": "Jackie Talbot",
+            "url": "https://stephen-king-api.onrender.com/api/villain/99"
+          },
+          {
+            "name": "The Devil's Dozen",
+            "url": "https://stephen-king-api.onrender.com/api/villain/100"
+          },
+          {
+            "name": "Carter Thibodeau",
+            "url": "https://stephen-king-api.onrender.com/api/villain/101"
+          },
+          {
+            "name": "Donna and Mary Lila Grace Thibodeau",
+            "url": "https://stephen-king-api.onrender.com/api/villain/102"
+          },
+          {
+            "name": "Tom Mahout",
+            "url": "https://stephen-king-api.onrender.com/api/villain/103"
+          },
+          {
+            "name": "Craig Toomey",
+            "url": "https://stephen-king-api.onrender.com/api/villain/105"
+          },
+          {
+            "name": "Jack Torrance",
+            "url": "https://stephen-king-api.onrender.com/api/villain/106"
+          },
+          {
+            "name": "Christopher Unwin",
+            "url": "https://stephen-king-api.onrender.com/api/villain/107"
+          },
+          {
+            "name": "Jessica Upshaw",
+            "url": "https://stephen-king-api.onrender.com/api/villain/108"
+          },
+          {
+            "name": "Norma Watson",
+            "url": "https://stephen-king-api.onrender.com/api/villain/109"
+          },
+          {
+            "name": "Percy Wetmore",
+            "url": "https://stephen-king-api.onrender.com/api/villain/111"
+          },
+          {
+            "name": "William Wharton",
+            "url": "https://stephen-king-api.onrender.com/api/villain/112"
+          },
+          {
+            "name": "Margaret White",
+            "url": "https://stephen-king-api.onrender.com/api/villain/113"
+          },
+          {
+            "name": "Annie Wilkes",
+            "url": "https://stephen-king-api.onrender.com/api/villain/114"
+          },
+          {
+            "name": "Tim Youngblood",
+            "url": "https://stephen-king-api.onrender.com/api/villain/115"
+          },
+          {
+            "name": "Al Bradley",
+            "url": "https://stephen-king-api.onrender.com/api/villain/116"
+          },
+          {
+            "name": "Andrew Freeman",
+            "url": "https://stephen-king-api.onrender.com/api/villain/117"
+          },
+          {
+            "name": "Andrew Halliday",
+            "url": "https://stephen-king-api.onrender.com/api/villain/118"
+          },
+          {
+            "name": "Bern Kells",
+            "url": "https://stephen-king-api.onrender.com/api/villain/122"
+          },
+          {
+            "name": "Billy Tessio",
+            "url": "https://stephen-king-api.onrender.com/api/villain/123"
+          },
+          {
+            "name": "Buddy Repperton",
+            "url": "https://stephen-king-api.onrender.com/api/villain/125"
+          },
+          {
+            "name": "Charlie Hogan",
+            "url": "https://stephen-king-api.onrender.com/api/villain/126"
+          },
+          {
+            "name": "Clay Reynolds",
+            "url": "https://stephen-king-api.onrender.com/api/villain/128"
+          },
+          {
+            "name": "Collie Entragian",
+            "url": "https://stephen-king-api.onrender.com/api/villain/129"
+          },
+          {
+            "name": "Dr. Hendricks",
+            "url": "https://stephen-king-api.onrender.com/api/villain/132"
+          },
+          {
+            "name": "Emily Harris",
+            "url": "https://stephen-king-api.onrender.com/api/villain/133"
+          },
+          {
+            "name": "Frank Dunning",
+            "url": "https://stephen-king-api.onrender.com/api/villain/134"
+          },
+          {
+            "name": "Frankie Stone",
+            "url": "https://stephen-king-api.onrender.com/api/villain/135"
+          },
+          {
+            "name": "George Bradley",
+            "url": "https://stephen-king-api.onrender.com/api/villain/136"
+          },
+          {
+            "name": "Harley Bissington",
+            "url": "https://stephen-king-api.onrender.com/api/villain/138"
+          },
+          {
+            "name": "Jenny Engstrom",
+            "url": "https://stephen-king-api.onrender.com/api/villain/140"
+          },
+          {
+            "name": "Jim Pickering",
+            "url": "https://stephen-king-api.onrender.com/api/villain/141"
+          },
+          {
+            "name": "Joe Brinks",
+            "url": "https://stephen-king-api.onrender.com/api/villain/143"
+          },
+          {
+            "name": "John Shooter",
+            "url": "https://stephen-king-api.onrender.com/api/villain/144"
+          },
+          {
+            "name": "Julia Sigsby",
+            "url": "https://stephen-king-api.onrender.com/api/villain/145"
+          },
+          {
+            "name": "Julie Lawry",
+            "url": "https://stephen-king-api.onrender.com/api/villain/146"
+          },
+          {
+            "name": "Lee",
+            "url": "https://stephen-king-api.onrender.com/api/villain/148"
+          },
+          {
+            "name": "Maine Legion of White Decency",
+            "url": "https://stephen-king-api.onrender.com/api/villain/149"
+          },
+          {
+            "name": "Marc Lamonica",
+            "url": "https://stephen-king-api.onrender.com/api/villain/150"
+          },
+          {
+            "name": "Milo Pressman",
+            "url": "https://stephen-king-api.onrender.com/api/villain/151"
+          },
+          {
+            "name": "Moochie Welch",
+            "url": "https://stephen-king-api.onrender.com/api/villain/153"
+          },
+          {
+            "name": "Morgan Sloat",
+            "url": "https://stephen-king-api.onrender.com/api/villain/154"
+          },
+          {
+            "name": "Morris Bellamy",
+            "url": "https://stephen-king-api.onrender.com/api/villain/155"
+          },
+          {
+            "name": "Mrs. Carmody",
+            "url": "https://stephen-king-api.onrender.com/api/villain/157"
+          },
+          {
+            "name": "Norman Bracowicz",
+            "url": "https://stephen-king-api.onrender.com/api/villain/158"
+          },
+          {
+            "name": "Priscilla (The Institute)",
+            "url": "https://stephen-king-api.onrender.com/api/villain/159"
+          },
+          {
+            "name": "Richard Chambers",
+            "url": "https://stephen-king-api.onrender.com/api/villain/160"
+          },
+          {
+            "name": "Rodney Harris",
+            "url": "https://stephen-king-api.onrender.com/api/villain/161"
+          },
+          {
+            "name": "Roy Depape",
+            "url": "https://stephen-king-api.onrender.com/api/villain/163"
+          },
+          {
+            "name": "The Children",
+            "url": "https://stephen-king-api.onrender.com/api/villain/166"
+          },
+          {
+            "name": "Todd Bowden",
+            "url": "https://stephen-king-api.onrender.com/api/villain/169"
+          },
+          {
+            "name": "Tommy Erbter",
+            "url": "https://stephen-king-api.onrender.com/api/villain/170"
+          },
+          {
+            "name": "Tony Fizzale",
+            "url": "https://stephen-king-api.onrender.com/api/villain/171"
+          },
+          {
+            "name": "Trevor Stackhouse",
+            "url": "https://stephen-king-api.onrender.com/api/villain/172"
+          },
+          {
+            "name": "Vince Desjardins",
+            "url": "https://stephen-king-api.onrender.com/api/villain/173"
+          },
+          {
+            "name": "Winona Briggs",
+            "url": "https://stephen-king-api.onrender.com/api/villain/175"
+          },
+          {
+            "name": "Zeke Ionidis",
+            "url": "https://stephen-king-api.onrender.com/api/villain/176"
+          },
+          {
+            "name": "Ben Slightman",
+            "url": "https://stephen-king-api.onrender.com/api/villain/178"
+          },
+          {
+            "name": "Charlie Decker",
+            "url": "https://stephen-king-api.onrender.com/api/villain/179"
+          },
+          {
+            "name": "Don Peters",
+            "url": "https://stephen-king-api.onrender.com/api/villain/180"
+          },
+          {
+            "name": "Eric Blass",
+            "url": "https://stephen-king-api.onrender.com/api/villain/181"
+          },
+          {
+            "name": "Frank Geary",
+            "url": "https://stephen-king-api.onrender.com/api/villain/183"
+          },
+          {
+            "name": "Gareth Winston",
+            "url": "https://stephen-king-api.onrender.com/api/villain/184"
+          },
+          {
+            "name": "Jim Dooley",
+            "url": "https://stephen-king-api.onrender.com/api/villain/187"
+          },
+          {
+            "name": "Liz Dutton",
+            "url": "https://stephen-king-api.onrender.com/api/villain/189"
+          },
+          {
+            "name": "Max Devore",
+            "url": "https://stephen-king-api.onrender.com/api/villain/191"
+          },
+          {
+            "name": "Nick Majarian",
+            "url": "https://stephen-king-api.onrender.com/api/villain/192"
+          },
+          {
+            "name": "Roger Klerke",
+            "url": "https://stephen-king-api.onrender.com/api/villain/194"
+          },
+          {
+            "name": "Rogette Whitmore",
+            "url": "https://stephen-king-api.onrender.com/api/villain/195"
+          },
+          {
+            "name": "Taduz Lemke",
+            "url": "https://stephen-king-api.onrender.com/api/villain/197"
+          },
+          {
+            "name": "Terry Coombs",
+            "url": "https://stephen-king-api.onrender.com/api/villain/198"
+          },
+          {
+            "name": "The Hitler Brothers",
+            "url": "https://stephen-king-api.onrender.com/api/villain/199"
+          },
+          {
+            "name": "Nadine Cross",
+            "url": "https://stephen-king-api.onrender.com/api/villain/201"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Vampire",
+        "handle": "vampire",
+        "created_at": "2026-10-30T00:54:07.000Z",
+        "parent": null,
+        "types": [
+          {
+            "name": "True Knot",
+            "url": "https://stephen-king-api.onrender.com/api/type/10"
+          },
+          {
+            "name": "Type One vampire",
+            "url": "https://stephen-king-api.onrender.com/api/type/11"
+          }
+        ],
+        "villains": [
+          {
+            "name": "Kurt Barlow",
+            "url": "https://stephen-king-api.onrender.com/api/villain/2"
+          },
+          {
+            "name": "Dandelo",
+            "url": "https://stephen-king-api.onrender.com/api/villain/21"
+          },
+          {
+            "name": "Rose the Hat",
+            "url": "https://stephen-king-api.onrender.com/api/villain/31"
+          },
+          {
+            "name": "Little Sisters",
+            "url": "https://stephen-king-api.onrender.com/api/villain/67"
+          },
+          {
+            "name": "Barry",
+            "url": "https://stephen-king-api.onrender.com/api/villain/121"
+          },
+          {
+            "name": "Crow Daddy",
+            "url": "https://stephen-king-api.onrender.com/api/villain/130"
+          },
+          {
+            "name": "Grampa Flick",
+            "url": "https://stephen-king-api.onrender.com/api/villain/137"
+          },
+          {
+            "name": "Jimmy Numbers",
+            "url": "https://stephen-king-api.onrender.com/api/villain/142"
+          },
+          {
+            "name": "Snakebite Andi",
+            "url": "https://stephen-king-api.onrender.com/api/villain/164"
+          },
+          {
+            "name": "Walnut",
+            "url": "https://stephen-king-api.onrender.com/api/villain/174"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Supernatural being",
+        "handle": "supernatural-being",
+        "created_at": "2026-10-30T00:54:07.000Z",
+        "parent": null,
+        "types": [
+          {
+            "name": "Demon",
+            "url": "https://stephen-king-api.onrender.com/api/type/12"
+          },
+          {
+            "name": "Little Bald Doctor",
+            "url": "https://stephen-king-api.onrender.com/api/type/13"
+          },
+          {
+            "name": "Outsider",
+            "url": "https://stephen-king-api.onrender.com/api/type/14"
+          },
+          {
+            "name": "Werewolf",
+            "url": "https://stephen-king-api.onrender.com/api/type/15"
+          }
+        ],
+        "villains": [
+          {
+            "name": "Gage Creed",
+            "url": "https://stephen-king-api.onrender.com/api/villain/15"
+          },
+          {
+            "name": "Crimson King",
+            "url": "https://stephen-king-api.onrender.com/api/villain/17"
+          },
+          {
+            "name": "Mordred Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/villain/27"
+          },
+          {
+            "name": "Randall Flagg",
+            "url": "https://stephen-king-api.onrender.com/api/villain/37"
+          },
+          {
+            "name": "Leland Gaunt",
+            "url": "https://stephen-king-api.onrender.com/api/villain/40"
+          },
+          {
+            "name": "Lester Lowe",
+            "url": "https://stephen-king-api.onrender.com/api/villain/68"
+          },
+          {
+            "name": "Mother of the Null",
+            "url": "https://stephen-king-api.onrender.com/api/villain/78"
+          },
+          {
+            "name": "The Outsider (Creature)",
+            "url": "https://stephen-king-api.onrender.com/api/villain/82"
+          },
+          {
+            "name": "Wendigo",
+            "url": "https://stephen-king-api.onrender.com/api/villain/110"
+          },
+          {
+            "name": "Ardelia Lortz",
+            "url": "https://stephen-king-api.onrender.com/api/villain/119"
+          },
+          {
+            "name": "Atropos",
+            "url": "https://stephen-king-api.onrender.com/api/villain/120"
+          },
+          {
+            "name": "Boogeyman",
+            "url": "https://stephen-king-api.onrender.com/api/villain/124"
+          },
+          {
+            "name": "Chet Ondowsky",
+            "url": "https://stephen-king-api.onrender.com/api/villain/127"
+          },
+          {
+            "name": "Cthun",
+            "url": "https://stephen-king-api.onrender.com/api/villain/131"
+          },
+          {
+            "name": "He Who Walks Behind the Rows",
+            "url": "https://stephen-king-api.onrender.com/api/villain/139"
+          },
+          {
+            "name": "Langoliers",
+            "url": "https://stephen-king-api.onrender.com/api/villain/147"
+          },
+          {
+            "name": "Tak",
+            "url": "https://stephen-king-api.onrender.com/api/villain/165"
+          },
+          {
+            "name": "The Mist (phenomenon)",
+            "url": "https://stephen-king-api.onrender.com/api/villain/168"
+          },
+          {
+            "name": "Flight Killer",
+            "url": "https://stephen-king-api.onrender.com/api/villain/182"
+          },
+          {
+            "name": "God of the Lost",
+            "url": "https://stephen-king-api.onrender.com/api/villain/185"
+          },
+          {
+            "name": "Gogmagog",
+            "url": "https://stephen-king-api.onrender.com/api/villain/186"
+          },
+          {
+            "name": "Long Boy",
+            "url": "https://stephen-king-api.onrender.com/api/villain/190"
+          },
+          {
+            "name": "Perse",
+            "url": "https://stephen-king-api.onrender.com/api/villain/193"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Alien",
+        "handle": "alien",
+        "created_at": "2026-10-30T00:54:07.000Z",
+        "parent": null,
+        "types": [],
+        "villains": [
+          {
+            "name": "It (Creature)",
+            "url": "https://stephen-king-api.onrender.com/api/villain/57"
+          },
+          {
+            "name": "Tommyknockers",
+            "url": "https://stephen-king-api.onrender.com/api/villain/104"
+          },
+          {
+            "name": "Mr. Gray",
+            "url": "https://stephen-king-api.onrender.com/api/villain/156"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Machine or object",
+        "handle": "machine-or-object",
+        "created_at": "2026-10-30T00:54:07.000Z",
+        "parent": null,
+        "types": [
+          {
+            "name": "North Central Positronics",
+            "url": "https://stephen-king-api.onrender.com/api/type/16"
+          }
+        ],
+        "villains": [
+          {
+            "name": "Blaine the Mono",
+            "url": "https://stephen-king-api.onrender.com/api/villain/3"
+          },
+          {
+            "name": "Christine (car)",
+            "url": "https://stephen-king-api.onrender.com/api/villain/11"
+          },
+          {
+            "name": "Monkey",
+            "url": "https://stephen-king-api.onrender.com/api/villain/152"
+          },
+          {
+            "name": "The Mangler (character)",
+            "url": "https://stephen-king-api.onrender.com/api/villain/167"
+          },
+          {
+            "name": "Andy",
+            "url": "https://stephen-king-api.onrender.com/api/villain/177"
+          },
+          {
+            "name": "Wolves of Thunderclap",
+            "url": "https://stephen-king-api.onrender.com/api/villain/200"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Ghost",
+        "handle": "ghost",
+        "created_at": "2026-10-30T00:54:07.000Z",
+        "parent": null,
+        "types": [],
+        "villains": [
+          {
+            "name": "Horace M. Derwent",
+            "url": "https://stephen-king-api.onrender.com/api/villain/26"
+          },
+          {
+            "name": "Delbert Grady",
+            "url": "https://stephen-king-api.onrender.com/api/villain/45"
+          },
+          {
+            "name": "Roger the Dog Man",
+            "url": "https://stephen-king-api.onrender.com/api/villain/162"
+          },
+          {
+            "name": "Kenneth Therriault",
+            "url": "https://stephen-king-api.onrender.com/api/villain/188"
+          },
+          {
+            "name": "Sara Tidwell",
+            "url": "https://stephen-king-api.onrender.com/api/villain/196"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Animal",
+        "handle": "animal",
+        "created_at": "2026-10-30T00:54:07.000Z",
+        "parent": null,
+        "types": [],
+        "villains": [
+          {
+            "name": "Winston Church",
+            "url": "https://stephen-king-api.onrender.com/api/villain/13"
+          },
+          {
+            "name": "Cujo",
+            "url": "https://stephen-king-api.onrender.com/api/villain/19"
+          },
+          {
+            "name": "Sam (cat)",
+            "url": "https://stephen-king-api.onrender.com/api/villain/92"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Phoner",
+        "handle": "phoner",
+        "created_at": "2026-10-30T00:54:07.000Z",
+        "parent": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "types": [],
+        "villains": [
+          {
+            "name": "The Raggedy Man",
+            "url": "https://stephen-king-api.onrender.com/api/villain/85"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "True Knot",
+        "handle": "true-knot",
+        "created_at": "2026-10-30T00:54:07.000Z",
+        "parent": {
+          "name": "Vampire",
+          "url": "https://stephen-king-api.onrender.com/api/type/2"
+        },
+        "types": [],
+        "villains": [
+          {
+            "name": "Rose the Hat",
+            "url": "https://stephen-king-api.onrender.com/api/villain/31"
+          },
+          {
+            "name": "Barry",
+            "url": "https://stephen-king-api.onrender.com/api/villain/121"
+          },
+          {
+            "name": "Crow Daddy",
+            "url": "https://stephen-king-api.onrender.com/api/villain/130"
+          },
+          {
+            "name": "Grampa Flick",
+            "url": "https://stephen-king-api.onrender.com/api/villain/137"
+          },
+          {
+            "name": "Jimmy Numbers",
+            "url": "https://stephen-king-api.onrender.com/api/villain/142"
+          },
+          {
+            "name": "Snakebite Andi",
+            "url": "https://stephen-king-api.onrender.com/api/villain/164"
+          },
+          {
+            "name": "Walnut",
+            "url": "https://stephen-king-api.onrender.com/api/villain/174"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Type One vampire",
+        "handle": "type-one-vampire",
+        "created_at": "2026-10-30T00:54:07.000Z",
+        "parent": {
+          "name": "Vampire",
+          "url": "https://stephen-king-api.onrender.com/api/type/2"
+        },
+        "types": [],
+        "villains": [
+          {
+            "name": "Kurt Barlow",
+            "url": "https://stephen-king-api.onrender.com/api/villain/2"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Demon",
+        "handle": "demon",
+        "created_at": "2026-10-30T00:54:07.000Z",
+        "parent": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "types": [],
+        "villains": [
+          {
+            "name": "Leland Gaunt",
+            "url": "https://stephen-king-api.onrender.com/api/villain/40"
+          },
+          {
+            "name": "Ardelia Lortz",
+            "url": "https://stephen-king-api.onrender.com/api/villain/119"
+          },
+          {
+            "name": "He Who Walks Behind the Rows",
+            "url": "https://stephen-king-api.onrender.com/api/villain/139"
+          },
+          {
+            "name": "Tak",
+            "url": "https://stephen-king-api.onrender.com/api/villain/165"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Little Bald Doctor",
+        "handle": "little-bald-doctor",
+        "created_at": "2026-10-30T00:54:07.000Z",
+        "parent": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "types": [],
+        "villains": [
+          {
+            "name": "Atropos",
+            "url": "https://stephen-king-api.onrender.com/api/villain/120"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Outsider",
+        "handle": "outsider",
+        "created_at": "2026-10-30T00:54:07.000Z",
+        "parent": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "types": [],
+        "villains": [
+          {
+            "name": "The Outsider (Creature)",
+            "url": "https://stephen-king-api.onrender.com/api/villain/82"
+          },
+          {
+            "name": "Chet Ondowsky",
+            "url": "https://stephen-king-api.onrender.com/api/villain/127"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Werewolf",
+        "handle": "werewolf",
+        "created_at": "2026-10-30T00:54:07.000Z",
+        "parent": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "types": [],
+        "villains": [
+          {
+            "name": "Lester Lowe",
+            "url": "https://stephen-king-api.onrender.com/api/villain/68"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "North Central Positronics",
+        "handle": "north-central-positronics",
+        "created_at": "2026-10-30T00:54:07.000Z",
+        "parent": {
+          "name": "Machine or object",
+          "url": "https://stephen-king-api.onrender.com/api/type/6"
+        },
+        "types": [],
+        "villains": [
+          {
+            "name": "Blaine the Mono",
+            "url": "https://stephen-king-api.onrender.com/api/villain/3"
+          },
+          {
+            "name": "Andy",
+            "url": "https://stephen-king-api.onrender.com/api/villain/177"
+          }
+        ]
+      }
+    ]
+  }
+}

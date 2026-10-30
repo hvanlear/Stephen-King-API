@@ -8,6 +8,7 @@
       "gender": "Male",
       "status": "Alive",
       "types_id": 1,
+      "group": false,
       "notes": [
         "Stubs",
         "Characters",
@@ -20,7 +21,13 @@
           "title": "Rita Hayworth and Shawshank Redemption",
           "url": "https://stephen-king-api.onrender.com/api/short/86"
         }
-      ]
+      ],
+      "residence": [],
+      "type": {
+        "name": "Human",
+        "url": "https://stephen-king-api.onrender.com/api/type/1"
+      },
+      "kinds": []
     }
   }
 }

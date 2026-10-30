@@ -1,0 +1,7 @@
+{
+  "path": "/api/type/5",
+  "status": 404,
+  "body": {
+    "error": "Type not found"
+  }
+}

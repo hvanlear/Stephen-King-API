@@ -40,12 +40,13 @@ const PATHS = [
   "/api/types",
   "/api/type/2",
   "/api/type/16",
-  // Collections: the list, a short last page, the first, and one that's also
-  // a book
+  // Collections: the list, a short last page, the first and last, and one
+  // that's also a book
   "/api/collections",
   "/api/collections?page=2&limit=10",
   "/api/collection/1",
   "/api/collection/2",
+  "/api/collection/18",
   "/api/book/12",
   // Not found (72 was the deleted junk book, type 5 the old "group", and
   // collection 16 the old Uncollected)

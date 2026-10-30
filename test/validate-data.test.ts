@@ -198,15 +198,16 @@ describe("validate-data", () => {
 
   it("lets a retired collection id disappear, but not come back", () => {
     const base = loadCatalog();
-    base["collections.json"].push({ ...base["collections.json"][0], id: 16, name: "Uncollected", handle: "uncollected" });
+    const uncollected = { ...base["collections.json"][0], id: 16, name: "Uncollected", handle: "uncollected" };
+    base["collections.json"].push(uncollected);
     assert.deepEqual(errorsAfter(() => {}, base), []);
-    const errors = errorsAfter((c) => c["collections.json"].push({ ...base["collections.json"][15] }));
+    const errors = errorsAfter((c) => c["collections.json"].push(uncollected));
     assertFlags(errors, /collection 16 \("Uncollected"\): id 16 is retired and can't be reused$/);
   });
 
   it("flags a collection removed since the base", () => {
     const errors = errorsAfter((c) => c["collections.json"].pop(), loadCatalog());
-    assertFlags(errors, /collection 15 \("You Like It Darker"\) was removed; ids must never disappear/);
+    assertFlags(errors, /collection 18 \("People, Places and Things"\) was removed; ids must never disappear/);
   });
 
   it("allows new records with new ids", () => {

@@ -48,6 +48,12 @@ const PATHS = [
   "/api/collection/2",
   "/api/collection/18",
   "/api/book/12",
+  // Publications: the list, a short last page, the biggest, and an anthology
+  // series that holds two volumes
+  "/api/publications",
+  "/api/publications?page=2&limit=50",
+  "/api/publication/7",
+  "/api/publication/20",
   // Not found (72 was the deleted junk book, type 5 the old "group", and
   // collection 16 the old Uncollected)
   "/api/book/72",
@@ -57,6 +63,7 @@ const PATHS = [
   "/api/type/5",
   "/api/collection/16",
   "/api/collection/9999",
+  "/api/publication/9999",
 ];
 
 function fixtureName(requestPath: string): string {

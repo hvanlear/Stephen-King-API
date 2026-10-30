@@ -5,12 +5,14 @@ import {
   Place,
   Type,
   Collection,
+  Publication,
   books,
   shorts,
   villains,
   places,
   types,
   collections,
+  publications,
   villainIdsByBook,
   villainIdsByShort,
   bookIdsByVillain,
@@ -29,6 +31,8 @@ import {
   collectionIdByShort,
   collectionIdByBook,
   bookIdByCollection,
+  shortIdsByPublication,
+  publicationIdByShort,
 } from "../catalog";
 import config from "../config";
 
@@ -40,6 +44,7 @@ const shortTitles = new Map(shorts.map((s) => [s.id, s.title]));
 const placeNames = new Map(places.map((p) => [p.id, p.name]));
 const typeNames = new Map(types.map((t) => [t.id, t.name]));
 const collectionNames = new Map(collections.map((c) => [c.id, c.name]));
+const publicationNames = new Map(publications.map((p) => [p.id, p.name]));
 
 const villainLinks = (ids: number[] = []) =>
   ids.map((id) => ({
@@ -65,6 +70,11 @@ const collectionLink = (id: number | undefined) =>
     ? null
     : { name: collectionNames.get(id), url: `${URL}/api/collection/${id}` };
 
+const publicationLink = (id: number | undefined) =>
+  id === undefined
+    ? null
+    : { name: publicationNames.get(id), url: `${URL}/api/publication/${id}` };
+
 export const bookResponse = (book: Book) => ({
   ...book,
   villains: villainLinks(villainIdsByBook.get(book.id)),
@@ -72,9 +82,10 @@ export const bookResponse = (book: Book) => ({
   collection: collectionLink(collectionIdByBook.get(book.id)),
 });
 
-// collection holds a handle, which is served as a link in the same place
+// publication and collection hold handles, which are served as links in the same place
 export const shortResponse = (short: Short) => ({
   ...short,
+  publication: publicationLink(publicationIdByShort.get(short.id)),
   collection: collectionLink(collectionIdByShort.get(short.id)),
   villains: villainLinks(villainIdsByShort.get(short.id)),
   places: placeLinks(placeIdsByShort.get(short.id)),
@@ -129,3 +140,8 @@ export const collectionResponse = (collection: Collection) => {
     shorts: shortLinks(shortIdsByCollection.get(collection.id)),
   };
 };
+
+export const publicationResponse = (publication: Publication) => ({
+  ...publication,
+  shorts: shortLinks(shortIdsByPublication.get(publication.id)),
+});

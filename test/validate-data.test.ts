@@ -210,6 +210,36 @@ describe("validate-data", () => {
     assertFlags(errors, /collection 18 \("People, Places and Things"\) was removed; ids must never disappear/);
   });
 
+  it("flags a short whose publication matches nothing", () => {
+    const errors = errorsAfter((c) => (c["shorts.json"][2].publication = "no-such-publication"));
+    assertFlags(errors, /^catalog\/shorts\.json: short 3 \("Jumper"\): publication "no-such-publication" doesn't match any publication handle$/);
+  });
+
+  it("flags a short whose originallyPublishedIn disagrees with its publication", () => {
+    const errors = errorsAfter((c) => (c["shorts.json"][2].publication = "cavalier"));
+    assertFlags(errors, /short 3 \("Jumper"\): originallyPublishedIn "Dave's Rag \(1959\)" should start with "Cavalier", to match its publication$/);
+  });
+
+  it("flags a missing publication for a short that names one", () => {
+    const errors = errorsAfter((c) => (c["shorts.json"][2].publication = null));
+    assertFlags(errors, /short 3 \("Jumper"\): publication is null, but originallyPublishedIn "Dave's Rag \(1959\)" names where it first appeared$/);
+  });
+
+  it("flags a publication named like a collection", () => {
+    const errors = errorsAfter((c) => (c["publications.json"][0].name = "Night Shift"));
+    assertFlags(errors, /publication 1 \("Night Shift"\): that's a collection, so its shorts link to it through collection instead$/);
+  });
+
+  it("flags a publication type that isn't on the list", () => {
+    const errors = errorsAfter((c) => (c["publications.json"][0].type = "zine"));
+    assertFlags(errors, /publication 1 \("Dave's Rag"\): type must be one of magazine, anthology, newspaper, other$/);
+  });
+
+  it("flags a publication removed since the base", () => {
+    const errors = errorsAfter((c) => c["publications.json"].pop(), loadCatalog());
+    assertFlags(errors, /publication 87 \("Scribd"\) was removed; ids must never disappear/);
+  });
+
   it("allows new records with new ids", () => {
     const errors = errorsAfter((c) => {
       const books = c["books.json"];

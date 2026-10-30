@@ -19,6 +19,7 @@ export interface Short {
   type: string;
   handle: string;
   originallyPublishedIn: string;
+  publication: string | null;
   collectedIn: string;
   collection: string | null;
   notes: string[];
@@ -66,6 +67,14 @@ export interface Collection {
   created_at: string;
 }
 
+export interface Publication {
+  id: number;
+  name: string;
+  handle: string;
+  type: string;
+  created_at: string;
+}
+
 // catalog/ sits next to both src/ and dist/
 const CATALOG_DIR = path.join(__dirname, "..", "catalog");
 
@@ -95,6 +104,7 @@ export const villains = load<Villain>("villains.json");
 export const places = load<Place>("places.json");
 export const types = load<Type>("types.json");
 export const collections = load<Collection>("collections.json");
+export const publications = load<Publication>("publications.json");
 
 // Links come from each villain's appears_in handles. Building them in
 // villain order matches what Postgres returned: a book's villains are in
@@ -246,5 +256,21 @@ for (const collection of collections) {
   if (book) {
     collectionIdByBook.set(book.id, collection.id);
     bookIdByCollection.set(collection.id, book.id);
+  }
+}
+
+// A short names the magazine, anthology or other publication it first
+// appeared in, and a publication lists its shorts in short id order. Shorts
+// that first appeared in their own collection, or on their own, have none.
+export const shortIdsByPublication = new Map<number, number[]>();
+export const publicationIdByShort = new Map<number, number>();
+
+const publicationIdsByHandle = new Map(publications.map((p) => [p.handle, p.id]));
+
+for (const short of shorts) {
+  const id = short.publication === null ? undefined : publicationIdsByHandle.get(short.publication);
+  if (id !== undefined) {
+    link(shortIdsByPublication, id, short.id);
+    publicationIdByShort.set(short.id, id);
   }
 }

@@ -15,6 +15,7 @@ const resources = [
   { list: "/api/places", detail: "/api/place", total: count("places.json"), missing: "Place not found" },
   { list: "/api/types", detail: "/api/type", total: count("types.json"), missing: "Type not found" },
   { list: "/api/collections", detail: "/api/collection", total: count("collections.json"), missing: "Collection not found" },
+  { list: "/api/publications", detail: "/api/publication", total: count("publications.json"), missing: "Publication not found" },
 ];
 
 let server: TestServer;
@@ -264,6 +265,36 @@ describe("links", () => {
       );
       for (const link of collection.shorts) {
         assert.equal(link.title, titles.get(idOf(link)), `collection ${collection.id} links ${link.url} under the wrong title`);
+      }
+    }
+  });
+
+  it("point both ways between shorts and where they first appeared", async () => {
+    const { body: publicationList } = await get("/api/publications");
+    const { body: shortList } = await get("/api/shorts");
+    const idOf = (link: { url: string }) => Number(link.url.split("/").pop());
+    const names = new Map(publicationList.data.map((publication: { id: number; name: string }) => [publication.id, publication.name]));
+    const fromShorts = new Map<number, number[]>();
+    for (const short of shortList.data) {
+      // null when it first appeared in its collection, on its own, or nowhere recorded
+      if (short.publication === null) {
+        continue;
+      }
+      assert.match(short.publication.url, /\/api\/publication\/\d+$/);
+      assert.equal(short.publication.name, names.get(idOf(short.publication)), `short ${short.id} links its publication under the wrong name`);
+      fromShorts.set(idOf(short.publication), [...(fromShorts.get(idOf(short.publication)) || []), short.id]);
+    }
+    const titles = new Map(shortList.data.map((short: { id: number; title: string }) => [short.id, short.title]));
+    for (const publication of publicationList.data) {
+      // A publication only exists because a short first appeared there
+      assert.ok(publication.shorts.length, `publication ${publication.id} (${publication.name}) has no shorts`);
+      assert.deepEqual(
+        publication.shorts.map(idOf),
+        fromShorts.get(publication.id) || [],
+        `publication ${publication.id} (${publication.name}) lists the wrong shorts`
+      );
+      for (const link of publication.shorts) {
+        assert.equal(link.title, titles.get(idOf(link)), `publication ${publication.id} links ${link.url} under the wrong title`);
       }
     }
   });

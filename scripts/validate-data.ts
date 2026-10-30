@@ -36,6 +36,10 @@ interface FileSpec {
 // Broadest first. A place's parent is the place it's in.
 export const PLACE_TYPES = ["world", "region", "country", "state", "town", "landmark", "building"] as const;
 
+// Where a short first appeared. "other" covers King's own small books,
+// convention books, websites and ebook stores.
+export const PUBLICATION_TYPES = ["magazine", "anthology", "newspaper", "other"] as const;
+
 export const SPECS: Record<string, FileSpec> = {
   "books.json": {
     label: "book",
@@ -69,6 +73,9 @@ export const SPECS: Record<string, FileSpec> = {
       type: "text",
       handle: "text",
       originallyPublishedIn: "string",
+      // A publication handle, served as a link. null when the short first
+      // appeared in a collection, on its own, or nowhere recorded.
+      publication: "nullable text",
       collectedIn: "string",
       // A collection handle, served as a link, or null if it was never collected
       collection: "nullable text",
@@ -147,6 +154,19 @@ export const SPECS: Record<string, FileSpec> = {
     // 16 and 17 were Uncollected and Uncollected (standalone book). Shorts that
     // were never collected now have no collection rather than a record.
     retiredIds: [16, 17],
+  },
+  "publications.json": {
+    label: "publication",
+    nameField: "name",
+    identity: "handle",
+    fields: {
+      id: "id",
+      name: "text",
+      handle: "text",
+      type: { oneOf: PUBLICATION_TYPES },
+      created_at: "timestamp",
+    },
+    unique: ["id", "handle", "name"],
   },
 };
 
@@ -309,6 +329,7 @@ export function validate(catalog: Catalog, base?: Catalog): string[] {
   errors.push(...checkHandles(catalog, "villains.json", "kinds", typeHandles, "type"));
   errors.push(...checkVillainTypes(catalog["villains.json"], types));
   errors.push(...checkCollections(catalog["shorts.json"], catalog["collections.json"], catalog["books.json"]));
+  errors.push(...checkPublications(catalog["shorts.json"], catalog["publications.json"], catalog["collections.json"]));
 
   errors.push(...checkParents("places.json", places));
   errors.push(...checkParents("types.json", types));
@@ -428,6 +449,57 @@ function checkCollections(shorts: unknown, collections: unknown, books: unknown)
     if (book && (book.Title !== collection.name || book.Year !== collection.year)) {
       errors.push(
         `catalog/collections.json: collection ${collection.id} (${JSON.stringify(collection.name)}): handle ${JSON.stringify(collection.handle)} is also used by book ${book.id} (${JSON.stringify(book.Title)}, ${book.Year}), so it would link to that book`
+      );
+    }
+  }
+  return errors;
+}
+
+// A short's publication has to exist, and its originallyPublishedIn text has
+// to start with that publication's name, as "Cavalier (October 1970)" and
+// "Shadows 4 (October 1981)" do. A short has none only when the text is
+// empty, or names the short itself or a collection, which collection links
+// already cover. So a publication can't be named like a collection either.
+function checkPublications(shorts: unknown, publications: unknown, collections: unknown): string[] {
+  if (!Array.isArray(shorts) || !Array.isArray(publications)) {
+    return [];
+  }
+  const errors: string[] = [];
+  const byHandle = new Map<unknown, CatalogRecord>(
+    publications.map((publication: CatalogRecord) => [publication?.handle, publication])
+  );
+  const collectionNames: unknown[] = Array.isArray(collections)
+    ? collections.map((collection: CatalogRecord) => collection?.name).filter(isText)
+    : [];
+  shorts.forEach((short: CatalogRecord, index) => {
+    const text = short?.originallyPublishedIn;
+    if (typeof text !== "string") {
+      return;
+    }
+    const where = `catalog/shorts.json: short ${short.id ?? `at position ${index}`} (${JSON.stringify(short.title)})`;
+    if (typeof short.publication === "string") {
+      const publication = byHandle.get(short.publication);
+      if (!publication) {
+        errors.push(`${where}: publication ${JSON.stringify(short.publication)} doesn't match any publication handle`);
+      } else if (!text.startsWith(`${publication.name} `)) {
+        errors.push(`${where}: originallyPublishedIn ${JSON.stringify(text)} should start with ${JSON.stringify(publication.name)}, to match its publication`);
+      }
+    } else if (short.publication === null) {
+      // What's left once the date is gone, which may be an edition of a collection
+      const venue = text.replace(/\s*\([^()]*\)$/, "");
+      const covered =
+        venue === "" ||
+        venue === short.title ||
+        collectionNames.some((name) => venue === name || venue.endsWith(` ${name}`));
+      if (!covered) {
+        errors.push(`${where}: publication is null, but originallyPublishedIn ${JSON.stringify(text)} names where it first appeared`);
+      }
+    }
+  });
+  for (const publication of publications as CatalogRecord[]) {
+    if (collectionNames.includes(publication?.name)) {
+      errors.push(
+        `catalog/publications.json: publication ${publication.id} (${JSON.stringify(publication.name)}): that's a collection, so its shorts link to it through collection instead`
       );
     }
   }

@@ -1,0 +1,1415 @@
+{
+  "path": "/api/publications",
+  "status": 200,
+  "body": {
+    "data": [
+      {
+        "id": 1,
+        "name": "Dave's Rag",
+        "handle": "dave-s-rag",
+        "type": "newspaper",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Jumper",
+            "url": "https://stephen-king-api.onrender.com/api/short/3"
+          },
+          {
+            "title": "Rush Call",
+            "url": "https://stephen-king-api.onrender.com/api/short/4"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "The Drum",
+        "handle": "the-drum",
+        "type": "newspaper",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Codename: Mousetrap",
+            "url": "https://stephen-king-api.onrender.com/api/short/16"
+          },
+          {
+            "title": "The 43rd Dream",
+            "url": "https://stephen-king-api.onrender.com/api/short/18"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Comics Review",
+        "handle": "comics-review",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "I Was a Teenage Grave Robber",
+            "url": "https://stephen-king-api.onrender.com/api/short/17"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Startling Mystery Stories",
+        "handle": "startling-mystery-stories",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "The Glass Floor",
+            "url": "https://stephen-king-api.onrender.com/api/short/19"
+          },
+          {
+            "title": "The Reaper's Image",
+            "url": "https://stephen-king-api.onrender.com/api/short/25"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Ubris",
+        "handle": "ubris",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Cain Rose Up",
+            "url": "https://stephen-king-api.onrender.com/api/short/20"
+          },
+          {
+            "title": "Here There Be Tygers",
+            "url": "https://stephen-king-api.onrender.com/api/short/21"
+          },
+          {
+            "title": "Harrison State Park '68",
+            "url": "https://stephen-king-api.onrender.com/api/short/22"
+          },
+          {
+            "title": "Strawberry Spring",
+            "url": "https://stephen-king-api.onrender.com/api/short/23"
+          },
+          {
+            "title": "Night Surf",
+            "url": "https://stephen-king-api.onrender.com/api/short/24"
+          },
+          {
+            "title": "The Dark Man",
+            "url": "https://stephen-king-api.onrender.com/api/short/26"
+          },
+          {
+            "title": "Stud City",
+            "url": "https://stephen-king-api.onrender.com/api/short/27"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "The Maine Campus",
+        "handle": "the-maine-campus",
+        "type": "newspaper",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Slade",
+            "url": "https://stephen-king-api.onrender.com/api/short/28"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Cavalier",
+        "handle": "cavalier",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Graveyard Shift",
+            "url": "https://stephen-king-api.onrender.com/api/short/29"
+          },
+          {
+            "title": "I Am the Doorway",
+            "url": "https://stephen-king-api.onrender.com/api/short/34"
+          },
+          {
+            "title": "Suffer the Little Children",
+            "url": "https://stephen-king-api.onrender.com/api/short/39"
+          },
+          {
+            "title": "The Fifth Quarter",
+            "url": "https://stephen-king-api.onrender.com/api/short/40"
+          },
+          {
+            "title": "Battleground",
+            "url": "https://stephen-king-api.onrender.com/api/short/41"
+          },
+          {
+            "title": "The Mangler",
+            "url": "https://stephen-king-api.onrender.com/api/short/42"
+          },
+          {
+            "title": "The Boogeyman",
+            "url": "https://stephen-king-api.onrender.com/api/short/43"
+          },
+          {
+            "title": "Trucks",
+            "url": "https://stephen-king-api.onrender.com/api/short/44"
+          },
+          {
+            "title": "Gray Matter",
+            "url": "https://stephen-king-api.onrender.com/api/short/45"
+          },
+          {
+            "title": "Sometimes They Come Back",
+            "url": "https://stephen-king-api.onrender.com/api/short/47"
+          },
+          {
+            "title": "The Lawnmower Man",
+            "url": "https://stephen-king-api.onrender.com/api/short/48"
+          },
+          {
+            "title": "Weeds",
+            "url": "https://stephen-king-api.onrender.com/api/short/50"
+          },
+          {
+            "title": "The Cat from Hell",
+            "url": "https://stephen-king-api.onrender.com/api/short/55"
+          },
+          {
+            "title": "Man With a Belly",
+            "url": "https://stephen-king-api.onrender.com/api/short/65"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Moth",
+        "handle": "moth",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Donovan's Brain",
+            "url": "https://stephen-king-api.onrender.com/api/short/30"
+          },
+          {
+            "title": "Silence",
+            "url": "https://stephen-king-api.onrender.com/api/short/31"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Onan",
+        "handle": "onan",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "The Blue Air Compressor",
+            "url": "https://stephen-king-api.onrender.com/api/short/32"
+          },
+          {
+            "title": "In the Key Chords of Dawn",
+            "url": "https://stephen-king-api.onrender.com/api/short/33"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Io",
+        "handle": "io",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Brooklyn August",
+            "url": "https://stephen-king-api.onrender.com/api/short/35"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Contraband",
+        "handle": "contraband",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "She Has Gone to Sleep While...",
+            "url": "https://stephen-king-api.onrender.com/api/short/36"
+          },
+          {
+            "title": "Woman with Child",
+            "url": "https://stephen-king-api.onrender.com/api/short/37"
+          },
+          {
+            "title": "The Hardcase Speaks",
+            "url": "https://stephen-king-api.onrender.com/api/short/38"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Marshroots",
+        "handle": "marshroots",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "It Grows on You",
+            "url": "https://stephen-king-api.onrender.com/api/short/46"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "The Maine Review",
+        "handle": "the-maine-review",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "The Revenge of Lard Ass Hogan",
+            "url": "https://stephen-king-api.onrender.com/api/short/49"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Penthouse",
+        "handle": "penthouse",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "The Ledge",
+            "url": "https://stephen-king-api.onrender.com/api/short/51"
+          },
+          {
+            "title": "Children of the Corn",
+            "url": "https://stephen-king-api.onrender.com/api/short/53"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Cosmopolitan",
+        "handle": "cosmopolitan",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "I Know What You Need",
+            "url": "https://stephen-king-api.onrender.com/api/short/52"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Maine",
+        "handle": "maine",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "One for the Road",
+            "url": "https://stephen-king-api.onrender.com/api/short/54"
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Flint",
+        "handle": "flint",
+        "type": "newspaper",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "The King Family and the Wicked Witch",
+            "url": "https://stephen-king-api.onrender.com/api/short/56"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Gallery",
+        "handle": "gallery",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "The Man Who Loved Flowers",
+            "url": "https://stephen-king-api.onrender.com/api/short/57"
+          },
+          {
+            "title": "The Crate",
+            "url": "https://stephen-king-api.onrender.com/api/short/66"
+          },
+          {
+            "title": "The Monkey",
+            "url": "https://stephen-king-api.onrender.com/api/short/71"
+          },
+          {
+            "title": "The Raft",
+            "url": "https://stephen-king-api.onrender.com/api/short/87"
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "The Magazine of Fantasy & Science Fiction",
+        "handle": "the-magazine-of-fantasy-science-fiction",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "The Night of the Tiger",
+            "url": "https://stephen-king-api.onrender.com/api/short/62"
+          },
+          {
+            "title": "The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/short/64"
+          },
+          {
+            "title": "The Way Station",
+            "url": "https://stephen-king-api.onrender.com/api/short/69"
+          },
+          {
+            "title": "The Oracle and the Mountains",
+            "url": "https://stephen-king-api.onrender.com/api/short/73"
+          },
+          {
+            "title": "The Slow Mutants",
+            "url": "https://stephen-king-api.onrender.com/api/short/75"
+          },
+          {
+            "title": "The Gunslinger and the Dark Man",
+            "url": "https://stephen-king-api.onrender.com/api/short/79"
+          },
+          {
+            "title": "The Ballad of the Flexible Bullet",
+            "url": "https://stephen-king-api.onrender.com/api/short/95"
+          },
+          {
+            "title": "The Bear",
+            "url": "https://stephen-king-api.onrender.com/api/short/118"
+          },
+          {
+            "title": "The Moving Finger",
+            "url": "https://stephen-king-api.onrender.com/api/short/119"
+          },
+          {
+            "title": "Everything's Eventual",
+            "url": "https://stephen-king-api.onrender.com/api/short/137"
+          },
+          {
+            "title": "The New York Times at Special Bargain Rates",
+            "url": "https://stephen-king-api.onrender.com/api/short/167"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Shadows",
+        "handle": "shadows",
+        "type": "anthology",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Nona",
+            "url": "https://stephen-king-api.onrender.com/api/short/63"
+          },
+          {
+            "title": "The Man Who Would Not Shake Hands",
+            "url": "https://stephen-king-api.onrender.com/api/short/76"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Dark Forces",
+        "handle": "dark-forces",
+        "type": "anthology",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "The Mist",
+            "url": "https://stephen-king-api.onrender.com/api/short/67"
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "New Tales of the Cthulhu Mythos",
+        "handle": "new-tales-of-the-cthulhu-mythos",
+        "type": "anthology",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Crouch End",
+            "url": "https://stephen-king-api.onrender.com/api/short/68"
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "name": "New Terrors",
+        "handle": "new-terrors",
+        "type": "anthology",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Big Wheels: A Tale of the Laundry Game (Milkman #2)",
+            "url": "https://stephen-king-api.onrender.com/api/short/70"
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "Ellery Queen's Mystery Magazine",
+        "handle": "ellery-queen-s-mystery-magazine",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "The Wedding Gig",
+            "url": "https://stephen-king-api.onrender.com/api/short/72"
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "The Twilight Zone Magazine",
+        "handle": "the-twilight-zone-magazine",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "The Jaunt",
+            "url": "https://stephen-king-api.onrender.com/api/short/74"
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "name": "Ladies' Home Journal",
+        "handle": "ladies-home-journal",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "The Monster in the Closet",
+            "url": "https://stephen-king-api.onrender.com/api/short/77"
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "name": "A Fantasy Reader",
+        "handle": "a-fantasy-reader",
+        "type": "anthology",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "The Bird and the Album",
+            "url": "https://stephen-king-api.onrender.com/api/short/78"
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Yankee",
+        "handle": "yankee",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "The Reach",
+            "url": "https://stephen-king-api.onrender.com/api/short/80"
+          },
+          {
+            "title": "Uncle Otto's Truck",
+            "url": "https://stephen-king-api.onrender.com/api/short/90"
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "name": "Terrors",
+        "handle": "terrors",
+        "type": "anthology",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Survivor Type",
+            "url": "https://stephen-king-api.onrender.com/api/short/81"
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "name": "Whispers",
+        "handle": "whispers",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Before the Play",
+            "url": "https://stephen-king-api.onrender.com/api/short/82"
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "name": "The Do-It-Yourself Bestseller",
+        "handle": "the-do-it-yourself-bestseller",
+        "type": "anthology",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Skybar",
+            "url": "https://stephen-king-api.onrender.com/api/short/88"
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "name": "Playboy",
+        "handle": "playboy",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Word Processor of the Gods",
+            "url": "https://stephen-king-api.onrender.com/api/short/89"
+          },
+          {
+            "title": "Willa",
+            "url": "https://stephen-king-api.onrender.com/api/short/161"
+          },
+          {
+            "title": "Mute",
+            "url": "https://stephen-king-api.onrender.com/api/short/165"
+          },
+          {
+            "title": "The Bone Church",
+            "url": "https://stephen-king-api.onrender.com/api/short/173"
+          },
+          {
+            "title": "Tommy",
+            "url": "https://stephen-king-api.onrender.com/api/short/175"
+          },
+          {
+            "title": "The Music Room",
+            "url": "https://stephen-king-api.onrender.com/api/short/199"
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "name": "Land of Enchantment",
+        "handle": "land-of-enchantment",
+        "type": "other",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Cycle of the Werewolf",
+            "url": "https://stephen-king-api.onrender.com/api/short/91"
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "name": "Satyricon",
+        "handle": "satyricon",
+        "type": "other",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "The Return of Timmy Baterman",
+            "url": "https://stephen-king-api.onrender.com/api/short/92"
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "name": "Weirdbook",
+        "handle": "weirdbook",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Gramma",
+            "url": "https://stephen-king-api.onrender.com/api/short/93"
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "name": "Redbook",
+        "handle": "redbook",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Mrs. Todd's Shortcut",
+            "url": "https://stephen-king-api.onrender.com/api/short/94"
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "name": "Rolling Stone",
+        "handle": "rolling-stone",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "The Revelations of 'Becka Paulson",
+            "url": "https://stephen-king-api.onrender.com/api/short/96"
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "name": "Weird Tales",
+        "handle": "weird-tales",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Beachworld",
+            "url": "https://stephen-king-api.onrender.com/api/short/97"
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "name": "Castle Rock",
+        "handle": "castle-rock",
+        "type": "other",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Dolan's Cadillac",
+            "url": "https://stephen-king-api.onrender.com/api/short/98"
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "name": "Bred Any Good Rooks Lately?",
+        "handle": "bred-any-good-rooks-lately",
+        "type": "anthology",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "For the Birds",
+            "url": "https://stephen-king-api.onrender.com/api/short/102"
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "name": "Omni",
+        "handle": "omni",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "The End of the Whole Mess",
+            "url": "https://stephen-king-api.onrender.com/api/short/103"
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "name": "Masques",
+        "handle": "masques",
+        "type": "anthology",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Popsy",
+            "url": "https://stephen-king-api.onrender.com/api/short/104"
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "name": "The New Adventures of Sherlock Holmes",
+        "handle": "the-new-adventures-of-sherlock-holmes",
+        "type": "anthology",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "The Doctor's Case",
+            "url": "https://stephen-king-api.onrender.com/api/short/105"
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "name": "Prime Evil",
+        "handle": "prime-evil",
+        "type": "anthology",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "The Night Flier",
+            "url": "https://stephen-king-api.onrender.com/api/short/106"
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "Night Visions",
+        "handle": "night-visions",
+        "type": "anthology",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Dedication",
+            "url": "https://stephen-king-api.onrender.com/api/short/107"
+          },
+          {
+            "title": "The Reploids",
+            "url": "https://stephen-king-api.onrender.com/api/short/108"
+          },
+          {
+            "title": "Sneakers",
+            "url": "https://stephen-king-api.onrender.com/api/short/109"
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "name": "Midnight Graffiti",
+        "handle": "midnight-graffiti",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Rainy Season",
+            "url": "https://stephen-king-api.onrender.com/api/short/110"
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "name": "Book of the Dead",
+        "handle": "book-of-the-dead",
+        "type": "anthology",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Home Delivery",
+            "url": "https://stephen-king-api.onrender.com/api/short/111"
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "name": "Institute for Advanced Theater Training",
+        "handle": "institute-for-advanced-theater-training",
+        "type": "other",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "An Evening at God's",
+            "url": "https://stephen-king-api.onrender.com/api/short/113"
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "name": "Shock Rock",
+        "handle": "shock-rock",
+        "type": "anthology",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "You Know They Got a Hell of a Band",
+            "url": "https://stephen-king-api.onrender.com/api/short/120"
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "Cemetery Dance",
+        "handle": "cemetery-dance",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Chattery Teeth",
+            "url": "https://stephen-king-api.onrender.com/api/short/121"
+          },
+          {
+            "title": "The Extra Hour",
+            "url": "https://stephen-king-api.onrender.com/api/short/220"
+          }
+        ]
+      },
+      {
+        "id": 51,
+        "name": "First Words",
+        "handle": "first-words",
+        "type": "anthology",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Jhonathan and the Witches",
+            "url": "https://stephen-king-api.onrender.com/api/short/127"
+          }
+        ]
+      },
+      {
+        "id": 52,
+        "name": "Famous Monsters of Filmland",
+        "handle": "famous-monsters-of-filmland",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "The Killer",
+            "url": "https://stephen-king-api.onrender.com/api/short/128"
+          }
+        ]
+      },
+      {
+        "id": 53,
+        "name": "Antaeus",
+        "handle": "antaeus",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Blind Willie",
+            "url": "https://stephen-king-api.onrender.com/api/short/129"
+          }
+        ]
+      },
+      {
+        "id": 54,
+        "name": "The New Yorker",
+        "handle": "the-new-yorker",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "The Man in the Black Suit",
+            "url": "https://stephen-king-api.onrender.com/api/short/130"
+          },
+          {
+            "title": "That Feeling, You Can Only Say What It Is in French",
+            "url": "https://stephen-king-api.onrender.com/api/short/138"
+          },
+          {
+            "title": "All That You Love Will Be Carried Away",
+            "url": "https://stephen-king-api.onrender.com/api/short/150"
+          },
+          {
+            "title": "The Death of Jack Hamilton",
+            "url": "https://stephen-king-api.onrender.com/api/short/152"
+          },
+          {
+            "title": "Harvey's Dream",
+            "url": "https://stephen-king-api.onrender.com/api/short/154"
+          },
+          {
+            "title": "Premium Harmony",
+            "url": "https://stephen-king-api.onrender.com/api/short/174"
+          },
+          {
+            "title": "A Death",
+            "url": "https://stephen-king-api.onrender.com/api/short/194"
+          }
+        ]
+      },
+      {
+        "id": 55,
+        "name": "Salt Hill Journal",
+        "handle": "salt-hill-journal",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Dino",
+            "url": "https://stephen-king-api.onrender.com/api/short/131"
+          }
+        ]
+      },
+      {
+        "id": 56,
+        "name": "USA Weekend",
+        "handle": "usa-weekend",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Luckey Quarter",
+            "url": "https://stephen-king-api.onrender.com/api/short/132"
+          }
+        ]
+      },
+      {
+        "id": 57,
+        "name": "Dark Love",
+        "handle": "dark-love",
+        "type": "anthology",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Lunch at the Gotham Café",
+            "url": "https://stephen-king-api.onrender.com/api/short/133"
+          }
+        ]
+      },
+      {
+        "id": 58,
+        "name": "Six Stories",
+        "handle": "six-stories",
+        "type": "other",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Autopsy Room Four",
+            "url": "https://stephen-king-api.onrender.com/api/short/134"
+          },
+          {
+            "title": "L. T.'s Theory of Pets",
+            "url": "https://stephen-king-api.onrender.com/api/short/135"
+          }
+        ]
+      },
+      {
+        "id": 59,
+        "name": "Screamplays",
+        "handle": "screamplays",
+        "type": "anthology",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "General",
+            "url": "https://stephen-king-api.onrender.com/api/short/136"
+          }
+        ]
+      },
+      {
+        "id": 60,
+        "name": "Legends",
+        "handle": "legends",
+        "type": "anthology",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "The Little Sisters of Eluria",
+            "url": "https://stephen-king-api.onrender.com/api/short/139"
+          }
+        ]
+      },
+      {
+        "id": 61,
+        "name": "999",
+        "handle": "999",
+        "type": "anthology",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "The Road Virus Heads North",
+            "url": "https://stephen-king-api.onrender.com/api/short/141"
+          }
+        ]
+      },
+      {
+        "id": 62,
+        "name": "Blood and Smoke",
+        "handle": "blood-and-smoke",
+        "type": "other",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "1408",
+            "url": "https://stephen-king-api.onrender.com/api/short/146"
+          },
+          {
+            "title": "In the Deathroom",
+            "url": "https://stephen-king-api.onrender.com/api/short/147"
+          }
+        ]
+      },
+      {
+        "id": 63,
+        "name": "NECON",
+        "handle": "necon",
+        "type": "other",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "The Old Dude's Ticker",
+            "url": "https://stephen-king-api.onrender.com/api/short/149"
+          }
+        ]
+      },
+      {
+        "id": 64,
+        "name": "stephenking.com",
+        "handle": "stephenking-com",
+        "type": "other",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Calla Bryn Sturgis",
+            "url": "https://stephen-king-api.onrender.com/api/short/151"
+          },
+          {
+            "title": "Laurie",
+            "url": "https://stephen-king-api.onrender.com/api/short/202"
+          }
+        ]
+      },
+      {
+        "id": 65,
+        "name": "McSweeney's Mammoth Treasury of Thrilling Tales",
+        "handle": "mcsweeney-s-mammoth-treasury-of-thrilling-tales",
+        "type": "anthology",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "The Tale of Gray Dick",
+            "url": "https://stephen-king-api.onrender.com/api/short/153"
+          }
+        ]
+      },
+      {
+        "id": 66,
+        "name": "Borderlands",
+        "handle": "borderlands",
+        "type": "anthology",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Stationary Bike",
+            "url": "https://stephen-king-api.onrender.com/api/short/155"
+          }
+        ]
+      },
+      {
+        "id": 67,
+        "name": "Esquire",
+        "handle": "esquire",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Rest Stop",
+            "url": "https://stephen-king-api.onrender.com/api/short/156"
+          },
+          {
+            "title": "The Gingerbread Girl",
+            "url": "https://stephen-king-api.onrender.com/api/short/163"
+          },
+          {
+            "title": "Morality",
+            "url": "https://stephen-king-api.onrender.com/api/short/171"
+          },
+          {
+            "title": "In the Tall Grass",
+            "url": "https://stephen-king-api.onrender.com/api/short/186"
+          },
+          {
+            "title": "That Bus Is Another World",
+            "url": "https://stephen-king-api.onrender.com/api/short/193"
+          },
+          {
+            "title": "On Slide Inn Road",
+            "url": "https://stephen-king-api.onrender.com/api/short/211"
+          }
+        ]
+      },
+      {
+        "id": 68,
+        "name": "McSweeney’s Enchanted Chamber of Astonishing Stories",
+        "handle": "mcsweeney-s-enchanted-chamber-of-astonishing-stories",
+        "type": "anthology",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Lisey and the Madman",
+            "url": "https://stephen-king-api.onrender.com/api/short/157"
+          }
+        ]
+      },
+      {
+        "id": 69,
+        "name": "Weekly Reader",
+        "handle": "weekly-reader",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "The Furnace",
+            "url": "https://stephen-king-api.onrender.com/api/short/158"
+          }
+        ]
+      },
+      {
+        "id": 70,
+        "name": "Transgressions",
+        "handle": "transgressions",
+        "type": "anthology",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "The Things They Left Behind",
+            "url": "https://stephen-king-api.onrender.com/api/short/159"
+          }
+        ]
+      },
+      {
+        "id": 71,
+        "name": "Tin House",
+        "handle": "tin-house",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Memory",
+            "url": "https://stephen-king-api.onrender.com/api/short/160"
+          },
+          {
+            "title": "Mostly Old Men",
+            "url": "https://stephen-king-api.onrender.com/api/short/172"
+          },
+          {
+            "title": "Afterlife",
+            "url": "https://stephen-king-api.onrender.com/api/short/189"
+          }
+        ]
+      },
+      {
+        "id": 72,
+        "name": "Postscripts",
+        "handle": "postscripts",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Graduation Afternoon",
+            "url": "https://stephen-king-api.onrender.com/api/short/162"
+          }
+        ]
+      },
+      {
+        "id": 73,
+        "name": "The Paris Review",
+        "handle": "the-paris-review",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Ayana",
+            "url": "https://stephen-king-api.onrender.com/api/short/164"
+          }
+        ]
+      },
+      {
+        "id": 74,
+        "name": "McSweeney's",
+        "handle": "mcsweeney-s",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "A Very Tight Place",
+            "url": "https://stephen-king-api.onrender.com/api/short/166"
+          },
+          {
+            "title": "Willie the Weirdo",
+            "url": "https://stephen-king-api.onrender.com/api/short/212"
+          }
+        ]
+      },
+      {
+        "id": 75,
+        "name": "He Is Legend",
+        "handle": "he-is-legend",
+        "type": "anthology",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Throttle",
+            "url": "https://stephen-king-api.onrender.com/api/short/169"
+          }
+        ]
+      },
+      {
+        "id": 76,
+        "name": "The Atlantic",
+        "handle": "the-atlantic",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Herman Wouk Is Still Alive",
+            "url": "https://stephen-king-api.onrender.com/api/short/181"
+          },
+          {
+            "title": "Dinah's Hat",
+            "url": "https://stephen-king-api.onrender.com/api/short/222"
+          }
+        ]
+      },
+      {
+        "id": 77,
+        "name": "A Book of Horrors",
+        "handle": "a-book-of-horrors",
+        "type": "anthology",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "The Little Green God of Agony",
+            "url": "https://stephen-king-api.onrender.com/api/short/184"
+          }
+        ]
+      },
+      {
+        "id": 78,
+        "name": "Granta",
+        "handle": "granta",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "The Dune",
+            "url": "https://stephen-king-api.onrender.com/api/short/185"
+          }
+        ]
+      },
+      {
+        "id": 79,
+        "name": "Harper's Magazine",
+        "handle": "harper-s-magazine",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Batman and Robin Have an Altercation",
+            "url": "https://stephen-king-api.onrender.com/api/short/188"
+          },
+          {
+            "title": "The Fifth Step",
+            "url": "https://stephen-king-api.onrender.com/api/short/206"
+          }
+        ]
+      },
+      {
+        "id": 80,
+        "name": "Hard Listening",
+        "handle": "hard-listening",
+        "type": "anthology",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "The Rock and Roll Dead Zone",
+            "url": "https://stephen-king-api.onrender.com/api/short/190"
+          }
+        ]
+      },
+      {
+        "id": 81,
+        "name": "Turn Down the Lights",
+        "handle": "turn-down-the-lights",
+        "type": "anthology",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Summer Thunder",
+            "url": "https://stephen-king-api.onrender.com/api/short/191"
+          }
+        ]
+      },
+      {
+        "id": 82,
+        "name": "Virginia Quarterly Review",
+        "handle": "virginia-quarterly-review",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Cookie Jar",
+            "url": "https://stephen-king-api.onrender.com/api/short/198"
+          }
+        ]
+      },
+      {
+        "id": 83,
+        "name": "Ploughshares",
+        "handle": "ploughshares",
+        "type": "magazine",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Thin Scenery",
+            "url": "https://stephen-king-api.onrender.com/api/short/201"
+          }
+        ]
+      },
+      {
+        "id": 84,
+        "name": "Flight or Fright",
+        "handle": "flight-or-fright",
+        "type": "anthology",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "The Turbulence Expert",
+            "url": "https://stephen-king-api.onrender.com/api/short/204"
+          }
+        ]
+      },
+      {
+        "id": 85,
+        "name": "Shivers",
+        "handle": "shivers",
+        "type": "anthology",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Squad D",
+            "url": "https://stephen-king-api.onrender.com/api/short/205"
+          }
+        ]
+      },
+      {
+        "id": 86,
+        "name": "Humble Bundle",
+        "handle": "humble-bundle",
+        "type": "other",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Red Screen",
+            "url": "https://stephen-king-api.onrender.com/api/short/213"
+          }
+        ]
+      },
+      {
+        "id": 87,
+        "name": "Scribd",
+        "handle": "scribd",
+        "type": "other",
+        "created_at": "2026-10-30T01:50:00.000Z",
+        "shorts": [
+          {
+            "title": "Finn",
+            "url": "https://stephen-king-api.onrender.com/api/short/214"
+          }
+        ]
+      }
+    ]
+  }
+}

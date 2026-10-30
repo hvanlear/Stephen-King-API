@@ -1,0 +1,774 @@
+{
+  "path": "/api/places?page=2&limit=50",
+  "status": 200,
+  "body": {
+    "data": [
+      {
+        "id": 51,
+        "name": "Braintree, Texas",
+        "handle": "braintree-texas",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Texas",
+          "url": "https://stephen-king-api.onrender.com/api/place/38"
+        },
+        "places": []
+      },
+      {
+        "id": 52,
+        "name": "Bridgton, Maine",
+        "handle": "bridgton-maine",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/28"
+        },
+        "places": []
+      },
+      {
+        "id": 53,
+        "name": "Calla Bryn Sturgis",
+        "handle": "calla-bryn-sturgis",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Mid-world",
+          "url": "https://stephen-king-api.onrender.com/api/place/18"
+        },
+        "places": []
+      },
+      {
+        "id": 54,
+        "name": "Caslin, Nebraska",
+        "handle": "caslin-nebraska",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Nebraska",
+          "url": "https://stephen-king-api.onrender.com/api/place/31"
+        },
+        "places": []
+      },
+      {
+        "id": 55,
+        "name": "Castle Rock, Maine",
+        "handle": "castle-rock-maine",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/28"
+        },
+        "places": [
+          {
+            "name": "Carbine Street",
+            "url": "https://stephen-king-api.onrender.com/api/place/141"
+          },
+          {
+            "name": "Castle Rock High School",
+            "url": "https://stephen-king-api.onrender.com/api/place/158"
+          },
+          {
+            "name": "Castle Rock Middle School",
+            "url": "https://stephen-king-api.onrender.com/api/place/159"
+          }
+        ]
+      },
+      {
+        "id": 56,
+        "name": "Castle View, Maine",
+        "handle": "castle-view-maine",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/28"
+        },
+        "places": []
+      },
+      {
+        "id": 57,
+        "name": "Chamberlain, Maine",
+        "handle": "chamberlain-maine",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/28"
+        },
+        "places": [
+          {
+            "name": "The Cavalier Bar",
+            "url": "https://stephen-king-api.onrender.com/api/place/175"
+          },
+          {
+            "name": "Thomas Ewen Consolidated High School",
+            "url": "https://stephen-king-api.onrender.com/api/place/181"
+          }
+        ]
+      },
+      {
+        "id": 58,
+        "name": "Chester's Mill, Maine",
+        "handle": "chester-s-mill-maine",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/28"
+        },
+        "places": [
+          {
+            "name": "Black Ridge",
+            "url": "https://stephen-king-api.onrender.com/api/place/140"
+          },
+          {
+            "name": "Lake East Point",
+            "url": "https://stephen-king-api.onrender.com/api/place/147"
+          },
+          {
+            "name": "Sixth Street Bridge",
+            "url": "https://stephen-king-api.onrender.com/api/place/152"
+          },
+          {
+            "name": "Catherine Russell Hospital",
+            "url": "https://stephen-king-api.onrender.com/api/place/160"
+          },
+          {
+            "name": "East Street Grammar School",
+            "url": "https://stephen-king-api.onrender.com/api/place/165"
+          },
+          {
+            "name": "WCIK",
+            "url": "https://stephen-king-api.onrender.com/api/place/182"
+          }
+        ]
+      },
+      {
+        "id": 59,
+        "name": "Crouch End",
+        "handle": "crouch-end",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "London",
+          "url": "https://stephen-king-api.onrender.com/api/place/40"
+        },
+        "places": []
+      },
+      {
+        "id": 60,
+        "name": "Davenport, Iowa",
+        "handle": "davenport-iowa",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Iowa",
+          "url": "https://stephen-king-api.onrender.com/api/place/25"
+        },
+        "places": [
+          {
+            "name": "Ottershaw Christian Home for Boys",
+            "url": "https://stephen-king-api.onrender.com/api/place/171"
+          }
+        ]
+      },
+      {
+        "id": 61,
+        "name": "Debaria",
+        "handle": "debaria",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "In-world",
+          "url": "https://stephen-king-api.onrender.com/api/place/17"
+        },
+        "places": []
+      },
+      {
+        "id": 62,
+        "name": "Derry, Maine",
+        "handle": "derry-maine",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/28"
+        },
+        "places": [
+          {
+            "name": "Derry Cemetery",
+            "url": "https://stephen-king-api.onrender.com/api/place/143"
+          },
+          {
+            "name": "Pennywise's Lair",
+            "url": "https://stephen-king-api.onrender.com/api/place/150"
+          },
+          {
+            "name": "Tracker Brothers (baseball field)",
+            "url": "https://stephen-king-api.onrender.com/api/place/154"
+          },
+          {
+            "name": "Denbrough House",
+            "url": "https://stephen-king-api.onrender.com/api/place/161"
+          },
+          {
+            "name": "Derry Civic Center",
+            "url": "https://stephen-king-api.onrender.com/api/place/162"
+          },
+          {
+            "name": "Derry High School",
+            "url": "https://stephen-king-api.onrender.com/api/place/163"
+          },
+          {
+            "name": "Derry Public Library",
+            "url": "https://stephen-king-api.onrender.com/api/place/164"
+          },
+          {
+            "name": "The Falcon",
+            "url": "https://stephen-king-api.onrender.com/api/place/177"
+          },
+          {
+            "name": "The Standpipe",
+            "url": "https://stephen-king-api.onrender.com/api/place/179"
+          },
+          {
+            "name": "Well House",
+            "url": "https://stephen-king-api.onrender.com/api/place/183"
+          },
+          {
+            "name": "WomanCare",
+            "url": "https://stephen-king-api.onrender.com/api/place/184"
+          }
+        ]
+      },
+      {
+        "id": 63,
+        "name": "Desperation, Nevada",
+        "handle": "desperation-nevada",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Nevada",
+          "url": "https://stephen-king-api.onrender.com/api/place/32"
+        },
+        "places": []
+      },
+      {
+        "id": 64,
+        "name": "Eluria",
+        "handle": "eluria",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Mid-world",
+          "url": "https://stephen-king-api.onrender.com/api/place/18"
+        },
+        "places": []
+      },
+      {
+        "id": 65,
+        "name": "Eustace, Oklahoma",
+        "handle": "eustace-oklahoma",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Oklahoma",
+          "url": "https://stephen-king-api.onrender.com/api/place/37"
+        },
+        "places": []
+      },
+      {
+        "id": 66,
+        "name": "Fedic",
+        "handle": "fedic",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "End-world",
+          "url": "https://stephen-king-api.onrender.com/api/place/16"
+        },
+        "places": []
+      },
+      {
+        "id": 67,
+        "name": "Freeport, Maine",
+        "handle": "freeport-maine",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/28"
+        },
+        "places": []
+      },
+      {
+        "id": 68,
+        "name": "Gates Falls",
+        "handle": "gates-falls",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/28"
+        },
+        "places": []
+      },
+      {
+        "id": 69,
+        "name": "Gatlin, Nebraska",
+        "handle": "gatlin-nebraska",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Nebraska",
+          "url": "https://stephen-king-api.onrender.com/api/place/31"
+        },
+        "places": []
+      },
+      {
+        "id": 70,
+        "name": "Hammer Crossing, Kansas",
+        "handle": "hammer-crossing-kansas",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Kansas",
+          "url": "https://stephen-king-api.onrender.com/api/place/26"
+        },
+        "places": []
+      },
+      {
+        "id": 71,
+        "name": "Harrison, Ohio",
+        "handle": "harrison-ohio",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Ohio",
+          "url": "https://stephen-king-api.onrender.com/api/place/36"
+        },
+        "places": [
+          {
+            "name": "Harrison State College",
+            "url": "https://stephen-king-api.onrender.com/api/place/167"
+          }
+        ]
+      },
+      {
+        "id": 72,
+        "name": "Harwich, Connecticut",
+        "handle": "harwich-connecticut",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Connecticut",
+          "url": "https://stephen-king-api.onrender.com/api/place/22"
+        },
+        "places": []
+      },
+      {
+        "id": 73,
+        "name": "Hastings Glen",
+        "handle": "hastings-glen",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "New York",
+          "url": "https://stephen-king-api.onrender.com/api/place/34"
+        },
+        "places": [
+          {
+            "name": "The Slumberland Motel",
+            "url": "https://stephen-king-api.onrender.com/api/place/178"
+          }
+        ]
+      },
+      {
+        "id": 74,
+        "name": "Haven, Maine",
+        "handle": "haven-maine",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/28"
+        },
+        "places": []
+      },
+      {
+        "id": 75,
+        "name": "Heaven's Bay, North Carolina",
+        "handle": "heaven-s-bay-north-carolina",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "North Carolina",
+          "url": "https://stephen-king-api.onrender.com/api/place/35"
+        },
+        "places": [
+          {
+            "name": "Joyland Park",
+            "url": "https://stephen-king-api.onrender.com/api/place/146"
+          }
+        ]
+      },
+      {
+        "id": 76,
+        "name": "Jerusalem's Lot, Maine",
+        "handle": "jerusalem-s-lot-maine",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/28"
+        },
+        "places": [
+          {
+            "name": "Harmony Hill Cemetery",
+            "url": "https://stephen-king-api.onrender.com/api/place/145"
+          },
+          {
+            "name": "Brock Street School",
+            "url": "https://stephen-king-api.onrender.com/api/place/157"
+          },
+          {
+            "name": "Jerusalem's Lot Public Library",
+            "url": "https://stephen-king-api.onrender.com/api/place/169"
+          },
+          {
+            "name": "Marsten House",
+            "url": "https://stephen-king-api.onrender.com/api/place/170"
+          },
+          {
+            "name": "Stanley Street Elementary School",
+            "url": "https://stephen-king-api.onrender.com/api/place/173"
+          }
+        ]
+      },
+      {
+        "id": 77,
+        "name": "Junction City, Iowa",
+        "handle": "junction-city-iowa",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Iowa",
+          "url": "https://stephen-king-api.onrender.com/api/place/25"
+        },
+        "places": []
+      },
+      {
+        "id": 78,
+        "name": "Kashwakamak, Maine",
+        "handle": "kashwakamak-maine",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/28"
+        },
+        "places": []
+      },
+      {
+        "id": 79,
+        "name": "Lake Belle Reve, Mississippi",
+        "handle": "lake-belle-reve-mississippi",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Mississippi",
+          "url": "https://stephen-king-api.onrender.com/api/place/30"
+        },
+        "places": []
+      },
+      {
+        "id": 80,
+        "name": "Las Vegas, Nevada",
+        "handle": "las-vegas-nevada",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Nevada",
+          "url": "https://stephen-king-api.onrender.com/api/place/32"
+        },
+        "places": []
+      },
+      {
+        "id": 81,
+        "name": "Lewiston, Maine",
+        "handle": "lewiston-maine",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/28"
+        },
+        "places": []
+      },
+      {
+        "id": 82,
+        "name": "Lexingworth",
+        "handle": "lexingworth",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Mid-world",
+          "url": "https://stephen-king-api.onrender.com/api/place/18"
+        },
+        "places": []
+      },
+      {
+        "id": 83,
+        "name": "Little Tall Island",
+        "handle": "little-tall-island",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/28"
+        },
+        "places": []
+      },
+      {
+        "id": 84,
+        "name": "Lovell, Maine",
+        "handle": "lovell-maine",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/28"
+        },
+        "places": []
+      },
+      {
+        "id": 85,
+        "name": "Lud",
+        "handle": "lud",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Mid-world",
+          "url": "https://stephen-king-api.onrender.com/api/place/18"
+        },
+        "places": []
+      },
+      {
+        "id": 86,
+        "name": "Ludlow, Maine",
+        "handle": "ludlow-maine",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/28"
+        },
+        "places": []
+      },
+      {
+        "id": 87,
+        "name": "May, Oklahoma",
+        "handle": "may-oklahoma",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Oklahoma",
+          "url": "https://stephen-king-api.onrender.com/api/place/37"
+        },
+        "places": []
+      },
+      {
+        "id": 88,
+        "name": "Moose-Lookit Island",
+        "handle": "moose-lookit-island",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/28"
+        },
+        "places": [
+          {
+            "name": "Hammock Beach, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/144"
+          },
+          {
+            "name": "Little Hay Beach",
+            "url": "https://stephen-king-api.onrender.com/api/place/148"
+          },
+          {
+            "name": "Moose Cove",
+            "url": "https://stephen-king-api.onrender.com/api/place/149"
+          }
+        ]
+      },
+      {
+        "id": 89,
+        "name": "Motton, Maine",
+        "handle": "motton-maine",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/28"
+        },
+        "places": []
+      },
+      {
+        "id": 90,
+        "name": "New York City",
+        "handle": "new-york-city",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "New York",
+          "url": "https://stephen-king-api.onrender.com/api/place/34"
+        },
+        "places": [
+          {
+            "name": "Hotel Dolphin",
+            "url": "https://stephen-king-api.onrender.com/api/place/168"
+          },
+          {
+            "name": "The Club",
+            "url": "https://stephen-king-api.onrender.com/api/place/176"
+          }
+        ]
+      },
+      {
+        "id": 91,
+        "name": "Nodd's Ridge, Maine",
+        "handle": "nodd-s-ridge-maine",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/28"
+        },
+        "places": []
+      },
+      {
+        "id": 92,
+        "name": "Ogunquit, Maine",
+        "handle": "ogunquit-maine",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/28"
+        },
+        "places": []
+      },
+      {
+        "id": 93,
+        "name": "Placerville, Maine",
+        "handle": "placerville-maine",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/28"
+        },
+        "places": []
+      },
+      {
+        "id": 94,
+        "name": "Polliston, Kansas",
+        "handle": "polliston-kansas",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Kansas",
+          "url": "https://stephen-king-api.onrender.com/api/place/26"
+        },
+        "places": []
+      },
+      {
+        "id": 95,
+        "name": "Portland, Maine",
+        "handle": "portland-maine",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/28"
+        },
+        "places": []
+      },
+      {
+        "id": 96,
+        "name": "Pownal, Maine",
+        "handle": "pownal-maine",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/28"
+        },
+        "places": [
+          {
+            "name": "Dead Man's Trail",
+            "url": "https://stephen-king-api.onrender.com/api/place/142"
+          }
+        ]
+      },
+      {
+        "id": 97,
+        "name": "Powtanville, Indiana",
+        "handle": "powtanville-indiana",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Indiana",
+          "url": "https://stephen-king-api.onrender.com/api/place/24"
+        },
+        "places": []
+      },
+      {
+        "id": 98,
+        "name": "Pratt, Kansas",
+        "handle": "pratt-kansas",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Kansas",
+          "url": "https://stephen-king-api.onrender.com/api/place/26"
+        },
+        "places": []
+      },
+      {
+        "id": 99,
+        "name": "Preacher's Corners, Maine",
+        "handle": "preacher-s-corners-maine",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/28"
+        },
+        "places": []
+      },
+      {
+        "id": 100,
+        "name": "Princetown",
+        "handle": "princetown",
+        "type": "town",
+        "created_at": "2026-10-28T20:25:46.000Z",
+        "parent": {
+          "name": "Mid-world",
+          "url": "https://stephen-king-api.onrender.com/api/place/18"
+        },
+        "places": []
+      }
+    ],
+    "pagination": {
+      "page": 2,
+      "limit": 50,
+      "total": 184,
+      "totalPages": 4
+    }
+  }
+}

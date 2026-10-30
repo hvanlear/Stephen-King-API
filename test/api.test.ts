@@ -12,6 +12,7 @@ const resources = [
   { list: "/api/books", detail: "/api/book", total: count("books.json"), missing: "Book not found" },
   { list: "/api/shorts", detail: "/api/short", total: count("shorts.json"), missing: "Short not found" },
   { list: "/api/villains", detail: "/api/villain", total: count("villains.json"), missing: "Villain not found" },
+  { list: "/api/places", detail: "/api/place", total: count("places.json"), missing: "Place not found" },
 ];
 
 let server: TestServer;
@@ -132,6 +133,23 @@ describe("links", () => {
           linked.data.villains.some((v: { url: string }) => v.url.endsWith(`/api/villain/${villain.id}`)),
           `book ${id} doesn't link back to villain ${villain.id}`
         );
+      }
+    }
+  });
+
+  it("point both ways between places and the places in them", async () => {
+    const { body } = await get("/api/places");
+    const idOf = (link: { url: string }) => Number(link.url.split("/").pop());
+    const names = new Map(body.data.map((place: { id: number; name: string }) => [place.id, place.name]));
+    for (const place of body.data) {
+      const inside = body.data.filter((other: any) => other.parent && idOf(other.parent) === place.id);
+      assert.deepEqual(
+        place.places.map(idOf),
+        inside.map((other: { id: number }) => other.id),
+        `place ${place.id} doesn't list every place inside it`
+      );
+      for (const link of [place.parent, ...place.places].filter(Boolean)) {
+        assert.equal(link.name, names.get(idOf(link)), `place ${place.id} links ${link.url} under the wrong name`);
       }
     }
   });

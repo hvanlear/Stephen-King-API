@@ -1,0 +1,7 @@
+{
+  "path": "/api/place/9999",
+  "status": 404,
+  "body": {
+    "error": "Place not found"
+  }
+}

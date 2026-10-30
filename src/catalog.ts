@@ -71,7 +71,7 @@ export interface Publication {
   id: number;
   name: string;
   handle: string;
-  type: string;
+  type: "magazine" | "anthology" | "newspaper" | "other";
   created_at: string;
 }
 

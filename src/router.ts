@@ -4,6 +4,7 @@ import { getShorts, getOneShort } from "./handlers/short";
 import { getOneVillain, getVillains } from "./handlers/villains";
 import { getOnePlace, getPlaces } from "./handlers/places";
 import { getOneType, getTypes } from "./handlers/types";
+import { getCollections, getOneCollection } from "./handlers/collections";
 
 const router = Router();
 
@@ -26,5 +27,9 @@ router.get("/place/:id", getOnePlace);
 //Types Router
 router.get("/types", getTypes);
 router.get("/type/:id", getOneType);
+
+//Collections Router
+router.get("/collections", getCollections);
+router.get("/collection/:id", getOneCollection);
 
 export default router;

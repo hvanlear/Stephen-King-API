@@ -1,0 +1,85 @@
+{
+  "path": "/api/book/12",
+  "status": 200,
+  "body": {
+    "data": {
+      "id": 12,
+      "Year": 1982,
+      "Title": "The Dark Tower: The Gunslinger",
+      "handle": "the-dark-tower-the-gunslinger",
+      "Publisher": "Grant",
+      "ISBN": "978-0-937986-50-9",
+      "Pages": 224,
+      "Notes": [],
+      "created_at": "2023-11-13T23:48:49.374Z",
+      "villains": [
+        {
+          "name": "Marten Broadcloak",
+          "url": "https://stephen-king-api.onrender.com/api/villain/10"
+        },
+        {
+          "name": "Crimson King",
+          "url": "https://stephen-king-api.onrender.com/api/villain/17"
+        },
+        {
+          "name": "Randall Flagg",
+          "url": "https://stephen-king-api.onrender.com/api/villain/37"
+        },
+        {
+          "name": "Sylvia Pittston",
+          "url": "https://stephen-king-api.onrender.com/api/villain/84"
+        }
+      ],
+      "places": [
+        {
+          "name": "All-world",
+          "url": "https://stephen-king-api.onrender.com/api/place/1"
+        },
+        {
+          "name": "End-world",
+          "url": "https://stephen-king-api.onrender.com/api/place/16"
+        },
+        {
+          "name": "In-world",
+          "url": "https://stephen-king-api.onrender.com/api/place/17"
+        },
+        {
+          "name": "Mid-world",
+          "url": "https://stephen-king-api.onrender.com/api/place/18"
+        },
+        {
+          "name": "Mohaine Desert",
+          "url": "https://stephen-king-api.onrender.com/api/place/43"
+        },
+        {
+          "name": "New Canaan",
+          "url": "https://stephen-king-api.onrender.com/api/place/44"
+        },
+        {
+          "name": "Princetown",
+          "url": "https://stephen-king-api.onrender.com/api/place/100"
+        },
+        {
+          "name": "Tull",
+          "url": "https://stephen-king-api.onrender.com/api/place/116"
+        },
+        {
+          "name": "Cyclopean Mountains",
+          "url": "https://stephen-king-api.onrender.com/api/place/122"
+        },
+        {
+          "name": "Gilead",
+          "url": "https://stephen-king-api.onrender.com/api/place/136"
+        },
+        {
+          "name": "The Way Station",
+          "url": "https://stephen-king-api.onrender.com/api/place/180"
+        }
+      ],
+      "collection": {
+        "name": "The Dark Tower: The Gunslinger",
+        "url": "https://stephen-king-api.onrender.com/api/collection/2"
+      }
+    }
+  }
+}

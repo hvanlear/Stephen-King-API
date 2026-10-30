@@ -10,6 +10,10 @@
         "handle": "thin-scenery",
         "originallyPublishedIn": "Ploughshares (Summer 2017)",
         "collectedIn": "Uncollected",
+        "collection": {
+          "name": "Uncollected",
+          "url": "https://stephen-king-api.onrender.com/api/collection/16"
+        },
         "notes": [],
         "year": 2017,
         "created_at": "2023-11-13T23:49:20.979Z",
@@ -23,6 +27,10 @@
         "handle": "laurie",
         "originallyPublishedIn": "stephenking.com (May 17, 2018)",
         "collectedIn": "You Like It Darker (2024)",
+        "collection": {
+          "name": "You Like It Darker",
+          "url": "https://stephen-king-api.onrender.com/api/collection/15"
+        },
         "notes": [
           "Free download",
           "[4] included in the Elevation audiobook"
@@ -44,6 +52,10 @@
         "handle": "elevation",
         "originallyPublishedIn": "Elevation (October 2018)",
         "collectedIn": "Uncollected (standalone book)",
+        "collection": {
+          "name": "Uncollected (standalone book)",
+          "url": "https://stephen-king-api.onrender.com/api/collection/17"
+        },
         "notes": [],
         "year": 2018,
         "created_at": "2023-11-13T23:49:21.223Z",
@@ -66,6 +78,10 @@
         "handle": "the-turbulence-expert",
         "originallyPublishedIn": "Flight or Fright (September 4, 2018)",
         "collectedIn": "You Like It Darker (2024)",
+        "collection": {
+          "name": "You Like It Darker",
+          "url": "https://stephen-king-api.onrender.com/api/collection/15"
+        },
         "notes": [],
         "year": 2018,
         "created_at": "2023-11-13T23:49:21.341Z",
@@ -79,6 +95,10 @@
         "handle": "squad-d",
         "originallyPublishedIn": "Shivers VIII  (April 18, 2019)",
         "collectedIn": "Uncollected",
+        "collection": {
+          "name": "Uncollected",
+          "url": "https://stephen-king-api.onrender.com/api/collection/16"
+        },
         "notes": [
           "written in the late 1970s"
         ],
@@ -94,6 +114,10 @@
         "handle": "the-fifth-step",
         "originallyPublishedIn": "Harper's Magazine (March 2020)",
         "collectedIn": "You Like It Darker (2024)",
+        "collection": {
+          "name": "You Like It Darker",
+          "url": "https://stephen-king-api.onrender.com/api/collection/15"
+        },
         "notes": [],
         "year": 2020,
         "created_at": "2023-11-13T23:49:21.582Z",
@@ -107,6 +131,10 @@
         "handle": "if-it-bleeds",
         "originallyPublishedIn": "If It Bleeds (April 2020)",
         "collectedIn": "If It Bleeds (2020)",
+        "collection": {
+          "name": "If It Bleeds",
+          "url": "https://stephen-king-api.onrender.com/api/collection/14"
+        },
         "notes": [
           "First novella in the Holly Gibney Series"
         ],
@@ -127,6 +155,10 @@
         "handle": "the-life-of-chuck",
         "originallyPublishedIn": "If It Bleeds (April 2020)",
         "collectedIn": "If It Bleeds (2020)",
+        "collection": {
+          "name": "If It Bleeds",
+          "url": "https://stephen-king-api.onrender.com/api/collection/14"
+        },
         "notes": [],
         "year": 2020,
         "created_at": "2023-11-13T23:49:21.816Z",
@@ -140,6 +172,10 @@
         "handle": "mr-harrigan-s-phone",
         "originallyPublishedIn": "If It Bleeds (April 2020)",
         "collectedIn": "If It Bleeds (2020)",
+        "collection": {
+          "name": "If It Bleeds",
+          "url": "https://stephen-king-api.onrender.com/api/collection/14"
+        },
         "notes": [],
         "year": 2020,
         "created_at": "2023-11-13T23:49:21.928Z",
@@ -153,6 +189,10 @@
         "handle": "rat",
         "originallyPublishedIn": "If It Bleeds (April 2020)",
         "collectedIn": "If It Bleeds (2020)",
+        "collection": {
+          "name": "If It Bleeds",
+          "url": "https://stephen-king-api.onrender.com/api/collection/14"
+        },
         "notes": [],
         "year": 2020,
         "created_at": "2023-11-13T23:49:22.042Z",
@@ -171,6 +211,10 @@
         "handle": "on-slide-inn-road",
         "originallyPublishedIn": "Esquire Magazine (October/November 2020)",
         "collectedIn": "You Like It Darker (2024)",
+        "collection": {
+          "name": "You Like It Darker",
+          "url": "https://stephen-king-api.onrender.com/api/collection/15"
+        },
         "notes": [],
         "year": 2020,
         "created_at": "2023-11-13T23:49:22.160Z",
@@ -184,6 +228,10 @@
         "handle": "willie-the-weirdo",
         "originallyPublishedIn": "McSweeney's 66 (Spring 2022)",
         "collectedIn": "You Like It Darker (2024)",
+        "collection": {
+          "name": "You Like It Darker",
+          "url": "https://stephen-king-api.onrender.com/api/collection/15"
+        },
         "notes": [
           "Originally planned for McSweeney's 65 in 2021"
         ],
@@ -199,6 +247,10 @@
         "handle": "red-screen",
         "originallyPublishedIn": "Humble Bundle (September 9, 2021)",
         "collectedIn": "You Like It Darker (2024)",
+        "collection": {
+          "name": "You Like It Darker",
+          "url": "https://stephen-king-api.onrender.com/api/collection/15"
+        },
         "notes": [
           "Originally published as an ebook"
         ],
@@ -214,6 +266,10 @@
         "handle": "finn",
         "originallyPublishedIn": "Scribd (May 25, 2022)",
         "collectedIn": "You Like It Darker (2024)",
+        "collection": {
+          "name": "You Like It Darker",
+          "url": "https://stephen-king-api.onrender.com/api/collection/15"
+        },
         "notes": [
           "Originally published as an ebook and audiobook"
         ],
@@ -229,6 +285,10 @@
         "handle": "two-talented-bastids",
         "originallyPublishedIn": "You Like It Darker (May 2024)",
         "collectedIn": "You Like It Darker (2024)",
+        "collection": {
+          "name": "You Like It Darker",
+          "url": "https://stephen-king-api.onrender.com/api/collection/15"
+        },
         "notes": [],
         "year": 2024,
         "created_at": "2026-10-28T18:48:53.000Z",
@@ -251,6 +311,10 @@
         "handle": "danny-coughlin-s-bad-dream",
         "originallyPublishedIn": "You Like It Darker (May 2024)",
         "collectedIn": "You Like It Darker (2024)",
+        "collection": {
+          "name": "You Like It Darker",
+          "url": "https://stephen-king-api.onrender.com/api/collection/15"
+        },
         "notes": [],
         "year": 2024,
         "created_at": "2026-10-28T18:48:53.000Z",
@@ -264,6 +328,10 @@
         "handle": "rattlesnakes",
         "originallyPublishedIn": "You Like It Darker (May 2024)",
         "collectedIn": "You Like It Darker (2024)",
+        "collection": {
+          "name": "You Like It Darker",
+          "url": "https://stephen-king-api.onrender.com/api/collection/15"
+        },
         "notes": [
           "Sequel to Cujo"
         ],
@@ -288,6 +356,10 @@
         "handle": "the-dreamers",
         "originallyPublishedIn": "You Like It Darker (May 2024)",
         "collectedIn": "You Like It Darker (2024)",
+        "collection": {
+          "name": "You Like It Darker",
+          "url": "https://stephen-king-api.onrender.com/api/collection/15"
+        },
         "notes": [],
         "year": 2024,
         "created_at": "2026-10-28T18:48:53.000Z",
@@ -306,6 +378,10 @@
         "handle": "the-answer-man",
         "originallyPublishedIn": "You Like It Darker (May 2024)",
         "collectedIn": "You Like It Darker (2024)",
+        "collection": {
+          "name": "You Like It Darker",
+          "url": "https://stephen-king-api.onrender.com/api/collection/15"
+        },
         "notes": [],
         "year": 2024,
         "created_at": "2026-10-28T18:48:53.000Z",
@@ -319,6 +395,10 @@
         "handle": "the-extra-hour",
         "originallyPublishedIn": "Cemetery Dance #79 (January 2025)",
         "collectedIn": "Uncollected",
+        "collection": {
+          "name": "Uncollected",
+          "url": "https://stephen-king-api.onrender.com/api/collection/16"
+        },
         "notes": [],
         "year": 2025,
         "created_at": "2026-10-28T18:48:53.000Z",
@@ -332,6 +412,10 @@
         "handle": "hansel-and-gretel",
         "originallyPublishedIn": "Hansel and Gretel (September 2025)",
         "collectedIn": "Uncollected (standalone book)",
+        "collection": {
+          "name": "Uncollected (standalone book)",
+          "url": "https://stephen-king-api.onrender.com/api/collection/17"
+        },
         "notes": [
           "Children's picture book illustrated by Maurice Sendak"
         ],
@@ -347,6 +431,10 @@
         "handle": "dinah-s-hat",
         "originallyPublishedIn": "The Atlantic (June 2026)",
         "collectedIn": "Uncollected",
+        "collection": {
+          "name": "Uncollected",
+          "url": "https://stephen-king-api.onrender.com/api/collection/16"
+        },
         "notes": [],
         "year": 2026,
         "created_at": "2026-10-28T18:48:53.000Z",

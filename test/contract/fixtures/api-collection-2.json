@@ -1,0 +1,39 @@
+{
+  "path": "/api/collection/2",
+  "status": 200,
+  "body": {
+    "data": {
+      "id": 2,
+      "name": "The Dark Tower: The Gunslinger",
+      "handle": "the-dark-tower-the-gunslinger",
+      "year": 1982,
+      "created_at": "2026-10-30T01:26:00.000Z",
+      "book": {
+        "title": "The Dark Tower: The Gunslinger",
+        "url": "https://stephen-king-api.onrender.com/api/book/12"
+      },
+      "shorts": [
+        {
+          "title": "The Gunslinger",
+          "url": "https://stephen-king-api.onrender.com/api/short/64"
+        },
+        {
+          "title": "The Way Station",
+          "url": "https://stephen-king-api.onrender.com/api/short/69"
+        },
+        {
+          "title": "The Oracle and the Mountains",
+          "url": "https://stephen-king-api.onrender.com/api/short/73"
+        },
+        {
+          "title": "The Slow Mutants",
+          "url": "https://stephen-king-api.onrender.com/api/short/75"
+        },
+        {
+          "title": "The Gunslinger and the Dark Man",
+          "url": "https://stephen-king-api.onrender.com/api/short/79"
+        }
+      ]
+    }
+  }
+}

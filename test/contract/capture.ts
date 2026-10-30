@@ -40,12 +40,21 @@ const PATHS = [
   "/api/types",
   "/api/type/2",
   "/api/type/16",
+  // Collections: the list, a short last page, one that's also a book, and
+  // the Uncollected record
+  "/api/collections",
+  "/api/collections?page=2&limit=10",
+  "/api/collection/1",
+  "/api/collection/2",
+  "/api/collection/16",
+  "/api/book/12",
   // Not found (72 was the deleted junk book, and type 5 the old "group")
   "/api/book/72",
   "/api/short/9999",
   "/api/villain/9999",
   "/api/place/9999",
   "/api/type/5",
+  "/api/collection/9999",
 ];
 
 function fixtureName(requestPath: string): string {

@@ -14,6 +14,7 @@ const resources = [
   { list: "/api/villains", detail: "/api/villain", total: count("villains.json"), missing: "Villain not found" },
   { list: "/api/places", detail: "/api/place", total: count("places.json"), missing: "Place not found" },
   { list: "/api/types", detail: "/api/type", total: count("types.json"), missing: "Type not found" },
+  { list: "/api/collections", detail: "/api/collection", total: count("collections.json"), missing: "Collection not found" },
 ];
 
 let server: TestServer;
@@ -236,6 +237,46 @@ describe("links", () => {
         `type ${type.id} (${type.name}) lists the wrong villains`
       );
     }
+  });
+
+  it("point both ways between shorts and their collections", async () => {
+    const { body: collectionList } = await get("/api/collections");
+    const { body: shortList } = await get("/api/shorts");
+    const idOf = (link: { url: string }) => Number(link.url.split("/").pop());
+    const names = new Map(collectionList.data.map((collection: { id: number; name: string }) => [collection.id, collection.name]));
+    const fromShorts = new Map<number, number[]>();
+    for (const short of shortList.data) {
+      // Every short has one, even if it's the Uncollected record
+      assert.ok(short.collection, `short ${short.id} has no collection`);
+      assert.match(short.collection.url, /\/api\/collection\/\d+$/);
+      assert.equal(short.collection.name, names.get(idOf(short.collection)), `short ${short.id} links its collection under the wrong name`);
+      fromShorts.set(idOf(short.collection), [...(fromShorts.get(idOf(short.collection)) || []), short.id]);
+    }
+    const titles = new Map(shortList.data.map((short: { id: number; title: string }) => [short.id, short.title]));
+    for (const collection of collectionList.data) {
+      assert.deepEqual(
+        collection.shorts.map(idOf),
+        fromShorts.get(collection.id) || [],
+        `collection ${collection.id} (${collection.name}) lists the wrong shorts`
+      );
+      for (const link of collection.shorts) {
+        assert.equal(link.title, titles.get(idOf(link)), `collection ${collection.id} links ${link.url} under the wrong title`);
+      }
+    }
+  });
+
+  it("point both ways between books and the collections they are", async () => {
+    const { body: collectionList } = await get("/api/collections");
+    const { body: bookList } = await get("/api/books");
+    const fromBooks = bookList.data
+      .filter((book: any) => book.collection)
+      .map((book: any) => `${new URL(book.collection.url).pathname} /api/book/${book.id}`);
+    const fromCollections = collectionList.data
+      .filter((collection: any) => collection.book)
+      .map((collection: any) => `/api/collection/${collection.id} ${new URL(collection.book.url).pathname}`);
+    assert.deepEqual(fromBooks, fromCollections);
+    // The Gunslinger and Blaze
+    assert.equal(fromBooks.length, 2);
   });
 
   it("list a place's residents in every place it's in", async () => {

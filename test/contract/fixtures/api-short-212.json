@@ -9,6 +9,10 @@
       "handle": "willie-the-weirdo",
       "originallyPublishedIn": "McSweeney's 66 (Spring 2022)",
       "collectedIn": "You Like It Darker (2024)",
+      "collection": {
+        "name": "You Like It Darker",
+        "url": "https://stephen-king-api.onrender.com/api/collection/15"
+      },
       "notes": [
         "Originally planned for McSweeney's 65 in 2021"
       ],

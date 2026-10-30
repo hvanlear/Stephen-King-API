@@ -1,0 +1,7 @@
+{
+  "path": "/api/collection/9999",
+  "status": 404,
+  "body": {
+    "error": "Collection not found"
+  }
+}

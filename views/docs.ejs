@@ -446,7 +446,7 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
         <section id="places" class="docs-section">
           <h2>Places</h2>
           <p>
-            Places run from buildings up to towns, states, countries and other worlds. Each place links to its <code>parent</code>, the place it's in, and lists the <code>places</code> inside it, so Marsten House leads to Jerusalem's Lot, then Maine, then the United States.
+            Places run from buildings up to towns, states, countries and other worlds. Each place links to its <code>parent</code>, the place it's in, and lists the <code>places</code> inside it, so Marsten House leads to Jerusalem's Lot, then Maine, then the United States. A place also links to the <code>books</code> and <code>shorts</code> set there and the <code>villains</code> who live there, counting anyone living in a place inside it: Kurt Barlow lives in the Marsten House, so Jerusalem's Lot and Maine list him too.
           </p>
 
           <!-- GET /api/places -->
@@ -482,6 +482,76 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
         {
           "name": "Mid-world",
           "url": "<%= url %>/api/place/18"
+        }
+      ],
+      "books": [
+        {
+          "title": "The Dark Tower: The Gunslinger",
+          "url": "<%= url %>/api/book/12"
+        },
+        {
+          "title": "The Talisman",
+          "url": "<%= url %>/api/book/16"
+        },
+        {
+          "title": "The Eyes of the Dragon",
+          "url": "<%= url %>/api/book/17"
+        },
+        {
+          "title": "The Dark Tower II: The Drawing of the Three",
+          "url": "<%= url %>/api/book/20"
+        },
+        {
+          "title": "The Dark Tower III: The Waste Lands",
+          "url": "<%= url %>/api/book/25"
+        },
+        {
+          "title": "The Dark Tower IV: Wizard and Glass",
+          "url": "<%= url %>/api/book/34"
+        },
+        {
+          "title": "The Dark Tower V: Wolves of the Calla",
+          "url": "<%= url %>/api/book/40"
+        },
+        {
+          "title": "The Dark Tower VI: Song of Susannah",
+          "url": "<%= url %>/api/book/41"
+        },
+        {
+          "title": "The Dark Tower VII: The Dark Tower",
+          "url": "<%= url %>/api/book/42"
+        },
+        {
+          "title": "The Dark Tower: The Wind Through the Keyhole",
+          "url": "<%= url %>/api/book/50"
+        }
+      ],
+      "shorts": [
+        {
+          "title": "The Little Sisters of Eluria",
+          "url": "<%= url %>/api/short/139"
+        }
+      ],
+      "villains": [
+        {
+          "name": "Marten Broadcloak",
+          "url": "<%= url %>/api/villain/10"
+        },
+        {
+          "name": "Rhea Dubativo",
+          "url": "<%= url %>/api/villain/32"
+        },
+        {
+          "name": "Eldred Jonas",
+          "url": "<%= url %>/api/villain/60"
+        },
+        {
+          "name": "Sylvia Pittston",
+          "url": "<%= url %>/api/villain/84"
+        },
+        {
+          "name": "Ben Slightman",
+          "url": "<%= url %>/api/villain/178"
         }
       ]
     }
@@ -538,6 +608,36 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
       {
         "name": "Stanley Street Elementary School",
         "url": "<%= url %>/api/place/173"
+      }
+    ],
+    "books": [
+      {
+        "title": "Salem's Lot",
+        "url": "<%= url %>/api/book/2"
+      }
+    ],
+    "shorts": [
+      {
+        "title": "One for the Road",
+        "url": "<%= url %>/api/short/54"
+      },
+      {
+        "title": "Jerusalem's Lot",
+        "url": "<%= url %>/api/short/58"
+      }
+    ],
+    "villains": [
+      {
+        "name": "Kurt Barlow",
+        "url": "<%= url %>/api/villain/2"
+      },
+      {
+        "name": "James Boon",
+        "url": "<%= url %>/api/villain/6"
+      },
+      {
+        "name": "Richard Straker",
+        "url": "<%= url %>/api/villain/98"
       }
     ]
   }
@@ -771,6 +871,21 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
                 <td><code>places</code></td>
                 <td>array</td>
                 <td>The places inside it, with name and URL</td>
+              </tr>
+              <tr>
+                <td><code>books</code></td>
+                <td>array</td>
+                <td>Books set there, with title and URL</td>
+              </tr>
+              <tr>
+                <td><code>shorts</code></td>
+                <td>array</td>
+                <td>Short stories set there, with title and URL</td>
+              </tr>
+              <tr>
+                <td><code>villains</code></td>
+                <td>array</td>
+                <td>Villains who live there or in a place inside it, with name and URL</td>
               </tr>
               <tr>
                 <td><code>created_at</code></td>

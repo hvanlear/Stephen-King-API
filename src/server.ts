@@ -13,6 +13,16 @@ import {
   loginLimiter,
 } from "./modules/dashboardAuth";
 import { showLogin, showDashboard, handleLogout } from "./handlers/dashboard";
+import {
+  books,
+  shorts,
+  villains,
+  places,
+  types,
+  collections,
+  publications,
+} from "./catalog";
+import { bookResponse } from "./utils/responseHelper";
 
 const app = express();
 
@@ -38,8 +48,22 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
+// The home page opens on a real response, built here so a page view doesn't
+// count as an API hit on the dashboard
+const homeCounts = {
+  books: books.length,
+  shorts: shorts.length,
+  villains: villains.length,
+  places: places.length,
+  types: types.length,
+  collections: collections.length,
+  publications: publications.length,
+};
+const homeBook = books.find((book) => book.id === 19) ?? books[0];
+const homeExample = JSON.stringify({ data: bookResponse(homeBook) }, null, 2);
+
 app.get("/", (req, res) => {
-  res.render("index", { url: config.url });
+  res.render("index", { url: config.url, counts: homeCounts, example: homeExample });
 });
 
 app.get("/docs", (req, res) => {

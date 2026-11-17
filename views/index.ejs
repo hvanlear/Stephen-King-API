@@ -22,222 +22,58 @@
     <title>Stephen King API</title>
   </head>
   <body>
-    <div class="primary-container">
-      <div class="inner-container">
-        <div class="banner-1">
-          <span class="sk"
-            ><div>Stephen</div>
-            <div>King</div></span
-          >
-          <h1 class="red sk-sub">The Api</h1>
-        </div>
-
-        <div class="docs-link-container">
+    <%
+      const resources = [
+        { name: "Books", list: "books", one: "book", id: 19, count: counts.books },
+        { name: "Short stories", list: "shorts", one: "short", id: 19, count: counts.shorts },
+        { name: "Villains", list: "villains", one: "villain", id: 19, count: counts.villains },
+        { name: "Places", list: "places", one: "place", id: 76, count: counts.places },
+        { name: "Villain types", list: "types", one: "type", id: 2, count: counts.types },
+        { name: "Collections", list: "collections", one: "collection", id: 1, count: counts.collections },
+        { name: "Publications", list: "publications", one: "publication", id: 7, count: counts.publications },
+      ];
+    %>
+    <div class="home">
+      <header class="home-header">
+        <a class="home-wordmark" href="/" aria-label="Stephen King API home">
+          <span class="home-sk">Stephen King</span>
+          <span class="home-sk-sub">The Api</span>
+        </a>
+        <div class="home-intro">
+          <p>A free, read-only REST API of King's books, short stories, villains and the places they haunt. No key, just GET.</p>
           <a class="docs-link" href="/docs">View Documentation &rarr;</a>
         </div>
+      </header>
 
-        <div>
-          <div class="code-blocks">
-            <div class="block">
-              <code>GET /api/books</code>
-              <blockquote>
-                <p>
-                  <a
-                    class="underline-link block-link"
-                    href="/api/books"
-                    target="_blank"
-                    ><span class="url"><%= url %></span
-                    ><span class="bold">/api/books</span></a
-                  >
-                </p>
-              </blockquote>
-            </div>
-            <div class="block">
-              <code>GET /api/book/{id}</code>
-              <blockquote>
-                <p>
-                  <a
-                    class="underline-link block-link"
-                    href="/api/book/19"
-                    target="_blank"
-                    ><span class="url"><%= url %></span
-                    ><span class="bold">/api/book/19</span></a
-                  >
-                </p>
-              </blockquote>
-            </div>
-            <div class="block">
-              <code>GET /api/shorts</code>
-              <blockquote>
-                <p>
-                  <a
-                    class="underline-link block-link"
-                    href="/api/shorts"
-                    target="_blank"
-                    ><span class="url"><%= url %></span
-                    ><span class="bold">/api/shorts</span></a
-                  >
-                </p>
-              </blockquote>
-            </div>
-            <div class="block">
-              <code>GET /api/short/{id}</code>
-              <blockquote>
-                <p>
-                  <a
-                    class="underline-link block-link"
-                    href="/api/short/19"
-                    target="_blank"
-                    ><span class="url"><%= url %></span
-                    ><span class="bold">/api/short/19</span></a
-                  >
-                </p>
-              </blockquote>
-            </div>
-            <div class="block">
-              <code>GET /api/villains</code>
-              <blockquote>
-                <p>
-                  <a
-                    class="underline-link block-link"
-                    href="/api/villains"
-                    target="_blank"
-                    ><span class="url"><%= url %></span
-                    ><span class="bold">/api/villains</span></a
-                  >
-                </p>
-              </blockquote>
-            </div>
-            <div class="block">
-              <code>GET /api/villain/{id}</code>
-              <blockquote>
-                <p>
-                  <a
-                    class="underline-link block-link"
-                    href="/api/villain/19"
-                    target="_blank"
-                    ><span class="url"><%= url %></span
-                    ><span class="bold">/api/villain/19</span></a
-                  >
-                </p>
-              </blockquote>
-            </div>
-            <div class="block">
-              <code>GET /api/places</code>
-              <blockquote>
-                <p>
-                  <a
-                    class="underline-link block-link"
-                    href="/api/places"
-                    target="_blank"
-                    ><span class="url"><%= url %></span
-                    ><span class="bold">/api/places</span></a
-                  >
-                </p>
-              </blockquote>
-            </div>
-            <div class="block">
-              <code>GET /api/place/{id}</code>
-              <blockquote>
-                <p>
-                  <a
-                    class="underline-link block-link"
-                    href="/api/place/76"
-                    target="_blank"
-                    ><span class="url"><%= url %></span
-                    ><span class="bold">/api/place/76</span></a
-                  >
-                </p>
-              </blockquote>
-            </div>
-            <div class="block">
-              <code>GET /api/types</code>
-              <blockquote>
-                <p>
-                  <a
-                    class="underline-link block-link"
-                    href="/api/types"
-                    target="_blank"
-                    ><span class="url"><%= url %></span
-                    ><span class="bold">/api/types</span></a
-                  >
-                </p>
-              </blockquote>
-            </div>
-            <div class="block">
-              <code>GET /api/type/{id}</code>
-              <blockquote>
-                <p>
-                  <a
-                    class="underline-link block-link"
-                    href="/api/type/2"
-                    target="_blank"
-                    ><span class="url"><%= url %></span
-                    ><span class="bold">/api/type/2</span></a
-                  >
-                </p>
-              </blockquote>
-            </div>
-            <div class="block">
-              <code>GET /api/collections</code>
-              <blockquote>
-                <p>
-                  <a
-                    class="underline-link block-link"
-                    href="/api/collections"
-                    target="_blank"
-                    ><span class="url"><%= url %></span
-                    ><span class="bold">/api/collections</span></a
-                  >
-                </p>
-              </blockquote>
-            </div>
-            <div class="block">
-              <code>GET /api/collection/{id}</code>
-              <blockquote>
-                <p>
-                  <a
-                    class="underline-link block-link"
-                    href="/api/collection/1"
-                    target="_blank"
-                    ><span class="url"><%= url %></span
-                    ><span class="bold">/api/collection/1</span></a
-                  >
-                </p>
-              </blockquote>
-            </div>
-            <div class="block">
-              <code>GET /api/publications</code>
-              <blockquote>
-                <p>
-                  <a
-                    class="underline-link block-link"
-                    href="/api/publications"
-                    target="_blank"
-                    ><span class="url"><%= url %></span
-                    ><span class="bold">/api/publications</span></a
-                  >
-                </p>
-              </blockquote>
-            </div>
-            <div class="block">
-              <code>GET /api/publication/{id}</code>
-              <blockquote>
-                <p>
-                  <a
-                    class="underline-link block-link"
-                    href="/api/publication/7"
-                    target="_blank"
-                    ><span class="url"><%= url %></span
-                    ><span class="bold">/api/publication/7</span></a
-                  >
-                </p>
-              </blockquote>
-            </div>
+      <main class="home-main">
+        <nav class="home-endpoints" aria-label="Endpoints">
+          <% resources.forEach((r) => { %>
+            <section class="home-resource">
+              <h2><%= r.name %> <span class="home-count"><%= r.count %></span></h2>
+              <a class="home-endpoint" href="/api/<%= r.list %>" target="_blank"
+                 data-path="/api/<%= r.list %>" data-preview="/api/<%= r.list %>?page=1&amp;limit=2">
+                <code>GET /api/<%= r.list %></code>
+              </a>
+              <a class="home-endpoint<%= r.one === 'book' ? ' is-active' : '' %>" href="/api/<%= r.one %>/<%= r.id %>" target="_blank"
+                 data-path="/api/<%= r.one %>/{id}" data-preview="/api/<%= r.one %>/<%= r.id %>"
+                 <%= r.one === 'book' ? 'aria-current="true"' : '' %>>
+                <code>GET /api/<%= r.one %>/{id}</code>
+              </a>
+            </section>
+          <% }) %>
+        </nav>
+
+        <section class="home-example" aria-label="Example response">
+          <div class="home-example-bar">
+            <a id="example-url" class="home-example-url" href="/api/book/19" target="_blank"><span class="url"><%= url %></span><span class="bold" id="example-path">/api/book/19</span></a>
+            <span id="example-status" class="home-example-status">200</span>
           </div>
-        </div>
+          <pre id="example-body" class="home-example-body" aria-live="polite"><%= example %></pre>
+          <p class="home-example-note">Lists return everything unless you pass <code>page</code> and <code>limit</code>; the examples here ask for two.</p>
+        </section>
+      </main>
 
-        <div class="footer">
+      <footer class="footer">
           <a
             class="underline-link author"
             href="https://github.com/hvanlear"
@@ -300,8 +136,74 @@
             licensed under
             <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>.
           </p>
-        </div>
-      </div>
+        </footer>
+
     </div>
+    <script>
+      (function () {
+        var links = document.querySelectorAll(".home-endpoint");
+        var urlEl = document.getElementById("example-url");
+        var pathEl = document.getElementById("example-path");
+        var statusEl = document.getElementById("example-status");
+        var bodyEl = document.getElementById("example-body");
+        var cache = {};
+
+        function escape(s) {
+          return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+        }
+        // Colours keys, strings, numbers and literals in pretty-printed JSON
+        function highlight(json) {
+          return escape(json).replace(
+            /("(?:\\.|[^"\\])*")(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d+)?/g,
+            function (m, str, colon, lit) {
+              if (str) return colon ? '<span class="j-key">' + str + "</span>" + colon : '<span class="j-str">' + str + "</span>";
+              if (lit) return '<span class="j-lit">' + m + "</span>";
+              return '<span class="j-num">' + m + "</span>";
+            }
+          );
+        }
+        function show(path, status, text) {
+          pathEl.textContent = path;
+          urlEl.href = path;
+          statusEl.textContent = status;
+          statusEl.classList.toggle("is-error", status >= 400);
+          bodyEl.innerHTML = highlight(text);
+          bodyEl.scrollTop = 0;
+        }
+
+        bodyEl.innerHTML = highlight(bodyEl.textContent);
+
+        links.forEach(function (link) {
+          link.addEventListener("click", function (e) {
+            if (e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return;
+            e.preventDefault();
+            links.forEach(function (l) { l.classList.remove("is-active"); l.removeAttribute("aria-current"); });
+            link.classList.add("is-active");
+            link.setAttribute("aria-current", "true");
+            var path = link.dataset.preview;
+            // On a phone the example sits below the list, so bring it into view
+            if (window.matchMedia("(max-width: 800px)").matches) {
+              urlEl.parentNode.scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+            if (cache[path]) return show(path, cache[path].status, cache[path].text);
+            bodyEl.classList.add("is-loading");
+            fetch(path)
+              .then(function (res) {
+                return res.json().then(function (body) {
+                  return { status: res.status, text: JSON.stringify(body, null, 2) };
+                });
+              })
+              .then(function (r) {
+                if (r.status < 400) cache[path] = r;
+                show(path, r.status, r.text);
+              })
+              .catch(function () {
+                show(path, "—", "Couldn't reach the API. Try the link instead.");
+              })
+              .then(function () { bodyEl.classList.remove("is-loading"); });
+          });
+        });
+      })();
+    </script>
   </body>
 </html>

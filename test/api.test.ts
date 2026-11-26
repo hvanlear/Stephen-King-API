@@ -3,20 +3,22 @@ import path from "path";
 import { describe, it, before, after } from "node:test";
 import assert from "node:assert/strict";
 import { startServer, TestServer } from "./server";
+// After ./server, which sets URL before the response builders read it
+import { kinds } from "../src/kinds";
 
-// From the files, so adding a record doesn't mean editing this test
+// Totals come from the files rather than what the app loaded, so a record the
+// loader drops is caught. Every catalog file is named for its list route.
 const count = (file: string) =>
   JSON.parse(fs.readFileSync(path.join(__dirname, "..", "catalog", file), "utf8")).length;
 
-const resources = [
-  { list: "/api/books", detail: "/api/book", total: count("books.json"), missing: "Book not found" },
-  { list: "/api/shorts", detail: "/api/short", total: count("shorts.json"), missing: "Short not found" },
-  { list: "/api/villains", detail: "/api/villain", total: count("villains.json"), missing: "Villain not found" },
-  { list: "/api/places", detail: "/api/place", total: count("places.json"), missing: "Place not found" },
-  { list: "/api/types", detail: "/api/type", total: count("types.json"), missing: "Type not found" },
-  { list: "/api/collections", detail: "/api/collection", total: count("collections.json"), missing: "Collection not found" },
-  { list: "/api/publications", detail: "/api/publication", total: count("publications.json"), missing: "Publication not found" },
-];
+// The 404 text is pinned per kind by the contract fixtures, so taking it from
+// the list here doesn't leave it unchecked
+const resources = kinds.map((kind) => ({
+  list: `/api/${kind.list}`,
+  detail: `/api/${kind.one}`,
+  total: count(`${kind.list}.json`),
+  missing: kind.notFound,
+}));
 
 let server: TestServer;
 before(async () => {

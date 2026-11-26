@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from "express";
 import { getStats } from "../analytics/store";
-import { clearSession, dashboardEnabled } from "../modules/dashboardAuth";
+import { clearSession, dashboardEnabled } from "../middleware/dashboardAuth";
 
 export function showLogin(req: Request, res: Response): void {
   res.render("dashboard-login", {

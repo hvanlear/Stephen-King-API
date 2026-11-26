@@ -3,7 +3,7 @@ import { describe, it, before, after, mock } from "node:test";
 import assert from "node:assert/strict";
 import express from "express";
 import { startServer, TestServer } from "./server";
-import { errorHandler } from "../src/modules/errorHandler";
+import { errorHandler } from "../src/middleware/errorHandler";
 
 describe("errors", () => {
   let server: TestServer;

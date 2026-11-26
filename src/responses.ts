@@ -33,9 +33,10 @@ import {
   bookIdByCollection,
   shortIdsByPublication,
   publicationIdByShort,
-} from "../catalog";
-import config from "../config";
+} from "./catalog";
+import config from "./config";
 
+// Every link in the API is built in this file, from the one base URL
 const URL = config.url;
 
 const villainNames = new Map(villains.map((v) => [v.id, v.name]));

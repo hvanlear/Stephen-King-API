@@ -4,25 +4,18 @@ import router from "./router";
 import morgan from "morgan";
 import cors from "cors";
 import config from "./config";
-import { trackApiHits } from "./modules/analyticsMiddleware";
-import { createApiLimiter } from "./modules/apiLimiter";
-import { apiNotFound, pageNotFound, errorHandler } from "./modules/errorHandler";
+import { trackApiHits } from "./middleware/analyticsMiddleware";
+import { createApiLimiter } from "./middleware/apiLimiter";
+import { apiNotFound, pageNotFound, errorHandler } from "./middleware/errorHandler";
 import {
   requireDashboardAuth,
   handleLogin,
   loginLimiter,
-} from "./modules/dashboardAuth";
+} from "./middleware/dashboardAuth";
 import { showLogin, showDashboard, handleLogout } from "./handlers/dashboard";
-import {
-  books,
-  shorts,
-  villains,
-  places,
-  types,
-  collections,
-  publications,
-} from "./catalog";
-import { bookResponse } from "./utils/responseHelper";
+import { books } from "./catalog";
+import { kinds } from "./kinds";
+import { bookResponse } from "./responses";
 
 const app = express();
 
@@ -49,16 +42,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 // The home page opens on a real response, built here so a page view doesn't
-// count as an API hit on the dashboard
-const homeCounts = {
-  books: books.length,
-  shorts: shorts.length,
-  villains: villains.length,
-  places: places.length,
-  types: types.length,
-  collections: collections.length,
-  publications: publications.length,
-};
+// count as an API hit on the dashboard. The page looks counts up by list
+// route, as in counts.books.
+const homeCounts = Object.fromEntries(kinds.map((kind) => [kind.list, kind.records.length]));
 const homeBook = books.find((book) => book.id === 19) ?? books[0];
 const homeExample = JSON.stringify({ data: bookResponse(homeBook) }, null, 2);
 

@@ -6,8 +6,12 @@
   "scripts": {
     "test": "node --test --require ts-node/register \"test/**/*.test.ts\"",
     "validate-data": "ts-node scripts/validate-data.ts",
+    "predev": "node scripts/build-client.mjs",
     "dev": "nodemon src/index.ts",
-    "build": "prisma generate && tsc -p tsconfig.json",
+    "dev:client": "node scripts/build-client.mjs --watch",
+    "build:client": "node scripts/build-client.mjs",
+    "typecheck:client": "tsc -p tsconfig.client.json",
+    "build": "prisma generate && tsc -p tsconfig.json && node scripts/build-client.mjs",
     "start": "node dist/index.js"
   },
   "author": "Hunter Van Lear",
@@ -23,6 +27,7 @@
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "ejs": "^3.1.9",
+    "esbuild": "0.28.2",
     "express": "^4.18.2",
     "express-rate-limit": "^8.7.1",
     "lodash.merge": "^4.6.2",
@@ -38,5 +43,12 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hvanlear/Stephen-King-API.git"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "src/client/**",
+      "public/**",
+      "test/**"
+    ]
   }
 }

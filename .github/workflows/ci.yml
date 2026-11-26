@@ -28,8 +28,11 @@ jobs:
       # The Prisma client is generated code; the build fails without it
       - run: npx prisma generate
 
-      # tsc typechecks as it compiles
+      # tsc typechecks as it compiles; the client step fails over its size budget
       - run: npm run build
+
+      # esbuild doesn't typecheck the graph explorer, so this does
+      - run: npm run typecheck:client
 
       - run: npm test
 

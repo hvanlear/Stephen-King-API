@@ -1,0 +1,36 @@
+<%#
+  The graph page's side panel for one record. src/client/panel.ts renders the
+  same markup when you move to another record, so keep the two in step.
+%>
+<% const t = theme(panel.kind) %>
+<span class="g-kind" style="--c: <%= t.color %>; --ink: <%= t.ink %>"><%= panel.label %></span>
+<h2 class="g-name"><%= panel.name %></h2>
+<a class="g-get" href="<%= api %><%= panel.path %>"><span class="g-verb">GET</span> <%= panel.path %></a>
+<p class="g-eyebrow">In the response</p>
+<% if (!panel.fields.length) { %>
+<p class="g-empty">Nothing linked yet.</p>
+<% } %>
+<div class="g-fields">
+  <% panel.fields.forEach((f) => { %>
+  <section class="g-field" data-field="<%= f.field %>">
+    <h3 class="g-field-head">
+      <code style="color: <%= theme(f.items[0].kind).text %>">"<%= f.field %>"</code>
+      <span class="g-count"><%= f.items.length %></span>
+      <% if (f.rollup) { %><span class="g-hint"><%= panel.kind === "place" ? "includes places inside" : "includes kinds inside" %></span><% } %>
+    </h3>
+    <ul class="g-rows">
+      <% f.items.forEach((item) => { const it = theme(item.kind) %>
+      <li>
+        <a class="g-row" href="<%= href(item.kind, item.id) %>">
+          <span class="glyph" data-shape="<%= it.shape %>" style="--c: <%= it.color %>; --s: 10px" aria-hidden="true"></span>
+          <span class="g-row-name"><%= item.name %></span>
+          <span class="g-note"></span>
+          <span class="g-arrow" aria-hidden="true">→</span>
+        </a>
+      </li>
+      <% }) %>
+    </ul>
+  </section>
+  <% }) %>
+</div>
+<p class="g-foot">Every link in a response is a full URL, so you can walk the universe one GET at a time.</p>

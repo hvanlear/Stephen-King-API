@@ -1,6 +1,6 @@
 import { PANEL_ROWS } from "../graph/payload";
 import { Graph, kindLabel } from "./model";
-import { glyph, theme } from "./theme";
+import { glyph, mark, statusText, theme } from "./theme";
 
 // The side panel: the record's API path and every link in its response,
 // grouped by field in response order. The server renders the same markup for
@@ -70,7 +70,15 @@ export class Panel {
     const get = el("a", "g-get");
     get.href = this.on.api + path;
     get.append(el("span", "g-verb", "GET"), " " + path);
-    root.append(chip, name, get, el("p", "g-eyebrow", "In the response"));
+    // The kind, and the status in the API's own words: "† Deceased"
+    const tags = el("div", "g-tags");
+    tags.append(chip);
+    if (n.status) {
+      const status = el("span", "g-status");
+      status.append(mark(n.status), " " + n.status.value);
+      tags.append(status);
+    }
+    root.append(tags, name, get, el("p", "g-eyebrow", "In the response"));
 
     if (!n.links.length) root.append(el("p", "g-empty", "Nothing linked yet."));
 
@@ -133,7 +141,10 @@ export class Panel {
       const a = el("a", "g-row");
       a.href = this.on.href(item.i);
       a.dataset.i = String(item.i);
-      a.append(glyph(target.kind, 10), el("span", "g-row-name", target.name), el("span", "g-note", item.note));
+      const name = el("span", "g-row-name");
+      name.append(el("span", "g-row-text", target.name));
+      if (target.status) name.append(mark(target.status), statusText(target.status));
+      a.append(glyph(target.kind, 10), name, el("span", "g-note", item.note));
       const arrow = el("span", "g-arrow", "→");
       arrow.setAttribute("aria-hidden", "true");
       a.append(arrow);

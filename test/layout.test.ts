@@ -4,7 +4,7 @@ import assert from "node:assert/strict";
 import { graph } from "../src/graph/build";
 import { decode } from "../src/client/model";
 import type { GraphPayload, PayloadNode } from "../src/graph/payload";
-import { layout, estimate, Rect, EgoLayout, Measure } from "../src/client/layout";
+import { layout, estimate, measureMark, Rect, EgoLayout, Measure } from "../src/client/layout";
 
 const g = decode(graph.payload);
 
@@ -90,9 +90,10 @@ for (const box of boxes) {
           ...l.slots.flatMap((s) => (s.label ? [{ label: s.label, px: font, weight: 500 }] : [])),
         ];
         for (const { label, px, weight } of labels) {
-          // Boxes have 6px of padding each side
+          // Boxes have 6px of padding each side, and a mark follows a space
           const room = label.rect.x1 - label.rect.x0 - 12;
-          if (measure(label.text, px, weight) > room + 0.5) bad.push(`${g.nodes[i].name}: "${label.text}"`);
+          const width = measure(label.text, px, weight) + measureMark(measure, label.mark, px, weight);
+          if (width > room + 0.5) bad.push(`${g.nodes[i].name}: "${label.text}${label.mark && " " + label.mark}"`);
         }
       }
       assert.deepEqual(bad.slice(0, 10), [], `${bad.length} labels wider than their boxes`);

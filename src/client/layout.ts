@@ -27,6 +27,9 @@ export interface Rect {
 export interface LabelPlace {
   text: string;
   truncated: boolean;
+  // A status mark drawn after the text, after a space ("" for none). The
+  // rect's width includes it, and truncation never cuts it.
+  mark: string;
   // The label's anchor, relative to the record's centre
   dx: number;
   dy: number;
@@ -85,6 +88,15 @@ export interface LayoutOptions {
   hidden?: Record<string, boolean>;
   measure?: Measure;
 }
+
+// Status marks are drawn larger and bolder than their label, because Inter's
+// dagger is a small footnote glyph. home.css sets the same size on .g-mark.
+export const MARK_SCALE = 1.3;
+export const MARK_WEIGHT = 700;
+
+// The width a mark adds to a label: a space at the label's size, then the mark
+export const measureMark = (measure: Measure, mark: string, px: number, weight: number) =>
+  mark ? measure(" ", px, weight) + measure(mark, px * MARK_SCALE, MARK_WEIGHT) : 0;
 
 // Below this width the graph uses the phone layout: a square box and fewer records
 export const COMPACT_BELOW = 600;
@@ -163,24 +175,31 @@ export function layout(
     return { text: cut(k), width, truncated: true };
   };
 
-  // A ring label. A series title that doesn't fit shows its subtitle, which is
-  // the part that tells "The Dark Tower IV: Wizard and Glass" from the others.
-  const ringLabel = (text: string, room: number) => {
-    const t = fit(text, room);
+  const markWidth = (mark: string, px = font, weight = 500) => measureMark(measure, mark, px, weight);
+
+  // A ring label, with its mark. A series title that doesn't fit shows its
+  // subtitle, which is the part that tells "The Dark Tower IV: Wizard and
+  // Glass" from the others. The width includes the mark.
+  const ringLabel = (text: string, room: number, mark: string) => {
+    const mw = markWidth(mark);
+    let t = fit(text, room - mw);
     const colon = text.indexOf(": ");
-    if (!t.truncated || colon < 0) return t;
-    return { ...fit(text.slice(colon + 2), room), truncated: true };
+    if (t.truncated && colon >= 0) t = { ...fit(text.slice(colon + 2), room - mw), truncated: true };
+    return { ...t, width: t.width + mw };
   };
 
   // The focus: a glyph with a halo, its name below
   const fSize = glyphSize(focus.kind, true);
   const fFont = compact ? 14 : 16;
-  const fText = fit(focus.name, Math.min(w - 2 * MARGIN, compact ? 220 : 320) - 12, fFont, 600);
-  const fWidth = fText.width + 12;
+  const fMark = focus.status?.mark ?? "";
+  const fMarkWidth = markWidth(fMark, fFont, 600);
+  const fText = fit(focus.name, Math.min(w - 2 * MARGIN, compact ? 220 : 320) - 12 - fMarkWidth, fFont, 600);
+  const fWidth = fText.width + fMarkWidth + 12;
   const fTop = cy + fSize / 2 + 12;
   const focusLabel: LabelPlace = {
     text: fText.text,
     truncated: fText.truncated,
+    mark: fMark,
     dx: 0,
     dy: fSize / 2 + 12,
     align: "center",
@@ -243,7 +262,12 @@ export function layout(
     });
   };
 
-  type Spec = Omit<Slot, "x" | "y" | "angle" | "label" | "rect"> & { newSector: boolean; full: string; fullWidth: number };
+  type Spec = Omit<Slot, "x" | "y" | "angle" | "label" | "rect"> & {
+    newSector: boolean;
+    full: string;
+    fullWidth: number;
+    mark: string;
+  };
 
   const specs = (): Spec[] => {
     const out: Spec[] = [];
@@ -264,6 +288,7 @@ export function layout(
           newSector: first,
           full: n.name,
           fullWidth: measure(n.name, font, 500),
+          mark: n.status?.mark ?? "",
         });
         first = false;
       });
@@ -284,6 +309,7 @@ export function layout(
           full: text,
           // JetBrains Mono, 12px: 0.6em a character, plus the dot and padding
           fullWidth: text.length * 7.2 + 46,
+          mark: "",
         });
       }
     });
@@ -306,13 +332,14 @@ export function layout(
       // Outward from the side of the ring, vertically centred
       const right = cos > 0;
       const room = Math.min(labelMax, right ? w - MARGIN - (x + half + 8) - 12 : x - half - 8 - MARGIN - 12);
-      const t = ringLabel(s.full, room);
+      const t = ringLabel(s.full, room, s.mark);
       const bw = t.width + 12;
       const ax = right ? half + 8 : -(half + 8);
       const x0 = right ? x + ax : x + ax - bw;
       label = {
         text: t.text,
         truncated: t.truncated,
+        mark: s.mark,
         dx: ax,
         dy: -lineH / 2,
         align: right ? "start" : "end",
@@ -322,12 +349,13 @@ export function layout(
       // Centred above a record in the top half of the ring, below one in the bottom half
       const above = Math.sin(a) < 0 && mode === "radial" ? true : Math.sin(a) < -0.2;
       const room = Math.min(labelMax, 2 * Math.min(x - MARGIN, w - MARGIN - x) - 12);
-      const t = ringLabel(s.full, room);
+      const t = ringLabel(s.full, room, s.mark);
       const bw = t.width + 12;
       const dy = above ? -(half + 6 + lineH) : half + 6;
       label = {
         text: t.text,
         truncated: t.truncated,
+        mark: s.mark,
         dx: 0,
         dy,
         align: "center",

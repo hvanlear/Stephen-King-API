@@ -9,13 +9,16 @@
 <li>
   <a class="g-row" href="<%= href(item.kind, item.id) %>" data-i="<%= item.i %>">
     <span class="glyph" data-shape="<%= it.shape %>" style="--c: <%= it.color %>; --s: 10px" aria-hidden="true"></span>
-    <span class="g-row-name"><%= item.name %></span>
+    <span class="g-row-name"><span class="g-row-text"><%= item.name %></span><% if (item.status) { %><span class="g-mark" aria-hidden="true"><%= item.status.mark %></span><span class="sr-only">, <%= item.status.label %></span><% } %></span>
     <span class="g-note"><%= item.note %></span>
     <span class="g-arrow" aria-hidden="true">→</span>
   </a>
 </li>
 <% } %>
-<span class="g-kind" style="--c: <%= t.color %>; --ink: <%= t.ink %>"><%= panel.label %></span>
+<div class="g-tags">
+  <span class="g-kind" style="--c: <%= t.color %>; --ink: <%= t.ink %>"><%= panel.label %></span>
+  <% if (panel.status) { %><span class="g-status"><span class="g-mark" aria-hidden="true"><%= panel.status.mark %></span> <%= panel.status.value %></span><% } %>
+</div>
 <h2 class="g-name" tabindex="-1"><%= panel.name %></h2>
 <a class="g-get" href="<%= api %><%= panel.path %>"><span class="g-verb">GET</span> <%= panel.path %></a>
 <p class="g-eyebrow">In the response</p>

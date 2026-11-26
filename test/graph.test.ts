@@ -4,7 +4,7 @@ import assert from "node:assert/strict";
 import { startServer, TestServer } from "./server";
 import { graph } from "../src/graph/build";
 import { schema } from "../src/graph/schema";
-import { PANEL_ROWS, type LinkRef } from "../src/graph/payload";
+import { PANEL_ROWS, statusOf, type LinkRef } from "../src/graph/payload";
 
 // The graph file behind the /next home page (SK-045), and the page itself
 
@@ -30,10 +30,12 @@ describe("the graph file", () => {
   });
 
   it("links exactly what each response links", async () => {
-    for (const [kind, id, name, fields] of nodes) {
+    for (const [kind, id, name, fields, extra] of nodes) {
       const res = await fetch(`${server.url}/api/${kind}/${id}`);
       const { data }: any = await res.json();
       assert.equal(name, data.Title ?? data.title ?? data.name);
+      const statusField = schema.kinds[kind].status?.field;
+      assert.equal(extra?.status, statusField ? data[statusField] : undefined, `${kind} ${id} status`);
       const fromApi: Record<string, string[]> = {};
       for (const [field, value] of Object.entries(data)) {
         const links = Array.isArray(value) ? value : [value];
@@ -58,6 +60,16 @@ describe("the graph file", () => {
       for (const field of Object.keys(fields)) {
         assert.ok(schema.fields[`${kind}.${field}`], `add ${kind}.${field} to src/graph/schema.ts`);
       }
+    }
+  });
+
+  it("has a mark for every status a record has", () => {
+    for (const [kind, , , , extra] of nodes) {
+      if (extra?.status === undefined) continue;
+      assert.ok(
+        statusOf(schema.kinds[kind], extra.status),
+        `add "${extra.status}" to ${kind}'s status marks in src/graph/schema.ts`
+      );
     }
   });
 
@@ -142,6 +154,30 @@ describe("GET /next", () => {
     assert.deepEqual(ids(shown), villains.items.slice(0, PANEL_ROWS).map((item) => item.i));
     assert.deepEqual(ids(rest), villains.items.slice(PANEL_ROWS).map((item) => item.i));
     assert.ok(rest.includes(`Show all ${villains.items.length}`));
+  });
+
+  it("shows a record's status, and the status of the records it links to", async () => {
+    const { html } = await page("?focus=villain-57");
+    const focus = graph.panel(graph.find("villain", 57)!);
+    assert.ok(focus.status);
+    assert.ok(
+      html.includes(`<span class="g-status"><span class="g-mark" aria-hidden="true">${focus.status.mark}</span> ${focus.status.value}</span>`)
+    );
+    const { html: book } = await page("?focus=book-19");
+    const panel = graph.panel(graph.find("book", 19)!);
+    for (const item of panel.fields.find((f) => f.field === "villains")!.items) {
+      assert.ok(item.status, item.name);
+      assert.ok(
+        book.includes(
+          `<span class="g-row-text">${item.name}</span><span class="g-mark" aria-hidden="true">${item.status.mark}</span><span class="sr-only">, ${item.status.label}</span>`
+        ),
+        item.name
+      );
+    }
+    // The key explains both marks
+    for (const m of Object.values(schema.kinds.villain.status!.marks)) {
+      assert.ok(html.includes(`<span class="g-mark" aria-hidden="true">${m.mark}</span>${m.label}</span>`), m.label);
+    }
   });
 
   it("can't be broken out of by a name in the script config", async () => {

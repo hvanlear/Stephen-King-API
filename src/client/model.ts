@@ -1,4 +1,4 @@
-import { linkNote, type GraphPayload, type KindInfo } from "../graph/payload";
+import { linkNote, statusOf, type GraphPayload, type KindInfo, type Status } from "../graph/payload";
 
 // The graph file decoded into records with their links. No DOM, so node:test
 // can run it.
@@ -29,6 +29,8 @@ export interface GraphNode {
   // Linked records that get a line, with the line's family
   drawn: Map<number, string>;
   weight: number;
+  // Its status mark (a villain's alive or deceased), if its kind has one
+  status: Status | null;
   folded: string;
 }
 
@@ -55,7 +57,7 @@ export const nodeKey = (kind: string, id: number) => `${kind}-${id}`;
 
 export function decode(payload: GraphPayload): Graph {
   const { kinds, fields } = payload.schema;
-  const nodes: GraphNode[] = payload.nodes.map(([kind, id, name, raw, weight], index) => ({
+  const nodes: GraphNode[] = payload.nodes.map(([kind, id, name, raw, extra], index) => ({
     index,
     kind,
     id,
@@ -77,7 +79,8 @@ export function decode(payload: GraphPayload): Graph {
       };
     }),
     drawn: new Map(),
-    weight: weight ?? 0,
+    weight: extra?.weight ?? 0,
+    status: statusOf(kinds[kind], extra?.status),
     folded: fold(name),
   }));
 

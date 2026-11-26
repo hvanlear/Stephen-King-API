@@ -1,7 +1,7 @@
 import crypto from "crypto";
 import { kinds } from "../kinds";
 import { schema } from "./schema";
-import { linkNote, type GraphPayload, type LinkRef, type PayloadNode } from "./payload";
+import { linkNote, statusOf, type GraphPayload, type LinkRef, type PayloadNode, type Status } from "./payload";
 
 // The graph file is built once at startup by walking the API's own responses,
 // so it can't drift from them. It knows no kinds or fields: any { name or
@@ -32,7 +32,7 @@ export interface PanelField {
   field: string;
   rollup: boolean;
   // i is the record's position in the graph file, as the client's rows carry it
-  items: { i: number; name: string; kind: string; id: number; note: string }[];
+  items: { i: number; name: string; kind: string; id: number; note: string; status: Status | null }[];
 }
 
 export interface Panel {
@@ -41,6 +41,7 @@ export interface Panel {
   name: string;
   id: number;
   path: string;
+  status: Status | null;
   fields: PanelField[];
 }
 
@@ -75,7 +76,11 @@ export function buildGraph() {
       }
     }
     const name = String(response.Title ?? response.title ?? response.name);
-    return [kind, Number(response.id), name, fields];
+    const statusField = schema.kinds[kind]?.status?.field;
+    const status = statusField ? response[statusField] : undefined;
+    return typeof status === "string"
+      ? [kind, Number(response.id), name, fields, { status }]
+      : [kind, Number(response.id), name, fields];
   });
 
   const payload: GraphPayload = { v: 1, schema, nodes };
@@ -83,6 +88,7 @@ export function buildGraph() {
   const hash = crypto.createHash("sha256").update(json).digest("hex").slice(0, 12);
 
   const find = (kind: string, id: number) => index.get(`${kind}/${id}`);
+  const statusAt = (i: number) => statusOf(schema.kinds[nodes[i][0]], nodes[i][4]?.status);
 
   // The side panel for one record, rendered on the server so the page works
   // before (and without) the script
@@ -95,12 +101,13 @@ export function buildGraph() {
       name,
       id,
       path: `/api/${kind}/${id}`,
+      status: statusAt(i),
       fields: Object.entries(fields).map(([field, value]) => ({
         field,
         rollup: !!schema.fields[`${kind}.${field}`]?.rollup,
         items: (Array.isArray(value) ? value : [value]).map((r) => {
           const [k, linkedId, linkedName] = nodes[ref(r)];
-          return { i: ref(r), name: linkedName, kind: k, id: linkedId, note: linkNote(r) };
+          return { i: ref(r), name: linkedName, kind: k, id: linkedId, note: linkNote(r), status: statusAt(ref(r)) };
         }),
       })),
     };

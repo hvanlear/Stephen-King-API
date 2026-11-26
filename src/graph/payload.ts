@@ -12,6 +12,22 @@ export interface KindInfo {
   noun: string;
   // The record the endpoint grid links to
   example: number;
+  // A field shown as a mark beside the record's name, such as a villain's status
+  status?: StatusInfo;
+}
+
+export interface StatusInfo {
+  // The response field it's read from
+  field: string;
+  // The mark for each value the field takes, and what it means in words
+  marks: Record<string, { mark: string; label: string }>;
+}
+
+export interface Status {
+  // As the API returns it: "Deceased"
+  value: string;
+  mark: string;
+  label: string;
 }
 
 export interface FieldInfo {
@@ -37,9 +53,24 @@ export const PANEL_ROWS = 5;
 // What the panel says beside a link: its role or relationship, if it has one
 export const linkNote = (ref: LinkRef) => (typeof ref === "number" ? "" : String(ref.role ?? ref.relationship ?? ""));
 
-// [kind, id, name, link fields, weight?]. Field names, their order and single
-// versus list match the record's API response. Empty and null links are left out.
-export type PayloadNode = [string, number, string, Record<string, LinkRef | LinkRef[]>, number?];
+// [kind, id, name, link fields, extra?]. Field names, their order and single
+// versus list match the record's API response. Empty and null links are left
+// out, and so is extra when there's nothing in it.
+export type PayloadNode = [string, number, string, Record<string, LinkRef | LinkRef[]>, NodeExtra?];
+
+export interface NodeExtra {
+  // Importance from the data, such as a primary character; else the number of lines
+  weight?: number;
+  // The value of the kind's status field, if the schema declares one
+  status?: string;
+}
+
+// A record's status mark, or null if its kind has none or the value has no
+// mark. Shared by the server's first panel and the client.
+export function statusOf(info: KindInfo | undefined, value: string | undefined): Status | null {
+  const mark = value === undefined ? undefined : info?.status?.marks[value];
+  return mark && value !== undefined ? { value, ...mark } : null;
+}
 
 export interface GraphPayload {
   v: 1;

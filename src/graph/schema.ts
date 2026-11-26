@@ -14,7 +14,21 @@ export const schema: Schema = {
   kinds: {
     book: { label: "Book", plural: "books", noun: "books", example: 19 },
     short: { label: "Short", plural: "shorts", noun: "short stories", example: 19 },
-    villain: { label: "Villain", plural: "villains", noun: "villains", example: 19 },
+    villain: {
+      label: "Villain",
+      plural: "villains",
+      noun: "villains",
+      example: 19,
+      // The heart is followed by U+FE0E, which keeps it a text glyph rather
+      // than an emoji on phones
+      status: {
+        field: "status",
+        marks: {
+          Alive: { mark: "\u2665\uFE0E", label: "alive" },
+          Deceased: { mark: "\u2020", label: "deceased" },
+        },
+      },
+    },
     place: { label: "Place", plural: "places", noun: "places", example: 76 },
     type: { label: "Type", plural: "types", noun: "villain types", example: 2 },
     collection: { label: "Collection", plural: "collections", noun: "collections", example: 1 },

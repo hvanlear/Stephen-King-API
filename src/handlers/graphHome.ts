@@ -13,6 +13,15 @@ import { clientAssets } from "../utils/clientAssets";
 const DEFAULT_FOCUS = graph.find("villain", 57) ?? 0;
 const kindOrder = Object.keys(schema.kinds);
 
+// Every status mark the schema declares, once each, for the key under the graph
+const statusKey = [
+  ...new Map(
+    Object.values(schema.kinds)
+      .flatMap((k) => Object.values(k.status?.marks ?? {}))
+      .map((m) => [m.mark, m] as const)
+  ).values(),
+];
+
 const kinds = kindOrder.map((kind) => {
   const info = schema.kinds[kind];
   const count = graph.payload.nodes.filter((n) => n[0] === kind).length;
@@ -44,6 +53,7 @@ export function showGraphHome(req: Request, res: Response) {
         ? "A free REST API of Stephen King's books, short stories, villains and the places they haunt. Walk the graph of how they connect."
         : `${panel.label} ${panel.name} in the Stephen King API, with every book, story, villain and place it links to.`,
     kinds,
+    statusKey,
     panel,
     rows: PANEL_ROWS,
     theme: (kind: string) => kindTheme(kind, kindOrder),

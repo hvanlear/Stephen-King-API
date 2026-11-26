@@ -1,5 +1,5 @@
 import { Graph, kindLabel, search } from "./model";
-import { glyph } from "./theme";
+import { glyph, mark, statusText } from "./theme";
 
 // A combobox over every record's name (ARIA 1.2 pattern): type, arrow through
 // the matches, Enter to go there, Escape to clear.
@@ -32,7 +32,11 @@ export function mountSearch(input: HTMLInputElement, list: HTMLUListElement, g: 
       li.setAttribute("aria-selected", String(k === active));
       const name = document.createElement("span");
       name.className = "g-opt-name";
-      name.textContent = n.name;
+      const text = document.createElement("span");
+      text.className = "g-opt-text";
+      text.textContent = n.name;
+      name.append(text);
+      if (n.status) name.append(mark(n.status), statusText(n.status));
       const kind = document.createElement("span");
       kind.className = "g-opt-kind";
       kind.textContent = kindLabel(g, n.kind);

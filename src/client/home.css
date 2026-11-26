@@ -161,7 +161,8 @@ body.graph-home {
 }
 .g-search li[aria-selected="true"],
 .g-search li:hover { background: #2a2222; }
-.g-opt-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.g-opt-name { display: flex; align-items: baseline; gap: 6px; min-width: 0; }
+.g-opt-text { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
 .g-opt-kind { font: 400 11px/1 var(--mono); letter-spacing: 1px; text-transform: uppercase; color: var(--muted); }
 
 .g-surprise {
@@ -378,6 +379,11 @@ body.graph-home {
   flex-direction: column;
   gap: 16px;
 }
+/* Status marks: ♥ alive, † deceased. Never cut off with a long name */
+.g-mark { flex: none; font-size: 1.3em; font-weight: 700; line-height: 0; color: var(--muted); }
+.g-tags { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; }
+.g-status { font: 600 12px/1 var(--mono); letter-spacing: 2px; text-transform: uppercase; color: var(--muted); }
+.g-status .g-mark { margin-right: 2px; letter-spacing: 0; }
 .g-kind {
   align-self: flex-start;
   padding: 7px 10px;
@@ -438,7 +444,8 @@ body.graph-home {
 }
 .graph-home a.g-row:hover,
 .graph-home a.g-row.is-hover { background: #2a2222; border-color: #5a4646; color: #fff; }
-.g-row-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.g-row-name { display: flex; align-items: baseline; gap: 6px; min-width: 0; }
+.g-row-text { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
 .g-note { font: 400 11px/1 var(--mono); color: var(--muted); }
 .g-arrow { color: var(--faint); }
 .g-more {

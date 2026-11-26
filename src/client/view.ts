@@ -1,6 +1,6 @@
 import { layout, EgoLayout, Measure, Slot, LabelPlace } from "./layout";
 import { Graph, kindLabel } from "./model";
-import { glyph, theme } from "./theme";
+import { glyph, mark, theme } from "./theme";
 
 // Draws a layout into the graph box and animates moves between records.
 // Records are real links (they work without the script and open in a new tab
@@ -201,7 +201,8 @@ export class GraphView {
     el.classList.toggle("is-focus", isFocus);
     el.classList.remove("leaving");
     const extra = note && note !== "primary" && note !== "secondary" ? ` (${note})` : "";
-    el.setAttribute("aria-label", `${kindLabel(this.g, n.kind)}: ${n.name}${extra}${isFocus ? ", in the middle" : ""}`);
+    const status = n.status ? `, ${n.status.label}` : "";
+    el.setAttribute("aria-label", `${kindLabel(this.g, n.kind)}: ${n.name}${status}${extra}${isFocus ? ", in the middle" : ""}`);
     el.title = n.name;
     const g = el.querySelector<HTMLElement>(".glyph")!;
     const old = parseFloat(g.style.getPropertyValue("--s")) || size;
@@ -211,6 +212,8 @@ export class GraphView {
     }
     const text = el.querySelector<HTMLElement>(".g-label")!;
     text.textContent = label.text;
+    // The layout measured the mark with a space before it
+    if (label.mark && n.status) text.append(" ", mark(n.status));
     text.style.transform = labelTransform(label);
     return el;
   }

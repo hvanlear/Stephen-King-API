@@ -75,12 +75,15 @@
               <p class="g-loading">Loading the graph…</p>
               <noscript><p class="g-loading">The graph needs JavaScript. Every link is in the panel.</p></noscript>
             </div>
-            <div class="g-key" aria-label="Line key">
+            <div class="g-key" aria-label="Key">
               <span><svg width="28" height="8" aria-hidden="true"><path d="M1 4 L27 4" stroke="#e5484d" stroke-width="1.6" /></svg>appears in</span>
               <span><svg width="28" height="8" aria-hidden="true"><path d="M2 4 L27 4" stroke="#e5484d" stroke-width="2.2" stroke-dasharray="0.5 6" stroke-linecap="round" /></svg>set in · lives in</span>
               <span><svg width="28" height="8" aria-hidden="true"><path d="M1 4 L27 4" stroke="#e5484d" stroke-width="4.6" /><path d="M1 4 L27 4" stroke="#141212" stroke-width="1.8" /></svg>is a</span>
               <span><svg width="28" height="8" aria-hidden="true"><path d="M1 4 L27 4" stroke="#e5484d" stroke-width="1.2" stroke-dasharray="7 5" /></svg>inside</span>
               <span><svg width="28" height="8" aria-hidden="true"><path d="M1 4 L27 4" stroke="#e5484d" stroke-width="1.6" stroke-dasharray="10 4 2 4" /></svg>related to</span>
+              <% statusKey.forEach((s) => { %>
+              <span><span class="g-mark" aria-hidden="true"><%= s.mark %></span><%= s.label %></span>
+              <% }) %>
             </div>
           </div>
 

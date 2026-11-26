@@ -1,0 +1,3535 @@
+{
+  "path": "/api/characters?page=2&limit=100",
+  "status": 200,
+  "body": {
+    "data": [
+      {
+        "id": 101,
+        "name": "Carter Thibodeau",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Chester's Mill residents",
+          "Police",
+          "Residents of Maine",
+          "Villains",
+          "Victims",
+          "Rapists",
+          "Under the Dome"
+        ],
+        "created_at": "2023-11-13T23:49:34.795Z",
+        "books": [
+          {
+            "title": "Under the Dome",
+            "url": "https://stephen-king-api.onrender.com/api/book/48",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Chester's Mill, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/58"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 102,
+        "name": "Donna and Mary Lila Grace Thibodeau",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Characters",
+          "Ewen High School students",
+          "Chamberlain residents",
+          "Bullies",
+          "Twins",
+          "Victims",
+          "Residents of Maine",
+          "Villains",
+          "Bate High School students",
+          "Lovers",
+          "Unknown fates",
+          "Antagonists",
+          "Carrie"
+        ],
+        "created_at": "2023-11-13T23:49:34.930Z",
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Chamberlain, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/57"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 103,
+        "name": "Tom Mahout",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Characters",
+          "Residents of Maine",
+          "Villains",
+          "Antagonists",
+          "Gerald's Game"
+        ],
+        "created_at": "2023-11-13T23:49:35.056Z",
+        "books": [
+          {
+            "title": "Gerald's Game",
+            "url": "https://stephen-king-api.onrender.com/api/book/27",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 104,
+        "name": "Tommyknockers",
+        "villain": true,
+        "protagonist": false,
+        "gender": null,
+        "status": "Alive",
+        "death": null,
+        "types_id": 4,
+        "group": true,
+        "notes": [
+          "Villains",
+          "The Tommyknockers"
+        ],
+        "created_at": "2023-11-13T23:49:35.173Z",
+        "books": [
+          {
+            "title": "The Tommyknockers",
+            "url": "https://stephen-king-api.onrender.com/api/book/22",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Alien",
+          "url": "https://stephen-king-api.onrender.com/api/type/4"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 105,
+        "name": "Craig Toomey",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Characters",
+          "Characters with mental illness",
+          "Villains",
+          "Crime",
+          "Antagonists"
+        ],
+        "created_at": "2023-11-13T23:49:35.311Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "The Langoliers",
+            "url": "https://stephen-king-api.onrender.com/api/short/114",
+            "role": null
+          }
+        ],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 106,
+        "name": "Jack Torrance",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Characters",
+          "Writers",
+          "Teachers",
+          "Spouses",
+          "Lovers",
+          "The Shining",
+          "Characters with mental illness",
+          "Villains",
+          "Ghosts",
+          "Heroes",
+          "Doctor Sleep",
+          "Name-continuity",
+          "Antagonists",
+          "Victims",
+          "Harassers"
+        ],
+        "created_at": "2023-11-13T23:49:35.454Z",
+        "books": [
+          {
+            "title": "The Shining",
+            "url": "https://stephen-king-api.onrender.com/api/book/3",
+            "role": null
+          },
+          {
+            "title": "Doctor Sleep",
+            "url": "https://stephen-king-api.onrender.com/api/book/52",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 107,
+        "name": "Christopher Unwin",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Bullies",
+          "Derry residents",
+          "Residents of Maine",
+          "IT",
+          "Villains"
+        ],
+        "created_at": "2023-11-13T23:49:35.580Z",
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 108,
+        "name": "Jessica Upshaw",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Characters",
+          "Bullies",
+          "Villains",
+          "Residents of Maine",
+          "Chamberlain residents",
+          "Bate High School students",
+          "Ewen High School students",
+          "Name-continuity",
+          "Unknown fates",
+          "Antagonists",
+          "Carrie"
+        ],
+        "created_at": "2023-11-13T23:49:35.756Z",
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Chamberlain, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/57"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 109,
+        "name": "Norma Watson",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Characters",
+          "Bullies",
+          "Chamberlain residents",
+          "Victims",
+          "Villains",
+          "Status dependant on version",
+          "Antagonists",
+          "Carrie"
+        ],
+        "created_at": "2023-11-13T23:49:35.954Z",
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Chamberlain, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/57"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 110,
+        "name": "Wendigo",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 3,
+        "group": false,
+        "notes": [
+          "Pet Sematary",
+          "Villains"
+        ],
+        "created_at": "2023-11-13T23:49:36.153Z",
+        "books": [
+          {
+            "title": "Pet Sematary",
+            "url": "https://stephen-king-api.onrender.com/api/book/14",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 111,
+        "name": "Percy Wetmore",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Characters",
+          "The Green Mile",
+          "Villains",
+          "Antagonists",
+          "The green mile villains"
+        ],
+        "created_at": "2023-11-13T23:49:36.274Z",
+        "books": [
+          {
+            "title": "The Green Mile",
+            "url": "https://stephen-king-api.onrender.com/api/book/31",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Louisiana",
+            "url": "https://stephen-king-api.onrender.com/api/place/27"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 112,
+        "name": "William Wharton",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Villains",
+          "The Green Mile villlains"
+        ],
+        "created_at": "2023-11-13T23:49:36.386Z",
+        "books": [
+          {
+            "title": "The Green Mile",
+            "url": "https://stephen-king-api.onrender.com/api/book/31",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 113,
+        "name": "Margaret White",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Characters",
+          "Unsourced quotes",
+          "Spouses",
+          "Widows",
+          "Characters with mental illness",
+          "Chamberlain residents",
+          "Residents of Maine",
+          "Motton residents",
+          "Villains",
+          "Antagonists",
+          "Victims",
+          "Carrie"
+        ],
+        "created_at": "2023-11-13T23:49:36.505Z",
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Motton, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/89"
+          },
+          {
+            "name": "Chamberlain, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/57"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 114,
+        "name": "Annie Wilkes",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Characters",
+          "Villains",
+          "Characters with mental illness",
+          "Misery Characters",
+          "Antagonists",
+          "Castle Rock",
+          "Murderers"
+        ],
+        "created_at": "2023-11-13T23:49:36.623Z",
+        "books": [
+          {
+            "title": "Misery",
+            "url": "https://stephen-king-api.onrender.com/api/book/21",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 115,
+        "name": "Tim Youngblood",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Stubs",
+          "Characters",
+          "Villains"
+        ],
+        "created_at": "2023-11-13T23:49:36.745Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "Rita Hayworth and Shawshank Redemption",
+            "url": "https://stephen-king-api.onrender.com/api/short/86",
+            "role": null
+          }
+        ],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 116,
+        "name": "Al Bradley",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Deceased Characters",
+          "Derry residents",
+          "IT",
+          "Leaders",
+          "Residents of Maine",
+          "Males",
+          "Antagonists"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 117,
+        "name": "Andrew Freeman",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Crime",
+          "Deceased",
+          "Antagonists",
+          "Males",
+          "Adult",
+          "The Stand"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5",
+            "role": null
+          },
+          {
+            "title": "The Stand Uncut",
+            "url": "https://stephen-king-api.onrender.com/api/book/24",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 118,
+        "name": "Andrew Halliday",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Characters",
+          "Antagonists",
+          "Rapists",
+          "Bill Hodges",
+          "Villains",
+          "Deceased Characters",
+          "Males",
+          "Murder Victims",
+          "LGBT"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "Finders Keepers",
+            "url": "https://stephen-king-api.onrender.com/api/book/55",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 119,
+        "name": "Ardelia Lortz",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 3,
+        "group": false,
+        "notes": [
+          "Librarians",
+          "Females",
+          "Demons"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "The Library Policeman",
+            "url": "https://stephen-king-api.onrender.com/api/short/115",
+            "role": null
+          }
+        ],
+        "residence": [],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": [
+          {
+            "name": "Demon",
+            "url": "https://stephen-king-api.onrender.com/api/type/12"
+          }
+        ],
+        "killed": []
+      },
+      {
+        "id": 120,
+        "name": "Atropos",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 3,
+        "group": false,
+        "notes": [
+          "Antagonists"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "Insomnia",
+            "url": "https://stephen-king-api.onrender.com/api/book/29",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": [
+          {
+            "name": "Little Bald Doctor",
+            "url": "https://stephen-king-api.onrender.com/api/type/13"
+          }
+        ],
+        "killed": []
+      },
+      {
+        "id": 121,
+        "name": "Barry",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 2,
+        "group": false,
+        "notes": [
+          "Deceased Characters",
+          "Antagonists",
+          "Doctor Sleep",
+          "Males",
+          "Murderers",
+          "Vampires"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "Doctor Sleep",
+            "url": "https://stephen-king-api.onrender.com/api/book/52",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Vampire",
+          "url": "https://stephen-king-api.onrender.com/api/type/2"
+        },
+        "kinds": [
+          {
+            "name": "True Knot",
+            "url": "https://stephen-king-api.onrender.com/api/type/10"
+          }
+        ],
+        "killed": []
+      },
+      {
+        "id": 122,
+        "name": "Bern Kells",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Characters",
+          "Males",
+          "Antagonists",
+          "The Dark Tower"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower: The Wind Through the Keyhole",
+            "url": "https://stephen-king-api.onrender.com/api/book/50",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 123,
+        "name": "Billy Tessio",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Males",
+          "Bullies",
+          "Castle Rock residents",
+          "Residents of Maine",
+          "Antagonists"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "The Body",
+            "url": "https://stephen-king-api.onrender.com/api/short/84",
+            "role": null
+          }
+        ],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 124,
+        "name": "Boogeyman",
+        "villain": true,
+        "protagonist": false,
+        "gender": null,
+        "status": "Alive",
+        "death": null,
+        "types_id": 3,
+        "group": false,
+        "notes": [
+          "Creatures",
+          "Monsters",
+          "Antagonists",
+          "Villains"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "The Boogeyman",
+            "url": "https://stephen-king-api.onrender.com/api/short/43",
+            "role": null
+          }
+        ],
+        "residence": [],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 125,
+        "name": "Buddy Repperton",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Leaders",
+          "Males",
+          "Deceased Characters",
+          "Bullies",
+          "Seekers of vengeance",
+          "Antagonists",
+          "Victims",
+          "Christine",
+          "Gang Leaders"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "Christine",
+            "url": "https://stephen-king-api.onrender.com/api/book/13",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 126,
+        "name": "Charlie Hogan",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Males",
+          "Castle Rock residents",
+          "Bullies",
+          "Residents of Maine",
+          "Antagonists"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "The Body",
+            "url": "https://stephen-king-api.onrender.com/api/short/84",
+            "role": null
+          }
+        ],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 127,
+        "name": "Chet Ondowsky",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 3,
+        "group": false,
+        "notes": [
+          "Characters",
+          "Males",
+          "Stubs",
+          "Villains"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "If It Bleeds",
+            "url": "https://stephen-king-api.onrender.com/api/short/207",
+            "role": null
+          }
+        ],
+        "residence": [],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": [
+          {
+            "name": "Outsider",
+            "url": "https://stephen-king-api.onrender.com/api/type/14"
+          }
+        ],
+        "killed": []
+      },
+      {
+        "id": 128,
+        "name": "Clay Reynolds",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Males",
+          "Antagonists",
+          "The Dark Tower"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 129,
+        "name": "Collie Entragian",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Deceased Characters",
+          "Police",
+          "Males",
+          "Antagonists",
+          "Victims"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "Desperation",
+            "url": "https://stephen-king-api.onrender.com/api/book/32",
+            "role": null
+          },
+          {
+            "title": "The Regulators",
+            "url": "https://stephen-king-api.onrender.com/api/book/33",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 130,
+        "name": "Crow Daddy",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 2,
+        "group": false,
+        "notes": [
+          "Antagonists",
+          "Doctor Sleep",
+          "Deceased Characters",
+          "Harassers",
+          "Males",
+          "Vampires"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "Doctor Sleep",
+            "url": "https://stephen-king-api.onrender.com/api/book/52",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Vampire",
+          "url": "https://stephen-king-api.onrender.com/api/type/2"
+        },
+        "kinds": [
+          {
+            "name": "True Knot",
+            "url": "https://stephen-king-api.onrender.com/api/type/10"
+          }
+        ],
+        "killed": []
+      },
+      {
+        "id": 131,
+        "name": "Cthun",
+        "villain": true,
+        "protagonist": false,
+        "gender": null,
+        "status": "Alive",
+        "death": null,
+        "types_id": 3,
+        "group": false,
+        "notes": [
+          "Creatures",
+          "The Dark Tower",
+          "Monsters"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "N.",
+            "url": "https://stephen-king-api.onrender.com/api/short/168",
+            "role": null
+          }
+        ],
+        "residence": [],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 132,
+        "name": "Dr. Hendricks",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "The Institute",
+          "Males",
+          "Status dependant on version",
+          "Murderers",
+          "Deceased",
+          "Deceased Characters",
+          "Antagonists",
+          "Bullies"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "The Institute",
+            "url": "https://stephen-king-api.onrender.com/api/book/61",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 133,
+        "name": "Emily Harris",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Females",
+          "Antagonists",
+          "Deceased",
+          "Adult",
+          "Teachers",
+          "Murderers"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "Holly",
+            "url": "https://stephen-king-api.onrender.com/api/book/75",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 134,
+        "name": "Frank Dunning",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Males",
+          "Derry residents",
+          "Antagonists",
+          "Deceased Characters"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "11/22/63",
+            "url": "https://stephen-king-api.onrender.com/api/book/49",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 135,
+        "name": "Frankie Stone",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Males",
+          "Villains",
+          "Murderers",
+          "Murder Victims",
+          "Rapists"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/book/57",
+            "role": null
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/short/200",
+            "role": null
+          }
+        ],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 136,
+        "name": "George Bradley",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Deceased Characters",
+          "Derry residents",
+          "IT",
+          "Leaders",
+          "Residents of Maine",
+          "Males",
+          "Antagonists"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 137,
+        "name": "Grampa Flick",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 2,
+        "group": false,
+        "notes": [
+          "Antagonists",
+          "Doctor Sleep",
+          "Deceased Characters",
+          "Vampires"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "Doctor Sleep",
+            "url": "https://stephen-king-api.onrender.com/api/book/52",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Vampire",
+          "url": "https://stephen-king-api.onrender.com/api/type/2"
+        },
+        "kinds": [
+          {
+            "name": "True Knot",
+            "url": "https://stephen-king-api.onrender.com/api/type/10"
+          }
+        ],
+        "killed": []
+      },
+      {
+        "id": 138,
+        "name": "Harley Bissington",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Males",
+          "Police",
+          "Government employees",
+          "Rose Madder",
+          "Antagonists"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "Rose Madder",
+            "url": "https://stephen-king-api.onrender.com/api/book/30",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 139,
+        "name": "He Who Walks Behind the Rows",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 3,
+        "group": false,
+        "notes": [
+          "Antagonists",
+          "Monsters",
+          "Vehicles",
+          "Short stories"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "Children of the Corn",
+            "url": "https://stephen-king-api.onrender.com/api/short/53",
+            "role": null
+          }
+        ],
+        "residence": [],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": [
+          {
+            "name": "Demon",
+            "url": "https://stephen-king-api.onrender.com/api/type/12"
+          }
+        ],
+        "killed": []
+      },
+      {
+        "id": 140,
+        "name": "Jenny Engstrom",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Deceased Characters",
+          "Females",
+          "Antagonists"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5",
+            "role": null
+          },
+          {
+            "title": "The Stand Uncut",
+            "url": "https://stephen-king-api.onrender.com/api/book/24",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 141,
+        "name": "Jim Pickering",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Males",
+          "Murderers"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "The Gingerbread Girl",
+            "url": "https://stephen-king-api.onrender.com/api/short/163",
+            "role": null
+          }
+        ],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 142,
+        "name": "Jimmy Numbers",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 2,
+        "group": false,
+        "notes": [
+          "Antagonists",
+          "Deceased Characters",
+          "Doctor Sleep",
+          "Vampires"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "Doctor Sleep",
+            "url": "https://stephen-king-api.onrender.com/api/book/52",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Vampire",
+          "url": "https://stephen-king-api.onrender.com/api/type/2"
+        },
+        "kinds": [
+          {
+            "name": "True Knot",
+            "url": "https://stephen-king-api.onrender.com/api/type/10"
+          }
+        ],
+        "killed": []
+      },
+      {
+        "id": 143,
+        "name": "Joe Brinks",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "The Institute",
+          "Males",
+          "Characters",
+          "Murderers",
+          "Bullies",
+          "Antagonists",
+          "Seekers of vengeance"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "The Institute",
+            "url": "https://stephen-king-api.onrender.com/api/book/61",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 144,
+        "name": "John Shooter",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Antagonists"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "Secret Window, Secret Garden",
+            "url": "https://stephen-king-api.onrender.com/api/short/116",
+            "role": null
+          }
+        ],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 145,
+        "name": "Julia Sigsby",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "The Institute",
+          "Females",
+          "Characters",
+          "Deceased Characters",
+          "Murderers",
+          "Bullies",
+          "Antagonists",
+          "Seekers of vengeance",
+          "Status dependant on version"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "The Institute",
+            "url": "https://stephen-king-api.onrender.com/api/book/61",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 146,
+        "name": "Julie Lawry",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Females",
+          "Deceased Characters",
+          "Characters with mental illness",
+          "Antagonists",
+          "The Stand"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5",
+            "role": null
+          },
+          {
+            "title": "The Stand Uncut",
+            "url": "https://stephen-king-api.onrender.com/api/book/24",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Pratt, Kansas",
+            "url": "https://stephen-king-api.onrender.com/api/place/98"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 147,
+        "name": "Langoliers",
+        "villain": true,
+        "protagonist": false,
+        "gender": null,
+        "status": "Alive",
+        "death": null,
+        "types_id": 3,
+        "group": true,
+        "notes": [
+          "Creatures",
+          "Antagonists"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "The Langoliers",
+            "url": "https://stephen-king-api.onrender.com/api/short/114",
+            "role": null
+          }
+        ],
+        "residence": [],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 148,
+        "name": "Lee",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Males",
+          "Lovers",
+          "Antagonists"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "Rest Stop",
+            "url": "https://stephen-king-api.onrender.com/api/short/156",
+            "role": null
+          }
+        ],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 149,
+        "name": "Maine Legion of White Decency",
+        "villain": true,
+        "protagonist": false,
+        "gender": null,
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": true,
+        "notes": [
+          "Villains",
+          "Groups",
+          "Seekers of vengeance",
+          "Antagonists",
+          "Characters",
+          "IT",
+          "Adult"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 150,
+        "name": "Marc Lamonica",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Characters",
+          "IT",
+          "Characters with mental illness",
+          "Villains"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 151,
+        "name": "Milo Pressman",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Antagonists",
+          "Bullies",
+          "Stand By Me"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "The Body",
+            "url": "https://stephen-king-api.onrender.com/api/short/84",
+            "role": null
+          }
+        ],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 152,
+        "name": "Monkey",
+        "villain": true,
+        "protagonist": false,
+        "gender": null,
+        "status": "Alive",
+        "death": null,
+        "types_id": 6,
+        "group": false,
+        "notes": [
+          "The Monkey",
+          "Objects",
+          "Antagonists",
+          "Demonic items",
+          "Murderers",
+          "Demons",
+          "Villains"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "The Monkey",
+            "url": "https://stephen-king-api.onrender.com/api/short/71",
+            "role": null
+          }
+        ],
+        "residence": [],
+        "type": {
+          "name": "Machine or object",
+          "url": "https://stephen-king-api.onrender.com/api/type/6"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 153,
+        "name": "Moochie Welch",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Bullies",
+          "Males",
+          "Deceased Characters",
+          "Christine",
+          "Antagonists",
+          "Victims"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "Christine",
+            "url": "https://stephen-king-api.onrender.com/api/book/13",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 154,
+        "name": "Morgan Sloat",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Antagonists",
+          "Characters",
+          "Males",
+          "Male Characters"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "The Talisman",
+            "url": "https://stephen-king-api.onrender.com/api/book/16",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 155,
+        "name": "Morris Bellamy",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Bill Hodges",
+          "Antagonists",
+          "Males",
+          "Murderers",
+          "Adult",
+          "Deceased"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "Finders Keepers",
+            "url": "https://stephen-king-api.onrender.com/api/book/55",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 156,
+        "name": "Mr. Gray",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 4,
+        "group": false,
+        "notes": [
+          "Characters",
+          "Villains",
+          "Aliens"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "Dreamcatcher",
+            "url": "https://stephen-king-api.onrender.com/api/book/37",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Alien",
+          "url": "https://stephen-king-api.onrender.com/api/type/4"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 157,
+        "name": "Mrs. Carmody",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Female Characters",
+          "Residents of Maine",
+          "Deceased Characters",
+          "Antagonists"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "The Mist",
+            "url": "https://stephen-king-api.onrender.com/api/short/67",
+            "role": null
+          }
+        ],
+        "residence": [
+          {
+            "name": "Bridgton, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/52"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 158,
+        "name": "Norman Bracowicz",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Castle Rock residents",
+          "Residents of Maine",
+          "Bullies",
+          "Males",
+          "Stand By Me",
+          "Antagonists"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "The Body",
+            "url": "https://stephen-king-api.onrender.com/api/short/84",
+            "role": null
+          }
+        ],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 159,
+        "name": "Priscilla (The Institute)",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "The Institute",
+          "Characters",
+          "Females",
+          "Murderers",
+          "Bullies",
+          "Antagonists"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "The Institute",
+            "url": "https://stephen-king-api.onrender.com/api/book/61",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 160,
+        "name": "Richard Chambers",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Bullies",
+          "Residents of Maine",
+          "Castle Rock residents",
+          "Deceased Characters",
+          "Antagonists"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "The Body",
+            "url": "https://stephen-king-api.onrender.com/api/short/84",
+            "role": null
+          }
+        ],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 161,
+        "name": "Rodney Harris",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Males",
+          "Antagonists",
+          "Deceased",
+          "Adult",
+          "Murderers",
+          "Teachers"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "Holly",
+            "url": "https://stephen-king-api.onrender.com/api/book/75",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 162,
+        "name": "Roger the Dog Man",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 7,
+        "group": false,
+        "notes": [
+          "Males",
+          "Male Characters",
+          "The Shining",
+          "Ghosts",
+          "Antagonists",
+          "Villains",
+          "Deceased",
+          "LGBT",
+          "Harassers"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "The Shining",
+            "url": "https://stephen-king-api.onrender.com/api/book/3",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Ghost",
+          "url": "https://stephen-king-api.onrender.com/api/type/7"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 163,
+        "name": "Roy Depape",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "The Dark Tower",
+          "Males",
+          "Antagonists"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 164,
+        "name": "Snakebite Andi",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 2,
+        "group": false,
+        "notes": [
+          "Antagonists",
+          "Deceased Characters",
+          "Doctor Sleep",
+          "Victims",
+          "Seekers of vengeance",
+          "LGBT",
+          "Vampires"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "Doctor Sleep",
+            "url": "https://stephen-king-api.onrender.com/api/book/52",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Vampire",
+          "url": "https://stephen-king-api.onrender.com/api/type/2"
+        },
+        "kinds": [
+          {
+            "name": "True Knot",
+            "url": "https://stephen-king-api.onrender.com/api/type/10"
+          }
+        ],
+        "killed": []
+      },
+      {
+        "id": 165,
+        "name": "Tak",
+        "villain": true,
+        "protagonist": false,
+        "gender": null,
+        "status": "Alive",
+        "death": null,
+        "types_id": 3,
+        "group": false,
+        "notes": [
+          "Creatures",
+          "Demons",
+          "Beings",
+          "Multiverse",
+          "Antagonists",
+          "Interdimensional Travelers"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "Desperation",
+            "url": "https://stephen-king-api.onrender.com/api/book/32",
+            "role": null
+          },
+          {
+            "title": "The Regulators",
+            "url": "https://stephen-king-api.onrender.com/api/book/33",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": [
+          {
+            "name": "Demon",
+            "url": "https://stephen-king-api.onrender.com/api/type/12"
+          }
+        ],
+        "killed": []
+      },
+      {
+        "id": 166,
+        "name": "The Children",
+        "villain": true,
+        "protagonist": false,
+        "gender": null,
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": true,
+        "notes": [
+          "Groups",
+          "Antagonists"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "Children of the Corn",
+            "url": "https://stephen-king-api.onrender.com/api/short/53",
+            "role": null
+          }
+        ],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 167,
+        "name": "The Mangler (character)",
+        "villain": true,
+        "protagonist": false,
+        "gender": null,
+        "status": "Alive",
+        "death": null,
+        "types_id": 6,
+        "group": false,
+        "notes": [
+          "Antagonists",
+          "Demons"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "The Mangler",
+            "url": "https://stephen-king-api.onrender.com/api/short/42",
+            "role": null
+          }
+        ],
+        "residence": [],
+        "type": {
+          "name": "Machine or object",
+          "url": "https://stephen-king-api.onrender.com/api/type/6"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 168,
+        "name": "The Mist (phenomenon)",
+        "villain": true,
+        "protagonist": false,
+        "gender": null,
+        "status": "Alive",
+        "death": null,
+        "types_id": 3,
+        "group": false,
+        "notes": [
+          "Monsters",
+          "Antagonists",
+          "Villains"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "The Mist",
+            "url": "https://stephen-king-api.onrender.com/api/short/67",
+            "role": null
+          }
+        ],
+        "residence": [],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 169,
+        "name": "Todd Bowden",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Males",
+          "Antagonists",
+          "Protagonists"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "Apt Pupil",
+            "url": "https://stephen-king-api.onrender.com/api/short/83",
+            "role": null
+          }
+        ],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 170,
+        "name": "Tommy Erbter",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Males",
+          "Chamberlain residents",
+          "Bullies",
+          "Residents of Maine",
+          "Antagonists",
+          "Carrie"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "Carrie",
+            "url": "https://stephen-king-api.onrender.com/api/book/1",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Chamberlain, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/57"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 171,
+        "name": "Tony Fizzale",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Males",
+          "The Institute",
+          "Murderers",
+          "Seekers of vengeance",
+          "Bullies",
+          "Antagonists",
+          "Deceased",
+          "Deceased Characters"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "The Institute",
+            "url": "https://stephen-king-api.onrender.com/api/book/61",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 172,
+        "name": "Trevor Stackhouse",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "The Institute",
+          "Males",
+          "Status dependant on version",
+          "Murderers",
+          "Deceased",
+          "Deceased Characters",
+          "Antagonists",
+          "Bullies"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "The Institute",
+            "url": "https://stephen-king-api.onrender.com/api/book/61",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 173,
+        "name": "Vince Desjardins",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Males",
+          "Bullies",
+          "Castle Rock residents",
+          "Residents of Maine",
+          "Antagonists"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [],
+        "shorts": [
+          {
+            "title": "The Body",
+            "url": "https://stephen-king-api.onrender.com/api/short/84",
+            "role": null
+          }
+        ],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 174,
+        "name": "Walnut",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 2,
+        "group": false,
+        "notes": [
+          "Deceased Characters",
+          "Antagonists",
+          "Doctor Sleep",
+          "Vampires"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "Doctor Sleep",
+            "url": "https://stephen-king-api.onrender.com/api/book/52",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Vampire",
+          "url": "https://stephen-king-api.onrender.com/api/type/2"
+        },
+        "kinds": [
+          {
+            "name": "True Knot",
+            "url": "https://stephen-king-api.onrender.com/api/type/10"
+          }
+        ],
+        "killed": []
+      },
+      {
+        "id": 175,
+        "name": "Winona Briggs",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "The Institute",
+          "Deceased Characters",
+          "Bullies",
+          "Antagonists"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "The Institute",
+            "url": "https://stephen-king-api.onrender.com/api/book/61",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 176,
+        "name": "Zeke Ionidis",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Characters",
+          "Males",
+          "The Institute",
+          "Bullies",
+          "Murderers",
+          "Seekers of vengeance",
+          "Antagonists",
+          "Deceased Characters",
+          "Deceased"
+        ],
+        "created_at": "2026-10-28T19:57:08.000Z",
+        "books": [
+          {
+            "title": "The Institute",
+            "url": "https://stephen-king-api.onrender.com/api/book/61",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 177,
+        "name": "Andy",
+        "villain": true,
+        "protagonist": false,
+        "gender": null,
+        "status": "Deceased",
+        "death": null,
+        "types_id": 6,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Machine or object",
+          "url": "https://stephen-king-api.onrender.com/api/type/6"
+        },
+        "kinds": [
+          {
+            "name": "North Central Positronics",
+            "url": "https://stephen-king-api.onrender.com/api/type/16"
+          }
+        ],
+        "killed": []
+      },
+      {
+        "id": 178,
+        "name": "Ben Slightman",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Males",
+          "Calla Bryn Sturgis residents",
+          "Residents of All-world"
+        ],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Calla Bryn Sturgis",
+            "url": "https://stephen-king-api.onrender.com/api/place/53"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 179,
+        "name": "Charlie Decker",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Male Characters"
+        ],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Rage",
+            "url": "https://stephen-king-api.onrender.com/api/book/4",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 180,
+        "name": "Don Peters",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Sleeping Beauties",
+            "url": "https://stephen-king-api.onrender.com/api/book/58",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 181,
+        "name": "Eric Blass",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Sleeping Beauties",
+            "url": "https://stephen-king-api.onrender.com/api/book/58",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 182,
+        "name": "Flight Killer",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 3,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Fairy Tale",
+            "url": "https://stephen-king-api.onrender.com/api/book/74",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 183,
+        "name": "Frank Geary",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Sleeping Beauties",
+            "url": "https://stephen-king-api.onrender.com/api/book/58",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 184,
+        "name": "Gareth Winston",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Gwendy's Final Task",
+            "url": "https://stephen-king-api.onrender.com/api/book/73",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 185,
+        "name": "God of the Lost",
+        "villain": true,
+        "protagonist": false,
+        "gender": null,
+        "status": "Alive",
+        "death": null,
+        "types_id": 3,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "The Girl Who Loved Tom Gordon",
+            "url": "https://stephen-king-api.onrender.com/api/book/36",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 186,
+        "name": "Gogmagog",
+        "villain": true,
+        "protagonist": false,
+        "gender": null,
+        "status": "Alive",
+        "death": null,
+        "types_id": 3,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Fairy Tale",
+            "url": "https://stephen-king-api.onrender.com/api/book/74",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 187,
+        "name": "Jim Dooley",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [
+          "Males",
+          "Lisey's Story",
+          "Lisey's Story Characters"
+        ],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Lisey's Story",
+            "url": "https://stephen-king-api.onrender.com/api/book/45",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Lovell, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/84"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 188,
+        "name": "Kenneth Therriault",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 7,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Later",
+            "url": "https://stephen-king-api.onrender.com/api/book/62",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Ghost",
+          "url": "https://stephen-king-api.onrender.com/api/type/7"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 189,
+        "name": "Liz Dutton",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Later",
+            "url": "https://stephen-king-api.onrender.com/api/book/62",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 190,
+        "name": "Long Boy",
+        "villain": true,
+        "protagonist": false,
+        "gender": null,
+        "status": "Alive",
+        "death": null,
+        "types_id": 3,
+        "group": false,
+        "notes": [
+          "Lisey's Story",
+          "Lisey's Story Characters"
+        ],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Lisey's Story",
+            "url": "https://stephen-king-api.onrender.com/api/book/45",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Boo'ya Moon",
+            "url": "https://stephen-king-api.onrender.com/api/place/2"
+          }
+        ],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 191,
+        "name": "Max Devore",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Bag of Bones",
+            "url": "https://stephen-king-api.onrender.com/api/book/35",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 192,
+        "name": "Nick Majarian",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Billy Summers",
+            "url": "https://stephen-king-api.onrender.com/api/book/63",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 193,
+        "name": "Perse",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 3,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Duma Key",
+            "url": "https://stephen-king-api.onrender.com/api/book/47",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 194,
+        "name": "Roger Klerke",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Billy Summers",
+            "url": "https://stephen-king-api.onrender.com/api/book/63",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 195,
+        "name": "Rogette Whitmore",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Bag of Bones",
+            "url": "https://stephen-king-api.onrender.com/api/book/35",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 196,
+        "name": "Sara Tidwell",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 7,
+        "group": false,
+        "notes": [
+          "Females",
+          "Deceased Characters",
+          "Ghosts"
+        ],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Bag of Bones",
+            "url": "https://stephen-king-api.onrender.com/api/book/35",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Ghost",
+          "url": "https://stephen-king-api.onrender.com/api/type/7"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 197,
+        "name": "Taduz Lemke",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Thinner",
+            "url": "https://stephen-king-api.onrender.com/api/book/18",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 198,
+        "name": "Terry Coombs",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "Sleeping Beauties",
+            "url": "https://stephen-king-api.onrender.com/api/book/58",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 199,
+        "name": "The Hitler Brothers",
+        "villain": true,
+        "protagonist": false,
+        "gender": null,
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": true,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 200,
+        "name": "Wolves of Thunderclap",
+        "villain": true,
+        "protagonist": false,
+        "gender": null,
+        "status": "Deceased",
+        "death": null,
+        "types_id": 6,
+        "group": true,
+        "notes": [],
+        "created_at": "2026-10-28T20:12:34.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40",
+            "role": null
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Machine or object",
+          "url": "https://stephen-king-api.onrender.com/api/type/6"
+        },
+        "kinds": [],
+        "killed": []
+      }
+    ],
+    "pagination": {
+      "page": 2,
+      "limit": 100,
+      "total": 214,
+      "totalPages": 3
+    }
+  }
+}

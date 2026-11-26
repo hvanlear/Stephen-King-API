@@ -6,7 +6,7 @@
 
 ## Overview
 
-This is an open-source API that provides novel, short story, character (_currently limited to villains_), and setting information for the written works of Stephen King. This information is publicly sourced, adapted from [Wikipedia](https://en.wikipedia.org/wiki/Stephen_King_bibliography) and the [Stephen King Wiki](https://stephenking.fandom.com); I do not claim to own it.
+This is an open-source API that provides novel, short story, character, and setting information for the written works of Stephen King. This information is publicly sourced, adapted from [Wikipedia](https://en.wikipedia.org/wiki/Stephen_King_bibliography) and the [Stephen King Wiki](https://stephenking.fandom.com); I do not claim to own it.
 
 ## Routes
 
@@ -15,15 +15,17 @@ _All routes are GET routes. No API key is needed._
 | Route | Returns |
 | --- | --- |
 | `/api/books` | All books |
-| `/api/book/:id` | One book, with its villains, the places it's set in, and its collection if it's one |
+| `/api/book/:id` | One book, with its characters (and the villains and protagonists among them), the places it's set in, and its collection if it's one |
 | `/api/shorts` | All short stories |
-| `/api/short/:id` | One short story, with its villains, the places it's set in, where it first appeared and the collection it was published in |
-| `/api/villains` | All villains |
-| `/api/villain/:id` | One villain, with the works it appears in, where it lives and its type |
+| `/api/short/:id` | One short story, with its characters (and the villains and protagonists among them), the places it's set in, where it first appeared and the collection it was published in |
+| `/api/characters` | All characters: every villain, and the heroes and others being added a few books at a time |
+| `/api/character/:id` | One character, with the works it appears in, where it lives, its type, and how it died |
+| `/api/villains` | The characters who are villains |
+| `/api/villain/:id` | One villain, the same as its character route |
 | `/api/places` | All places, from buildings up to towns, states and other worlds |
-| `/api/place/:id` | One place, with the place it's in, the places inside it, the works set there and the villains who live there |
+| `/api/place/:id` | One place, with the place it's in, the places inside it, the works set there and the characters who live there |
 | `/api/types` | All villain types, from broad ones like Vampire to kinds from the stories like the True Knot |
-| `/api/type/:id` | One type, with its kinds and its villains |
+| `/api/type/:id` | One type, with its kinds and its characters |
 | `/api/collections` | All collections, such as Night Shift and Skeleton Crew |
 | `/api/collection/:id` | One collection, with its short stories |
 | `/api/publications` | All publications, the magazines and anthologies where shorts first appeared, such as Cavalier and The New Yorker |
@@ -65,17 +67,18 @@ Other commands:
 
 ## Adding or Fixing Data
 
-The data lives in seven files: `catalog/books.json`, `catalog/shorts.json`, `catalog/villains.json`, `catalog/places.json`, `catalog/types.json`, `catalog/collections.json` and `catalog/publications.json`. The API serves the records as they are, so a change to a file is a change to the API.
+The data lives in seven files: `catalog/books.json`, `catalog/shorts.json`, `catalog/characters.json`, `catalog/places.json`, `catalog/types.json`, `catalog/collections.json` and `catalog/publications.json`. The API serves the records as they are, so a change to a file is a change to the API.
 
 1. **To fix a record**, edit its fields in place.
 1. **To add a record**, copy an existing record from the same file to the end of the list, so the field names and order match. Give it the next id: one higher than the last id in the file. Book ids 64–72 are skipped, because the old database used them. Set `created_at` to the current UTC time, like `2026-10-26T18:00:00.000Z`. The `handle` is the title in lowercase with hyphens, like `the-shining`.
 1. **Never change or remove an id.** Apps save links like `/api/book/3`, and those have to keep pointing at the same book.
-1. **To link a villain** to the works it appears in, list their `handle`s in the villain's `appears_in`. Books and shorts get their `villains` links from that list.
+1. **To add a character**, set `villain` to `true` for a villain, or `false`. A villain stays a villain once it's one, because apps save links like `/api/villain/2`.
+1. **To link a character** to the works it appears in, give its `appears_in` each work's `handle` with the character's role there: `"protagonist"` for one of the people the story follows, `"antagonist"` (villains only) for the one the story is against, `"supporting"`, or `"minor"` for a cameo or a small part, like `{ "it": "protagonist", "11-22-63": "minor" }`. Use `null` for every work until the roles are known, and record them all at once. Books and shorts get their `characters` links from `appears_in`, their `villains` from the flag, and their `protagonists` from the roles. The character's `protagonist` is `true` when it leads any work. Leave out works that only mention it.
 1. **To add a place**, give it a `type` (world, region, country, state, town, landmark or building) and the `parentId` of the place it's in: Marsten House is in Jerusalem's Lot, Maine, which is in Maine. Use `null` for a place the stories don't put anywhere named.
 1. **To link a place** to the works set there, list their `handle`s in the place's `appears_in`. Leave out works that only mention it. The books and shorts get their `places` links from that list.
-1. **To say where a villain lives**, list place `handle`s in the villain's `residence`. Give the most specific place: the villain's `residence` links to the Marsten House, and Jerusalem's Lot and Maine list the villain as well.
-1. **To type a villain**, set `types_id` to a broad type from `catalog/types.json` (one with no `parentId`), and list any kinds from the stories under that type in `kinds`, such as `true-knot` under Vampire. Set `group` to `true` when the record is a gang, cult or race rather than one villain. Type id 5 is retired: the old database used it for groups.
-1. **To record how a villain died**, replace its `death: null` with a `cause` (a short phrase like `Staked through the heart`), the work it happens `in` (`{ "book": "salem-s-lot" }` or `{ "short": "the-mist" }`, one of its `appears_in`), and who it was `killed_by`: `{ "villain": 2 }` for a killer in the catalog, `{ "name": "Ben Mears" }` for anyone else, or `[]` when nobody killed it. A group of killers adds its `members` in the same forms, like the Losers' Club for It. Go by the book, not a film or TV version, and record the death that leaves the villain dead when it dies in more than one work. Leave `death` as `null` for a villain who's alive.
+1. **To say where a character lives**, list place `handle`s in the character's `residence`. Give the most specific place: Kurt Barlow's `residence` links to the Marsten House, and Jerusalem's Lot and Maine list him as well.
+1. **To type a character**, set `types_id` to a broad type from `catalog/types.json` (one with no `parentId`), and list any kinds from the stories under that type in `kinds`, such as `true-knot` under Vampire. Set `group` to `true` when the record is a gang, cult or race rather than one character. Type id 5 is retired: the old database used it for groups.
+1. **To record how a character died**, replace its `death: null` with a `cause` (a short phrase like `Staked through the heart`), the work it happens `in` (`{ "book": "salem-s-lot" }` or `{ "short": "the-mist" }`, one of its `appears_in`), and who it was `killed_by`: `{ "villain": 2 }` for a villain, `{ "character": 202 }` for any other character, `{ "name": "..." }` for someone with no record yet, or `[]` when nobody killed it. A group of killers adds its `members` in the same forms, like the Losers' Club for It. Go by the book, not a film or TV version, and record the death that leaves the character dead when it dies in more than one work. Leave `death` as `null` for a character who's alive.
 1. **To say where a short was collected**, set its `collection` to a handle from `catalog/collections.json`, and its `collectedIn` to the collection's name and year, like `Night Shift (1978)`. For a story that was never collected, set `collection` to `null` and `collectedIn` to `Uncollected`, or `Uncollected (standalone book)` when it was published as a book of its own. A collection that's also a book takes the book's `handle`, and the two link to each other.
 1. **To say where a short first appeared**, set its `publication` to a handle from `catalog/publications.json` (magazine, anthology, newspaper or other). Its `originallyPublishedIn` has to be that publication's name, with an issue at most, before the date, like `Cavalier (October 1970)`; a magazine or anthology series is one publication, and the issue or volume goes in the text, like `Shadows 4 (October 1981)`. Use `null` when the short first appeared in its own collection or as a book of its own.
 1. **Run `npm run validate-data`** and fix anything it reports.

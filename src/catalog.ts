@@ -27,16 +27,16 @@ export interface Short {
   created_at: string;
 }
 
-// Who killed a villain: another villain, or a name for someone the catalog
-// has no record of yet, such as a hero. When characters arrive, a name can
-// become a character's id without changing what the API serves.
-export type Killer = { villain: number } | { name: string };
+// Who killed a character: a villain, another character, or a name for
+// someone the catalog has no record of yet. A name becomes an id once the
+// record exists, without changing the shape the API serves.
+export type Killer = { villain: number } | { character: number } | { name: string };
 
 // A group of killers, such as the Losers' Club, can list the members who
 // took part, in the same forms
 export type KillerEntry = Killer & { members?: Killer[] };
 
-// How a villain died, and in which book or short. A handle can name both a
+// How a character died, and in which book or short. A handle can name both a
 // book and a short, so it says which.
 export interface Death {
   cause: string;
@@ -44,16 +44,28 @@ export interface Death {
   killed_by: KillerEntry[];
 }
 
-export interface Villain {
+// A character's part in one book or short. Jack Torrance is the antagonist
+// of The Shining and a minor character in Doctor Sleep.
+export const ROLES = ["protagonist", "antagonist", "supporting", "minor"] as const;
+export type Role = (typeof ROLES)[number];
+
+// Every villain is a character. Whether a character is a protagonist comes
+// from its roles.
+export interface Character {
   id: number;
   name: string;
+  // Served by /api/villain/:id as well, as before characters existed
+  villain: boolean;
   gender: string | null;
   status: "Alive" | "Deceased";
-  // null until it's recorded, and always for a villain who's alive
+  // null until it's recorded, and always for a character who's alive
   death: Death | null;
   types_id: number;
   group: boolean;
-  appears_in: string[];
+  // The books and shorts it's in, by handle, with its role in each: null
+  // until the roles are recorded, which happens for all of a character's
+  // works at once
+  appears_in: Record<string, Role | null>;
   residence: string[];
   kinds: string[];
   notes: string[];
@@ -119,21 +131,24 @@ function load<T extends { id: number }>(file: string): T[] {
 
 export const books = load<Book>("books.json");
 export const shorts = load<Short>("shorts.json");
-export const villains = load<Villain>("villains.json");
+export const characters = load<Character>("characters.json");
+// The villains keep their own routes, as a view of the characters
+export const villains = characters.filter((character) => character.villain);
 export const places = load<Place>("places.json");
 export const types = load<Type>("types.json");
 export const collections = load<Collection>("collections.json");
 export const publications = load<Publication>("publications.json");
 
-// Links come from each villain's appears_in handles. Building them in
-// villain order matches what Postgres returned: a book's villains are in
-// villain id order, and a villain's books follow its appears_in order.
-// Like the old insert script, a handle links to the first book with it and
-// the first short with it, so a handle used by both links to both.
-export const villainIdsByBook = new Map<number, number[]>();
-export const villainIdsByShort = new Map<number, number[]>();
-export const bookIdsByVillain = new Map<number, number[]>();
-export const shortIdsByVillain = new Map<number, number[]>();
+// Links come from each character's appears_in handles. Building them in
+// character order matches what Postgres returned for villains: a book's
+// characters are in id order, and a character's books follow its appears_in
+// order. Like the old insert script, a handle links to the first book with
+// it and the first short with it, so a handle used by both links to both,
+// with the same role.
+export const characterIdsByBook = new Map<number, number[]>();
+export const characterIdsByShort = new Map<number, number[]>();
+export const bookIdsByCharacter = new Map<number, number[]>();
+export const shortIdsByCharacter = new Map<number, number[]>();
 
 function link(map: Map<number, number[]>, key: number, value: number): void {
   const ids = map.get(key);
@@ -147,46 +162,59 @@ function link(map: Map<number, number[]>, key: number, value: number): void {
 const bookWithHandle = (handle: string) => books.find((b) => b.handle === handle);
 const shortWithHandle = (handle: string) => shorts.find((s) => s.handle === handle);
 
-for (const villain of villains) {
-  for (const handle of villain.appears_in) {
+// A character's role in a book or short, by the work's handle: null until
+// recorded, and undefined if it isn't in that work
+export const roleIn = (character: Character, handle: string): Role | null | undefined =>
+  Object.hasOwn(character.appears_in, handle) ? character.appears_in[handle] : undefined;
+
+// Leads at least one book or short
+export const isProtagonist = (character: Character) => Object.values(character.appears_in).includes("protagonist");
+
+for (const character of characters) {
+  for (const handle of Object.keys(character.appears_in)) {
     const book = bookWithHandle(handle);
     if (book) {
-      link(villainIdsByBook, book.id, villain.id);
-      link(bookIdsByVillain, villain.id, book.id);
+      link(characterIdsByBook, book.id, character.id);
+      link(bookIdsByCharacter, character.id, book.id);
     }
   }
-  for (const handle of villain.appears_in) {
+  for (const handle of Object.keys(character.appears_in)) {
     const short = shortWithHandle(handle);
     if (short) {
-      link(villainIdsByShort, short.id, villain.id);
-      link(shortIdsByVillain, villain.id, short.id);
+      link(characterIdsByShort, short.id, character.id);
+      link(shortIdsByCharacter, character.id, short.id);
     }
   }
 }
 
-// Where each recorded death happens, and the villains each villain killed,
-// in victim id order. Killing as a group's member counts.
-export const deathWorkByVillain = new Map<number, { book: number } | { short: number }>();
-export const victimIdsByVillain = new Map<number, number[]>();
+// The record id a killer links to, or undefined for a name with no record
+export const killerId = (killer: Killer): number | undefined =>
+  "villain" in killer ? killer.villain : "character" in killer ? killer.character : undefined;
 
-for (const villain of villains) {
-  if (villain.death === null) {
+// Where each recorded death happens, and the characters each character
+// killed, in victim id order. Killing as a group's member counts.
+export const deathWorkByCharacter = new Map<number, { book: number } | { short: number }>();
+export const victimIdsByCharacter = new Map<number, number[]>();
+
+for (const character of characters) {
+  if (character.death === null) {
     continue;
   }
-  const where = villain.death.in;
+  const where = character.death.in;
   const work = "book" in where ? bookWithHandle(where.book) : shortWithHandle(where.short);
   if (work) {
-    deathWorkByVillain.set(villain.id, "book" in where ? { book: work.id } : { short: work.id });
+    deathWorkByCharacter.set(character.id, "book" in where ? { book: work.id } : { short: work.id });
   }
   const killers = new Set<number>();
-  for (const { members = [], ...killer } of villain.death.killed_by) {
+  for (const { members = [], ...killer } of character.death.killed_by) {
     for (const one of [killer, ...members]) {
-      if ("villain" in one) {
-        killers.add(one.villain);
+      const id = killerId(one);
+      if (id !== undefined) {
+        killers.add(id);
       }
     }
   }
-  killers.forEach((id) => link(victimIdsByVillain, id, villain.id));
+  killers.forEach((id) => link(victimIdsByCharacter, id, character.id));
 }
 
 // The places in each place, in id order
@@ -222,36 +250,36 @@ for (const place of places) {
   shortIdsByPlace.get(place.id)?.sort((a, b) => a - b);
 }
 
-// A villain who lives in a place also lives in every place it's in, so a
-// town lists the villains in its buildings, in villain id order. A villain
+// A character who lives in a place also lives in every place it's in, so a
+// town lists the characters in its buildings, in id order. A character
 // lists only the places its residence names, in that order.
-export const villainIdsByPlace = new Map<number, number[]>();
-export const placeIdsByVillain = new Map<number, number[]>();
+export const characterIdsByPlace = new Map<number, number[]>();
+export const placeIdsByCharacter = new Map<number, number[]>();
 
 const placeIdsByHandle = new Map(places.map((p) => [p.handle, p.id]));
 const parentIds = new Map(places.map((p) => [p.id, p.parentId]));
 
-for (const villain of villains) {
+for (const character of characters) {
   const homes = new Set<number>();
-  for (const handle of villain.residence) {
+  for (const handle of character.residence) {
     let id: number | null | undefined = placeIdsByHandle.get(handle);
     if (id !== undefined) {
-      link(placeIdsByVillain, villain.id, id);
+      link(placeIdsByCharacter, character.id, id);
     }
     while (id !== undefined && id !== null) {
       homes.add(id);
       id = parentIds.get(id);
     }
   }
-  homes.forEach((id) => link(villainIdsByPlace, id, villain.id));
+  homes.forEach((id) => link(characterIdsByPlace, id, character.id));
 }
 
 // Types nest like places: a broad type such as Vampire holds the kinds from
-// the stories, such as the True Knot. A type lists every villain of that type
-// or a kind inside it, in villain id order; a villain lists its own kinds.
+// the stories, such as the True Knot. A type lists every character of that
+// type or a kind inside it, in id order; a character lists its own kinds.
 export const typeIdsByParent = new Map<number, number[]>();
-export const villainIdsByType = new Map<number, number[]>();
-export const kindIdsByVillain = new Map<number, number[]>();
+export const characterIdsByType = new Map<number, number[]>();
+export const kindIdsByCharacter = new Map<number, number[]>();
 
 const typeIdsByHandle = new Map(types.map((t) => [t.handle, t.id]));
 const typeParentIds = new Map(types.map((t) => [t.id, t.parentId]));
@@ -262,19 +290,19 @@ for (const type of types) {
   }
 }
 
-for (const villain of villains) {
-  const typeIds = new Set<number>([villain.types_id]);
-  for (const handle of villain.kinds) {
+for (const character of characters) {
+  const typeIds = new Set<number>([character.types_id]);
+  for (const handle of character.kinds) {
     let id: number | null | undefined = typeIdsByHandle.get(handle);
     if (id !== undefined) {
-      link(kindIdsByVillain, villain.id, id);
+      link(kindIdsByCharacter, character.id, id);
     }
     while (id !== undefined && id !== null) {
       typeIds.add(id);
       id = typeParentIds.get(id);
     }
   }
-  typeIds.forEach((id) => link(villainIdsByType, id, villain.id));
+  typeIds.forEach((id) => link(characterIdsByType, id, character.id));
 }
 
 // Each collected short names the collection it was published in, so a

@@ -7,16 +7,19 @@ import { startServer, TestServer } from "./server";
 import { kinds } from "../src/kinds";
 
 // Totals come from the files rather than what the app loaded, so a record the
-// loader drops is caught. Every catalog file is named for its list route.
-const count = (file: string) =>
-  JSON.parse(fs.readFileSync(path.join(__dirname, "..", "catalog", file), "utf8")).length;
+// loader drops is caught. Every catalog file is named for its list route,
+// except villains, which are the characters marked as one.
+const records = (file: string): any[] =>
+  JSON.parse(fs.readFileSync(path.join(__dirname, "..", "catalog", file), "utf8"));
+const count = (list: string) =>
+  list === "villains" ? records("characters.json").filter((c) => c.villain === true).length : records(`${list}.json`).length;
 
 // The 404 text is pinned per kind by the contract fixtures, so taking it from
 // the list here doesn't leave it unchecked
 const resources = kinds.map((kind) => ({
   list: `/api/${kind.list}`,
   detail: `/api/${kind.one}`,
-  total: count(`${kind.list}.json`),
+  total: count(kind.list),
   missing: kind.notFound,
 }));
 
@@ -32,6 +35,11 @@ async function get(requestPath: string) {
   const body: any = await res.json();
   return { status: res.status, body };
 }
+
+// Where the API links a character: a villain at /api/villain/:id, anyone else
+// at /api/character/:id
+const characterPath = (character: { id: number; villain: boolean }) =>
+  `/api/${character.villain ? "villain" : "character"}/${character.id}`;
 
 for (const { list, detail, total, missing } of resources) {
   describe(list, () => {
@@ -130,19 +138,136 @@ describe("unimplemented routes", () => {
   });
 });
 
+describe("characters and villains", () => {
+  it("lists as villains exactly the characters marked as one, served the same", async () => {
+    const { body: characters } = await get("/api/characters");
+    const { body: villains } = await get("/api/villains");
+    assert.deepEqual(villains.data, characters.data.filter((character: { villain: boolean }) => character.villain));
+    assert.ok(characters.data.some((character: { villain: boolean }) => !character.villain));
+    const { body: asCharacter } = await get("/api/character/57");
+    const { body: asVillain } = await get("/api/villain/57");
+    assert.deepEqual(asVillain, asCharacter);
+  });
+
+  it("has no villain route for a character who isn't one", async () => {
+    const { status, body } = await get("/api/villain/202");
+    assert.equal(status, 404);
+    assert.deepEqual(body, { error: "Villain not found" });
+    const { status: found, body: ben } = await get("/api/character/202");
+    assert.equal(found, 200);
+    assert.equal(ben.data.name, "Ben Mears");
+  });
+
+  it("link a villain at its villain route and anyone else at their character route", async () => {
+    const { body } = await get("/api/characters");
+    const byId = new Map(body.data.map((character: any) => [character.id, character]));
+    const links: { url: string; name?: string }[] = [];
+    const collect = (value: any): void => {
+      if (Array.isArray(value)) value.forEach(collect);
+      else if (value && typeof value === "object") {
+        if (typeof value.url === "string" && /\/api\/(villain|character)\/\d+$/.test(value.url)) links.push(value);
+        Object.values(value).forEach(collect);
+      }
+    };
+    for (const list of ["/api/books", "/api/shorts", "/api/characters", "/api/places", "/api/types"]) {
+      collect((await get(list)).body.data);
+    }
+    assert.ok(links.some((link) => link.url.includes("/api/character/")));
+    for (const link of links) {
+      const id = Number(link.url.split("/").pop());
+      const character: any = byId.get(id);
+      assert.ok(character, `${link.url} doesn't match any character`);
+      assert.equal(new URL(link.url).pathname, characterPath(character), `${link.url} is the wrong route for ${character.name}`);
+      assert.equal(link.name, character.name, `${link.url} is linked under the wrong name`);
+    }
+  });
+});
+
 describe("links", () => {
-  it("point both ways between villains and books", async () => {
-    const { body } = await get("/api/villains");
-    for (const villain of body.data) {
-      for (const book of villain.books) {
-        const id = book.url.split("/").pop();
-        const { body: linked } = await get(`/api/book/${id}`);
-        assert.ok(
-          linked.data.villains.some((v: { url: string }) => v.url.endsWith(`/api/villain/${villain.id}`)),
-          `book ${id} doesn't link back to villain ${villain.id}`
-        );
+  it("point both ways between characters and the books and shorts they're in", async () => {
+    const { body } = await get("/api/characters");
+    const fromCharacters: string[] = [];
+    for (const character of body.data) {
+      for (const work of [...character.books, ...character.shorts]) {
+        fromCharacters.push(`${new URL(work.url).pathname} ${characterPath(character)}`);
       }
     }
+    const fromWorks: string[] = [];
+    for (const [list, detail] of [["/api/books", "/api/book"], ["/api/shorts", "/api/short"]]) {
+      const { body: works } = await get(list);
+      for (const work of works.data) {
+        for (const link of work.characters) {
+          fromWorks.push(`${detail}/${work.id} ${new URL(link.url).pathname}`);
+        }
+      }
+    }
+    assert.deepEqual(fromWorks.sort(), fromCharacters.sort());
+  });
+
+  it("list a work's villains and protagonists among its characters", async () => {
+    const { body } = await get("/api/characters");
+    const byPath = new Map(body.data.map((character: any) => [characterPath(character), character]));
+    for (const list of ["/api/books", "/api/shorts"]) {
+      const { body: works } = await get(list);
+      for (const work of works.data) {
+        const among = (keep: (link: any) => boolean) => work.characters.filter(keep);
+        assert.deepEqual(
+          work.villains,
+          among((link) => (byPath.get(new URL(link.url).pathname) as any).villain),
+          `${list} ${work.id} lists the wrong villains`
+        );
+        // A protagonist of another story who turns up here isn't one of this story's
+        assert.deepEqual(work.protagonists, among((link) => link.role === "protagonist"), `${list} ${work.id} lists the wrong protagonists`);
+      }
+    }
+  });
+
+  it("give a character's role in a work on both ends of the link", async () => {
+    const roles = [null, "protagonist", "antagonist", "supporting", "minor"];
+    const fromCharacters = new Map<string, unknown>();
+    const { body } = await get("/api/characters");
+    for (const character of body.data) {
+      for (const work of [...character.books, ...character.shorts]) {
+        assert.deepEqual(Object.keys(work), ["title", "url", "role"], `character ${character.id}`);
+        assert.ok(roles.includes(work.role), `character ${character.id} has the role ${work.role}`);
+        fromCharacters.set(`${new URL(work.url).pathname} ${characterPath(character)}`, work.role);
+      }
+      // A protagonist leads at least one story
+      const leads = [...character.books, ...character.shorts].some((work: any) => work.role === "protagonist");
+      assert.equal(character.protagonist, leads, `character ${character.id}`);
+      const keys = Object.keys(character);
+      assert.equal(keys[keys.indexOf("villain") + 1], "protagonist", `character ${character.id}: protagonist doesn't follow villain`);
+    }
+    const fromWorks = new Map<string, unknown>();
+    for (const [list, detail] of [["/api/books", "/api/book"], ["/api/shorts", "/api/short"]]) {
+      const { body: works } = await get(list);
+      for (const work of works.data) {
+        for (const link of [...work.characters, ...work.villains, ...work.protagonists]) {
+          assert.deepEqual(Object.keys(link), ["name", "url", "role"], `${detail}/${work.id}`);
+          const key = `${detail}/${work.id} ${new URL(link.url).pathname}`;
+          assert.equal(link.role, fromCharacters.get(key), `${key} has a different role at each end`);
+          fromWorks.set(key, link.role);
+        }
+      }
+    }
+    assert.deepEqual([...fromWorks.keys()].sort(), [...fromCharacters.keys()].sort());
+  });
+
+  it("list a story's own protagonists, not ones visiting from another", async () => {
+    const book = async (title: string) => {
+      const { body } = await get("/api/books");
+      return body.data.find((b: { Title: string }) => b.Title === title);
+    };
+    const it = await book("It");
+    assert.deepEqual(
+      it.protagonists.map((link: { name: string }) => link.name),
+      ["Bill Denbrough", "Ben Hanscom", "Beverly Marsh", "Richie Tozier", "Eddie Kaspbrak", "Mike Hanlon", "Stan Uris"]
+    );
+    assert.equal(it.villains.find((link: { name: string }) => link.name === "It (Creature)").role, "antagonist");
+    // Beverly and Richie are in 11/22/63, as minor characters
+    const jfk = await book("11/22/63");
+    assert.deepEqual(jfk.protagonists, []);
+    assert.equal(jfk.characters.find((link: { name: string }) => link.name === "Beverly Marsh").role, "minor");
   });
 
   it("point both ways between places and the places in them", async () => {
@@ -162,7 +287,7 @@ describe("links", () => {
     }
   });
 
-  it("from places to books, shorts and villains use their names", async () => {
+  it("from places to books, shorts and characters use their names", async () => {
     const names = new Map<string, string>();
     for (const { list, detail } of resources) {
       const { body } = await get(list);
@@ -172,7 +297,7 @@ describe("links", () => {
     }
     const { body } = await get("/api/places");
     for (const place of body.data) {
-      for (const link of [...place.books, ...place.shorts, ...place.villains]) {
+      for (const link of [...place.books, ...place.shorts, ...place.characters, ...place.villains]) {
         const linked = new URL(link.url).pathname;
         assert.ok(names.has(linked), `place ${place.id} links ${link.url}, which doesn't exist`);
         assert.equal(link.title ?? link.name, names.get(linked), `place ${place.id} links ${link.url} under the wrong name`);
@@ -200,44 +325,57 @@ describe("links", () => {
     assert.deepEqual([...fromWorks].sort(), [...fromPlaces].sort());
   });
 
-  it("list each villain's home among the place's residents", async () => {
-    const { body } = await get("/api/villains");
-    for (const villain of body.data) {
-      for (const home of villain.residence) {
+  it("list each character's home among the place's residents", async () => {
+    const { body } = await get("/api/characters");
+    for (const character of body.data) {
+      for (const home of character.residence) {
         const { body: place } = await get(new URL(home.url).pathname);
         assert.equal(home.name, place.data.name);
         assert.ok(
-          place.data.villains.some((v: { url: string }) => v.url.endsWith(`/api/villain/${villain.id}`)),
-          `place ${place.data.id} doesn't list villain ${villain.id}`
+          place.data.characters.some((c: { url: string }) => new URL(c.url).pathname === characterPath(character)),
+          `place ${place.data.id} doesn't list character ${character.id}`
         );
       }
     }
   });
 
-  it("point both ways between villains and their types", async () => {
+  it("list a place's and a type's villains among its characters", async () => {
+    for (const list of ["/api/places", "/api/types"]) {
+      const { body } = await get(list);
+      for (const record of body.data) {
+        assert.deepEqual(
+          record.villains,
+          record.characters.filter((link: { url: string }) => link.url.includes("/api/villain/")),
+          `${list} ${record.id} lists the wrong villains`
+        );
+      }
+    }
+  });
+
+  it("point both ways between characters and their types", async () => {
     const { body: typeList } = await get("/api/types");
     const parents = new Map(
       typeList.data.map((type: any) => [`/api/type/${type.id}`, type.parent && new URL(type.parent.url).pathname])
     );
-    // A villain belongs to its type, its kinds and every type above a kind
+    // A character belongs to its type, its kinds and every type above a kind
     const expected = new Map<string, number[]>();
-    const { body } = await get("/api/villains");
-    for (const villain of body.data) {
+    const { body } = await get("/api/characters");
+    for (const character of body.data) {
       const typePaths = new Set<string>();
-      for (const link of [villain.type, ...villain.kinds]) {
+      for (const link of [character.type, ...character.kinds]) {
         for (let at = new URL(link.url).pathname; at; at = parents.get(at) as string) {
           typePaths.add(at);
         }
       }
       for (const at of typePaths) {
-        expected.set(at, [...(expected.get(at) || []), villain.id]);
+        expected.set(at, [...(expected.get(at) || []), character.id]);
       }
     }
     for (const type of typeList.data) {
       assert.deepEqual(
-        type.villains.map((link: { url: string }) => Number(link.url.split("/").pop())),
+        type.characters.map((link: { url: string }) => Number(link.url.split("/").pop())),
         expected.get(`/api/type/${type.id}`) || [],
-        `type ${type.id} (${type.name}) lists the wrong villains`
+        `type ${type.id} (${type.name}) lists the wrong characters`
       );
     }
   });
@@ -315,56 +453,56 @@ describe("links", () => {
     assert.equal(fromBooks.length, 2);
   });
 
-  it("point both ways between killers and the villains they killed", async () => {
-    const { body } = await get("/api/villains");
-    const idOf = (link: { url: string }) => Number(link.url.split("/").pop());
-    // A villain in a group of killers counts as a killer
+  it("point both ways between killers and the characters they killed", async () => {
+    const { body } = await get("/api/characters");
+    // A character in a group of killers counts as a killer
     const fromDeaths: string[] = [];
-    for (const villain of body.data) {
-      for (const killer of villain.death?.killed_by ?? []) {
+    for (const character of body.data) {
+      for (const killer of character.death?.killed_by ?? []) {
         for (const one of [killer, ...(killer.members ?? [])]) {
           if (one.url !== null) {
-            fromDeaths.push(`${idOf(one)} ${villain.id}`);
+            fromDeaths.push(`${new URL(one.url).pathname} ${characterPath(character)}`);
           }
         }
       }
     }
     const fromKilled: string[] = [];
-    for (const villain of body.data) {
-      const ids = villain.killed.map(idOf);
-      assert.deepEqual(ids, [...ids].sort((a: number, b: number) => a - b), `villain ${villain.id} lists its victims out of order`);
-      ids.forEach((id: number) => fromKilled.push(`${villain.id} ${id}`));
+    for (const character of body.data) {
+      const ids = character.killed.map((link: { url: string }) => Number(link.url.split("/").pop()));
+      assert.deepEqual(ids, [...ids].sort((a: number, b: number) => a - b), `character ${character.id} lists its victims out of order`);
+      character.killed.forEach((link: { url: string }) => fromKilled.push(`${characterPath(character)} ${new URL(link.url).pathname}`));
     }
     assert.deepEqual(fromKilled.sort(), fromDeaths.sort());
-    assert.ok(fromKilled.length, "no villain is recorded killing another");
+    // Ben Mears killed Barlow and Susan Norton; Eddie Kaspbrak killed Henry Bowers
+    assert.ok(fromKilled.includes("/api/character/202 /api/villain/2"), "no character who isn't a villain is recorded killing one");
   });
 
-  it("describe a death by its cause, a work the villain is in, and its killers", async () => {
-    const { body } = await get("/api/villains");
-    const names = new Map(body.data.map((villain: { id: number; name: string }) => [`/api/villain/${villain.id}`, villain.name]));
-    const villainNames = new Set(names.values());
-    for (const villain of body.data) {
-      const keys = Object.keys(villain);
-      assert.equal(keys[keys.indexOf("status") + 1], "death", `villain ${villain.id}: death doesn't follow status`);
-      if (villain.status === "Alive") {
-        assert.equal(villain.death, null, `villain ${villain.id} is alive but has a death`);
+  it("describe a death by its cause, a work the character is in, and its killers", async () => {
+    const { body } = await get("/api/characters");
+    const names = new Map(body.data.map((character: { id: number; villain: boolean; name: string }) => [characterPath(character), character.name]));
+    const characterNames = new Set(names.values());
+    for (const character of body.data) {
+      const keys = Object.keys(character);
+      assert.equal(keys[keys.indexOf("status") + 1], "death", `character ${character.id}: death doesn't follow status`);
+      if (character.status === "Alive") {
+        assert.equal(character.death, null, `character ${character.id} is alive but has a death`);
       }
-      if (villain.death === null) {
+      if (character.death === null) {
         continue;
       }
-      const { death } = villain;
-      assert.deepEqual(Object.keys(death), ["cause", "work", "killed_by"], `villain ${villain.id}`);
+      const { death } = character;
+      assert.deepEqual(Object.keys(death), ["cause", "work", "killed_by"], `character ${character.id}`);
       assert.ok(
-        [...villain.books, ...villain.shorts].some((work: any) => work.url === death.work.url && work.title === death.work.title),
-        `villain ${villain.id} dies in ${death.work.url}, which isn't one of its works`
+        [...character.books, ...character.shorts].some((work: any) => work.url === death.work.url && work.title === death.work.title),
+        `character ${character.id} dies in ${death.work.url}, which isn't one of its works`
       );
       for (const killer of death.killed_by) {
         assert.deepEqual(Object.keys(killer), killer.members ? ["name", "url", "members"] : ["name", "url"]);
         for (const one of [killer, ...(killer.members ?? [])]) {
           if (one.url === null) {
-            assert.ok(!villainNames.has(one.name), `villain ${villain.id}: ${one.name} is a villain, but isn't linked`);
+            assert.ok(!characterNames.has(one.name), `character ${character.id}: ${one.name} is a character, but isn't linked`);
           } else {
-            assert.equal(one.name, names.get(new URL(one.url).pathname), `villain ${villain.id} links ${one.url} under the wrong name`);
+            assert.equal(one.name, names.get(new URL(one.url).pathname), `character ${character.id} links ${one.url} under the wrong name`);
           }
         }
       }
@@ -376,10 +514,10 @@ describe("links", () => {
     const byUrl = new Map(body.data.map((place: { id: number }) => [`/api/place/${place.id}`, place]));
     for (const place of body.data) {
       const parent: any = place.parent && byUrl.get(new URL(place.parent.url).pathname);
-      for (const villain of parent ? place.villains : []) {
+      for (const character of parent ? place.characters : []) {
         assert.ok(
-          parent.villains.some((v: { url: string }) => v.url === villain.url),
-          `${villain.name} lives in place ${place.id} but isn't listed in ${parent.id}`
+          parent.characters.some((c: { url: string }) => c.url === character.url),
+          `${character.name} lives in place ${place.id} but isn't listed in ${parent.id}`
         );
       }
     }

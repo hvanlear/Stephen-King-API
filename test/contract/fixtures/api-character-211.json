@@ -1,0 +1,60 @@
+{
+  "path": "/api/character/211",
+  "status": 200,
+  "body": {
+    "data": {
+      "id": 211,
+      "name": "Eddie Kaspbrak",
+      "villain": false,
+      "protagonist": true,
+      "gender": "Male",
+      "status": "Deceased",
+      "death": {
+        "cause": "Arm bitten off",
+        "work": {
+          "title": "It",
+          "url": "https://stephen-king-api.onrender.com/api/book/19"
+        },
+        "killed_by": [
+          {
+            "name": "It (Creature)",
+            "url": "https://stephen-king-api.onrender.com/api/villain/57"
+          }
+        ]
+      },
+      "types_id": 1,
+      "group": false,
+      "notes": [],
+      "created_at": "2026-11-26T15:15:00.000Z",
+      "books": [
+        {
+          "title": "It",
+          "url": "https://stephen-king-api.onrender.com/api/book/19",
+          "role": "protagonist"
+        }
+      ],
+      "shorts": [],
+      "residence": [
+        {
+          "name": "Derry, Maine",
+          "url": "https://stephen-king-api.onrender.com/api/place/62"
+        }
+      ],
+      "type": {
+        "name": "Human",
+        "url": "https://stephen-king-api.onrender.com/api/type/1"
+      },
+      "kinds": [],
+      "killed": [
+        {
+          "name": "Henry Bowers",
+          "url": "https://stephen-king-api.onrender.com/api/villain/7"
+        },
+        {
+          "name": "It (Creature)",
+          "url": "https://stephen-king-api.onrender.com/api/villain/57"
+        }
+      ]
+    }
+  }
+}

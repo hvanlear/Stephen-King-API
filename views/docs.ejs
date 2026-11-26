@@ -50,6 +50,7 @@
             <li><a href="#rate-limits">Rate Limits</a></li>
             <li><a href="#books">Books</a></li>
             <li><a href="#short-stories">Short Stories</a></li>
+            <li><a href="#characters">Characters</a></li>
             <li><a href="#villains">Villains</a></li>
             <li><a href="#places">Places</a></li>
             <li><a href="#types">Types</a></li>
@@ -63,7 +64,7 @@
         <section id="introduction" class="docs-section">
           <h2>Introduction</h2>
           <p>
-            The Stephen King API is a free, open-source REST API providing data about Stephen King's novels, short stories, the collections they were published in, the magazines and anthologies they first appeared in, villains, places, and the types of villain. No authentication is required. All endpoints are read-only (<code>GET</code> requests only).
+            The Stephen King API is a free, open-source REST API providing data about Stephen King's novels, short stories, the collections they were published in, the magazines and anthologies they first appeared in, characters (villains among them), places, and the types of villain. No authentication is required. All endpoints are read-only (<code>GET</code> requests only).
           </p>
           <p>
             Responses are returned in JSON format. Related resources include links to their associated endpoints for easy traversal.
@@ -211,14 +212,70 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
         "Nominee, World Fantasy Award, 1976[2]"
       ],
       "created_at": "2023-11-13T23:48:48.098Z",
-      "villains": [
+      "characters": [
         {
           "name": "Kurt Barlow",
-          "url": "<%= url %>/api/villain/2"
+          "url": "<%= url %>/api/villain/2",
+          "role": "antagonist"
         },
         {
           "name": "Richard Straker",
-          "url": "<%= url %>/api/villain/98"
+          "url": "<%= url %>/api/villain/98",
+          "role": "supporting"
+        },
+        {
+          "name": "Ben Mears",
+          "url": "<%= url %>/api/character/202",
+          "role": "protagonist"
+        },
+        {
+          "name": "Mark Petrie",
+          "url": "<%= url %>/api/character/203",
+          "role": "protagonist"
+        },
+        {
+          "name": "Susan Norton",
+          "url": "<%= url %>/api/character/204",
+          "role": "supporting"
+        },
+        {
+          "name": "Matt Burke",
+          "url": "<%= url %>/api/character/205",
+          "role": "supporting"
+        },
+        {
+          "name": "Donald Callahan",
+          "url": "<%= url %>/api/character/206",
+          "role": "supporting"
+        },
+        {
+          "name": "Jimmy Cody",
+          "url": "<%= url %>/api/character/214",
+          "role": "supporting"
+        }
+      ],
+      "villains": [
+        {
+          "name": "Kurt Barlow",
+          "url": "<%= url %>/api/villain/2",
+          "role": "antagonist"
+        },
+        {
+          "name": "Richard Straker",
+          "url": "<%= url %>/api/villain/98",
+          "role": "supporting"
+        }
+      ],
+      "protagonists": [
+        {
+          "name": "Ben Mears",
+          "url": "<%= url %>/api/character/202",
+          "role": "protagonist"
+        },
+        {
+          "name": "Mark Petrie",
+          "url": "<%= url %>/api/character/203",
+          "role": "protagonist"
         }
       ],
       "places": [
@@ -300,24 +357,51 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
       "Runner-up (4th place), Locus Award for Best Fantasy Novel, 1978[2]"
     ],
     "created_at": "2023-11-13T23:48:48.219Z",
-    "villains": [
+    "characters": [
       {
         "name": "Horace M. Derwent",
-        "url": "<%= url %>/api/villain/26"
+        "url": "<%= url %>/api/villain/26",
+        "role": null
       },
       {
         "name": "Delbert Grady",
-        "url": "<%= url %>/api/villain/45"
+        "url": "<%= url %>/api/villain/45",
+        "role": null
       },
       {
         "name": "Jack Torrance",
-        "url": "<%= url %>/api/villain/106"
+        "url": "<%= url %>/api/villain/106",
+        "role": null
       },
       {
         "name": "Roger the Dog Man",
-        "url": "<%= url %>/api/villain/162"
+        "url": "<%= url %>/api/villain/162",
+        "role": null
       }
     ],
+    "villains": [
+      {
+        "name": "Horace M. Derwent",
+        "url": "<%= url %>/api/villain/26",
+        "role": null
+      },
+      {
+        "name": "Delbert Grady",
+        "url": "<%= url %>/api/villain/45",
+        "role": null
+      },
+      {
+        "name": "Jack Torrance",
+        "url": "<%= url %>/api/villain/106",
+        "role": null
+      },
+      {
+        "name": "Roger the Dog Man",
+        "url": "<%= url %>/api/villain/162",
+        "role": null
+      }
+    ],
+    "protagonists": [],
     "places": [
       {
         "name": "Boulder, Colorado",
@@ -378,7 +462,9 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
       ],
       "year": 1959,
       "created_at": "2023-11-13T23:48:55.954Z",
+      "characters": [],
       "villains": [],
+      "protagonists": [],
       "places": []
     }
   ],
@@ -421,17 +507,188 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
     ],
     "year": 1990,
     "created_at": "2023-11-13T23:49:10.278Z",
-    "villains": [
+    "characters": [
       {
         "name": "Craig Toomey",
-        "url": "<%= url %>/api/villain/105"
+        "url": "<%= url %>/api/villain/105",
+        "role": null
       },
       {
         "name": "Langoliers",
-        "url": "<%= url %>/api/villain/147"
+        "url": "<%= url %>/api/villain/147",
+        "role": null
       }
     ],
+    "villains": [
+      {
+        "name": "Craig Toomey",
+        "url": "<%= url %>/api/villain/105",
+        "role": null
+      },
+      {
+        "name": "Langoliers",
+        "url": "<%= url %>/api/villain/147",
+        "role": null
+      }
+    ],
+    "protagonists": [],
     "places": []
+  }
+}</pre>
+          </div>
+        </section>
+
+        <!-- Characters -->
+        <section id="characters" class="docs-section">
+          <h2>Characters</h2>
+          <p>
+            Characters are the people and creatures of the stories: every villain, and the heroes and others around them, who are being added a few books at a time, starting with <em>'Salem's Lot</em> and <em>It</em>. Each one says whether it's a <code>villain</code>, and gives its <code>role</code> in each book or short it's in: <code>"protagonist"</code> for one of the people the story follows, <code>"antagonist"</code> for a villain the story is against, <code>"supporting"</code>, or <code>"minor"</code> for a cameo or a small part. A role is <code>null</code> until it's recorded. <code>protagonist</code> is <code>true</code> for a character who leads at least one work, such as Ben Mears or the Losers' Club, and a character can be neither, such as Matt Burke.
+          </p>
+          <p>
+            Character responses include <code>books</code> and <code>shorts</code> arrays linking to the works they appear in, a <code>residence</code> array linking to where they live, and their <code>type</code> and <code>kinds</code>. A <code>group</code> character is a set of characters, such as a gang, a cult or a race. Books and shorts list their <code>characters</code>, and their <code>villains</code> and <code>protagonists</code> among them. Each of those links, and each of a character's <code>books</code> and <code>shorts</code>, carries the character's <code>role</code> in that work. Beverly Marsh is a protagonist of <em>It</em> but has a minor part in <em>11/22/63</em>, so only <em>It</em> lists her among its <code>protagonists</code>.
+          </p>
+          <p>
+            Every character is at <code>/api/character/:id</code>. Links to a villain use its <a href="#villains">villain route</a>, <code>/api/villain/:id</code>, which serves the same response, and links to anyone else use the character route.
+          </p>
+          <p>
+            A character's <code>death</code> says how it died: the <code>cause</code>, the <code>work</code> it happens in, and who it was <code>killed_by</code>, which is empty when nobody killed it. A killer the API has a record of links to it. Anyone else has a <code>name</code> and a <code>url</code> of <code>null</code> until there's a record to link. A group of killers, such as the Losers' Club, lists its <code>members</code> the same way. Each character also lists who it <code>killed</code>, alone or in a group.
+          </p>
+          <p>
+            <code>death</code> is <code>null</code> for a character who's alive, and for a dead one whose death isn't recorded yet. Deaths are being added a few books at a time.
+          </p>
+
+          <!-- GET /api/characters -->
+          <div class="endpoint-card">
+            <div class="endpoint-header">
+              <span class="endpoint-method">GET</span>
+              <span class="endpoint-path">/api/characters</span>
+            </div>
+            <p>Returns all characters, villains included. Supports <a href="#pagination">pagination</a>.</p>
+            <h4>Example Request</h4>
+            <div class="docs-code-block">
+              <code>GET <%= url %>/api/characters?page=202&limit=1</code>
+            </div>
+            <h4>Example Response</h4>
+            <pre class="docs-json">{
+  "data": [
+    {
+      "id": 202,
+      "name": "Ben Mears",
+      "villain": false,
+      "protagonist": true,
+      "gender": "Male",
+      "status": "Alive",
+      "death": null,
+      "types_id": 1,
+      "group": false,
+      "notes": [],
+      "created_at": "2026-11-26T15:15:00.000Z",
+      "books": [
+        {
+          "title": "Salem's Lot",
+          "url": "<%= url %>/api/book/2",
+          "role": "protagonist"
+        }
+      ],
+      "shorts": [],
+      "residence": [
+        {
+          "name": "Jerusalem's Lot, Maine",
+          "url": "<%= url %>/api/place/76"
+        }
+      ],
+      "type": {
+        "name": "Human",
+        "url": "<%= url %>/api/type/1"
+      },
+      "kinds": [],
+      "killed": [
+        {
+          "name": "Kurt Barlow",
+          "url": "<%= url %>/api/villain/2"
+        },
+        {
+          "name": "Susan Norton",
+          "url": "<%= url %>/api/character/204"
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "page": 202,
+    "limit": 1,
+    "total": 214,
+    "totalPages": 214
+  }
+}</pre>
+          </div>
+
+          <!-- GET /api/character/:id -->
+          <div class="endpoint-card">
+            <div class="endpoint-header">
+              <span class="endpoint-method">GET</span>
+              <span class="endpoint-path">/api/character/:id</span>
+            </div>
+            <p>Returns a single character by ID.</p>
+            <h4>Example Request</h4>
+            <div class="docs-code-block">
+              <code>GET <%= url %>/api/character/211</code>
+            </div>
+            <h4>Example Response</h4>
+            <pre class="docs-json">{
+  "data": {
+    "id": 211,
+    "name": "Eddie Kaspbrak",
+    "villain": false,
+    "protagonist": true,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": {
+      "cause": "Arm bitten off",
+      "work": {
+        "title": "It",
+        "url": "<%= url %>/api/book/19"
+      },
+      "killed_by": [
+        {
+          "name": "It (Creature)",
+          "url": "<%= url %>/api/villain/57"
+        }
+      ]
+    },
+    "types_id": 1,
+    "group": false,
+    "notes": [],
+    "created_at": "2026-11-26T15:15:00.000Z",
+    "books": [
+      {
+        "title": "It",
+        "url": "<%= url %>/api/book/19",
+        "role": "protagonist"
+      }
+    ],
+    "shorts": [],
+    "residence": [
+      {
+        "name": "Derry, Maine",
+        "url": "<%= url %>/api/place/62"
+      }
+    ],
+    "type": {
+      "name": "Human",
+      "url": "<%= url %>/api/type/1"
+    },
+    "kinds": [],
+    "killed": [
+      {
+        "name": "Henry Bowers",
+        "url": "<%= url %>/api/villain/7"
+      },
+      {
+        "name": "It (Creature)",
+        "url": "<%= url %>/api/villain/57"
+      }
+    ]
   }
 }</pre>
           </div>
@@ -441,13 +698,7 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
         <section id="villains" class="docs-section">
           <h2>Villains</h2>
           <p>
-            Villain responses include <code>books</code> and <code>shorts</code> arrays (instead of a <code>villains</code> array) linking to the works they appear in, a <code>residence</code> array linking to where they live, and their <code>type</code> and <code>kinds</code>. A <code>group</code> villain is a set of villains, such as a gang, a cult or a race.
-          </p>
-          <p>
-            A villain's <code>death</code> says how it died: the <code>cause</code>, the <code>work</code> it happens in, and who it was <code>killed_by</code>, which is empty when nobody killed it. A killer the API has a record of links to it. Anyone else, such as a hero, has a <code>name</code> and a <code>url</code> of <code>null</code> until there's a record to link. A group of killers, such as the Losers' Club, lists its <code>members</code> the same way. Each villain also lists the villains it <code>killed</code>, alone or in a group.
-          </p>
-          <p>
-            <code>death</code> is <code>null</code> for a villain who's alive, and for a dead one whose death isn't recorded yet. Deaths are being added a few books at a time.
+            Villains are the <a href="#characters">characters</a> whose <code>villain</code> is <code>true</code>, served exactly as the character routes serve them. A character who isn't a villain has no villain route, so <code>/api/villain/202</code> is a 404.
           </p>
 
           <!-- GET /api/villains -->
@@ -456,7 +707,7 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
               <span class="endpoint-method">GET</span>
               <span class="endpoint-path">/api/villains</span>
             </div>
-            <p>Returns all villains. Supports <a href="#pagination">pagination</a>.</p>
+            <p>Returns all villains, in id order. Supports <a href="#pagination">pagination</a>.</p>
             <h4>Example Request</h4>
             <div class="docs-code-block">
               <code>GET <%= url %>/api/villains?page=1&limit=1</code>
@@ -467,6 +718,8 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
     {
       "id": 1,
       "name": "Bob Anderson",
+      "villain": true,
+      "protagonist": false,
       "gender": "Male",
       "status": "Deceased",
       "death": null,
@@ -486,7 +739,8 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
       "shorts": [
         {
           "title": "A Good Marriage",
-          "url": "<%= url %>/api/short/180"
+          "url": "<%= url %>/api/short/180",
+          "role": null
         }
       ],
       "residence": [
@@ -532,6 +786,8 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
   "data": {
     "id": 2,
     "name": "Kurt Barlow",
+    "villain": true,
+    "protagonist": false,
     "gender": "Male",
     "status": "Deceased",
     "death": {
@@ -543,11 +799,11 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
       "killed_by": [
         {
           "name": "Ben Mears",
-          "url": null
+          "url": "<%= url %>/api/character/202"
         },
         {
           "name": "Mark Petrie",
-          "url": null
+          "url": "<%= url %>/api/character/203"
         }
       ]
     },
@@ -564,7 +820,8 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
     "books": [
       {
         "title": "Salem's Lot",
-        "url": "<%= url %>/api/book/2"
+        "url": "<%= url %>/api/book/2",
+        "role": "antagonist"
       }
     ],
     "shorts": [],
@@ -588,6 +845,10 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
       {
         "name": "Richard Straker",
         "url": "<%= url %>/api/villain/98"
+      },
+      {
+        "name": "Jimmy Cody",
+        "url": "<%= url %>/api/character/214"
       }
     ]
   }
@@ -599,7 +860,7 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
         <section id="places" class="docs-section">
           <h2>Places</h2>
           <p>
-            Places run from buildings up to towns, states, countries and other worlds. Each place links to its <code>parent</code>, the place it's in, and lists the <code>places</code> inside it, so Marsten House leads to Jerusalem's Lot, then Maine, then the United States. A place also links to the <code>books</code> and <code>shorts</code> set there and the <code>villains</code> who live there, counting anyone living in a place inside it: Kurt Barlow lives in the Marsten House, so Jerusalem's Lot and Maine list him too. Books, shorts and villains link back: a book lists its <code>places</code>, and a villain lists its <code>residence</code>.
+            Places run from buildings up to towns, states, countries and other worlds. Each place links to its <code>parent</code>, the place it's in, and lists the <code>places</code> inside it, so Marsten House leads to Jerusalem's Lot, then Maine, then the United States. A place also links to the <code>books</code> and <code>shorts</code> set there and the <code>characters</code> who live there, with its <code>villains</code> among them, counting anyone living in a place inside it: Kurt Barlow lives in the Marsten House, so Jerusalem's Lot and Maine list him too. Books, shorts and characters link back: a book lists its <code>places</code>, and a character lists its <code>residence</code>.
           </p>
 
           <!-- GET /api/places -->
@@ -683,6 +944,32 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
         {
           "title": "The Little Sisters of Eluria",
           "url": "<%= url %>/api/short/139"
+        }
+      ],
+      "characters": [
+        {
+          "name": "Marten Broadcloak",
+          "url": "<%= url %>/api/villain/10"
+        },
+        {
+          "name": "Rhea Dubativo",
+          "url": "<%= url %>/api/villain/32"
+        },
+        {
+          "name": "Eldred Jonas",
+          "url": "<%= url %>/api/villain/60"
+        },
+        {
+          "name": "Sylvia Pittston",
+          "url": "<%= url %>/api/villain/84"
+        },
+        {
+          "name": "Ben Slightman",
+          "url": "<%= url %>/api/villain/178"
+        },
+        {
+          "name": "Donald Callahan",
+          "url": "<%= url %>/api/character/206"
         }
       ],
       "villains": [
@@ -779,6 +1066,40 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
         "url": "<%= url %>/api/short/58"
       }
     ],
+    "characters": [
+      {
+        "name": "Kurt Barlow",
+        "url": "<%= url %>/api/villain/2"
+      },
+      {
+        "name": "James Boon",
+        "url": "<%= url %>/api/villain/6"
+      },
+      {
+        "name": "Richard Straker",
+        "url": "<%= url %>/api/villain/98"
+      },
+      {
+        "name": "Ben Mears",
+        "url": "<%= url %>/api/character/202"
+      },
+      {
+        "name": "Mark Petrie",
+        "url": "<%= url %>/api/character/203"
+      },
+      {
+        "name": "Susan Norton",
+        "url": "<%= url %>/api/character/204"
+      },
+      {
+        "name": "Matt Burke",
+        "url": "<%= url %>/api/character/205"
+      },
+      {
+        "name": "Donald Callahan",
+        "url": "<%= url %>/api/character/206"
+      }
+    ],
     "villains": [
       {
         "name": "Kurt Barlow",
@@ -802,7 +1123,7 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
         <section id="types" class="docs-section">
           <h2>Types</h2>
           <p>
-            Every villain has a broad <code>type</code>: human, vampire, supernatural being, alien, machine or object, ghost, or animal. Under those sit <code>kinds</code> named in the stories themselves, such as Callahan's Type One vampires, the True Knot, and the machines of North Central Positronics. A type lists the kinds inside it and every villain of that type or one of its kinds, so the Vampire type includes the True Knot. A villain's <code>types_id</code> is the id of its broad type.
+            Every character has a broad <code>type</code>: human, vampire, supernatural being, alien, machine or object, ghost, or animal. Under those sit <code>kinds</code> named in the stories themselves, such as Callahan's Type One vampires, the True Knot, and the machines of North Central Positronics. A type lists the kinds inside it and every character of that type or one of its kinds, with its <code>villains</code> among them, so the Vampire type includes the True Knot. A character's <code>types_id</code> is the id of its broad type.
           </p>
 
           <!-- GET /api/types -->
@@ -833,6 +1154,48 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
         {
           "name": "Type One vampire",
           "url": "<%= url %>/api/type/11"
+        }
+      ],
+      "characters": [
+        {
+          "name": "Kurt Barlow",
+          "url": "<%= url %>/api/villain/2"
+        },
+        {
+          "name": "Dandelo",
+          "url": "<%= url %>/api/villain/21"
+        },
+        {
+          "name": "Rose the Hat",
+          "url": "<%= url %>/api/villain/31"
+        },
+        {
+          "name": "Little Sisters",
+          "url": "<%= url %>/api/villain/67"
+        },
+        {
+          "name": "Barry",
+          "url": "<%= url %>/api/villain/121"
+        },
+        {
+          "name": "Crow Daddy",
+          "url": "<%= url %>/api/villain/130"
+        },
+        {
+          "name": "Grampa Flick",
+          "url": "<%= url %>/api/villain/137"
+        },
+        {
+          "name": "Jimmy Numbers",
+          "url": "<%= url %>/api/villain/142"
+        },
+        {
+          "name": "Snakebite Andi",
+          "url": "<%= url %>/api/villain/164"
+        },
+        {
+          "name": "Walnut",
+          "url": "<%= url %>/api/villain/174"
         }
       ],
       "villains": [
@@ -911,6 +1274,16 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
       "url": "<%= url %>/api/type/6"
     },
     "types": [],
+    "characters": [
+      {
+        "name": "Blaine the Mono",
+        "url": "<%= url %>/api/villain/3"
+      },
+      {
+        "name": "Andy",
+        "url": "<%= url %>/api/villain/177"
+      }
+    ],
     "villains": [
       {
         "name": "Blaine the Mono",
@@ -1170,9 +1543,19 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
                 <td>Additional notes</td>
               </tr>
               <tr>
+                <td><code>characters</code></td>
+                <td>array</td>
+                <td>Characters in it, villains included, with name, URL and <code>role</code> in this work</td>
+              </tr>
+              <tr>
                 <td><code>villains</code></td>
                 <td>array</td>
-                <td>Associated villains with name and URL</td>
+                <td>The villains among its characters, with name, URL and <code>role</code></td>
+              </tr>
+              <tr>
+                <td><code>protagonists</code></td>
+                <td>array</td>
+                <td>The characters whose <code>role</code> in this work is <code>"protagonist"</code>, with name, URL and role</td>
               </tr>
               <tr>
                 <td><code>places</code></td>
@@ -1253,9 +1636,19 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
                 <td>Year of publication</td>
               </tr>
               <tr>
+                <td><code>characters</code></td>
+                <td>array</td>
+                <td>Characters in it, villains included, with name, URL and <code>role</code> in this work</td>
+              </tr>
+              <tr>
                 <td><code>villains</code></td>
                 <td>array</td>
-                <td>Associated villains with name and URL</td>
+                <td>The villains among its characters, with name, URL and <code>role</code></td>
+              </tr>
+              <tr>
+                <td><code>protagonists</code></td>
+                <td>array</td>
+                <td>The characters whose <code>role</code> in this work is <code>"protagonist"</code>, with name, URL and role</td>
               </tr>
               <tr>
                 <td><code>places</code></td>
@@ -1270,7 +1663,8 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
             </tbody>
           </table>
 
-          <h3>Villain</h3>
+          <h3>Character</h3>
+          <p>Villains are characters, so a villain response has these fields too.</p>
           <table class="docs-table">
             <thead>
               <tr>
@@ -1288,7 +1682,17 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
               <tr>
                 <td><code>name</code></td>
                 <td>string</td>
-                <td>Villain name</td>
+                <td>Character name</td>
+              </tr>
+              <tr>
+                <td><code>villain</code></td>
+                <td>boolean</td>
+                <td>Whether the character is a villain, and so is listed at <code>/api/villains</code></td>
+              </tr>
+              <tr>
+                <td><code>protagonist</code></td>
+                <td>boolean</td>
+                <td>Whether the character is a protagonist of at least one book or short, from its roles</td>
               </tr>
               <tr>
                 <td><code>gender</code></td>
@@ -1303,17 +1707,17 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
               <tr>
                 <td><code>death</code></td>
                 <td>object?</td>
-                <td>How the villain died: <code>cause</code>, the <code>work</code> it happens in (title and URL), and <code>killed_by</code>, the killers with name and URL (<code>null</code> for someone with no record yet) and a group's <code>members</code>. <code>null</code> if the villain is alive or its death isn't recorded yet</td>
+                <td>How the character died: <code>cause</code>, the <code>work</code> it happens in (title and URL), and <code>killed_by</code>, the killers with name and URL (<code>null</code> for someone with no record yet) and a group's <code>members</code>. <code>null</code> if the character is alive or its death isn't recorded yet</td>
               </tr>
               <tr>
                 <td><code>types_id</code></td>
                 <td>integer</td>
-                <td>Id of the villain's broad type (see <code>type</code>)</td>
+                <td>Id of the character's broad type (see <code>type</code>)</td>
               </tr>
               <tr>
                 <td><code>group</code></td>
                 <td>boolean</td>
-                <td>Whether the record is a set of villains, such as a gang, a cult or a race</td>
+                <td>Whether the record is a set of characters, such as a gang, a cult or a race</td>
               </tr>
               <tr>
                 <td><code>notes</code></td>
@@ -1323,32 +1727,32 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
               <tr>
                 <td><code>books</code></td>
                 <td>array</td>
-                <td>Associated books with title and URL</td>
+                <td>Books it's in, with title, URL and its <code>role</code> there (<code>"protagonist"</code>, <code>"antagonist"</code>, <code>"supporting"</code>, <code>"minor"</code>, or <code>null</code> until recorded)</td>
               </tr>
               <tr>
                 <td><code>shorts</code></td>
                 <td>array</td>
-                <td>Associated short stories with title and URL</td>
+                <td>Short stories it's in, with title, URL and its <code>role</code> there</td>
               </tr>
               <tr>
                 <td><code>residence</code></td>
                 <td>array</td>
-                <td>Where the villain lives, with name and URL</td>
+                <td>Where the character lives, with name and URL</td>
               </tr>
               <tr>
                 <td><code>type</code></td>
                 <td>object</td>
-                <td>The villain's broad type, with name and URL</td>
+                <td>The character's broad type, with name and URL</td>
               </tr>
               <tr>
                 <td><code>kinds</code></td>
                 <td>array</td>
-                <td>Kinds from the stories the villain belongs to, such as the True Knot, with name and URL</td>
+                <td>Kinds from the stories the character belongs to, such as the True Knot, with name and URL</td>
               </tr>
               <tr>
                 <td><code>killed</code></td>
                 <td>array</td>
-                <td>Villains this villain killed, alone or in a group, with name and URL</td>
+                <td>Characters this one killed, alone or in a group, with name and URL</td>
               </tr>
               <tr>
                 <td><code>created_at</code></td>
@@ -1408,9 +1812,14 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
                 <td>Short stories set there, with title and URL</td>
               </tr>
               <tr>
+                <td><code>characters</code></td>
+                <td>array</td>
+                <td>Characters who live there or in a place inside it, with name and URL</td>
+              </tr>
+              <tr>
                 <td><code>villains</code></td>
                 <td>array</td>
-                <td>Villains who live there or in a place inside it, with name and URL</td>
+                <td>The villains among them, with name and URL</td>
               </tr>
               <tr>
                 <td><code>created_at</code></td>
@@ -1460,9 +1869,14 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
                 <td>The kinds inside it, with name and URL</td>
               </tr>
               <tr>
+                <td><code>characters</code></td>
+                <td>array</td>
+                <td>Characters of this type or a kind inside it, with name and URL</td>
+              </tr>
+              <tr>
                 <td><code>villains</code></td>
                 <td>array</td>
-                <td>Villains of this type or a kind inside it, with name and URL</td>
+                <td>The villains among them, with name and URL</td>
               </tr>
             </tbody>
           </table>

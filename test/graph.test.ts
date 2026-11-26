@@ -6,6 +6,7 @@ import { graph } from "../src/graph/build";
 import { schema } from "../src/graph/schema";
 import { PANEL_ROWS, refIndex, statusOf, type Ref } from "../src/graph/payload";
 import { decode } from "../src/client/model";
+import { layout } from "../src/client/layout";
 
 // The graph file behind the /next home page (SK-045), and the page itself
 
@@ -20,25 +21,33 @@ const isObject = (v: unknown): v is Record<string, any> => typeof v === "object"
 // A link, or a name whose url is null until it has a record
 const isLink = (v: unknown) => isObject(v) && (typeof v.url === "string" || (v.url === null && typeof v.name === "string"));
 
-// A link as a path, or a name with no record yet in quotes, with a group's
-// members after it: '"The Losers' Club" ["Bill Denbrough", ...]'
+// A link as a path, or a name with no record yet in quotes, with its role
+// if it has one, and a group's members after it:
+// '/api/book/19 (antagonist)', '"The Losers' Club" ["Bill Denbrough", ...]'
 const members = (list: unknown[] | undefined, describe: (m: any) => string) =>
   list ? ` [${list.map(describe).join(", ")}]` : "";
+const role = (value: unknown) => (typeof value === "string" ? ` (${value})` : "");
 const fromLink = (l: any): string =>
-  (l.url === null ? JSON.stringify(l.name) : new URL(l.url).pathname) + members(l.members, fromLink);
+  (l.url === null ? JSON.stringify(l.name) : new URL(l.url).pathname) + role(l.role) + members(l.members, fromLink);
 const fromRef = (r: Ref): string => {
   const i = refIndex(r);
   const base = i < 0 ? JSON.stringify((r as { name: string }).name) : `/api/${nodes[i][0]}/${nodes[i][1]}`;
-  return base + members(typeof r === "object" ? r.members : undefined, fromRef);
+  return base + role(typeof r === "object" && "i" in r ? r.role : undefined) + members(typeof r === "object" ? r.members : undefined, fromRef);
 };
 
 describe("the graph file", () => {
   it("has every record, once", async () => {
     for (const kind of Object.keys(schema.kinds)) {
-      const res = await fetch(`${server.url}/api/${schema.kinds[kind].plural}`);
+      const { plural, drawnAs } = schema.kinds[kind];
+      const res = await fetch(`${server.url}/api/${plural}`);
       const body: any = await res.json();
+      // A villain is listed among the characters too, but drawn as a villain
+      const elsewhere = (r: any) => drawnAs !== undefined && r[drawnAs.field] === true;
       const ids = nodes.filter((n) => n[0] === kind).map((n) => n[1]);
-      assert.deepEqual(ids, body.data.map((r: { id: number }) => r.id), kind);
+      assert.deepEqual(ids, body.data.filter((r: any) => !elsewhere(r)).map((r: { id: number }) => r.id), kind);
+      for (const r of body.data.filter(elsewhere)) {
+        assert.ok(nodes.some((n) => n[0] === drawnAs!.kind && n[1] === r.id), `${kind} ${r.id} isn't drawn as a ${drawnAs!.kind}`);
+      }
     }
   });
 
@@ -69,6 +78,15 @@ describe("the graph file", () => {
     }
   });
 
+  it("names a kind drawn partly as another for what it draws", () => {
+    // Its filter counts only what's drawn as it, so the counts row's noun
+    // ("214 characters") would disagree with it ("characters 13")
+    for (const [kind, info] of Object.entries(schema.kinds)) {
+      if (info.drawnAs) assert.ok(info.filter && info.filter !== info.noun, `give the ${kind} kind a filter name`);
+    }
+    assert.equal(schema.kinds.character.filter, "other characters");
+  });
+
   it("describes every kind and link field it uses", () => {
     for (const [kind, , , fields] of nodes) {
       assert.ok(schema.kinds[kind], `add the ${kind} kind to src/graph/schema.ts`);
@@ -85,12 +103,33 @@ describe("the graph file", () => {
     const victor = g.byKey.get("villain-18")!;
     assert.equal(g.nodes[it].drawn.get(victor), "killed");
     assert.equal(g.nodes[victor].drawn.get(it), "killed");
-    // Ben Mears and Mark Petrie have no records, so Barlow's only killed
-    // line is to Straker, whom he killed
-    const barlow = g.nodes[g.byKey.get("villain-2")!];
-    assert.ok(barlow.links.some((l) => l.field === "death.killed_by" && l.items.every((e) => e.i < 0)));
-    const killed = [...barlow.drawn].filter(([, family]) => family === "killed").map(([i]) => i);
-    assert.deepEqual(killed, [g.byKey.get("villain-98")]);
+    // Ben Mears and Mark Petrie, who aren't villains, killed Barlow, who
+    // killed Straker and Jimmy Cody
+    const barlow = g.byKey.get("villain-2")!;
+    const ben = g.byKey.get("character-202")!;
+    const killed = [...g.nodes[barlow].drawn].filter(([, family]) => family === "killed").map(([i]) => i);
+    const expected = ["character-202", "character-203", "villain-98", "character-214"].map((key) => g.byKey.get(key)!);
+    assert.deepEqual(killed.sort((a, b) => a - b), expected.sort((a, b) => a - b));
+    assert.equal(g.nodes[ben].drawn.get(barlow), "killed");
+  });
+
+  it("keeps a character's role in a book, and draws a cameo's line faint", () => {
+    const g = decode(graph.payload);
+    const it = g.byKey.get("villain-57")!;
+    const books = g.nodes[it].links.find((l) => l.field === "books")!;
+    assert.deepEqual(
+      books.items.map((e) => [g.nodes[e.i].name, e.note]),
+      [["It", "antagonist"], ["The Tommyknockers", "minor"]]
+    );
+    // A role that isn't recorded yet is left out of the file
+    const jack = graph.payload.nodes[g.byKey.get("villain-106")!][3];
+    assert.ok((jack.books as Ref[]).every((ref) => typeof ref === "number"));
+    // It's line to The Tommyknockers is a cameo's, and so is the book's to It
+    const tommyknockers = g.nodes.find((n) => n.name === "The Tommyknockers")!.index;
+    for (const [focus, other] of [[it, tommyknockers], [tommyknockers, it]]) {
+      const edge = layout(g, focus, { w: 868, h: 543 }).edges.find((e) => e.focus && e.b === other)!;
+      assert.equal(edge.note, "minor");
+    }
   });
 
   it("has a mark for every status a record has", () => {
@@ -210,17 +249,23 @@ describe("GET /next", () => {
     }
   });
 
-  it("shows how a villain died, with killers who have no record as plain rows", async () => {
+  it("shows how a villain died, with a killer who has no record as a plain row", async () => {
     const { html } = await page("?focus=villain-57");
     const section = (page: string, field: string) =>
       new RegExp(`<section class="g-field" data-field="${field.replace(".", "\\.")}">([^]*?)</section>`).exec(page)![1];
     assert.match(section(html, "death.cause"), /<p class="g-text">Heart crushed<\/p>/);
     assert.match(section(html, "death.work"), /href="\/next\?focus=book-19"/);
+    // The Losers' Club has no record, so it's a plain row, and its members
+    // link to theirs
     const killers = section(html, "death.killed_by");
-    assert.ok(!killers.includes("<a "), "names with no record yet aren't links");
-    assert.match(killers, /<span class="g-row-text">The Losers&#39; Club<\/span>[^]*<ul class="g-rows g-members">/);
-    for (const name of ["Bill Denbrough", "Richie Tozier", "Beverly Marsh", "Eddie Kaspbrak", "Ben Hanscom"]) {
-      assert.ok(killers.includes(`<span class="g-row-text">${name}</span>`), name);
+    assert.match(
+      killers,
+      /^\s*<h3[^]*?<\/h3>\s*<ul class="g-rows">\s*<li>\s*<span class="g-row-plain">[^<]*<span class="glyph"[^>]*><\/span>\s*<span class="g-row-name"><span class="g-row-text">The Losers&#39; Club<\/span><\/span>\s*<span class="g-note">no record yet<\/span>\s*<\/span>\s*<ul class="g-rows g-members">/
+    );
+    const members: [string, number][] = [["Bill Denbrough", 207], ["Richie Tozier", 210], ["Beverly Marsh", 209], ["Eddie Kaspbrak", 211], ["Ben Hanscom", 208]];
+    for (const [name, id] of members) {
+      const row = new RegExp(`href="/next\\?focus=character-${id}" data-i="\\d+">\\s*<span class="glyph"[^>]*></span>\\s*<span class="g-row-name"><span class="g-row-text">${name}</span>`);
+      assert.match(killers, row, name);
     }
     // It's victims, and a killer with a record, link both ways
     assert.match(section(html, "killed"), /href="\/next\?focus=villain-18"/);
@@ -234,11 +279,13 @@ describe("GET /next", () => {
     assert.ok(!raw.includes("<"));
   });
 
-  it("counts every kind", async () => {
+  it("counts every kind as its list route does", async () => {
     const { html } = await page();
     for (const kind of Object.keys(schema.kinds)) {
-      const count = nodes.filter((n) => n[0] === kind).length;
-      assert.ok(html.includes(`>${count}</b><span>${schema.kinds[kind].noun}</span>`), kind);
+      // Characters count the villains too, though the graph draws them as villains
+      const res = await fetch(`${server.url}/api/${schema.kinds[kind].plural}`);
+      const count = ((await res.json()) as any).data.length;
+      assert.ok(html.includes(`>${count}</b><span>${schema.kinds[kind].noun}</span>`), `${kind} ${count}`);
     }
   });
 });

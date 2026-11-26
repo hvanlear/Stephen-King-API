@@ -11,9 +11,14 @@ import { linkNote, refIndex, statusOf, type GraphPayload, type PayloadNode, type
 
 type Response = Record<string, unknown>;
 
-// Keyed by route, in the schema's order
+// Keyed by route. A record the schema draws as another kind is left out
+// here, so it's drawn once, under the route links to it use.
 const sources: Record<string, Response[]> = Object.fromEntries(
-  kinds.map((kind) => [kind.one, kind.records.map((record) => kind.response(record) as Response)])
+  kinds.map((kind) => {
+    const drawnAs = schema.kinds[kind.one]?.drawnAs;
+    const responses = kind.records.map((record) => kind.response(record) as Response);
+    return [kind.one, drawnAs ? responses.filter((response) => response[drawnAs.field] !== true) : responses];
+  })
 );
 
 interface ApiLink {
@@ -80,11 +85,11 @@ export function buildGraph() {
     if (link.url === null) return { name: String(link.name), ...members };
     const i = index.get(linkKey(link.url));
     if (i === undefined) throw new Error(`Graph: unresolved link ${link.url}`);
-    // Anything beyond the name and URL (a future role or relationship) rides along
+    // Anything beyond the name and URL (a role or relationship) rides along.
+    // A null one, such as a role not recorded yet, says nothing, so it's left
+    // out to keep the file small.
     const attrs = Object.entries(link).filter(
-      ([key, value]) =>
-        !["name", "title", "url"].includes(key) &&
-        (value === null || ["string", "number", "boolean"].includes(typeof value))
+      ([key, value]) => !["name", "title", "url"].includes(key) && ["string", "number", "boolean"].includes(typeof value)
     );
     return attrs.length || "members" in members ? { i, ...Object.fromEntries(attrs), ...members } : i;
   };

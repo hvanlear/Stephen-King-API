@@ -254,6 +254,8 @@ body.graph-home {
 .e-isa .o { stroke-width: 4.6px; }
 .e-isa .i { stroke: var(--card); stroke-width: 1.8px; }
 .e-killed .o { stroke-width: 2.8px; stroke-dasharray: 14 4; }
+.e-minor.e-focus .o { opacity: 0.35; }
+.e-minor.e-cross .o { opacity: 0.25; }
 .e.lit .o { stroke: #fff; opacity: 1; }
 
 /* Records: a 44px link centred on its glyph, with the label beside it */

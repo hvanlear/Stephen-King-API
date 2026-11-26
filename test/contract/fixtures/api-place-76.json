@@ -50,6 +50,40 @@
           "url": "https://stephen-king-api.onrender.com/api/short/58"
         }
       ],
+      "characters": [
+        {
+          "name": "Kurt Barlow",
+          "url": "https://stephen-king-api.onrender.com/api/villain/2"
+        },
+        {
+          "name": "James Boon",
+          "url": "https://stephen-king-api.onrender.com/api/villain/6"
+        },
+        {
+          "name": "Richard Straker",
+          "url": "https://stephen-king-api.onrender.com/api/villain/98"
+        },
+        {
+          "name": "Ben Mears",
+          "url": "https://stephen-king-api.onrender.com/api/character/202"
+        },
+        {
+          "name": "Mark Petrie",
+          "url": "https://stephen-king-api.onrender.com/api/character/203"
+        },
+        {
+          "name": "Susan Norton",
+          "url": "https://stephen-king-api.onrender.com/api/character/204"
+        },
+        {
+          "name": "Matt Burke",
+          "url": "https://stephen-king-api.onrender.com/api/character/205"
+        },
+        {
+          "name": "Donald Callahan",
+          "url": "https://stephen-king-api.onrender.com/api/character/206"
+        }
+      ],
       "villains": [
         {
           "name": "Kurt Barlow",

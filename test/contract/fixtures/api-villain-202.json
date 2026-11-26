@@ -1,0 +1,7 @@
+{
+  "path": "/api/villain/202",
+  "status": 404,
+  "body": {
+    "error": "Villain not found"
+  }
+}

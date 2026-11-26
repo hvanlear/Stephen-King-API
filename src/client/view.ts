@@ -268,7 +268,8 @@ export class GraphView {
     lines.setAttribute("class", "g-lines");
     for (const e of L.edges) {
       const grp = document.createElementNS(SVG, "g");
-      grp.setAttribute("class", `e e-${e.family} ${e.focus ? "e-focus" : "e-cross"}`);
+      // A cameo, such as Jack Torrance in Doctor Sleep, is drawn fainter
+      grp.setAttribute("class", `e e-${e.family} ${e.focus ? "e-focus" : "e-cross"}${e.note === "minor" ? " e-minor" : ""}`);
       grp.dataset.a = String(e.a);
       grp.dataset.b = String(e.b);
       // "is a" is a double line: a wide stroke with a narrow gap down the middle

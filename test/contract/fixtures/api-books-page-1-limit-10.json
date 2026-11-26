@@ -13,80 +13,191 @@
         "Pages": 199,
         "Notes": [],
         "created_at": "2023-11-13T23:48:47.848Z",
-        "villains": [
+        "characters": [
           {
             "name": "Tina Blake",
-            "url": "https://stephen-king-api.onrender.com/api/villain/4"
+            "url": "https://stephen-king-api.onrender.com/api/villain/4",
+            "role": null
           },
           {
             "name": "Cindi",
-            "url": "https://stephen-king-api.onrender.com/api/villain/14"
+            "url": "https://stephen-king-api.onrender.com/api/villain/14",
+            "role": null
           },
           {
             "name": "Myra Crewes",
-            "url": "https://stephen-king-api.onrender.com/api/villain/16"
+            "url": "https://stephen-king-api.onrender.com/api/villain/16",
+            "role": null
           },
           {
             "name": "Billy deLois",
-            "url": "https://stephen-king-api.onrender.com/api/villain/25"
+            "url": "https://stephen-king-api.onrender.com/api/villain/25",
+            "role": null
           },
           {
             "name": "Kenny Garson",
-            "url": "https://stephen-king-api.onrender.com/api/villain/38"
+            "url": "https://stephen-king-api.onrender.com/api/villain/38",
+            "role": null
           },
           {
             "name": "Mary Lila Grace",
-            "url": "https://stephen-king-api.onrender.com/api/villain/44"
+            "url": "https://stephen-king-api.onrender.com/api/villain/44",
+            "role": null
           },
           {
             "name": "Christine Hargensen",
-            "url": "https://stephen-king-api.onrender.com/api/villain/49"
+            "url": "https://stephen-king-api.onrender.com/api/villain/49",
+            "role": null
           },
           {
             "name": "Vic Mooney",
-            "url": "https://stephen-king-api.onrender.com/api/villain/75"
+            "url": "https://stephen-king-api.onrender.com/api/villain/75",
+            "role": null
           },
           {
             "name": "The Mortimer Snerds",
-            "url": "https://stephen-king-api.onrender.com/api/villain/77"
+            "url": "https://stephen-king-api.onrender.com/api/villain/77",
+            "role": null
           },
           {
             "name": "Billy Nolan",
-            "url": "https://stephen-king-api.onrender.com/api/villain/80"
+            "url": "https://stephen-king-api.onrender.com/api/villain/80",
+            "role": null
           },
           {
             "name": "Elenor Richmond",
-            "url": "https://stephen-king-api.onrender.com/api/villain/90"
+            "url": "https://stephen-king-api.onrender.com/api/villain/90",
+            "role": null
           },
           {
             "name": "Rachel Spies",
-            "url": "https://stephen-king-api.onrender.com/api/villain/94"
+            "url": "https://stephen-king-api.onrender.com/api/villain/94",
+            "role": null
           },
           {
             "name": "Jackie Talbot",
-            "url": "https://stephen-king-api.onrender.com/api/villain/99"
+            "url": "https://stephen-king-api.onrender.com/api/villain/99",
+            "role": null
           },
           {
             "name": "Donna and Mary Lila Grace Thibodeau",
-            "url": "https://stephen-king-api.onrender.com/api/villain/102"
+            "url": "https://stephen-king-api.onrender.com/api/villain/102",
+            "role": null
           },
           {
             "name": "Jessica Upshaw",
-            "url": "https://stephen-king-api.onrender.com/api/villain/108"
+            "url": "https://stephen-king-api.onrender.com/api/villain/108",
+            "role": null
           },
           {
             "name": "Norma Watson",
-            "url": "https://stephen-king-api.onrender.com/api/villain/109"
+            "url": "https://stephen-king-api.onrender.com/api/villain/109",
+            "role": null
           },
           {
             "name": "Margaret White",
-            "url": "https://stephen-king-api.onrender.com/api/villain/113"
+            "url": "https://stephen-king-api.onrender.com/api/villain/113",
+            "role": null
           },
           {
             "name": "Tommy Erbter",
-            "url": "https://stephen-king-api.onrender.com/api/villain/170"
+            "url": "https://stephen-king-api.onrender.com/api/villain/170",
+            "role": null
           }
         ],
+        "villains": [
+          {
+            "name": "Tina Blake",
+            "url": "https://stephen-king-api.onrender.com/api/villain/4",
+            "role": null
+          },
+          {
+            "name": "Cindi",
+            "url": "https://stephen-king-api.onrender.com/api/villain/14",
+            "role": null
+          },
+          {
+            "name": "Myra Crewes",
+            "url": "https://stephen-king-api.onrender.com/api/villain/16",
+            "role": null
+          },
+          {
+            "name": "Billy deLois",
+            "url": "https://stephen-king-api.onrender.com/api/villain/25",
+            "role": null
+          },
+          {
+            "name": "Kenny Garson",
+            "url": "https://stephen-king-api.onrender.com/api/villain/38",
+            "role": null
+          },
+          {
+            "name": "Mary Lila Grace",
+            "url": "https://stephen-king-api.onrender.com/api/villain/44",
+            "role": null
+          },
+          {
+            "name": "Christine Hargensen",
+            "url": "https://stephen-king-api.onrender.com/api/villain/49",
+            "role": null
+          },
+          {
+            "name": "Vic Mooney",
+            "url": "https://stephen-king-api.onrender.com/api/villain/75",
+            "role": null
+          },
+          {
+            "name": "The Mortimer Snerds",
+            "url": "https://stephen-king-api.onrender.com/api/villain/77",
+            "role": null
+          },
+          {
+            "name": "Billy Nolan",
+            "url": "https://stephen-king-api.onrender.com/api/villain/80",
+            "role": null
+          },
+          {
+            "name": "Elenor Richmond",
+            "url": "https://stephen-king-api.onrender.com/api/villain/90",
+            "role": null
+          },
+          {
+            "name": "Rachel Spies",
+            "url": "https://stephen-king-api.onrender.com/api/villain/94",
+            "role": null
+          },
+          {
+            "name": "Jackie Talbot",
+            "url": "https://stephen-king-api.onrender.com/api/villain/99",
+            "role": null
+          },
+          {
+            "name": "Donna and Mary Lila Grace Thibodeau",
+            "url": "https://stephen-king-api.onrender.com/api/villain/102",
+            "role": null
+          },
+          {
+            "name": "Jessica Upshaw",
+            "url": "https://stephen-king-api.onrender.com/api/villain/108",
+            "role": null
+          },
+          {
+            "name": "Norma Watson",
+            "url": "https://stephen-king-api.onrender.com/api/villain/109",
+            "role": null
+          },
+          {
+            "name": "Margaret White",
+            "url": "https://stephen-king-api.onrender.com/api/villain/113",
+            "role": null
+          },
+          {
+            "name": "Tommy Erbter",
+            "url": "https://stephen-king-api.onrender.com/api/villain/170",
+            "role": null
+          }
+        ],
+        "protagonists": [],
         "places": [
           {
             "name": "Maine",
@@ -131,14 +242,70 @@
           "Nominee, World Fantasy Award, 1976[2]"
         ],
         "created_at": "2023-11-13T23:48:48.098Z",
-        "villains": [
+        "characters": [
           {
             "name": "Kurt Barlow",
-            "url": "https://stephen-king-api.onrender.com/api/villain/2"
+            "url": "https://stephen-king-api.onrender.com/api/villain/2",
+            "role": "antagonist"
           },
           {
             "name": "Richard Straker",
-            "url": "https://stephen-king-api.onrender.com/api/villain/98"
+            "url": "https://stephen-king-api.onrender.com/api/villain/98",
+            "role": "supporting"
+          },
+          {
+            "name": "Ben Mears",
+            "url": "https://stephen-king-api.onrender.com/api/character/202",
+            "role": "protagonist"
+          },
+          {
+            "name": "Mark Petrie",
+            "url": "https://stephen-king-api.onrender.com/api/character/203",
+            "role": "protagonist"
+          },
+          {
+            "name": "Susan Norton",
+            "url": "https://stephen-king-api.onrender.com/api/character/204",
+            "role": "supporting"
+          },
+          {
+            "name": "Matt Burke",
+            "url": "https://stephen-king-api.onrender.com/api/character/205",
+            "role": "supporting"
+          },
+          {
+            "name": "Donald Callahan",
+            "url": "https://stephen-king-api.onrender.com/api/character/206",
+            "role": "supporting"
+          },
+          {
+            "name": "Jimmy Cody",
+            "url": "https://stephen-king-api.onrender.com/api/character/214",
+            "role": "supporting"
+          }
+        ],
+        "villains": [
+          {
+            "name": "Kurt Barlow",
+            "url": "https://stephen-king-api.onrender.com/api/villain/2",
+            "role": "antagonist"
+          },
+          {
+            "name": "Richard Straker",
+            "url": "https://stephen-king-api.onrender.com/api/villain/98",
+            "role": "supporting"
+          }
+        ],
+        "protagonists": [
+          {
+            "name": "Ben Mears",
+            "url": "https://stephen-king-api.onrender.com/api/character/202",
+            "role": "protagonist"
+          },
+          {
+            "name": "Mark Petrie",
+            "url": "https://stephen-king-api.onrender.com/api/character/203",
+            "role": "protagonist"
           }
         ],
         "places": [
@@ -197,24 +364,51 @@
           "Runner-up (4th place), Locus Award for Best Fantasy Novel, 1978[2]"
         ],
         "created_at": "2023-11-13T23:48:48.219Z",
-        "villains": [
+        "characters": [
           {
             "name": "Horace M. Derwent",
-            "url": "https://stephen-king-api.onrender.com/api/villain/26"
+            "url": "https://stephen-king-api.onrender.com/api/villain/26",
+            "role": null
           },
           {
             "name": "Delbert Grady",
-            "url": "https://stephen-king-api.onrender.com/api/villain/45"
+            "url": "https://stephen-king-api.onrender.com/api/villain/45",
+            "role": null
           },
           {
             "name": "Jack Torrance",
-            "url": "https://stephen-king-api.onrender.com/api/villain/106"
+            "url": "https://stephen-king-api.onrender.com/api/villain/106",
+            "role": null
           },
           {
             "name": "Roger the Dog Man",
-            "url": "https://stephen-king-api.onrender.com/api/villain/162"
+            "url": "https://stephen-king-api.onrender.com/api/villain/162",
+            "role": null
           }
         ],
+        "villains": [
+          {
+            "name": "Horace M. Derwent",
+            "url": "https://stephen-king-api.onrender.com/api/villain/26",
+            "role": null
+          },
+          {
+            "name": "Delbert Grady",
+            "url": "https://stephen-king-api.onrender.com/api/villain/45",
+            "role": null
+          },
+          {
+            "name": "Jack Torrance",
+            "url": "https://stephen-king-api.onrender.com/api/villain/106",
+            "role": null
+          },
+          {
+            "name": "Roger the Dog Man",
+            "url": "https://stephen-king-api.onrender.com/api/villain/162",
+            "role": null
+          }
+        ],
+        "protagonists": [],
         "places": [
           {
             "name": "Boulder, Colorado",
@@ -251,12 +445,21 @@
           "Published under pseudonym Richard Bachman"
         ],
         "created_at": "2023-11-13T23:48:48.339Z",
+        "characters": [
+          {
+            "name": "Charlie Decker",
+            "url": "https://stephen-king-api.onrender.com/api/villain/179",
+            "role": null
+          }
+        ],
         "villains": [
           {
             "name": "Charlie Decker",
-            "url": "https://stephen-king-api.onrender.com/api/villain/179"
+            "url": "https://stephen-king-api.onrender.com/api/villain/179",
+            "role": null
           }
         ],
+        "protagonists": [],
         "places": [
           {
             "name": "Maine",
@@ -282,44 +485,101 @@
           "Runner-up (15th place), Locus Award, 1979[2]"
         ],
         "created_at": "2023-11-13T23:48:48.477Z",
-        "villains": [
+        "characters": [
           {
             "name": "Donald Merwin Elbert",
-            "url": "https://stephen-king-api.onrender.com/api/villain/34"
+            "url": "https://stephen-king-api.onrender.com/api/villain/34",
+            "role": null
           },
           {
             "name": "Randall Flagg",
-            "url": "https://stephen-king-api.onrender.com/api/villain/37"
+            "url": "https://stephen-king-api.onrender.com/api/villain/37",
+            "role": null
           },
           {
             "name": "Lloyd Henreid",
-            "url": "https://stephen-king-api.onrender.com/api/villain/51"
+            "url": "https://stephen-king-api.onrender.com/api/villain/51",
+            "role": null
           },
           {
             "name": "Harold Lauder",
-            "url": "https://stephen-king-api.onrender.com/api/villain/64"
+            "url": "https://stephen-king-api.onrender.com/api/villain/64",
+            "role": null
           },
           {
             "name": "Rat Man",
-            "url": "https://stephen-king-api.onrender.com/api/villain/87"
+            "url": "https://stephen-king-api.onrender.com/api/villain/87",
+            "role": null
           },
           {
             "name": "Andrew Freeman",
-            "url": "https://stephen-king-api.onrender.com/api/villain/117"
+            "url": "https://stephen-king-api.onrender.com/api/villain/117",
+            "role": null
           },
           {
             "name": "Jenny Engstrom",
-            "url": "https://stephen-king-api.onrender.com/api/villain/140"
+            "url": "https://stephen-king-api.onrender.com/api/villain/140",
+            "role": null
           },
           {
             "name": "Julie Lawry",
-            "url": "https://stephen-king-api.onrender.com/api/villain/146"
+            "url": "https://stephen-king-api.onrender.com/api/villain/146",
+            "role": null
           },
           {
             "name": "Nadine Cross",
-            "url": "https://stephen-king-api.onrender.com/api/villain/201"
+            "url": "https://stephen-king-api.onrender.com/api/villain/201",
+            "role": null
           }
         ],
+        "villains": [
+          {
+            "name": "Donald Merwin Elbert",
+            "url": "https://stephen-king-api.onrender.com/api/villain/34",
+            "role": null
+          },
+          {
+            "name": "Randall Flagg",
+            "url": "https://stephen-king-api.onrender.com/api/villain/37",
+            "role": null
+          },
+          {
+            "name": "Lloyd Henreid",
+            "url": "https://stephen-king-api.onrender.com/api/villain/51",
+            "role": null
+          },
+          {
+            "name": "Harold Lauder",
+            "url": "https://stephen-king-api.onrender.com/api/villain/64",
+            "role": null
+          },
+          {
+            "name": "Rat Man",
+            "url": "https://stephen-king-api.onrender.com/api/villain/87",
+            "role": null
+          },
+          {
+            "name": "Andrew Freeman",
+            "url": "https://stephen-king-api.onrender.com/api/villain/117",
+            "role": null
+          },
+          {
+            "name": "Jenny Engstrom",
+            "url": "https://stephen-king-api.onrender.com/api/villain/140",
+            "role": null
+          },
+          {
+            "name": "Julie Lawry",
+            "url": "https://stephen-king-api.onrender.com/api/villain/146",
+            "role": null
+          },
+          {
+            "name": "Nadine Cross",
+            "url": "https://stephen-king-api.onrender.com/api/villain/201",
+            "role": null
+          }
+        ],
+        "protagonists": [],
         "places": [
           {
             "name": "Maine",
@@ -384,12 +644,21 @@
           "Published under pseudonym Richard Bachman"
         ],
         "created_at": "2023-11-13T23:48:48.608Z",
+        "characters": [
+          {
+            "name": "The Major",
+            "url": "https://stephen-king-api.onrender.com/api/villain/70",
+            "role": null
+          }
+        ],
         "villains": [
           {
             "name": "The Major",
-            "url": "https://stephen-king-api.onrender.com/api/villain/70"
+            "url": "https://stephen-king-api.onrender.com/api/villain/70",
+            "role": null
           }
         ],
+        "protagonists": [],
         "places": [
           {
             "name": "Maine",
@@ -414,32 +683,71 @@
           "Runner-up (2nd place), Locus Award for Best Fantasy Novel, 1980[2]"
         ],
         "created_at": "2023-11-13T23:48:48.753Z",
-        "villains": [
+        "characters": [
           {
             "name": "Frank Dodd",
-            "url": "https://stephen-king-api.onrender.com/api/villain/29"
+            "url": "https://stephen-king-api.onrender.com/api/villain/29",
+            "role": null
           },
           {
             "name": "Henrietta Dodd",
-            "url": "https://stephen-king-api.onrender.com/api/villain/30"
+            "url": "https://stephen-king-api.onrender.com/api/villain/30",
+            "role": null
           },
           {
             "name": "Malcolm Janus",
-            "url": "https://stephen-king-api.onrender.com/api/villain/71"
+            "url": "https://stephen-king-api.onrender.com/api/villain/71",
+            "role": null
           },
           {
             "name": "Sonny Elliman",
-            "url": "https://stephen-king-api.onrender.com/api/villain/93"
+            "url": "https://stephen-king-api.onrender.com/api/villain/93",
+            "role": null
           },
           {
             "name": "Greg Stillson",
-            "url": "https://stephen-king-api.onrender.com/api/villain/97"
+            "url": "https://stephen-king-api.onrender.com/api/villain/97",
+            "role": null
           },
           {
             "name": "The Devil's Dozen",
-            "url": "https://stephen-king-api.onrender.com/api/villain/100"
+            "url": "https://stephen-king-api.onrender.com/api/villain/100",
+            "role": null
           }
         ],
+        "villains": [
+          {
+            "name": "Frank Dodd",
+            "url": "https://stephen-king-api.onrender.com/api/villain/29",
+            "role": null
+          },
+          {
+            "name": "Henrietta Dodd",
+            "url": "https://stephen-king-api.onrender.com/api/villain/30",
+            "role": null
+          },
+          {
+            "name": "Malcolm Janus",
+            "url": "https://stephen-king-api.onrender.com/api/villain/71",
+            "role": null
+          },
+          {
+            "name": "Sonny Elliman",
+            "url": "https://stephen-king-api.onrender.com/api/villain/93",
+            "role": null
+          },
+          {
+            "name": "Greg Stillson",
+            "url": "https://stephen-king-api.onrender.com/api/villain/97",
+            "role": null
+          },
+          {
+            "name": "The Devil's Dozen",
+            "url": "https://stephen-king-api.onrender.com/api/villain/100",
+            "role": null
+          }
+        ],
+        "protagonists": [],
         "places": [
           {
             "name": "Maine",
@@ -477,20 +785,41 @@
           "Runner-up (8th place), Locus Award for Best Science Fiction Novel, 1981[2]"
         ],
         "created_at": "2023-11-13T23:48:48.876Z",
-        "villains": [
+        "characters": [
           {
             "name": "James Hollister",
-            "url": "https://stephen-king-api.onrender.com/api/villain/54"
+            "url": "https://stephen-king-api.onrender.com/api/villain/54",
+            "role": null
           },
           {
             "name": "Charlie McGee",
-            "url": "https://stephen-king-api.onrender.com/api/villain/73"
+            "url": "https://stephen-king-api.onrender.com/api/villain/73",
+            "role": null
           },
           {
             "name": "John Rainbird",
-            "url": "https://stephen-king-api.onrender.com/api/villain/86"
+            "url": "https://stephen-king-api.onrender.com/api/villain/86",
+            "role": null
           }
         ],
+        "villains": [
+          {
+            "name": "James Hollister",
+            "url": "https://stephen-king-api.onrender.com/api/villain/54",
+            "role": null
+          },
+          {
+            "name": "Charlie McGee",
+            "url": "https://stephen-king-api.onrender.com/api/villain/73",
+            "role": null
+          },
+          {
+            "name": "John Rainbird",
+            "url": "https://stephen-king-api.onrender.com/api/villain/86",
+            "role": null
+          }
+        ],
+        "protagonists": [],
         "places": [
           {
             "name": "Harrison, Ohio",
@@ -523,7 +852,9 @@
           "Published under pseudonym Richard Bachman"
         ],
         "created_at": "2023-11-13T23:48:49.005Z",
+        "characters": [],
         "villains": [],
+        "protagonists": [],
         "places": [],
         "collection": null
       },
@@ -540,12 +871,21 @@
           "Runner-up (21st place), Locus Award for Best Fantasy Novel, 1982[2]"
         ],
         "created_at": "2023-11-13T23:48:49.131Z",
+        "characters": [
+          {
+            "name": "Cujo",
+            "url": "https://stephen-king-api.onrender.com/api/villain/19",
+            "role": null
+          }
+        ],
         "villains": [
           {
             "name": "Cujo",
-            "url": "https://stephen-king-api.onrender.com/api/villain/19"
+            "url": "https://stephen-king-api.onrender.com/api/villain/19",
+            "role": null
           }
         ],
+        "protagonists": [],
         "places": [
           {
             "name": "Maine",

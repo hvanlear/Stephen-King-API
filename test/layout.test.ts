@@ -4,7 +4,7 @@ import assert from "node:assert/strict";
 import { graph } from "../src/graph/build";
 import { decode } from "../src/client/model";
 import type { GraphPayload, PayloadNode } from "../src/graph/payload";
-import { layout, estimate, measureMark, Rect, EgoLayout, Measure } from "../src/client/layout";
+import { layout, estimate, measureMark, roleRank, Rect, EgoLayout, Measure } from "../src/client/layout";
 
 const g = decode(graph.payload);
 
@@ -115,12 +115,16 @@ for (const box of boxes) {
       }
     });
 
-    it("never hides a heavier record while showing a lighter one", () => {
+    it("never hides a lead, or a heavier record of the same role, while showing a lesser one", () => {
       for (const { i, l } of results) {
+        // A chip stands for the first record it hides
+        const rank = (j: number) => roleRank(g.nodes[i].notes.get(j) ?? "");
         for (const chip of l.slots.filter((s) => s.type === "chip")) {
           const shown = l.slots.filter((s) => s.type === "node" && s.field === chip.field);
           for (const s of shown) {
-            assert.ok(g.nodes[s.i].weight >= g.nodes[chip.i].weight, `${g.nodes[i].name} ${chip.field}`);
+            const name = `${g.nodes[i].name} ${chip.field}: ${g.nodes[s.i].name} over ${g.nodes[chip.i].name}`;
+            assert.ok(rank(s.i) >= rank(chip.i), name);
+            if (rank(s.i) === rank(chip.i)) assert.ok(g.nodes[s.i].weight >= g.nodes[chip.i].weight, name);
           }
         }
       }
@@ -187,5 +191,22 @@ describe("layout of a record with long field names", () => {
       }
     }
     assert.deepEqual(bad, []);
+  });
+
+  it("names each chip's field, unless a phone's ring can't hold one slot per field that way", () => {
+    // Seven fields, as many as It (Creature) has once its killers are records
+    const seven = [...fieldNames, "death.killed_by", "residence", "killed", "books"];
+    const fg = decode(fixture(seven, 8));
+    const wide = layout(fg, 0, { w: 868, h: 543 }).slots.filter((s) => s.type === "chip");
+    assert.ok(wide.length);
+    for (const s of wide) assert.equal(s.chipText, `+${s.more} ${s.field}`);
+    // On a phone the chips give only their count, and still nothing overlaps
+    const phone = layout(fg, 0, { w: 326, h: 326 });
+    const chips = phone.slots.filter((s) => s.type === "chip");
+    assert.ok(chips.length);
+    for (const s of chips) assert.equal(s.chipText, `+${s.more}`);
+    const rects = [phone.focus.label.rect, ...phone.slots.flatMap((s) => (s.label ? [s.rect, s.label.rect] : [s.rect]))];
+    const clashes = rects.flatMap((a, p) => rects.slice(p + 1).filter((b) => overlap(a, b)));
+    assert.equal(clashes.length, 0);
   });
 });

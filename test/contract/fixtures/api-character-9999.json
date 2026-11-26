@@ -1,0 +1,7 @@
+{
+  "path": "/api/character/9999",
+  "status": 404,
+  "body": {
+    "error": "Character not found"
+  }
+}

@@ -16,10 +16,12 @@ const PATHS = [
   "/api/books",
   "/api/shorts",
   "/api/villains",
+  "/api/characters",
   // Pagination, including a short last page
   "/api/books?page=1&limit=10",
   "/api/shorts?page=5&limit=50",
   "/api/villains?page=2&limit=100",
+  "/api/characters?page=2&limit=100",
   // Details: first, middle and last of each
   "/api/book/1",
   "/api/book/30",
@@ -30,10 +32,16 @@ const PATHS = [
   "/api/villain/1",
   "/api/villain/60",
   "/api/villain/115",
-  // Deaths: killers with no record yet and a villain victim, then a group
+  // Deaths: killers who aren't villains and a villain victim, then a group
   // of killers and four victims
   "/api/villain/2",
   "/api/villain/57",
+  // Characters: a villain at its character route, the first who isn't a
+  // villain, one killed by a villain, and the last
+  "/api/character/57",
+  "/api/character/202",
+  "/api/character/211",
+  "/api/character/214",
   // Places: the list, a page, then a world, a town and a building
   "/api/places",
   "/api/places?page=2&limit=50",
@@ -63,6 +71,9 @@ const PATHS = [
   "/api/book/72",
   "/api/short/9999",
   "/api/villain/9999",
+  "/api/character/9999",
+  // A character who isn't a villain has no villain route
+  "/api/villain/202",
   "/api/place/9999",
   "/api/type/5",
   "/api/collection/16",

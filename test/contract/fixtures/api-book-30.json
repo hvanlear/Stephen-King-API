@@ -14,20 +14,41 @@
         "Runner-up (3rd place), Locus Award for Best Horror/Dark Fantasy Novel, 1995[2]"
       ],
       "created_at": "2023-11-13T23:48:51.533Z",
-      "villains": [
+      "characters": [
         {
           "name": "Norman Daniels",
-          "url": "https://stephen-king-api.onrender.com/api/villain/22"
+          "url": "https://stephen-king-api.onrender.com/api/villain/22",
+          "role": null
         },
         {
           "name": "Susan Day",
-          "url": "https://stephen-king-api.onrender.com/api/villain/23"
+          "url": "https://stephen-king-api.onrender.com/api/villain/23",
+          "role": null
         },
         {
           "name": "Harley Bissington",
-          "url": "https://stephen-king-api.onrender.com/api/villain/138"
+          "url": "https://stephen-king-api.onrender.com/api/villain/138",
+          "role": null
         }
       ],
+      "villains": [
+        {
+          "name": "Norman Daniels",
+          "url": "https://stephen-king-api.onrender.com/api/villain/22",
+          "role": null
+        },
+        {
+          "name": "Susan Day",
+          "url": "https://stephen-king-api.onrender.com/api/villain/23",
+          "role": null
+        },
+        {
+          "name": "Harley Bissington",
+          "url": "https://stephen-king-api.onrender.com/api/villain/138",
+          "role": null
+        }
+      ],
+      "protagonists": [],
       "places": [
         {
           "name": "Ettinger's Pier",

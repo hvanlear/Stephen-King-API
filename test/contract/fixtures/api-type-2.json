@@ -18,6 +18,48 @@
           "url": "https://stephen-king-api.onrender.com/api/type/11"
         }
       ],
+      "characters": [
+        {
+          "name": "Kurt Barlow",
+          "url": "https://stephen-king-api.onrender.com/api/villain/2"
+        },
+        {
+          "name": "Dandelo",
+          "url": "https://stephen-king-api.onrender.com/api/villain/21"
+        },
+        {
+          "name": "Rose the Hat",
+          "url": "https://stephen-king-api.onrender.com/api/villain/31"
+        },
+        {
+          "name": "Little Sisters",
+          "url": "https://stephen-king-api.onrender.com/api/villain/67"
+        },
+        {
+          "name": "Barry",
+          "url": "https://stephen-king-api.onrender.com/api/villain/121"
+        },
+        {
+          "name": "Crow Daddy",
+          "url": "https://stephen-king-api.onrender.com/api/villain/130"
+        },
+        {
+          "name": "Grampa Flick",
+          "url": "https://stephen-king-api.onrender.com/api/villain/137"
+        },
+        {
+          "name": "Jimmy Numbers",
+          "url": "https://stephen-king-api.onrender.com/api/villain/142"
+        },
+        {
+          "name": "Snakebite Andi",
+          "url": "https://stephen-king-api.onrender.com/api/villain/164"
+        },
+        {
+          "name": "Walnut",
+          "url": "https://stephen-king-api.onrender.com/api/villain/174"
+        }
+      ],
       "villains": [
         {
           "name": "Kurt Barlow",

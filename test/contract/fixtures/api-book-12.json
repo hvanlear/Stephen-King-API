@@ -12,24 +12,51 @@
       "Pages": 224,
       "Notes": [],
       "created_at": "2023-11-13T23:48:49.374Z",
-      "villains": [
+      "characters": [
         {
           "name": "Marten Broadcloak",
-          "url": "https://stephen-king-api.onrender.com/api/villain/10"
+          "url": "https://stephen-king-api.onrender.com/api/villain/10",
+          "role": null
         },
         {
           "name": "Crimson King",
-          "url": "https://stephen-king-api.onrender.com/api/villain/17"
+          "url": "https://stephen-king-api.onrender.com/api/villain/17",
+          "role": null
         },
         {
           "name": "Randall Flagg",
-          "url": "https://stephen-king-api.onrender.com/api/villain/37"
+          "url": "https://stephen-king-api.onrender.com/api/villain/37",
+          "role": null
         },
         {
           "name": "Sylvia Pittston",
-          "url": "https://stephen-king-api.onrender.com/api/villain/84"
+          "url": "https://stephen-king-api.onrender.com/api/villain/84",
+          "role": null
         }
       ],
+      "villains": [
+        {
+          "name": "Marten Broadcloak",
+          "url": "https://stephen-king-api.onrender.com/api/villain/10",
+          "role": null
+        },
+        {
+          "name": "Crimson King",
+          "url": "https://stephen-king-api.onrender.com/api/villain/17",
+          "role": null
+        },
+        {
+          "name": "Randall Flagg",
+          "url": "https://stephen-king-api.onrender.com/api/villain/37",
+          "role": null
+        },
+        {
+          "name": "Sylvia Pittston",
+          "url": "https://stephen-king-api.onrender.com/api/villain/84",
+          "role": null
+        }
+      ],
+      "protagonists": [],
       "places": [
         {
           "name": "All-world",

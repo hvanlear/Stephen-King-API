@@ -18,7 +18,9 @@
         "notes": [],
         "year": 2017,
         "created_at": "2023-11-13T23:49:20.979Z",
+        "characters": [],
         "villains": [],
+        "protagonists": [],
         "places": []
       },
       {
@@ -42,7 +44,9 @@
         ],
         "year": 2018,
         "created_at": "2023-11-13T23:49:21.100Z",
+        "characters": [],
         "villains": [],
+        "protagonists": [],
         "places": [
           {
             "name": "Rattlesnake Key",
@@ -62,7 +66,9 @@
         "notes": [],
         "year": 2018,
         "created_at": "2023-11-13T23:49:21.223Z",
+        "characters": [],
         "villains": [],
+        "protagonists": [],
         "places": [
           {
             "name": "Castle Rock, Maine",
@@ -92,7 +98,9 @@
         "notes": [],
         "year": 2018,
         "created_at": "2023-11-13T23:49:21.341Z",
+        "characters": [],
         "villains": [],
+        "protagonists": [],
         "places": []
       },
       {
@@ -112,7 +120,9 @@
         ],
         "year": 2019,
         "created_at": "2023-11-13T23:49:21.458Z",
+        "characters": [],
         "villains": [],
+        "protagonists": [],
         "places": []
       },
       {
@@ -133,7 +143,9 @@
         "notes": [],
         "year": 2020,
         "created_at": "2023-11-13T23:49:21.582Z",
+        "characters": [],
         "villains": [],
+        "protagonists": [],
         "places": []
       },
       {
@@ -153,12 +165,21 @@
         ],
         "year": 2020,
         "created_at": "2023-11-13T23:49:21.695Z",
+        "characters": [
+          {
+            "name": "Chet Ondowsky",
+            "url": "https://stephen-king-api.onrender.com/api/villain/127",
+            "role": null
+          }
+        ],
         "villains": [
           {
             "name": "Chet Ondowsky",
-            "url": "https://stephen-king-api.onrender.com/api/villain/127"
+            "url": "https://stephen-king-api.onrender.com/api/villain/127",
+            "role": null
           }
         ],
+        "protagonists": [],
         "places": []
       },
       {
@@ -176,7 +197,9 @@
         "notes": [],
         "year": 2020,
         "created_at": "2023-11-13T23:49:21.816Z",
+        "characters": [],
         "villains": [],
+        "protagonists": [],
         "places": []
       },
       {
@@ -194,7 +217,9 @@
         "notes": [],
         "year": 2020,
         "created_at": "2023-11-13T23:49:21.928Z",
+        "characters": [],
         "villains": [],
+        "protagonists": [],
         "places": []
       },
       {
@@ -212,7 +237,9 @@
         "notes": [],
         "year": 2020,
         "created_at": "2023-11-13T23:49:22.042Z",
+        "characters": [],
         "villains": [],
+        "protagonists": [],
         "places": [
           {
             "name": "TR-90, Maine",
@@ -238,7 +265,9 @@
         "notes": [],
         "year": 2020,
         "created_at": "2023-11-13T23:49:22.160Z",
+        "characters": [],
         "villains": [],
+        "protagonists": [],
         "places": []
       },
       {
@@ -261,7 +290,9 @@
         ],
         "year": 2022,
         "created_at": "2023-11-13T23:49:22.279Z",
+        "characters": [],
         "villains": [],
+        "protagonists": [],
         "places": []
       },
       {
@@ -284,7 +315,9 @@
         ],
         "year": 2021,
         "created_at": "2026-10-28T18:48:53.000Z",
+        "characters": [],
         "villains": [],
+        "protagonists": [],
         "places": []
       },
       {
@@ -307,7 +340,9 @@
         ],
         "year": 2022,
         "created_at": "2026-10-28T18:48:53.000Z",
+        "characters": [],
         "villains": [],
+        "protagonists": [],
         "places": []
       },
       {
@@ -325,7 +360,9 @@
         "notes": [],
         "year": 2024,
         "created_at": "2026-10-28T18:48:53.000Z",
+        "characters": [],
         "villains": [],
+        "protagonists": [],
         "places": [
           {
             "name": "Castle View, Maine",
@@ -352,7 +389,9 @@
         "notes": [],
         "year": 2024,
         "created_at": "2026-10-28T18:48:53.000Z",
+        "characters": [],
         "villains": [],
+        "protagonists": [],
         "places": []
       },
       {
@@ -372,7 +411,9 @@
         ],
         "year": 2024,
         "created_at": "2026-10-28T18:48:53.000Z",
+        "characters": [],
         "villains": [],
+        "protagonists": [],
         "places": [
           {
             "name": "Rattlesnake Key",
@@ -399,7 +440,9 @@
         "notes": [],
         "year": 2024,
         "created_at": "2026-10-28T18:48:53.000Z",
+        "characters": [],
         "villains": [],
+        "protagonists": [],
         "places": [
           {
             "name": "Dark Score Lake",
@@ -422,7 +465,9 @@
         "notes": [],
         "year": 2024,
         "created_at": "2026-10-28T18:48:53.000Z",
+        "characters": [],
         "villains": [],
+        "protagonists": [],
         "places": []
       },
       {
@@ -440,7 +485,9 @@
         "notes": [],
         "year": 2025,
         "created_at": "2026-10-28T18:48:53.000Z",
+        "characters": [],
         "villains": [],
+        "protagonists": [],
         "places": []
       },
       {
@@ -457,7 +504,9 @@
         ],
         "year": 2025,
         "created_at": "2026-10-28T18:48:53.000Z",
+        "characters": [],
         "villains": [],
+        "protagonists": [],
         "places": []
       },
       {
@@ -475,7 +524,9 @@
         "notes": [],
         "year": 2026,
         "created_at": "2026-10-28T18:48:53.000Z",
+        "characters": [],
         "villains": [],
+        "protagonists": [],
         "places": []
       }
     ],

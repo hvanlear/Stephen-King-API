@@ -22,8 +22,8 @@ function errorsAfter(change: (catalog: any) => void, base?: Catalog): string[] {
   return validate(catalog, base);
 }
 
-const villain = (catalog: any, id: number) =>
-  catalog["villains.json"].find((record: { id: number }) => record.id === id);
+const character = (catalog: any, id: number) =>
+  catalog["characters.json"].find((record: { id: number }) => record.id === id);
 
 const place = (catalog: any, name: string) =>
   catalog["places.json"].find((record: { name: string }) => record.name === name);
@@ -47,17 +47,41 @@ describe("validate-data", () => {
 
   it("flags a handle shared by a book and a short", () => {
     const errors = errorsAfter((c) => (c["shorts.json"][0].handle = "carrie"));
-    assertFlags(errors, /^catalog\/shorts\.json: short 1 \(.*\): handle "carrie" is also used by book 1, so villains and places would link to both$/);
+    assertFlags(errors, /^catalog\/shorts\.json: short 1 \(.*\): handle "carrie" is also used by book 1, so characters and places would link to both$/);
   });
 
   it("flags an appears_in handle that matches nothing", () => {
-    const errors = errorsAfter((c) => c["villains.json"][0].appears_in.push("no-such-book"));
-    assertFlags(errors, /villain 1 \("Bob Anderson"\): appears_in "no-such-book" doesn't match/);
+    const errors = errorsAfter((c) => (c["characters.json"][0].appears_in["no-such-book"] = null));
+    assertFlags(errors, /character 1 \("Bob Anderson"\): appears_in "no-such-book" doesn't match/);
+  });
+
+  it("flags an appears_in that isn't handles with roles, or a role it doesn't know", () => {
+    const errors = errorsAfter((c) => {
+      character(c, 1).appears_in = ["a-good-marriage"];
+      character(c, 2).appears_in = { "salem-s-lot": "villain" };
+    });
+    assertFlags(errors, /character 1 .*: appears_in must be an object of book or short handles, each with a role \(protagonist, antagonist, supporting, minor\) or null$/);
+    assertFlags(errors, /character 2 .*: appears_in "salem-s-lot" has the role "villain", but a role is one of protagonist, antagonist, supporting, minor, or null until it's recorded$/);
+  });
+
+  it("flags roles recorded for some of a character's works but not all", () => {
+    // Christine's role in It is recorded, so her role in Christine has to be too
+    const errors = errorsAfter((c) => (character(c, 11).appears_in.christine = null));
+    assertFlags(errors, /character 11 \("Christine \(car\)"\): appears_in has roles for some works but not "christine"; record them all or none$/);
+  });
+
+  it("flags an antagonist who isn't a villain, but lets a villain be a protagonist", () => {
+    const errors = errorsAfter((c) => {
+      character(c, 202).appears_in["salem-s-lot"] = "antagonist";
+      character(c, 179).appears_in = { rage: "protagonist" };
+    });
+    assertFlags(errors, /character 202 \("Ben Mears"\): appears_in "salem-s-lot" is "antagonist", but the character isn't a villain$/);
+    assert.ok(!errors.some((e) => e.includes("character 179")), errors.join("\n"));
   });
 
   it("flags a residence that matches no place", () => {
-    const errors = errorsAfter((c) => c["villains.json"][0].residence.push("no-such-place"));
-    assertFlags(errors, /villain 1 \("Bob Anderson"\): residence "no-such-place" doesn't match any place handle$/);
+    const errors = errorsAfter((c) => c["characters.json"][0].residence.push("no-such-place"));
+    assertFlags(errors, /character 1 \("Bob Anderson"\): residence "no-such-place" doesn't match any place handle$/);
   });
 
   it("flags a place appears_in handle that matches nothing", () => {
@@ -72,10 +96,10 @@ describe("validate-data", () => {
 
   it("flags unknown and missing fields", () => {
     const errors = errorsAfter((c) => {
-      c["villains.json"][0].nickname = "Beadie";
+      c["characters.json"][0].nickname = "Beadie";
       delete c["shorts.json"][0].year;
     });
-    assertFlags(errors, /villain 1 .*: nickname isn't a known field/);
+    assertFlags(errors, /character 1 .*: nickname isn't a known field/);
     assertFlags(errors, /short 1 .*: year is missing/);
   });
 
@@ -107,8 +131,8 @@ describe("validate-data", () => {
   });
 
   it("flags a record renumbered since the base", () => {
-    const errors = errorsAfter((c) => (c["villains.json"][114].id = 116), loadCatalog());
-    assertFlags(errors, /villain 115 .* was renumbered to 116/);
+    const errors = errorsAfter((c) => (c["characters.json"][114].id = 116), loadCatalog());
+    assertFlags(errors, /character 115 .* was renumbered to 116/);
   });
 
   it("flags a book id the old database used", () => {
@@ -140,28 +164,58 @@ describe("validate-data", () => {
   });
 
   it("flags a villain type that doesn't exist", () => {
-    const errors = errorsAfter((c) => (c["villains.json"][0].types_id = 5));
-    assertFlags(errors, /villain 1 \("Bob Anderson"\): types_id 5 doesn't match any type$/);
+    const errors = errorsAfter((c) => (c["characters.json"][0].types_id = 5));
+    assertFlags(errors, /character 1 \("Bob Anderson"\): types_id 5 doesn't match any type$/);
   });
 
   it("flags a kind used as a villain's type", () => {
-    const errors = errorsAfter((c) => (c["villains.json"][1].types_id = 11));
-    assertFlags(errors, /villain 2 \("Kurt Barlow"\): types_id 11 is a kind/);
+    const errors = errorsAfter((c) => (c["characters.json"][1].types_id = 11));
+    assertFlags(errors, /character 2 \("Kurt Barlow"\): types_id 11 is a kind/);
   });
 
   it("flags a kind that isn't under the villain's type", () => {
-    const errors = errorsAfter((c) => c["villains.json"][0].kinds.push("type-one-vampire"));
-    assertFlags(errors, /villain 1 \("Bob Anderson"\): kinds "type-one-vampire" isn't a kind of "Human", the villain's type$/);
+    const errors = errorsAfter((c) => c["characters.json"][0].kinds.push("type-one-vampire"));
+    assertFlags(errors, /character 1 \("Bob Anderson"\): kinds "type-one-vampire" isn't a kind of "Human", the character's type$/);
   });
 
   it("flags a kind that matches no type", () => {
-    const errors = errorsAfter((c) => c["villains.json"][0].kinds.push("serial-killer"));
-    assertFlags(errors, /villain 1 \("Bob Anderson"\): kinds "serial-killer" doesn't match any type handle$/);
+    const errors = errorsAfter((c) => c["characters.json"][0].kinds.push("serial-killer"));
+    assertFlags(errors, /character 1 \("Bob Anderson"\): kinds "serial-killer" doesn't match any type handle$/);
   });
 
-  it("flags a group flag that isn't true or false", () => {
-    const errors = errorsAfter((c) => (c["villains.json"][0].group = "no"));
-    assertFlags(errors, /villain 1 .*: group must be true or false$/);
+  it("flags a group or villain flag that isn't true or false", () => {
+    const errors = errorsAfter((c) => {
+      c["characters.json"][0].group = "no";
+      c["characters.json"][1].villain = "yes";
+    });
+    assertFlags(errors, /character 1 .*: group must be true or false$/);
+    assertFlags(errors, /character 2 .*: villain must be true or false$/);
+  });
+
+  it("flags a villain that stopped being one since the base", () => {
+    const errors = errorsAfter((c) => (character(c, 57).villain = false), loadCatalog());
+    assertFlags(errors, /^catalog\/characters\.json: character 57 \("It \(Creature\)"\): was a villain on the base branch, so it has to stay one, or \/api\/villain\/57 would disappear$/);
+  });
+
+  it("treats every record on a base from before characters as a villain", () => {
+    // villains.json had no villain flag and listed appears_in without roles,
+    // and the validator reads it as characters.json
+    const base = loadCatalog();
+    base["characters.json"] = base["characters.json"]
+      .filter((record: any) => record.villain)
+      .map(({ villain, ...record }: any) => ({ ...record, appears_in: Object.keys(record.appears_in) }));
+    assert.deepEqual(errorsAfter(() => {}, base), []);
+    const errors = errorsAfter((c) => (character(c, 1).villain = false), base);
+    assertFlags(errors, /character 1 \("Bob Anderson"\): was a villain on the base branch/);
+  });
+
+  it("lets a character who isn't a villain become one, once its killer links say so", () => {
+    // Nobody's death names Matt Burke, so nothing else has to change
+    assert.deepEqual(errorsAfter((c) => (character(c, 205).villain = true), loadCatalog()), []);
+    // Ben Mears killed Barlow and Susan Norton, so both links have to become { villain: 202 }
+    const errors = errorsAfter((c) => (character(c, 202).villain = true), loadCatalog());
+    assertFlags(errors, /character 2 .*: death\.killed_by 0 character 202 is a villain, so it should be \{ "villain": 202 \}$/);
+    assertFlags(errors, /character 204 .*: death\.killed_by 0 character 202 is a villain, so it should be \{ "villain": 202 \}$/);
   });
 
   it("flags a type whose parent doesn't exist", () => {
@@ -263,95 +317,111 @@ describe("validate-data", () => {
   });
 
   it("flags a status that isn't Alive or Deceased", () => {
-    const errors = errorsAfter((c) => (villain(c, 1).status = "Dead"));
-    assertFlags(errors, /villain 1 \("Bob Anderson"\): status must be one of Alive, Deceased$/);
+    const errors = errorsAfter((c) => (character(c, 1).status = "Dead"));
+    assertFlags(errors, /character 1 \("Bob Anderson"\): status must be one of Alive, Deceased$/);
   });
 
   it("flags a death recorded for a villain who's alive", () => {
     const errors = errorsAfter((c) => {
-      const alive = c["villains.json"].find((v: any) => v.status === "Alive");
-      alive.death = { cause: "Shot", in: { book: alive.appears_in[0] }, killed_by: [] };
+      const alive = c["characters.json"].find((v: any) => v.status === "Alive");
+      alive.death = { cause: "Shot", in: { book: Object.keys(alive.appears_in)[0] }, killed_by: [] };
     });
-    assertFlags(errors, /villain \d+ .*: is Alive, so death must be null$/);
+    assertFlags(errors, /character \d+ .*: is Alive, so death must be null$/);
   });
 
   it("flags a death that isn't null or an object", () => {
-    const errors = errorsAfter((c) => (villain(c, 98).death = "Drained of blood"));
-    assertFlags(errors, /villain 98 \("Richard Straker"\): death must be null or an object$/);
+    const errors = errorsAfter((c) => (character(c, 98).death = "Drained of blood"));
+    assertFlags(errors, /character 98 \("Richard Straker"\): death must be null or an object$/);
   });
 
   it("flags death fields missing or out of order", () => {
     const errors = errorsAfter((c) => {
-      const { cause, ...rest } = villain(c, 98).death;
-      villain(c, 98).death = { ...rest, cause };
-      delete villain(c, 2).death.cause;
+      const { cause, ...rest } = character(c, 98).death;
+      character(c, 98).death = { ...rest, cause };
+      delete character(c, 2).death.cause;
     });
-    assertFlags(errors, /villain 98 .*: death must have exactly these fields, in this order: cause, in, killed_by$/);
-    assertFlags(errors, /villain 2 .*: death\.cause must be non-empty text of at most 60 characters/);
+    assertFlags(errors, /character 98 .*: death must have exactly these fields, in this order: cause, in, killed_by$/);
+    assertFlags(errors, /character 2 .*: death\.cause must be non-empty text of at most 60 characters/);
   });
 
   it("flags a cause that's too long", () => {
-    const errors = errorsAfter((c) => (villain(c, 98).death.cause = "Drained ".repeat(8).trim()));
-    assertFlags(errors, /villain 98 .*: death\.cause must be non-empty text of at most 60 characters/);
+    const errors = errorsAfter((c) => (character(c, 98).death.cause = "Drained ".repeat(8).trim()));
+    assertFlags(errors, /character 98 .*: death\.cause must be non-empty text of at most 60 characters/);
   });
 
   it("flags a death in a book the villain isn't in", () => {
-    const errors = errorsAfter((c) => (villain(c, 98).death.in = { book: "carrie" }));
-    assertFlags(errors, /villain 98 .*: death\.in "carrie" isn't in appears_in, so the villain isn't in that book$/);
+    const errors = errorsAfter((c) => (character(c, 98).death.in = { book: "carrie" }));
+    assertFlags(errors, /character 98 .*: death\.in "carrie" isn't in appears_in, so the character isn't in that book$/);
   });
 
   it("flags a death in a work of the wrong kind, or of both kinds", () => {
     const errors = errorsAfter((c) => {
-      villain(c, 98).death.in = { short: "salem-s-lot" };
-      villain(c, 2).death.in = { book: "salem-s-lot", short: "one-for-the-road" };
+      character(c, 98).death.in = { short: "salem-s-lot" };
+      character(c, 2).death.in = { book: "salem-s-lot", short: "one-for-the-road" };
     });
-    assertFlags(errors, /villain 98 .*: death\.in "salem-s-lot" doesn't match any short handle$/);
-    assertFlags(errors, /villain 2 .*: death\.in must be \{ "book": handle \} or \{ "short": handle \}$/);
+    assertFlags(errors, /character 98 .*: death\.in "salem-s-lot" doesn't match any short handle$/);
+    assertFlags(errors, /character 2 .*: death\.in must be \{ "book": handle \} or \{ "short": handle \}$/);
   });
 
-  it("flags a killer who isn't a villain, or is the victim", () => {
+  it("flags a killer who has no record, or is the victim", () => {
     const errors = errorsAfter((c) => {
-      villain(c, 98).death.killed_by = [{ villain: 9999 }];
-      villain(c, 2).death.killed_by = [{ villain: 2 }];
+      character(c, 98).death.killed_by = [{ villain: 9999 }];
+      character(c, 2).death.killed_by = [{ villain: 2 }];
+      character(c, 7).death.killed_by = [{ character: 9999 }];
     });
-    assertFlags(errors, /villain 98 .*: death\.killed_by 0 villain 9999 doesn't match any villain$/);
-    assertFlags(errors, /villain 2 .*: death\.killed_by 0 is the villain itself; a suicide has an empty killed_by$/);
+    assertFlags(errors, /character 98 .*: death\.killed_by 0 villain 9999 doesn't match any character$/);
+    assertFlags(errors, /character 2 .*: death\.killed_by 0 is the character itself; a suicide has an empty killed_by$/);
+    assertFlags(errors, /character 7 .*: death\.killed_by 0 character 9999 doesn't match any character$/);
+  });
+
+  it("flags a killer linked in the wrong form for a villain or not", () => {
+    const errors = errorsAfter((c) => {
+      character(c, 98).death.killed_by = [{ character: 2 }];
+      character(c, 2).death.killed_by = [{ villain: 202 }];
+    });
+    assertFlags(errors, /character 98 .*: death\.killed_by 0 character 2 is a villain, so it should be \{ "villain": 2 \}$/);
+    assertFlags(errors, /character 2 .*: death\.killed_by 0 villain 202 is not a villain, so it should be \{ "character": 202 \}$/);
+  });
+
+  it("flags a killer named like a character who isn't a villain, who should be linked", () => {
+    const errors = errorsAfter((c) => (character(c, 2).death.killed_by = [{ name: "Ben Mears" }]));
+    assertFlags(errors, /character 2 .*: death\.killed_by 0 "Ben Mears" is character 202, so it should be \{ "character": 202 \}$/);
   });
 
   it("flags a killer named like a villain, who should be linked", () => {
-    const errors = errorsAfter((c) => (villain(c, 98).death.killed_by = [{ name: "kurt barlow" }]));
-    assertFlags(errors, /villain 98 .*: death\.killed_by 0 "kurt barlow" is villain 2, so it should be \{ "villain": 2 \}$/);
+    const errors = errorsAfter((c) => (character(c, 98).death.killed_by = [{ name: "kurt barlow" }]));
+    assertFlags(errors, /character 98 .*: death\.killed_by 0 "kurt barlow" is villain 2, so it should be \{ "villain": 2 \}$/);
   });
 
   it("flags a killer listed twice, even as a group's member", () => {
-    const errors = errorsAfter((c) => villain(c, 57).death.killed_by.push({ name: "Bill Denbrough" }));
-    assertFlags(errors, /villain 57 .*: death\.killed_by 1 lists name "bill denbrough" again$/);
+    const errors = errorsAfter((c) => character(c, 57).death.killed_by.push({ character: 207 }));
+    assertFlags(errors, /character 57 .*: death\.killed_by 1 lists character 207 again$/);
   });
 
   it("flags a killer with both forms, neither, or a field it can't have", () => {
     const errors = errorsAfter((c) => {
-      villain(c, 98).death.killed_by = [{ villain: 2, name: "Kurt" }, { weapon: "teeth" }];
-      villain(c, 57).death.killed_by[0].members[0].members = [{ name: "Silver" }];
+      character(c, 98).death.killed_by = [{ villain: 2, name: "Kurt" }, { weapon: "teeth" }];
+      character(c, 57).death.killed_by[0].members[0].members = [{ name: "Silver" }];
     });
-    assertFlags(errors, /villain 98 .*: death\.killed_by 0 needs exactly one of villain \(an id\) or name$/);
-    assertFlags(errors, /villain 98 .*: death\.killed_by 1 has weapon, but a killer has only villain or name, and members for a group$/);
-    assertFlags(errors, /villain 57 .*: death\.killed_by 0 member 0 has members, but a member has only villain or name$/);
+    assertFlags(errors, /character 98 .*: death\.killed_by 0 needs exactly one of villain \(an id\), character \(an id\) or name$/);
+    assertFlags(errors, /character 98 .*: death\.killed_by 1 has weapon, but a killer has only villain, character or name, and members for a group$/);
+    assertFlags(errors, /character 57 .*: death\.killed_by 0 member 0 has members, but a member has only villain, character or name$/);
   });
 
   it("flags a group with an empty list of members", () => {
-    const errors = errorsAfter((c) => (villain(c, 57).death.killed_by[0].members = []));
-    assertFlags(errors, /villain 57 .*: death\.killed_by 0 members must be a non-empty list, or left out$/);
+    const errors = errorsAfter((c) => (character(c, 57).death.killed_by[0].members = []));
+    assertFlags(errors, /character 57 .*: death\.killed_by 0 members must be a non-empty list, or left out$/);
   });
 
   it("flags a death recorded on the base but wiped since", () => {
-    const errors = errorsAfter((c) => (villain(c, 57).death = null), loadCatalog());
-    assertFlags(errors, /villain 57 \("It \(Creature\)"\): death was recorded on the base branch but is now null, and status is still Deceased$/);
+    const errors = errorsAfter((c) => (character(c, 57).death = null), loadCatalog());
+    assertFlags(errors, /character 57 \("It \(Creature\)"\): death was recorded on the base branch but is now null, and status is still Deceased$/);
   });
 
-  it("lets a death go back to null when the villain is alive again", () => {
+  it("lets a death go back to null when the character is alive again", () => {
     const errors = errorsAfter((c) => {
-      villain(c, 57).death = null;
-      villain(c, 57).status = "Alive";
+      character(c, 57).death = null;
+      character(c, 57).status = "Alive";
     }, loadCatalog());
     assert.deepEqual(errors, []);
   });

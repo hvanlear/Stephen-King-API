@@ -6,9 +6,7 @@
   "scripts": {
     "test": "node --test --require ts-node/register \"test/**/*.test.ts\"",
     "validate-data": "ts-node scripts/validate-data.ts",
-    "predev": "node scripts/build-client.mjs",
-    "dev": "nodemon src/index.ts",
-    "dev:client": "node scripts/build-client.mjs --watch",
+    "dev": "node scripts/dev.mjs",
     "build:client": "node scripts/build-client.mjs",
     "typecheck:client": "tsc -p tsconfig.client.json",
     "build": "prisma generate && tsc -p tsconfig.json && node scripts/build-client.mjs",

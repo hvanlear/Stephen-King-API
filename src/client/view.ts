@@ -96,7 +96,7 @@ export class GraphView {
 
   // Lights a record's lines and its node
   highlight(i: number | null) {
-    this.svg.querySelectorAll<SVGGElement>("g.e").forEach((e) => {
+    this.svg.querySelectorAll<SVGGElement>("g.g-lines g.e").forEach((e) => {
       const lit = i !== null && (e.dataset.a === String(i) || e.dataset.b === String(i));
       e.classList.toggle("lit", lit);
     });
@@ -257,7 +257,10 @@ export class GraphView {
 
   private drawEdges(L: EgoLayout, motion: boolean, prev: EgoLayout | null) {
     this.svg.setAttribute("viewBox", `0 0 ${L.w} ${L.h}`);
-    const old = this.svg.querySelector("g.g-lines");
+    // Every current group, not just the first: one from a move a moment ago
+    // can still be here, and a group that's fading out is renamed so it's
+    // never picked up twice
+    const old = [...this.svg.querySelectorAll<SVGGElement>("g.g-lines")];
     const lines = document.createElementNS(SVG, "g");
     lines.setAttribute("class", "g-lines");
     for (const e of L.edges) {
@@ -274,13 +277,14 @@ export class GraphView {
       }
       lines.append(grp);
     }
-    if (old) {
+    for (const group of old) {
+      group.setAttribute("class", "g-lines-leaving");
       if (motion) {
-        old.animate([{ opacity: 1 }, { opacity: 0 }], { duration: 140, fill: "forwards" }).finished.then(
-          () => old.remove(),
-          () => old.remove()
+        group.animate([{ opacity: 1 }, { opacity: 0 }], { duration: 140, fill: "forwards" }).finished.then(
+          () => group.remove(),
+          () => group.remove()
         );
-      } else old.remove();
+      } else group.remove();
     }
     this.svg.append(lines);
     if (motion && prev) {

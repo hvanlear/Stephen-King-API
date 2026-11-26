@@ -150,17 +150,17 @@ export function layout(
   let labelMax = labelWidths[0];
   const ell = measure("…", font, 500);
 
-  // Fits text into `room` px, keeping at least 6 characters
+  // Fits text into `room` px, keeping at least 6 characters. The cut is
+  // guessed from the average character width, then measured and shortened
+  // until it fits, because real glyph widths vary (a W is wider than an i).
   const fit = (text: string, room: number, px = font, weight = 500) => {
     const full = measure(text, px, weight);
-    if (full <= room) return { text, width: full, truncated: false };
-    const k = Math.max(6, Math.floor((text.length * (room - ell)) / full));
-    if (k >= text.length) return { text, width: full, truncated: false };
-    return {
-      text: text.slice(0, k).trimEnd() + "…",
-      width: (full * k) / text.length + ell,
-      truncated: true,
-    };
+    if (full <= room || text.length <= 6) return { text, width: full, truncated: false };
+    let k = Math.min(text.length - 1, Math.max(6, Math.floor((text.length * (room - ell)) / full)));
+    const cut = (n: number) => text.slice(0, n).trimEnd() + "…";
+    let width = measure(cut(k), px, weight);
+    while (width > room && k > 6) width = measure(cut(--k), px, weight);
+    return { text: cut(k), width, truncated: true };
   };
 
   // A ring label. A series title that doesn't fit shows its subtitle, which is
@@ -342,6 +342,14 @@ export function layout(
   const hits = (rects: Rect[], others: Rect[][]) =>
     others.some((o) => o.some((r) => rects.some((q) => overlaps(q, r))));
 
+  // Whether a slot's glyph or chip, and its label, stay inside the box.
+  // Labels are cut to the room they have, but a chip can't be, so a wide one
+  // at the side of a narrow ring has to move on round.
+  const fits = (p: ReturnType<typeof placeAt>) =>
+    [p.rect, p.label?.rect].every(
+      (r) => !r || (r.x0 >= MARGIN / 2 && r.y0 >= MARGIN / 2 && r.x1 <= w - MARGIN / 2 && r.y1 <= h - MARGIN / 2)
+    );
+
   // Sweeps one arrangement clockwise from the top, each slot at the first
   // angle where it's clear, at least `gap` past the one before; null if it
   // doesn't fit
@@ -364,7 +372,7 @@ export function layout(
       for (;;) {
         if (a >= start + 2 * Math.PI) return null;
         const p = placeAt(s, a, mode, rx, ry);
-        if (!hits(p.rects, [focusRects, ...placed.map((q) => q.rects)])) {
+        if (fits(p) && !hits(p.rects, [focusRects, ...placed.map((q) => q.rects)])) {
           placed.push({ ...s, ...p, angle: a });
           break;
         }
@@ -419,7 +427,13 @@ export function layout(
     const rx = Math.max(40, w / 2 - 70);
     const placed = list.map((s, k) => {
       const a = -Math.PI / 2 + (2 * Math.PI * k) / Math.max(1, list.length);
-      return { ...s, ...placeAt(s, a, "centered", rx, ry), angle: a };
+      const p = placeAt(s, a, "centered", rx, ry);
+      // Labels are cut to fit, but a chip at the side can hang off the box:
+      // slide it back in
+      const dx = s.type === "chip" ? Math.max(0, MARGIN - p.rect.x0) - Math.max(0, p.rect.x1 - (w - MARGIN)) : 0;
+      if (!dx) return { ...s, ...p, angle: a };
+      const rect = { ...p.rect, x0: p.rect.x0 + dx, x1: p.rect.x1 + dx };
+      return { ...s, ...p, x: p.x + dx, rect, rects: [grow(rect, PAD)], angle: a };
     });
     best = { placed, rx, ry, mode: "centered" as const, list };
   } else if (best.placed.length > 1) {

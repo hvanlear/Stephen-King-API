@@ -24,10 +24,18 @@ if (root && configEl) {
   const config: Config = JSON.parse(configEl.textContent || "{}");
   const stage = root.querySelector<HTMLElement>(".g-stage")!;
   fetch(config.graph)
-    .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
+    .then((r) => (r.ok ? r.json() : Promise.reject(new Error(`The graph file returned ${r.status}`))))
     .then((payload: GraphPayload) => start(root, stage, decode(payload), config))
-    .catch(() => {
-      stage.querySelector(".g-loading")!.textContent = "Couldn’t load the graph. The links in the panel still work.";
+    .catch((error) => {
+      // A failed fetch, or a bug in start() after the view has already
+      // cleared the stage: either way, say so in a fresh message and keep
+      // the real error in the console
+      console.error(error);
+      root.classList.remove("is-live");
+      const message = document.createElement("p");
+      message.className = "g-loading";
+      message.textContent = "Couldn’t load the graph. The links in the panel still work.";
+      stage.replaceChildren(message);
     });
 }
 
@@ -77,7 +85,8 @@ function start(root: HTMLElement, stage: HTMLElement, g: Graph, config: Config) 
     const count = document.createElement("span");
     count.className = "g-kind-count";
     count.textContent = String(g.counts[kind]);
-    b.append(glyph(kind, 10), g.kinds[kind]?.plural ?? kind, count);
+    // The counts row's name for them ("short stories"), not the route's ("shorts")
+    b.append(glyph(kind, 10), g.kinds[kind]?.noun ?? kind, count);
     b.addEventListener("click", () => {
       hidden[kind] = !hidden[kind];
       b.setAttribute("aria-pressed", String(!hidden[kind]));

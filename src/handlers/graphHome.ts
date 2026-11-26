@@ -3,6 +3,7 @@ import config from "../config";
 import { graph } from "../graph/build";
 import { schema } from "../graph/schema";
 import { kindTheme } from "../graph/palette";
+import { PANEL_ROWS } from "../graph/payload";
 import { clientAssets } from "../utils/clientAssets";
 
 // The graph home page, design 06. It's at /next until it replaces / (SK-045).
@@ -44,6 +45,7 @@ export function showGraphHome(req: Request, res: Response) {
         : `${panel.label} ${panel.name} in the Stephen King API, with every book, story, villain and place it links to.`,
     kinds,
     panel,
+    rows: PANEL_ROWS,
     theme: (kind: string) => kindTheme(kind, kindOrder),
     href: (kind: string, id: number) => `${req.path}?focus=${kind}-${id}`,
     api: config.url,

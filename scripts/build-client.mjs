@@ -3,14 +3,16 @@
 // Fails if the brotli size goes over the SK-045 budgets.
 //
 //   node scripts/build-client.mjs          one build, minified
-//   node scripts/build-client.mjs --watch  rebuild on change, for npm run dev
+//   node scripts/build-client.mjs --watch  rebuild on change (npm run dev starts this)
 
 import * as esbuild from "esbuild";
 import fs from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import zlib from "node:zlib";
 
-const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
+// fileURLToPath, not URL.pathname, which keeps %20 escapes and gives /C:/ on Windows
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const outdir = path.join(root, "public", "assets");
 const watch = process.argv.includes("--watch");
 const BUDGET = { js: 20 * 1024, css: 10 * 1024 };
@@ -19,7 +21,8 @@ const brotli = (file) => zlib.brotliCompressSync(fs.readFileSync(file)).length;
 const kb = (n) => `${(n / 1024).toFixed(1)} KB`;
 
 // Writes the manifest and removes files from earlier builds. Returns false if
-// a budget was exceeded.
+// a budget was exceeded. Watch builds aren't minified and carry their source
+// maps, so they only say they're done.
 function finish(result) {
   const outputs = Object.keys(result.metafile.outputs).map((p) => path.resolve(root, p));
   const js = outputs.find((p) => p.endsWith(".js"));
@@ -34,6 +37,10 @@ function finish(result) {
     if (!keep.has(name)) fs.rmSync(path.join(outdir, name));
   }
 
+  if (watch) {
+    console.log(`Rebuilt ${path.basename(js)} and ${path.basename(css)}`);
+    return true;
+  }
   let ok = true;
   for (const [kind, file] of [["js", js], ["css", css]]) {
     const size = brotli(file);

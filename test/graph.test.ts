@@ -4,7 +4,7 @@ import assert from "node:assert/strict";
 import { startServer, TestServer } from "./server";
 import { graph } from "../src/graph/build";
 import { schema } from "../src/graph/schema";
-import type { LinkRef } from "../src/graph/payload";
+import { PANEL_ROWS, type LinkRef } from "../src/graph/payload";
 
 // The graph file behind the /next home page (SK-045), and the page itself
 
@@ -101,7 +101,7 @@ describe("GET /next", () => {
     assert.match(html, /<meta name="robots" content="noindex" \/>/);
     assert.match(html, /<title>Stephen King API<\/title>/);
     const focus = graph.panel(graph.find("villain", 57)!);
-    assert.ok(html.includes(`<h2 class="g-name">${focus.name}</h2>`));
+    assert.ok(html.includes(`<h2 class="g-name" tabindex="-1">${focus.name}</h2>`));
     assert.deepEqual(config(html), {
       graph: graph.path,
       focus: "villain-57",
@@ -129,6 +129,19 @@ describe("GET /next", () => {
       assert.equal(status, 200, query);
       assert.equal(config(html).focus, "villain-57", query);
     }
+  });
+
+  it("shows a long field's first links and puts the rest behind Show all, as the script does", async () => {
+    const { html } = await page("?focus=book-19");
+    const panel = graph.panel(graph.find("book", 19)!);
+    const villains = panel.fields.find((f) => f.field === "villains")!;
+    assert.ok(villains.items.length > PANEL_ROWS);
+    const section = /<section class="g-field" data-field="villains">([^]*?)<\/section>/.exec(html)![1];
+    const [shown, rest] = section.split('<details class="g-all">');
+    const ids = (part: string) => [...part.matchAll(/data-i="(\d+)"/g)].map((m) => Number(m[1]));
+    assert.deepEqual(ids(shown), villains.items.slice(0, PANEL_ROWS).map((item) => item.i));
+    assert.deepEqual(ids(rest), villains.items.slice(PANEL_ROWS).map((item) => item.i));
+    assert.ok(rest.includes(`Show all ${villains.items.length}`));
   });
 
   it("can't be broken out of by a name in the script config", async () => {

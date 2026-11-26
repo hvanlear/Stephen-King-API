@@ -1,10 +1,22 @@
 <%#
   The graph page's side panel for one record. src/client/panel.ts renders the
-  same markup when you move to another record, so keep the two in step.
+  same markup when you move to another record, and replaces this one when the
+  script starts, so keep the two in step. The one difference is on purpose:
+  the script adds "Show the JSON", which needs a fetch.
 %>
 <% const t = theme(panel.kind) %>
+<% const row = (item) => { const it = theme(item.kind) %>
+<li>
+  <a class="g-row" href="<%= href(item.kind, item.id) %>" data-i="<%= item.i %>">
+    <span class="glyph" data-shape="<%= it.shape %>" style="--c: <%= it.color %>; --s: 10px" aria-hidden="true"></span>
+    <span class="g-row-name"><%= item.name %></span>
+    <span class="g-note"><%= item.note %></span>
+    <span class="g-arrow" aria-hidden="true">→</span>
+  </a>
+</li>
+<% } %>
 <span class="g-kind" style="--c: <%= t.color %>; --ink: <%= t.ink %>"><%= panel.label %></span>
-<h2 class="g-name"><%= panel.name %></h2>
+<h2 class="g-name" tabindex="-1"><%= panel.name %></h2>
 <a class="g-get" href="<%= api %><%= panel.path %>"><span class="g-verb">GET</span> <%= panel.path %></a>
 <p class="g-eyebrow">In the response</p>
 <% if (!panel.fields.length) { %>
@@ -13,23 +25,22 @@
 <div class="g-fields">
   <% panel.fields.forEach((f) => { %>
   <section class="g-field" data-field="<%= f.field %>">
-    <h3 class="g-field-head">
+    <h3 class="g-field-head" tabindex="-1">
       <code style="color: <%= theme(f.items[0].kind).text %>">"<%= f.field %>"</code>
       <span class="g-count"><%= f.items.length %></span>
       <% if (f.rollup) { %><span class="g-hint"><%= panel.kind === "place" ? "includes places inside" : "includes kinds inside" %></span><% } %>
     </h3>
     <ul class="g-rows">
-      <% f.items.forEach((item) => { const it = theme(item.kind) %>
-      <li>
-        <a class="g-row" href="<%= href(item.kind, item.id) %>">
-          <span class="glyph" data-shape="<%= it.shape %>" style="--c: <%= it.color %>; --s: 10px" aria-hidden="true"></span>
-          <span class="g-row-name"><%= item.name %></span>
-          <span class="g-note"></span>
-          <span class="g-arrow" aria-hidden="true">→</span>
-        </a>
-      </li>
-      <% }) %>
+      <% f.items.slice(0, rows).forEach(row) %>
     </ul>
+    <% if (f.items.length > rows) { %>
+    <details class="g-all">
+      <summary class="g-more"><span class="g-more-closed">Show all <%= f.items.length %></span><span class="g-more-open">Show fewer</span></summary>
+      <ul class="g-rows">
+        <% f.items.slice(rows).forEach(row) %>
+      </ul>
+    </details>
+    <% } %>
   </section>
   <% }) %>
 </div>

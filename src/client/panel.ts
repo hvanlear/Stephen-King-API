@@ -1,9 +1,12 @@
+import { PANEL_ROWS } from "../graph/payload";
 import { Graph, kindLabel } from "./model";
 import { glyph, theme } from "./theme";
 
 // The side panel: the record's API path and every link in its response,
 // grouped by field in response order. The server renders the same markup for
-// the first record (views/partials/graph-panel.ejs), so it works without the script.
+// the first record (views/partials/graph-panel.ejs), so it works without the
+// script and doesn't jump when this takes over. Only "Show the JSON" is
+// added here, since it needs a fetch.
 
 export interface PanelHandlers {
   go(i: number): void;
@@ -11,8 +14,6 @@ export interface PanelHandlers {
   href(i: number): string;
   api: string;
 }
-
-const ROW_LIMIT = 5;
 
 function el<K extends keyof HTMLElementTagNameMap>(tag: K, className?: string, text?: string) {
   const e = document.createElement(tag);
@@ -64,6 +65,8 @@ export class Panel {
     chip.style.setProperty("--c", t.color);
     chip.style.setProperty("--ink", t.ink);
     const name = el("h2", "g-name", n.name);
+    // Where keyboard focus lands after moving to a record from the panel
+    name.tabIndex = -1;
     const get = el("a", "g-get");
     get.href = this.on.api + path;
     get.append(el("span", "g-verb", "GET"), " " + path);
@@ -83,38 +86,16 @@ export class Panel {
       if (link.rollup) head.append(el("span", "g-hint", n.kind === "place" ? "includes places inside" : "includes kinds inside"));
       section.append(head);
 
-      const open = this.expanded.has(link.field);
-      const list = el("ul", "g-rows");
-      for (const item of open ? link.items : link.items.slice(0, ROW_LIMIT)) {
-        const target = this.g.nodes[item.i];
-        const a = el("a", "g-row");
-        a.href = this.on.href(item.i);
-        a.dataset.i = String(item.i);
-        a.append(glyph(target.kind, 10), el("span", "g-row-name", target.name), el("span", "g-note", item.note));
-        const arrow = el("span", "g-arrow", "→");
-        arrow.setAttribute("aria-hidden", "true");
-        a.append(arrow);
-        a.addEventListener("click", (e) => {
-          if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
-          e.preventDefault();
-          this.on.go(item.i);
-        });
-        a.addEventListener("mouseenter", () => this.on.hover(item.i));
-        a.addEventListener("mouseleave", () => this.on.hover(null));
-        const li = el("li");
-        li.append(a);
-        list.append(li);
-      }
-      section.append(list);
-      if (!open && link.items.length > ROW_LIMIT) {
-        const more = el("button", "g-more", `Show all ${link.items.length}`);
-        more.type = "button";
-        more.addEventListener("click", () => {
-          this.expanded.add(link.field);
-          this.render();
-          this.root.querySelector<HTMLElement>(`[data-field="${CSS.escape(link.field)}"] li:nth-child(${ROW_LIMIT + 1}) a`)?.focus();
-        });
-        section.append(more);
+      section.append(this.rows(link.items.slice(0, PANEL_ROWS)));
+      if (link.items.length > PANEL_ROWS) {
+        // The rest behind a disclosure, which works without the script too
+        const all = el("details", "g-all");
+        const summary = el("summary", "g-more");
+        summary.append(el("span", "g-more-closed", `Show all ${link.items.length}`), el("span", "g-more-open", "Show fewer"));
+        all.append(summary, this.rows(link.items.slice(PANEL_ROWS)));
+        all.open = this.expanded.has(link.field);
+        all.addEventListener("toggle", () => (all.open ? this.expanded.add(link.field) : this.expanded.delete(link.field)));
+        section.append(all);
       }
       fields.append(section);
     }
@@ -143,5 +124,34 @@ export class Panel {
         .catch(() => (pre.textContent = "Couldn’t load the response. The GET link above opens it."));
     });
     root.append(details, el("p", "g-foot", "Every link in a response is a full URL, so you can walk the universe one GET at a time."));
+  }
+
+  private rows(items: { i: number; note: string }[]) {
+    const list = el("ul", "g-rows");
+    for (const item of items) {
+      const target = this.g.nodes[item.i];
+      const a = el("a", "g-row");
+      a.href = this.on.href(item.i);
+      a.dataset.i = String(item.i);
+      a.append(glyph(target.kind, 10), el("span", "g-row-name", target.name), el("span", "g-note", item.note));
+      const arrow = el("span", "g-arrow", "→");
+      arrow.setAttribute("aria-hidden", "true");
+      a.append(arrow);
+      a.addEventListener("click", (e) => {
+        if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+        e.preventDefault();
+        // Enter on a row: the row is about to be replaced, so put focus on
+        // the new record's name rather than let it fall to the page
+        const viaKeyboard = e.detail === 0;
+        this.on.go(item.i);
+        if (viaKeyboard) this.root.querySelector<HTMLElement>(".g-name")?.focus();
+      });
+      a.addEventListener("mouseenter", () => this.on.hover(item.i));
+      a.addEventListener("mouseleave", () => this.on.hover(null));
+      const li = el("li");
+      li.append(a);
+      list.append(li);
+    }
+    return list;
   }
 }

@@ -1,4 +1,4 @@
-import type { GraphPayload, KindInfo } from "../graph/payload";
+import { linkNote, type GraphPayload, type KindInfo } from "../graph/payload";
 
 // The graph file decoded into records with their links. No DOM, so node:test
 // can run it.
@@ -67,11 +67,10 @@ export function decode(payload: GraphPayload): Graph {
       return {
         field,
         single,
-        items: (single ? [value] : value).map((ref) =>
-          typeof ref === "number"
-            ? { i: ref, note: "" }
-            : { i: ref.i, note: String(ref.role ?? ref.relationship ?? "") }
-        ),
+        items: (single ? [value] : value).map((ref) => ({
+          i: typeof ref === "number" ? ref : ref.i,
+          note: linkNote(ref),
+        })),
         // A field the schema doesn't know yet still draws, as "appears in"
         family: info?.family ?? "appears",
         rollup: !!info?.rollup,

@@ -451,6 +451,13 @@ body.graph-home {
   font: 600 13px/1 var(--sans);
   cursor: pointer;
 }
+.g-all > summary.g-more { display: inline-flex; align-items: center; list-style: none; }
+.g-all > summary.g-more::-webkit-details-marker { display: none; }
+.g-all > .g-rows { margin-top: 6px; }
+.g-more-open,
+.g-all[open] .g-more-closed { display: none; }
+.g-all[open] .g-more-open { display: inline; }
+.g-name:focus { outline: none; }
 .g-json summary {
   display: inline-flex;
   align-items: center;

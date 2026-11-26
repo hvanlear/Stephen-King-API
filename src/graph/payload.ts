@@ -1,6 +1,6 @@
 // The graph file the home page loads, shared by the server that builds it and
-// the client that reads it. Types only, so the client bundle gets none of the
-// server's code.
+// the client that reads it. Types and one small helper, so the client bundle
+// gets none of the server's code.
 
 export type Family = "appears" | "setting" | "isa" | "inside" | "related";
 
@@ -29,6 +29,13 @@ export interface Schema {
 // than a name and URL in the response (a future role or relationship) keeps
 // those values: { i: 263, role: "primary" }.
 export type LinkRef = number | { i: number; [attr: string]: string | number | boolean | null };
+
+// The side panel shows this many links per field, and the rest behind
+// "Show all". The server's first panel and the client's later ones share it.
+export const PANEL_ROWS = 5;
+
+// What the panel says beside a link: its role or relationship, if it has one
+export const linkNote = (ref: LinkRef) => (typeof ref === "number" ? "" : String(ref.role ?? ref.relationship ?? ""));
 
 // [kind, id, name, link fields, weight?]. Field names, their order and single
 // versus list match the record's API response. Empty and null links are left out.

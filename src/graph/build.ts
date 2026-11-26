@@ -1,7 +1,7 @@
 import crypto from "crypto";
 import { kinds } from "../kinds";
 import { schema } from "./schema";
-import type { GraphPayload, LinkRef, PayloadNode } from "./payload";
+import { linkNote, type GraphPayload, type LinkRef, type PayloadNode } from "./payload";
 
 // The graph file is built once at startup by walking the API's own responses,
 // so it can't drift from them. It knows no kinds or fields: any { name or
@@ -31,7 +31,8 @@ const linkKey = (url: string) => url.slice(url.indexOf("/api/") + 5);
 export interface PanelField {
   field: string;
   rollup: boolean;
-  items: { name: string; kind: string; id: number }[];
+  // i is the record's position in the graph file, as the client's rows carry it
+  items: { i: number; name: string; kind: string; id: number; note: string }[];
 }
 
 export interface Panel {
@@ -99,7 +100,7 @@ export function buildGraph() {
         rollup: !!schema.fields[`${kind}.${field}`]?.rollup,
         items: (Array.isArray(value) ? value : [value]).map((r) => {
           const [k, linkedId, linkedName] = nodes[ref(r)];
-          return { name: linkedName, kind: k, id: linkedId };
+          return { i: ref(r), name: linkedName, kind: k, id: linkedId, note: linkNote(r) };
         }),
       })),
     };

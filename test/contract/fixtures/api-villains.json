@@ -8,6 +8,7 @@
         "name": "Bob Anderson",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -41,13 +42,31 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 2,
         "name": "Kurt Barlow",
         "gender": "Male",
         "status": "Deceased",
+        "death": {
+          "cause": "Staked through the heart",
+          "work": {
+            "title": "Salem's Lot",
+            "url": "https://stephen-king-api.onrender.com/api/book/2"
+          },
+          "killed_by": [
+            {
+              "name": "Ben Mears",
+              "url": null
+            },
+            {
+              "name": "Mark Petrie",
+              "url": null
+            }
+          ]
+        },
         "types_id": 2,
         "group": false,
         "notes": [
@@ -80,6 +99,12 @@
             "name": "Type One vampire",
             "url": "https://stephen-king-api.onrender.com/api/type/11"
           }
+        ],
+        "killed": [
+          {
+            "name": "Richard Straker",
+            "url": "https://stephen-king-api.onrender.com/api/villain/98"
+          }
         ]
       },
       {
@@ -87,6 +112,7 @@
         "name": "Blaine the Mono",
         "gender": null,
         "status": "Deceased",
+        "death": null,
         "types_id": 6,
         "group": false,
         "notes": [
@@ -119,13 +145,15 @@
             "name": "North Central Positronics",
             "url": "https://stephen-king-api.onrender.com/api/type/16"
           }
-        ]
+        ],
+        "killed": []
       },
       {
         "id": 4,
         "name": "Tina Blake",
         "gender": "Female",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -159,13 +187,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 5,
         "name": "Malachai Boardman",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -187,13 +217,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 6,
         "name": "James Boon",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -220,13 +252,27 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 7,
         "name": "Henry Bowers",
         "gender": "Male",
         "status": "Deceased",
+        "death": {
+          "cause": "Stabbed",
+          "work": {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          },
+          "killed_by": [
+            {
+              "name": "Eddie Kaspbrak",
+              "url": null
+            }
+          ]
+        },
         "types_id": 1,
         "group": false,
         "notes": [
@@ -264,13 +310,32 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": [
+          {
+            "name": "Butch Bowers",
+            "url": "https://stephen-king-api.onrender.com/api/villain/8"
+          }
+        ]
       },
       {
         "id": 8,
         "name": "Butch Bowers",
         "gender": "Male",
         "status": "Deceased",
+        "death": {
+          "cause": "Stabbed in the throat",
+          "work": {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          },
+          "killed_by": [
+            {
+              "name": "Henry Bowers",
+              "url": "https://stephen-king-api.onrender.com/api/villain/7"
+            }
+          ]
+        },
         "types_id": 1,
         "group": false,
         "notes": [
@@ -303,13 +368,22 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 9,
         "name": "Greta Bowie",
         "gender": "Female",
         "status": "Deceased",
+        "death": {
+          "cause": "Car crash",
+          "work": {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          },
+          "killed_by": []
+        },
         "types_id": 1,
         "group": false,
         "notes": [
@@ -341,13 +415,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 10,
         "name": "Marten Broadcloak",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -383,13 +459,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 11,
         "name": "Christine (car)",
         "gender": "Female",
         "status": "Alive",
+        "death": null,
         "types_id": 6,
         "group": false,
         "notes": [
@@ -420,13 +498,15 @@
           "name": "Machine or object",
           "url": "https://stephen-king-api.onrender.com/api/type/6"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 12,
         "name": "Isaac Chroner",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -447,13 +527,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 13,
         "name": "Winston Church",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 8,
         "group": false,
         "notes": [
@@ -482,13 +564,15 @@
           "name": "Animal",
           "url": "https://stephen-king-api.onrender.com/api/type/8"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 14,
         "name": "Cindi",
         "gender": "Female",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -523,13 +607,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 15,
         "name": "Gage Creed",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 3,
         "group": false,
         "notes": [
@@ -559,13 +645,15 @@
           "name": "Supernatural being",
           "url": "https://stephen-king-api.onrender.com/api/type/3"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 16,
         "name": "Myra Crewes",
         "gender": "Female",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -600,13 +688,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 17,
         "name": "Crimson King",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 3,
         "group": false,
         "notes": [
@@ -641,13 +731,27 @@
           "name": "Supernatural being",
           "url": "https://stephen-king-api.onrender.com/api/type/3"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 18,
         "name": "Victor Criss",
         "gender": "Male",
         "status": "Deceased",
+        "death": {
+          "cause": "Decapitated",
+          "work": {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          },
+          "killed_by": [
+            {
+              "name": "It (Creature)",
+              "url": "https://stephen-king-api.onrender.com/api/villain/57"
+            }
+          ]
+        },
         "types_id": 1,
         "group": false,
         "notes": [
@@ -680,13 +784,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 19,
         "name": "Cujo",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 8,
         "group": false,
         "notes": [
@@ -716,13 +822,15 @@
           "name": "Animal",
           "url": "https://stephen-king-api.onrender.com/api/type/8"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 20,
         "name": "Arnie Cunningham",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -750,13 +858,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 21,
         "name": "Dandelo",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 2,
         "group": false,
         "notes": [
@@ -776,13 +886,15 @@
           "name": "Vampire",
           "url": "https://stephen-king-api.onrender.com/api/type/2"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 22,
         "name": "Norman Daniels",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -806,13 +918,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 23,
         "name": "Susan Day",
         "gender": "Female",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -837,13 +951,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 24,
         "name": "Cordelia Delgado",
         "gender": "Female",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -865,13 +981,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 25,
         "name": "Billy deLois",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -903,13 +1021,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 26,
         "name": "Horace M. Derwent",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 7,
         "group": false,
         "notes": [
@@ -943,13 +1063,15 @@
           "name": "Ghost",
           "url": "https://stephen-king-api.onrender.com/api/type/7"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 27,
         "name": "Mordred Deschain",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 3,
         "group": false,
         "notes": [
@@ -977,13 +1099,15 @@
           "name": "Supernatural being",
           "url": "https://stephen-king-api.onrender.com/api/type/3"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 28,
         "name": "Bogs Diamond",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -1005,13 +1129,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 29,
         "name": "Frank Dodd",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -1037,13 +1163,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 30,
         "name": "Henrietta Dodd",
         "gender": "Female",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -1064,13 +1192,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 31,
         "name": "Rose the Hat",
         "gender": "Female",
         "status": "Deceased",
+        "death": null,
         "types_id": 2,
         "group": false,
         "notes": [
@@ -1100,13 +1230,15 @@
             "name": "True Knot",
             "url": "https://stephen-king-api.onrender.com/api/type/10"
           }
-        ]
+        ],
+        "killed": []
       },
       {
         "id": 32,
         "name": "Rhea Dubativo",
         "gender": "Female",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -1136,13 +1268,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 33,
         "name": "Kurt Dussander",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -1163,13 +1297,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 34,
         "name": "Donald Merwin Elbert",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -1201,13 +1337,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 35,
         "name": "Marcia Fadden",
         "gender": "Female",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -1236,13 +1374,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 36,
         "name": "John Farson",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -1265,13 +1405,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 37,
         "name": "Randall Flagg",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 3,
         "group": false,
         "notes": [
@@ -1323,13 +1465,15 @@
           "name": "Supernatural being",
           "url": "https://stephen-king-api.onrender.com/api/type/3"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 38,
         "name": "Kenny Garson",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -1363,13 +1507,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 39,
         "name": "John Garton",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -1401,13 +1547,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 40,
         "name": "Leland Gaunt",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 3,
         "group": false,
         "notes": [
@@ -1439,13 +1587,15 @@
             "name": "Demon",
             "url": "https://stephen-king-api.onrender.com/api/type/12"
           }
-        ]
+        ],
+        "killed": []
       },
       {
         "id": 41,
         "name": "Gerald Burlingame",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -1473,13 +1623,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 42,
         "name": "The Gladiators",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": true,
         "notes": [
@@ -1499,13 +1651,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 43,
         "name": "Peter Gordon",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -1537,13 +1691,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 44,
         "name": "Mary Lila Grace",
         "gender": "Female",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -1573,13 +1729,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 45,
         "name": "Delbert Grady",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 7,
         "group": false,
         "notes": [
@@ -1609,13 +1767,15 @@
           "name": "Ghost",
           "url": "https://stephen-king-api.onrender.com/api/type/7"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 46,
         "name": "Byron Hadley",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -1638,13 +1798,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 47,
         "name": "John Halston",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -1665,13 +1827,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 48,
         "name": "Lane Hardy",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -1693,13 +1857,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 49,
         "name": "Christine Hargensen",
         "gender": "Female",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -1737,13 +1903,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 50,
         "name": "Brady Hartsfield",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -1773,13 +1941,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 51,
         "name": "Lloyd Henreid",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -1807,13 +1977,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 52,
         "name": "Gladys Hickson",
         "gender": "Female",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -1836,13 +2008,27 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 53,
         "name": "Patrick Hockstetter",
         "gender": "Male",
         "status": "Deceased",
+        "death": {
+          "cause": "Drained of blood by flying leeches",
+          "work": {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          },
+          "killed_by": [
+            {
+              "name": "It (Creature)",
+              "url": "https://stephen-king-api.onrender.com/api/villain/57"
+            }
+          ]
+        },
         "types_id": 1,
         "group": false,
         "notes": [
@@ -1878,13 +2064,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 54,
         "name": "James Hollister",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -1907,13 +2095,27 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 55,
         "name": "Belch Huggins",
         "gender": "Male",
         "status": "Deceased",
+        "death": {
+          "cause": "Face torn off",
+          "work": {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          },
+          "killed_by": [
+            {
+              "name": "It (Creature)",
+              "url": "https://stephen-king-api.onrender.com/api/villain/57"
+            }
+          ]
+        },
         "types_id": 1,
         "group": false,
         "notes": [
@@ -1945,13 +2147,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 56,
         "name": "Ross Humboldt",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -1974,13 +2178,49 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 57,
         "name": "It (Creature)",
         "gender": "Unknown",
         "status": "Deceased",
+        "death": {
+          "cause": "Heart crushed",
+          "work": {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          },
+          "killed_by": [
+            {
+              "name": "The Losers' Club",
+              "url": null,
+              "members": [
+                {
+                  "name": "Bill Denbrough",
+                  "url": null
+                },
+                {
+                  "name": "Richie Tozier",
+                  "url": null
+                },
+                {
+                  "name": "Beverly Marsh",
+                  "url": null
+                },
+                {
+                  "name": "Eddie Kaspbrak",
+                  "url": null
+                },
+                {
+                  "name": "Ben Hanscom",
+                  "url": null
+                }
+              ]
+            }
+          ]
+        },
         "types_id": 4,
         "group": false,
         "notes": [
@@ -2030,13 +2270,32 @@
           "name": "Alien",
           "url": "https://stephen-king-api.onrender.com/api/type/4"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": [
+          {
+            "name": "Victor Criss",
+            "url": "https://stephen-king-api.onrender.com/api/villain/18"
+          },
+          {
+            "name": "Patrick Hockstetter",
+            "url": "https://stephen-king-api.onrender.com/api/villain/53"
+          },
+          {
+            "name": "Belch Huggins",
+            "url": "https://stephen-king-api.onrender.com/api/villain/55"
+          },
+          {
+            "name": "Tom Rogan",
+            "url": "https://stephen-king-api.onrender.com/api/villain/91"
+          }
+        ]
       },
       {
         "id": 58,
         "name": "Henry James",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -2061,13 +2320,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 59,
         "name": "Wilfred James",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -2096,13 +2357,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 60,
         "name": "Eldred Jonas",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -2129,13 +2392,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 61,
         "name": "Raymond Andrew Joubert",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -2165,13 +2430,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 62,
         "name": "The Kid",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -2192,13 +2459,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 63,
         "name": "Damon Killian",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -2219,13 +2488,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 64,
         "name": "Harold Lauder",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -2259,13 +2530,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 65,
         "name": "Richard Lawson",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -2289,13 +2562,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 66,
         "name": "Brian Lippy",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -2317,13 +2592,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 67,
         "name": "Little Sisters",
         "gender": null,
         "status": "Alive",
+        "death": null,
         "types_id": 2,
         "group": true,
         "notes": [
@@ -2344,13 +2621,15 @@
           "name": "Vampire",
           "url": "https://stephen-king-api.onrender.com/api/type/2"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 68,
         "name": "Lester Lowe",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 3,
         "group": false,
         "notes": [
@@ -2388,13 +2667,22 @@
             "name": "Werewolf",
             "url": "https://stephen-king-api.onrender.com/api/type/15"
           }
-        ]
+        ],
+        "killed": []
       },
       {
         "id": 69,
         "name": "Richard P. Macklin",
         "gender": "Male",
         "status": "Deceased",
+        "death": {
+          "cause": "Suicide",
+          "work": {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          },
+          "killed_by": []
+        },
         "types_id": 1,
         "group": false,
         "notes": [
@@ -2421,13 +2709,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 70,
         "name": "The Major",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -2449,13 +2739,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 71,
         "name": "Malcolm Janus",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -2476,13 +2768,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 72,
         "name": "Alvin Marsh",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -2513,13 +2807,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 73,
         "name": "Charlie McGee",
         "gender": "Female",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -2550,13 +2846,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 74,
         "name": "John \"Ace\" Merrill",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -2596,13 +2894,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 75,
         "name": "Vic Mooney",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -2639,13 +2939,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 76,
         "name": "Jack Mort",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -2669,13 +2971,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 77,
         "name": "The Mortimer Snerds",
         "gender": null,
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": true,
         "notes": [
@@ -2702,13 +3006,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 78,
         "name": "Mother of the Null",
         "gender": "Female",
         "status": "Alive",
+        "death": null,
         "types_id": 3,
         "group": false,
         "notes": [
@@ -2729,13 +3035,15 @@
           "name": "Supernatural being",
           "url": "https://stephen-king-api.onrender.com/api/type/3"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 79,
         "name": "Sally Mueller",
         "gender": "Female",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -2764,13 +3072,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 80,
         "name": "Billy Nolan",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -2808,13 +3118,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 81,
         "name": "Samuel Norton",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -2836,13 +3148,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 82,
         "name": "The Outsider (Creature)",
         "gender": null,
         "status": "Deceased",
+        "death": null,
         "types_id": 3,
         "group": false,
         "notes": [
@@ -2868,13 +3182,15 @@
             "name": "Outsider",
             "url": "https://stephen-king-api.onrender.com/api/type/14"
           }
-        ]
+        ],
+        "killed": []
       },
       {
         "id": 83,
         "name": "Victor Pascow",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -2894,13 +3210,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 84,
         "name": "Sylvia Pittston",
         "gender": "Female",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -2933,13 +3251,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 85,
         "name": "The Raggedy Man",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -2964,13 +3284,15 @@
             "name": "Phoner",
             "url": "https://stephen-king-api.onrender.com/api/type/9"
           }
-        ]
+        ],
+        "killed": []
       },
       {
         "id": 86,
         "name": "John Rainbird",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -2994,13 +3316,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 87,
         "name": "Rat Man",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -3025,13 +3349,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 88,
         "name": "Jim Rennie, Jr.",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -3064,13 +3390,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 89,
         "name": "Jim Rennie",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -3102,13 +3430,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 90,
         "name": "Elenor Richmond",
         "gender": "Female",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -3135,13 +3465,27 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 91,
         "name": "Tom Rogan",
         "gender": "Male",
         "status": "Deceased",
+        "death": {
+          "cause": "Died of fright",
+          "work": {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19"
+          },
+          "killed_by": [
+            {
+              "name": "It (Creature)",
+              "url": "https://stephen-king-api.onrender.com/api/villain/57"
+            }
+          ]
+        },
         "types_id": 1,
         "group": false,
         "notes": [
@@ -3169,13 +3513,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 92,
         "name": "Sam (cat)",
         "gender": null,
         "status": "Alive",
+        "death": null,
         "types_id": 8,
         "group": false,
         "notes": [
@@ -3196,13 +3542,15 @@
           "name": "Animal",
           "url": "https://stephen-king-api.onrender.com/api/type/8"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 93,
         "name": "Sonny Elliman",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -3223,13 +3571,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 94,
         "name": "Rachel Spies",
         "gender": "Female",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -3264,13 +3614,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 95,
         "name": "Joe St. George",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -3301,13 +3653,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 96,
         "name": "George Stark",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -3330,13 +3684,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 97,
         "name": "Greg Stillson",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -3361,13 +3717,27 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 98,
         "name": "Richard Straker",
         "gender": "Male",
         "status": "Deceased",
+        "death": {
+          "cause": "Drained of blood",
+          "work": {
+            "title": "Salem's Lot",
+            "url": "https://stephen-king-api.onrender.com/api/book/2"
+          },
+          "killed_by": [
+            {
+              "name": "Kurt Barlow",
+              "url": "https://stephen-king-api.onrender.com/api/villain/2"
+            }
+          ]
+        },
         "types_id": 1,
         "group": false,
         "notes": [
@@ -3394,13 +3764,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 99,
         "name": "Jackie Talbot",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -3436,13 +3808,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 100,
         "name": "The Devil's Dozen",
         "gender": null,
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": true,
         "notes": [
@@ -3462,13 +3836,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 101,
         "name": "Carter Thibodeau",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -3500,13 +3876,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 102,
         "name": "Donna and Mary Lila Grace Thibodeau",
         "gender": "Female",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -3542,13 +3920,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 103,
         "name": "Tom Mahout",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -3576,13 +3956,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 104,
         "name": "Tommyknockers",
         "gender": null,
         "status": "Alive",
+        "death": null,
         "types_id": 4,
         "group": true,
         "notes": [
@@ -3602,13 +3984,15 @@
           "name": "Alien",
           "url": "https://stephen-king-api.onrender.com/api/type/4"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 105,
         "name": "Craig Toomey",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -3631,13 +4015,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 106,
         "name": "Jack Torrance",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -3674,13 +4060,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 107,
         "name": "Christopher Unwin",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -3710,13 +4098,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 108,
         "name": "Jessica Upshaw",
         "gender": "Female",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -3750,13 +4140,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 109,
         "name": "Norma Watson",
         "gender": "Female",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -3787,13 +4179,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 110,
         "name": "Wendigo",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 3,
         "group": false,
         "notes": [
@@ -3813,13 +4207,15 @@
           "name": "Supernatural being",
           "url": "https://stephen-king-api.onrender.com/api/type/3"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 111,
         "name": "Percy Wetmore",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -3847,13 +4243,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 112,
         "name": "William Wharton",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -3875,13 +4273,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 113,
         "name": "Margaret White",
         "gender": "Female",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -3920,13 +4320,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 114,
         "name": "Annie Wilkes",
         "gender": "Female",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -3951,13 +4353,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 115,
         "name": "Tim Youngblood",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -3978,13 +4382,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 116,
         "name": "Al Bradley",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -4014,13 +4420,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 117,
         "name": "Andrew Freeman",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -4048,13 +4456,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 118,
         "name": "Andrew Halliday",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -4081,13 +4491,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 119,
         "name": "Ardelia Lortz",
         "gender": "Female",
         "status": "Deceased",
+        "death": null,
         "types_id": 3,
         "group": false,
         "notes": [
@@ -4113,13 +4525,15 @@
             "name": "Demon",
             "url": "https://stephen-king-api.onrender.com/api/type/12"
           }
-        ]
+        ],
+        "killed": []
       },
       {
         "id": 120,
         "name": "Atropos",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 3,
         "group": false,
         "notes": [
@@ -4143,13 +4557,15 @@
             "name": "Little Bald Doctor",
             "url": "https://stephen-king-api.onrender.com/api/type/13"
           }
-        ]
+        ],
+        "killed": []
       },
       {
         "id": 121,
         "name": "Barry",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 2,
         "group": false,
         "notes": [
@@ -4178,13 +4594,15 @@
             "name": "True Knot",
             "url": "https://stephen-king-api.onrender.com/api/type/10"
           }
-        ]
+        ],
+        "killed": []
       },
       {
         "id": 122,
         "name": "Bern Kells",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -4206,13 +4624,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 123,
         "name": "Billy Tessio",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -4240,13 +4660,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 124,
         "name": "Boogeyman",
         "gender": null,
         "status": "Alive",
+        "death": null,
         "types_id": 3,
         "group": false,
         "notes": [
@@ -4268,13 +4690,15 @@
           "name": "Supernatural being",
           "url": "https://stephen-king-api.onrender.com/api/type/3"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 125,
         "name": "Buddy Repperton",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -4301,13 +4725,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 126,
         "name": "Charlie Hogan",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -4335,13 +4761,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 127,
         "name": "Chet Ondowsky",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 3,
         "group": false,
         "notes": [
@@ -4368,13 +4796,15 @@
             "name": "Outsider",
             "url": "https://stephen-king-api.onrender.com/api/type/14"
           }
-        ]
+        ],
+        "killed": []
       },
       {
         "id": 128,
         "name": "Clay Reynolds",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -4395,13 +4825,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 129,
         "name": "Collie Entragian",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -4428,13 +4860,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 130,
         "name": "Crow Daddy",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 2,
         "group": false,
         "notes": [
@@ -4463,13 +4897,15 @@
             "name": "True Knot",
             "url": "https://stephen-king-api.onrender.com/api/type/10"
           }
-        ]
+        ],
+        "killed": []
       },
       {
         "id": 131,
         "name": "Cthun",
         "gender": null,
         "status": "Alive",
+        "death": null,
         "types_id": 3,
         "group": false,
         "notes": [
@@ -4490,13 +4926,15 @@
           "name": "Supernatural being",
           "url": "https://stephen-king-api.onrender.com/api/type/3"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 132,
         "name": "Dr. Hendricks",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -4522,13 +4960,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 133,
         "name": "Emily Harris",
         "gender": "Female",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -4552,13 +4992,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 134,
         "name": "Frank Dunning",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -4585,13 +5027,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 135,
         "name": "Frankie Stone",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -4619,13 +5063,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 136,
         "name": "George Bradley",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -4655,13 +5101,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 137,
         "name": "Grampa Flick",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 2,
         "group": false,
         "notes": [
@@ -4688,13 +5136,15 @@
             "name": "True Knot",
             "url": "https://stephen-king-api.onrender.com/api/type/10"
           }
-        ]
+        ],
+        "killed": []
       },
       {
         "id": 138,
         "name": "Harley Bissington",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -4717,13 +5167,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 139,
         "name": "He Who Walks Behind the Rows",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 3,
         "group": false,
         "notes": [
@@ -4750,13 +5202,15 @@
             "name": "Demon",
             "url": "https://stephen-king-api.onrender.com/api/type/12"
           }
-        ]
+        ],
+        "killed": []
       },
       {
         "id": 140,
         "name": "Jenny Engstrom",
         "gender": "Female",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -4781,13 +5235,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 141,
         "name": "Jim Pickering",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -4807,13 +5263,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 142,
         "name": "Jimmy Numbers",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 2,
         "group": false,
         "notes": [
@@ -4840,13 +5298,15 @@
             "name": "True Knot",
             "url": "https://stephen-king-api.onrender.com/api/type/10"
           }
-        ]
+        ],
+        "killed": []
       },
       {
         "id": 143,
         "name": "Joe Brinks",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -4871,13 +5331,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 144,
         "name": "John Shooter",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -4896,13 +5358,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 145,
         "name": "Julia Sigsby",
         "gender": "Female",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -4929,13 +5393,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 146,
         "name": "Julie Lawry",
         "gender": "Female",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -4967,13 +5433,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 147,
         "name": "Langoliers",
         "gender": null,
         "status": "Alive",
+        "death": null,
         "types_id": 3,
         "group": true,
         "notes": [
@@ -4993,13 +5461,15 @@
           "name": "Supernatural being",
           "url": "https://stephen-king-api.onrender.com/api/type/3"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 148,
         "name": "Lee",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -5020,13 +5490,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 149,
         "name": "Maine Legion of White Decency",
         "gender": null,
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": true,
         "notes": [
@@ -5051,13 +5523,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 150,
         "name": "Marc Lamonica",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -5079,13 +5553,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 151,
         "name": "Milo Pressman",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -5111,13 +5587,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 152,
         "name": "Monkey",
         "gender": null,
         "status": "Alive",
+        "death": null,
         "types_id": 6,
         "group": false,
         "notes": [
@@ -5142,13 +5620,15 @@
           "name": "Machine or object",
           "url": "https://stephen-king-api.onrender.com/api/type/6"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 153,
         "name": "Moochie Welch",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -5172,13 +5652,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 154,
         "name": "Morgan Sloat",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -5200,13 +5682,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 155,
         "name": "Morris Bellamy",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -5230,13 +5714,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 156,
         "name": "Mr. Gray",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 4,
         "group": false,
         "notes": [
@@ -5257,13 +5743,15 @@
           "name": "Alien",
           "url": "https://stephen-king-api.onrender.com/api/type/4"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 157,
         "name": "Mrs. Carmody",
         "gender": "Female",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -5290,13 +5778,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 158,
         "name": "Norman Bracowicz",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -5325,13 +5815,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 159,
         "name": "Priscilla (The Institute)",
         "gender": "Female",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -5355,13 +5847,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 160,
         "name": "Richard Chambers",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -5389,13 +5883,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 161,
         "name": "Rodney Harris",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -5419,13 +5915,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 162,
         "name": "Roger the Dog Man",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 7,
         "group": false,
         "notes": [
@@ -5452,13 +5950,15 @@
           "name": "Ghost",
           "url": "https://stephen-king-api.onrender.com/api/type/7"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 163,
         "name": "Roy Depape",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -5479,13 +5979,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 164,
         "name": "Snakebite Andi",
         "gender": "Female",
         "status": "Deceased",
+        "death": null,
         "types_id": 2,
         "group": false,
         "notes": [
@@ -5515,13 +6017,15 @@
             "name": "True Knot",
             "url": "https://stephen-king-api.onrender.com/api/type/10"
           }
-        ]
+        ],
+        "killed": []
       },
       {
         "id": 165,
         "name": "Tak",
         "gender": null,
         "status": "Alive",
+        "death": null,
         "types_id": 3,
         "group": false,
         "notes": [
@@ -5554,13 +6058,15 @@
             "name": "Demon",
             "url": "https://stephen-king-api.onrender.com/api/type/12"
           }
-        ]
+        ],
+        "killed": []
       },
       {
         "id": 166,
         "name": "The Children",
         "gender": null,
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": true,
         "notes": [
@@ -5580,13 +6086,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 167,
         "name": "The Mangler (character)",
         "gender": null,
         "status": "Alive",
+        "death": null,
         "types_id": 6,
         "group": false,
         "notes": [
@@ -5606,13 +6114,15 @@
           "name": "Machine or object",
           "url": "https://stephen-king-api.onrender.com/api/type/6"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 168,
         "name": "The Mist (phenomenon)",
         "gender": null,
         "status": "Alive",
+        "death": null,
         "types_id": 3,
         "group": false,
         "notes": [
@@ -5633,13 +6143,15 @@
           "name": "Supernatural being",
           "url": "https://stephen-king-api.onrender.com/api/type/3"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 169,
         "name": "Todd Bowden",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -5660,13 +6172,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 170,
         "name": "Tommy Erbter",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -5695,13 +6209,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 171,
         "name": "Tony Fizzale",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -5727,13 +6243,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 172,
         "name": "Trevor Stackhouse",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -5759,13 +6277,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 173,
         "name": "Vince Desjardins",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -5793,13 +6313,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 174,
         "name": "Walnut",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 2,
         "group": false,
         "notes": [
@@ -5826,13 +6348,15 @@
             "name": "True Knot",
             "url": "https://stephen-king-api.onrender.com/api/type/10"
           }
-        ]
+        ],
+        "killed": []
       },
       {
         "id": 175,
         "name": "Winona Briggs",
         "gender": "Female",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -5854,13 +6378,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 176,
         "name": "Zeke Ionidis",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -5887,13 +6413,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 177,
         "name": "Andy",
         "gender": null,
         "status": "Deceased",
+        "death": null,
         "types_id": 6,
         "group": false,
         "notes": [],
@@ -5915,13 +6443,15 @@
             "name": "North Central Positronics",
             "url": "https://stephen-king-api.onrender.com/api/type/16"
           }
-        ]
+        ],
+        "killed": []
       },
       {
         "id": 178,
         "name": "Ben Slightman",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -5947,13 +6477,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 179,
         "name": "Charlie Decker",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -5972,13 +6504,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 180,
         "name": "Don Peters",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [],
@@ -5995,13 +6529,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 181,
         "name": "Eric Blass",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [],
@@ -6018,13 +6554,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 182,
         "name": "Flight Killer",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 3,
         "group": false,
         "notes": [],
@@ -6041,13 +6579,15 @@
           "name": "Supernatural being",
           "url": "https://stephen-king-api.onrender.com/api/type/3"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 183,
         "name": "Frank Geary",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [],
@@ -6064,13 +6604,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 184,
         "name": "Gareth Winston",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [],
@@ -6087,13 +6629,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 185,
         "name": "God of the Lost",
         "gender": null,
         "status": "Alive",
+        "death": null,
         "types_id": 3,
         "group": false,
         "notes": [],
@@ -6110,13 +6654,15 @@
           "name": "Supernatural being",
           "url": "https://stephen-king-api.onrender.com/api/type/3"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 186,
         "name": "Gogmagog",
         "gender": null,
         "status": "Alive",
+        "death": null,
         "types_id": 3,
         "group": false,
         "notes": [],
@@ -6133,13 +6679,15 @@
           "name": "Supernatural being",
           "url": "https://stephen-king-api.onrender.com/api/type/3"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 187,
         "name": "Jim Dooley",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -6165,13 +6713,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 188,
         "name": "Kenneth Therriault",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 7,
         "group": false,
         "notes": [],
@@ -6188,13 +6738,15 @@
           "name": "Ghost",
           "url": "https://stephen-king-api.onrender.com/api/type/7"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 189,
         "name": "Liz Dutton",
         "gender": "Female",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [],
@@ -6211,13 +6763,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 190,
         "name": "Long Boy",
         "gender": null,
         "status": "Alive",
+        "death": null,
         "types_id": 3,
         "group": false,
         "notes": [
@@ -6242,13 +6796,15 @@
           "name": "Supernatural being",
           "url": "https://stephen-king-api.onrender.com/api/type/3"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 191,
         "name": "Max Devore",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [],
@@ -6265,13 +6821,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 192,
         "name": "Nick Majarian",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [],
@@ -6288,13 +6846,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 193,
         "name": "Perse",
         "gender": "Female",
         "status": "Alive",
+        "death": null,
         "types_id": 3,
         "group": false,
         "notes": [],
@@ -6311,13 +6871,15 @@
           "name": "Supernatural being",
           "url": "https://stephen-king-api.onrender.com/api/type/3"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 194,
         "name": "Roger Klerke",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [],
@@ -6334,13 +6896,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 195,
         "name": "Rogette Whitmore",
         "gender": "Female",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [],
@@ -6357,13 +6921,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 196,
         "name": "Sara Tidwell",
         "gender": "Female",
         "status": "Deceased",
+        "death": null,
         "types_id": 7,
         "group": false,
         "notes": [
@@ -6384,13 +6950,15 @@
           "name": "Ghost",
           "url": "https://stephen-king-api.onrender.com/api/type/7"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 197,
         "name": "Taduz Lemke",
         "gender": "Male",
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [],
@@ -6407,13 +6975,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 198,
         "name": "Terry Coombs",
         "gender": "Male",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [],
@@ -6430,13 +7000,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 199,
         "name": "The Hitler Brothers",
         "gender": null,
         "status": "Alive",
+        "death": null,
         "types_id": 1,
         "group": true,
         "notes": [],
@@ -6453,13 +7025,15 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 200,
         "name": "Wolves of Thunderclap",
         "gender": null,
         "status": "Deceased",
+        "death": null,
         "types_id": 6,
         "group": true,
         "notes": [],
@@ -6476,13 +7050,15 @@
           "name": "Machine or object",
           "url": "https://stephen-king-api.onrender.com/api/type/6"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       },
       {
         "id": 201,
         "name": "Nadine Cross",
         "gender": "Female",
         "status": "Deceased",
+        "death": null,
         "types_id": 1,
         "group": false,
         "notes": [
@@ -6508,7 +7084,8 @@
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
-        "kinds": []
+        "kinds": [],
+        "killed": []
       }
     ]
   }

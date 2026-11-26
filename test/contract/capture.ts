@@ -30,6 +30,10 @@ const PATHS = [
   "/api/villain/1",
   "/api/villain/60",
   "/api/villain/115",
+  // Deaths: killers with no record yet and a villain victim, then a group
+  // of killers and four victims
+  "/api/villain/2",
+  "/api/villain/57",
   // Places: the list, a page, then a world, a town and a building
   "/api/places",
   "/api/places?page=2&limit=50",

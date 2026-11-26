@@ -22,6 +22,9 @@ function errorsAfter(change: (catalog: any) => void, base?: Catalog): string[] {
   return validate(catalog, base);
 }
 
+const villain = (catalog: any, id: number) =>
+  catalog["villains.json"].find((record: { id: number }) => record.id === id);
+
 const place = (catalog: any, name: string) =>
   catalog["places.json"].find((record: { name: string }) => record.name === name);
 
@@ -257,6 +260,100 @@ describe("validate-data", () => {
   it("flags a publication removed since the base", () => {
     const errors = errorsAfter((c) => c["publications.json"].pop(), loadCatalog());
     assertFlags(errors, /publication 87 \("Scribd"\) was removed; ids must never disappear/);
+  });
+
+  it("flags a status that isn't Alive or Deceased", () => {
+    const errors = errorsAfter((c) => (villain(c, 1).status = "Dead"));
+    assertFlags(errors, /villain 1 \("Bob Anderson"\): status must be one of Alive, Deceased$/);
+  });
+
+  it("flags a death recorded for a villain who's alive", () => {
+    const errors = errorsAfter((c) => {
+      const alive = c["villains.json"].find((v: any) => v.status === "Alive");
+      alive.death = { cause: "Shot", in: { book: alive.appears_in[0] }, killed_by: [] };
+    });
+    assertFlags(errors, /villain \d+ .*: is Alive, so death must be null$/);
+  });
+
+  it("flags a death that isn't null or an object", () => {
+    const errors = errorsAfter((c) => (villain(c, 98).death = "Drained of blood"));
+    assertFlags(errors, /villain 98 \("Richard Straker"\): death must be null or an object$/);
+  });
+
+  it("flags death fields missing or out of order", () => {
+    const errors = errorsAfter((c) => {
+      const { cause, ...rest } = villain(c, 98).death;
+      villain(c, 98).death = { ...rest, cause };
+      delete villain(c, 2).death.cause;
+    });
+    assertFlags(errors, /villain 98 .*: death must have exactly these fields, in this order: cause, in, killed_by$/);
+    assertFlags(errors, /villain 2 .*: death\.cause must be non-empty text of at most 60 characters/);
+  });
+
+  it("flags a cause that's too long", () => {
+    const errors = errorsAfter((c) => (villain(c, 98).death.cause = "Drained ".repeat(8).trim()));
+    assertFlags(errors, /villain 98 .*: death\.cause must be non-empty text of at most 60 characters/);
+  });
+
+  it("flags a death in a book the villain isn't in", () => {
+    const errors = errorsAfter((c) => (villain(c, 98).death.in = { book: "carrie" }));
+    assertFlags(errors, /villain 98 .*: death\.in "carrie" isn't in appears_in, so the villain isn't in that book$/);
+  });
+
+  it("flags a death in a work of the wrong kind, or of both kinds", () => {
+    const errors = errorsAfter((c) => {
+      villain(c, 98).death.in = { short: "salem-s-lot" };
+      villain(c, 2).death.in = { book: "salem-s-lot", short: "one-for-the-road" };
+    });
+    assertFlags(errors, /villain 98 .*: death\.in "salem-s-lot" doesn't match any short handle$/);
+    assertFlags(errors, /villain 2 .*: death\.in must be \{ "book": handle \} or \{ "short": handle \}$/);
+  });
+
+  it("flags a killer who isn't a villain, or is the victim", () => {
+    const errors = errorsAfter((c) => {
+      villain(c, 98).death.killed_by = [{ villain: 9999 }];
+      villain(c, 2).death.killed_by = [{ villain: 2 }];
+    });
+    assertFlags(errors, /villain 98 .*: death\.killed_by 0 villain 9999 doesn't match any villain$/);
+    assertFlags(errors, /villain 2 .*: death\.killed_by 0 is the villain itself; a suicide has an empty killed_by$/);
+  });
+
+  it("flags a killer named like a villain, who should be linked", () => {
+    const errors = errorsAfter((c) => (villain(c, 98).death.killed_by = [{ name: "kurt barlow" }]));
+    assertFlags(errors, /villain 98 .*: death\.killed_by 0 "kurt barlow" is villain 2, so it should be \{ "villain": 2 \}$/);
+  });
+
+  it("flags a killer listed twice, even as a group's member", () => {
+    const errors = errorsAfter((c) => villain(c, 57).death.killed_by.push({ name: "Bill Denbrough" }));
+    assertFlags(errors, /villain 57 .*: death\.killed_by 1 lists name "bill denbrough" again$/);
+  });
+
+  it("flags a killer with both forms, neither, or a field it can't have", () => {
+    const errors = errorsAfter((c) => {
+      villain(c, 98).death.killed_by = [{ villain: 2, name: "Kurt" }, { weapon: "teeth" }];
+      villain(c, 57).death.killed_by[0].members[0].members = [{ name: "Silver" }];
+    });
+    assertFlags(errors, /villain 98 .*: death\.killed_by 0 needs exactly one of villain \(an id\) or name$/);
+    assertFlags(errors, /villain 98 .*: death\.killed_by 1 has weapon, but a killer has only villain or name, and members for a group$/);
+    assertFlags(errors, /villain 57 .*: death\.killed_by 0 member 0 has members, but a member has only villain or name$/);
+  });
+
+  it("flags a group with an empty list of members", () => {
+    const errors = errorsAfter((c) => (villain(c, 57).death.killed_by[0].members = []));
+    assertFlags(errors, /villain 57 .*: death\.killed_by 0 members must be a non-empty list, or left out$/);
+  });
+
+  it("flags a death recorded on the base but wiped since", () => {
+    const errors = errorsAfter((c) => (villain(c, 57).death = null), loadCatalog());
+    assertFlags(errors, /villain 57 \("It \(Creature\)"\): death was recorded on the base branch but is now null, and status is still Deceased$/);
+  });
+
+  it("lets a death go back to null when the villain is alive again", () => {
+    const errors = errorsAfter((c) => {
+      villain(c, 57).death = null;
+      villain(c, 57).status = "Alive";
+    }, loadCatalog());
+    assert.deepEqual(errors, []);
   });
 
   it("allows new records with new ids", () => {

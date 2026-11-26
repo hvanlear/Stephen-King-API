@@ -27,11 +27,30 @@ export interface Short {
   created_at: string;
 }
 
+// Who killed a villain: another villain, or a name for someone the catalog
+// has no record of yet, such as a hero. When characters arrive, a name can
+// become a character's id without changing what the API serves.
+export type Killer = { villain: number } | { name: string };
+
+// A group of killers, such as the Losers' Club, can list the members who
+// took part, in the same forms
+export type KillerEntry = Killer & { members?: Killer[] };
+
+// How a villain died, and in which book or short. A handle can name both a
+// book and a short, so it says which.
+export interface Death {
+  cause: string;
+  in: { book: string } | { short: string };
+  killed_by: KillerEntry[];
+}
+
 export interface Villain {
   id: number;
   name: string;
   gender: string | null;
-  status: string;
+  status: "Alive" | "Deceased";
+  // null until it's recorded, and always for a villain who's alive
+  death: Death | null;
   types_id: number;
   group: boolean;
   appears_in: string[];
@@ -143,6 +162,31 @@ for (const villain of villains) {
       link(shortIdsByVillain, villain.id, short.id);
     }
   }
+}
+
+// Where each recorded death happens, and the villains each villain killed,
+// in victim id order. Killing as a group's member counts.
+export const deathWorkByVillain = new Map<number, { book: number } | { short: number }>();
+export const victimIdsByVillain = new Map<number, number[]>();
+
+for (const villain of villains) {
+  if (villain.death === null) {
+    continue;
+  }
+  const where = villain.death.in;
+  const work = "book" in where ? bookWithHandle(where.book) : shortWithHandle(where.short);
+  if (work) {
+    deathWorkByVillain.set(villain.id, "book" in where ? { book: work.id } : { short: work.id });
+  }
+  const killers = new Set<number>();
+  for (const { members = [], ...killer } of villain.death.killed_by) {
+    for (const one of [killer, ...members]) {
+      if ("villain" in one) {
+        killers.add(one.villain);
+      }
+    }
+  }
+  killers.forEach((id) => link(victimIdsByVillain, id, villain.id));
 }
 
 // The places in each place, in id order

@@ -1,0 +1,115 @@
+{
+  "path": "/api/villain/57",
+  "status": 200,
+  "body": {
+    "data": {
+      "id": 57,
+      "name": "It (Creature)",
+      "gender": "Unknown",
+      "status": "Deceased",
+      "death": {
+        "cause": "Heart crushed",
+        "work": {
+          "title": "It",
+          "url": "https://stephen-king-api.onrender.com/api/book/19"
+        },
+        "killed_by": [
+          {
+            "name": "The Losers' Club",
+            "url": null,
+            "members": [
+              {
+                "name": "Bill Denbrough",
+                "url": null
+              },
+              {
+                "name": "Richie Tozier",
+                "url": null
+              },
+              {
+                "name": "Beverly Marsh",
+                "url": null
+              },
+              {
+                "name": "Eddie Kaspbrak",
+                "url": null
+              },
+              {
+                "name": "Ben Hanscom",
+                "url": null
+              }
+            ]
+          }
+        ]
+      },
+      "types_id": 4,
+      "group": false,
+      "notes": [
+        "Characters",
+        "Unsourced quotes",
+        "Seekers of vengeance",
+        "Brainwashers",
+        "IT",
+        "The Dark Tower",
+        "Derry residents",
+        "Residents of Maine",
+        "Antagonists",
+        "Villains"
+      ],
+      "created_at": "2023-11-13T23:49:29.429Z",
+      "books": [
+        {
+          "title": "It",
+          "url": "https://stephen-king-api.onrender.com/api/book/19"
+        },
+        {
+          "title": "The Tommyknockers",
+          "url": "https://stephen-king-api.onrender.com/api/book/22"
+        }
+      ],
+      "shorts": [
+        {
+          "title": "The Bird and the Album",
+          "url": "https://stephen-king-api.onrender.com/api/short/78"
+        }
+      ],
+      "residence": [
+        {
+          "name": "Todash Space",
+          "url": "https://stephen-king-api.onrender.com/api/place/6"
+        },
+        {
+          "name": "Macroverse",
+          "url": "https://stephen-king-api.onrender.com/api/place/3"
+        },
+        {
+          "name": "Well House",
+          "url": "https://stephen-king-api.onrender.com/api/place/183"
+        }
+      ],
+      "type": {
+        "name": "Alien",
+        "url": "https://stephen-king-api.onrender.com/api/type/4"
+      },
+      "kinds": [],
+      "killed": [
+        {
+          "name": "Victor Criss",
+          "url": "https://stephen-king-api.onrender.com/api/villain/18"
+        },
+        {
+          "name": "Patrick Hockstetter",
+          "url": "https://stephen-king-api.onrender.com/api/villain/53"
+        },
+        {
+          "name": "Belch Huggins",
+          "url": "https://stephen-king-api.onrender.com/api/villain/55"
+        },
+        {
+          "name": "Tom Rogan",
+          "url": "https://stephen-king-api.onrender.com/api/villain/91"
+        }
+      ]
+    }
+  }
+}

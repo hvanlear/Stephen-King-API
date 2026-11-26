@@ -15,6 +15,23 @@ export const schema: Schema = {
   kinds: {
     book: { label: "Book", plural: "books", noun: "books", example: 19 },
     short: { label: "Short", plural: "shorts", noun: "short stories", example: 19 },
+    // Every character, villains included. A villain's links use
+    // /api/villain/:id, so it's drawn as a villain and the rest as characters.
+    character: {
+      label: "Character",
+      plural: "characters",
+      noun: "characters",
+      filter: "other characters",
+      example: 202,
+      status: {
+        field: "status",
+        marks: {
+          Alive: { mark: "\u2665\uFE0E", label: "alive" },
+          Deceased: { mark: "\u2020", label: "deceased" },
+        },
+      },
+      drawnAs: { field: "villain", kind: "villain" },
+    },
     villain: {
       label: "Villain",
       plural: "villains",
@@ -36,14 +53,26 @@ export const schema: Schema = {
     publication: { label: "Publication", plural: "publications", noun: "publications", example: 7 },
   },
   fields: {
+    "book.characters": { family: "appears" },
     "book.villains": { family: "appears" },
+    "book.protagonists": { family: "appears" },
     "book.places": { family: "setting" },
     "book.collection": { family: "related" },
     "short.publication": { family: "inside" },
     "short.collection": { family: "inside" },
+    "short.characters": { family: "appears" },
     "short.villains": { family: "appears" },
+    "short.protagonists": { family: "appears" },
     "short.places": { family: "setting" },
-    // Where the villain died, which is one of its books or shorts
+    // Where the character died, which is one of its books or shorts
+    "character.death.work": { family: "appears" },
+    "character.death.killed_by": { family: "killed" },
+    "character.books": { family: "appears" },
+    "character.shorts": { family: "appears" },
+    "character.residence": { family: "setting" },
+    "character.type": { family: "isa" },
+    "character.kinds": { family: "isa" },
+    "character.killed": { family: "killed" },
     "villain.death.work": { family: "appears" },
     "villain.death.killed_by": { family: "killed" },
     "villain.books": { family: "appears" },
@@ -56,9 +85,11 @@ export const schema: Schema = {
     "place.places": { family: "inside" },
     "place.books": { family: "setting" },
     "place.shorts": { family: "setting" },
+    "place.characters": { family: "setting", rollup: true },
     "place.villains": { family: "setting", rollup: true },
     "type.parent": { family: "inside" },
     "type.types": { family: "inside" },
+    "type.characters": { family: "isa", rollup: true },
     "type.villains": { family: "isa", rollup: true },
     "collection.book": { family: "related" },
     "collection.shorts": { family: "inside" },

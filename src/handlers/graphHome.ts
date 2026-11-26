@@ -5,6 +5,7 @@ import { schema } from "../graph/schema";
 import { kindTheme } from "../graph/palette";
 import { PANEL_ROWS } from "../graph/payload";
 import { clientAssets } from "../utils/clientAssets";
+import { kinds as apiKinds } from "../kinds";
 
 // The graph home page, design 06. It's at /next until it replaces / (SK-045).
 // ?focus=villain-57 picks the record in the middle; the server renders its
@@ -24,7 +25,8 @@ const statusKey = [
 
 const kinds = kindOrder.map((kind) => {
   const info = schema.kinds[kind];
-  const count = graph.payload.nodes.filter((n) => n[0] === kind).length;
+  // What the list route returns, so characters count the villains too
+  const count = apiKinds.find((k) => k.one === kind)?.records.length ?? 0;
   const example = graph.find(kind, info.example);
   return {
     kind,

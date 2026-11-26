@@ -6,6 +6,8 @@
       {
         "id": 101,
         "name": "Carter Thibodeau",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -26,7 +28,8 @@
         "books": [
           {
             "title": "Under the Dome",
-            "url": "https://stephen-king-api.onrender.com/api/book/48"
+            "url": "https://stephen-king-api.onrender.com/api/book/48",
+            "role": null
           }
         ],
         "shorts": [],
@@ -46,6 +49,8 @@
       {
         "id": 102,
         "name": "Donna and Mary Lila Grace Thibodeau",
+        "villain": true,
+        "protagonist": false,
         "gender": "Female",
         "status": "Deceased",
         "death": null,
@@ -70,7 +75,8 @@
         "books": [
           {
             "title": "Carrie",
-            "url": "https://stephen-king-api.onrender.com/api/book/1"
+            "url": "https://stephen-king-api.onrender.com/api/book/1",
+            "role": null
           }
         ],
         "shorts": [],
@@ -90,6 +96,8 @@
       {
         "id": 103,
         "name": "Tom Mahout",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Alive",
         "death": null,
@@ -106,7 +114,8 @@
         "books": [
           {
             "title": "Gerald's Game",
-            "url": "https://stephen-king-api.onrender.com/api/book/27"
+            "url": "https://stephen-king-api.onrender.com/api/book/27",
+            "role": null
           }
         ],
         "shorts": [],
@@ -126,6 +135,8 @@
       {
         "id": 104,
         "name": "Tommyknockers",
+        "villain": true,
+        "protagonist": false,
         "gender": null,
         "status": "Alive",
         "death": null,
@@ -139,7 +150,8 @@
         "books": [
           {
             "title": "The Tommyknockers",
-            "url": "https://stephen-king-api.onrender.com/api/book/22"
+            "url": "https://stephen-king-api.onrender.com/api/book/22",
+            "role": null
           }
         ],
         "shorts": [],
@@ -154,6 +166,8 @@
       {
         "id": 105,
         "name": "Craig Toomey",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -171,7 +185,8 @@
         "shorts": [
           {
             "title": "The Langoliers",
-            "url": "https://stephen-king-api.onrender.com/api/short/114"
+            "url": "https://stephen-king-api.onrender.com/api/short/114",
+            "role": null
           }
         ],
         "residence": [],
@@ -185,6 +200,8 @@
       {
         "id": 106,
         "name": "Jack Torrance",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -211,11 +228,13 @@
         "books": [
           {
             "title": "The Shining",
-            "url": "https://stephen-king-api.onrender.com/api/book/3"
+            "url": "https://stephen-king-api.onrender.com/api/book/3",
+            "role": null
           },
           {
             "title": "Doctor Sleep",
-            "url": "https://stephen-king-api.onrender.com/api/book/52"
+            "url": "https://stephen-king-api.onrender.com/api/book/52",
+            "role": null
           }
         ],
         "shorts": [],
@@ -230,6 +249,8 @@
       {
         "id": 107,
         "name": "Christopher Unwin",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Alive",
         "death": null,
@@ -248,7 +269,8 @@
         "books": [
           {
             "title": "It",
-            "url": "https://stephen-king-api.onrender.com/api/book/19"
+            "url": "https://stephen-king-api.onrender.com/api/book/19",
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -268,6 +290,8 @@
       {
         "id": 108,
         "name": "Jessica Upshaw",
+        "villain": true,
+        "protagonist": false,
         "gender": "Female",
         "status": "Deceased",
         "death": null,
@@ -290,7 +314,8 @@
         "books": [
           {
             "title": "Carrie",
-            "url": "https://stephen-king-api.onrender.com/api/book/1"
+            "url": "https://stephen-king-api.onrender.com/api/book/1",
+            "role": null
           }
         ],
         "shorts": [],
@@ -310,6 +335,8 @@
       {
         "id": 109,
         "name": "Norma Watson",
+        "villain": true,
+        "protagonist": false,
         "gender": "Female",
         "status": "Alive",
         "death": null,
@@ -329,7 +356,8 @@
         "books": [
           {
             "title": "Carrie",
-            "url": "https://stephen-king-api.onrender.com/api/book/1"
+            "url": "https://stephen-king-api.onrender.com/api/book/1",
+            "role": null
           }
         ],
         "shorts": [],
@@ -349,6 +377,8 @@
       {
         "id": 110,
         "name": "Wendigo",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Alive",
         "death": null,
@@ -362,7 +392,8 @@
         "books": [
           {
             "title": "Pet Sematary",
-            "url": "https://stephen-king-api.onrender.com/api/book/14"
+            "url": "https://stephen-king-api.onrender.com/api/book/14",
+            "role": null
           }
         ],
         "shorts": [],
@@ -377,6 +408,8 @@
       {
         "id": 111,
         "name": "Percy Wetmore",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -393,7 +426,8 @@
         "books": [
           {
             "title": "The Green Mile",
-            "url": "https://stephen-king-api.onrender.com/api/book/31"
+            "url": "https://stephen-king-api.onrender.com/api/book/31",
+            "role": null
           }
         ],
         "shorts": [],
@@ -413,6 +447,8 @@
       {
         "id": 112,
         "name": "William Wharton",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -428,7 +464,8 @@
         "books": [
           {
             "title": "The Green Mile",
-            "url": "https://stephen-king-api.onrender.com/api/book/31"
+            "url": "https://stephen-king-api.onrender.com/api/book/31",
+            "role": null
           }
         ],
         "shorts": [],
@@ -443,6 +480,8 @@
       {
         "id": 113,
         "name": "Margaret White",
+        "villain": true,
+        "protagonist": false,
         "gender": "Female",
         "status": "Deceased",
         "death": null,
@@ -466,7 +505,8 @@
         "books": [
           {
             "title": "Carrie",
-            "url": "https://stephen-king-api.onrender.com/api/book/1"
+            "url": "https://stephen-king-api.onrender.com/api/book/1",
+            "role": null
           }
         ],
         "shorts": [],
@@ -490,6 +530,8 @@
       {
         "id": 114,
         "name": "Annie Wilkes",
+        "villain": true,
+        "protagonist": false,
         "gender": "Female",
         "status": "Deceased",
         "death": null,
@@ -508,7 +550,8 @@
         "books": [
           {
             "title": "Misery",
-            "url": "https://stephen-king-api.onrender.com/api/book/21"
+            "url": "https://stephen-king-api.onrender.com/api/book/21",
+            "role": null
           }
         ],
         "shorts": [],
@@ -523,6 +566,8 @@
       {
         "id": 115,
         "name": "Tim Youngblood",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Alive",
         "death": null,
@@ -538,7 +583,8 @@
         "shorts": [
           {
             "title": "Rita Hayworth and Shawshank Redemption",
-            "url": "https://stephen-king-api.onrender.com/api/short/86"
+            "url": "https://stephen-king-api.onrender.com/api/short/86",
+            "role": null
           }
         ],
         "residence": [],
@@ -552,6 +598,8 @@
       {
         "id": 116,
         "name": "Al Bradley",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -570,7 +618,8 @@
         "books": [
           {
             "title": "It",
-            "url": "https://stephen-king-api.onrender.com/api/book/19"
+            "url": "https://stephen-king-api.onrender.com/api/book/19",
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -590,6 +639,8 @@
       {
         "id": 117,
         "name": "Andrew Freeman",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -607,11 +658,13 @@
         "books": [
           {
             "title": "The Stand",
-            "url": "https://stephen-king-api.onrender.com/api/book/5"
+            "url": "https://stephen-king-api.onrender.com/api/book/5",
+            "role": null
           },
           {
             "title": "The Stand Uncut",
-            "url": "https://stephen-king-api.onrender.com/api/book/24"
+            "url": "https://stephen-king-api.onrender.com/api/book/24",
+            "role": null
           }
         ],
         "shorts": [],
@@ -626,6 +679,8 @@
       {
         "id": 118,
         "name": "Andrew Halliday",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -646,7 +701,8 @@
         "books": [
           {
             "title": "Finders Keepers",
-            "url": "https://stephen-king-api.onrender.com/api/book/55"
+            "url": "https://stephen-king-api.onrender.com/api/book/55",
+            "role": null
           }
         ],
         "shorts": [],
@@ -661,6 +717,8 @@
       {
         "id": 119,
         "name": "Ardelia Lortz",
+        "villain": true,
+        "protagonist": false,
         "gender": "Female",
         "status": "Deceased",
         "death": null,
@@ -676,7 +734,8 @@
         "shorts": [
           {
             "title": "The Library Policeman",
-            "url": "https://stephen-king-api.onrender.com/api/short/115"
+            "url": "https://stephen-king-api.onrender.com/api/short/115",
+            "role": null
           }
         ],
         "residence": [],
@@ -695,6 +754,8 @@
       {
         "id": 120,
         "name": "Atropos",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Alive",
         "death": null,
@@ -707,7 +768,8 @@
         "books": [
           {
             "title": "Insomnia",
-            "url": "https://stephen-king-api.onrender.com/api/book/29"
+            "url": "https://stephen-king-api.onrender.com/api/book/29",
+            "role": null
           }
         ],
         "shorts": [],
@@ -727,6 +789,8 @@
       {
         "id": 121,
         "name": "Barry",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -744,7 +808,8 @@
         "books": [
           {
             "title": "Doctor Sleep",
-            "url": "https://stephen-king-api.onrender.com/api/book/52"
+            "url": "https://stephen-king-api.onrender.com/api/book/52",
+            "role": null
           }
         ],
         "shorts": [],
@@ -764,6 +829,8 @@
       {
         "id": 122,
         "name": "Bern Kells",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -779,7 +846,8 @@
         "books": [
           {
             "title": "The Dark Tower: The Wind Through the Keyhole",
-            "url": "https://stephen-king-api.onrender.com/api/book/50"
+            "url": "https://stephen-king-api.onrender.com/api/book/50",
+            "role": null
           }
         ],
         "shorts": [],
@@ -794,6 +862,8 @@
       {
         "id": 123,
         "name": "Billy Tessio",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Alive",
         "death": null,
@@ -811,7 +881,8 @@
         "shorts": [
           {
             "title": "The Body",
-            "url": "https://stephen-king-api.onrender.com/api/short/84"
+            "url": "https://stephen-king-api.onrender.com/api/short/84",
+            "role": null
           }
         ],
         "residence": [
@@ -830,6 +901,8 @@
       {
         "id": 124,
         "name": "Boogeyman",
+        "villain": true,
+        "protagonist": false,
         "gender": null,
         "status": "Alive",
         "death": null,
@@ -846,7 +919,8 @@
         "shorts": [
           {
             "title": "The Boogeyman",
-            "url": "https://stephen-king-api.onrender.com/api/short/43"
+            "url": "https://stephen-king-api.onrender.com/api/short/43",
+            "role": null
           }
         ],
         "residence": [],
@@ -860,6 +934,8 @@
       {
         "id": 125,
         "name": "Buddy Repperton",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -880,7 +956,8 @@
         "books": [
           {
             "title": "Christine",
-            "url": "https://stephen-king-api.onrender.com/api/book/13"
+            "url": "https://stephen-king-api.onrender.com/api/book/13",
+            "role": null
           }
         ],
         "shorts": [],
@@ -895,6 +972,8 @@
       {
         "id": 126,
         "name": "Charlie Hogan",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Alive",
         "death": null,
@@ -912,7 +991,8 @@
         "shorts": [
           {
             "title": "The Body",
-            "url": "https://stephen-king-api.onrender.com/api/short/84"
+            "url": "https://stephen-king-api.onrender.com/api/short/84",
+            "role": null
           }
         ],
         "residence": [
@@ -931,6 +1011,8 @@
       {
         "id": 127,
         "name": "Chet Ondowsky",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -947,7 +1029,8 @@
         "shorts": [
           {
             "title": "If It Bleeds",
-            "url": "https://stephen-king-api.onrender.com/api/short/207"
+            "url": "https://stephen-king-api.onrender.com/api/short/207",
+            "role": null
           }
         ],
         "residence": [],
@@ -966,6 +1049,8 @@
       {
         "id": 128,
         "name": "Clay Reynolds",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -980,7 +1065,8 @@
         "books": [
           {
             "title": "The Dark Tower IV: Wizard and Glass",
-            "url": "https://stephen-king-api.onrender.com/api/book/34"
+            "url": "https://stephen-king-api.onrender.com/api/book/34",
+            "role": null
           }
         ],
         "shorts": [],
@@ -995,6 +1081,8 @@
       {
         "id": 129,
         "name": "Collie Entragian",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -1011,11 +1099,13 @@
         "books": [
           {
             "title": "Desperation",
-            "url": "https://stephen-king-api.onrender.com/api/book/32"
+            "url": "https://stephen-king-api.onrender.com/api/book/32",
+            "role": null
           },
           {
             "title": "The Regulators",
-            "url": "https://stephen-king-api.onrender.com/api/book/33"
+            "url": "https://stephen-king-api.onrender.com/api/book/33",
+            "role": null
           }
         ],
         "shorts": [],
@@ -1030,6 +1120,8 @@
       {
         "id": 130,
         "name": "Crow Daddy",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -1047,7 +1139,8 @@
         "books": [
           {
             "title": "Doctor Sleep",
-            "url": "https://stephen-king-api.onrender.com/api/book/52"
+            "url": "https://stephen-king-api.onrender.com/api/book/52",
+            "role": null
           }
         ],
         "shorts": [],
@@ -1067,6 +1160,8 @@
       {
         "id": 131,
         "name": "Cthun",
+        "villain": true,
+        "protagonist": false,
         "gender": null,
         "status": "Alive",
         "death": null,
@@ -1082,7 +1177,8 @@
         "shorts": [
           {
             "title": "N.",
-            "url": "https://stephen-king-api.onrender.com/api/short/168"
+            "url": "https://stephen-king-api.onrender.com/api/short/168",
+            "role": null
           }
         ],
         "residence": [],
@@ -1096,6 +1192,8 @@
       {
         "id": 132,
         "name": "Dr. Hendricks",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Alive",
         "death": null,
@@ -1115,7 +1213,8 @@
         "books": [
           {
             "title": "The Institute",
-            "url": "https://stephen-king-api.onrender.com/api/book/61"
+            "url": "https://stephen-king-api.onrender.com/api/book/61",
+            "role": null
           }
         ],
         "shorts": [],
@@ -1130,6 +1229,8 @@
       {
         "id": 133,
         "name": "Emily Harris",
+        "villain": true,
+        "protagonist": false,
         "gender": "Female",
         "status": "Deceased",
         "death": null,
@@ -1147,7 +1248,8 @@
         "books": [
           {
             "title": "Holly",
-            "url": "https://stephen-king-api.onrender.com/api/book/75"
+            "url": "https://stephen-king-api.onrender.com/api/book/75",
+            "role": null
           }
         ],
         "shorts": [],
@@ -1162,6 +1264,8 @@
       {
         "id": 134,
         "name": "Frank Dunning",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -1177,7 +1281,8 @@
         "books": [
           {
             "title": "11/22/63",
-            "url": "https://stephen-king-api.onrender.com/api/book/49"
+            "url": "https://stephen-king-api.onrender.com/api/book/49",
+            "role": null
           }
         ],
         "shorts": [],
@@ -1197,6 +1302,8 @@
       {
         "id": 135,
         "name": "Frankie Stone",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -1213,13 +1320,15 @@
         "books": [
           {
             "title": "Gwendy's Button Box",
-            "url": "https://stephen-king-api.onrender.com/api/book/57"
+            "url": "https://stephen-king-api.onrender.com/api/book/57",
+            "role": null
           }
         ],
         "shorts": [
           {
             "title": "Gwendy's Button Box",
-            "url": "https://stephen-king-api.onrender.com/api/short/200"
+            "url": "https://stephen-king-api.onrender.com/api/short/200",
+            "role": null
           }
         ],
         "residence": [],
@@ -1233,6 +1342,8 @@
       {
         "id": 136,
         "name": "George Bradley",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -1251,7 +1362,8 @@
         "books": [
           {
             "title": "It",
-            "url": "https://stephen-king-api.onrender.com/api/book/19"
+            "url": "https://stephen-king-api.onrender.com/api/book/19",
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -1271,6 +1383,8 @@
       {
         "id": 137,
         "name": "Grampa Flick",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -1286,7 +1400,8 @@
         "books": [
           {
             "title": "Doctor Sleep",
-            "url": "https://stephen-king-api.onrender.com/api/book/52"
+            "url": "https://stephen-king-api.onrender.com/api/book/52",
+            "role": null
           }
         ],
         "shorts": [],
@@ -1306,6 +1421,8 @@
       {
         "id": 138,
         "name": "Harley Bissington",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Alive",
         "death": null,
@@ -1322,7 +1439,8 @@
         "books": [
           {
             "title": "Rose Madder",
-            "url": "https://stephen-king-api.onrender.com/api/book/30"
+            "url": "https://stephen-king-api.onrender.com/api/book/30",
+            "role": null
           }
         ],
         "shorts": [],
@@ -1337,6 +1455,8 @@
       {
         "id": 139,
         "name": "He Who Walks Behind the Rows",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Alive",
         "death": null,
@@ -1353,7 +1473,8 @@
         "shorts": [
           {
             "title": "Children of the Corn",
-            "url": "https://stephen-king-api.onrender.com/api/short/53"
+            "url": "https://stephen-king-api.onrender.com/api/short/53",
+            "role": null
           }
         ],
         "residence": [],
@@ -1372,6 +1493,8 @@
       {
         "id": 140,
         "name": "Jenny Engstrom",
+        "villain": true,
+        "protagonist": false,
         "gender": "Female",
         "status": "Deceased",
         "death": null,
@@ -1386,11 +1509,13 @@
         "books": [
           {
             "title": "The Stand",
-            "url": "https://stephen-king-api.onrender.com/api/book/5"
+            "url": "https://stephen-king-api.onrender.com/api/book/5",
+            "role": null
           },
           {
             "title": "The Stand Uncut",
-            "url": "https://stephen-king-api.onrender.com/api/book/24"
+            "url": "https://stephen-king-api.onrender.com/api/book/24",
+            "role": null
           }
         ],
         "shorts": [],
@@ -1405,6 +1530,8 @@
       {
         "id": 141,
         "name": "Jim Pickering",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -1419,7 +1546,8 @@
         "shorts": [
           {
             "title": "The Gingerbread Girl",
-            "url": "https://stephen-king-api.onrender.com/api/short/163"
+            "url": "https://stephen-king-api.onrender.com/api/short/163",
+            "role": null
           }
         ],
         "residence": [],
@@ -1433,6 +1561,8 @@
       {
         "id": 142,
         "name": "Jimmy Numbers",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -1448,7 +1578,8 @@
         "books": [
           {
             "title": "Doctor Sleep",
-            "url": "https://stephen-king-api.onrender.com/api/book/52"
+            "url": "https://stephen-king-api.onrender.com/api/book/52",
+            "role": null
           }
         ],
         "shorts": [],
@@ -1468,6 +1599,8 @@
       {
         "id": 143,
         "name": "Joe Brinks",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Alive",
         "death": null,
@@ -1486,7 +1619,8 @@
         "books": [
           {
             "title": "The Institute",
-            "url": "https://stephen-king-api.onrender.com/api/book/61"
+            "url": "https://stephen-king-api.onrender.com/api/book/61",
+            "role": null
           }
         ],
         "shorts": [],
@@ -1501,6 +1635,8 @@
       {
         "id": 144,
         "name": "John Shooter",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -1514,7 +1650,8 @@
         "shorts": [
           {
             "title": "Secret Window, Secret Garden",
-            "url": "https://stephen-king-api.onrender.com/api/short/116"
+            "url": "https://stephen-king-api.onrender.com/api/short/116",
+            "role": null
           }
         ],
         "residence": [],
@@ -1528,6 +1665,8 @@
       {
         "id": 145,
         "name": "Julia Sigsby",
+        "villain": true,
+        "protagonist": false,
         "gender": "Female",
         "status": "Deceased",
         "death": null,
@@ -1548,7 +1687,8 @@
         "books": [
           {
             "title": "The Institute",
-            "url": "https://stephen-king-api.onrender.com/api/book/61"
+            "url": "https://stephen-king-api.onrender.com/api/book/61",
+            "role": null
           }
         ],
         "shorts": [],
@@ -1563,6 +1703,8 @@
       {
         "id": 146,
         "name": "Julie Lawry",
+        "villain": true,
+        "protagonist": false,
         "gender": "Female",
         "status": "Deceased",
         "death": null,
@@ -1579,11 +1721,13 @@
         "books": [
           {
             "title": "The Stand",
-            "url": "https://stephen-king-api.onrender.com/api/book/5"
+            "url": "https://stephen-king-api.onrender.com/api/book/5",
+            "role": null
           },
           {
             "title": "The Stand Uncut",
-            "url": "https://stephen-king-api.onrender.com/api/book/24"
+            "url": "https://stephen-king-api.onrender.com/api/book/24",
+            "role": null
           }
         ],
         "shorts": [],
@@ -1603,6 +1747,8 @@
       {
         "id": 147,
         "name": "Langoliers",
+        "villain": true,
+        "protagonist": false,
         "gender": null,
         "status": "Alive",
         "death": null,
@@ -1617,7 +1763,8 @@
         "shorts": [
           {
             "title": "The Langoliers",
-            "url": "https://stephen-king-api.onrender.com/api/short/114"
+            "url": "https://stephen-king-api.onrender.com/api/short/114",
+            "role": null
           }
         ],
         "residence": [],
@@ -1631,6 +1778,8 @@
       {
         "id": 148,
         "name": "Lee",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Alive",
         "death": null,
@@ -1646,7 +1795,8 @@
         "shorts": [
           {
             "title": "Rest Stop",
-            "url": "https://stephen-king-api.onrender.com/api/short/156"
+            "url": "https://stephen-king-api.onrender.com/api/short/156",
+            "role": null
           }
         ],
         "residence": [],
@@ -1660,6 +1810,8 @@
       {
         "id": 149,
         "name": "Maine Legion of White Decency",
+        "villain": true,
+        "protagonist": false,
         "gender": null,
         "status": "Alive",
         "death": null,
@@ -1678,7 +1830,8 @@
         "books": [
           {
             "title": "It",
-            "url": "https://stephen-king-api.onrender.com/api/book/19"
+            "url": "https://stephen-king-api.onrender.com/api/book/19",
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -1693,6 +1846,8 @@
       {
         "id": 150,
         "name": "Marc Lamonica",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Alive",
         "death": null,
@@ -1708,7 +1863,8 @@
         "books": [
           {
             "title": "It",
-            "url": "https://stephen-king-api.onrender.com/api/book/19"
+            "url": "https://stephen-king-api.onrender.com/api/book/19",
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -1723,6 +1879,8 @@
       {
         "id": 151,
         "name": "Milo Pressman",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Alive",
         "death": null,
@@ -1738,7 +1896,8 @@
         "shorts": [
           {
             "title": "The Body",
-            "url": "https://stephen-king-api.onrender.com/api/short/84"
+            "url": "https://stephen-king-api.onrender.com/api/short/84",
+            "role": null
           }
         ],
         "residence": [
@@ -1757,6 +1916,8 @@
       {
         "id": 152,
         "name": "Monkey",
+        "villain": true,
+        "protagonist": false,
         "gender": null,
         "status": "Alive",
         "death": null,
@@ -1776,7 +1937,8 @@
         "shorts": [
           {
             "title": "The Monkey",
-            "url": "https://stephen-king-api.onrender.com/api/short/71"
+            "url": "https://stephen-king-api.onrender.com/api/short/71",
+            "role": null
           }
         ],
         "residence": [],
@@ -1790,6 +1952,8 @@
       {
         "id": 153,
         "name": "Moochie Welch",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -1807,7 +1971,8 @@
         "books": [
           {
             "title": "Christine",
-            "url": "https://stephen-king-api.onrender.com/api/book/13"
+            "url": "https://stephen-king-api.onrender.com/api/book/13",
+            "role": null
           }
         ],
         "shorts": [],
@@ -1822,6 +1987,8 @@
       {
         "id": 154,
         "name": "Morgan Sloat",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -1837,7 +2004,8 @@
         "books": [
           {
             "title": "The Talisman",
-            "url": "https://stephen-king-api.onrender.com/api/book/16"
+            "url": "https://stephen-king-api.onrender.com/api/book/16",
+            "role": null
           }
         ],
         "shorts": [],
@@ -1852,6 +2020,8 @@
       {
         "id": 155,
         "name": "Morris Bellamy",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -1869,7 +2039,8 @@
         "books": [
           {
             "title": "Finders Keepers",
-            "url": "https://stephen-king-api.onrender.com/api/book/55"
+            "url": "https://stephen-king-api.onrender.com/api/book/55",
+            "role": null
           }
         ],
         "shorts": [],
@@ -1884,6 +2055,8 @@
       {
         "id": 156,
         "name": "Mr. Gray",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -1898,7 +2071,8 @@
         "books": [
           {
             "title": "Dreamcatcher",
-            "url": "https://stephen-king-api.onrender.com/api/book/37"
+            "url": "https://stephen-king-api.onrender.com/api/book/37",
+            "role": null
           }
         ],
         "shorts": [],
@@ -1913,6 +2087,8 @@
       {
         "id": 157,
         "name": "Mrs. Carmody",
+        "villain": true,
+        "protagonist": false,
         "gender": "Female",
         "status": "Deceased",
         "death": null,
@@ -1929,7 +2105,8 @@
         "shorts": [
           {
             "title": "The Mist",
-            "url": "https://stephen-king-api.onrender.com/api/short/67"
+            "url": "https://stephen-king-api.onrender.com/api/short/67",
+            "role": null
           }
         ],
         "residence": [
@@ -1948,6 +2125,8 @@
       {
         "id": 158,
         "name": "Norman Bracowicz",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Alive",
         "death": null,
@@ -1966,7 +2145,8 @@
         "shorts": [
           {
             "title": "The Body",
-            "url": "https://stephen-king-api.onrender.com/api/short/84"
+            "url": "https://stephen-king-api.onrender.com/api/short/84",
+            "role": null
           }
         ],
         "residence": [
@@ -1985,6 +2165,8 @@
       {
         "id": 159,
         "name": "Priscilla (The Institute)",
+        "villain": true,
+        "protagonist": false,
         "gender": "Female",
         "status": "Alive",
         "death": null,
@@ -2002,7 +2184,8 @@
         "books": [
           {
             "title": "The Institute",
-            "url": "https://stephen-king-api.onrender.com/api/book/61"
+            "url": "https://stephen-king-api.onrender.com/api/book/61",
+            "role": null
           }
         ],
         "shorts": [],
@@ -2017,6 +2200,8 @@
       {
         "id": 160,
         "name": "Richard Chambers",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Alive",
         "death": null,
@@ -2034,7 +2219,8 @@
         "shorts": [
           {
             "title": "The Body",
-            "url": "https://stephen-king-api.onrender.com/api/short/84"
+            "url": "https://stephen-king-api.onrender.com/api/short/84",
+            "role": null
           }
         ],
         "residence": [
@@ -2053,6 +2239,8 @@
       {
         "id": 161,
         "name": "Rodney Harris",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -2070,7 +2258,8 @@
         "books": [
           {
             "title": "Holly",
-            "url": "https://stephen-king-api.onrender.com/api/book/75"
+            "url": "https://stephen-king-api.onrender.com/api/book/75",
+            "role": null
           }
         ],
         "shorts": [],
@@ -2085,6 +2274,8 @@
       {
         "id": 162,
         "name": "Roger the Dog Man",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -2105,7 +2296,8 @@
         "books": [
           {
             "title": "The Shining",
-            "url": "https://stephen-king-api.onrender.com/api/book/3"
+            "url": "https://stephen-king-api.onrender.com/api/book/3",
+            "role": null
           }
         ],
         "shorts": [],
@@ -2120,6 +2312,8 @@
       {
         "id": 163,
         "name": "Roy Depape",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -2134,7 +2328,8 @@
         "books": [
           {
             "title": "The Dark Tower IV: Wizard and Glass",
-            "url": "https://stephen-king-api.onrender.com/api/book/34"
+            "url": "https://stephen-king-api.onrender.com/api/book/34",
+            "role": null
           }
         ],
         "shorts": [],
@@ -2149,6 +2344,8 @@
       {
         "id": 164,
         "name": "Snakebite Andi",
+        "villain": true,
+        "protagonist": false,
         "gender": "Female",
         "status": "Deceased",
         "death": null,
@@ -2167,7 +2364,8 @@
         "books": [
           {
             "title": "Doctor Sleep",
-            "url": "https://stephen-king-api.onrender.com/api/book/52"
+            "url": "https://stephen-king-api.onrender.com/api/book/52",
+            "role": null
           }
         ],
         "shorts": [],
@@ -2187,6 +2385,8 @@
       {
         "id": 165,
         "name": "Tak",
+        "villain": true,
+        "protagonist": false,
         "gender": null,
         "status": "Alive",
         "death": null,
@@ -2204,11 +2404,13 @@
         "books": [
           {
             "title": "Desperation",
-            "url": "https://stephen-king-api.onrender.com/api/book/32"
+            "url": "https://stephen-king-api.onrender.com/api/book/32",
+            "role": null
           },
           {
             "title": "The Regulators",
-            "url": "https://stephen-king-api.onrender.com/api/book/33"
+            "url": "https://stephen-king-api.onrender.com/api/book/33",
+            "role": null
           }
         ],
         "shorts": [],
@@ -2228,6 +2430,8 @@
       {
         "id": 166,
         "name": "The Children",
+        "villain": true,
+        "protagonist": false,
         "gender": null,
         "status": "Alive",
         "death": null,
@@ -2242,7 +2446,8 @@
         "shorts": [
           {
             "title": "Children of the Corn",
-            "url": "https://stephen-king-api.onrender.com/api/short/53"
+            "url": "https://stephen-king-api.onrender.com/api/short/53",
+            "role": null
           }
         ],
         "residence": [],
@@ -2256,6 +2461,8 @@
       {
         "id": 167,
         "name": "The Mangler (character)",
+        "villain": true,
+        "protagonist": false,
         "gender": null,
         "status": "Alive",
         "death": null,
@@ -2270,7 +2477,8 @@
         "shorts": [
           {
             "title": "The Mangler",
-            "url": "https://stephen-king-api.onrender.com/api/short/42"
+            "url": "https://stephen-king-api.onrender.com/api/short/42",
+            "role": null
           }
         ],
         "residence": [],
@@ -2284,6 +2492,8 @@
       {
         "id": 168,
         "name": "The Mist (phenomenon)",
+        "villain": true,
+        "protagonist": false,
         "gender": null,
         "status": "Alive",
         "death": null,
@@ -2299,7 +2509,8 @@
         "shorts": [
           {
             "title": "The Mist",
-            "url": "https://stephen-king-api.onrender.com/api/short/67"
+            "url": "https://stephen-king-api.onrender.com/api/short/67",
+            "role": null
           }
         ],
         "residence": [],
@@ -2313,6 +2524,8 @@
       {
         "id": 169,
         "name": "Todd Bowden",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -2328,7 +2541,8 @@
         "shorts": [
           {
             "title": "Apt Pupil",
-            "url": "https://stephen-king-api.onrender.com/api/short/83"
+            "url": "https://stephen-king-api.onrender.com/api/short/83",
+            "role": null
           }
         ],
         "residence": [],
@@ -2342,6 +2556,8 @@
       {
         "id": 170,
         "name": "Tommy Erbter",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Alive",
         "death": null,
@@ -2359,7 +2575,8 @@
         "books": [
           {
             "title": "Carrie",
-            "url": "https://stephen-king-api.onrender.com/api/book/1"
+            "url": "https://stephen-king-api.onrender.com/api/book/1",
+            "role": null
           }
         ],
         "shorts": [],
@@ -2379,6 +2596,8 @@
       {
         "id": 171,
         "name": "Tony Fizzale",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -2398,7 +2617,8 @@
         "books": [
           {
             "title": "The Institute",
-            "url": "https://stephen-king-api.onrender.com/api/book/61"
+            "url": "https://stephen-king-api.onrender.com/api/book/61",
+            "role": null
           }
         ],
         "shorts": [],
@@ -2413,6 +2633,8 @@
       {
         "id": 172,
         "name": "Trevor Stackhouse",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Alive",
         "death": null,
@@ -2432,7 +2654,8 @@
         "books": [
           {
             "title": "The Institute",
-            "url": "https://stephen-king-api.onrender.com/api/book/61"
+            "url": "https://stephen-king-api.onrender.com/api/book/61",
+            "role": null
           }
         ],
         "shorts": [],
@@ -2447,6 +2670,8 @@
       {
         "id": 173,
         "name": "Vince Desjardins",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Alive",
         "death": null,
@@ -2464,7 +2689,8 @@
         "shorts": [
           {
             "title": "The Body",
-            "url": "https://stephen-king-api.onrender.com/api/short/84"
+            "url": "https://stephen-king-api.onrender.com/api/short/84",
+            "role": null
           }
         ],
         "residence": [
@@ -2483,6 +2709,8 @@
       {
         "id": 174,
         "name": "Walnut",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -2498,7 +2726,8 @@
         "books": [
           {
             "title": "Doctor Sleep",
-            "url": "https://stephen-king-api.onrender.com/api/book/52"
+            "url": "https://stephen-king-api.onrender.com/api/book/52",
+            "role": null
           }
         ],
         "shorts": [],
@@ -2518,6 +2747,8 @@
       {
         "id": 175,
         "name": "Winona Briggs",
+        "villain": true,
+        "protagonist": false,
         "gender": "Female",
         "status": "Deceased",
         "death": null,
@@ -2533,7 +2764,8 @@
         "books": [
           {
             "title": "The Institute",
-            "url": "https://stephen-king-api.onrender.com/api/book/61"
+            "url": "https://stephen-king-api.onrender.com/api/book/61",
+            "role": null
           }
         ],
         "shorts": [],
@@ -2548,6 +2780,8 @@
       {
         "id": 176,
         "name": "Zeke Ionidis",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -2568,7 +2802,8 @@
         "books": [
           {
             "title": "The Institute",
-            "url": "https://stephen-king-api.onrender.com/api/book/61"
+            "url": "https://stephen-king-api.onrender.com/api/book/61",
+            "role": null
           }
         ],
         "shorts": [],
@@ -2583,6 +2818,8 @@
       {
         "id": 177,
         "name": "Andy",
+        "villain": true,
+        "protagonist": false,
         "gender": null,
         "status": "Deceased",
         "death": null,
@@ -2593,7 +2830,8 @@
         "books": [
           {
             "title": "The Dark Tower V: Wolves of the Calla",
-            "url": "https://stephen-king-api.onrender.com/api/book/40"
+            "url": "https://stephen-king-api.onrender.com/api/book/40",
+            "role": null
           }
         ],
         "shorts": [],
@@ -2613,6 +2851,8 @@
       {
         "id": 178,
         "name": "Ben Slightman",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Alive",
         "death": null,
@@ -2627,7 +2867,8 @@
         "books": [
           {
             "title": "The Dark Tower V: Wolves of the Calla",
-            "url": "https://stephen-king-api.onrender.com/api/book/40"
+            "url": "https://stephen-king-api.onrender.com/api/book/40",
+            "role": null
           }
         ],
         "shorts": [],
@@ -2647,6 +2888,8 @@
       {
         "id": 179,
         "name": "Charlie Decker",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Alive",
         "death": null,
@@ -2659,7 +2902,8 @@
         "books": [
           {
             "title": "Rage",
-            "url": "https://stephen-king-api.onrender.com/api/book/4"
+            "url": "https://stephen-king-api.onrender.com/api/book/4",
+            "role": null
           }
         ],
         "shorts": [],
@@ -2674,6 +2918,8 @@
       {
         "id": 180,
         "name": "Don Peters",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -2684,7 +2930,8 @@
         "books": [
           {
             "title": "Sleeping Beauties",
-            "url": "https://stephen-king-api.onrender.com/api/book/58"
+            "url": "https://stephen-king-api.onrender.com/api/book/58",
+            "role": null
           }
         ],
         "shorts": [],
@@ -2699,6 +2946,8 @@
       {
         "id": 181,
         "name": "Eric Blass",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -2709,7 +2958,8 @@
         "books": [
           {
             "title": "Sleeping Beauties",
-            "url": "https://stephen-king-api.onrender.com/api/book/58"
+            "url": "https://stephen-king-api.onrender.com/api/book/58",
+            "role": null
           }
         ],
         "shorts": [],
@@ -2724,6 +2974,8 @@
       {
         "id": 182,
         "name": "Flight Killer",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -2734,7 +2986,8 @@
         "books": [
           {
             "title": "Fairy Tale",
-            "url": "https://stephen-king-api.onrender.com/api/book/74"
+            "url": "https://stephen-king-api.onrender.com/api/book/74",
+            "role": null
           }
         ],
         "shorts": [],
@@ -2749,6 +3002,8 @@
       {
         "id": 183,
         "name": "Frank Geary",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Alive",
         "death": null,
@@ -2759,7 +3014,8 @@
         "books": [
           {
             "title": "Sleeping Beauties",
-            "url": "https://stephen-king-api.onrender.com/api/book/58"
+            "url": "https://stephen-king-api.onrender.com/api/book/58",
+            "role": null
           }
         ],
         "shorts": [],
@@ -2774,6 +3030,8 @@
       {
         "id": 184,
         "name": "Gareth Winston",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -2784,7 +3042,8 @@
         "books": [
           {
             "title": "Gwendy's Final Task",
-            "url": "https://stephen-king-api.onrender.com/api/book/73"
+            "url": "https://stephen-king-api.onrender.com/api/book/73",
+            "role": null
           }
         ],
         "shorts": [],
@@ -2799,6 +3058,8 @@
       {
         "id": 185,
         "name": "God of the Lost",
+        "villain": true,
+        "protagonist": false,
         "gender": null,
         "status": "Alive",
         "death": null,
@@ -2809,7 +3070,8 @@
         "books": [
           {
             "title": "The Girl Who Loved Tom Gordon",
-            "url": "https://stephen-king-api.onrender.com/api/book/36"
+            "url": "https://stephen-king-api.onrender.com/api/book/36",
+            "role": null
           }
         ],
         "shorts": [],
@@ -2824,6 +3086,8 @@
       {
         "id": 186,
         "name": "Gogmagog",
+        "villain": true,
+        "protagonist": false,
         "gender": null,
         "status": "Alive",
         "death": null,
@@ -2834,7 +3098,8 @@
         "books": [
           {
             "title": "Fairy Tale",
-            "url": "https://stephen-king-api.onrender.com/api/book/74"
+            "url": "https://stephen-king-api.onrender.com/api/book/74",
+            "role": null
           }
         ],
         "shorts": [],
@@ -2849,6 +3114,8 @@
       {
         "id": 187,
         "name": "Jim Dooley",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -2863,7 +3130,8 @@
         "books": [
           {
             "title": "Lisey's Story",
-            "url": "https://stephen-king-api.onrender.com/api/book/45"
+            "url": "https://stephen-king-api.onrender.com/api/book/45",
+            "role": null
           }
         ],
         "shorts": [],
@@ -2883,6 +3151,8 @@
       {
         "id": 188,
         "name": "Kenneth Therriault",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -2893,7 +3163,8 @@
         "books": [
           {
             "title": "Later",
-            "url": "https://stephen-king-api.onrender.com/api/book/62"
+            "url": "https://stephen-king-api.onrender.com/api/book/62",
+            "role": null
           }
         ],
         "shorts": [],
@@ -2908,6 +3179,8 @@
       {
         "id": 189,
         "name": "Liz Dutton",
+        "villain": true,
+        "protagonist": false,
         "gender": "Female",
         "status": "Deceased",
         "death": null,
@@ -2918,7 +3191,8 @@
         "books": [
           {
             "title": "Later",
-            "url": "https://stephen-king-api.onrender.com/api/book/62"
+            "url": "https://stephen-king-api.onrender.com/api/book/62",
+            "role": null
           }
         ],
         "shorts": [],
@@ -2933,6 +3207,8 @@
       {
         "id": 190,
         "name": "Long Boy",
+        "villain": true,
+        "protagonist": false,
         "gender": null,
         "status": "Alive",
         "death": null,
@@ -2946,7 +3222,8 @@
         "books": [
           {
             "title": "Lisey's Story",
-            "url": "https://stephen-king-api.onrender.com/api/book/45"
+            "url": "https://stephen-king-api.onrender.com/api/book/45",
+            "role": null
           }
         ],
         "shorts": [],
@@ -2966,6 +3243,8 @@
       {
         "id": 191,
         "name": "Max Devore",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -2976,7 +3255,8 @@
         "books": [
           {
             "title": "Bag of Bones",
-            "url": "https://stephen-king-api.onrender.com/api/book/35"
+            "url": "https://stephen-king-api.onrender.com/api/book/35",
+            "role": null
           }
         ],
         "shorts": [],
@@ -2991,6 +3271,8 @@
       {
         "id": 192,
         "name": "Nick Majarian",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Alive",
         "death": null,
@@ -3001,7 +3283,8 @@
         "books": [
           {
             "title": "Billy Summers",
-            "url": "https://stephen-king-api.onrender.com/api/book/63"
+            "url": "https://stephen-king-api.onrender.com/api/book/63",
+            "role": null
           }
         ],
         "shorts": [],
@@ -3016,6 +3299,8 @@
       {
         "id": 193,
         "name": "Perse",
+        "villain": true,
+        "protagonist": false,
         "gender": "Female",
         "status": "Alive",
         "death": null,
@@ -3026,7 +3311,8 @@
         "books": [
           {
             "title": "Duma Key",
-            "url": "https://stephen-king-api.onrender.com/api/book/47"
+            "url": "https://stephen-king-api.onrender.com/api/book/47",
+            "role": null
           }
         ],
         "shorts": [],
@@ -3041,6 +3327,8 @@
       {
         "id": 194,
         "name": "Roger Klerke",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -3051,7 +3339,8 @@
         "books": [
           {
             "title": "Billy Summers",
-            "url": "https://stephen-king-api.onrender.com/api/book/63"
+            "url": "https://stephen-king-api.onrender.com/api/book/63",
+            "role": null
           }
         ],
         "shorts": [],
@@ -3066,6 +3355,8 @@
       {
         "id": 195,
         "name": "Rogette Whitmore",
+        "villain": true,
+        "protagonist": false,
         "gender": "Female",
         "status": "Deceased",
         "death": null,
@@ -3076,7 +3367,8 @@
         "books": [
           {
             "title": "Bag of Bones",
-            "url": "https://stephen-king-api.onrender.com/api/book/35"
+            "url": "https://stephen-king-api.onrender.com/api/book/35",
+            "role": null
           }
         ],
         "shorts": [],
@@ -3091,6 +3383,8 @@
       {
         "id": 196,
         "name": "Sara Tidwell",
+        "villain": true,
+        "protagonist": false,
         "gender": "Female",
         "status": "Deceased",
         "death": null,
@@ -3105,7 +3399,8 @@
         "books": [
           {
             "title": "Bag of Bones",
-            "url": "https://stephen-king-api.onrender.com/api/book/35"
+            "url": "https://stephen-king-api.onrender.com/api/book/35",
+            "role": null
           }
         ],
         "shorts": [],
@@ -3120,6 +3415,8 @@
       {
         "id": 197,
         "name": "Taduz Lemke",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Alive",
         "death": null,
@@ -3130,7 +3427,8 @@
         "books": [
           {
             "title": "Thinner",
-            "url": "https://stephen-king-api.onrender.com/api/book/18"
+            "url": "https://stephen-king-api.onrender.com/api/book/18",
+            "role": null
           }
         ],
         "shorts": [],
@@ -3145,6 +3443,8 @@
       {
         "id": 198,
         "name": "Terry Coombs",
+        "villain": true,
+        "protagonist": false,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -3155,7 +3455,8 @@
         "books": [
           {
             "title": "Sleeping Beauties",
-            "url": "https://stephen-king-api.onrender.com/api/book/58"
+            "url": "https://stephen-king-api.onrender.com/api/book/58",
+            "role": null
           }
         ],
         "shorts": [],
@@ -3170,6 +3471,8 @@
       {
         "id": 199,
         "name": "The Hitler Brothers",
+        "villain": true,
+        "protagonist": false,
         "gender": null,
         "status": "Alive",
         "death": null,
@@ -3180,7 +3483,8 @@
         "books": [
           {
             "title": "The Dark Tower V: Wolves of the Calla",
-            "url": "https://stephen-king-api.onrender.com/api/book/40"
+            "url": "https://stephen-king-api.onrender.com/api/book/40",
+            "role": null
           }
         ],
         "shorts": [],
@@ -3195,6 +3499,8 @@
       {
         "id": 200,
         "name": "Wolves of Thunderclap",
+        "villain": true,
+        "protagonist": false,
         "gender": null,
         "status": "Deceased",
         "death": null,
@@ -3205,7 +3511,8 @@
         "books": [
           {
             "title": "The Dark Tower V: Wolves of the Calla",
-            "url": "https://stephen-king-api.onrender.com/api/book/40"
+            "url": "https://stephen-king-api.onrender.com/api/book/40",
+            "role": null
           }
         ],
         "shorts": [],

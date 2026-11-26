@@ -40,6 +40,8 @@ export interface GraphNode {
   fields: (Link | Text)[];
   // Linked records that get a line, with the line's family
   drawn: Map<number, string>;
+  // The note on a line, if its link has one: a character's role in a book
+  notes: Map<number, string>;
   weight: number;
   // Its status mark (a villain's alive or deceased), if its kind has one
   status: Status | null;
@@ -108,6 +110,7 @@ export function decode(payload: GraphPayload): Graph {
       links: all.filter((f): f is Link => !isText(f)),
       fields: all,
       drawn: new Map(),
+      notes: new Map(),
       weight: extra?.weight ?? 0,
       status: statusOf(kinds[kind], extra?.status),
       folded: fold(name),
@@ -119,8 +122,9 @@ export function decode(payload: GraphPayload): Graph {
   const lists = nodes.map((n) => new Set(n.links.flatMap((l) => linkedItems(l).map((e) => e.i))));
   for (const n of nodes) {
     for (const link of n.links) {
-      for (const { i } of linkedItems(link)) {
+      for (const { i, note } of linkedItems(link)) {
         if ((lists[i].has(n.index) || !link.rollup) && !n.drawn.has(i)) n.drawn.set(i, link.family);
+        if (note && !n.notes.has(i)) n.notes.set(i, note);
       }
     }
     // Importance: a weight from the data wins, else the number of lines

@@ -12,80 +12,191 @@
       "Pages": 199,
       "Notes": [],
       "created_at": "2023-11-13T23:48:47.848Z",
-      "villains": [
+      "characters": [
         {
           "name": "Tina Blake",
-          "url": "https://stephen-king-api.onrender.com/api/villain/4"
+          "url": "https://stephen-king-api.onrender.com/api/villain/4",
+          "role": null
         },
         {
           "name": "Cindi",
-          "url": "https://stephen-king-api.onrender.com/api/villain/14"
+          "url": "https://stephen-king-api.onrender.com/api/villain/14",
+          "role": null
         },
         {
           "name": "Myra Crewes",
-          "url": "https://stephen-king-api.onrender.com/api/villain/16"
+          "url": "https://stephen-king-api.onrender.com/api/villain/16",
+          "role": null
         },
         {
           "name": "Billy deLois",
-          "url": "https://stephen-king-api.onrender.com/api/villain/25"
+          "url": "https://stephen-king-api.onrender.com/api/villain/25",
+          "role": null
         },
         {
           "name": "Kenny Garson",
-          "url": "https://stephen-king-api.onrender.com/api/villain/38"
+          "url": "https://stephen-king-api.onrender.com/api/villain/38",
+          "role": null
         },
         {
           "name": "Mary Lila Grace",
-          "url": "https://stephen-king-api.onrender.com/api/villain/44"
+          "url": "https://stephen-king-api.onrender.com/api/villain/44",
+          "role": null
         },
         {
           "name": "Christine Hargensen",
-          "url": "https://stephen-king-api.onrender.com/api/villain/49"
+          "url": "https://stephen-king-api.onrender.com/api/villain/49",
+          "role": null
         },
         {
           "name": "Vic Mooney",
-          "url": "https://stephen-king-api.onrender.com/api/villain/75"
+          "url": "https://stephen-king-api.onrender.com/api/villain/75",
+          "role": null
         },
         {
           "name": "The Mortimer Snerds",
-          "url": "https://stephen-king-api.onrender.com/api/villain/77"
+          "url": "https://stephen-king-api.onrender.com/api/villain/77",
+          "role": null
         },
         {
           "name": "Billy Nolan",
-          "url": "https://stephen-king-api.onrender.com/api/villain/80"
+          "url": "https://stephen-king-api.onrender.com/api/villain/80",
+          "role": null
         },
         {
           "name": "Elenor Richmond",
-          "url": "https://stephen-king-api.onrender.com/api/villain/90"
+          "url": "https://stephen-king-api.onrender.com/api/villain/90",
+          "role": null
         },
         {
           "name": "Rachel Spies",
-          "url": "https://stephen-king-api.onrender.com/api/villain/94"
+          "url": "https://stephen-king-api.onrender.com/api/villain/94",
+          "role": null
         },
         {
           "name": "Jackie Talbot",
-          "url": "https://stephen-king-api.onrender.com/api/villain/99"
+          "url": "https://stephen-king-api.onrender.com/api/villain/99",
+          "role": null
         },
         {
           "name": "Donna and Mary Lila Grace Thibodeau",
-          "url": "https://stephen-king-api.onrender.com/api/villain/102"
+          "url": "https://stephen-king-api.onrender.com/api/villain/102",
+          "role": null
         },
         {
           "name": "Jessica Upshaw",
-          "url": "https://stephen-king-api.onrender.com/api/villain/108"
+          "url": "https://stephen-king-api.onrender.com/api/villain/108",
+          "role": null
         },
         {
           "name": "Norma Watson",
-          "url": "https://stephen-king-api.onrender.com/api/villain/109"
+          "url": "https://stephen-king-api.onrender.com/api/villain/109",
+          "role": null
         },
         {
           "name": "Margaret White",
-          "url": "https://stephen-king-api.onrender.com/api/villain/113"
+          "url": "https://stephen-king-api.onrender.com/api/villain/113",
+          "role": null
         },
         {
           "name": "Tommy Erbter",
-          "url": "https://stephen-king-api.onrender.com/api/villain/170"
+          "url": "https://stephen-king-api.onrender.com/api/villain/170",
+          "role": null
         }
       ],
+      "villains": [
+        {
+          "name": "Tina Blake",
+          "url": "https://stephen-king-api.onrender.com/api/villain/4",
+          "role": null
+        },
+        {
+          "name": "Cindi",
+          "url": "https://stephen-king-api.onrender.com/api/villain/14",
+          "role": null
+        },
+        {
+          "name": "Myra Crewes",
+          "url": "https://stephen-king-api.onrender.com/api/villain/16",
+          "role": null
+        },
+        {
+          "name": "Billy deLois",
+          "url": "https://stephen-king-api.onrender.com/api/villain/25",
+          "role": null
+        },
+        {
+          "name": "Kenny Garson",
+          "url": "https://stephen-king-api.onrender.com/api/villain/38",
+          "role": null
+        },
+        {
+          "name": "Mary Lila Grace",
+          "url": "https://stephen-king-api.onrender.com/api/villain/44",
+          "role": null
+        },
+        {
+          "name": "Christine Hargensen",
+          "url": "https://stephen-king-api.onrender.com/api/villain/49",
+          "role": null
+        },
+        {
+          "name": "Vic Mooney",
+          "url": "https://stephen-king-api.onrender.com/api/villain/75",
+          "role": null
+        },
+        {
+          "name": "The Mortimer Snerds",
+          "url": "https://stephen-king-api.onrender.com/api/villain/77",
+          "role": null
+        },
+        {
+          "name": "Billy Nolan",
+          "url": "https://stephen-king-api.onrender.com/api/villain/80",
+          "role": null
+        },
+        {
+          "name": "Elenor Richmond",
+          "url": "https://stephen-king-api.onrender.com/api/villain/90",
+          "role": null
+        },
+        {
+          "name": "Rachel Spies",
+          "url": "https://stephen-king-api.onrender.com/api/villain/94",
+          "role": null
+        },
+        {
+          "name": "Jackie Talbot",
+          "url": "https://stephen-king-api.onrender.com/api/villain/99",
+          "role": null
+        },
+        {
+          "name": "Donna and Mary Lila Grace Thibodeau",
+          "url": "https://stephen-king-api.onrender.com/api/villain/102",
+          "role": null
+        },
+        {
+          "name": "Jessica Upshaw",
+          "url": "https://stephen-king-api.onrender.com/api/villain/108",
+          "role": null
+        },
+        {
+          "name": "Norma Watson",
+          "url": "https://stephen-king-api.onrender.com/api/villain/109",
+          "role": null
+        },
+        {
+          "name": "Margaret White",
+          "url": "https://stephen-king-api.onrender.com/api/villain/113",
+          "role": null
+        },
+        {
+          "name": "Tommy Erbter",
+          "url": "https://stephen-king-api.onrender.com/api/villain/170",
+          "role": null
+        }
+      ],
+      "protagonists": [],
       "places": [
         {
           "name": "Maine",

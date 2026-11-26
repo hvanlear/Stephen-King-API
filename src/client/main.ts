@@ -85,8 +85,10 @@ function start(root: HTMLElement, stage: HTMLElement, g: Graph, config: Config) 
     const count = document.createElement("span");
     count.className = "g-kind-count";
     count.textContent = String(g.counts[kind]);
-    // The counts row's name for them ("short stories"), not the route's ("shorts")
-    b.append(glyph(kind, 10), g.kinds[kind]?.noun ?? kind, count);
+    // The counts row's name for them ("short stories"), not the route's
+    // ("shorts"), unless the kind names what it draws ("other characters")
+    const info = g.kinds[kind];
+    b.append(glyph(kind, 10), info?.filter ?? info?.noun ?? kind, count);
     b.addEventListener("click", () => {
       hidden[kind] = !hidden[kind];
       b.setAttribute("aria-pressed", String(!hidden[kind]));

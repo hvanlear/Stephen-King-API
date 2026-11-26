@@ -12,16 +12,31 @@
       "Pages": 528,
       "Notes": [],
       "created_at": "2023-11-13T23:48:55.753Z",
-      "villains": [
+      "characters": [
         {
           "name": "Nick Majarian",
-          "url": "https://stephen-king-api.onrender.com/api/villain/192"
+          "url": "https://stephen-king-api.onrender.com/api/villain/192",
+          "role": null
         },
         {
           "name": "Roger Klerke",
-          "url": "https://stephen-king-api.onrender.com/api/villain/194"
+          "url": "https://stephen-king-api.onrender.com/api/villain/194",
+          "role": null
         }
       ],
+      "villains": [
+        {
+          "name": "Nick Majarian",
+          "url": "https://stephen-king-api.onrender.com/api/villain/192",
+          "role": null
+        },
+        {
+          "name": "Roger Klerke",
+          "url": "https://stephen-king-api.onrender.com/api/villain/194",
+          "role": null
+        }
+      ],
+      "protagonists": [],
       "places": [
         {
           "name": "Sidewinder, Colorado",

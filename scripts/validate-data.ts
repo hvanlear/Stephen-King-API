@@ -1,6 +1,7 @@
 // Checks catalog/*.json before it ships. Run with: npm run validate-data
 // With --base <git ref>, it also fails if an id was removed or renumbered
-// compared with that ref. CI passes the PR's target branch.
+// compared with that ref, or a villain stopped being one. CI passes the PR's
+// target branch.
 import fs from "fs";
 import path from "path";
 import { execFileSync } from "child_process";
@@ -16,6 +17,7 @@ type FieldRule =
   | "boolean"
   | "timestamp"
   | "nullable object" // checked in detail elsewhere
+  | "roles" // handles, each with a role or null (see checkRoles)
   | { oneOf: readonly string[] };
 
 interface FileSpec {
@@ -27,7 +29,7 @@ interface FileSpec {
   // In the order the API returns them, since records are served as they are
   fields: Record<string, FieldRule>;
   unique: string[];
-  // Villains and places link to these records through appears_in
+  // Characters and places link to these records through appears_in
   linkable?: boolean;
   // Handed out and then taken back, so never used again. Only a retired id
   // may disappear since the base.
@@ -41,8 +43,11 @@ export const PLACE_TYPES = ["world", "region", "country", "state", "town", "land
 // convention books, websites and ebook stores.
 export const PUBLICATION_TYPES = ["magazine", "anthology", "newspaper", "other"] as const;
 
-// A villain's status. A death is only recorded for one who's deceased.
+// A character's status. A death is only recorded for one who's deceased.
 export const STATUSES = ["Alive", "Deceased"] as const;
+
+// A character's part in each book or short it's in (src/catalog.ts)
+export const ROLES = ["protagonist", "antagonist", "supporting", "minor"] as const;
 
 export const SPECS: Record<string, FileSpec> = {
   "books.json": {
@@ -89,22 +94,26 @@ export const SPECS: Record<string, FileSpec> = {
     },
     unique: ["id", "handle", "title"],
   },
-  "villains.json": {
-    label: "villain",
+  // Villains used to be villains.json, which a base branch may still have
+  "characters.json": {
+    label: "character",
     nameField: "name",
     identity: "name",
     fields: {
       id: "id",
       name: "text",
+      // Also served at /api/villain/:id, so a villain stays one (see compareVillains)
+      villain: "boolean",
       gender: "nullable text",
       status: { oneOf: STATUSES },
-      // How the villain died: null until it's recorded (see checkDeaths)
+      // How the character died: null until it's recorded (see checkDeaths)
       death: "nullable object",
       // A broad type from types.json, one with no parent
       types_id: "id",
-      // Whether the record is a gang, race or other set of villains
+      // Whether the record is a gang, race or other set of characters
       group: "boolean",
-      appears_in: "list",
+      // Book and short handles, each with the character's role there
+      appears_in: "roles",
       // Place handles, served as links
       residence: "list",
       // Type handles for the in-universe kinds under types_id, served as links
@@ -182,7 +191,7 @@ export type Catalog = Record<string, unknown>;
 type CatalogRecord = Record<string, unknown>;
 
 // Novellas that were also published as standalone books, so each is in both
-// files. A villain listing one of these handles links to both records. Any
+// files. A character listing one of these handles links to both records. Any
 // other handle shared between books and shorts is a mistake.
 const SHARED_HANDLES = new Set(["cycle-of-the-werewolf", "gwendy-s-button-box", "elevation"]);
 
@@ -236,6 +245,15 @@ function checkField(rule: FieldRule, value: unknown): string | null {
       return value === null || (typeof value === "object" && !Array.isArray(value))
         ? null
         : "must be null or an object";
+    case "roles": {
+      if (value === null || typeof value !== "object" || Array.isArray(value)) {
+        return `must be an object of book or short handles, each with a role (${ROLES.join(", ")}) or null`;
+      }
+      const bad = Object.entries(value).find(([, role]) => role !== null && !ROLES.includes(role));
+      return bad === undefined
+        ? null
+        : `${JSON.stringify(bad[0])} has the role ${JSON.stringify(bad[1])}, but a role is one of ${ROLES.join(", ")}, or null until it's recorded`;
+    }
     case "timestamp":
       return typeof value === "string" &&
         TIMESTAMP.test(value) &&
@@ -322,7 +340,7 @@ export function validate(catalog: Catalog, base?: Catalog): string[] {
         if (owner === undefined) {
           linkable.set(record.handle, `${spec.label} ${record.id}`);
         } else if (!owner.startsWith(`${spec.label} `) && !SHARED_HANDLES.has(record.handle)) {
-          fail(record, index, `handle ${JSON.stringify(record.handle)} is also used by ${owner}, so villains and places would link to both`);
+          fail(record, index, `handle ${JSON.stringify(record.handle)} is also used by ${owner}, so characters and places would link to both`);
         }
       }
     });
@@ -331,14 +349,15 @@ export function validate(catalog: Catalog, base?: Catalog): string[] {
   // Links are built from these lists of handles, so every handle has to resolve
   const places = catalog["places.json"];
   const placeHandles = new Set(Array.isArray(places) ? places.map((place: CatalogRecord) => place?.handle) : []);
-  errors.push(...checkHandles(catalog, "villains.json", "appears_in", linkable, "book or short"));
-  errors.push(...checkHandles(catalog, "villains.json", "residence", placeHandles, "place"));
+  errors.push(...checkHandles(catalog, "characters.json", "appears_in", linkable, "book or short"));
+  errors.push(...checkHandles(catalog, "characters.json", "residence", placeHandles, "place"));
   errors.push(...checkHandles(catalog, "places.json", "appears_in", linkable, "book or short"));
   const types = catalog["types.json"];
   const typeHandles = new Set(Array.isArray(types) ? types.map((type: CatalogRecord) => type?.handle) : []);
-  errors.push(...checkHandles(catalog, "villains.json", "kinds", typeHandles, "type"));
-  errors.push(...checkVillainTypes(catalog["villains.json"], types));
-  errors.push(...checkDeaths(catalog["villains.json"], catalog["books.json"], catalog["shorts.json"]));
+  errors.push(...checkHandles(catalog, "characters.json", "kinds", typeHandles, "type"));
+  errors.push(...checkCharacterTypes(catalog["characters.json"], types));
+  errors.push(...checkRoles(catalog["characters.json"]));
+  errors.push(...checkDeaths(catalog["characters.json"], catalog["books.json"], catalog["shorts.json"]));
   errors.push(...checkCollections(catalog["shorts.json"], catalog["collections.json"], catalog["books.json"]));
   errors.push(...checkPublications(catalog["shorts.json"], catalog["publications.json"], catalog["collections.json"]));
 
@@ -347,6 +366,7 @@ export function validate(catalog: Catalog, base?: Catalog): string[] {
 
   if (base) {
     errors.push(...compareIds(catalog, base));
+    errors.push(...compareVillains(catalog, base));
     errors.push(...compareDeaths(catalog, base));
   }
 
@@ -367,8 +387,10 @@ function checkHandles(
   const { label, nameField } = SPECS[file];
   const errors: string[] = [];
   records.forEach((record: CatalogRecord, index) => {
-    const handles = record?.[field];
-    if (!Array.isArray(handles)) {
+    const value = record?.[field];
+    // A character's appears_in names its works as keys, with a role each
+    const handles = Array.isArray(value) ? value : value !== null && typeof value === "object" ? Object.keys(value) : null;
+    if (handles === null) {
       return;
     }
     const where = `catalog/${file}: ${label} ${record.id ?? `at position ${index}`} (${JSON.stringify(record[nameField])})`;
@@ -385,37 +407,71 @@ function checkHandles(
   return errors;
 }
 
-// A villain's types_id has to be a broad type, and each of its kinds has to
-// sit under that type, so a type lists the same villains the villains list
-function checkVillainTypes(villains: unknown, types: unknown): string[] {
-  if (!Array.isArray(villains) || !Array.isArray(types)) {
+// How the checks below name a character
+const characterLabel = (character: CatalogRecord, index: number) =>
+  `catalog/characters.json: character ${character?.id ?? `at position ${index}`} (${JSON.stringify(character?.name)})`;
+
+const isRoles = (value: unknown): value is Record<string, unknown> =>
+  value !== null && typeof value === "object" && !Array.isArray(value);
+
+// Roles are recorded for all of a character's books and shorts at once, so
+// a book's protagonists are never half listed. Only a villain can be an
+// antagonist: anyone who is one belongs at /api/villains.
+function checkRoles(characters: unknown): string[] {
+  if (!Array.isArray(characters)) {
+    return [];
+  }
+  const errors: string[] = [];
+  characters.forEach((character: CatalogRecord, index) => {
+    if (!isRoles(character?.appears_in)) {
+      return;
+    }
+    const fail = (message: string) => errors.push(`${characterLabel(character, index)}: ${message}`);
+    const entries = Object.entries(character.appears_in);
+    const unset = entries.filter(([, role]) => role === null).map(([handle]) => handle);
+    if (unset.length && unset.length < entries.length) {
+      fail(`appears_in has roles for some works but not ${unset.map((h) => JSON.stringify(h)).join(", ")}; record them all or none`);
+    }
+    for (const [handle, role] of entries) {
+      if (role === "antagonist" && character.villain !== true) {
+        fail(`appears_in ${JSON.stringify(handle)} is "antagonist", but the character isn't a villain`);
+      }
+    }
+  });
+  return errors;
+}
+
+// A character's types_id has to be a broad type, and each of its kinds has
+// to sit under that type, so a type lists the same characters the characters list
+function checkCharacterTypes(characters: unknown, types: unknown): string[] {
+  if (!Array.isArray(characters) || !Array.isArray(types)) {
     return [];
   }
   const errors: string[] = [];
   const byId = new Map<unknown, CatalogRecord>(types.map((type: CatalogRecord) => [type?.id, type]));
   const byHandle = new Map<unknown, CatalogRecord>(types.map((type: CatalogRecord) => [type?.handle, type]));
-  villains.forEach((villain: CatalogRecord, index) => {
-    if (!Number.isSafeInteger(villain?.types_id)) {
+  characters.forEach((character: CatalogRecord, index) => {
+    if (!Number.isSafeInteger(character?.types_id)) {
       return;
     }
-    const where = `catalog/villains.json: villain ${villain.id ?? `at position ${index}`} (${JSON.stringify(villain.name)})`;
-    const type = byId.get(villain.types_id);
+    const where = characterLabel(character, index);
+    const type = byId.get(character.types_id);
     if (!type) {
-      errors.push(`${where}: types_id ${villain.types_id} doesn't match any type`);
+      errors.push(`${where}: types_id ${character.types_id} doesn't match any type`);
       return;
     }
     if (type.parentId !== null) {
-      errors.push(`${where}: types_id ${villain.types_id} is a kind, so it goes in kinds, and types_id is the type above it`);
+      errors.push(`${where}: types_id ${character.types_id} is a kind, so it goes in kinds, and types_id is the type above it`);
       return;
     }
-    for (const handle of Array.isArray(villain.kinds) ? villain.kinds : []) {
+    for (const handle of Array.isArray(character.kinds) ? character.kinds : []) {
       const kind = byHandle.get(handle);
       const ancestors = new Set<unknown>();
       for (let parent = byId.get(kind?.parentId); parent && !ancestors.has(parent.id); parent = byId.get(parent.parentId)) {
         ancestors.add(parent.id);
       }
-      if (kind && !ancestors.has(villain.types_id)) {
-        errors.push(`${where}: kinds ${JSON.stringify(handle)} isn't a kind of ${JSON.stringify(type.name)}, the villain's type`);
+      if (kind && !ancestors.has(character.types_id)) {
+        errors.push(`${where}: kinds ${JSON.stringify(handle)} isn't a kind of ${JSON.stringify(type.name)}, the character's type`);
       }
     }
   });
@@ -428,36 +484,39 @@ const CAUSE_LENGTH = 60;
 const DEATH_FIELDS = ["cause", "in", "killed_by"];
 
 // A recorded death needs a cause, the book or short it happens in, which has
-// to be one the villain appears in, and who killed them (an empty list when
-// nobody did). Each killer is another villain's id or, for someone with no
+// to be one the character appears in, and who killed them (an empty list
+// when nobody did). Each killer is { "villain": id } for a villain,
+// { "character": id } for any other character, or, for someone with no
 // record yet, a name; a group of killers can list its members the same way.
-// A name can't be a villain's name, since that killer has a record to link.
-function checkDeaths(villains: unknown, books: unknown, shorts: unknown): string[] {
-  if (!Array.isArray(villains)) {
+// A name can't be a character's name, since that killer has a record to link.
+function checkDeaths(characters: unknown, books: unknown, shorts: unknown): string[] {
+  if (!Array.isArray(characters)) {
     return [];
   }
   const errors: string[] = [];
   const handlesOf = (records: unknown) =>
     new Set<unknown>(Array.isArray(records) ? records.map((record: CatalogRecord) => record?.handle) : []);
   const handles = { book: handlesOf(books), short: handlesOf(shorts) };
-  const ids = new Set<unknown>(villains.map((villain: CatalogRecord) => villain?.id));
-  const idsByName = new Map<string, unknown>(
-    villains
-      .filter((villain: CatalogRecord) => typeof villain?.name === "string")
-      .map((villain: CatalogRecord) => [(villain.name as string).toLowerCase(), villain.id])
+  const byId = new Map<unknown, CatalogRecord>(characters.map((character: CatalogRecord) => [character?.id, character]));
+  const byName = new Map<string, CatalogRecord>(
+    characters
+      .filter((character: CatalogRecord) => typeof character?.name === "string")
+      .map((character: CatalogRecord) => [(character.name as string).toLowerCase(), character])
   );
+  // The form a killer with a record takes
+  const formFor = (character: CatalogRecord) =>
+    `{ "${character.villain === true ? "villain" : "character"}": ${character.id} }`;
 
-  villains.forEach((villain: CatalogRecord, index) => {
-    const death = villain?.death;
+  characters.forEach((character: CatalogRecord, index) => {
+    const death = character?.death;
     // The field rule reports a death that isn't null or an object
     if (death === null || typeof death !== "object" || Array.isArray(death)) {
       return;
     }
-    const where = `catalog/villains.json: villain ${villain.id ?? `at position ${index}`} (${JSON.stringify(villain.name)})`;
-    const fail = (message: string) => errors.push(`${where}: ${message}`);
+    const fail = (message: string) => errors.push(`${characterLabel(character, index)}: ${message}`);
     const record = death as CatalogRecord;
 
-    if (villain.status === "Alive") {
+    if (character.status === "Alive") {
       fail("is Alive, so death must be null");
     }
     if (Object.keys(record).join() !== DEATH_FIELDS.join()) {
@@ -476,8 +535,8 @@ function checkDeaths(villains: unknown, books: unknown, shorts: unknown): string
       const handle = (work as CatalogRecord)[kind];
       if (!handles[kind].has(handle)) {
         fail(`death.in ${JSON.stringify(handle)} doesn't match any ${kind} handle`);
-      } else if (!Array.isArray(villain.appears_in) || !villain.appears_in.includes(handle)) {
-        fail(`death.in ${JSON.stringify(handle)} isn't in appears_in, so the villain isn't in that ${kind}`);
+      } else if (!isRoles(character.appears_in) || !Object.hasOwn(character.appears_in, handle as string)) {
+        fail(`death.in ${JSON.stringify(handle)} isn't in appears_in, so the character isn't in that ${kind}`);
       }
     }
 
@@ -492,27 +551,34 @@ function checkDeaths(villains: unknown, books: unknown, shorts: unknown): string
         return;
       }
       const killer = entry as CatalogRecord;
-      const allowed = member ? ["villain", "name"] : ["villain", "name", "members"];
+      const forms = ["villain", "character", "name"];
+      const allowed = member ? forms : [...forms, "members"];
       const unknown = Object.keys(killer).filter((field) => !allowed.includes(field));
       if (unknown.length) {
-        fail(`${label} has ${unknown.join(", ")}, but ${member ? "a member has only villain or name" : "a killer has only villain or name, and members for a group"}`);
+        fail(`${label} has ${unknown.join(", ")}, but ${member ? "a member has only villain, character or name" : "a killer has only villain, character or name, and members for a group"}`);
       }
+      const given = forms.filter((form) => form in killer);
       let key: string | undefined;
-      if (("villain" in killer) === ("name" in killer)) {
-        fail(`${label} needs exactly one of villain (an id) or name`);
-      } else if ("villain" in killer) {
-        if (!ids.has(killer.villain)) {
-          fail(`${label} villain ${JSON.stringify(killer.villain)} doesn't match any villain`);
-        } else if (killer.villain === villain.id) {
-          fail(`${label} is the villain itself; a suicide has an empty killed_by`);
+      if (given.length !== 1) {
+        fail(`${label} needs exactly one of villain (an id), character (an id) or name`);
+      } else if (given[0] !== "name") {
+        const form = given[0];
+        const id = killer[form];
+        const target = byId.get(id);
+        if (!target) {
+          fail(`${label} ${form} ${JSON.stringify(id)} doesn't match any character`);
+        } else if (id === character.id) {
+          fail(`${label} is the character itself; a suicide has an empty killed_by`);
+        } else if ((target.villain === true) !== (form === "villain")) {
+          fail(`${label} ${form} ${id} is ${target.villain === true ? "a villain" : "not a villain"}, so it should be ${formFor(target)}`);
         }
-        key = `villain ${JSON.stringify(killer.villain)}`;
+        key = `${form} ${JSON.stringify(id)}`;
       } else if (!isText(killer.name)) {
         fail(`${label} name must be non-empty text without surrounding spaces`);
       } else {
-        const id = idsByName.get((killer.name as string).toLowerCase());
-        if (id !== undefined) {
-          fail(`${label} ${JSON.stringify(killer.name)} is villain ${id}, so it should be { "villain": ${id} }`);
+        const target = byName.get((killer.name as string).toLowerCase());
+        if (target) {
+          fail(`${label} ${JSON.stringify(killer.name)} is ${target.villain === true ? "villain" : "character"} ${target.id}, so it should be ${formFor(target)}`);
         }
         key = `name ${JSON.stringify((killer.name as string).toLowerCase())}`;
       }
@@ -709,15 +775,37 @@ function compareIds(catalog: Catalog, base: Catalog): string[] {
   return errors;
 }
 
-// A recorded death can be corrected but not wiped back to null, unless the
-// villain's status changed too, so a data batch can't undo an earlier one
-function compareDeaths(catalog: Catalog, base: Catalog): string[] {
-  const now = catalog["villains.json"];
-  const before = base["villains.json"];
+// A villain is also served at /api/villain/:id, so one can't stop being a
+// villain: its villain route would disappear. On a base branch from before
+// characters, every record was a villain.
+function compareVillains(catalog: Catalog, base: Catalog): string[] {
+  const now = catalog["characters.json"];
+  const before = base["characters.json"];
   if (!Array.isArray(now) || !Array.isArray(before)) {
     return [];
   }
-  const nowById = new Map<unknown, CatalogRecord>(now.map((villain: CatalogRecord) => [villain?.id, villain]));
+  const nowById = new Map<unknown, CatalogRecord>(now.map((character: CatalogRecord) => [character?.id, character]));
+  const errors: string[] = [];
+  for (const old of before as CatalogRecord[]) {
+    const current = nowById.get(old?.id);
+    if (old?.villain !== false && current && current.villain !== true) {
+      errors.push(
+        `catalog/characters.json: character ${old.id} (${JSON.stringify(old.name)}): was a villain on the base branch, so it has to stay one, or /api/villain/${old.id} would disappear`
+      );
+    }
+  }
+  return errors;
+}
+
+// A recorded death can be corrected but not wiped back to null, unless the
+// character's status changed too, so a data batch can't undo an earlier one
+function compareDeaths(catalog: Catalog, base: Catalog): string[] {
+  const now = catalog["characters.json"];
+  const before = base["characters.json"];
+  if (!Array.isArray(now) || !Array.isArray(before)) {
+    return [];
+  }
+  const nowById = new Map<unknown, CatalogRecord>(now.map((character: CatalogRecord) => [character?.id, character]));
   const errors: string[] = [];
   for (const old of before as CatalogRecord[]) {
     // undefined on a base branch from before deaths were recorded
@@ -727,12 +815,15 @@ function compareDeaths(catalog: Catalog, base: Catalog): string[] {
     const current = nowById.get(old.id);
     if (current?.death === null && current.status === old.status) {
       errors.push(
-        `catalog/villains.json: villain ${old.id} (${JSON.stringify(old.name)}): death was recorded on the base branch but is now null, and status is still ${old.status}`
+        `catalog/characters.json: character ${old.id} (${JSON.stringify(old.name)}): death was recorded on the base branch but is now null, and status is still ${old.status}`
       );
     }
   }
   return errors;
 }
+
+// The names files had before, which a base branch may still use
+const FORMER_FILES: Record<string, string> = { "characters.json": "villains.json" };
 
 function readCatalog(read: (file: string) => string): { catalog: Catalog; errors: string[] } {
   const catalog: Catalog = {};
@@ -741,7 +832,15 @@ function readCatalog(read: (file: string) => string): { catalog: Catalog; errors
     try {
       catalog[file] = JSON.parse(read(file));
     } catch (error) {
-      errors.push(`catalog/${file}: couldn't be read: ${(error as Error).message}`);
+      // A base branch from before a rename has the file under its old name
+      try {
+        if (!(file in FORMER_FILES)) {
+          throw error;
+        }
+        catalog[file] = JSON.parse(read(FORMER_FILES[file]));
+      } catch {
+        errors.push(`catalog/${file}: couldn't be read: ${(error as Error).message}`);
+      }
     }
   }
   return { catalog, errors };

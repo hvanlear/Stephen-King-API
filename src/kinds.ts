@@ -1,8 +1,8 @@
-import { books, shorts, villains, places, types, collections, publications } from "./catalog";
+import { books, shorts, characters, villains, places, types, collections, publications } from "./catalog";
 import {
   bookResponse,
   shortResponse,
-  villainResponse,
+  characterResponse,
   placeResponse,
   typeResponse,
   collectionResponse,
@@ -56,10 +56,20 @@ export const kinds: Kind[] = [
     notFound: "Short not found",
   }),
   kind({
+    one: "character",
+    list: "characters",
+    records: characters,
+    response: characterResponse,
+    invalidId: "Character id must be a whole number",
+    notFound: "Character not found",
+  }),
+  // The characters flagged as villains, served as they were before
+  // characters existed. Anyone else's id is not found here.
+  kind({
     one: "villain",
     list: "villains",
     records: villains,
-    response: villainResponse,
+    response: characterResponse,
     invalidId: "Villain id must be a whole number",
     notFound: "Villain not found",
   }),

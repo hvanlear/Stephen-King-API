@@ -5,6 +5,8 @@
     "data": {
       "id": 2,
       "name": "Kurt Barlow",
+      "villain": true,
+      "protagonist": false,
       "gender": "Male",
       "status": "Deceased",
       "death": {
@@ -16,11 +18,11 @@
         "killed_by": [
           {
             "name": "Ben Mears",
-            "url": null
+            "url": "https://stephen-king-api.onrender.com/api/character/202"
           },
           {
             "name": "Mark Petrie",
-            "url": null
+            "url": "https://stephen-king-api.onrender.com/api/character/203"
           }
         ]
       },
@@ -37,7 +39,8 @@
       "books": [
         {
           "title": "Salem's Lot",
-          "url": "https://stephen-king-api.onrender.com/api/book/2"
+          "url": "https://stephen-king-api.onrender.com/api/book/2",
+          "role": "antagonist"
         }
       ],
       "shorts": [],
@@ -61,6 +64,10 @@
         {
           "name": "Richard Straker",
           "url": "https://stephen-king-api.onrender.com/api/villain/98"
+        },
+        {
+          "name": "Jimmy Cody",
+          "url": "https://stephen-king-api.onrender.com/api/character/214"
         }
       ]
     }

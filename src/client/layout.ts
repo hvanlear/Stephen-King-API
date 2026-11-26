@@ -61,9 +61,16 @@ export interface Edge {
   a: number;
   b: number;
   family: string;
+  // The link's note, such as a character's role in a book ("" for none)
+  note: string;
   d: string;
   focus: boolean;
 }
+
+// Who a ring shows first when it can't show everyone: a story's leads, then
+// its supporting cast, then anyone whose role isn't recorded, then cameos
+const ROLE_RANK: Record<string, number> = { protagonist: 3, antagonist: 3, supporting: 2, minor: 0 };
+export const roleRank = (note: string) => ROLE_RANK[note] ?? 1;
 
 export interface FieldSummary {
   field: string;
@@ -160,6 +167,10 @@ export function layout(
   // The widest a ring label may be: generous first, tighter if a hub needs the room
   const labelWidths = compact ? [150, 120] : [250, 180];
   let labelMax = labelWidths[0];
+  // A chip names its field ("+5 killed"), unless the ring can't hold one
+  // slot per field that way; then it gives only the count, and its
+  // aria-label and the panel it opens name the field
+  let shortChips = false;
   const ell = measure("…", font, 500);
 
   // Fits text into `room` px, keeping at least 6 characters. The cut is
@@ -219,7 +230,7 @@ export function layout(
     if (!items.length) continue;
     items.sort(
       (a, b) =>
-        Number(b.note === "primary") - Number(a.note === "primary") ||
+        roleRank(b.note) - roleRank(a.note) ||
         N[b.i].weight - N[a.i].weight ||
         N[a.i].id - N[b.i].id ||
         N[a.i].name.localeCompare(N[b.i].name)
@@ -294,7 +305,7 @@ export function layout(
       });
       if (gr.more) {
         const hiddenFirst = gr.items[gr.show];
-        const text = `+${gr.more} ${gr.field}`;
+        const text = shortChips ? `+${gr.more}` : `+${gr.more} ${gr.field}`;
         out.push({
           type: "chip",
           i: hiddenFirst.i,
@@ -431,21 +442,29 @@ export function layout(
 
   // The most records that fit, found by halving between one slot per field and the cap
   const lo0 = Math.min(groups.length, total);
-  let hi = Math.min(total, compact ? 12 : 28);
-  let best = tryCap(hi);
-  if (!best && hi > lo0) {
-    let lo = lo0;
-    let fallback = tryCap(lo);
-    while (hi - lo > 1) {
-      const mid = (lo + hi) >> 1;
-      const r = tryCap(mid);
-      if (r) {
-        lo = mid;
-        fallback = r;
-      } else hi = mid;
+  const search = () => {
+    let hi = Math.min(total, compact ? 12 : 28);
+    let found = tryCap(hi);
+    if (!found && hi > lo0) {
+      let lo = lo0;
+      let fallback = tryCap(lo);
+      while (hi - lo > 1) {
+        const mid = (lo + hi) >> 1;
+        const r = tryCap(mid);
+        if (r) {
+          lo = mid;
+          fallback = r;
+        } else hi = mid;
+      }
+      // Re-run the winner so the groups' shares match it
+      found = fallback ? tryCap(lo) : null;
     }
-    // Re-run the winner so the groups' shares match it
-    best = fallback ? tryCap(lo) : null;
+    return found;
+  };
+  let best = search();
+  if (!best) {
+    shortChips = true;
+    best = search();
   }
   if (!best) {
     // A box too small for even one slot per field: place them anyway
@@ -510,7 +529,7 @@ export function layout(
     const my = (cy + s.y) / 2;
     const dx = s.x - cx;
     const dy = s.y - cy;
-    edges.push({ a: fi, b: s.i, family: s.family, focus: true, d: curve(cx, cy, s.x, s.y, mx - dy * 0.08, my + dx * 0.08) });
+    edges.push({ a: fi, b: s.i, family: s.family, note: s.note, focus: true, d: curve(cx, cy, s.x, s.y, mx - dy * 0.08, my + dx * 0.08) });
   }
   const ring = [...shown.values()];
   for (let p = 0; p < ring.length; p++) {
@@ -525,6 +544,7 @@ export function layout(
         a: A.i,
         b: B.i,
         family,
+        note: N[A.i].notes.get(B.i) ?? N[B.i].notes.get(A.i) ?? "",
         focus: false,
         d: curve(A.x, A.y, B.x, B.y, mx + (cx - mx) * 0.3, my + (cy - my) * 0.3),
       });

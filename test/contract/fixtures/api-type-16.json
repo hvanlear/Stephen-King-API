@@ -12,6 +12,16 @@
         "url": "https://stephen-king-api.onrender.com/api/type/6"
       },
       "types": [],
+      "characters": [
+        {
+          "name": "Blaine the Mono",
+          "url": "https://stephen-king-api.onrender.com/api/villain/3"
+        },
+        {
+          "name": "Andy",
+          "url": "https://stephen-king-api.onrender.com/api/villain/177"
+        }
+      ],
       "villains": [
         {
           "name": "Blaine the Mono",

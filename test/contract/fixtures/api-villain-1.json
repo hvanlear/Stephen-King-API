@@ -5,6 +5,8 @@
     "data": {
       "id": 1,
       "name": "Bob Anderson",
+      "villain": true,
+      "protagonist": false,
       "gender": "Male",
       "status": "Deceased",
       "death": null,
@@ -24,7 +26,8 @@
       "shorts": [
         {
           "title": "A Good Marriage",
-          "url": "https://stephen-king-api.onrender.com/api/short/180"
+          "url": "https://stephen-king-api.onrender.com/api/short/180",
+          "role": null
         }
       ],
       "residence": [

@@ -10,10 +10,18 @@ export interface KindInfo {
   plural: string;
   // What the counts row calls them
   noun: string;
+  // What the graph's kind filter calls them, when that isn't the noun. The
+  // filter counts what's drawn as this kind, so characters, whose villains
+  // are drawn as villains, are "other characters" there.
+  filter?: string;
   // The record the endpoint grid links to
   example: number;
   // A field shown as a mark beside the record's name, such as a villain's status
   status?: StatusInfo;
+  // Records with this boolean field true are drawn as the other kind instead,
+  // the route the API's links to them use, so each record is drawn once. A
+  // villain is a character too, and is drawn as a villain.
+  drawnAs?: { field: string; kind: string };
 }
 
 export interface StatusInfo {
@@ -44,8 +52,8 @@ export interface Schema {
 }
 
 // A link is the linked record's position in `nodes`. A link that carries more
-// than a name and URL in the response (a future role or relationship) keeps
-// those values: { i: 263, role: "primary" }. A group of killers lists its
+// than a name and URL in the response, such as a character's role in a book,
+// keeps those values: { i: 263, role: "minor" }. A group of killers lists its
 // members: { i: 30, members: [...] }.
 export type LinkRef = number | { i: number; members?: Ref[]; [attr: string]: Scalar | Ref[] | undefined };
 

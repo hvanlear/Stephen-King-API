@@ -5,6 +5,8 @@
     "data": {
       "id": 115,
       "name": "Tim Youngblood",
+      "villain": true,
+      "protagonist": false,
       "gender": "Male",
       "status": "Alive",
       "death": null,
@@ -20,7 +22,8 @@
       "shorts": [
         {
           "title": "Rita Hayworth and Shawshank Redemption",
-          "url": "https://stephen-king-api.onrender.com/api/short/86"
+          "url": "https://stephen-king-api.onrender.com/api/short/86",
+          "role": null
         }
       ],
       "residence": [],

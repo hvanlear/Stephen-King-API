@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title><%= title %></title>
+    <meta name="description" content="<%= description %>" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,900,100&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600;700&display=swap"
+    />
+    <% if (assets) { %>
+    <link rel="stylesheet" href="<%= assets.css %>" />
+    <script type="module" src="<%= assets.js %>"></script>
+    <% } %>
+  </head>
+  <body class="graph-home">
+    <div class="wrap">
+      <header class="top">
+        <span class="top-host">stephen-king-api.onrender.com</span>
+        <nav aria-label="Site">
+          <a href="/docs">Docs</a>
+          <a href="https://github.com/hvanlear/Stephen-King-API">GitHub</a>
+          <a href="https://www.buymeacoffee.com/hvanleare">Buy me a coffee</a>
+        </nav>
+      </header>
+
+      <h1 class="wordmark">
+        <span class="wordmark-sk">Stephen King</span>
+        <span class="intro">
+          <span class="wordmark-api">The API</span>
+          <span class="lede">Everything is connected. Books link to their villains, villains link back to every story they haunt, places nest inside places. Pick a record: that’s the response you get.</span>
+        </span>
+      </h1>
+
+      <ul class="counts" aria-label="What's in the catalog">
+        <% kinds.forEach((k) => { %>
+        <li><b style="--c: <%= k.color %>"><%= k.count %></b><span><%= k.noun %></span></li>
+        <% }) %>
+      </ul>
+
+      <section class="g-explorer" data-graph aria-label="Explore the catalog">
+        <div class="g-bar">
+          <div class="g-search">
+            <label for="g-search-input">Search the catalog</label>
+            <input
+              id="g-search-input"
+              type="search"
+              autocomplete="off"
+              spellcheck="false"
+              role="combobox"
+              aria-autocomplete="list"
+              aria-expanded="false"
+              aria-controls="g-search-results"
+              placeholder="Try Derry, Flagg or Carrie"
+            />
+            <ul id="g-search-results" role="listbox" aria-label="Matching records" hidden></ul>
+          </div>
+          <button type="button" class="g-surprise">Surprise me</button>
+        </div>
+
+        <div class="g-main">
+          <div class="g-card">
+            <div class="g-filters" role="group" aria-label="Kinds on the graph">
+              <button type="button" class="g-kinds-toggle" aria-expanded="false">Kinds <span class="g-kinds-summary">all</span></button>
+              <div class="g-kind-list"></div>
+            </div>
+            <div class="g-stage" role="group" aria-label="Links of <%= panel.name %>">
+              <p class="g-loading">Loading the graph…</p>
+              <noscript><p class="g-loading">The graph needs JavaScript. Every link is in the panel.</p></noscript>
+            </div>
+            <div class="g-key" aria-label="Key">
+              <span><svg width="28" height="8" aria-hidden="true"><path d="M1 4 L27 4" stroke="#e5484d" stroke-width="1.6" /></svg>appears in</span>
+              <span><svg width="28" height="8" aria-hidden="true"><path d="M2 4 L27 4" stroke="#e5484d" stroke-width="2.2" stroke-dasharray="0.5 6" stroke-linecap="round" /></svg>set in · lives in</span>
+              <span><svg width="28" height="8" aria-hidden="true"><path d="M1 4 L27 4" stroke="#e5484d" stroke-width="4.6" /><path d="M1 4 L27 4" stroke="#141212" stroke-width="1.8" /></svg>is a</span>
+              <span><svg width="28" height="8" aria-hidden="true"><path d="M1 4 L27 4" stroke="#e5484d" stroke-width="1.2" stroke-dasharray="7 5" /></svg>inside</span>
+              <span><svg width="28" height="8" aria-hidden="true"><path d="M1 4 L27 4" stroke="#e5484d" stroke-width="1.6" stroke-dasharray="10 4 2 4" /></svg>related to</span>
+              <span><svg width="28" height="8" aria-hidden="true"><path d="M1 4 L27 4" stroke="#e5484d" stroke-width="2.8" stroke-dasharray="14 4" /></svg>killed</span>
+              <% statusKey.forEach((s) => { %>
+              <span><span class="g-mark" aria-hidden="true"><%= s.mark %></span><%= s.label %></span>
+              <% }) %>
+            </div>
+          </div>
+
+          <aside class="g-panel" aria-label="Response preview" aria-live="off">
+            <%- include("partials/graph-panel", { panel, rows, theme, href, api }) %>
+          </aside>
+        </div>
+      </section>
+
+      <ul class="endpoints" aria-label="Endpoints">
+        <% kinds.forEach((k) => { %>
+        <li><a href="<%= api %><%= k.list %>"><span><span class="g-verb">GET</span> <%= k.list %></span><small><%= k.count %></small></a></li>
+        <li><a href="<%= api %><%= k.one %>"><span><span class="g-verb">GET</span> <%= k.one %></span><small><%= k.exampleName %></small></a></li>
+        <% }) %>
+      </ul>
+
+      <footer class="foot">
+        <span>Built by <a href="https://github.com/hvanlear">Hunter Van Lear</a> · free, no key · 100 requests a minute</span>
+        <span>500s say: “All work and no play makes a server error”</span>
+      </footer>
+    </div>
+
+    <script type="application/json" id="graph-config"><%- clientConfig %></script>
+  </body>
+</html>

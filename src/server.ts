@@ -13,6 +13,8 @@ import {
   loginLimiter,
 } from "./middleware/dashboardAuth";
 import { showLogin, showDashboard, handleLogout } from "./handlers/dashboard";
+import { showGraphHome } from "./handlers/graphHome";
+import { graph } from "./graph/build";
 import { books } from "./catalog";
 import { kinds } from "./kinds";
 import { bookResponse } from "./responses";
@@ -34,6 +36,20 @@ app.use(
   })
 );
 
+// The graph explorer's files have the content hash in their names, so they
+// can be cached for good. The manifest says which ones are current.
+const IMMUTABLE = "public, max-age=31536000, immutable";
+app.get(graph.path, (req, res) => {
+  res.set("Cache-Control", IMMUTABLE).type("json").send(graph.json);
+});
+app.use(
+  "/assets",
+  express.static("public/assets", {
+    setHeaders: (res, file) => {
+      res.setHeader("Cache-Control", file.endsWith("manifest.json") ? "no-cache" : IMMUTABLE);
+    },
+  })
+);
 app.use(express.static("public"));
 app.set("view engine", "ejs");
 app.use(morgan("dev"));
@@ -51,6 +67,9 @@ const homeExample = JSON.stringify({ data: bookResponse(homeBook) }, null, 2);
 app.get("/", (req, res) => {
   res.render("index", { url: config.url, counts: homeCounts, example: homeExample });
 });
+
+// The graph home page (SK-045), here until it replaces the one above
+app.get("/next", showGraphHome);
 
 app.get("/docs", (req, res) => {
   res.render("docs", { url: config.url });

@@ -1,0 +1,72 @@
+<%#
+  The graph page's side panel for one record. src/client/panel.ts renders the
+  same markup when you move to another record, and replaces this one when the
+  script starts, so keep the two in step. The one difference is on purpose:
+  the script adds "Show the JSON", which needs a fetch.
+%>
+<% const t = theme(panel.kind) %>
+<% const row = (item) => { %>
+<li>
+  <% if (item.i < 0) { %>
+  <%# A name with no record yet: a row like the others, but not a link %>
+  <span class="g-row-plain">
+    <span class="glyph" data-shape="ring" style="--c: var(--faint); --s: 10px" aria-hidden="true"></span>
+    <span class="g-row-name"><span class="g-row-text"><%= item.name %></span></span>
+    <span class="g-note">no record yet</span>
+  </span>
+  <% } else { const it = theme(item.kind) %>
+  <a class="g-row" href="<%= href(item.kind, item.id) %>" data-i="<%= item.i %>">
+    <span class="glyph" data-shape="<%= it.shape %>" style="--c: <%= it.color %>; --s: 10px" aria-hidden="true"></span>
+    <span class="g-row-name"><span class="g-row-text"><%= item.name %></span><% if (item.status) { %><span class="g-mark" aria-hidden="true"><%= item.status.mark %></span><span class="sr-only">, <%= item.status.label %></span><% } %></span>
+    <span class="g-note"><%= item.note %></span>
+    <span class="g-arrow" aria-hidden="true">→</span>
+  </a>
+  <% } %>
+  <% if (item.members.length) { %>
+  <ul class="g-rows g-members">
+    <% item.members.forEach(row) %>
+  </ul>
+  <% } %>
+</li>
+<% } %>
+<div class="g-tags">
+  <span class="g-kind" style="--c: <%= t.color %>; --ink: <%= t.ink %>"><%= panel.label %></span>
+  <% if (panel.status) { %><span class="g-status"><span class="g-mark" aria-hidden="true"><%= panel.status.mark %></span> <%= panel.status.value %></span><% } %>
+</div>
+<h2 class="g-name" tabindex="-1"><%= panel.name %></h2>
+<a class="g-get" href="<%= api %><%= panel.path %>"><span class="g-verb">GET</span> <%= panel.path %></a>
+<p class="g-eyebrow">In the response</p>
+<% if (!panel.fields.some((f) => f.text === null)) { %>
+<p class="g-empty">Nothing linked yet.</p>
+<% } %>
+<div class="g-fields">
+  <% panel.fields.forEach((f) => { %>
+  <% if (f.text !== null) { %>
+  <%# Text, such as a death's cause %>
+  <section class="g-field" data-field="<%= f.field %>">
+    <h3 class="g-field-head" tabindex="-1"><code>"<%= f.field %>"</code></h3>
+    <p class="g-text"><%= f.text %></p>
+  </section>
+  <% return } %>
+  <% const first = f.items.find((item) => item.i >= 0) %>
+  <section class="g-field" data-field="<%= f.field %>">
+    <h3 class="g-field-head" tabindex="-1">
+      <code<% if (first) { %> style="color: <%= theme(first.kind).text %>"<% } %>>"<%= f.field %>"</code>
+      <span class="g-count"><%= f.items.length %></span>
+      <% if (f.rollup) { %><span class="g-hint"><%= panel.kind === "place" ? "includes places inside" : "includes kinds inside" %></span><% } %>
+    </h3>
+    <ul class="g-rows">
+      <% f.items.slice(0, rows).forEach(row) %>
+    </ul>
+    <% if (f.items.length > rows) { %>
+    <details class="g-all">
+      <summary class="g-more"><span class="g-more-closed">Show all <%= f.items.length %></span><span class="g-more-open">Show fewer</span></summary>
+      <ul class="g-rows">
+        <% f.items.slice(rows).forEach(row) %>
+      </ul>
+    </details>
+    <% } %>
+  </section>
+  <% }) %>
+</div>
+<p class="g-foot">Every link in a response is a full URL, so you can walk the universe one GET at a time.</p>

@@ -253,6 +253,7 @@ body.graph-home {
 .e-related .o { stroke-width: 1.6px; stroke-dasharray: 10 4 2 4; }
 .e-isa .o { stroke-width: 4.6px; }
 .e-isa .i { stroke: var(--card); stroke-width: 1.8px; }
+.e-killed .o { stroke-width: 2.8px; stroke-dasharray: 14 4; }
 .e.lit .o { stroke: #fff; opacity: 1; }
 
 /* Records: a 44px link centred on its glyph, with the label beside it */
@@ -448,6 +449,24 @@ body.graph-home {
 .g-row-text { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
 .g-note { font: 400 11px/1 var(--mono); color: var(--muted); }
 .g-arrow { color: var(--faint); }
+/* A name with no record yet, such as a hero who killed a villain: laid out
+   like a row, but not a link */
+.g-row-plain {
+  display: grid;
+  grid-template-columns: 16px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 6px 12px;
+  border: 1px dashed var(--line);
+  border-radius: 8px;
+  color: var(--muted);
+  font-size: 14px;
+}
+/* A group's members, under the group */
+.g-rows.g-members { margin: 6px 0 0 20px; }
+/* Text in a response, such as a death's cause */
+.g-text { margin: 0; font-size: 14px; line-height: 1.4; }
 .g-more {
   align-self: flex-start;
   min-height: 44px;

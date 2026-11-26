@@ -1,5 +1,5 @@
 import { PANEL_ROWS } from "../graph/payload";
-import { Graph, kindLabel } from "./model";
+import { Graph, Item, isText, kindLabel } from "./model";
 import { glyph, mark, statusText, theme } from "./theme";
 
 // The side panel: the record's API path and every link in its response,
@@ -83,16 +83,26 @@ export class Panel {
     if (!n.links.length) root.append(el("p", "g-empty", "Nothing linked yet."));
 
     const fields = el("div", "g-fields");
-    for (const link of n.links) {
+    for (const link of n.fields) {
       const section = el("section", "g-field");
       section.dataset.field = link.field;
       const head = el("h3", "g-field-head");
       head.tabIndex = -1;
       const code = el("code", undefined, `"${link.field}"`);
-      code.style.color = theme(this.g.nodes[link.items[0].i].kind).text;
+      section.append(head);
+      fields.append(section);
+      // Text, such as a death's cause
+      if (isText(link)) {
+        head.append(code);
+        section.append(el("p", "g-text", link.text));
+        continue;
+      }
+      // Coloured for the first record it links to. A field of names with no
+      // record yet keeps the default.
+      const first = link.items.find((e) => e.i >= 0);
+      if (first) code.style.color = theme(this.g.nodes[first.i].kind).text;
       head.append(code, el("span", "g-count", String(link.items.length)));
       if (link.rollup) head.append(el("span", "g-hint", n.kind === "place" ? "includes places inside" : "includes kinds inside"));
-      section.append(head);
 
       section.append(this.rows(link.items.slice(0, PANEL_ROWS)));
       if (link.items.length > PANEL_ROWS) {
@@ -105,7 +115,6 @@ export class Panel {
         all.addEventListener("toggle", () => (all.open ? this.expanded.add(link.field) : this.expanded.delete(link.field)));
         section.append(all);
       }
-      fields.append(section);
     }
     root.append(fields);
 
@@ -134,35 +143,57 @@ export class Panel {
     root.append(details, el("p", "g-foot", "Every link in a response is a full URL, so you can walk the universe one GET at a time."));
   }
 
-  private rows(items: { i: number; note: string }[]) {
-    const list = el("ul", "g-rows");
+  private rows(items: Item[], className = "g-rows") {
+    const list = el("ul", className);
     for (const item of items) {
-      const target = this.g.nodes[item.i];
-      const a = el("a", "g-row");
-      a.href = this.on.href(item.i);
-      a.dataset.i = String(item.i);
-      const name = el("span", "g-row-name");
-      name.append(el("span", "g-row-text", target.name));
-      if (target.status) name.append(mark(target.status), statusText(target.status));
-      a.append(glyph(target.kind, 10), name, el("span", "g-note", item.note));
-      const arrow = el("span", "g-arrow", "→");
-      arrow.setAttribute("aria-hidden", "true");
-      a.append(arrow);
-      a.addEventListener("click", (e) => {
-        if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
-        e.preventDefault();
-        // Enter on a row: the row is about to be replaced, so put focus on
-        // the new record's name rather than let it fall to the page
-        const viaKeyboard = e.detail === 0;
-        this.on.go(item.i);
-        if (viaKeyboard) this.root.querySelector<HTMLElement>(".g-name")?.focus();
-      });
-      a.addEventListener("mouseenter", () => this.on.hover(item.i));
-      a.addEventListener("mouseleave", () => this.on.hover(null));
       const li = el("li");
-      li.append(a);
       list.append(li);
+      li.append(item.i < 0 ? plainRow(item.name ?? "") : this.row(item));
+      // A group's members, under it
+      if (item.members.length) li.append(this.rows(item.members, "g-rows g-members"));
     }
     return list;
   }
+
+  // A link to a record, which moves the graph to it
+  private row(item: Item) {
+    const target = this.g.nodes[item.i];
+    const a = el("a", "g-row");
+    a.href = this.on.href(item.i);
+    a.dataset.i = String(item.i);
+    const name = el("span", "g-row-name");
+    name.append(el("span", "g-row-text", target.name));
+    if (target.status) name.append(mark(target.status), statusText(target.status));
+    a.append(glyph(target.kind, 10), name, el("span", "g-note", item.note));
+    const arrow = el("span", "g-arrow", "→");
+    arrow.setAttribute("aria-hidden", "true");
+    a.append(arrow);
+    a.addEventListener("click", (e) => {
+      if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+      e.preventDefault();
+      // Enter on a row: the row is about to be replaced, so put focus on
+      // the new record's name rather than let it fall to the page
+      const viaKeyboard = e.detail === 0;
+      this.on.go(item.i);
+      if (viaKeyboard) this.root.querySelector<HTMLElement>(".g-name")?.focus();
+    });
+    a.addEventListener("mouseenter", () => this.on.hover(item.i));
+    a.addEventListener("mouseleave", () => this.on.hover(null));
+    return a;
+  }
+}
+
+// A name with no record yet, such as a hero who killed a villain: a row like
+// the others, but not a link
+function plainRow(name: string) {
+  const row = el("span", "g-row-plain");
+  const ring = el("span", "glyph");
+  ring.setAttribute("aria-hidden", "true");
+  ring.dataset.shape = "ring";
+  ring.style.setProperty("--c", "var(--faint)");
+  ring.style.setProperty("--s", "10px");
+  const text = el("span", "g-row-name");
+  text.append(el("span", "g-row-text", name));
+  row.append(ring, text, el("span", "g-note", "no record yet"));
+  return row;
 }

@@ -1,13 +1,17 @@
-import { linkNote, statusOf, type GraphPayload, type KindInfo, type Status } from "../graph/payload";
+import { linkNote, refIndex, statusOf, type GraphPayload, type KindInfo, type Ref, type Status } from "../graph/payload";
 
 // The graph file decoded into records with their links. No DOM, so node:test
 // can run it.
 
 export interface Item {
-  // The linked record's index
+  // The linked record's index, or -1 for a name with no record yet
   i: number;
   // A link attribute worth showing, such as a role or relationship
   note: string;
+  // Only for a name with no record yet; a record has its own
+  name?: string;
+  // A group's members, such as the Losers' Club's
+  members: Item[];
 }
 
 export interface Link {
@@ -18,6 +22,12 @@ export interface Link {
   rollup: boolean;
 }
 
+// Text inside an object that isn't a link, such as a death's cause
+export interface Text {
+  field: string;
+  text: string;
+}
+
 export interface GraphNode {
   index: number;
   kind: string;
@@ -26,6 +36,8 @@ export interface GraphNode {
   // "villain-57", as used in ?focus=
   key: string;
   links: Link[];
+  // The links and text together, in response order, for the panel
+  fields: (Link | Text)[];
   // Linked records that get a line, with the line's family
   drawn: Map<number, string>;
   weight: number;
@@ -55,41 +67,59 @@ export const fold = (text: string) =>
 
 export const nodeKey = (kind: string, id: number) => `${kind}-${id}`;
 
+export const isText = (field: Link | Text): field is Text => "text" in field;
+
+// The records a field links to, a group's members included. Names with no
+// record yet are left out, since there's nothing to draw a line to.
+export const linkedItems = (link: Link): Item[] =>
+  link.items.flatMap(function each(e): Item[] {
+    return [...(e.i >= 0 ? [e] : []), ...e.members.flatMap(each)];
+  });
+
+const toItem = (ref: Ref): Item => ({
+  i: refIndex(ref),
+  note: linkNote(ref),
+  ...(typeof ref === "object" && !("i" in ref) ? { name: ref.name } : {}),
+  members: typeof ref === "object" && ref.members ? ref.members.map(toItem) : [],
+});
+
 export function decode(payload: GraphPayload): Graph {
   const { kinds, fields } = payload.schema;
-  const nodes: GraphNode[] = payload.nodes.map(([kind, id, name, raw, extra], index) => ({
-    index,
-    kind,
-    id,
-    name,
-    key: nodeKey(kind, id),
-    links: Object.entries(raw).map(([field, value]) => {
+  const nodes: GraphNode[] = payload.nodes.map(([kind, id, name, raw, extra], index) => {
+    const all = Object.entries(raw).map(([field, value]): Link | Text => {
+      if (typeof value === "string") return { field, text: value };
       const single = !Array.isArray(value);
       const info = fields[`${kind}.${field}`];
       return {
         field,
         single,
-        items: (single ? [value] : value).map((ref) => ({
-          i: typeof ref === "number" ? ref : ref.i,
-          note: linkNote(ref),
-        })),
+        items: (single ? [value] : value).map(toItem),
         // A field the schema doesn't know yet still draws, as "appears in"
         family: info?.family ?? "appears",
         rollup: !!info?.rollup,
       };
-    }),
-    drawn: new Map(),
-    weight: extra?.weight ?? 0,
-    status: statusOf(kinds[kind], extra?.status),
-    folded: fold(name),
-  }));
+    });
+    return {
+      index,
+      kind,
+      id,
+      name,
+      key: nodeKey(kind, id),
+      links: all.filter((f): f is Link => !isText(f)),
+      fields: all,
+      drawn: new Map(),
+      weight: extra?.weight ?? 0,
+      status: statusOf(kinds[kind], extra?.status),
+      folded: fold(name),
+    };
+  });
 
   // A line is drawn when both records list each other, or for a one-way link
   // outside a roll-up field. Roll-up entries are listed in the panel only.
-  const lists = nodes.map((n) => new Set(n.links.flatMap((l) => l.items.map((e) => e.i))));
+  const lists = nodes.map((n) => new Set(n.links.flatMap((l) => linkedItems(l).map((e) => e.i))));
   for (const n of nodes) {
     for (const link of n.links) {
-      for (const { i } of link.items) {
+      for (const { i } of linkedItems(link)) {
         if ((lists[i].has(n.index) || !link.rollup) && !n.drawn.has(i)) n.drawn.set(i, link.family);
       }
     }

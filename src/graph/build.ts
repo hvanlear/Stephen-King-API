@@ -1,11 +1,13 @@
 import crypto from "crypto";
 import { kinds } from "../kinds";
 import { schema } from "./schema";
-import { linkNote, statusOf, type GraphPayload, type LinkRef, type PayloadNode, type Status } from "./payload";
+import { linkNote, refIndex, statusOf, type GraphPayload, type PayloadNode, type Ref, type Status } from "./payload";
 
 // The graph file is built once at startup by walking the API's own responses,
 // so it can't drift from them. It knows no kinds or fields: any { name or
-// title, url } object in a response, or a list of them, is a link.
+// title, url } object in a response, or a list of them, is a link. One with a
+// null url names someone with no record yet. An object that isn't a link,
+// such as a villain's death, is read the same way one level down.
 
 type Response = Record<string, unknown>;
 
@@ -15,24 +17,42 @@ const sources: Record<string, Response[]> = Object.fromEntries(
 );
 
 interface ApiLink {
-  url: string;
+  url: string | null;
   [key: string]: unknown;
 }
 
+const isObject = (value: unknown): value is Record<string, unknown> =>
+  typeof value === "object" && value !== null && !Array.isArray(value);
+
+// A link to a record, or a name whose url is null until it has one
 const isLink = (value: unknown): value is ApiLink =>
-  typeof value === "object" &&
-  value !== null &&
-  typeof (value as ApiLink).url === "string" &&
-  (value as ApiLink).url.includes("/api/");
+  isObject(value) &&
+  (typeof value.url === "string"
+    ? value.url.includes("/api/")
+    : value.url === null && typeof value.name === "string");
 
 // "https://host/api/villain/57" → "villain/57"
 const linkKey = (url: string) => url.slice(url.indexOf("/api/") + 5);
 
+export interface PanelItem {
+  // The record's position in the graph file, as the client's rows carry it,
+  // or -1 for a name with no record yet, which has no kind or id either
+  i: number;
+  name: string;
+  kind: string | null;
+  id: number | null;
+  note: string;
+  status: Status | null;
+  // A group's members, as rows of their own
+  members: PanelItem[];
+}
+
 export interface PanelField {
   field: string;
   rollup: boolean;
-  // i is the record's position in the graph file, as the client's rows carry it
-  items: { i: number; name: string; kind: string; id: number; note: string; status: Status | null }[];
+  // Set for text, such as a death's cause, which has no items
+  text: string | null;
+  items: PanelItem[];
 }
 
 export interface Panel {
@@ -54,7 +74,10 @@ export function buildGraph() {
     records.map((r, i) => [`${r.kind}/${r.response.id}`, i] as [string, number])
   );
 
-  const toRef = (link: ApiLink): LinkRef => {
+  const toRef = (link: ApiLink): Ref => {
+    // A group's members, linked or not
+    const members = Array.isArray(link.members) && link.members.every(isLink) ? { members: link.members.map(toRef) } : {};
+    if (link.url === null) return { name: String(link.name), ...members };
     const i = index.get(linkKey(link.url));
     if (i === undefined) throw new Error(`Graph: unresolved link ${link.url}`);
     // Anything beyond the name and URL (a future role or relationship) rides along
@@ -63,18 +86,25 @@ export function buildGraph() {
         !["name", "title", "url"].includes(key) &&
         (value === null || ["string", "number", "boolean"].includes(typeof value))
     );
-    return attrs.length ? { i, ...Object.fromEntries(attrs) } : i;
+    return attrs.length || "members" in members ? { i, ...Object.fromEntries(attrs), ...members } : i;
   };
 
   const nodes: PayloadNode[] = records.map(({ kind, response }) => {
-    const fields: Record<string, LinkRef | LinkRef[]> = {};
-    for (const [field, value] of Object.entries(response)) {
-      if (Array.isArray(value) && value.length && value.every(isLink)) {
-        fields[field] = value.map(toRef);
-      } else if (isLink(value)) {
-        fields[field] = toRef(value);
+    const fields: Record<string, Ref | Ref[] | string> = {};
+    const read = (object: Record<string, unknown>, path: string) => {
+      for (const [field, value] of Object.entries(object)) {
+        if (Array.isArray(value) && value.length && value.every(isLink)) {
+          fields[path + field] = value.map(toRef);
+        } else if (isLink(value)) {
+          fields[path + field] = toRef(value);
+        } else if (path && typeof value === "string") {
+          fields[path + field] = value;
+        } else if (!path && isObject(value)) {
+          read(value, field + ".");
+        }
       }
-    }
+    };
+    read(response, "");
     const name = String(response.Title ?? response.title ?? response.name);
     const statusField = schema.kinds[kind]?.status?.field;
     const status = statusField ? response[statusField] : undefined;
@@ -92,9 +122,15 @@ export function buildGraph() {
 
   // The side panel for one record, rendered on the server so the page works
   // before (and without) the script
+  const item = (r: Ref): PanelItem => {
+    const i = refIndex(r);
+    const members = typeof r === "object" && r.members ? r.members.map(item) : [];
+    if (i < 0) return { i, name: (r as { name: string }).name, kind: null, id: null, note: "", status: null, members };
+    const [kind, id, name] = nodes[i];
+    return { i, name, kind, id, note: linkNote(r), status: statusAt(i), members };
+  };
   const panel = (i: number): Panel => {
     const [kind, id, name, fields] = nodes[i];
-    const ref = (r: LinkRef) => (typeof r === "number" ? r : r.i);
     return {
       kind,
       label: schema.kinds[kind]?.label ?? kind,
@@ -105,10 +141,8 @@ export function buildGraph() {
       fields: Object.entries(fields).map(([field, value]) => ({
         field,
         rollup: !!schema.fields[`${kind}.${field}`]?.rollup,
-        items: (Array.isArray(value) ? value : [value]).map((r) => {
-          const [k, linkedId, linkedName] = nodes[ref(r)];
-          return { i: ref(r), name: linkedName, kind: k, id: linkedId, note: linkNote(r), status: statusAt(ref(r)) };
-        }),
+        text: typeof value === "string" ? value : null,
+        items: typeof value === "string" ? [] : (Array.isArray(value) ? value : [value]).map(item),
       })),
     };
   };

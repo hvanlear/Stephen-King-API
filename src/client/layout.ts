@@ -1,4 +1,4 @@
-import type { Graph } from "./model";
+import { linkedItems, type Graph } from "./model";
 
 // The ego layout: the focus at the centre and its linked records on a ring
 // around it, one sector per response field in response order. Pure (no DOM),
@@ -211,7 +211,7 @@ export function layout(
   const taken = new Set([fi]);
   const groups: Group[] = [];
   for (const link of focus.links) {
-    const items = link.items.filter((e) => {
+    const items = linkedItems(link).filter((e) => {
       if (!focus.drawn.has(e.i) || taken.has(e.i) || hidden[N[e.i].kind]) return false;
       taken.add(e.i);
       return true;

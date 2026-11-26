@@ -2,7 +2,7 @@ import { describe, it } from "node:test";
 import assert from "node:assert/strict";
 import express from "express";
 import { startServer } from "./server";
-import { createApiLimiter } from "../src/modules/apiLimiter";
+import { createApiLimiter } from "../src/middleware/apiLimiter";
 
 describe("API rate limit", () => {
   it("sends the limit in headers on every API response", async () => {

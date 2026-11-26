@@ -315,6 +315,62 @@ describe("links", () => {
     assert.equal(fromBooks.length, 2);
   });
 
+  it("point both ways between killers and the villains they killed", async () => {
+    const { body } = await get("/api/villains");
+    const idOf = (link: { url: string }) => Number(link.url.split("/").pop());
+    // A villain in a group of killers counts as a killer
+    const fromDeaths: string[] = [];
+    for (const villain of body.data) {
+      for (const killer of villain.death?.killed_by ?? []) {
+        for (const one of [killer, ...(killer.members ?? [])]) {
+          if (one.url !== null) {
+            fromDeaths.push(`${idOf(one)} ${villain.id}`);
+          }
+        }
+      }
+    }
+    const fromKilled: string[] = [];
+    for (const villain of body.data) {
+      const ids = villain.killed.map(idOf);
+      assert.deepEqual(ids, [...ids].sort((a: number, b: number) => a - b), `villain ${villain.id} lists its victims out of order`);
+      ids.forEach((id: number) => fromKilled.push(`${villain.id} ${id}`));
+    }
+    assert.deepEqual(fromKilled.sort(), fromDeaths.sort());
+    assert.ok(fromKilled.length, "no villain is recorded killing another");
+  });
+
+  it("describe a death by its cause, a work the villain is in, and its killers", async () => {
+    const { body } = await get("/api/villains");
+    const names = new Map(body.data.map((villain: { id: number; name: string }) => [`/api/villain/${villain.id}`, villain.name]));
+    const villainNames = new Set(names.values());
+    for (const villain of body.data) {
+      const keys = Object.keys(villain);
+      assert.equal(keys[keys.indexOf("status") + 1], "death", `villain ${villain.id}: death doesn't follow status`);
+      if (villain.status === "Alive") {
+        assert.equal(villain.death, null, `villain ${villain.id} is alive but has a death`);
+      }
+      if (villain.death === null) {
+        continue;
+      }
+      const { death } = villain;
+      assert.deepEqual(Object.keys(death), ["cause", "work", "killed_by"], `villain ${villain.id}`);
+      assert.ok(
+        [...villain.books, ...villain.shorts].some((work: any) => work.url === death.work.url && work.title === death.work.title),
+        `villain ${villain.id} dies in ${death.work.url}, which isn't one of its works`
+      );
+      for (const killer of death.killed_by) {
+        assert.deepEqual(Object.keys(killer), killer.members ? ["name", "url", "members"] : ["name", "url"]);
+        for (const one of [killer, ...(killer.members ?? [])]) {
+          if (one.url === null) {
+            assert.ok(!villainNames.has(one.name), `villain ${villain.id}: ${one.name} is a villain, but isn't linked`);
+          } else {
+            assert.equal(one.name, names.get(new URL(one.url).pathname), `villain ${villain.id} links ${one.url} under the wrong name`);
+          }
+        }
+      }
+    }
+  });
+
   it("list a place's residents in every place it's in", async () => {
     const { body } = await get("/api/places");
     const byUrl = new Map(body.data.map((place: { id: number }) => [`/api/place/${place.id}`, place]));

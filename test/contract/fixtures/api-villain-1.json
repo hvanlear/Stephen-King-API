@@ -7,6 +7,7 @@
       "name": "Bob Anderson",
       "gender": "Male",
       "status": "Deceased",
+      "death": null,
       "types_id": 1,
       "group": false,
       "notes": [
@@ -40,7 +41,8 @@
         "name": "Human",
         "url": "https://stephen-king-api.onrender.com/api/type/1"
       },
-      "kinds": []
+      "kinds": [],
+      "killed": []
     }
   }
 }

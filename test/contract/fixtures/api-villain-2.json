@@ -1,0 +1,68 @@
+{
+  "path": "/api/villain/2",
+  "status": 200,
+  "body": {
+    "data": {
+      "id": 2,
+      "name": "Kurt Barlow",
+      "gender": "Male",
+      "status": "Deceased",
+      "death": {
+        "cause": "Staked through the heart",
+        "work": {
+          "title": "Salem's Lot",
+          "url": "https://stephen-king-api.onrender.com/api/book/2"
+        },
+        "killed_by": [
+          {
+            "name": "Ben Mears",
+            "url": null
+          },
+          {
+            "name": "Mark Petrie",
+            "url": null
+          }
+        ]
+      },
+      "types_id": 2,
+      "group": false,
+      "notes": [
+        "Characters",
+        "Jerusalem's Lot residents",
+        "Residents of Maine",
+        "Villains",
+        "Antagonists"
+      ],
+      "created_at": "2023-11-13T23:49:22.625Z",
+      "books": [
+        {
+          "title": "Salem's Lot",
+          "url": "https://stephen-king-api.onrender.com/api/book/2"
+        }
+      ],
+      "shorts": [],
+      "residence": [
+        {
+          "name": "Marsten House",
+          "url": "https://stephen-king-api.onrender.com/api/place/170"
+        }
+      ],
+      "type": {
+        "name": "Vampire",
+        "url": "https://stephen-king-api.onrender.com/api/type/2"
+      },
+      "kinds": [
+        {
+          "name": "Type One vampire",
+          "url": "https://stephen-king-api.onrender.com/api/type/11"
+        }
+      ],
+      "killed": [
+        {
+          "name": "Richard Straker",
+          "url": "https://stephen-king-api.onrender.com/api/villain/98"
+        }
+      ]
+    }
+  }
+}

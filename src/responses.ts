@@ -6,6 +6,8 @@ import {
   Type,
   Collection,
   Publication,
+  Death,
+  Killer,
   books,
   shorts,
   villains,
@@ -33,6 +35,8 @@ import {
   bookIdByCollection,
   shortIdsByPublication,
   publicationIdByShort,
+  deathWorkByVillain,
+  victimIdsByVillain,
 } from "./catalog";
 import config from "./config";
 
@@ -104,14 +108,37 @@ const shortLinks = (ids: number[] = []) =>
     url: `${URL}/api/short/${id}`,
   }));
 
-// appears_in, residence and kinds hold handles, which are served as links instead
+// A killer with no record yet, such as a hero, has a name and a null url,
+// which becomes a link once the record exists
+const killerLink = (killer: Killer) =>
+  "villain" in killer ? villainLinks([killer.villain])[0] : { name: killer.name, url: null };
+
+// in holds a handle, which is served as a link to the work
+const deathResponse = (villainId: number, death: Death | null) => {
+  if (death === null) {
+    return null;
+  }
+  const where = deathWorkByVillain.get(villainId);
+  return {
+    cause: death.cause,
+    work: where === undefined ? null : "book" in where ? bookLinks([where.book])[0] : shortLinks([where.short])[0],
+    killed_by: death.killed_by.map(({ members, ...killer }) =>
+      members === undefined ? killerLink(killer) : { ...killerLink(killer), members: members.map(killerLink) }
+    ),
+  };
+};
+
+// appears_in, residence and kinds hold handles, which are served as links
+// instead. death is served in place, with its handle and ids as links.
 export const villainResponse = ({ appears_in, residence, kinds, ...villain }: Villain) => ({
   ...villain,
+  death: deathResponse(villain.id, villain.death),
   books: bookLinks(bookIdsByVillain.get(villain.id)),
   shorts: shortLinks(shortIdsByVillain.get(villain.id)),
   residence: placeLinks(placeIdsByVillain.get(villain.id)),
   type: typeLinks([villain.types_id])[0],
   kinds: typeLinks(kindIdsByVillain.get(villain.id)),
+  killed: villainLinks(victimIdsByVillain.get(villain.id)),
 });
 
 // parentId and appears_in only exist to build the links, so they aren't returned

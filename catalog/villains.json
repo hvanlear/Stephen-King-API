@@ -4,6 +4,7 @@
     "name": "Bob Anderson",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -30,6 +31,20 @@
     "name": "Kurt Barlow",
     "gender": "Male",
     "status": "Deceased",
+    "death": {
+      "cause": "Staked through the heart",
+      "in": {
+        "book": "salem-s-lot"
+      },
+      "killed_by": [
+        {
+          "name": "Ben Mears"
+        },
+        {
+          "name": "Mark Petrie"
+        }
+      ]
+    },
     "types_id": 2,
     "group": false,
     "appears_in": [
@@ -55,6 +70,7 @@
     "name": "Blaine the Mono",
     "gender": null,
     "status": "Deceased",
+    "death": null,
     "types_id": 6,
     "group": false,
     "appears_in": [
@@ -80,6 +96,7 @@
     "name": "Tina Blake",
     "gender": "Female",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -109,6 +126,7 @@
     "name": "Malachai Boardman",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -129,6 +147,7 @@
     "name": "James Boon",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -151,6 +170,17 @@
     "name": "Henry Bowers",
     "gender": "Male",
     "status": "Deceased",
+    "death": {
+      "cause": "Stabbed",
+      "in": {
+        "book": "it"
+      },
+      "killed_by": [
+        {
+          "name": "Eddie Kaspbrak"
+        }
+      ]
+    },
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -184,6 +214,17 @@
     "name": "Butch Bowers",
     "gender": "Male",
     "status": "Deceased",
+    "death": {
+      "cause": "Stabbed in the throat",
+      "in": {
+        "book": "it"
+      },
+      "killed_by": [
+        {
+          "villain": 7
+        }
+      ]
+    },
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -212,6 +253,13 @@
     "name": "Greta Bowie",
     "gender": "Female",
     "status": "Deceased",
+    "death": {
+      "cause": "Car crash",
+      "in": {
+        "book": "it"
+      },
+      "killed_by": []
+    },
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -239,6 +287,7 @@
     "name": "Marten Broadcloak",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -266,6 +315,7 @@
     "name": "Christine (car)",
     "gender": "Female",
     "status": "Alive",
+    "death": null,
     "types_id": 6,
     "group": false,
     "appears_in": [
@@ -292,6 +342,7 @@
     "name": "Isaac Chroner",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -311,6 +362,7 @@
     "name": "Winston Church",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 8,
     "group": false,
     "appears_in": [
@@ -335,6 +387,7 @@
     "name": "Cindi",
     "gender": "Female",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -365,6 +418,7 @@
     "name": "Gage Creed",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 3,
     "group": false,
     "appears_in": [
@@ -390,6 +444,7 @@
     "name": "Myra Crewes",
     "gender": "Female",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -420,6 +475,7 @@
     "name": "Crimson King",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 3,
     "group": false,
     "appears_in": [
@@ -444,6 +500,17 @@
     "name": "Victor Criss",
     "gender": "Male",
     "status": "Deceased",
+    "death": {
+      "cause": "Decapitated",
+      "in": {
+        "book": "it"
+      },
+      "killed_by": [
+        {
+          "villain": 57
+        }
+      ]
+    },
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -472,6 +539,7 @@
     "name": "Cujo",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 8,
     "group": false,
     "appears_in": [
@@ -497,6 +565,7 @@
     "name": "Arnie Cunningham",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -523,6 +592,7 @@
     "name": "Dandelo",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 2,
     "group": false,
     "appears_in": [
@@ -541,6 +611,7 @@
     "name": "Norman Daniels",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -563,6 +634,7 @@
     "name": "Susan Day",
     "gender": "Female",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -583,6 +655,7 @@
     "name": "Cordelia Delgado",
     "gender": "Female",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -603,6 +676,7 @@
     "name": "Billy deLois",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -630,6 +704,7 @@
     "name": "Horace M. Derwent",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 7,
     "group": false,
     "appears_in": [
@@ -656,6 +731,7 @@
     "name": "Mordred Deschain",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 3,
     "group": false,
     "appears_in": [
@@ -679,6 +755,7 @@
     "name": "Bogs Diamond",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -699,6 +776,7 @@
     "name": "Frank Dodd",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -723,6 +801,7 @@
     "name": "Henrietta Dodd",
     "gender": "Female",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -742,6 +821,7 @@
     "name": "Rose the Hat",
     "gender": "Female",
     "status": "Deceased",
+    "death": null,
     "types_id": 2,
     "group": false,
     "appears_in": [
@@ -767,6 +847,7 @@
     "name": "Rhea Dubativo",
     "gender": "Female",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -792,6 +873,7 @@
     "name": "Kurt Dussander",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -811,6 +893,7 @@
     "name": "Donald Merwin Elbert",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -835,6 +918,7 @@
     "name": "Marcia Fadden",
     "gender": "Female",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -859,6 +943,7 @@
     "name": "John Farson",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -880,6 +965,7 @@
     "name": "Randall Flagg",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 3,
     "group": false,
     "appears_in": [
@@ -912,6 +998,7 @@
     "name": "Kenny Garson",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -941,6 +1028,7 @@
     "name": "John Garton",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -968,6 +1056,7 @@
     "name": "Leland Gaunt",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 3,
     "group": false,
     "appears_in": [
@@ -992,6 +1081,7 @@
     "name": "Gerald Burlingame",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1015,6 +1105,7 @@
     "name": "The Gladiators",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": true,
     "appears_in": [
@@ -1033,6 +1124,7 @@
     "name": "Peter Gordon",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1060,6 +1152,7 @@
     "name": "Mary Lila Grace",
     "gender": "Female",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1085,6 +1178,7 @@
     "name": "Delbert Grady",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 7,
     "group": false,
     "appears_in": [
@@ -1110,6 +1204,7 @@
     "name": "Byron Hadley",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1131,6 +1226,7 @@
     "name": "John Halston",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1150,6 +1246,7 @@
     "name": "Lane Hardy",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1170,6 +1267,7 @@
     "name": "Christine Hargensen",
     "gender": "Female",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1203,6 +1301,7 @@
     "name": "Brady Hartsfield",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1225,6 +1324,7 @@
     "name": "Lloyd Henreid",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1248,6 +1348,7 @@
     "name": "Gladys Hickson",
     "gender": "Female",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1269,6 +1370,17 @@
     "name": "Patrick Hockstetter",
     "gender": "Male",
     "status": "Deceased",
+    "death": {
+      "cause": "Drained of blood by flying leeches",
+      "in": {
+        "book": "it"
+      },
+      "killed_by": [
+        {
+          "villain": 57
+        }
+      ]
+    },
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1300,6 +1412,7 @@
     "name": "James Hollister",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1321,6 +1434,17 @@
     "name": "Belch Huggins",
     "gender": "Male",
     "status": "Deceased",
+    "death": {
+      "cause": "Face torn off",
+      "in": {
+        "book": "it"
+      },
+      "killed_by": [
+        {
+          "villain": 57
+        }
+      ]
+    },
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1348,6 +1472,7 @@
     "name": "Ross Humboldt",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1369,6 +1494,34 @@
     "name": "It (Creature)",
     "gender": "Unknown",
     "status": "Deceased",
+    "death": {
+      "cause": "Heart crushed",
+      "in": {
+        "book": "it"
+      },
+      "killed_by": [
+        {
+          "name": "The Losers' Club",
+          "members": [
+            {
+              "name": "Bill Denbrough"
+            },
+            {
+              "name": "Richie Tozier"
+            },
+            {
+              "name": "Beverly Marsh"
+            },
+            {
+              "name": "Eddie Kaspbrak"
+            },
+            {
+              "name": "Ben Hanscom"
+            }
+          ]
+        }
+      ]
+    },
     "types_id": 4,
     "group": false,
     "appears_in": [
@@ -1401,6 +1554,7 @@
     "name": "Henry James",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1421,6 +1575,7 @@
     "name": "Wilfred James",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1445,6 +1600,7 @@
     "name": "Eldred Jonas",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1467,6 +1623,7 @@
     "name": "Raymond Andrew Joubert",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1492,6 +1649,7 @@
     "name": "The Kid",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1511,6 +1669,7 @@
     "name": "Damon Killian",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1530,6 +1689,7 @@
     "name": "Harold Lauder",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1556,6 +1716,7 @@
     "name": "Richard Lawson",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1578,6 +1739,7 @@
     "name": "Brian Lippy",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1598,6 +1760,7 @@
     "name": "Little Sisters",
     "gender": null,
     "status": "Alive",
+    "death": null,
     "types_id": 2,
     "group": true,
     "appears_in": [
@@ -1617,6 +1780,7 @@
     "name": "Lester Lowe",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 3,
     "group": false,
     "appears_in": [
@@ -1642,6 +1806,13 @@
     "name": "Richard P. Macklin",
     "gender": "Male",
     "status": "Deceased",
+    "death": {
+      "cause": "Suicide",
+      "in": {
+        "book": "it"
+      },
+      "killed_by": []
+    },
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1664,6 +1835,7 @@
     "name": "The Major",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1684,6 +1856,7 @@
     "name": "Malcolm Janus",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1703,6 +1876,7 @@
     "name": "Alvin Marsh",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1729,6 +1903,7 @@
     "name": "Charlie McGee",
     "gender": "Female",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1755,6 +1930,7 @@
     "name": "John \"Ace\" Merrill",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1786,6 +1962,7 @@
     "name": "Vic Mooney",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1818,6 +1995,7 @@
     "name": "Jack Mort",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1840,6 +2018,7 @@
     "name": "The Mortimer Snerds",
     "gender": null,
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": true,
     "appears_in": [
@@ -1865,6 +2044,7 @@
     "name": "Mother of the Null",
     "gender": "Female",
     "status": "Alive",
+    "death": null,
     "types_id": 3,
     "group": false,
     "appears_in": [
@@ -1884,6 +2064,7 @@
     "name": "Sally Mueller",
     "gender": "Female",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1908,6 +2089,7 @@
     "name": "Billy Nolan",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1941,6 +2123,7 @@
     "name": "Samuel Norton",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -1961,6 +2144,7 @@
     "name": "The Outsider (Creature)",
     "gender": null,
     "status": "Deceased",
+    "death": null,
     "types_id": 3,
     "group": false,
     "appears_in": [
@@ -1982,6 +2166,7 @@
     "name": "Victor Pascow",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2000,6 +2185,7 @@
     "name": "Sylvia Pittston",
     "gender": "Female",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2024,6 +2210,7 @@
     "name": "The Raggedy Man",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2044,6 +2231,7 @@
     "name": "John Rainbird",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2066,6 +2254,7 @@
     "name": "Rat Man",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2086,6 +2275,7 @@
     "name": "Jim Rennie, Jr.",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2114,6 +2304,7 @@
     "name": "Jim Rennie",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2141,6 +2332,7 @@
     "name": "Elenor Richmond",
     "gender": "Female",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2163,6 +2355,17 @@
     "name": "Tom Rogan",
     "gender": "Male",
     "status": "Deceased",
+    "death": {
+      "cause": "Died of fright",
+      "in": {
+        "book": "it"
+      },
+      "killed_by": [
+        {
+          "villain": 57
+        }
+      ]
+    },
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2189,6 +2392,7 @@
     "name": "Sam (cat)",
     "gender": null,
     "status": "Alive",
+    "death": null,
     "types_id": 8,
     "group": false,
     "appears_in": [
@@ -2208,6 +2412,7 @@
     "name": "Sonny Elliman",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2227,6 +2432,7 @@
     "name": "Rachel Spies",
     "gender": "Female",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2257,6 +2463,7 @@
     "name": "Joe St. George",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2283,6 +2490,7 @@
     "name": "George Stark",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2304,6 +2512,7 @@
     "name": "Greg Stillson",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2327,6 +2536,17 @@
     "name": "Richard Straker",
     "gender": "Male",
     "status": "Deceased",
+    "death": {
+      "cause": "Drained of blood",
+      "in": {
+        "book": "salem-s-lot"
+      },
+      "killed_by": [
+        {
+          "villain": 2
+        }
+      ]
+    },
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2349,6 +2569,7 @@
     "name": "Jackie Talbot",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2380,6 +2601,7 @@
     "name": "The Devil's Dozen",
     "gender": null,
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": true,
     "appears_in": [
@@ -2398,6 +2620,7 @@
     "name": "Carter Thibodeau",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2425,6 +2648,7 @@
     "name": "Donna and Mary Lila Grace Thibodeau",
     "gender": "Female",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2456,6 +2680,7 @@
     "name": "Tom Mahout",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2479,6 +2704,7 @@
     "name": "Tommyknockers",
     "gender": null,
     "status": "Alive",
+    "death": null,
     "types_id": 4,
     "group": true,
     "appears_in": [
@@ -2497,6 +2723,7 @@
     "name": "Craig Toomey",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2518,6 +2745,7 @@
     "name": "Jack Torrance",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2550,6 +2778,7 @@
     "name": "Christopher Unwin",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2575,6 +2804,7 @@
     "name": "Jessica Upshaw",
     "gender": "Female",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2604,6 +2834,7 @@
     "name": "Norma Watson",
     "gender": "Female",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2630,6 +2861,7 @@
     "name": "Wendigo",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 3,
     "group": false,
     "appears_in": [
@@ -2648,6 +2880,7 @@
     "name": "Percy Wetmore",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2671,6 +2904,7 @@
     "name": "William Wharton",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2691,6 +2925,7 @@
     "name": "Margaret White",
     "gender": "Female",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2722,6 +2957,7 @@
     "name": "Annie Wilkes",
     "gender": "Female",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2745,6 +2981,7 @@
     "name": "Tim Youngblood",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2764,6 +3001,7 @@
     "name": "Al Bradley",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2789,6 +3027,7 @@
     "name": "Andrew Freeman",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2812,6 +3051,7 @@
     "name": "Andrew Halliday",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2837,6 +3077,7 @@
     "name": "Ardelia Lortz",
     "gender": "Female",
     "status": "Deceased",
+    "death": null,
     "types_id": 3,
     "group": false,
     "appears_in": [
@@ -2858,6 +3099,7 @@
     "name": "Atropos",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 3,
     "group": false,
     "appears_in": [
@@ -2877,6 +3119,7 @@
     "name": "Barry",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 2,
     "group": false,
     "appears_in": [
@@ -2901,6 +3144,7 @@
     "name": "Bern Kells",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2921,6 +3165,7 @@
     "name": "Billy Tessio",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2944,6 +3189,7 @@
     "name": "Boogeyman",
     "gender": null,
     "status": "Alive",
+    "death": null,
     "types_id": 3,
     "group": false,
     "appears_in": [
@@ -2964,6 +3210,7 @@
     "name": "Buddy Repperton",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -2989,6 +3236,7 @@
     "name": "Charlie Hogan",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -3012,6 +3260,7 @@
     "name": "Chet Ondowsky",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 3,
     "group": false,
     "appears_in": [
@@ -3034,6 +3283,7 @@
     "name": "Clay Reynolds",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -3053,6 +3303,7 @@
     "name": "Collie Entragian",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -3075,6 +3326,7 @@
     "name": "Crow Daddy",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 2,
     "group": false,
     "appears_in": [
@@ -3099,6 +3351,7 @@
     "name": "Cthun",
     "gender": null,
     "status": "Alive",
+    "death": null,
     "types_id": 3,
     "group": false,
     "appears_in": [
@@ -3118,6 +3371,7 @@
     "name": "Dr. Hendricks",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -3142,6 +3396,7 @@
     "name": "Emily Harris",
     "gender": "Female",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -3164,6 +3419,7 @@
     "name": "Frank Dunning",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -3186,6 +3442,7 @@
     "name": "Frankie Stone",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -3207,6 +3464,7 @@
     "name": "George Bradley",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -3232,6 +3490,7 @@
     "name": "Grampa Flick",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 2,
     "group": false,
     "appears_in": [
@@ -3254,6 +3513,7 @@
     "name": "Harley Bissington",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -3275,6 +3535,7 @@
     "name": "He Who Walks Behind the Rows",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 3,
     "group": false,
     "appears_in": [
@@ -3297,6 +3558,7 @@
     "name": "Jenny Engstrom",
     "gender": "Female",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -3317,6 +3579,7 @@
     "name": "Jim Pickering",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -3335,6 +3598,7 @@
     "name": "Jimmy Numbers",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 2,
     "group": false,
     "appears_in": [
@@ -3357,6 +3621,7 @@
     "name": "Joe Brinks",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -3380,6 +3645,7 @@
     "name": "John Shooter",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -3397,6 +3663,7 @@
     "name": "Julia Sigsby",
     "gender": "Female",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -3422,6 +3689,7 @@
     "name": "Julie Lawry",
     "gender": "Female",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -3446,6 +3714,7 @@
     "name": "Langoliers",
     "gender": null,
     "status": "Alive",
+    "death": null,
     "types_id": 3,
     "group": true,
     "appears_in": [
@@ -3464,6 +3733,7 @@
     "name": "Lee",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -3483,6 +3753,7 @@
     "name": "Maine Legion of White Decency",
     "gender": null,
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": true,
     "appears_in": [
@@ -3506,6 +3777,7 @@
     "name": "Marc Lamonica",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -3526,6 +3798,7 @@
     "name": "Milo Pressman",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -3547,6 +3820,7 @@
     "name": "Monkey",
     "gender": null,
     "status": "Alive",
+    "death": null,
     "types_id": 6,
     "group": false,
     "appears_in": [
@@ -3570,6 +3844,7 @@
     "name": "Moochie Welch",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -3592,6 +3867,7 @@
     "name": "Morgan Sloat",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -3612,6 +3888,7 @@
     "name": "Morris Bellamy",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -3634,6 +3911,7 @@
     "name": "Mr. Gray",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 4,
     "group": false,
     "appears_in": [
@@ -3653,6 +3931,7 @@
     "name": "Mrs. Carmody",
     "gender": "Female",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -3675,6 +3954,7 @@
     "name": "Norman Bracowicz",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -3699,6 +3979,7 @@
     "name": "Priscilla (The Institute)",
     "gender": "Female",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -3721,6 +4002,7 @@
     "name": "Richard Chambers",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -3744,6 +4026,7 @@
     "name": "Rodney Harris",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -3766,6 +4049,7 @@
     "name": "Roger the Dog Man",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 7,
     "group": false,
     "appears_in": [
@@ -3791,6 +4075,7 @@
     "name": "Roy Depape",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -3810,6 +4095,7 @@
     "name": "Snakebite Andi",
     "gender": "Female",
     "status": "Deceased",
+    "death": null,
     "types_id": 2,
     "group": false,
     "appears_in": [
@@ -3835,6 +4121,7 @@
     "name": "Tak",
     "gender": null,
     "status": "Alive",
+    "death": null,
     "types_id": 3,
     "group": false,
     "appears_in": [
@@ -3860,6 +4147,7 @@
     "name": "The Children",
     "gender": null,
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": true,
     "appears_in": [
@@ -3878,6 +4166,7 @@
     "name": "The Mangler (character)",
     "gender": null,
     "status": "Alive",
+    "death": null,
     "types_id": 6,
     "group": false,
     "appears_in": [
@@ -3896,6 +4185,7 @@
     "name": "The Mist (phenomenon)",
     "gender": null,
     "status": "Alive",
+    "death": null,
     "types_id": 3,
     "group": false,
     "appears_in": [
@@ -3915,6 +4205,7 @@
     "name": "Todd Bowden",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -3934,6 +4225,7 @@
     "name": "Tommy Erbter",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -3958,6 +4250,7 @@
     "name": "Tony Fizzale",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -3982,6 +4275,7 @@
     "name": "Trevor Stackhouse",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -4006,6 +4300,7 @@
     "name": "Vince Desjardins",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -4029,6 +4324,7 @@
     "name": "Walnut",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 2,
     "group": false,
     "appears_in": [
@@ -4051,6 +4347,7 @@
     "name": "Winona Briggs",
     "gender": "Female",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -4071,6 +4368,7 @@
     "name": "Zeke Ionidis",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -4096,6 +4394,7 @@
     "name": "Andy",
     "gender": null,
     "status": "Deceased",
+    "death": null,
     "types_id": 6,
     "group": false,
     "appears_in": [
@@ -4113,6 +4412,7 @@
     "name": "Ben Slightman",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -4134,6 +4434,7 @@
     "name": "Charlie Decker",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -4151,6 +4452,7 @@
     "name": "Don Peters",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -4166,6 +4468,7 @@
     "name": "Eric Blass",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -4181,6 +4484,7 @@
     "name": "Flight Killer",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 3,
     "group": false,
     "appears_in": [
@@ -4196,6 +4500,7 @@
     "name": "Frank Geary",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -4211,6 +4516,7 @@
     "name": "Gareth Winston",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -4226,6 +4532,7 @@
     "name": "God of the Lost",
     "gender": null,
     "status": "Alive",
+    "death": null,
     "types_id": 3,
     "group": false,
     "appears_in": [
@@ -4241,6 +4548,7 @@
     "name": "Gogmagog",
     "gender": null,
     "status": "Alive",
+    "death": null,
     "types_id": 3,
     "group": false,
     "appears_in": [
@@ -4256,6 +4564,7 @@
     "name": "Jim Dooley",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -4277,6 +4586,7 @@
     "name": "Kenneth Therriault",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 7,
     "group": false,
     "appears_in": [
@@ -4292,6 +4602,7 @@
     "name": "Liz Dutton",
     "gender": "Female",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -4307,6 +4618,7 @@
     "name": "Long Boy",
     "gender": null,
     "status": "Alive",
+    "death": null,
     "types_id": 3,
     "group": false,
     "appears_in": [
@@ -4327,6 +4639,7 @@
     "name": "Max Devore",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -4342,6 +4655,7 @@
     "name": "Nick Majarian",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -4357,6 +4671,7 @@
     "name": "Perse",
     "gender": "Female",
     "status": "Alive",
+    "death": null,
     "types_id": 3,
     "group": false,
     "appears_in": [
@@ -4372,6 +4687,7 @@
     "name": "Roger Klerke",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -4387,6 +4703,7 @@
     "name": "Rogette Whitmore",
     "gender": "Female",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -4402,6 +4719,7 @@
     "name": "Sara Tidwell",
     "gender": "Female",
     "status": "Deceased",
+    "death": null,
     "types_id": 7,
     "group": false,
     "appears_in": [
@@ -4421,6 +4739,7 @@
     "name": "Taduz Lemke",
     "gender": "Male",
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -4436,6 +4755,7 @@
     "name": "Terry Coombs",
     "gender": "Male",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [
@@ -4451,6 +4771,7 @@
     "name": "The Hitler Brothers",
     "gender": null,
     "status": "Alive",
+    "death": null,
     "types_id": 1,
     "group": true,
     "appears_in": [
@@ -4466,6 +4787,7 @@
     "name": "Wolves of Thunderclap",
     "gender": null,
     "status": "Deceased",
+    "death": null,
     "types_id": 6,
     "group": true,
     "appears_in": [
@@ -4481,6 +4803,7 @@
     "name": "Nadine Cross",
     "gender": "Female",
     "status": "Deceased",
+    "death": null,
     "types_id": 1,
     "group": false,
     "appears_in": [

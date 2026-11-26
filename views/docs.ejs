@@ -443,6 +443,12 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
           <p>
             Villain responses include <code>books</code> and <code>shorts</code> arrays (instead of a <code>villains</code> array) linking to the works they appear in, a <code>residence</code> array linking to where they live, and their <code>type</code> and <code>kinds</code>. A <code>group</code> villain is a set of villains, such as a gang, a cult or a race.
           </p>
+          <p>
+            A villain's <code>death</code> says how it died: the <code>cause</code>, the <code>work</code> it happens in, and who it was <code>killed_by</code>, which is empty when nobody killed it. A killer the API has a record of links to it. Anyone else, such as a hero, has a <code>name</code> and a <code>url</code> of <code>null</code> until there's a record to link. A group of killers, such as the Losers' Club, lists its <code>members</code> the same way. Each villain also lists the villains it <code>killed</code>, alone or in a group.
+          </p>
+          <p>
+            <code>death</code> is <code>null</code> for a villain who's alive, and for a dead one whose death isn't recorded yet. Deaths are being added a few books at a time.
+          </p>
 
           <!-- GET /api/villains -->
           <div class="endpoint-card">
@@ -463,6 +469,7 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
       "name": "Bob Anderson",
       "gender": "Male",
       "status": "Deceased",
+      "death": null,
       "types_id": 1,
       "group": false,
       "notes": [
@@ -496,7 +503,8 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
         "name": "Human",
         "url": "<%= url %>/api/type/1"
       },
-      "kinds": []
+      "kinds": [],
+      "killed": []
     }
   ],
   "pagination": {
@@ -526,6 +534,23 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
     "name": "Kurt Barlow",
     "gender": "Male",
     "status": "Deceased",
+    "death": {
+      "cause": "Staked through the heart",
+      "work": {
+        "title": "Salem's Lot",
+        "url": "<%= url %>/api/book/2"
+      },
+      "killed_by": [
+        {
+          "name": "Ben Mears",
+          "url": null
+        },
+        {
+          "name": "Mark Petrie",
+          "url": null
+        }
+      ]
+    },
     "types_id": 2,
     "group": false,
     "notes": [
@@ -557,6 +582,12 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
       {
         "name": "Type One vampire",
         "url": "<%= url %>/api/type/11"
+      }
+    ],
+    "killed": [
+      {
+        "name": "Richard Straker",
+        "url": "<%= url %>/api/villain/98"
       }
     ]
   }
@@ -1270,6 +1301,11 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
                 <td><code>"Deceased"</code> or <code>"Alive"</code></td>
               </tr>
               <tr>
+                <td><code>death</code></td>
+                <td>object?</td>
+                <td>How the villain died: <code>cause</code>, the <code>work</code> it happens in (title and URL), and <code>killed_by</code>, the killers with name and URL (<code>null</code> for someone with no record yet) and a group's <code>members</code>. <code>null</code> if the villain is alive or its death isn't recorded yet</td>
+              </tr>
+              <tr>
                 <td><code>types_id</code></td>
                 <td>integer</td>
                 <td>Id of the villain's broad type (see <code>type</code>)</td>
@@ -1308,6 +1344,11 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
                 <td><code>kinds</code></td>
                 <td>array</td>
                 <td>Kinds from the stories the villain belongs to, such as the True Knot, with name and URL</td>
+              </tr>
+              <tr>
+                <td><code>killed</code></td>
+                <td>array</td>
+                <td>Villains this villain killed, alone or in a group, with name and URL</td>
               </tr>
               <tr>
                 <td><code>created_at</code></td>

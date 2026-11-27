@@ -803,6 +803,70 @@
           {
             "name": "Vicky Tomlinson",
             "url": "https://stephen-king-api.onrender.com/api/character/248"
+          },
+          {
+            "name": "Barton George Dawes",
+            "url": "https://stephen-king-api.onrender.com/api/character/249"
+          },
+          {
+            "name": "Mary Dawes",
+            "url": "https://stephen-king-api.onrender.com/api/character/250"
+          },
+          {
+            "name": "Olivia Brenner",
+            "url": "https://stephen-king-api.onrender.com/api/character/251"
+          },
+          {
+            "name": "Salvatore Magliore",
+            "url": "https://stephen-king-api.onrender.com/api/character/252"
+          },
+          {
+            "name": "Donna Trenton",
+            "url": "https://stephen-king-api.onrender.com/api/character/253"
+          },
+          {
+            "name": "Vic Trenton",
+            "url": "https://stephen-king-api.onrender.com/api/character/254"
+          },
+          {
+            "name": "Tad Trenton",
+            "url": "https://stephen-king-api.onrender.com/api/character/255"
+          },
+          {
+            "name": "Joe Camber",
+            "url": "https://stephen-king-api.onrender.com/api/character/256"
+          },
+          {
+            "name": "Charity Camber",
+            "url": "https://stephen-king-api.onrender.com/api/character/257"
+          },
+          {
+            "name": "Brett Camber",
+            "url": "https://stephen-king-api.onrender.com/api/character/258"
+          },
+          {
+            "name": "Steve Kemp",
+            "url": "https://stephen-king-api.onrender.com/api/character/259"
+          },
+          {
+            "name": "Gary Pervier",
+            "url": "https://stephen-king-api.onrender.com/api/character/260"
+          },
+          {
+            "name": "Ben Richards",
+            "url": "https://stephen-king-api.onrender.com/api/character/261"
+          },
+          {
+            "name": "Evan McCone",
+            "url": "https://stephen-king-api.onrender.com/api/villain/262"
+          },
+          {
+            "name": "Amelia Williams",
+            "url": "https://stephen-king-api.onrender.com/api/character/263"
+          },
+          {
+            "name": "Sheila Richards",
+            "url": "https://stephen-king-api.onrender.com/api/character/264"
           }
         ],
         "villains": [
@@ -1409,6 +1473,10 @@
           {
             "name": "Nadine Cross",
             "url": "https://stephen-king-api.onrender.com/api/villain/201"
+          },
+          {
+            "name": "Evan McCone",
+            "url": "https://stephen-king-api.onrender.com/api/villain/262"
           }
         ]
       },

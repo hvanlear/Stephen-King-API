@@ -875,7 +875,7 @@
           {
             "title": "Cujo",
             "url": "https://stephen-king-api.onrender.com/api/book/10",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -2697,7 +2697,7 @@
           {
             "title": "The Running Man",
             "url": "https://stephen-king-api.onrender.com/api/book/11",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -9404,6 +9404,495 @@
             "url": "https://stephen-king-api.onrender.com/api/place/71"
           }
         ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 249,
+        "name": "Barton George Dawes",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:01:26.000Z",
+        "books": [
+          {
+            "title": "Roadwork",
+            "url": "https://stephen-king-api.onrender.com/api/book/9",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 250,
+        "name": "Mary Dawes",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:01:26.000Z",
+        "books": [
+          {
+            "title": "Roadwork",
+            "url": "https://stephen-king-api.onrender.com/api/book/9",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 251,
+        "name": "Olivia Brenner",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:01:26.000Z",
+        "books": [
+          {
+            "title": "Roadwork",
+            "url": "https://stephen-king-api.onrender.com/api/book/9",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 252,
+        "name": "Salvatore Magliore",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:01:26.000Z",
+        "books": [
+          {
+            "title": "Roadwork",
+            "url": "https://stephen-king-api.onrender.com/api/book/9",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 253,
+        "name": "Donna Trenton",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:01:26.000Z",
+        "books": [
+          {
+            "title": "Cujo",
+            "url": "https://stephen-king-api.onrender.com/api/book/10",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 254,
+        "name": "Vic Trenton",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:01:26.000Z",
+        "books": [
+          {
+            "title": "Cujo",
+            "url": "https://stephen-king-api.onrender.com/api/book/10",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Rattlesnakes",
+            "url": "https://stephen-king-api.onrender.com/api/short/217",
+            "role": "protagonist"
+          }
+        ],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 255,
+        "name": "Tad Trenton",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:01:26.000Z",
+        "books": [
+          {
+            "title": "Cujo",
+            "url": "https://stephen-king-api.onrender.com/api/book/10",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 256,
+        "name": "Joe Camber",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:01:26.000Z",
+        "books": [
+          {
+            "title": "Cujo",
+            "url": "https://stephen-king-api.onrender.com/api/book/10",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 257,
+        "name": "Charity Camber",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:01:26.000Z",
+        "books": [
+          {
+            "title": "Cujo",
+            "url": "https://stephen-king-api.onrender.com/api/book/10",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 258,
+        "name": "Brett Camber",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:01:26.000Z",
+        "books": [
+          {
+            "title": "Cujo",
+            "url": "https://stephen-king-api.onrender.com/api/book/10",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 259,
+        "name": "Steve Kemp",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:01:26.000Z",
+        "books": [
+          {
+            "title": "Cujo",
+            "url": "https://stephen-king-api.onrender.com/api/book/10",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 260,
+        "name": "Gary Pervier",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:01:26.000Z",
+        "books": [
+          {
+            "title": "Cujo",
+            "url": "https://stephen-king-api.onrender.com/api/book/10",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 261,
+        "name": "Ben Richards",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:01:26.000Z",
+        "books": [
+          {
+            "title": "The Running Man",
+            "url": "https://stephen-king-api.onrender.com/api/book/11",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 262,
+        "name": "Evan McCone",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:01:26.000Z",
+        "books": [
+          {
+            "title": "The Running Man",
+            "url": "https://stephen-king-api.onrender.com/api/book/11",
+            "role": "antagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 263,
+        "name": "Amelia Williams",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:01:26.000Z",
+        "books": [
+          {
+            "title": "The Running Man",
+            "url": "https://stephen-king-api.onrender.com/api/book/11",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 264,
+        "name": "Sheila Richards",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:01:26.000Z",
+        "books": [
+          {
+            "title": "The Running Man",
+            "url": "https://stephen-king-api.onrender.com/api/book/11",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
         "type": {
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"

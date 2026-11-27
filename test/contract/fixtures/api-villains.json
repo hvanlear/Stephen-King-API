@@ -875,7 +875,7 @@
           {
             "title": "Cujo",
             "url": "https://stephen-king-api.onrender.com/api/book/10",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -2697,7 +2697,7 @@
           {
             "title": "The Running Man",
             "url": "https://stephen-king-api.onrender.com/api/book/11",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -7726,6 +7726,34 @@
             "title": "The Stand Uncut",
             "url": "https://stephen-king-api.onrender.com/api/book/24",
             "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 262,
+        "name": "Evan McCone",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:01:26.000Z",
+        "books": [
+          {
+            "title": "The Running Man",
+            "url": "https://stephen-king-api.onrender.com/api/book/11",
+            "role": "antagonist"
           }
         ],
         "shorts": [],

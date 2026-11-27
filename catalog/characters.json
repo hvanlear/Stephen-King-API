@@ -562,7 +562,7 @@
     "types_id": 8,
     "group": false,
     "appears_in": {
-      "cujo": null
+      "cujo": "antagonist"
     },
     "residence": [
       "castle-rock-maine"
@@ -1736,7 +1736,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-running-man": null
+      "the-running-man": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -5950,5 +5950,292 @@
     "kinds": [],
     "notes": [],
     "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 249,
+    "name": "Barton George Dawes",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "roadwork": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 250,
+    "name": "Mary Dawes",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "roadwork": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 251,
+    "name": "Olivia Brenner",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "roadwork": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 252,
+    "name": "Salvatore Magliore",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "roadwork": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 253,
+    "name": "Donna Trenton",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cujo": "protagonist"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 254,
+    "name": "Vic Trenton",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cujo": "protagonist",
+      "rattlesnakes": "protagonist"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 255,
+    "name": "Tad Trenton",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cujo": "supporting"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 256,
+    "name": "Joe Camber",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cujo": "supporting"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 257,
+    "name": "Charity Camber",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cujo": "supporting"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 258,
+    "name": "Brett Camber",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cujo": "supporting"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 259,
+    "name": "Steve Kemp",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cujo": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 260,
+    "name": "Gary Pervier",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cujo": "minor"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 261,
+    "name": "Ben Richards",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-running-man": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 262,
+    "name": "Evan McCone",
+    "villain": true,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-running-man": "antagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 263,
+    "name": "Amelia Williams",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-running-man": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 264,
+    "name": "Sheila Richards",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-running-man": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
   }
 ]

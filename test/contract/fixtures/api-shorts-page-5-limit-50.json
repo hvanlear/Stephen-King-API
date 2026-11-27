@@ -411,9 +411,21 @@
         ],
         "year": 2024,
         "created_at": "2026-10-28T18:48:53.000Z",
-        "characters": [],
+        "characters": [
+          {
+            "name": "Vic Trenton",
+            "url": "https://stephen-king-api.onrender.com/api/character/254",
+            "role": "protagonist"
+          }
+        ],
         "villains": [],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Vic Trenton",
+            "url": "https://stephen-king-api.onrender.com/api/character/254",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Rattlesnake Key",

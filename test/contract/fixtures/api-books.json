@@ -1099,9 +1099,36 @@
           "Published under pseudonym Richard Bachman"
         ],
         "created_at": "2023-11-13T23:48:49.005Z",
-        "characters": [],
+        "characters": [
+          {
+            "name": "Barton George Dawes",
+            "url": "https://stephen-king-api.onrender.com/api/character/249",
+            "role": "protagonist"
+          },
+          {
+            "name": "Mary Dawes",
+            "url": "https://stephen-king-api.onrender.com/api/character/250",
+            "role": "supporting"
+          },
+          {
+            "name": "Olivia Brenner",
+            "url": "https://stephen-king-api.onrender.com/api/character/251",
+            "role": "supporting"
+          },
+          {
+            "name": "Salvatore Magliore",
+            "url": "https://stephen-king-api.onrender.com/api/character/252",
+            "role": "supporting"
+          }
+        ],
         "villains": [],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Barton George Dawes",
+            "url": "https://stephen-king-api.onrender.com/api/character/249",
+            "role": "protagonist"
+          }
+        ],
         "places": [],
         "collection": null
       },
@@ -1122,22 +1149,73 @@
           {
             "name": "Cujo",
             "url": "https://stephen-king-api.onrender.com/api/villain/19",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "George Bannerman",
             "url": "https://stephen-king-api.onrender.com/api/character/241",
             "role": "supporting"
+          },
+          {
+            "name": "Donna Trenton",
+            "url": "https://stephen-king-api.onrender.com/api/character/253",
+            "role": "protagonist"
+          },
+          {
+            "name": "Vic Trenton",
+            "url": "https://stephen-king-api.onrender.com/api/character/254",
+            "role": "protagonist"
+          },
+          {
+            "name": "Tad Trenton",
+            "url": "https://stephen-king-api.onrender.com/api/character/255",
+            "role": "supporting"
+          },
+          {
+            "name": "Joe Camber",
+            "url": "https://stephen-king-api.onrender.com/api/character/256",
+            "role": "supporting"
+          },
+          {
+            "name": "Charity Camber",
+            "url": "https://stephen-king-api.onrender.com/api/character/257",
+            "role": "supporting"
+          },
+          {
+            "name": "Brett Camber",
+            "url": "https://stephen-king-api.onrender.com/api/character/258",
+            "role": "supporting"
+          },
+          {
+            "name": "Steve Kemp",
+            "url": "https://stephen-king-api.onrender.com/api/character/259",
+            "role": "supporting"
+          },
+          {
+            "name": "Gary Pervier",
+            "url": "https://stephen-king-api.onrender.com/api/character/260",
+            "role": "minor"
           }
         ],
         "villains": [
           {
             "name": "Cujo",
             "url": "https://stephen-king-api.onrender.com/api/villain/19",
-            "role": null
+            "role": "antagonist"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Donna Trenton",
+            "url": "https://stephen-king-api.onrender.com/api/character/253",
+            "role": "protagonist"
+          },
+          {
+            "name": "Vic Trenton",
+            "url": "https://stephen-king-api.onrender.com/api/character/254",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Maine",
@@ -1171,7 +1249,27 @@
           {
             "name": "Damon Killian",
             "url": "https://stephen-king-api.onrender.com/api/villain/63",
-            "role": null
+            "role": "antagonist"
+          },
+          {
+            "name": "Ben Richards",
+            "url": "https://stephen-king-api.onrender.com/api/character/261",
+            "role": "protagonist"
+          },
+          {
+            "name": "Evan McCone",
+            "url": "https://stephen-king-api.onrender.com/api/villain/262",
+            "role": "antagonist"
+          },
+          {
+            "name": "Amelia Williams",
+            "url": "https://stephen-king-api.onrender.com/api/character/263",
+            "role": "supporting"
+          },
+          {
+            "name": "Sheila Richards",
+            "url": "https://stephen-king-api.onrender.com/api/character/264",
+            "role": "minor"
           }
         ],
         "villains": [
@@ -1183,10 +1281,21 @@
           {
             "name": "Damon Killian",
             "url": "https://stephen-king-api.onrender.com/api/villain/63",
-            "role": null
+            "role": "antagonist"
+          },
+          {
+            "name": "Evan McCone",
+            "url": "https://stephen-king-api.onrender.com/api/villain/262",
+            "role": "antagonist"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Ben Richards",
+            "url": "https://stephen-king-api.onrender.com/api/character/261",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Maine",

@@ -17,6 +17,9 @@ interface Config {
   api: string;
 }
 
+// The home page's own title, which the server gives a page with no ?focus
+const SITE = "Stephen King API";
+
 const root = document.querySelector<HTMLElement>("[data-graph]");
 const configEl = document.getElementById("graph-config");
 
@@ -51,14 +54,19 @@ function start(root: HTMLElement, stage: HTMLElement, g: Graph, config: Config) 
     panel.highlight(i);
   };
 
-  const show = (i: number, how: "push" | "pop" | "start", viaKeyboard = false) => {
+  // The tab names the record only when the address does. The home page opens
+  // on an example record, but its tab still reads as the home page, as the
+  // server rendered it. Each history entry keeps its title for Back.
+  const titleOf = (i: number) => `${g.nodes[i].name} · ${SITE}`;
+
+  const show = (i: number, how: "push" | "pop" | "start", viaKeyboard = false, title = titleOf(i)) => {
     focus = i;
     const n = g.nodes[i];
     view.setFocus(i, how !== "start");
     panel.show(i);
     stage.setAttribute("aria-label", `Links of ${n.name}. Arrow keys move around the ring.`);
-    document.title = `${n.name} · Stephen King API`;
-    if (how === "push") history.pushState({ focus: n.key }, "", href(i));
+    if (how !== "start") document.title = title;
+    if (how === "push") history.pushState({ focus: n.key, title }, "", href(i));
     if (viaKeyboard) view.focusCentre();
   };
   const go = (i: number, viaKeyboard = false) => {
@@ -118,12 +126,17 @@ function start(root: HTMLElement, stage: HTMLElement, g: Graph, config: Config) 
   });
 
   window.addEventListener("popstate", (e) => {
-    const key = (e.state && e.state.focus) || new URLSearchParams(location.search).get("focus") || config.focus;
+    const params = new URLSearchParams(location.search);
+    const key = (e.state && e.state.focus) || params.get("focus") || config.focus;
     const i = g.byKey.get(key);
-    if (i !== undefined && i !== focus) show(i, "pop");
+    if (i === undefined) return;
+    // An entry with no title saved names its record if its address does
+    const title = (e.state && e.state.title) || (params.has("focus") ? titleOf(i) : SITE);
+    if (i !== focus) show(i, "pop", false, title);
+    else document.title = title;
   });
 
   root.classList.add("is-live");
-  history.replaceState({ focus: g.nodes[focus].key }, "", location.href);
+  history.replaceState({ focus: g.nodes[focus].key, title: document.title }, "", location.href);
   show(focus, "start");
 }

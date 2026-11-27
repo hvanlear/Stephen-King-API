@@ -1249,7 +1249,7 @@
           {
             "title": "Holly",
             "url": "https://stephen-king-api.onrender.com/api/book/75",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -2259,7 +2259,7 @@
           {
             "title": "Holly",
             "url": "https://stephen-king-api.onrender.com/api/book/75",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -2992,7 +2992,7 @@
           {
             "title": "Fairy Tale",
             "url": "https://stephen-king-api.onrender.com/api/book/74",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3048,7 +3048,7 @@
           {
             "title": "Gwendy's Final Task",
             "url": "https://stephen-king-api.onrender.com/api/book/73",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3104,7 +3104,7 @@
           {
             "title": "Fairy Tale",
             "url": "https://stephen-king-api.onrender.com/api/book/74",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3533,7 +3533,7 @@
     "pagination": {
       "page": 2,
       "limit": 100,
-      "total": 514,
+      "total": 525,
       "totalPages": 6
     }
   }

@@ -3533,7 +3533,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "holly": null
+      "holly": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -4191,7 +4191,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "holly": null
+      "holly": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -4672,7 +4672,7 @@
     "types_id": 3,
     "group": false,
     "appears_in": {
-      "fairy-tale": null
+      "fairy-tale": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -4706,7 +4706,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "gwendy-s-final-task": null
+      "gwendy-s-final-task": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -4740,7 +4740,7 @@
     "types_id": 3,
     "group": false,
     "appears_in": {
-      "fairy-tale": null
+      "fairy-tale": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -10893,5 +10893,192 @@
     "kinds": [],
     "notes": [],
     "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 515,
+    "name": "Charlotte Morgan",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "gwendy-s-final-task": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:32:17.000Z"
+  },
+  {
+    "id": 516,
+    "name": "Charlie Reade",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "fairy-tale": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:32:17.000Z"
+  },
+  {
+    "id": 517,
+    "name": "Howard Bowditch",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "fairy-tale": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:32:17.000Z"
+  },
+  {
+    "id": 518,
+    "name": "Radar",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 8,
+    "group": false,
+    "appears_in": {
+      "fairy-tale": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:32:17.000Z"
+  },
+  {
+    "id": 519,
+    "name": "George Reade",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "fairy-tale": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:32:17.000Z"
+  },
+  {
+    "id": 520,
+    "name": "Leah",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "fairy-tale": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:32:17.000Z"
+  },
+  {
+    "id": 521,
+    "name": "Penelope Dahl",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "holly": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:32:17.000Z"
+  },
+  {
+    "id": 522,
+    "name": "Bonnie Dahl",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "holly": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:32:17.000Z"
+  },
+  {
+    "id": 523,
+    "name": "Charlotte Gibney",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "holly": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:32:17.000Z"
+  },
+  {
+    "id": 524,
+    "name": "Izzy Jaynes",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "never-flinch": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:32:17.000Z"
+  },
+  {
+    "id": 525,
+    "name": "Kate McKay",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "never-flinch": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:32:17.000Z"
   }
 ]

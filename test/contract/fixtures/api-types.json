@@ -1847,6 +1847,46 @@
           {
             "name": "Alice Maxwell (Billy Summers)",
             "url": "https://stephen-king-api.onrender.com/api/character/514"
+          },
+          {
+            "name": "Charlotte Morgan",
+            "url": "https://stephen-king-api.onrender.com/api/character/515"
+          },
+          {
+            "name": "Charlie Reade",
+            "url": "https://stephen-king-api.onrender.com/api/character/516"
+          },
+          {
+            "name": "Howard Bowditch",
+            "url": "https://stephen-king-api.onrender.com/api/character/517"
+          },
+          {
+            "name": "George Reade",
+            "url": "https://stephen-king-api.onrender.com/api/character/519"
+          },
+          {
+            "name": "Leah",
+            "url": "https://stephen-king-api.onrender.com/api/character/520"
+          },
+          {
+            "name": "Penelope Dahl",
+            "url": "https://stephen-king-api.onrender.com/api/character/521"
+          },
+          {
+            "name": "Bonnie Dahl",
+            "url": "https://stephen-king-api.onrender.com/api/character/522"
+          },
+          {
+            "name": "Charlotte Gibney",
+            "url": "https://stephen-king-api.onrender.com/api/character/523"
+          },
+          {
+            "name": "Izzy Jaynes",
+            "url": "https://stephen-king-api.onrender.com/api/character/524"
+          },
+          {
+            "name": "Kate McKay",
+            "url": "https://stephen-king-api.onrender.com/api/character/525"
           }
         ],
         "villains": [
@@ -3006,6 +3046,10 @@
           {
             "name": "Mr. Jingles",
             "url": "https://stephen-king-api.onrender.com/api/character/355"
+          },
+          {
+            "name": "Radar",
+            "url": "https://stephen-king-api.onrender.com/api/character/518"
           }
         ],
         "villains": [

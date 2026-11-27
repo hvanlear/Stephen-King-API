@@ -5419,7 +5419,7 @@
           {
             "title": "Holly",
             "url": "https://stephen-king-api.onrender.com/api/book/75",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -6429,7 +6429,7 @@
           {
             "title": "Holly",
             "url": "https://stephen-king-api.onrender.com/api/book/75",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -7162,7 +7162,7 @@
           {
             "title": "Fairy Tale",
             "url": "https://stephen-king-api.onrender.com/api/book/74",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -7218,7 +7218,7 @@
           {
             "title": "Gwendy's Final Task",
             "url": "https://stephen-king-api.onrender.com/api/book/73",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -7274,7 +7274,7 @@
           {
             "title": "Fairy Tale",
             "url": "https://stephen-king-api.onrender.com/api/book/74",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -18273,6 +18273,314 @@
           {
             "title": "Billy Summers",
             "url": "https://stephen-king-api.onrender.com/api/book/63",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 515,
+        "name": "Charlotte Morgan",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:32:17.000Z",
+        "books": [
+          {
+            "title": "Gwendy's Final Task",
+            "url": "https://stephen-king-api.onrender.com/api/book/73",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 516,
+        "name": "Charlie Reade",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:32:17.000Z",
+        "books": [
+          {
+            "title": "Fairy Tale",
+            "url": "https://stephen-king-api.onrender.com/api/book/74",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 517,
+        "name": "Howard Bowditch",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:32:17.000Z",
+        "books": [
+          {
+            "title": "Fairy Tale",
+            "url": "https://stephen-king-api.onrender.com/api/book/74",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 518,
+        "name": "Radar",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 8,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:32:17.000Z",
+        "books": [
+          {
+            "title": "Fairy Tale",
+            "url": "https://stephen-king-api.onrender.com/api/book/74",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Animal",
+          "url": "https://stephen-king-api.onrender.com/api/type/8"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 519,
+        "name": "George Reade",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:32:17.000Z",
+        "books": [
+          {
+            "title": "Fairy Tale",
+            "url": "https://stephen-king-api.onrender.com/api/book/74",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 520,
+        "name": "Leah",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:32:17.000Z",
+        "books": [
+          {
+            "title": "Fairy Tale",
+            "url": "https://stephen-king-api.onrender.com/api/book/74",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 521,
+        "name": "Penelope Dahl",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:32:17.000Z",
+        "books": [
+          {
+            "title": "Holly",
+            "url": "https://stephen-king-api.onrender.com/api/book/75",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 522,
+        "name": "Bonnie Dahl",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:32:17.000Z",
+        "books": [
+          {
+            "title": "Holly",
+            "url": "https://stephen-king-api.onrender.com/api/book/75",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 523,
+        "name": "Charlotte Gibney",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:32:17.000Z",
+        "books": [
+          {
+            "title": "Holly",
+            "url": "https://stephen-king-api.onrender.com/api/book/75",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 524,
+        "name": "Izzy Jaynes",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:32:17.000Z",
+        "books": [
+          {
+            "title": "Never Flinch",
+            "url": "https://stephen-king-api.onrender.com/api/book/76",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 525,
+        "name": "Kate McKay",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:32:17.000Z",
+        "books": [
+          {
+            "title": "Never Flinch",
+            "url": "https://stephen-king-api.onrender.com/api/book/76",
             "role": "supporting"
           }
         ],

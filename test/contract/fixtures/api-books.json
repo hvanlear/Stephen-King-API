@@ -6860,7 +6860,7 @@
           {
             "name": "Gareth Winston",
             "url": "https://stephen-king-api.onrender.com/api/villain/184",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Norris Ridgewick",
@@ -6876,13 +6876,18 @@
             "name": "Richard Farris",
             "url": "https://stephen-king-api.onrender.com/api/character/482",
             "role": "supporting"
+          },
+          {
+            "name": "Charlotte Morgan",
+            "url": "https://stephen-king-api.onrender.com/api/character/515",
+            "role": "supporting"
           }
         ],
         "villains": [
           {
             "name": "Gareth Winston",
             "url": "https://stephen-king-api.onrender.com/api/villain/184",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "protagonists": [
@@ -6926,27 +6931,58 @@
           {
             "name": "Flight Killer",
             "url": "https://stephen-king-api.onrender.com/api/villain/182",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Gogmagog",
             "url": "https://stephen-king-api.onrender.com/api/villain/186",
-            "role": null
+            "role": "antagonist"
+          },
+          {
+            "name": "Charlie Reade",
+            "url": "https://stephen-king-api.onrender.com/api/character/516",
+            "role": "protagonist"
+          },
+          {
+            "name": "Howard Bowditch",
+            "url": "https://stephen-king-api.onrender.com/api/character/517",
+            "role": "supporting"
+          },
+          {
+            "name": "Radar",
+            "url": "https://stephen-king-api.onrender.com/api/character/518",
+            "role": "supporting"
+          },
+          {
+            "name": "George Reade",
+            "url": "https://stephen-king-api.onrender.com/api/character/519",
+            "role": "supporting"
+          },
+          {
+            "name": "Leah",
+            "url": "https://stephen-king-api.onrender.com/api/character/520",
+            "role": "supporting"
           }
         ],
         "villains": [
           {
             "name": "Flight Killer",
             "url": "https://stephen-king-api.onrender.com/api/villain/182",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Gogmagog",
             "url": "https://stephen-king-api.onrender.com/api/villain/186",
-            "role": null
+            "role": "antagonist"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Charlie Reade",
+            "url": "https://stephen-king-api.onrender.com/api/character/516",
+            "role": "protagonist"
+          }
+        ],
         "places": [],
         "collection": null
       },
@@ -6964,12 +7000,12 @@
           {
             "name": "Emily Harris",
             "url": "https://stephen-king-api.onrender.com/api/villain/133",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Rodney Harris",
             "url": "https://stephen-king-api.onrender.com/api/villain/161",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Holly Gibney",
@@ -6985,18 +7021,33 @@
             "name": "Barbara Robinson",
             "url": "https://stephen-king-api.onrender.com/api/character/469",
             "role": "supporting"
+          },
+          {
+            "name": "Penelope Dahl",
+            "url": "https://stephen-king-api.onrender.com/api/character/521",
+            "role": "supporting"
+          },
+          {
+            "name": "Bonnie Dahl",
+            "url": "https://stephen-king-api.onrender.com/api/character/522",
+            "role": "supporting"
+          },
+          {
+            "name": "Charlotte Gibney",
+            "url": "https://stephen-king-api.onrender.com/api/character/523",
+            "role": "minor"
           }
         ],
         "villains": [
           {
             "name": "Emily Harris",
             "url": "https://stephen-king-api.onrender.com/api/villain/133",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Rodney Harris",
             "url": "https://stephen-king-api.onrender.com/api/villain/161",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "protagonists": [
@@ -7024,6 +7075,16 @@
             "name": "Holly Gibney",
             "url": "https://stephen-king-api.onrender.com/api/character/467",
             "role": "protagonist"
+          },
+          {
+            "name": "Izzy Jaynes",
+            "url": "https://stephen-king-api.onrender.com/api/character/524",
+            "role": "supporting"
+          },
+          {
+            "name": "Kate McKay",
+            "url": "https://stephen-king-api.onrender.com/api/character/525",
+            "role": "supporting"
           }
         ],
         "villains": [],

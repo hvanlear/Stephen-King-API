@@ -950,7 +950,7 @@
           {
             "title": "The Dark Tower VII: The Dark Tower",
             "url": "https://stephen-king-api.onrender.com/api/book/42",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -7001,7 +7001,7 @@
           {
             "title": "The Dark Tower V: Wolves of the Calla",
             "url": "https://stephen-king-api.onrender.com/api/book/40",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -7038,7 +7038,7 @@
           {
             "title": "The Dark Tower V: Wolves of the Calla",
             "url": "https://stephen-king-api.onrender.com/api/book/40",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -7659,7 +7659,7 @@
           {
             "title": "The Dark Tower V: Wolves of the Calla",
             "url": "https://stephen-king-api.onrender.com/api/book/40",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -7687,7 +7687,7 @@
           {
             "title": "The Dark Tower V: Wolves of the Calla",
             "url": "https://stephen-king-api.onrender.com/api/book/40",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -14677,6 +14677,359 @@
           {
             "title": "From a Buick 8",
             "url": "https://stephen-king-api.onrender.com/api/book/39",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 404,
+        "name": "Mia",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 3,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:22:21.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12",
+            "role": "minor"
+          },
+          {
+            "title": "The Dark Tower III: The Waste Lands",
+            "url": "https://stephen-king-api.onrender.com/api/book/25",
+            "role": "minor"
+          },
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40",
+            "role": "supporting"
+          },
+          {
+            "title": "The Dark Tower VI: Song of Susannah",
+            "url": "https://stephen-king-api.onrender.com/api/book/41",
+            "role": "supporting"
+          },
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42",
+            "role": "minor"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "The Oracle and the Mountains",
+            "url": "https://stephen-king-api.onrender.com/api/short/73",
+            "role": "minor"
+          }
+        ],
+        "residence": [],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": [
+          {
+            "name": "Demon",
+            "url": "https://stephen-king-api.onrender.com/api/type/12"
+          }
+        ],
+        "killed": []
+      },
+      {
+        "id": 405,
+        "name": "Tian Jaffords",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:22:21.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Calla Bryn Sturgis",
+            "url": "https://stephen-king-api.onrender.com/api/place/53"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 406,
+        "name": "Zalia Jaffords",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:22:21.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Calla Bryn Sturgis",
+            "url": "https://stephen-king-api.onrender.com/api/place/53"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 407,
+        "name": "Rosalita Munoz",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:22:21.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Calla Bryn Sturgis",
+            "url": "https://stephen-king-api.onrender.com/api/place/53"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 408,
+        "name": "Margaret Eisenhart",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:22:21.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Calla Bryn Sturgis",
+            "url": "https://stephen-king-api.onrender.com/api/place/53"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 409,
+        "name": "Benjamin Slightman, Jr.",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:22:21.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Calla Bryn Sturgis",
+            "url": "https://stephen-king-api.onrender.com/api/place/53"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 410,
+        "name": "Stephen King",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:22:21.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower VI: Song of Susannah",
+            "url": "https://stephen-king-api.onrender.com/api/book/41",
+            "role": "supporting"
+          },
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 411,
+        "name": "Ted Brautigan",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:22:21.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Low Men in Yellow Coats",
+            "url": "https://stephen-king-api.onrender.com/api/short/144",
+            "role": "protagonist"
+          }
+        ],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 412,
+        "name": "Dinky Earnshaw",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:22:21.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Everything's Eventual",
+            "url": "https://stephen-king-api.onrender.com/api/short/137",
+            "role": "protagonist"
+          }
+        ],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 413,
+        "name": "Pimli Prentiss",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:22:21.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42",
             "role": "supporting"
           }
         ],

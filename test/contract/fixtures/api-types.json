@@ -1407,6 +1407,42 @@
           {
             "name": "Curtis Wilcox",
             "url": "https://stephen-king-api.onrender.com/api/character/403"
+          },
+          {
+            "name": "Tian Jaffords",
+            "url": "https://stephen-king-api.onrender.com/api/character/405"
+          },
+          {
+            "name": "Zalia Jaffords",
+            "url": "https://stephen-king-api.onrender.com/api/character/406"
+          },
+          {
+            "name": "Rosalita Munoz",
+            "url": "https://stephen-king-api.onrender.com/api/character/407"
+          },
+          {
+            "name": "Margaret Eisenhart",
+            "url": "https://stephen-king-api.onrender.com/api/character/408"
+          },
+          {
+            "name": "Benjamin Slightman, Jr.",
+            "url": "https://stephen-king-api.onrender.com/api/character/409"
+          },
+          {
+            "name": "Stephen King",
+            "url": "https://stephen-king-api.onrender.com/api/character/410"
+          },
+          {
+            "name": "Ted Brautigan",
+            "url": "https://stephen-king-api.onrender.com/api/character/411"
+          },
+          {
+            "name": "Dinky Earnshaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/412"
+          },
+          {
+            "name": "Pimli Prentiss",
+            "url": "https://stephen-king-api.onrender.com/api/villain/413"
           }
         ],
         "villains": [
@@ -2045,6 +2081,10 @@
           {
             "name": "Charles Burnside",
             "url": "https://stephen-king-api.onrender.com/api/villain/400"
+          },
+          {
+            "name": "Pimli Prentiss",
+            "url": "https://stephen-king-api.onrender.com/api/villain/413"
           }
         ]
       },
@@ -2269,6 +2309,10 @@
           {
             "name": "Wolf",
             "url": "https://stephen-king-api.onrender.com/api/character/285"
+          },
+          {
+            "name": "Mia",
+            "url": "https://stephen-king-api.onrender.com/api/character/404"
           }
         ],
         "villains": [
@@ -2714,6 +2758,10 @@
           {
             "name": "Tak",
             "url": "https://stephen-king-api.onrender.com/api/villain/165"
+          },
+          {
+            "name": "Mia",
+            "url": "https://stephen-king-api.onrender.com/api/character/404"
           }
         ],
         "villains": [

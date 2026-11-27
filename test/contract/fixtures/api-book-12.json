@@ -82,6 +82,11 @@
           "name": "Gabrielle Deschain",
           "url": "https://stephen-king-api.onrender.com/api/character/377",
           "role": "minor"
+        },
+        {
+          "name": "Mia",
+          "url": "https://stephen-king-api.onrender.com/api/character/404",
+          "role": "minor"
         }
       ],
       "villains": [

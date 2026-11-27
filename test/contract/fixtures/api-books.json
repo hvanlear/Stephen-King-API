@@ -1388,6 +1388,11 @@
             "name": "Gabrielle Deschain",
             "url": "https://stephen-king-api.onrender.com/api/character/377",
             "role": "minor"
+          },
+          {
+            "name": "Mia",
+            "url": "https://stephen-king-api.onrender.com/api/character/404",
+            "role": "minor"
           }
         ],
         "villains": [
@@ -2953,6 +2958,11 @@
             "name": "Calvin Tower",
             "url": "https://stephen-king-api.onrender.com/api/character/329",
             "role": "minor"
+          },
+          {
+            "name": "Mia",
+            "url": "https://stephen-king-api.onrender.com/api/character/404",
+            "role": "minor"
           }
         ],
         "villains": [
@@ -4500,22 +4510,22 @@
           {
             "name": "Andy",
             "url": "https://stephen-king-api.onrender.com/api/villain/177",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Ben Slightman",
             "url": "https://stephen-king-api.onrender.com/api/villain/178",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "The Hitler Brothers",
             "url": "https://stephen-king-api.onrender.com/api/villain/199",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Wolves of Thunderclap",
             "url": "https://stephen-king-api.onrender.com/api/villain/200",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Donald Callahan",
@@ -4556,28 +4566,58 @@
             "name": "Calvin Tower",
             "url": "https://stephen-king-api.onrender.com/api/character/329",
             "role": "supporting"
+          },
+          {
+            "name": "Mia",
+            "url": "https://stephen-king-api.onrender.com/api/character/404",
+            "role": "supporting"
+          },
+          {
+            "name": "Tian Jaffords",
+            "url": "https://stephen-king-api.onrender.com/api/character/405",
+            "role": "supporting"
+          },
+          {
+            "name": "Zalia Jaffords",
+            "url": "https://stephen-king-api.onrender.com/api/character/406",
+            "role": "minor"
+          },
+          {
+            "name": "Rosalita Munoz",
+            "url": "https://stephen-king-api.onrender.com/api/character/407",
+            "role": "supporting"
+          },
+          {
+            "name": "Margaret Eisenhart",
+            "url": "https://stephen-king-api.onrender.com/api/character/408",
+            "role": "supporting"
+          },
+          {
+            "name": "Benjamin Slightman, Jr.",
+            "url": "https://stephen-king-api.onrender.com/api/character/409",
+            "role": "supporting"
           }
         ],
         "villains": [
           {
             "name": "Andy",
             "url": "https://stephen-king-api.onrender.com/api/villain/177",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Ben Slightman",
             "url": "https://stephen-king-api.onrender.com/api/villain/178",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "The Hitler Brothers",
             "url": "https://stephen-king-api.onrender.com/api/villain/199",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Wolves of Thunderclap",
             "url": "https://stephen-king-api.onrender.com/api/villain/200",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "protagonists": [
@@ -4686,6 +4726,16 @@
             "name": "Calvin Tower",
             "url": "https://stephen-king-api.onrender.com/api/character/329",
             "role": "supporting"
+          },
+          {
+            "name": "Mia",
+            "url": "https://stephen-king-api.onrender.com/api/character/404",
+            "role": "supporting"
+          },
+          {
+            "name": "Stephen King",
+            "url": "https://stephen-king-api.onrender.com/api/character/410",
+            "role": "supporting"
           }
         ],
         "villains": [
@@ -4767,7 +4817,7 @@
           {
             "name": "Dandelo",
             "url": "https://stephen-king-api.onrender.com/api/villain/21",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Mordred Deschain",
@@ -4823,6 +4873,31 @@
             "name": "Sheemie Ruiz",
             "url": "https://stephen-king-api.onrender.com/api/character/375",
             "role": "supporting"
+          },
+          {
+            "name": "Mia",
+            "url": "https://stephen-king-api.onrender.com/api/character/404",
+            "role": "minor"
+          },
+          {
+            "name": "Stephen King",
+            "url": "https://stephen-king-api.onrender.com/api/character/410",
+            "role": "supporting"
+          },
+          {
+            "name": "Ted Brautigan",
+            "url": "https://stephen-king-api.onrender.com/api/character/411",
+            "role": "supporting"
+          },
+          {
+            "name": "Dinky Earnshaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/412",
+            "role": "supporting"
+          },
+          {
+            "name": "Pimli Prentiss",
+            "url": "https://stephen-king-api.onrender.com/api/villain/413",
+            "role": "supporting"
           }
         ],
         "villains": [
@@ -4834,7 +4909,7 @@
           {
             "name": "Dandelo",
             "url": "https://stephen-king-api.onrender.com/api/villain/21",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Mordred Deschain",
@@ -4845,6 +4920,11 @@
             "name": "Randall Flagg",
             "url": "https://stephen-king-api.onrender.com/api/villain/37",
             "role": "minor"
+          },
+          {
+            "name": "Pimli Prentiss",
+            "url": "https://stephen-king-api.onrender.com/api/villain/413",
+            "role": "supporting"
           }
         ],
         "protagonists": [

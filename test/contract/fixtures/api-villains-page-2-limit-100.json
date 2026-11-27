@@ -2831,7 +2831,7 @@
           {
             "title": "The Dark Tower V: Wolves of the Calla",
             "url": "https://stephen-king-api.onrender.com/api/book/40",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -2868,7 +2868,7 @@
           {
             "title": "The Dark Tower V: Wolves of the Calla",
             "url": "https://stephen-king-api.onrender.com/api/book/40",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -3489,7 +3489,7 @@
           {
             "title": "The Dark Tower V: Wolves of the Calla",
             "url": "https://stephen-king-api.onrender.com/api/book/40",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -3517,7 +3517,7 @@
           {
             "title": "The Dark Tower V: Wolves of the Calla",
             "url": "https://stephen-king-api.onrender.com/api/book/40",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3533,7 +3533,7 @@
     "pagination": {
       "page": 2,
       "limit": 100,
-      "total": 209,
+      "total": 210,
       "totalPages": 3
     }
   }

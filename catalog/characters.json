@@ -617,7 +617,7 @@
     "types_id": 2,
     "group": false,
     "appears_in": {
-      "the-dark-tower-vii-the-dark-tower": null
+      "the-dark-tower-vii-the-dark-tower": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -4575,7 +4575,7 @@
     "types_id": 6,
     "group": false,
     "appears_in": {
-      "the-dark-tower-v-wolves-of-the-calla": null
+      "the-dark-tower-v-wolves-of-the-calla": "supporting"
     },
     "residence": [],
     "kinds": [
@@ -4594,7 +4594,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-dark-tower-v-wolves-of-the-calla": null
+      "the-dark-tower-v-wolves-of-the-calla": "supporting"
     },
     "residence": [
       "calla-bryn-sturgis"
@@ -4976,7 +4976,7 @@
     "types_id": 1,
     "group": true,
     "appears_in": {
-      "the-dark-tower-v-wolves-of-the-calla": null
+      "the-dark-tower-v-wolves-of-the-calla": "minor"
     },
     "residence": [],
     "kinds": [],
@@ -4993,7 +4993,7 @@
     "types_id": 6,
     "group": true,
     "appears_in": {
-      "the-dark-tower-v-wolves-of-the-calla": null
+      "the-dark-tower-v-wolves-of-the-calla": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -8857,5 +8857,195 @@
     "kinds": [],
     "notes": [],
     "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 404,
+    "name": "Mia",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 3,
+    "group": false,
+    "appears_in": {
+      "the-oracle-and-the-mountains": "minor",
+      "the-dark-tower-the-gunslinger": "minor",
+      "the-dark-tower-iii-the-waste-lands": "minor",
+      "the-dark-tower-v-wolves-of-the-calla": "supporting",
+      "the-dark-tower-vi-song-of-susannah": "supporting",
+      "the-dark-tower-vii-the-dark-tower": "minor"
+    },
+    "residence": [],
+    "kinds": [
+      "demon"
+    ],
+    "notes": [],
+    "created_at": "2026-11-27T04:22:21.000Z"
+  },
+  {
+    "id": 405,
+    "name": "Tian Jaffords",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-v-wolves-of-the-calla": "supporting"
+    },
+    "residence": [
+      "calla-bryn-sturgis"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:22:21.000Z"
+  },
+  {
+    "id": 406,
+    "name": "Zalia Jaffords",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-v-wolves-of-the-calla": "minor"
+    },
+    "residence": [
+      "calla-bryn-sturgis"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:22:21.000Z"
+  },
+  {
+    "id": 407,
+    "name": "Rosalita Munoz",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-v-wolves-of-the-calla": "supporting"
+    },
+    "residence": [
+      "calla-bryn-sturgis"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:22:21.000Z"
+  },
+  {
+    "id": 408,
+    "name": "Margaret Eisenhart",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-v-wolves-of-the-calla": "supporting"
+    },
+    "residence": [
+      "calla-bryn-sturgis"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:22:21.000Z"
+  },
+  {
+    "id": 409,
+    "name": "Benjamin Slightman, Jr.",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-v-wolves-of-the-calla": "supporting"
+    },
+    "residence": [
+      "calla-bryn-sturgis"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:22:21.000Z"
+  },
+  {
+    "id": 410,
+    "name": "Stephen King",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-vi-song-of-susannah": "supporting",
+      "the-dark-tower-vii-the-dark-tower": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:22:21.000Z"
+  },
+  {
+    "id": 411,
+    "name": "Ted Brautigan",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "low-men-in-yellow-coats": "protagonist",
+      "the-dark-tower-vii-the-dark-tower": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:22:21.000Z"
+  },
+  {
+    "id": 412,
+    "name": "Dinky Earnshaw",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "everything-s-eventual": "protagonist",
+      "the-dark-tower-vii-the-dark-tower": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:22:21.000Z"
+  },
+  {
+    "id": 413,
+    "name": "Pimli Prentiss",
+    "villain": true,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-vii-the-dark-tower": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:22:21.000Z"
   }
 ]

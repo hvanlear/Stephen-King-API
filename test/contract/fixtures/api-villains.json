@@ -950,7 +950,7 @@
           {
             "title": "The Dark Tower VII: The Dark Tower",
             "url": "https://stephen-king-api.onrender.com/api/book/42",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -7001,7 +7001,7 @@
           {
             "title": "The Dark Tower V: Wolves of the Calla",
             "url": "https://stephen-king-api.onrender.com/api/book/40",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -7038,7 +7038,7 @@
           {
             "title": "The Dark Tower V: Wolves of the Calla",
             "url": "https://stephen-king-api.onrender.com/api/book/40",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -7659,7 +7659,7 @@
           {
             "title": "The Dark Tower V: Wolves of the Calla",
             "url": "https://stephen-king-api.onrender.com/api/book/40",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -7687,7 +7687,7 @@
           {
             "title": "The Dark Tower V: Wolves of the Calla",
             "url": "https://stephen-king-api.onrender.com/api/book/40",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -7980,6 +7980,34 @@
             "title": "Black House",
             "url": "https://stephen-king-api.onrender.com/api/book/38",
             "role": "antagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 413,
+        "name": "Pimli Prentiss",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:22:21.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42",
+            "role": "supporting"
           }
         ],
         "shorts": [],

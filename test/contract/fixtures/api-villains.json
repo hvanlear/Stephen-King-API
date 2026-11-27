@@ -596,7 +596,7 @@
           {
             "title": "Pet Sematary",
             "url": "https://stephen-king-api.onrender.com/api/book/14",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -683,7 +683,7 @@
           {
             "title": "Pet Sematary",
             "url": "https://stephen-king-api.onrender.com/api/book/14",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -896,7 +896,7 @@
         "id": 20,
         "name": "Arnie Cunningham",
         "villain": true,
-        "protagonist": false,
+        "protagonist": true,
         "gender": "Male",
         "status": "Deceased",
         "death": null,
@@ -919,7 +919,7 @@
           {
             "title": "Christine",
             "url": "https://stephen-king-api.onrender.com/api/book/13",
-            "role": null
+            "role": "protagonist"
           }
         ],
         "shorts": [],
@@ -3482,7 +3482,7 @@
           {
             "title": "Pet Sematary",
             "url": "https://stephen-king-api.onrender.com/api/book/14",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -4563,7 +4563,7 @@
           {
             "title": "Pet Sematary",
             "url": "https://stephen-king-api.onrender.com/api/book/14",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -5127,7 +5127,7 @@
           {
             "title": "Christine",
             "url": "https://stephen-king-api.onrender.com/api/book/13",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -6142,7 +6142,7 @@
           {
             "title": "Christine",
             "url": "https://stephen-king-api.onrender.com/api/book/13",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],

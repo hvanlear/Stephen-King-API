@@ -96,6 +96,18 @@
           {
             "name": "Donald Callahan",
             "url": "https://stephen-king-api.onrender.com/api/character/206"
+          },
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265"
+          },
+          {
+            "name": "Alice",
+            "url": "https://stephen-king-api.onrender.com/api/character/267"
+          },
+          {
+            "name": "Cortland Andrus",
+            "url": "https://stephen-king-api.onrender.com/api/character/269"
           }
         ],
         "villains": [
@@ -807,6 +819,22 @@
           {
             "name": "Gary Pervier",
             "url": "https://stephen-king-api.onrender.com/api/character/260"
+          },
+          {
+            "name": "Louis Creed",
+            "url": "https://stephen-king-api.onrender.com/api/character/274"
+          },
+          {
+            "name": "Rachel Creed",
+            "url": "https://stephen-king-api.onrender.com/api/character/275"
+          },
+          {
+            "name": "Jud Crandall",
+            "url": "https://stephen-king-api.onrender.com/api/character/276"
+          },
+          {
+            "name": "Ellie Creed",
+            "url": "https://stephen-king-api.onrender.com/api/character/277"
           }
         ],
         "villains": [
@@ -1347,6 +1375,14 @@
           {
             "name": "Eldred Jonas",
             "url": "https://stephen-king-api.onrender.com/api/villain/60"
+          },
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265"
+          },
+          {
+            "name": "Cortland Andrus",
+            "url": "https://stephen-king-api.onrender.com/api/character/269"
           }
         ],
         "villains": [
@@ -1463,6 +1499,10 @@
           {
             "name": "Donald Callahan",
             "url": "https://stephen-king-api.onrender.com/api/character/206"
+          },
+          {
+            "name": "Alice",
+            "url": "https://stephen-king-api.onrender.com/api/character/267"
           }
         ],
         "villains": [
@@ -2431,6 +2471,22 @@
           {
             "name": "Gary Pervier",
             "url": "https://stephen-king-api.onrender.com/api/character/260"
+          },
+          {
+            "name": "Louis Creed",
+            "url": "https://stephen-king-api.onrender.com/api/character/274"
+          },
+          {
+            "name": "Rachel Creed",
+            "url": "https://stephen-king-api.onrender.com/api/character/275"
+          },
+          {
+            "name": "Jud Crandall",
+            "url": "https://stephen-king-api.onrender.com/api/character/276"
+          },
+          {
+            "name": "Ellie Creed",
+            "url": "https://stephen-king-api.onrender.com/api/character/277"
           }
         ],
         "villains": [
@@ -3175,6 +3231,14 @@
           {
             "name": "Marten Broadcloak",
             "url": "https://stephen-king-api.onrender.com/api/villain/10"
+          },
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265"
+          },
+          {
+            "name": "Cortland Andrus",
+            "url": "https://stephen-king-api.onrender.com/api/character/269"
           }
         ],
         "villains": [
@@ -5037,6 +5101,22 @@
           {
             "name": "Gage Creed",
             "url": "https://stephen-king-api.onrender.com/api/villain/15"
+          },
+          {
+            "name": "Louis Creed",
+            "url": "https://stephen-king-api.onrender.com/api/character/274"
+          },
+          {
+            "name": "Rachel Creed",
+            "url": "https://stephen-king-api.onrender.com/api/character/275"
+          },
+          {
+            "name": "Jud Crandall",
+            "url": "https://stephen-king-api.onrender.com/api/character/276"
+          },
+          {
+            "name": "Ellie Creed",
+            "url": "https://stephen-king-api.onrender.com/api/character/277"
           }
         ],
         "villains": [
@@ -5841,6 +5921,10 @@
           {
             "name": "Sylvia Pittston",
             "url": "https://stephen-king-api.onrender.com/api/villain/84"
+          },
+          {
+            "name": "Alice",
+            "url": "https://stephen-king-api.onrender.com/api/character/267"
           }
         ],
         "villains": [
@@ -6332,6 +6416,14 @@
           {
             "name": "Marten Broadcloak",
             "url": "https://stephen-king-api.onrender.com/api/villain/10"
+          },
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265"
+          },
+          {
+            "name": "Cortland Andrus",
+            "url": "https://stephen-king-api.onrender.com/api/character/269"
           }
         ],
         "villains": [

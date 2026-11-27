@@ -1575,6 +1575,21 @@
             "name": "Sylvia Pittston",
             "url": "https://stephen-king-api.onrender.com/api/villain/84",
             "role": "supporting"
+          },
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265",
+            "role": "protagonist"
+          },
+          {
+            "name": "Alice",
+            "url": "https://stephen-king-api.onrender.com/api/character/267",
+            "role": "supporting"
+          },
+          {
+            "name": "Brown",
+            "url": "https://stephen-king-api.onrender.com/api/character/268",
+            "role": "minor"
           }
         ],
         "villains": [
@@ -1584,7 +1599,13 @@
             "role": "supporting"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Tull",
@@ -1752,9 +1773,26 @@
         ],
         "year": 1980,
         "created_at": "2023-11-13T23:49:04.673Z",
-        "characters": [],
+        "characters": [
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265",
+            "role": "protagonist"
+          },
+          {
+            "name": "Jake Chambers",
+            "url": "https://stephen-king-api.onrender.com/api/character/266",
+            "role": "supporting"
+          }
+        ],
         "villains": [],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "The Way Station",
@@ -1871,9 +1909,26 @@
         ],
         "year": 1981,
         "created_at": "2023-11-13T23:49:05.187Z",
-        "characters": [],
+        "characters": [
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265",
+            "role": "protagonist"
+          },
+          {
+            "name": "Jake Chambers",
+            "url": "https://stephen-king-api.onrender.com/api/character/266",
+            "role": "supporting"
+          }
+        ],
         "villains": [],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265",
+            "role": "protagonist"
+          }
+        ],
         "places": []
       },
       {
@@ -1919,9 +1974,26 @@
         ],
         "year": 1981,
         "created_at": "2023-11-13T23:49:05.477Z",
-        "characters": [],
+        "characters": [
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265",
+            "role": "protagonist"
+          },
+          {
+            "name": "Jake Chambers",
+            "url": "https://stephen-king-api.onrender.com/api/character/266",
+            "role": "supporting"
+          }
+        ],
         "villains": [],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265",
+            "role": "protagonist"
+          }
+        ],
         "places": []
       },
       {
@@ -2038,6 +2110,16 @@
             "name": "Marten Broadcloak",
             "url": "https://stephen-king-api.onrender.com/api/villain/10",
             "role": "minor"
+          },
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265",
+            "role": "protagonist"
+          },
+          {
+            "name": "Jake Chambers",
+            "url": "https://stephen-king-api.onrender.com/api/character/266",
+            "role": "minor"
           }
         ],
         "villains": [
@@ -2047,7 +2129,13 @@
             "role": "minor"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265",
+            "role": "protagonist"
+          }
+        ],
         "places": []
       },
       {
@@ -3735,6 +3823,11 @@
             "name": "Little Sisters",
             "url": "https://stephen-king-api.onrender.com/api/villain/67",
             "role": null
+          },
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265",
+            "role": "protagonist"
           }
         ],
         "villains": [
@@ -3744,7 +3837,13 @@
             "role": null
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "All-world",

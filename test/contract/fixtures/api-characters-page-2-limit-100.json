@@ -393,7 +393,7 @@
           {
             "title": "Pet Sematary",
             "url": "https://stephen-king-api.onrender.com/api/book/14",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -957,7 +957,7 @@
           {
             "title": "Christine",
             "url": "https://stephen-king-api.onrender.com/api/book/13",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -1972,7 +1972,7 @@
           {
             "title": "Christine",
             "url": "https://stephen-king-api.onrender.com/api/book/13",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -3533,7 +3533,7 @@
     "pagination": {
       "page": 2,
       "limit": 100,
-      "total": 264,
+      "total": 277,
       "totalPages": 3
     }
   }

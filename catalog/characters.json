@@ -379,7 +379,7 @@
     "types_id": 8,
     "group": false,
     "appears_in": {
-      "pet-sematary": null
+      "pet-sematary": "supporting"
     },
     "residence": [
       "ludlow-maine"
@@ -437,7 +437,7 @@
     "types_id": 3,
     "group": false,
     "appears_in": {
-      "pet-sematary": null
+      "pet-sematary": "antagonist"
     },
     "residence": [
       "ludlow-maine"
@@ -589,7 +589,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "christine": null
+      "christine": "protagonist"
     },
     "residence": [],
     "kinds": [],
@@ -2253,7 +2253,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "pet-sematary": null
+      "pet-sematary": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -2975,7 +2975,7 @@
     "types_id": 3,
     "group": false,
     "appears_in": {
-      "pet-sematary": null
+      "pet-sematary": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -3339,7 +3339,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "christine": null
+      "christine": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -4001,7 +4001,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "christine": null
+      "christine": "minor"
     },
     "residence": [],
     "kinds": [],
@@ -6237,5 +6237,267 @@
     "kinds": [],
     "notes": [],
     "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 265,
+    "name": "Roland Deschain",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-gunslinger": "protagonist",
+      "the-way-station": "protagonist",
+      "the-oracle-and-the-mountains": "protagonist",
+      "the-slow-mutants": "protagonist",
+      "the-gunslinger-and-the-dark-man": "protagonist",
+      "the-dark-tower-the-gunslinger": "protagonist",
+      "the-dark-tower-ii-the-drawing-of-the-three": "protagonist",
+      "the-dark-tower-iii-the-waste-lands": "protagonist",
+      "insomnia": "minor",
+      "the-dark-tower-iv-wizard-and-glass": "protagonist",
+      "the-little-sisters-of-eluria": "protagonist",
+      "the-dark-tower-v-wolves-of-the-calla": "protagonist",
+      "the-dark-tower-vi-song-of-susannah": "protagonist",
+      "the-dark-tower-vii-the-dark-tower": "protagonist",
+      "the-dark-tower-the-wind-through-the-keyhole": "protagonist"
+    },
+    "residence": [
+      "gilead"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:05:04.000Z"
+  },
+  {
+    "id": 266,
+    "name": "Jake Chambers",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-way-station": "supporting",
+      "the-oracle-and-the-mountains": "supporting",
+      "the-slow-mutants": "supporting",
+      "the-gunslinger-and-the-dark-man": "minor",
+      "the-dark-tower-the-gunslinger": "supporting",
+      "the-dark-tower-ii-the-drawing-of-the-three": "minor",
+      "the-dark-tower-iii-the-waste-lands": "protagonist",
+      "the-dark-tower-iv-wizard-and-glass": "protagonist",
+      "the-dark-tower-v-wolves-of-the-calla": "protagonist",
+      "the-dark-tower-vi-song-of-susannah": "protagonist",
+      "the-dark-tower-vii-the-dark-tower": "protagonist",
+      "the-dark-tower-the-wind-through-the-keyhole": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:05:04.000Z"
+  },
+  {
+    "id": 267,
+    "name": "Alice",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-gunslinger": "supporting",
+      "the-dark-tower-the-gunslinger": "supporting"
+    },
+    "residence": [
+      "tull"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:05:04.000Z"
+  },
+  {
+    "id": 268,
+    "name": "Brown",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-gunslinger": "minor",
+      "the-dark-tower-the-gunslinger": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:05:04.000Z"
+  },
+  {
+    "id": 269,
+    "name": "Cortland Andrus",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-the-gunslinger": "supporting"
+    },
+    "residence": [
+      "gilead"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:05:04.000Z"
+  },
+  {
+    "id": 270,
+    "name": "Dennis Guilder",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "christine": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:05:04.000Z"
+  },
+  {
+    "id": 271,
+    "name": "Leigh Cabot",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "christine": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:05:04.000Z"
+  },
+  {
+    "id": 272,
+    "name": "Roland LeBay",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "christine": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:05:04.000Z"
+  },
+  {
+    "id": 273,
+    "name": "Will Darnell",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "christine": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:05:04.000Z"
+  },
+  {
+    "id": 274,
+    "name": "Louis Creed",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "pet-sematary": "protagonist"
+    },
+    "residence": [
+      "ludlow-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:05:04.000Z"
+  },
+  {
+    "id": 275,
+    "name": "Rachel Creed",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "pet-sematary": "supporting"
+    },
+    "residence": [
+      "ludlow-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:05:04.000Z"
+  },
+  {
+    "id": 276,
+    "name": "Jud Crandall",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "pet-sematary": "supporting"
+    },
+    "residence": [
+      "ludlow-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:05:04.000Z"
+  },
+  {
+    "id": 277,
+    "name": "Ellie Creed",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "pet-sematary": "supporting"
+    },
+    "residence": [
+      "ludlow-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:05:04.000Z"
   }
 ]

@@ -95,6 +95,18 @@
         {
           "name": "Donald Callahan",
           "url": "https://stephen-king-api.onrender.com/api/character/206"
+        },
+        {
+          "name": "Roland Deschain",
+          "url": "https://stephen-king-api.onrender.com/api/character/265"
+        },
+        {
+          "name": "Alice",
+          "url": "https://stephen-king-api.onrender.com/api/character/267"
+        },
+        {
+          "name": "Cortland Andrus",
+          "url": "https://stephen-king-api.onrender.com/api/character/269"
         }
       ],
       "villains": [

@@ -32,6 +32,31 @@
           "name": "Sylvia Pittston",
           "url": "https://stephen-king-api.onrender.com/api/villain/84",
           "role": "supporting"
+        },
+        {
+          "name": "Roland Deschain",
+          "url": "https://stephen-king-api.onrender.com/api/character/265",
+          "role": "protagonist"
+        },
+        {
+          "name": "Jake Chambers",
+          "url": "https://stephen-king-api.onrender.com/api/character/266",
+          "role": "supporting"
+        },
+        {
+          "name": "Alice",
+          "url": "https://stephen-king-api.onrender.com/api/character/267",
+          "role": "supporting"
+        },
+        {
+          "name": "Brown",
+          "url": "https://stephen-king-api.onrender.com/api/character/268",
+          "role": "minor"
+        },
+        {
+          "name": "Cortland Andrus",
+          "url": "https://stephen-king-api.onrender.com/api/character/269",
+          "role": "supporting"
         }
       ],
       "villains": [
@@ -56,7 +81,13 @@
           "role": "supporting"
         }
       ],
-      "protagonists": [],
+      "protagonists": [
+        {
+          "name": "Roland Deschain",
+          "url": "https://stephen-king-api.onrender.com/api/character/265",
+          "role": "protagonist"
+        }
+      ],
       "places": [
         {
           "name": "All-world",

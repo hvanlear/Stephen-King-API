@@ -1,4 +1,4 @@
-import { linkedItems, type Graph } from "./model";
+import { linkedItems, noteBetween, noteRank, type Graph } from "./model";
 
 // The ego layout: the focus at the centre and its linked records on a ring
 // around it, one sector per response field in response order. Pure (no DOM),
@@ -66,11 +66,6 @@ export interface Edge {
   d: string;
   focus: boolean;
 }
-
-// Who a ring shows first when it can't show everyone: a story's leads, then
-// its supporting cast, then anyone whose role isn't recorded, then cameos
-const ROLE_RANK: Record<string, number> = { protagonist: 3, antagonist: 3, supporting: 2, minor: 0 };
-export const roleRank = (note: string) => ROLE_RANK[note] ?? 1;
 
 export interface FieldSummary {
   field: string;
@@ -222,15 +217,19 @@ export function layout(
   const taken = new Set([fi]);
   const groups: Group[] = [];
   for (const link of focus.links) {
-    const items = linkedItems(link).filter((e) => {
-      if (!focus.drawn.has(e.i) || taken.has(e.i) || hidden[N[e.i].kind]) return false;
-      taken.add(e.i);
-      return true;
-    });
+    // Each record's note is the one on its pair, from whichever field carries
+    // it, so a book the character dies in still shows its role there
+    const items = linkedItems(link)
+      .filter((e) => {
+        if (!focus.drawn.has(e.i) || taken.has(e.i) || hidden[N[e.i].kind]) return false;
+        taken.add(e.i);
+        return true;
+      })
+      .map((e) => ({ i: e.i, note: noteBetween(g, fi, e.i) }));
     if (!items.length) continue;
     items.sort(
       (a, b) =>
-        roleRank(b.note) - roleRank(a.note) ||
+        noteRank(g, b.note) - noteRank(g, a.note) ||
         N[b.i].weight - N[a.i].weight ||
         N[a.i].id - N[b.i].id ||
         N[a.i].name.localeCompare(N[b.i].name)
@@ -447,17 +446,16 @@ export function layout(
     let found = tryCap(hi);
     if (!found && hi > lo0) {
       let lo = lo0;
-      let fallback = tryCap(lo);
+      // If one slot per field doesn't fit, more won't either: stop here, so
+      // the shorter chips are tried without halving towards nothing first
+      if (!tryCap(lo)) return null;
       while (hi - lo > 1) {
         const mid = (lo + hi) >> 1;
-        const r = tryCap(mid);
-        if (r) {
-          lo = mid;
-          fallback = r;
-        } else hi = mid;
+        if (tryCap(mid)) lo = mid;
+        else hi = mid;
       }
       // Re-run the winner so the groups' shares match it
-      found = fallback ? tryCap(lo) : null;
+      found = tryCap(lo);
     }
     return found;
   };
@@ -544,7 +542,7 @@ export function layout(
         a: A.i,
         b: B.i,
         family,
-        note: N[A.i].notes.get(B.i) ?? N[B.i].notes.get(A.i) ?? "",
+        note: noteBetween(g, A.i, B.i),
         focus: false,
         d: curve(A.x, A.y, B.x, B.y, mx + (cx - mx) * 0.3, my + (cy - my) * 0.3),
       });

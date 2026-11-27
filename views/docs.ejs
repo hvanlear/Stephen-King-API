@@ -64,7 +64,7 @@
         <section id="introduction" class="docs-section">
           <h2>Introduction</h2>
           <p>
-            The Stephen King API is a free, open-source REST API providing data about Stephen King's novels, short stories, the collections they were published in, the magazines and anthologies they first appeared in, characters (villains among them), places, and the types of villain. No authentication is required. All endpoints are read-only (<code>GET</code> requests only).
+            The Stephen King API is a free, open-source REST API providing data about Stephen King's novels, short stories, the collections they were published in, the magazines and anthologies they first appeared in, characters (villains among them), places, and the types of character. No authentication is required. All endpoints are read-only (<code>GET</code> requests only).
           </p>
           <p>
             Responses are returned in JSON format. Related resources include links to their associated endpoints for easy traversal.
@@ -542,7 +542,7 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
         <section id="characters" class="docs-section">
           <h2>Characters</h2>
           <p>
-            Characters are the people and creatures of the stories: every villain, and the heroes and others around them, who are being added a few books at a time, starting with <em>'Salem's Lot</em> and <em>It</em>. Each one says whether it's a <code>villain</code>, and gives its <code>role</code> in each book or short it's in: <code>"protagonist"</code> for one of the people the story follows, <code>"antagonist"</code> for a villain the story is against, <code>"supporting"</code>, or <code>"minor"</code> for a cameo or a small part. A role is <code>null</code> until it's recorded. <code>protagonist</code> is <code>true</code> for a character who leads at least one work, such as Ben Mears or the Losers' Club, and a character can be neither, such as Matt Burke.
+            Characters are the people and creatures of the stories: every villain, and the heroes and others around them, who are being added a few books at a time, starting with <em>'Salem's Lot</em> and <em>It</em>. Each one says whether it's a <code>villain</code>, and gives its <code>role</code> in each book or short it's in: <code>"protagonist"</code> for one of the people the story follows, <code>"antagonist"</code> for a villain the story is against, <code>"supporting"</code>, or <code>"minor"</code> for a cameo or a small part. A role is <code>null</code> until it's recorded. <code>protagonist</code> is <code>true</code> for a character who leads at least one work, such as Ben Mears or Bill Denbrough, and a character can be neither, such as Matt Burke.
           </p>
           <p>
             Character responses include <code>books</code> and <code>shorts</code> arrays linking to the works they appear in, a <code>residence</code> array linking to where they live, and their <code>type</code> and <code>kinds</code>. A <code>group</code> character is a set of characters, such as a gang, a cult or a race. Books and shorts list their <code>characters</code>, and their <code>villains</code> and <code>protagonists</code> among them. Each of those links, and each of a character's <code>books</code> and <code>shorts</code>, carries the character's <code>role</code> in that work. Beverly Marsh is a protagonist of <em>It</em> but has a minor part in <em>11/22/63</em>, so only <em>It</em> lists her among its <code>protagonists</code>.
@@ -1257,7 +1257,7 @@ RateLimit: limit=100, remaining=99, reset=60</pre>
               <span class="endpoint-method">GET</span>
               <span class="endpoint-path">/api/type/:id</span>
             </div>
-            <p>Returns a single type by ID. Id 5 is unused: the old database used it for groups, which are now the villain's <code>group</code> flag.</p>
+            <p>Returns a single type by ID. Id 5 is unused: the old database used it for groups, which are now the character's <code>group</code> flag.</p>
             <h4>Example Request</h4>
             <div class="docs-code-block">
               <code>GET <%= url %>/api/type/16</code>

@@ -5,7 +5,7 @@ import { schema } from "../graph/schema";
 import { kindTheme } from "../graph/palette";
 import { PANEL_ROWS } from "../graph/payload";
 import { clientAssets } from "../utils/clientAssets";
-import { kinds as apiKinds } from "../kinds";
+import { counts } from "../kinds";
 
 // The graph home page, design 06. It's at /next until it replaces / (SK-045).
 // ?focus=villain-57 picks the record in the middle; the server renders its
@@ -26,7 +26,7 @@ const statusKey = [
 const kinds = kindOrder.map((kind) => {
   const info = schema.kinds[kind];
   // What the list route returns, so characters count the villains too
-  const count = apiKinds.find((k) => k.one === kind)?.records.length ?? 0;
+  const count = counts[info.plural] ?? 0;
   const example = graph.find(kind, info.example);
   return {
     kind,
@@ -42,7 +42,12 @@ const kinds = kindOrder.map((kind) => {
 export function showGraphHome(req: Request, res: Response) {
   const raw = typeof req.query.focus === "string" ? req.query.focus : "";
   const match = /^([a-z]+)-(\d{1,7})$/.exec(raw);
-  const found = match ? graph.find(match[1], Number(match[2])) : undefined;
+  // A record drawn as another kind is found under it too, so
+  // ?focus=character-57 opens It (Creature), drawn as villain-57
+  const drawnAs = match ? schema.kinds[match[1]]?.drawnAs?.kind : undefined;
+  const found = match
+    ? graph.find(match[1], Number(match[2])) ?? (drawnAs === undefined ? undefined : graph.find(drawnAs, Number(match[2])))
+    : undefined;
   // An unknown focus falls back to the default rather than erroring
   const focus = found ?? DEFAULT_FOCUS;
   const panel = graph.panel(focus);

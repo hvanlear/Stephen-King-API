@@ -12,14 +12,18 @@ import { linkNote, refIndex, statusOf, type GraphPayload, type PayloadNode, type
 type Response = Record<string, unknown>;
 
 // Keyed by route. A record the schema draws as another kind is left out
-// here, so it's drawn once, under the route links to it use.
-const sources: Record<string, Response[]> = Object.fromEntries(
-  kinds.map((kind) => {
-    const drawnAs = schema.kinds[kind.one]?.drawnAs;
-    const responses = kind.records.map((record) => kind.response(record) as Response);
-    return [kind.one, drawnAs ? responses.filter((response) => response[drawnAs.field] !== true) : responses];
-  })
-);
+// here, so it's drawn once, under the route links to it use. The flag is read
+// from the record, which the response serves as it is.
+const sources = () =>
+  Object.fromEntries(
+    kinds.map((kind) => {
+      const drawnAs = schema.kinds[kind.one]?.drawnAs;
+      const records = drawnAs
+        ? kind.records.filter((record) => (record as Record<string, unknown>)[drawnAs.field] !== true)
+        : kind.records;
+      return [kind.one, records.map((record) => kind.response(record) as Response)];
+    })
+  );
 
 interface ApiLink {
   url: string | null;
@@ -72,7 +76,7 @@ export interface Panel {
 
 export function buildGraph() {
   const records: { kind: string; response: Response }[] = [];
-  for (const [kind, responses] of Object.entries(sources)) {
+  for (const [kind, responses] of Object.entries(sources())) {
     for (const response of responses) records.push({ kind, response });
   }
   const index = new Map(

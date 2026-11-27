@@ -1,4 +1,4 @@
-import { linkNote, refIndex, statusOf, type GraphPayload, type KindInfo, type Ref, type Status } from "../graph/payload";
+import { linkNote, refIndex, statusOf, type GraphPayload, type KindInfo, type NoteInfo, type Ref, type Status } from "../graph/payload";
 
 // The graph file decoded into records with their links. No DOM, so node:test
 // can run it.
@@ -40,7 +40,9 @@ export interface GraphNode {
   fields: (Link | Text)[];
   // Linked records that get a line, with the line's family
   drawn: Map<number, string>;
-  // The note on a line, if its link has one: a character's role in a book
+  // The note on the link to each linked record that has one, from whichever
+  // field carries it: a character's role in a book, which its death.work
+  // link to the same book doesn't give
   notes: Map<number, string>;
   weight: number;
   // Its status mark (a villain's alive or deceased), if its kind has one
@@ -51,6 +53,8 @@ export interface GraphNode {
 export interface Graph {
   nodes: GraphNode[];
   kinds: Record<string, KindInfo>;
+  // How each note is drawn, from the schema
+  notes: Record<string, NoteInfo>;
   // Kinds in display order: the schema's, then any it doesn't list
   kindOrder: string[];
   counts: Record<string, number>;
@@ -86,7 +90,7 @@ const toItem = (ref: Ref): Item => ({
 });
 
 export function decode(payload: GraphPayload): Graph {
-  const { kinds, fields } = payload.schema;
+  const { kinds, fields, notes = {} } = payload.schema;
   const nodes: GraphNode[] = payload.nodes.map(([kind, id, name, raw, extra], index) => {
     const all = Object.entries(raw).map(([field, value]): Link | Text => {
       if (typeof value === "string") return { field, text: value };
@@ -141,6 +145,7 @@ export function decode(payload: GraphPayload): Graph {
   return {
     nodes,
     kinds,
+    notes,
     kindOrder,
     counts,
     linked: nodes.filter((n) => n.drawn.size > 0).map((n) => n.index),
@@ -149,6 +154,15 @@ export function decode(payload: GraphPayload): Graph {
 }
 
 export const kindLabel = (g: Graph, kind: string) => g.kinds[kind]?.label ?? kind;
+
+// The note on the link from one record to another ("" for none), whichever
+// end carries it
+export const noteBetween = (g: Graph, a: number, b: number) =>
+  g.nodes[a].notes.get(b) ?? g.nodes[b].notes.get(a) ?? "";
+
+// Where a record with this note comes on a ring that can't show everyone,
+// highest first
+export const noteRank = (g: Graph, note: string) => g.notes[note]?.rank ?? 1;
 
 // Matches the starts of words, in any order: "flagg", "dark tower", "salems"
 export function search(g: Graph, query: string, limit = 8): number[] {

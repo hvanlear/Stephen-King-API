@@ -24,7 +24,7 @@ _All routes are GET routes. No API key is needed._
 | `/api/villain/:id` | One villain, the same as its character route |
 | `/api/places` | All places, from buildings up to towns, states and other worlds |
 | `/api/place/:id` | One place, with the place it's in, the places inside it, the works set there and the characters who live there |
-| `/api/types` | All villain types, from broad ones like Vampire to kinds from the stories like the True Knot |
+| `/api/types` | All character types, from broad ones like Vampire to kinds from the stories like the True Knot |
 | `/api/type/:id` | One type, with its kinds and its characters |
 | `/api/collections` | All collections, such as Night Shift and Skeleton Crew |
 | `/api/collection/:id` | One collection, with its short stories |

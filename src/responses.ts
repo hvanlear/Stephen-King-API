@@ -38,7 +38,6 @@ import {
   deathWorkByCharacter,
   victimIdsByCharacter,
   killerId,
-  roleIn,
   isProtagonist,
 } from "./catalog";
 import config from "./config";
@@ -46,11 +45,9 @@ import config from "./config";
 // Every link in the API is built in this file, from the one base URL
 const URL = config.url;
 
-const characterNames = new Map(characters.map((c) => [c.id, c.name]));
 const charactersById = new Map(characters.map((c) => [c.id, c]));
-const villainIds = new Set(characters.filter((c) => c.villain).map((c) => c.id));
-const bookTitles = new Map(books.map((b) => [b.id, b.Title]));
-const shortTitles = new Map(shorts.map((s) => [s.id, s.title]));
+const booksById = new Map(books.map((b) => [b.id, b]));
+const shortsById = new Map(shorts.map((s) => [s.id, s]));
 const placeNames = new Map(places.map((p) => [p.id, p.name]));
 const typeNames = new Map(types.map((t) => [t.id, t.name]));
 const collectionNames = new Map(collections.map((c) => [c.id, c.name]));
@@ -58,26 +55,31 @@ const publicationNames = new Map(publications.map((p) => [p.id, p.name]));
 
 // A villain is linked at /api/villain/:id, as it was before characters
 // existed, and anyone else at /api/character/:id, so no link ever changes
-const characterLinks = (ids: number[] = []) =>
-  ids.map((id) => ({
-    name: characterNames.get(id),
-    url: `${URL}/api/${villainIds.has(id) ? "villain" : "character"}/${id}`,
-  }));
+const characterLink = (id: number) => {
+  const character = charactersById.get(id);
+  return { name: character?.name, url: `${URL}/api/${character?.villain ? "villain" : "character"}/${id}` };
+};
+
+const characterLinks = (ids: number[] = []) => ids.map(characterLink);
+
+const isVillain = (id: number) => charactersById.get(id)?.villain === true;
 
 // The villains among some characters, in the same order
-const villainLinks = (ids: number[] = []) => characterLinks(ids.filter((id) => villainIds.has(id)));
+const villainLinks = (ids: number[] = []) => characterLinks(ids.filter(isVillain));
 
-// The characters in a book or short, each with its role there. Its
-// protagonists are the ones whose role there is protagonist, so a hero who
-// only turns up in another story isn't listed as that story's protagonist.
-const castLinks = (ids: number[], handle: string) =>
-  characterLinks(ids).map((link, n) => ({ ...link, role: roleIn(charactersById.get(ids[n])!, handle) ?? null }));
-
-const cast = (ids: number[] = [], handle: string) => ({
-  characters: castLinks(ids, handle),
-  villains: castLinks(ids.filter((id) => villainIds.has(id)), handle),
-  protagonists: castLinks(ids.filter((id) => roleIn(charactersById.get(id)!, handle) === "protagonist"), handle),
-});
+// The characters in a book or short, each with its role there, which is null
+// until it's recorded. Its protagonists are the ones whose role there is
+// protagonist, so a hero who only turns up in another story isn't listed as
+// that story's protagonist.
+const cast = (ids: number[] = [], handle: string) => {
+  const withRole = (id: number) => ({ ...characterLink(id), role: charactersById.get(id)!.appears_in[handle] });
+  const all = ids.map(withRole);
+  return {
+    characters: all,
+    villains: ids.filter(isVillain).map(withRole),
+    protagonists: all.filter((link) => link.role === "protagonist"),
+  };
+};
 
 const placeLinks = (ids: number[] = []) =>
   ids.map((id) => ({
@@ -119,30 +121,17 @@ export const shortResponse = (short: Short) => ({
   places: placeLinks(placeIdsByShort.get(short.id)),
 });
 
-const bookLinks = (ids: number[] = []) =>
-  ids.map((id) => ({
-    title: bookTitles.get(id),
-    url: `${URL}/api/book/${id}`,
-  }));
+const bookLink = (id: number) => ({ title: booksById.get(id)?.Title, url: `${URL}/api/book/${id}` });
+const bookLinks = (ids: number[] = []) => ids.map(bookLink);
 
-const shortLinks = (ids: number[] = []) =>
-  ids.map((id) => ({
-    title: shortTitles.get(id),
-    url: `${URL}/api/short/${id}`,
-  }));
-
-const bookHandles = new Map(books.map((b) => [b.id, b.handle]));
-const shortHandles = new Map(shorts.map((s) => [s.id, s.handle]));
-
-// The books or shorts a character is in, each with its role there
-const workLinks = (character: Character, links: { title?: string; url: string }[], ids: number[], handles: Map<number, string>) =>
-  links.map((link, n) => ({ ...link, role: roleIn(character, handles.get(ids[n])!) ?? null }));
+const shortLink = (id: number) => ({ title: shortsById.get(id)?.title, url: `${URL}/api/short/${id}` });
+const shortLinks = (ids: number[] = []) => ids.map(shortLink);
 
 // A killer with no record yet has a name and a null url, which becomes a
 // link once the record exists
 const killerLink = (killer: Killer) => {
   const id = killerId(killer);
-  return id === undefined ? { name: (killer as { name: string }).name, url: null } : characterLinks([id])[0];
+  return id === undefined ? { name: (killer as { name: string }).name, url: null } : characterLink(id);
 };
 
 // in holds a handle, which is served as a link to the work
@@ -153,7 +142,7 @@ const deathResponse = (characterId: number, death: Death | null) => {
   const where = deathWorkByCharacter.get(characterId);
   return {
     cause: death.cause,
-    work: where === undefined ? null : "book" in where ? bookLinks([where.book])[0] : shortLinks([where.short])[0],
+    work: where === undefined ? null : "book" in where ? bookLink(where.book) : shortLink(where.short),
     killed_by: death.killed_by.map(({ members, ...killer }) =>
       members === undefined ? killerLink(killer) : { ...killerLink(killer), members: members.map(killerLink) }
     ),
@@ -167,8 +156,6 @@ const deathResponse = (characterId: number, death: Death | null) => {
 // place, with its handle and ids as links.
 export const characterResponse = (record: Character) => {
   const { id, name, villain, appears_in, residence, kinds, ...character } = record;
-  const bookIds = bookIdsByCharacter.get(id) ?? [];
-  const shortIds = shortIdsByCharacter.get(id) ?? [];
   return {
     id,
     name,
@@ -176,8 +163,14 @@ export const characterResponse = (record: Character) => {
     protagonist: isProtagonist(record),
     ...character,
     death: deathResponse(id, character.death),
-    books: workLinks(record, bookLinks(bookIds), bookIds, bookHandles),
-    shorts: workLinks(record, shortLinks(shortIds), shortIds, shortHandles),
+    books: (bookIdsByCharacter.get(id) ?? []).map((bookId) => ({
+      ...bookLink(bookId),
+      role: appears_in[booksById.get(bookId)!.handle],
+    })),
+    shorts: (shortIdsByCharacter.get(id) ?? []).map((shortId) => ({
+      ...shortLink(shortId),
+      role: appears_in[shortsById.get(shortId)!.handle],
+    })),
     residence: placeLinks(placeIdsByCharacter.get(id)),
     type: typeLinks([character.types_id])[0],
     kinds: typeLinks(kindIdsByCharacter.get(id)),
@@ -210,7 +203,7 @@ export const collectionResponse = (collection: Collection) => {
   const bookId = bookIdByCollection.get(collection.id);
   return {
     ...collection,
-    book: bookId === undefined ? null : bookLinks([bookId])[0],
+    book: bookId === undefined ? null : bookLink(bookId),
     shorts: shortLinks(shortIdsByCollection.get(collection.id)),
   };
 };

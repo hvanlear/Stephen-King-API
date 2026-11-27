@@ -1,4 +1,5 @@
-import type { Schema } from "./payload";
+import type { Role } from "../catalog";
+import type { FieldInfo, NoteInfo, Schema, StatusInfo } from "./payload";
 
 // Every kind of record and every link field in the API's responses, for the
 // graph on the home page. The page styles itself from this, so a new kind or
@@ -10,6 +11,44 @@ import type { Schema } from "./payload";
 // are named by their path, as in villain.death.killed_by. A roll-up field also lists records that link to something inside
 // this one (a state's residents who live in its towns); those links are listed
 // in the panel but not drawn.
+
+// A character's mark for alive or deceased. The heart is followed by U+FE0E,
+// which keeps it a text glyph rather than an emoji on phones.
+const lifeStatus: StatusInfo = {
+  field: "status",
+  marks: {
+    Alive: { mark: "\u2665\uFE0E", label: "alive" },
+    Deceased: { mark: "\u2020", label: "deceased" },
+  },
+};
+
+// A character's link fields. A villain's response is a character's, so it has
+// them too.
+const characterFields: Record<string, FieldInfo> = {
+  // Where the character died, which is one of its books or shorts
+  "death.work": { family: "appears" },
+  "death.killed_by": { family: "killed" },
+  books: { family: "appears" },
+  shorts: { family: "appears" },
+  residence: { family: "setting" },
+  type: { family: "isa" },
+  kinds: { family: "isa" },
+  killed: { family: "killed" },
+};
+
+const fieldsOf = (kind: string, fields: Record<string, FieldInfo>) =>
+  Object.fromEntries(Object.entries(fields).map(([field, info]) => [`${kind}.${field}`, info]));
+
+// A character's role in a work, on the links between them. A ring shows a
+// story's leads first, then its supporting cast, then anyone whose role isn't
+// recorded, then cameos, whose lines are faint (Jack Torrance in Doctor Sleep).
+const roles: Record<Role, NoteInfo> = {
+  protagonist: { rank: 3 },
+  antagonist: { rank: 3 },
+  supporting: { rank: 2 },
+  minor: { rank: 0, faint: true },
+};
+
 export const schema: Schema = {
   // In the order the counts and endpoints are shown
   kinds: {
@@ -23,32 +62,12 @@ export const schema: Schema = {
       noun: "characters",
       filter: "other characters",
       example: 202,
-      status: {
-        field: "status",
-        marks: {
-          Alive: { mark: "\u2665\uFE0E", label: "alive" },
-          Deceased: { mark: "\u2020", label: "deceased" },
-        },
-      },
+      status: lifeStatus,
       drawnAs: { field: "villain", kind: "villain" },
     },
-    villain: {
-      label: "Villain",
-      plural: "villains",
-      noun: "villains",
-      example: 19,
-      // The heart is followed by U+FE0E, which keeps it a text glyph rather
-      // than an emoji on phones
-      status: {
-        field: "status",
-        marks: {
-          Alive: { mark: "\u2665\uFE0E", label: "alive" },
-          Deceased: { mark: "\u2020", label: "deceased" },
-        },
-      },
-    },
+    villain: { label: "Villain", plural: "villains", noun: "villains", example: 19, status: lifeStatus },
     place: { label: "Place", plural: "places", noun: "places", example: 76 },
-    type: { label: "Type", plural: "types", noun: "villain types", example: 2 },
+    type: { label: "Type", plural: "types", noun: "character types", example: 2 },
     collection: { label: "Collection", plural: "collections", noun: "collections", example: 1 },
     publication: { label: "Publication", plural: "publications", noun: "publications", example: 7 },
   },
@@ -64,23 +83,8 @@ export const schema: Schema = {
     "short.villains": { family: "appears" },
     "short.protagonists": { family: "appears" },
     "short.places": { family: "setting" },
-    // Where the character died, which is one of its books or shorts
-    "character.death.work": { family: "appears" },
-    "character.death.killed_by": { family: "killed" },
-    "character.books": { family: "appears" },
-    "character.shorts": { family: "appears" },
-    "character.residence": { family: "setting" },
-    "character.type": { family: "isa" },
-    "character.kinds": { family: "isa" },
-    "character.killed": { family: "killed" },
-    "villain.death.work": { family: "appears" },
-    "villain.death.killed_by": { family: "killed" },
-    "villain.books": { family: "appears" },
-    "villain.shorts": { family: "appears" },
-    "villain.residence": { family: "setting" },
-    "villain.type": { family: "isa" },
-    "villain.kinds": { family: "isa" },
-    "villain.killed": { family: "killed" },
+    ...fieldsOf("character", characterFields),
+    ...fieldsOf("villain", characterFields),
     "place.parent": { family: "inside" },
     "place.places": { family: "inside" },
     "place.books": { family: "setting" },
@@ -95,4 +99,5 @@ export const schema: Schema = {
     "collection.shorts": { family: "inside" },
     "publication.shorts": { family: "inside" },
   },
+  notes: roles,
 };

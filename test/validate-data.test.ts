@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import { describe, it } from "node:test";
 import assert from "node:assert/strict";
-import { validate, Catalog, SPECS } from "../scripts/validate-data";
+import { validate, duplicateKeys, Catalog, SPECS } from "../scripts/validate-data";
 
 const CATALOG_DIR = path.join(__dirname, "..", "catalog");
 
@@ -197,16 +197,17 @@ describe("validate-data", () => {
     assertFlags(errors, /^catalog\/characters\.json: character 57 \("It \(Creature\)"\): was a villain on the base branch, so it has to stay one, or \/api\/villain\/57 would disappear$/);
   });
 
-  it("treats every record on a base from before characters as a villain", () => {
-    // villains.json had no villain flag and listed appears_in without roles,
-    // and the validator reads it as characters.json
-    const base = loadCatalog();
-    base["characters.json"] = base["characters.json"]
-      .filter((record: any) => record.villain)
-      .map(({ villain, ...record }: any) => ({ ...record, appears_in: Object.keys(record.appears_in) }));
-    assert.deepEqual(errorsAfter(() => {}, base), []);
-    const errors = errorsAfter((c) => (character(c, 1).villain = false), base);
-    assertFlags(errors, /character 1 \("Bob Anderson"\): was a villain on the base branch/);
+  it("finds a key written twice in one object, which JSON.parse would drop", () => {
+    // A work listed twice in appears_in: only the last role would count
+    const text = '[\n  { "id": 1, "appears_in": { "it": "protagonist",\n    "it": "minor" } },\n  { "id": 2, "appears_in": { "it": null } }\n]';
+    assert.deepEqual(duplicateKeys(text), [{ key: "it", line: 3 }]);
+    // Equal keys in different objects, inside strings, or as values are fine
+    assert.deepEqual(duplicateKeys('[{ "a": "b:c", "b": "a" }, { "a": 1, "x": { "a": [{ "a": 2 }] } }]'), []);
+    assert.deepEqual(duplicateKeys('{ "a\\"": 1, "a": 2 }'), []);
+    // The catalog has none
+    for (const file of Object.keys(SPECS)) {
+      assert.deepEqual(duplicateKeys(fs.readFileSync(path.join(__dirname, "..", "catalog", file), "utf8")), [], file);
+    }
   });
 
   it("lets a character who isn't a villain become one, once its killer links say so", () => {

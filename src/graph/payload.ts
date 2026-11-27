@@ -43,12 +43,23 @@ export interface FieldInfo {
   rollup?: boolean;
 }
 
+// How a link's note, such as a character's role in a book, is drawn
+export interface NoteInfo {
+  // Where a record comes on a ring that can't show everyone, highest first.
+  // A link with no note, or one not listed, ranks 1.
+  rank: number;
+  // Its line is drawn faint, as for a cameo
+  faint?: boolean;
+}
+
 export interface Schema {
   kinds: Record<string, KindInfo>;
   // Link fields, keyed "kind.field" such as "villain.residence". A field
   // inside an object that isn't a link is named by its path, as in
   // "villain.death.killed_by".
   fields: Record<string, FieldInfo>;
+  // Keyed by the note, as in "minor"
+  notes?: Record<string, NoteInfo>;
 }
 
 // A link is the linked record's position in `nodes`. A link that carries more

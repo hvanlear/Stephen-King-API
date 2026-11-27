@@ -170,6 +170,16 @@
             "name": "Chet Ondowsky",
             "url": "https://stephen-king-api.onrender.com/api/villain/127",
             "role": null
+          },
+          {
+            "name": "Holly Gibney",
+            "url": "https://stephen-king-api.onrender.com/api/character/467",
+            "role": "protagonist"
+          },
+          {
+            "name": "Jerome Robinson",
+            "url": "https://stephen-king-api.onrender.com/api/character/468",
+            "role": "minor"
           }
         ],
         "villains": [
@@ -179,7 +189,13 @@
             "role": null
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Holly Gibney",
+            "url": "https://stephen-king-api.onrender.com/api/character/467",
+            "role": "protagonist"
+          }
+        ],
         "places": []
       },
       {

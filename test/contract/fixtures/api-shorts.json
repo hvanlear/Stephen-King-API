@@ -5501,17 +5501,38 @@
           {
             "name": "Frankie Stone",
             "url": "https://stephen-king-api.onrender.com/api/villain/135",
-            "role": null
+            "role": "antagonist"
+          },
+          {
+            "name": "Gwendy Peterson",
+            "url": "https://stephen-king-api.onrender.com/api/character/481",
+            "role": "protagonist"
+          },
+          {
+            "name": "Richard Farris",
+            "url": "https://stephen-king-api.onrender.com/api/character/482",
+            "role": "supporting"
+          },
+          {
+            "name": "Harry Streeter",
+            "url": "https://stephen-king-api.onrender.com/api/character/483",
+            "role": "supporting"
           }
         ],
         "villains": [
           {
             "name": "Frankie Stone",
             "url": "https://stephen-king-api.onrender.com/api/villain/135",
-            "role": null
+            "role": "antagonist"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Gwendy Peterson",
+            "url": "https://stephen-king-api.onrender.com/api/character/481",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Maine",
@@ -5710,6 +5731,16 @@
             "name": "Chet Ondowsky",
             "url": "https://stephen-king-api.onrender.com/api/villain/127",
             "role": null
+          },
+          {
+            "name": "Holly Gibney",
+            "url": "https://stephen-king-api.onrender.com/api/character/467",
+            "role": "protagonist"
+          },
+          {
+            "name": "Jerome Robinson",
+            "url": "https://stephen-king-api.onrender.com/api/character/468",
+            "role": "minor"
           }
         ],
         "villains": [
@@ -5719,7 +5750,13 @@
             "role": null
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Holly Gibney",
+            "url": "https://stephen-king-api.onrender.com/api/character/467",
+            "role": "protagonist"
+          }
+        ],
         "places": []
       },
       {

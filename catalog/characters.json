@@ -2126,7 +2126,7 @@
     "types_id": 3,
     "group": false,
     "appears_in": {
-      "revival": null
+      "revival": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -3173,7 +3173,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "finders-keepers": null
+      "finders-keepers": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -3581,7 +3581,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "gwendy-s-button-box": null
+      "gwendy-s-button-box": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -4047,7 +4047,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "finders-keepers": null
+      "finders-keepers": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -4638,7 +4638,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "sleeping-beauties": null
+      "sleeping-beauties": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -4655,7 +4655,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "sleeping-beauties": null
+      "sleeping-beauties": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -4689,7 +4689,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "sleeping-beauties": null
+      "sleeping-beauties": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -4959,7 +4959,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "sleeping-beauties": null
+      "sleeping-beauties": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -10013,5 +10013,436 @@
     "kinds": [],
     "notes": [],
     "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 466,
+    "name": "Kermit William \"Bill\" Hodges",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "mr-mercedes": "protagonist",
+      "finders-keepers": "protagonist",
+      "end-of-watch": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 467,
+    "name": "Holly Gibney",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "mr-mercedes": "supporting",
+      "finders-keepers": "supporting",
+      "end-of-watch": "protagonist",
+      "the-outsider": "protagonist",
+      "if-it-bleeds": "protagonist",
+      "holly": "protagonist",
+      "never-flinch": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 468,
+    "name": "Jerome Robinson",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "mr-mercedes": "supporting",
+      "finders-keepers": "supporting",
+      "end-of-watch": "supporting",
+      "if-it-bleeds": "minor",
+      "holly": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 469,
+    "name": "Barbara Robinson",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "mr-mercedes": "supporting",
+      "finders-keepers": "minor",
+      "end-of-watch": "supporting",
+      "holly": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 470,
+    "name": "Olivia Trelawney",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "mr-mercedes": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 471,
+    "name": "Janey Patterson",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "mr-mercedes": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 472,
+    "name": "Pete Saubers",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "finders-keepers": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 473,
+    "name": "Tina Saubers",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "finders-keepers": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 474,
+    "name": "John Rothstein",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "finders-keepers": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 475,
+    "name": "Jamie Morton",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "revival": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 476,
+    "name": "Charles Jacobs",
+    "villain": true,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "revival": "antagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 477,
+    "name": "Astrid Soderberg",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "revival": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 478,
+    "name": "Hugh Yates",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "revival": "supporting"
+    },
+    "residence": [
+      "colorado"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 479,
+    "name": "Con Morton",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "revival": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 480,
+    "name": "Mary Fay",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "revival": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 481,
+    "name": "Gwendy Peterson",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "gwendy-s-button-box": "protagonist",
+      "gwendy-s-final-task": "protagonist"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 482,
+    "name": "Richard Farris",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "gwendy-s-button-box": "supporting",
+      "gwendy-s-final-task": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 483,
+    "name": "Harry Streeter",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "gwendy-s-button-box": "supporting"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 484,
+    "name": "Clint Norcross",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "sleeping-beauties": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 485,
+    "name": "Lila Norcross",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "sleeping-beauties": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 486,
+    "name": "Evie Black",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "sleeping-beauties": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 487,
+    "name": "Jared Norcross",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "sleeping-beauties": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 488,
+    "name": "Janice Coates",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "sleeping-beauties": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 489,
+    "name": "Jeanette Sorley",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "sleeping-beauties": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
   }
 ]

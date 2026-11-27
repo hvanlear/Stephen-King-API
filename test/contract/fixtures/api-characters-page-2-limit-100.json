@@ -702,7 +702,7 @@
           {
             "title": "Finders Keepers",
             "url": "https://stephen-king-api.onrender.com/api/book/55",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -1321,14 +1321,14 @@
           {
             "title": "Gwendy's Button Box",
             "url": "https://stephen-king-api.onrender.com/api/book/57",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [
           {
             "title": "Gwendy's Button Box",
             "url": "https://stephen-king-api.onrender.com/api/short/200",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "residence": [],
@@ -2040,7 +2040,7 @@
           {
             "title": "Finders Keepers",
             "url": "https://stephen-king-api.onrender.com/api/book/55",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -2936,7 +2936,7 @@
           {
             "title": "Sleeping Beauties",
             "url": "https://stephen-king-api.onrender.com/api/book/58",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -2964,7 +2964,7 @@
           {
             "title": "Sleeping Beauties",
             "url": "https://stephen-king-api.onrender.com/api/book/58",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -3020,7 +3020,7 @@
           {
             "title": "Sleeping Beauties",
             "url": "https://stephen-king-api.onrender.com/api/book/58",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3461,7 +3461,7 @@
           {
             "title": "Sleeping Beauties",
             "url": "https://stephen-king-api.onrender.com/api/book/58",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -3533,7 +3533,7 @@
     "pagination": {
       "page": 2,
       "limit": 100,
-      "total": 465,
+      "total": 489,
       "totalPages": 5
     }
   }

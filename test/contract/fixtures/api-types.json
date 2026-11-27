@@ -1651,6 +1651,102 @@
           {
             "name": "Concetta Reynolds",
             "url": "https://stephen-king-api.onrender.com/api/character/465"
+          },
+          {
+            "name": "Kermit William \"Bill\" Hodges",
+            "url": "https://stephen-king-api.onrender.com/api/character/466"
+          },
+          {
+            "name": "Holly Gibney",
+            "url": "https://stephen-king-api.onrender.com/api/character/467"
+          },
+          {
+            "name": "Jerome Robinson",
+            "url": "https://stephen-king-api.onrender.com/api/character/468"
+          },
+          {
+            "name": "Barbara Robinson",
+            "url": "https://stephen-king-api.onrender.com/api/character/469"
+          },
+          {
+            "name": "Olivia Trelawney",
+            "url": "https://stephen-king-api.onrender.com/api/character/470"
+          },
+          {
+            "name": "Janey Patterson",
+            "url": "https://stephen-king-api.onrender.com/api/character/471"
+          },
+          {
+            "name": "Pete Saubers",
+            "url": "https://stephen-king-api.onrender.com/api/character/472"
+          },
+          {
+            "name": "Tina Saubers",
+            "url": "https://stephen-king-api.onrender.com/api/character/473"
+          },
+          {
+            "name": "John Rothstein",
+            "url": "https://stephen-king-api.onrender.com/api/character/474"
+          },
+          {
+            "name": "Jamie Morton",
+            "url": "https://stephen-king-api.onrender.com/api/character/475"
+          },
+          {
+            "name": "Charles Jacobs",
+            "url": "https://stephen-king-api.onrender.com/api/villain/476"
+          },
+          {
+            "name": "Astrid Soderberg",
+            "url": "https://stephen-king-api.onrender.com/api/character/477"
+          },
+          {
+            "name": "Hugh Yates",
+            "url": "https://stephen-king-api.onrender.com/api/character/478"
+          },
+          {
+            "name": "Con Morton",
+            "url": "https://stephen-king-api.onrender.com/api/character/479"
+          },
+          {
+            "name": "Mary Fay",
+            "url": "https://stephen-king-api.onrender.com/api/character/480"
+          },
+          {
+            "name": "Gwendy Peterson",
+            "url": "https://stephen-king-api.onrender.com/api/character/481"
+          },
+          {
+            "name": "Richard Farris",
+            "url": "https://stephen-king-api.onrender.com/api/character/482"
+          },
+          {
+            "name": "Harry Streeter",
+            "url": "https://stephen-king-api.onrender.com/api/character/483"
+          },
+          {
+            "name": "Clint Norcross",
+            "url": "https://stephen-king-api.onrender.com/api/character/484"
+          },
+          {
+            "name": "Lila Norcross",
+            "url": "https://stephen-king-api.onrender.com/api/character/485"
+          },
+          {
+            "name": "Evie Black",
+            "url": "https://stephen-king-api.onrender.com/api/character/486"
+          },
+          {
+            "name": "Jared Norcross",
+            "url": "https://stephen-king-api.onrender.com/api/character/487"
+          },
+          {
+            "name": "Janice Coates",
+            "url": "https://stephen-king-api.onrender.com/api/character/488"
+          },
+          {
+            "name": "Jeanette Sorley",
+            "url": "https://stephen-king-api.onrender.com/api/character/489"
           }
         ],
         "villains": [
@@ -2293,6 +2389,10 @@
           {
             "name": "Pimli Prentiss",
             "url": "https://stephen-king-api.onrender.com/api/villain/413"
+          },
+          {
+            "name": "Charles Jacobs",
+            "url": "https://stephen-king-api.onrender.com/api/villain/476"
           }
         ]
       },

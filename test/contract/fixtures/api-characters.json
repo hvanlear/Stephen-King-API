@@ -3292,7 +3292,7 @@
           {
             "title": "Revival",
             "url": "https://stephen-king-api.onrender.com/api/book/54",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -4872,7 +4872,7 @@
           {
             "title": "Finders Keepers",
             "url": "https://stephen-king-api.onrender.com/api/book/55",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -5491,14 +5491,14 @@
           {
             "title": "Gwendy's Button Box",
             "url": "https://stephen-king-api.onrender.com/api/book/57",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [
           {
             "title": "Gwendy's Button Box",
             "url": "https://stephen-king-api.onrender.com/api/short/200",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "residence": [],
@@ -6210,7 +6210,7 @@
           {
             "title": "Finders Keepers",
             "url": "https://stephen-king-api.onrender.com/api/book/55",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -7106,7 +7106,7 @@
           {
             "title": "Sleeping Beauties",
             "url": "https://stephen-king-api.onrender.com/api/book/58",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -7134,7 +7134,7 @@
           {
             "title": "Sleeping Beauties",
             "url": "https://stephen-king-api.onrender.com/api/book/58",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -7190,7 +7190,7 @@
           {
             "title": "Sleeping Beauties",
             "url": "https://stephen-king-api.onrender.com/api/book/58",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -7631,7 +7631,7 @@
           {
             "title": "Sleeping Beauties",
             "url": "https://stephen-king-api.onrender.com/api/book/58",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -16698,6 +16698,798 @@
             "title": "Doctor Sleep",
             "url": "https://stephen-king-api.onrender.com/api/book/52",
             "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 466,
+        "name": "Kermit William \"Bill\" Hodges",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:28:16.000Z",
+        "books": [
+          {
+            "title": "Mr. Mercedes",
+            "url": "https://stephen-king-api.onrender.com/api/book/53",
+            "role": "protagonist"
+          },
+          {
+            "title": "Finders Keepers",
+            "url": "https://stephen-king-api.onrender.com/api/book/55",
+            "role": "protagonist"
+          },
+          {
+            "title": "End of Watch",
+            "url": "https://stephen-king-api.onrender.com/api/book/56",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 467,
+        "name": "Holly Gibney",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:28:16.000Z",
+        "books": [
+          {
+            "title": "Mr. Mercedes",
+            "url": "https://stephen-king-api.onrender.com/api/book/53",
+            "role": "supporting"
+          },
+          {
+            "title": "Finders Keepers",
+            "url": "https://stephen-king-api.onrender.com/api/book/55",
+            "role": "supporting"
+          },
+          {
+            "title": "End of Watch",
+            "url": "https://stephen-king-api.onrender.com/api/book/56",
+            "role": "protagonist"
+          },
+          {
+            "title": "The Outsider",
+            "url": "https://stephen-king-api.onrender.com/api/book/59",
+            "role": "protagonist"
+          },
+          {
+            "title": "Holly",
+            "url": "https://stephen-king-api.onrender.com/api/book/75",
+            "role": "protagonist"
+          },
+          {
+            "title": "Never Flinch",
+            "url": "https://stephen-king-api.onrender.com/api/book/76",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "If It Bleeds",
+            "url": "https://stephen-king-api.onrender.com/api/short/207",
+            "role": "protagonist"
+          }
+        ],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 468,
+        "name": "Jerome Robinson",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:28:16.000Z",
+        "books": [
+          {
+            "title": "Mr. Mercedes",
+            "url": "https://stephen-king-api.onrender.com/api/book/53",
+            "role": "supporting"
+          },
+          {
+            "title": "Finders Keepers",
+            "url": "https://stephen-king-api.onrender.com/api/book/55",
+            "role": "supporting"
+          },
+          {
+            "title": "End of Watch",
+            "url": "https://stephen-king-api.onrender.com/api/book/56",
+            "role": "supporting"
+          },
+          {
+            "title": "Holly",
+            "url": "https://stephen-king-api.onrender.com/api/book/75",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "If It Bleeds",
+            "url": "https://stephen-king-api.onrender.com/api/short/207",
+            "role": "minor"
+          }
+        ],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 469,
+        "name": "Barbara Robinson",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:28:16.000Z",
+        "books": [
+          {
+            "title": "Mr. Mercedes",
+            "url": "https://stephen-king-api.onrender.com/api/book/53",
+            "role": "supporting"
+          },
+          {
+            "title": "Finders Keepers",
+            "url": "https://stephen-king-api.onrender.com/api/book/55",
+            "role": "minor"
+          },
+          {
+            "title": "End of Watch",
+            "url": "https://stephen-king-api.onrender.com/api/book/56",
+            "role": "supporting"
+          },
+          {
+            "title": "Holly",
+            "url": "https://stephen-king-api.onrender.com/api/book/75",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 470,
+        "name": "Olivia Trelawney",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:28:16.000Z",
+        "books": [
+          {
+            "title": "Mr. Mercedes",
+            "url": "https://stephen-king-api.onrender.com/api/book/53",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 471,
+        "name": "Janey Patterson",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:28:16.000Z",
+        "books": [
+          {
+            "title": "Mr. Mercedes",
+            "url": "https://stephen-king-api.onrender.com/api/book/53",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 472,
+        "name": "Pete Saubers",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:28:16.000Z",
+        "books": [
+          {
+            "title": "Finders Keepers",
+            "url": "https://stephen-king-api.onrender.com/api/book/55",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 473,
+        "name": "Tina Saubers",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:28:16.000Z",
+        "books": [
+          {
+            "title": "Finders Keepers",
+            "url": "https://stephen-king-api.onrender.com/api/book/55",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 474,
+        "name": "John Rothstein",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:28:16.000Z",
+        "books": [
+          {
+            "title": "Finders Keepers",
+            "url": "https://stephen-king-api.onrender.com/api/book/55",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 475,
+        "name": "Jamie Morton",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:28:16.000Z",
+        "books": [
+          {
+            "title": "Revival",
+            "url": "https://stephen-king-api.onrender.com/api/book/54",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 476,
+        "name": "Charles Jacobs",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:28:16.000Z",
+        "books": [
+          {
+            "title": "Revival",
+            "url": "https://stephen-king-api.onrender.com/api/book/54",
+            "role": "antagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 477,
+        "name": "Astrid Soderberg",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:28:16.000Z",
+        "books": [
+          {
+            "title": "Revival",
+            "url": "https://stephen-king-api.onrender.com/api/book/54",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 478,
+        "name": "Hugh Yates",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:28:16.000Z",
+        "books": [
+          {
+            "title": "Revival",
+            "url": "https://stephen-king-api.onrender.com/api/book/54",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Colorado",
+            "url": "https://stephen-king-api.onrender.com/api/place/21"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 479,
+        "name": "Con Morton",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:28:16.000Z",
+        "books": [
+          {
+            "title": "Revival",
+            "url": "https://stephen-king-api.onrender.com/api/book/54",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 480,
+        "name": "Mary Fay",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:28:16.000Z",
+        "books": [
+          {
+            "title": "Revival",
+            "url": "https://stephen-king-api.onrender.com/api/book/54",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 481,
+        "name": "Gwendy Peterson",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:28:16.000Z",
+        "books": [
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/book/57",
+            "role": "protagonist"
+          },
+          {
+            "title": "Gwendy's Final Task",
+            "url": "https://stephen-king-api.onrender.com/api/book/73",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/short/200",
+            "role": "protagonist"
+          }
+        ],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 482,
+        "name": "Richard Farris",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:28:16.000Z",
+        "books": [
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/book/57",
+            "role": "supporting"
+          },
+          {
+            "title": "Gwendy's Final Task",
+            "url": "https://stephen-king-api.onrender.com/api/book/73",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/short/200",
+            "role": "supporting"
+          }
+        ],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 483,
+        "name": "Harry Streeter",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:28:16.000Z",
+        "books": [
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/book/57",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Gwendy's Button Box",
+            "url": "https://stephen-king-api.onrender.com/api/short/200",
+            "role": "supporting"
+          }
+        ],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 484,
+        "name": "Clint Norcross",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:28:16.000Z",
+        "books": [
+          {
+            "title": "Sleeping Beauties",
+            "url": "https://stephen-king-api.onrender.com/api/book/58",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 485,
+        "name": "Lila Norcross",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:28:16.000Z",
+        "books": [
+          {
+            "title": "Sleeping Beauties",
+            "url": "https://stephen-king-api.onrender.com/api/book/58",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 486,
+        "name": "Evie Black",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:28:16.000Z",
+        "books": [
+          {
+            "title": "Sleeping Beauties",
+            "url": "https://stephen-king-api.onrender.com/api/book/58",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 487,
+        "name": "Jared Norcross",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:28:16.000Z",
+        "books": [
+          {
+            "title": "Sleeping Beauties",
+            "url": "https://stephen-king-api.onrender.com/api/book/58",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 488,
+        "name": "Janice Coates",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:28:16.000Z",
+        "books": [
+          {
+            "title": "Sleeping Beauties",
+            "url": "https://stephen-king-api.onrender.com/api/book/58",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 489,
+        "name": "Jeanette Sorley",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:28:16.000Z",
+        "books": [
+          {
+            "title": "Sleeping Beauties",
+            "url": "https://stephen-king-api.onrender.com/api/book/58",
+            "role": "supporting"
           }
         ],
         "shorts": [],

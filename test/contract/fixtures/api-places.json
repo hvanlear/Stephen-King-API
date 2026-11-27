@@ -1336,6 +1336,18 @@
           {
             "name": "Casey Kingsley",
             "url": "https://stephen-king-api.onrender.com/api/character/464"
+          },
+          {
+            "name": "Hugh Yates",
+            "url": "https://stephen-king-api.onrender.com/api/character/478"
+          },
+          {
+            "name": "Gwendy Peterson",
+            "url": "https://stephen-king-api.onrender.com/api/character/481"
+          },
+          {
+            "name": "Harry Streeter",
+            "url": "https://stephen-king-api.onrender.com/api/character/483"
           }
         ],
         "villains": [
@@ -2202,6 +2214,10 @@
           {
             "name": "James Cogan",
             "url": "https://stephen-king-api.onrender.com/api/character/417"
+          },
+          {
+            "name": "Hugh Yates",
+            "url": "https://stephen-king-api.onrender.com/api/character/478"
           }
         ],
         "villains": [
@@ -3401,6 +3417,14 @@
           {
             "name": "Harry Dunning",
             "url": "https://stephen-king-api.onrender.com/api/character/449"
+          },
+          {
+            "name": "Gwendy Peterson",
+            "url": "https://stephen-king-api.onrender.com/api/character/481"
+          },
+          {
+            "name": "Harry Streeter",
+            "url": "https://stephen-king-api.onrender.com/api/character/483"
           }
         ],
         "villains": [
@@ -4802,6 +4826,14 @@
           {
             "name": "Wilma Jerzyck",
             "url": "https://stephen-king-api.onrender.com/api/character/333"
+          },
+          {
+            "name": "Gwendy Peterson",
+            "url": "https://stephen-king-api.onrender.com/api/character/481"
+          },
+          {
+            "name": "Harry Streeter",
+            "url": "https://stephen-king-api.onrender.com/api/character/483"
           }
         ],
         "villains": [

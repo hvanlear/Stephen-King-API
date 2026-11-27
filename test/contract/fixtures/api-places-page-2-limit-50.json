@@ -332,6 +332,14 @@
           {
             "name": "Wilma Jerzyck",
             "url": "https://stephen-king-api.onrender.com/api/character/333"
+          },
+          {
+            "name": "Gwendy Peterson",
+            "url": "https://stephen-king-api.onrender.com/api/character/481"
+          },
+          {
+            "name": "Harry Streeter",
+            "url": "https://stephen-king-api.onrender.com/api/character/483"
           }
         ],
         "villains": [

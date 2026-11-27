@@ -23,7 +23,7 @@
         {
           "name": "Susan Day",
           "url": "https://stephen-king-api.onrender.com/api/villain/23",
-          "role": null
+          "role": "minor"
         },
         {
           "name": "Harley Bissington",
@@ -40,7 +40,7 @@
         {
           "name": "Susan Day",
           "url": "https://stephen-king-api.onrender.com/api/villain/23",
-          "role": null
+          "role": "minor"
         },
         {
           "name": "Harley Bissington",

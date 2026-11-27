@@ -7,6 +7,7 @@ import { schema } from "../src/graph/schema";
 import { PANEL_ROWS, refIndex, statusOf, type Ref } from "../src/graph/payload";
 import { decode } from "../src/client/model";
 import { layout } from "../src/client/layout";
+import { bookIdsByCharacter, characters } from "../src/catalog";
 
 // The graph file behind the home page (SK-045), and the page itself
 
@@ -121,9 +122,13 @@ describe("the graph file", () => {
       books.items.map((e) => [g.nodes[e.i].name, e.note]),
       [["It", "antagonist"], ["The Tommyknockers", "minor"]]
     );
-    // A role that isn't recorded yet is left out of the file
-    const jack = graph.payload.nodes[g.byKey.get("villain-106")!][3];
-    assert.ok((jack.books as Ref[]).every((ref) => typeof ref === "number"));
+    // A role that isn't recorded yet is left out of the file. Until every
+    // role is, there's a villain in a book with none.
+    const unrecorded = characters.find(
+      (c) => c.villain && bookIdsByCharacter.has(c.id) && Object.values(c.appears_in).every((role) => role === null)
+    )!;
+    const refs = graph.payload.nodes[g.byKey.get(`villain-${unrecorded.id}`)!][3].books as Ref[];
+    assert.ok(refs.length && refs.every((ref) => typeof ref === "number"));
     // It's line to The Tommyknockers is a cameo's, and so is the book's to It
     const tommyknockers = g.nodes.find((n) => n.name === "The Tommyknockers")!.index;
     for (const [focus, other] of [[it, tommyknockers], [tommyknockers, it]]) {

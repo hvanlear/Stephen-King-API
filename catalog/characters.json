@@ -77,8 +77,8 @@
     "types_id": 6,
     "group": false,
     "appears_in": {
-      "the-dark-tower-iv-wizard-and-glass": null,
-      "the-dark-tower-iii-the-waste-lands": null
+      "the-dark-tower-iv-wizard-and-glass": "supporting",
+      "the-dark-tower-iii-the-waste-lands": "antagonist"
     },
     "residence": [],
     "kinds": [
@@ -301,8 +301,8 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-dark-tower-the-gunslinger": null,
-      "the-gunslinger-and-the-dark-man": null
+      "the-dark-tower-the-gunslinger": "supporting",
+      "the-gunslinger-and-the-dark-man": "minor"
     },
     "residence": [
       "gilead"
@@ -496,10 +496,10 @@
     "types_id": 3,
     "group": false,
     "appears_in": {
-      "insomnia": null,
-      "the-dark-tower-the-gunslinger": null,
-      "black-house": null,
-      "the-dark-tower-vii-the-dark-tower": null
+      "insomnia": "antagonist",
+      "the-dark-tower-the-gunslinger": "minor",
+      "black-house": "supporting",
+      "the-dark-tower-vii-the-dark-tower": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -661,8 +661,8 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "rose-madder": null,
-      "insomnia": null
+      "rose-madder": "minor",
+      "insomnia": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -734,8 +734,8 @@
     "types_id": 7,
     "group": false,
     "appears_in": {
-      "the-shining": null,
-      "doctor-sleep": null
+      "the-shining": "supporting",
+      "doctor-sleep": "minor"
     },
     "residence": [
       "overlook-hotel"
@@ -762,8 +762,8 @@
     "types_id": 3,
     "group": false,
     "appears_in": {
-      "the-dark-tower-vii-the-dark-tower": null,
-      "the-dark-tower-vi-song-of-susannah": null
+      "the-dark-tower-vii-the-dark-tower": "antagonist",
+      "the-dark-tower-vi-song-of-susannah": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -931,8 +931,8 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-stand": null,
-      "the-stand-uncut": null
+      "the-stand": "supporting",
+      "the-stand-uncut": "supporting"
     },
     "residence": [
       "powtanville-indiana"
@@ -1006,13 +1006,13 @@
     "types_id": 3,
     "group": false,
     "appears_in": {
-      "the-stand": null,
-      "the-stand-uncut": null,
-      "the-eyes-of-the-dragon": null,
-      "the-dark-tower-the-gunslinger": null,
-      "the-dark-tower-vii-the-dark-tower": null,
-      "the-dark-tower-iv-wizard-and-glass": null,
-      "the-dark-tower-iii-the-waste-lands": null
+      "the-stand": "antagonist",
+      "the-stand-uncut": "antagonist",
+      "the-eyes-of-the-dragon": "antagonist",
+      "the-dark-tower-the-gunslinger": "antagonist",
+      "the-dark-tower-vii-the-dark-tower": "minor",
+      "the-dark-tower-iv-wizard-and-glass": "minor",
+      "the-dark-tower-iii-the-waste-lands": "minor"
     },
     "residence": [],
     "kinds": [],
@@ -1355,9 +1355,9 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "mr-mercedes": null,
-      "finders-keepers": null,
-      "end-of-watch": null
+      "mr-mercedes": "antagonist",
+      "finders-keepers": "minor",
+      "end-of-watch": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -1379,8 +1379,8 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-stand": null,
-      "the-stand-uncut": null
+      "the-stand": "supporting",
+      "the-stand-uncut": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -1757,8 +1757,8 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-stand": null,
-      "the-stand-uncut": null
+      "the-stand": "supporting",
+      "the-stand-uncut": "supporting"
     },
     "residence": [
       "ogunquit-maine"
@@ -2008,8 +2008,8 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-body": null,
-      "needful-things": null
+      "the-body": "antagonist",
+      "needful-things": "supporting"
     },
     "residence": [
       "castle-rock-maine"
@@ -2273,8 +2273,8 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-dark-tower-the-gunslinger": null,
-      "the-gunslinger": null
+      "the-dark-tower-the-gunslinger": "supporting",
+      "the-gunslinger": "supporting"
     },
     "residence": [
       "tull"
@@ -2345,8 +2345,8 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-stand": null,
-      "the-stand-uncut": null
+      "the-stand": "minor",
+      "the-stand-uncut": "minor"
     },
     "residence": [],
     "kinds": [],
@@ -2855,8 +2855,8 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-shining": null,
-      "doctor-sleep": null
+      "the-shining": "antagonist",
+      "doctor-sleep": "minor"
     },
     "residence": [],
     "kinds": [],
@@ -3148,8 +3148,8 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-stand": null,
-      "the-stand-uncut": null
+      "the-stand": "minor",
+      "the-stand-uncut": "minor"
     },
     "residence": [],
     "kinds": [],
@@ -3436,8 +3436,8 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "desperation": null,
-      "the-regulators": null
+      "desperation": "antagonist",
+      "the-regulators": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -3702,8 +3702,8 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-stand": null,
-      "the-stand-uncut": null
+      "the-stand": "minor",
+      "the-stand-uncut": "minor"
     },
     "residence": [],
     "kinds": [],
@@ -3839,8 +3839,8 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-stand": null,
-      "the-stand-uncut": null
+      "the-stand": "minor",
+      "the-stand-uncut": "minor"
     },
     "residence": [
       "pratt-kansas"
@@ -4290,8 +4290,8 @@
     "types_id": 3,
     "group": false,
     "appears_in": {
-      "desperation": null,
-      "the-regulators": null
+      "desperation": "antagonist",
+      "the-regulators": "antagonist"
     },
     "residence": [],
     "kinds": [
@@ -5008,8 +5008,8 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-stand": null,
-      "the-stand-uncut": null
+      "the-stand": "supporting",
+      "the-stand-uncut": "supporting"
     },
     "residence": [],
     "kinds": [],

@@ -368,7 +368,7 @@
           {
             "name": "Horace M. Derwent",
             "url": "https://stephen-king-api.onrender.com/api/villain/26",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Delbert Grady",
@@ -378,7 +378,7 @@
           {
             "name": "Jack Torrance",
             "url": "https://stephen-king-api.onrender.com/api/villain/106",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Roger the Dog Man",
@@ -390,7 +390,7 @@
           {
             "name": "Horace M. Derwent",
             "url": "https://stephen-king-api.onrender.com/api/villain/26",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Delbert Grady",
@@ -400,7 +400,7 @@
           {
             "name": "Jack Torrance",
             "url": "https://stephen-king-api.onrender.com/api/villain/106",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Roger the Dog Man",
@@ -489,94 +489,94 @@
           {
             "name": "Donald Merwin Elbert",
             "url": "https://stephen-king-api.onrender.com/api/villain/34",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Randall Flagg",
             "url": "https://stephen-king-api.onrender.com/api/villain/37",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Lloyd Henreid",
             "url": "https://stephen-king-api.onrender.com/api/villain/51",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Harold Lauder",
             "url": "https://stephen-king-api.onrender.com/api/villain/64",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Rat Man",
             "url": "https://stephen-king-api.onrender.com/api/villain/87",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Andrew Freeman",
             "url": "https://stephen-king-api.onrender.com/api/villain/117",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Jenny Engstrom",
             "url": "https://stephen-king-api.onrender.com/api/villain/140",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Julie Lawry",
             "url": "https://stephen-king-api.onrender.com/api/villain/146",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Nadine Cross",
             "url": "https://stephen-king-api.onrender.com/api/villain/201",
-            "role": null
+            "role": "supporting"
           }
         ],
         "villains": [
           {
             "name": "Donald Merwin Elbert",
             "url": "https://stephen-king-api.onrender.com/api/villain/34",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Randall Flagg",
             "url": "https://stephen-king-api.onrender.com/api/villain/37",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Lloyd Henreid",
             "url": "https://stephen-king-api.onrender.com/api/villain/51",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Harold Lauder",
             "url": "https://stephen-king-api.onrender.com/api/villain/64",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Rat Man",
             "url": "https://stephen-king-api.onrender.com/api/villain/87",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Andrew Freeman",
             "url": "https://stephen-king-api.onrender.com/api/villain/117",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Jenny Engstrom",
             "url": "https://stephen-king-api.onrender.com/api/villain/140",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Julie Lawry",
             "url": "https://stephen-king-api.onrender.com/api/villain/146",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Nadine Cross",
             "url": "https://stephen-king-api.onrender.com/api/villain/201",
-            "role": null
+            "role": "supporting"
           }
         ],
         "protagonists": [],
@@ -961,44 +961,44 @@
           {
             "name": "Marten Broadcloak",
             "url": "https://stephen-king-api.onrender.com/api/villain/10",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Crimson King",
             "url": "https://stephen-king-api.onrender.com/api/villain/17",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Randall Flagg",
             "url": "https://stephen-king-api.onrender.com/api/villain/37",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Sylvia Pittston",
             "url": "https://stephen-king-api.onrender.com/api/villain/84",
-            "role": null
+            "role": "supporting"
           }
         ],
         "villains": [
           {
             "name": "Marten Broadcloak",
             "url": "https://stephen-king-api.onrender.com/api/villain/10",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Crimson King",
             "url": "https://stephen-king-api.onrender.com/api/villain/17",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Randall Flagg",
             "url": "https://stephen-king-api.onrender.com/api/villain/37",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Sylvia Pittston",
             "url": "https://stephen-king-api.onrender.com/api/villain/84",
-            "role": null
+            "role": "supporting"
           }
         ],
         "protagonists": [],
@@ -1283,14 +1283,14 @@
           {
             "name": "Randall Flagg",
             "url": "https://stephen-king-api.onrender.com/api/villain/37",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "villains": [
           {
             "name": "Randall Flagg",
             "url": "https://stephen-king-api.onrender.com/api/villain/37",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "protagonists": [],
@@ -1898,17 +1898,17 @@
           {
             "name": "Donald Merwin Elbert",
             "url": "https://stephen-king-api.onrender.com/api/villain/34",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Randall Flagg",
             "url": "https://stephen-king-api.onrender.com/api/villain/37",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Lloyd Henreid",
             "url": "https://stephen-king-api.onrender.com/api/villain/51",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "The Kid",
@@ -1918,49 +1918,49 @@
           {
             "name": "Harold Lauder",
             "url": "https://stephen-king-api.onrender.com/api/villain/64",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Rat Man",
             "url": "https://stephen-king-api.onrender.com/api/villain/87",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Andrew Freeman",
             "url": "https://stephen-king-api.onrender.com/api/villain/117",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Jenny Engstrom",
             "url": "https://stephen-king-api.onrender.com/api/villain/140",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Julie Lawry",
             "url": "https://stephen-king-api.onrender.com/api/villain/146",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Nadine Cross",
             "url": "https://stephen-king-api.onrender.com/api/villain/201",
-            "role": null
+            "role": "supporting"
           }
         ],
         "villains": [
           {
             "name": "Donald Merwin Elbert",
             "url": "https://stephen-king-api.onrender.com/api/villain/34",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Randall Flagg",
             "url": "https://stephen-king-api.onrender.com/api/villain/37",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Lloyd Henreid",
             "url": "https://stephen-king-api.onrender.com/api/villain/51",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "The Kid",
@@ -1970,32 +1970,32 @@
           {
             "name": "Harold Lauder",
             "url": "https://stephen-king-api.onrender.com/api/villain/64",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Rat Man",
             "url": "https://stephen-king-api.onrender.com/api/villain/87",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Andrew Freeman",
             "url": "https://stephen-king-api.onrender.com/api/villain/117",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Jenny Engstrom",
             "url": "https://stephen-king-api.onrender.com/api/villain/140",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Julie Lawry",
             "url": "https://stephen-king-api.onrender.com/api/villain/146",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Nadine Cross",
             "url": "https://stephen-king-api.onrender.com/api/villain/201",
-            "role": null
+            "role": "supporting"
           }
         ],
         "protagonists": [],
@@ -2019,24 +2019,24 @@
           {
             "name": "Blaine the Mono",
             "url": "https://stephen-king-api.onrender.com/api/villain/3",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Randall Flagg",
             "url": "https://stephen-king-api.onrender.com/api/villain/37",
-            "role": null
+            "role": "minor"
           }
         ],
         "villains": [
           {
             "name": "Blaine the Mono",
             "url": "https://stephen-king-api.onrender.com/api/villain/3",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Randall Flagg",
             "url": "https://stephen-king-api.onrender.com/api/villain/37",
-            "role": null
+            "role": "minor"
           }
         ],
         "protagonists": [],
@@ -2090,7 +2090,7 @@
           {
             "name": "John \"Ace\" Merrill",
             "url": "https://stephen-king-api.onrender.com/api/villain/74",
-            "role": null
+            "role": "supporting"
           }
         ],
         "villains": [
@@ -2102,7 +2102,7 @@
           {
             "name": "John \"Ace\" Merrill",
             "url": "https://stephen-king-api.onrender.com/api/villain/74",
-            "role": null
+            "role": "supporting"
           }
         ],
         "protagonists": [],
@@ -2243,12 +2243,12 @@
           {
             "name": "Crimson King",
             "url": "https://stephen-king-api.onrender.com/api/villain/17",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Susan Day",
             "url": "https://stephen-king-api.onrender.com/api/villain/23",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Atropos",
@@ -2265,12 +2265,12 @@
           {
             "name": "Crimson King",
             "url": "https://stephen-king-api.onrender.com/api/villain/17",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Susan Day",
             "url": "https://stephen-king-api.onrender.com/api/villain/23",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Atropos",
@@ -2324,7 +2324,7 @@
           {
             "name": "Susan Day",
             "url": "https://stephen-king-api.onrender.com/api/villain/23",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Harley Bissington",
@@ -2341,7 +2341,7 @@
           {
             "name": "Susan Day",
             "url": "https://stephen-king-api.onrender.com/api/villain/23",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Harley Bissington",
@@ -2425,24 +2425,24 @@
           {
             "name": "Collie Entragian",
             "url": "https://stephen-king-api.onrender.com/api/villain/129",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Tak",
             "url": "https://stephen-king-api.onrender.com/api/villain/165",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "villains": [
           {
             "name": "Collie Entragian",
             "url": "https://stephen-king-api.onrender.com/api/villain/129",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Tak",
             "url": "https://stephen-king-api.onrender.com/api/villain/165",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "protagonists": [],
@@ -2479,24 +2479,24 @@
           {
             "name": "Collie Entragian",
             "url": "https://stephen-king-api.onrender.com/api/villain/129",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Tak",
             "url": "https://stephen-king-api.onrender.com/api/villain/165",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "villains": [
           {
             "name": "Collie Entragian",
             "url": "https://stephen-king-api.onrender.com/api/villain/129",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Tak",
             "url": "https://stephen-king-api.onrender.com/api/villain/165",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "protagonists": [],
@@ -2529,7 +2529,7 @@
           {
             "name": "Blaine the Mono",
             "url": "https://stephen-king-api.onrender.com/api/villain/3",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Cordelia Delgado",
@@ -2549,7 +2549,7 @@
           {
             "name": "Randall Flagg",
             "url": "https://stephen-king-api.onrender.com/api/villain/37",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Eldred Jonas",
@@ -2571,7 +2571,7 @@
           {
             "name": "Blaine the Mono",
             "url": "https://stephen-king-api.onrender.com/api/villain/3",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Cordelia Delgado",
@@ -2591,7 +2591,7 @@
           {
             "name": "Randall Flagg",
             "url": "https://stephen-king-api.onrender.com/api/villain/37",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Eldred Jonas",
@@ -2816,14 +2816,14 @@
           {
             "name": "Crimson King",
             "url": "https://stephen-king-api.onrender.com/api/villain/17",
-            "role": null
+            "role": "supporting"
           }
         ],
         "villains": [
           {
             "name": "Crimson King",
             "url": "https://stephen-king-api.onrender.com/api/villain/17",
-            "role": null
+            "role": "supporting"
           }
         ],
         "protagonists": [],
@@ -2976,7 +2976,7 @@
           {
             "name": "Mordred Deschain",
             "url": "https://stephen-king-api.onrender.com/api/villain/27",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Donald Callahan",
@@ -2988,7 +2988,7 @@
           {
             "name": "Mordred Deschain",
             "url": "https://stephen-king-api.onrender.com/api/villain/27",
-            "role": null
+            "role": "supporting"
           }
         ],
         "protagonists": [],
@@ -3037,7 +3037,7 @@
           {
             "name": "Crimson King",
             "url": "https://stephen-king-api.onrender.com/api/villain/17",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Dandelo",
@@ -3047,12 +3047,12 @@
           {
             "name": "Mordred Deschain",
             "url": "https://stephen-king-api.onrender.com/api/villain/27",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Randall Flagg",
             "url": "https://stephen-king-api.onrender.com/api/villain/37",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Donald Callahan",
@@ -3064,7 +3064,7 @@
           {
             "name": "Crimson King",
             "url": "https://stephen-king-api.onrender.com/api/villain/17",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Dandelo",
@@ -3074,12 +3074,12 @@
           {
             "name": "Mordred Deschain",
             "url": "https://stephen-king-api.onrender.com/api/villain/27",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Randall Flagg",
             "url": "https://stephen-king-api.onrender.com/api/villain/37",
-            "role": null
+            "role": "minor"
           }
         ],
         "protagonists": [],
@@ -3564,7 +3564,7 @@
           {
             "name": "Horace M. Derwent",
             "url": "https://stephen-king-api.onrender.com/api/villain/26",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Rose the Hat",
@@ -3574,7 +3574,7 @@
           {
             "name": "Jack Torrance",
             "url": "https://stephen-king-api.onrender.com/api/villain/106",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Barry",
@@ -3611,7 +3611,7 @@
           {
             "name": "Horace M. Derwent",
             "url": "https://stephen-king-api.onrender.com/api/villain/26",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Rose the Hat",
@@ -3621,7 +3621,7 @@
           {
             "name": "Jack Torrance",
             "url": "https://stephen-king-api.onrender.com/api/villain/106",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Barry",
@@ -3684,14 +3684,14 @@
           {
             "name": "Brady Hartsfield",
             "url": "https://stephen-king-api.onrender.com/api/villain/50",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "villains": [
           {
             "name": "Brady Hartsfield",
             "url": "https://stephen-king-api.onrender.com/api/villain/50",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "protagonists": [],
@@ -3757,7 +3757,7 @@
           {
             "name": "Brady Hartsfield",
             "url": "https://stephen-king-api.onrender.com/api/villain/50",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Andrew Halliday",
@@ -3774,7 +3774,7 @@
           {
             "name": "Brady Hartsfield",
             "url": "https://stephen-king-api.onrender.com/api/villain/50",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Andrew Halliday",
@@ -3807,14 +3807,14 @@
           {
             "name": "Brady Hartsfield",
             "url": "https://stephen-king-api.onrender.com/api/villain/50",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "villains": [
           {
             "name": "Brady Hartsfield",
             "url": "https://stephen-king-api.onrender.com/api/villain/50",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "protagonists": [],

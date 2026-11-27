@@ -8,7 +8,7 @@ import { PANEL_ROWS, refIndex, statusOf, type Ref } from "../src/graph/payload";
 import { decode } from "../src/client/model";
 import { layout } from "../src/client/layout";
 
-// The graph file behind the /next home page (SK-045), and the page itself
+// The graph file behind the home page (SK-045), and the page itself
 
 let server: TestServer;
 before(async () => {
@@ -175,18 +175,19 @@ describe("the graph file", () => {
   });
 });
 
-describe("GET /next", () => {
+describe("GET /", () => {
   const page = async (query = "") => {
-    const res = await fetch(`${server.url}/next${query}`);
+    const res = await fetch(`${server.url}/${query}`);
     return { status: res.status, html: await res.text() };
   };
   const config = (html: string) =>
     JSON.parse(/<script type="application\/json" id="graph-config">([^<]*)<\/script>/.exec(html)![1]);
 
-  it("renders the default record and stays out of search results", async () => {
+  it("renders the default record, open to search engines and with analytics", async () => {
     const { status, html } = await page();
     assert.equal(status, 200);
-    assert.match(html, /<meta name="robots" content="noindex" \/>/);
+    assert.doesNotMatch(html, /noindex/);
+    assert.match(html, /<script async src="https:\/\/www\.googletagmanager\.com\/gtag\/js\?id=G-JF9VSP0JWE"><\/script>/);
     assert.match(html, /<title>Stephen King API<\/title>/);
     const focus = graph.panel(graph.find("villain", 57)!);
     assert.ok(html.includes(`<h2 class="g-name" tabindex="-1">${focus.name}</h2>`));
@@ -206,8 +207,22 @@ describe("GET /next", () => {
     for (const f of panel.fields) {
       assert.ok(html.includes(`data-field="${f.field}"`), f.field);
       for (const item of f.items.filter((e) => e.i >= 0)) {
-        assert.ok(html.includes(`href="/next?focus=${item.kind}-${item.id}"`), `${f.field} ${item.name}`);
+        assert.ok(html.includes(`href="/?focus=${item.kind}-${item.id}"`), `${f.field} ${item.name}`);
       }
+    }
+  });
+
+  it("opens a character drawn as a villain at its villain", async () => {
+    const { html } = await page("?focus=character-57");
+    assert.equal(config(html).focus, "villain-57");
+    assert.ok(html.includes("<title>It (Creature) · Stephen King API</title>"));
+  });
+
+  it("sends the page's old address, /next, here for good, keeping ?focus", async () => {
+    for (const [from, to] of [["/next", "/"], ["/next?focus=book-19", "/?focus=book-19"]]) {
+      const res = await fetch(`${server.url}${from}`, { redirect: "manual" });
+      assert.equal(res.status, 301, from);
+      assert.equal(res.headers.get("location"), to);
     }
   });
 
@@ -261,7 +276,7 @@ describe("GET /next", () => {
     const section = (page: string, field: string) =>
       new RegExp(`<section class="g-field" data-field="${field.replace(".", "\\.")}">([^]*?)</section>`).exec(page)![1];
     assert.match(section(html, "death.cause"), /<p class="g-text">Heart crushed<\/p>/);
-    assert.match(section(html, "death.work"), /href="\/next\?focus=book-19"/);
+    assert.match(section(html, "death.work"), /href="\/\?focus=book-19"/);
     // The Losers' Club has no record, so it's a plain row, and its members
     // link to theirs
     const killers = section(html, "death.killed_by");
@@ -271,13 +286,13 @@ describe("GET /next", () => {
     );
     const members: [string, number][] = [["Bill Denbrough", 207], ["Richie Tozier", 210], ["Beverly Marsh", 209], ["Eddie Kaspbrak", 211], ["Ben Hanscom", 208]];
     for (const [name, id] of members) {
-      const row = new RegExp(`href="/next\\?focus=character-${id}" data-i="\\d+">\\s*<span class="glyph"[^>]*></span>\\s*<span class="g-row-name"><span class="g-row-text">${name}</span>`);
+      const row = new RegExp(`href="/\\?focus=character-${id}" data-i="\\d+">\\s*<span class="glyph"[^>]*></span>\\s*<span class="g-row-name"><span class="g-row-text">${name}</span>`);
       assert.match(killers, row, name);
     }
     // It's victims, and a killer with a record, link both ways
-    assert.match(section(html, "killed"), /href="\/next\?focus=villain-18"/);
+    assert.match(section(html, "killed"), /href="\/\?focus=villain-18"/);
     const { html: victor } = await page("?focus=villain-18");
-    assert.match(section(victor, "death.killed_by"), /href="\/next\?focus=villain-57"/);
+    assert.match(section(victor, "death.killed_by"), /href="\/\?focus=villain-57"/);
   });
 
   it("can't be broken out of by a name in the script config", async () => {

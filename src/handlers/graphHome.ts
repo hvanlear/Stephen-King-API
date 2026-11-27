@@ -7,7 +7,7 @@ import { PANEL_ROWS } from "../graph/payload";
 import { clientAssets } from "../utils/clientAssets";
 import { counts } from "../kinds";
 
-// The graph home page, design 06. It's at /next until it replaces / (SK-045).
+// The home page, design 06 (SK-045): the catalog as a graph you can walk.
 // ?focus=villain-57 picks the record in the middle; the server renders its
 // panel, so the links work before the script loads, and without it.
 
@@ -57,8 +57,8 @@ export function showGraphHome(req: Request, res: Response) {
     title: found === undefined ? "Stephen King API" : `${panel.name} · Stephen King API`,
     description:
       found === undefined
-        ? "A free REST API of Stephen King's books, short stories, villains and the places they haunt. Walk the graph of how they connect."
-        : `${panel.label} ${panel.name} in the Stephen King API, with every book, story, villain and place it links to.`,
+        ? "A free REST API of Stephen King's books, short stories, characters, villains and the places they haunt. Walk the graph of how they connect."
+        : `${panel.label} ${panel.name} in the Stephen King API, with every book, story, character and place it links to.`,
     kinds,
     statusKey,
     panel,

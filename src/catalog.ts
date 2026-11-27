@@ -27,10 +27,11 @@ export interface Short {
   created_at: string;
 }
 
-// Who killed a character: a villain, another character, or a name for
-// someone the catalog has no record of yet. A name becomes an id once the
-// record exists, without changing the shape the API serves.
-export type Killer = { villain: number } | { character: number } | { name: string };
+// Who killed a character: another character, villains included, by id, or a
+// name for someone the catalog has no record of yet. A name becomes an id once
+// the record exists, without changing the shape the API serves. Whether the
+// killer is a villain is read from its record, which picks its link.
+export type Killer = { character: number } | { name: string };
 
 // A group of killers, such as the Losers' Club, can list the members who
 // took part, in the same forms
@@ -182,10 +183,6 @@ for (const character of characters) {
   }
 }
 
-// The record id a killer links to, or undefined for a name with no record
-export const killerId = (killer: Killer): number | undefined =>
-  "villain" in killer ? killer.villain : "character" in killer ? killer.character : undefined;
-
 // Where each recorded death happens, and the characters each character
 // killed, in victim id order. Killing as a group's member counts.
 export const deathWorkByCharacter = new Map<number, { book: number } | { short: number }>();
@@ -203,9 +200,8 @@ for (const character of characters) {
   const killers = new Set<number>();
   for (const { members = [], ...killer } of character.death.killed_by) {
     for (const one of [killer, ...members]) {
-      const id = killerId(one);
-      if (id !== undefined) {
-        killers.add(id);
+      if ("character" in one) {
+        killers.add(one.character);
       }
     }
   }

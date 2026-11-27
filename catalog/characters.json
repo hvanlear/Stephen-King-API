@@ -229,7 +229,7 @@
       },
       "killed_by": [
         {
-          "villain": 7
+          "character": 7
         }
       ]
     },
@@ -525,7 +525,7 @@
       },
       "killed_by": [
         {
-          "villain": 57
+          "character": 57
         }
       ]
     },
@@ -1430,7 +1430,7 @@
       },
       "killed_by": [
         {
-          "villain": 57
+          "character": 57
         }
       ]
     },
@@ -1496,7 +1496,7 @@
       },
       "killed_by": [
         {
-          "villain": 57
+          "character": 57
         }
       ]
     },
@@ -2453,7 +2453,7 @@
       },
       "killed_by": [
         {
-          "villain": 57
+          "character": 57
         }
       ]
     },
@@ -2641,7 +2641,7 @@
       },
       "killed_by": [
         {
-          "villain": 2
+          "character": 2
         }
       ]
     },
@@ -5233,7 +5233,7 @@
       },
       "killed_by": [
         {
-          "villain": 57
+          "character": 57
         }
       ]
     },
@@ -5307,7 +5307,7 @@
       },
       "killed_by": [
         {
-          "villain": 2
+          "character": 2
         }
       ]
     },

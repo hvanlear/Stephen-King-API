@@ -1122,7 +1122,16 @@
           }
         ],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Tom Billingsley",
+            "url": "https://stephen-king-api.onrender.com/api/character/368"
+          },
+          {
+            "name": "Audrey Wyler",
+            "url": "https://stephen-king-api.onrender.com/api/character/369"
+          }
+        ],
         "villains": []
       },
       {

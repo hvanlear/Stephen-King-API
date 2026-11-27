@@ -1048,6 +1048,46 @@
           {
             "name": "Patrick Danville",
             "url": "https://stephen-king-api.onrender.com/api/character/343"
+          },
+          {
+            "name": "Paul Edgecomb",
+            "url": "https://stephen-king-api.onrender.com/api/character/349"
+          },
+          {
+            "name": "Brutus Howell",
+            "url": "https://stephen-king-api.onrender.com/api/character/351"
+          },
+          {
+            "name": "Dean Stanton",
+            "url": "https://stephen-king-api.onrender.com/api/character/352"
+          },
+          {
+            "name": "Harry Terwilliger",
+            "url": "https://stephen-king-api.onrender.com/api/character/353"
+          },
+          {
+            "name": "Hal Moores",
+            "url": "https://stephen-king-api.onrender.com/api/character/356"
+          },
+          {
+            "name": "Melinda Moores",
+            "url": "https://stephen-king-api.onrender.com/api/character/357"
+          },
+          {
+            "name": "Tom Billingsley",
+            "url": "https://stephen-king-api.onrender.com/api/character/368"
+          },
+          {
+            "name": "Audrey Wyler",
+            "url": "https://stephen-king-api.onrender.com/api/character/369"
+          },
+          {
+            "name": "Seth Garin",
+            "url": "https://stephen-king-api.onrender.com/api/character/370"
+          },
+          {
+            "name": "Cammie Reed",
+            "url": "https://stephen-king-api.onrender.com/api/character/371"
           }
         ],
         "villains": [
@@ -2060,6 +2100,30 @@
           {
             "name": "Percy Wetmore",
             "url": "https://stephen-king-api.onrender.com/api/villain/111"
+          },
+          {
+            "name": "Paul Edgecomb",
+            "url": "https://stephen-king-api.onrender.com/api/character/349"
+          },
+          {
+            "name": "Brutus Howell",
+            "url": "https://stephen-king-api.onrender.com/api/character/351"
+          },
+          {
+            "name": "Dean Stanton",
+            "url": "https://stephen-king-api.onrender.com/api/character/352"
+          },
+          {
+            "name": "Harry Terwilliger",
+            "url": "https://stephen-king-api.onrender.com/api/character/353"
+          },
+          {
+            "name": "Hal Moores",
+            "url": "https://stephen-king-api.onrender.com/api/character/356"
+          },
+          {
+            "name": "Melinda Moores",
+            "url": "https://stephen-king-api.onrender.com/api/character/357"
           }
         ],
         "villains": [
@@ -3269,7 +3333,16 @@
         ],
         "books": [],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Tom Billingsley",
+            "url": "https://stephen-king-api.onrender.com/api/character/368"
+          },
+          {
+            "name": "Audrey Wyler",
+            "url": "https://stephen-king-api.onrender.com/api/character/369"
+          }
+        ],
         "villains": []
       },
       {
@@ -3415,6 +3488,22 @@
           {
             "name": "Vicky Tomlinson",
             "url": "https://stephen-king-api.onrender.com/api/character/248"
+          },
+          {
+            "name": "Tom Billingsley",
+            "url": "https://stephen-king-api.onrender.com/api/character/368"
+          },
+          {
+            "name": "Audrey Wyler",
+            "url": "https://stephen-king-api.onrender.com/api/character/369"
+          },
+          {
+            "name": "Seth Garin",
+            "url": "https://stephen-king-api.onrender.com/api/character/370"
+          },
+          {
+            "name": "Cammie Reed",
+            "url": "https://stephen-king-api.onrender.com/api/character/371"
           }
         ],
         "villains": [
@@ -4967,7 +5056,16 @@
           }
         ],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Tom Billingsley",
+            "url": "https://stephen-king-api.onrender.com/api/character/368"
+          },
+          {
+            "name": "Audrey Wyler",
+            "url": "https://stephen-king-api.onrender.com/api/character/369"
+          }
+        ],
         "villains": []
       },
       {

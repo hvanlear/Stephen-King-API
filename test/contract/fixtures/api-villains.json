@@ -4597,7 +4597,7 @@
           {
             "title": "The Green Mile",
             "url": "https://stephen-king-api.onrender.com/api/book/31",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -4635,7 +4635,7 @@
           {
             "title": "The Green Mile",
             "url": "https://stephen-king-api.onrender.com/api/book/31",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],

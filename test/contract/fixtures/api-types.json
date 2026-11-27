@@ -1191,6 +1191,94 @@
           {
             "name": "Cynthia Smith",
             "url": "https://stephen-king-api.onrender.com/api/character/348"
+          },
+          {
+            "name": "Paul Edgecomb",
+            "url": "https://stephen-king-api.onrender.com/api/character/349"
+          },
+          {
+            "name": "John Coffey",
+            "url": "https://stephen-king-api.onrender.com/api/character/350"
+          },
+          {
+            "name": "Brutus Howell",
+            "url": "https://stephen-king-api.onrender.com/api/character/351"
+          },
+          {
+            "name": "Dean Stanton",
+            "url": "https://stephen-king-api.onrender.com/api/character/352"
+          },
+          {
+            "name": "Harry Terwilliger",
+            "url": "https://stephen-king-api.onrender.com/api/character/353"
+          },
+          {
+            "name": "Eduard Delacroix",
+            "url": "https://stephen-king-api.onrender.com/api/character/354"
+          },
+          {
+            "name": "Hal Moores",
+            "url": "https://stephen-king-api.onrender.com/api/character/356"
+          },
+          {
+            "name": "Melinda Moores",
+            "url": "https://stephen-king-api.onrender.com/api/character/357"
+          },
+          {
+            "name": "Elaine Connelly",
+            "url": "https://stephen-king-api.onrender.com/api/character/358"
+          },
+          {
+            "name": "Arlen Bitterbuck",
+            "url": "https://stephen-king-api.onrender.com/api/character/359"
+          },
+          {
+            "name": "David Carver",
+            "url": "https://stephen-king-api.onrender.com/api/character/360"
+          },
+          {
+            "name": "Johnny Marinville",
+            "url": "https://stephen-king-api.onrender.com/api/character/361"
+          },
+          {
+            "name": "Mary Jackson",
+            "url": "https://stephen-king-api.onrender.com/api/character/362"
+          },
+          {
+            "name": "Steve Ames",
+            "url": "https://stephen-king-api.onrender.com/api/character/363"
+          },
+          {
+            "name": "Ralph Carver",
+            "url": "https://stephen-king-api.onrender.com/api/character/364"
+          },
+          {
+            "name": "Ellen Carver",
+            "url": "https://stephen-king-api.onrender.com/api/character/365"
+          },
+          {
+            "name": "Kirsten Carver",
+            "url": "https://stephen-king-api.onrender.com/api/character/366"
+          },
+          {
+            "name": "Peter Jackson",
+            "url": "https://stephen-king-api.onrender.com/api/character/367"
+          },
+          {
+            "name": "Tom Billingsley",
+            "url": "https://stephen-king-api.onrender.com/api/character/368"
+          },
+          {
+            "name": "Audrey Wyler",
+            "url": "https://stephen-king-api.onrender.com/api/character/369"
+          },
+          {
+            "name": "Seth Garin",
+            "url": "https://stephen-king-api.onrender.com/api/character/370"
+          },
+          {
+            "name": "Cammie Reed",
+            "url": "https://stephen-king-api.onrender.com/api/character/371"
           }
         ],
         "villains": [
@@ -2326,6 +2414,10 @@
           {
             "name": "Oy",
             "url": "https://stephen-king-api.onrender.com/api/character/324"
+          },
+          {
+            "name": "Mr. Jingles",
+            "url": "https://stephen-king-api.onrender.com/api/character/355"
           }
         ],
         "villains": [

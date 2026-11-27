@@ -3478,27 +3478,93 @@
           {
             "name": "Percy Wetmore",
             "url": "https://stephen-king-api.onrender.com/api/villain/111",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "William Wharton",
             "url": "https://stephen-king-api.onrender.com/api/villain/112",
-            "role": null
+            "role": "antagonist"
+          },
+          {
+            "name": "Paul Edgecomb",
+            "url": "https://stephen-king-api.onrender.com/api/character/349",
+            "role": "protagonist"
+          },
+          {
+            "name": "John Coffey",
+            "url": "https://stephen-king-api.onrender.com/api/character/350",
+            "role": "protagonist"
+          },
+          {
+            "name": "Brutus Howell",
+            "url": "https://stephen-king-api.onrender.com/api/character/351",
+            "role": "supporting"
+          },
+          {
+            "name": "Dean Stanton",
+            "url": "https://stephen-king-api.onrender.com/api/character/352",
+            "role": "supporting"
+          },
+          {
+            "name": "Harry Terwilliger",
+            "url": "https://stephen-king-api.onrender.com/api/character/353",
+            "role": "supporting"
+          },
+          {
+            "name": "Eduard Delacroix",
+            "url": "https://stephen-king-api.onrender.com/api/character/354",
+            "role": "supporting"
+          },
+          {
+            "name": "Mr. Jingles",
+            "url": "https://stephen-king-api.onrender.com/api/character/355",
+            "role": "supporting"
+          },
+          {
+            "name": "Hal Moores",
+            "url": "https://stephen-king-api.onrender.com/api/character/356",
+            "role": "supporting"
+          },
+          {
+            "name": "Melinda Moores",
+            "url": "https://stephen-king-api.onrender.com/api/character/357",
+            "role": "minor"
+          },
+          {
+            "name": "Elaine Connelly",
+            "url": "https://stephen-king-api.onrender.com/api/character/358",
+            "role": "supporting"
+          },
+          {
+            "name": "Arlen Bitterbuck",
+            "url": "https://stephen-king-api.onrender.com/api/character/359",
+            "role": "minor"
           }
         ],
         "villains": [
           {
             "name": "Percy Wetmore",
             "url": "https://stephen-king-api.onrender.com/api/villain/111",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "William Wharton",
             "url": "https://stephen-king-api.onrender.com/api/villain/112",
-            "role": null
+            "role": "antagonist"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Paul Edgecomb",
+            "url": "https://stephen-king-api.onrender.com/api/character/349",
+            "role": "protagonist"
+          },
+          {
+            "name": "John Coffey",
+            "url": "https://stephen-king-api.onrender.com/api/character/350",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Cold Mountain Penitentiary",
@@ -3535,6 +3601,56 @@
             "name": "Cynthia Smith",
             "url": "https://stephen-king-api.onrender.com/api/character/348",
             "role": "supporting"
+          },
+          {
+            "name": "David Carver",
+            "url": "https://stephen-king-api.onrender.com/api/character/360",
+            "role": "protagonist"
+          },
+          {
+            "name": "Johnny Marinville",
+            "url": "https://stephen-king-api.onrender.com/api/character/361",
+            "role": "protagonist"
+          },
+          {
+            "name": "Mary Jackson",
+            "url": "https://stephen-king-api.onrender.com/api/character/362",
+            "role": "supporting"
+          },
+          {
+            "name": "Steve Ames",
+            "url": "https://stephen-king-api.onrender.com/api/character/363",
+            "role": "supporting"
+          },
+          {
+            "name": "Ralph Carver",
+            "url": "https://stephen-king-api.onrender.com/api/character/364",
+            "role": "supporting"
+          },
+          {
+            "name": "Ellen Carver",
+            "url": "https://stephen-king-api.onrender.com/api/character/365",
+            "role": "minor"
+          },
+          {
+            "name": "Kirsten Carver",
+            "url": "https://stephen-king-api.onrender.com/api/character/366",
+            "role": "minor"
+          },
+          {
+            "name": "Peter Jackson",
+            "url": "https://stephen-king-api.onrender.com/api/character/367",
+            "role": "minor"
+          },
+          {
+            "name": "Tom Billingsley",
+            "url": "https://stephen-king-api.onrender.com/api/character/368",
+            "role": "supporting"
+          },
+          {
+            "name": "Audrey Wyler",
+            "url": "https://stephen-king-api.onrender.com/api/character/369",
+            "role": "minor"
           }
         ],
         "villains": [
@@ -3549,7 +3665,18 @@
             "role": "antagonist"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "David Carver",
+            "url": "https://stephen-king-api.onrender.com/api/character/360",
+            "role": "protagonist"
+          },
+          {
+            "name": "Johnny Marinville",
+            "url": "https://stephen-king-api.onrender.com/api/character/361",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Desperation, Nevada",
@@ -3594,6 +3721,66 @@
             "name": "Cynthia Smith",
             "url": "https://stephen-king-api.onrender.com/api/character/348",
             "role": "supporting"
+          },
+          {
+            "name": "David Carver",
+            "url": "https://stephen-king-api.onrender.com/api/character/360",
+            "role": "minor"
+          },
+          {
+            "name": "Johnny Marinville",
+            "url": "https://stephen-king-api.onrender.com/api/character/361",
+            "role": "supporting"
+          },
+          {
+            "name": "Mary Jackson",
+            "url": "https://stephen-king-api.onrender.com/api/character/362",
+            "role": "minor"
+          },
+          {
+            "name": "Steve Ames",
+            "url": "https://stephen-king-api.onrender.com/api/character/363",
+            "role": "minor"
+          },
+          {
+            "name": "Ralph Carver",
+            "url": "https://stephen-king-api.onrender.com/api/character/364",
+            "role": "minor"
+          },
+          {
+            "name": "Ellen Carver",
+            "url": "https://stephen-king-api.onrender.com/api/character/365",
+            "role": "minor"
+          },
+          {
+            "name": "Kirsten Carver",
+            "url": "https://stephen-king-api.onrender.com/api/character/366",
+            "role": "minor"
+          },
+          {
+            "name": "Peter Jackson",
+            "url": "https://stephen-king-api.onrender.com/api/character/367",
+            "role": "minor"
+          },
+          {
+            "name": "Tom Billingsley",
+            "url": "https://stephen-king-api.onrender.com/api/character/368",
+            "role": "minor"
+          },
+          {
+            "name": "Audrey Wyler",
+            "url": "https://stephen-king-api.onrender.com/api/character/369",
+            "role": "protagonist"
+          },
+          {
+            "name": "Seth Garin",
+            "url": "https://stephen-king-api.onrender.com/api/character/370",
+            "role": "protagonist"
+          },
+          {
+            "name": "Cammie Reed",
+            "url": "https://stephen-king-api.onrender.com/api/character/371",
+            "role": "supporting"
           }
         ],
         "villains": [
@@ -3608,7 +3795,18 @@
             "role": "antagonist"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Audrey Wyler",
+            "url": "https://stephen-king-api.onrender.com/api/character/369",
+            "role": "protagonist"
+          },
+          {
+            "name": "Seth Garin",
+            "url": "https://stephen-king-api.onrender.com/api/character/370",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Desperation, Nevada",

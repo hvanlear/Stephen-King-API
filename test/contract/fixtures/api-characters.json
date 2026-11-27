@@ -4597,7 +4597,7 @@
           {
             "title": "The Green Mile",
             "url": "https://stephen-king-api.onrender.com/api/book/31",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -4635,7 +4635,7 @@
           {
             "title": "The Green Mile",
             "url": "https://stephen-king-api.onrender.com/api/book/31",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -12908,6 +12908,758 @@
         ],
         "shorts": [],
         "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 349,
+        "name": "Paul Edgecomb",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:17:57.000Z",
+        "books": [
+          {
+            "title": "The Green Mile",
+            "url": "https://stephen-king-api.onrender.com/api/book/31",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Louisiana",
+            "url": "https://stephen-king-api.onrender.com/api/place/27"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 350,
+        "name": "John Coffey",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:17:57.000Z",
+        "books": [
+          {
+            "title": "The Green Mile",
+            "url": "https://stephen-king-api.onrender.com/api/book/31",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 351,
+        "name": "Brutus Howell",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:17:57.000Z",
+        "books": [
+          {
+            "title": "The Green Mile",
+            "url": "https://stephen-king-api.onrender.com/api/book/31",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Louisiana",
+            "url": "https://stephen-king-api.onrender.com/api/place/27"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 352,
+        "name": "Dean Stanton",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:17:57.000Z",
+        "books": [
+          {
+            "title": "The Green Mile",
+            "url": "https://stephen-king-api.onrender.com/api/book/31",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Louisiana",
+            "url": "https://stephen-king-api.onrender.com/api/place/27"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 353,
+        "name": "Harry Terwilliger",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:17:57.000Z",
+        "books": [
+          {
+            "title": "The Green Mile",
+            "url": "https://stephen-king-api.onrender.com/api/book/31",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Louisiana",
+            "url": "https://stephen-king-api.onrender.com/api/place/27"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 354,
+        "name": "Eduard Delacroix",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:17:57.000Z",
+        "books": [
+          {
+            "title": "The Green Mile",
+            "url": "https://stephen-king-api.onrender.com/api/book/31",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 355,
+        "name": "Mr. Jingles",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 8,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:17:57.000Z",
+        "books": [
+          {
+            "title": "The Green Mile",
+            "url": "https://stephen-king-api.onrender.com/api/book/31",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Animal",
+          "url": "https://stephen-king-api.onrender.com/api/type/8"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 356,
+        "name": "Hal Moores",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:17:57.000Z",
+        "books": [
+          {
+            "title": "The Green Mile",
+            "url": "https://stephen-king-api.onrender.com/api/book/31",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Louisiana",
+            "url": "https://stephen-king-api.onrender.com/api/place/27"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 357,
+        "name": "Melinda Moores",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:17:57.000Z",
+        "books": [
+          {
+            "title": "The Green Mile",
+            "url": "https://stephen-king-api.onrender.com/api/book/31",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Louisiana",
+            "url": "https://stephen-king-api.onrender.com/api/place/27"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 358,
+        "name": "Elaine Connelly",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:17:57.000Z",
+        "books": [
+          {
+            "title": "The Green Mile",
+            "url": "https://stephen-king-api.onrender.com/api/book/31",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 359,
+        "name": "Arlen Bitterbuck",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:17:57.000Z",
+        "books": [
+          {
+            "title": "The Green Mile",
+            "url": "https://stephen-king-api.onrender.com/api/book/31",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 360,
+        "name": "David Carver",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:17:57.000Z",
+        "books": [
+          {
+            "title": "Desperation",
+            "url": "https://stephen-king-api.onrender.com/api/book/32",
+            "role": "protagonist"
+          },
+          {
+            "title": "The Regulators",
+            "url": "https://stephen-king-api.onrender.com/api/book/33",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 361,
+        "name": "Johnny Marinville",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:17:57.000Z",
+        "books": [
+          {
+            "title": "Desperation",
+            "url": "https://stephen-king-api.onrender.com/api/book/32",
+            "role": "protagonist"
+          },
+          {
+            "title": "The Regulators",
+            "url": "https://stephen-king-api.onrender.com/api/book/33",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 362,
+        "name": "Mary Jackson",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:17:57.000Z",
+        "books": [
+          {
+            "title": "Desperation",
+            "url": "https://stephen-king-api.onrender.com/api/book/32",
+            "role": "supporting"
+          },
+          {
+            "title": "The Regulators",
+            "url": "https://stephen-king-api.onrender.com/api/book/33",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 363,
+        "name": "Steve Ames",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:17:57.000Z",
+        "books": [
+          {
+            "title": "Desperation",
+            "url": "https://stephen-king-api.onrender.com/api/book/32",
+            "role": "supporting"
+          },
+          {
+            "title": "The Regulators",
+            "url": "https://stephen-king-api.onrender.com/api/book/33",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 364,
+        "name": "Ralph Carver",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:17:57.000Z",
+        "books": [
+          {
+            "title": "Desperation",
+            "url": "https://stephen-king-api.onrender.com/api/book/32",
+            "role": "supporting"
+          },
+          {
+            "title": "The Regulators",
+            "url": "https://stephen-king-api.onrender.com/api/book/33",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 365,
+        "name": "Ellen Carver",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:17:57.000Z",
+        "books": [
+          {
+            "title": "Desperation",
+            "url": "https://stephen-king-api.onrender.com/api/book/32",
+            "role": "minor"
+          },
+          {
+            "title": "The Regulators",
+            "url": "https://stephen-king-api.onrender.com/api/book/33",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 366,
+        "name": "Kirsten Carver",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:17:57.000Z",
+        "books": [
+          {
+            "title": "Desperation",
+            "url": "https://stephen-king-api.onrender.com/api/book/32",
+            "role": "minor"
+          },
+          {
+            "title": "The Regulators",
+            "url": "https://stephen-king-api.onrender.com/api/book/33",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 367,
+        "name": "Peter Jackson",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:17:57.000Z",
+        "books": [
+          {
+            "title": "Desperation",
+            "url": "https://stephen-king-api.onrender.com/api/book/32",
+            "role": "minor"
+          },
+          {
+            "title": "The Regulators",
+            "url": "https://stephen-king-api.onrender.com/api/book/33",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 368,
+        "name": "Tom Billingsley",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:17:57.000Z",
+        "books": [
+          {
+            "title": "Desperation",
+            "url": "https://stephen-king-api.onrender.com/api/book/32",
+            "role": "supporting"
+          },
+          {
+            "title": "The Regulators",
+            "url": "https://stephen-king-api.onrender.com/api/book/33",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Desperation, Nevada",
+            "url": "https://stephen-king-api.onrender.com/api/place/63"
+          },
+          {
+            "name": "Ohio",
+            "url": "https://stephen-king-api.onrender.com/api/place/36"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 369,
+        "name": "Audrey Wyler",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:17:57.000Z",
+        "books": [
+          {
+            "title": "Desperation",
+            "url": "https://stephen-king-api.onrender.com/api/book/32",
+            "role": "minor"
+          },
+          {
+            "title": "The Regulators",
+            "url": "https://stephen-king-api.onrender.com/api/book/33",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Desperation, Nevada",
+            "url": "https://stephen-king-api.onrender.com/api/place/63"
+          },
+          {
+            "name": "Ohio",
+            "url": "https://stephen-king-api.onrender.com/api/place/36"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 370,
+        "name": "Seth Garin",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:17:57.000Z",
+        "books": [
+          {
+            "title": "The Regulators",
+            "url": "https://stephen-king-api.onrender.com/api/book/33",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Ohio",
+            "url": "https://stephen-king-api.onrender.com/api/place/36"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 371,
+        "name": "Cammie Reed",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:17:57.000Z",
+        "books": [
+          {
+            "title": "The Regulators",
+            "url": "https://stephen-king-api.onrender.com/api/book/33",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Ohio",
+            "url": "https://stephen-king-api.onrender.com/api/place/36"
+          }
+        ],
         "type": {
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"

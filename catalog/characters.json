@@ -2995,7 +2995,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-green-mile": null
+      "the-green-mile": "antagonist"
     },
     "residence": [
       "louisiana"
@@ -3020,7 +3020,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-green-mile": null
+      "the-green-mile": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -7848,5 +7848,428 @@
     "kinds": [],
     "notes": [],
     "created_at": "2026-11-27T04:15:28.000Z"
+  },
+  {
+    "id": 349,
+    "name": "Paul Edgecomb",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-green-mile": "protagonist"
+    },
+    "residence": [
+      "louisiana"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 350,
+    "name": "John Coffey",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-green-mile": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 351,
+    "name": "Brutus Howell",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-green-mile": "supporting"
+    },
+    "residence": [
+      "louisiana"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 352,
+    "name": "Dean Stanton",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-green-mile": "supporting"
+    },
+    "residence": [
+      "louisiana"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 353,
+    "name": "Harry Terwilliger",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-green-mile": "supporting"
+    },
+    "residence": [
+      "louisiana"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 354,
+    "name": "Eduard Delacroix",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-green-mile": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 355,
+    "name": "Mr. Jingles",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 8,
+    "group": false,
+    "appears_in": {
+      "the-green-mile": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 356,
+    "name": "Hal Moores",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-green-mile": "supporting"
+    },
+    "residence": [
+      "louisiana"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 357,
+    "name": "Melinda Moores",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-green-mile": "minor"
+    },
+    "residence": [
+      "louisiana"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 358,
+    "name": "Elaine Connelly",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-green-mile": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 359,
+    "name": "Arlen Bitterbuck",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-green-mile": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 360,
+    "name": "David Carver",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "desperation": "protagonist",
+      "the-regulators": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 361,
+    "name": "Johnny Marinville",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "desperation": "protagonist",
+      "the-regulators": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 362,
+    "name": "Mary Jackson",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "desperation": "supporting",
+      "the-regulators": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 363,
+    "name": "Steve Ames",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "desperation": "supporting",
+      "the-regulators": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 364,
+    "name": "Ralph Carver",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "desperation": "supporting",
+      "the-regulators": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 365,
+    "name": "Ellen Carver",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "desperation": "minor",
+      "the-regulators": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 366,
+    "name": "Kirsten Carver",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "desperation": "minor",
+      "the-regulators": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 367,
+    "name": "Peter Jackson",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "desperation": "minor",
+      "the-regulators": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 368,
+    "name": "Tom Billingsley",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "desperation": "supporting",
+      "the-regulators": "minor"
+    },
+    "residence": [
+      "desperation-nevada",
+      "ohio"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 369,
+    "name": "Audrey Wyler",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "desperation": "minor",
+      "the-regulators": "protagonist"
+    },
+    "residence": [
+      "desperation-nevada",
+      "ohio"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 370,
+    "name": "Seth Garin",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-regulators": "protagonist"
+    },
+    "residence": [
+      "ohio"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 371,
+    "name": "Cammie Reed",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-regulators": "supporting"
+    },
+    "residence": [
+      "ohio"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
   }
 ]

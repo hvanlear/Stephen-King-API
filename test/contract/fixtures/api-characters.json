@@ -3558,7 +3558,7 @@
           {
             "title": "Cell",
             "url": "https://stephen-king-api.onrender.com/api/book/44",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -7306,7 +7306,7 @@
           {
             "title": "Lisey's Story",
             "url": "https://stephen-king-api.onrender.com/api/book/45",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -7398,7 +7398,7 @@
           {
             "title": "Lisey's Story",
             "url": "https://stephen-king-api.onrender.com/api/book/45",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -7487,7 +7487,7 @@
           {
             "title": "Duma Key",
             "url": "https://stephen-king-api.onrender.com/api/book/47",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -15031,6 +15031,675 @@
             "title": "The Dark Tower VII: The Dark Tower",
             "url": "https://stephen-king-api.onrender.com/api/book/42",
             "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 414,
+        "name": "Stephanie McCann",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:23:32.000Z",
+        "books": [
+          {
+            "title": "The Colorado Kid",
+            "url": "https://stephen-king-api.onrender.com/api/book/43",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Moose-Lookit Island",
+            "url": "https://stephen-king-api.onrender.com/api/place/88"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 415,
+        "name": "Vince Teague",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:23:32.000Z",
+        "books": [
+          {
+            "title": "The Colorado Kid",
+            "url": "https://stephen-king-api.onrender.com/api/book/43",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Moose-Lookit Island",
+            "url": "https://stephen-king-api.onrender.com/api/place/88"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 416,
+        "name": "Dave Bowie",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:23:32.000Z",
+        "books": [
+          {
+            "title": "The Colorado Kid",
+            "url": "https://stephen-king-api.onrender.com/api/book/43",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Moose-Lookit Island",
+            "url": "https://stephen-king-api.onrender.com/api/place/88"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 417,
+        "name": "James Cogan",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:23:32.000Z",
+        "books": [
+          {
+            "title": "The Colorado Kid",
+            "url": "https://stephen-king-api.onrender.com/api/book/43",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Colorado",
+            "url": "https://stephen-king-api.onrender.com/api/place/21"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 418,
+        "name": "Clay Riddell",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:23:32.000Z",
+        "books": [
+          {
+            "title": "Cell",
+            "url": "https://stephen-king-api.onrender.com/api/book/44",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 419,
+        "name": "Tom McCourt",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:23:32.000Z",
+        "books": [
+          {
+            "title": "Cell",
+            "url": "https://stephen-king-api.onrender.com/api/book/44",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Massachusetts",
+            "url": "https://stephen-king-api.onrender.com/api/place/29"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 420,
+        "name": "Alice Maxwell",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:23:32.000Z",
+        "books": [
+          {
+            "title": "Cell",
+            "url": "https://stephen-king-api.onrender.com/api/book/44",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 421,
+        "name": "Jordan",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:23:32.000Z",
+        "books": [
+          {
+            "title": "Cell",
+            "url": "https://stephen-king-api.onrender.com/api/book/44",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 422,
+        "name": "Johnny Riddell",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:23:32.000Z",
+        "books": [
+          {
+            "title": "Cell",
+            "url": "https://stephen-king-api.onrender.com/api/book/44",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 423,
+        "name": "Lisey Landon",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:23:32.000Z",
+        "books": [
+          {
+            "title": "Lisey's Story",
+            "url": "https://stephen-king-api.onrender.com/api/book/45",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Castle View, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/56"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 424,
+        "name": "Scott Landon",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:23:32.000Z",
+        "books": [
+          {
+            "title": "Lisey's Story",
+            "url": "https://stephen-king-api.onrender.com/api/book/45",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Castle View, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/56"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 425,
+        "name": "Amanda Debusher",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:23:32.000Z",
+        "books": [
+          {
+            "title": "Lisey's Story",
+            "url": "https://stephen-king-api.onrender.com/api/book/45",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Lovell, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/84"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 426,
+        "name": "Darla Debusher",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:23:32.000Z",
+        "books": [
+          {
+            "title": "Lisey's Story",
+            "url": "https://stephen-king-api.onrender.com/api/book/45",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Lovell, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/84"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 427,
+        "name": "Clayton Blaisdell, Jr.",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:23:32.000Z",
+        "books": [
+          {
+            "title": "Blaze",
+            "url": "https://stephen-king-api.onrender.com/api/book/46",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 428,
+        "name": "George Rackley",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:23:32.000Z",
+        "books": [
+          {
+            "title": "Blaze",
+            "url": "https://stephen-king-api.onrender.com/api/book/46",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 429,
+        "name": "Edgar Freemantle",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:23:32.000Z",
+        "books": [
+          {
+            "title": "Duma Key",
+            "url": "https://stephen-king-api.onrender.com/api/book/47",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Memory",
+            "url": "https://stephen-king-api.onrender.com/api/short/160",
+            "role": "protagonist"
+          }
+        ],
+        "residence": [
+          {
+            "name": "Sarasota, Florida",
+            "url": "https://stephen-king-api.onrender.com/api/place/104"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 430,
+        "name": "Wireman",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:23:32.000Z",
+        "books": [
+          {
+            "title": "Duma Key",
+            "url": "https://stephen-king-api.onrender.com/api/book/47",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Sarasota, Florida",
+            "url": "https://stephen-king-api.onrender.com/api/place/104"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 431,
+        "name": "Elizabeth Eastlake",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:23:32.000Z",
+        "books": [
+          {
+            "title": "Duma Key",
+            "url": "https://stephen-king-api.onrender.com/api/book/47",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Sarasota, Florida",
+            "url": "https://stephen-king-api.onrender.com/api/place/104"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 432,
+        "name": "Ilse Freemantle",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:23:32.000Z",
+        "books": [
+          {
+            "title": "Duma Key",
+            "url": "https://stephen-king-api.onrender.com/api/book/47",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 433,
+        "name": "Jack Cantori",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:23:32.000Z",
+        "books": [
+          {
+            "title": "Duma Key",
+            "url": "https://stephen-king-api.onrender.com/api/book/47",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Sarasota, Florida",
+            "url": "https://stephen-king-api.onrender.com/api/place/104"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 434,
+        "name": "Pam Freemantle",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:23:32.000Z",
+        "books": [
+          {
+            "title": "Duma Key",
+            "url": "https://stephen-king-api.onrender.com/api/book/47",
+            "role": "minor"
           }
         ],
         "shorts": [],

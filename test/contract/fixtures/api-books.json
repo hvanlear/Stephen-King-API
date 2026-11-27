@@ -4995,9 +4995,36 @@
         "Pages": 184,
         "Notes": [],
         "created_at": "2023-11-13T23:48:53.124Z",
-        "characters": [],
+        "characters": [
+          {
+            "name": "Stephanie McCann",
+            "url": "https://stephen-king-api.onrender.com/api/character/414",
+            "role": "protagonist"
+          },
+          {
+            "name": "Vince Teague",
+            "url": "https://stephen-king-api.onrender.com/api/character/415",
+            "role": "supporting"
+          },
+          {
+            "name": "Dave Bowie",
+            "url": "https://stephen-king-api.onrender.com/api/character/416",
+            "role": "supporting"
+          },
+          {
+            "name": "James Cogan",
+            "url": "https://stephen-king-api.onrender.com/api/character/417",
+            "role": "supporting"
+          }
+        ],
         "villains": [],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Stephanie McCann",
+            "url": "https://stephen-king-api.onrender.com/api/character/414",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Maine",
@@ -5032,17 +5059,48 @@
           {
             "name": "The Raggedy Man",
             "url": "https://stephen-king-api.onrender.com/api/villain/85",
-            "role": null
+            "role": "antagonist"
+          },
+          {
+            "name": "Clay Riddell",
+            "url": "https://stephen-king-api.onrender.com/api/character/418",
+            "role": "protagonist"
+          },
+          {
+            "name": "Tom McCourt",
+            "url": "https://stephen-king-api.onrender.com/api/character/419",
+            "role": "supporting"
+          },
+          {
+            "name": "Alice Maxwell",
+            "url": "https://stephen-king-api.onrender.com/api/character/420",
+            "role": "supporting"
+          },
+          {
+            "name": "Jordan",
+            "url": "https://stephen-king-api.onrender.com/api/character/421",
+            "role": "supporting"
+          },
+          {
+            "name": "Johnny Riddell",
+            "url": "https://stephen-king-api.onrender.com/api/character/422",
+            "role": "minor"
           }
         ],
         "villains": [
           {
             "name": "The Raggedy Man",
             "url": "https://stephen-king-api.onrender.com/api/villain/85",
-            "role": null
+            "role": "antagonist"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Clay Riddell",
+            "url": "https://stephen-king-api.onrender.com/api/character/418",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Maine",
@@ -5081,16 +5139,36 @@
           {
             "name": "Jim Dooley",
             "url": "https://stephen-king-api.onrender.com/api/villain/187",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Long Boy",
             "url": "https://stephen-king-api.onrender.com/api/villain/190",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Norris Ridgewick",
             "url": "https://stephen-king-api.onrender.com/api/character/323",
+            "role": "minor"
+          },
+          {
+            "name": "Lisey Landon",
+            "url": "https://stephen-king-api.onrender.com/api/character/423",
+            "role": "protagonist"
+          },
+          {
+            "name": "Scott Landon",
+            "url": "https://stephen-king-api.onrender.com/api/character/424",
+            "role": "supporting"
+          },
+          {
+            "name": "Amanda Debusher",
+            "url": "https://stephen-king-api.onrender.com/api/character/425",
+            "role": "supporting"
+          },
+          {
+            "name": "Darla Debusher",
+            "url": "https://stephen-king-api.onrender.com/api/character/426",
             "role": "minor"
           }
         ],
@@ -5098,15 +5176,21 @@
           {
             "name": "Jim Dooley",
             "url": "https://stephen-king-api.onrender.com/api/villain/187",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Long Boy",
             "url": "https://stephen-king-api.onrender.com/api/villain/190",
-            "role": null
+            "role": "supporting"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Lisey Landon",
+            "url": "https://stephen-king-api.onrender.com/api/character/423",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Boo'ya Moon",
@@ -5143,9 +5227,26 @@
           "Published under pseudonym Richard Bachman"
         ],
         "created_at": "2023-11-13T23:48:53.504Z",
-        "characters": [],
+        "characters": [
+          {
+            "name": "Clayton Blaisdell, Jr.",
+            "url": "https://stephen-king-api.onrender.com/api/character/427",
+            "role": "protagonist"
+          },
+          {
+            "name": "George Rackley",
+            "url": "https://stephen-king-api.onrender.com/api/character/428",
+            "role": "supporting"
+          }
+        ],
         "villains": [],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Clayton Blaisdell, Jr.",
+            "url": "https://stephen-king-api.onrender.com/api/character/427",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Shawshank State Prison",
@@ -5173,17 +5274,53 @@
           {
             "name": "Perse",
             "url": "https://stephen-king-api.onrender.com/api/villain/193",
-            "role": null
+            "role": "antagonist"
+          },
+          {
+            "name": "Edgar Freemantle",
+            "url": "https://stephen-king-api.onrender.com/api/character/429",
+            "role": "protagonist"
+          },
+          {
+            "name": "Wireman",
+            "url": "https://stephen-king-api.onrender.com/api/character/430",
+            "role": "supporting"
+          },
+          {
+            "name": "Elizabeth Eastlake",
+            "url": "https://stephen-king-api.onrender.com/api/character/431",
+            "role": "supporting"
+          },
+          {
+            "name": "Ilse Freemantle",
+            "url": "https://stephen-king-api.onrender.com/api/character/432",
+            "role": "supporting"
+          },
+          {
+            "name": "Jack Cantori",
+            "url": "https://stephen-king-api.onrender.com/api/character/433",
+            "role": "supporting"
+          },
+          {
+            "name": "Pam Freemantle",
+            "url": "https://stephen-king-api.onrender.com/api/character/434",
+            "role": "minor"
           }
         ],
         "villains": [
           {
             "name": "Perse",
             "url": "https://stephen-king-api.onrender.com/api/villain/193",
-            "role": null
+            "role": "antagonist"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Edgar Freemantle",
+            "url": "https://stephen-king-api.onrender.com/api/character/429",
+            "role": "protagonist"
+          }
+        ],
         "places": [],
         "collection": null
       },

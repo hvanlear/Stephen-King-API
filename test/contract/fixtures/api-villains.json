@@ -3558,7 +3558,7 @@
           {
             "title": "Cell",
             "url": "https://stephen-king-api.onrender.com/api/book/44",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -7306,7 +7306,7 @@
           {
             "title": "Lisey's Story",
             "url": "https://stephen-king-api.onrender.com/api/book/45",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -7398,7 +7398,7 @@
           {
             "title": "Lisey's Story",
             "url": "https://stephen-king-api.onrender.com/api/book/45",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -7487,7 +7487,7 @@
           {
             "title": "Duma Key",
             "url": "https://stephen-king-api.onrender.com/api/book/47",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],

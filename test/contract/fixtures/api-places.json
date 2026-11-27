@@ -1176,6 +1176,66 @@
           {
             "name": "Douglas Cavell",
             "url": "https://stephen-king-api.onrender.com/api/character/391"
+          },
+          {
+            "name": "Stephanie McCann",
+            "url": "https://stephen-king-api.onrender.com/api/character/414"
+          },
+          {
+            "name": "Vince Teague",
+            "url": "https://stephen-king-api.onrender.com/api/character/415"
+          },
+          {
+            "name": "Dave Bowie",
+            "url": "https://stephen-king-api.onrender.com/api/character/416"
+          },
+          {
+            "name": "James Cogan",
+            "url": "https://stephen-king-api.onrender.com/api/character/417"
+          },
+          {
+            "name": "Clay Riddell",
+            "url": "https://stephen-king-api.onrender.com/api/character/418"
+          },
+          {
+            "name": "Tom McCourt",
+            "url": "https://stephen-king-api.onrender.com/api/character/419"
+          },
+          {
+            "name": "Johnny Riddell",
+            "url": "https://stephen-king-api.onrender.com/api/character/422"
+          },
+          {
+            "name": "Lisey Landon",
+            "url": "https://stephen-king-api.onrender.com/api/character/423"
+          },
+          {
+            "name": "Scott Landon",
+            "url": "https://stephen-king-api.onrender.com/api/character/424"
+          },
+          {
+            "name": "Amanda Debusher",
+            "url": "https://stephen-king-api.onrender.com/api/character/425"
+          },
+          {
+            "name": "Darla Debusher",
+            "url": "https://stephen-king-api.onrender.com/api/character/426"
+          },
+          {
+            "name": "Edgar Freemantle",
+            "url": "https://stephen-king-api.onrender.com/api/character/429"
+          },
+          {
+            "name": "Wireman",
+            "url": "https://stephen-king-api.onrender.com/api/character/430"
+          },
+          {
+            "name": "Elizabeth Eastlake",
+            "url": "https://stephen-king-api.onrender.com/api/character/431"
+          },
+          {
+            "name": "Jack Cantori",
+            "url": "https://stephen-king-api.onrender.com/api/character/433"
           }
         ],
         "villains": [
@@ -2030,6 +2090,10 @@
           {
             "name": "Duane Kushner",
             "url": "https://stephen-king-api.onrender.com/api/character/311"
+          },
+          {
+            "name": "James Cogan",
+            "url": "https://stephen-king-api.onrender.com/api/character/417"
           }
         ],
         "villains": [
@@ -2103,6 +2167,22 @@
           {
             "name": "Dick Hallorann",
             "url": "https://stephen-king-api.onrender.com/api/character/221"
+          },
+          {
+            "name": "Edgar Freemantle",
+            "url": "https://stephen-king-api.onrender.com/api/character/429"
+          },
+          {
+            "name": "Wireman",
+            "url": "https://stephen-king-api.onrender.com/api/character/430"
+          },
+          {
+            "name": "Elizabeth Eastlake",
+            "url": "https://stephen-king-api.onrender.com/api/character/431"
+          },
+          {
+            "name": "Jack Cantori",
+            "url": "https://stephen-king-api.onrender.com/api/character/433"
           }
         ],
         "villains": []
@@ -3125,6 +3205,42 @@
           {
             "name": "Douglas Cavell",
             "url": "https://stephen-king-api.onrender.com/api/character/391"
+          },
+          {
+            "name": "Stephanie McCann",
+            "url": "https://stephen-king-api.onrender.com/api/character/414"
+          },
+          {
+            "name": "Vince Teague",
+            "url": "https://stephen-king-api.onrender.com/api/character/415"
+          },
+          {
+            "name": "Dave Bowie",
+            "url": "https://stephen-king-api.onrender.com/api/character/416"
+          },
+          {
+            "name": "Clay Riddell",
+            "url": "https://stephen-king-api.onrender.com/api/character/418"
+          },
+          {
+            "name": "Johnny Riddell",
+            "url": "https://stephen-king-api.onrender.com/api/character/422"
+          },
+          {
+            "name": "Lisey Landon",
+            "url": "https://stephen-king-api.onrender.com/api/character/423"
+          },
+          {
+            "name": "Scott Landon",
+            "url": "https://stephen-king-api.onrender.com/api/character/424"
+          },
+          {
+            "name": "Amanda Debusher",
+            "url": "https://stephen-king-api.onrender.com/api/character/425"
+          },
+          {
+            "name": "Darla Debusher",
+            "url": "https://stephen-king-api.onrender.com/api/character/426"
           }
         ],
         "villains": [
@@ -3400,6 +3516,10 @@
           {
             "name": "Gary Jones",
             "url": "https://stephen-king-api.onrender.com/api/character/387"
+          },
+          {
+            "name": "Tom McCourt",
+            "url": "https://stephen-king-api.onrender.com/api/character/419"
           }
         ],
         "villains": []
@@ -4580,7 +4700,16 @@
             "url": "https://stephen-king-api.onrender.com/api/short/215"
           }
         ],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Lisey Landon",
+            "url": "https://stephen-king-api.onrender.com/api/character/423"
+          },
+          {
+            "name": "Scott Landon",
+            "url": "https://stephen-king-api.onrender.com/api/character/424"
+          }
+        ],
         "villains": []
       },
       {
@@ -5942,6 +6071,14 @@
           {
             "name": "Jim Dooley",
             "url": "https://stephen-king-api.onrender.com/api/villain/187"
+          },
+          {
+            "name": "Amanda Debusher",
+            "url": "https://stephen-king-api.onrender.com/api/character/425"
+          },
+          {
+            "name": "Darla Debusher",
+            "url": "https://stephen-king-api.onrender.com/api/character/426"
           }
         ],
         "villains": [
@@ -6109,7 +6246,20 @@
           }
         ],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Stephanie McCann",
+            "url": "https://stephen-king-api.onrender.com/api/character/414"
+          },
+          {
+            "name": "Vince Teague",
+            "url": "https://stephen-king-api.onrender.com/api/character/415"
+          },
+          {
+            "name": "Dave Bowie",
+            "url": "https://stephen-king-api.onrender.com/api/character/416"
+          }
+        ],
         "villains": []
       },
       {
@@ -6571,7 +6721,24 @@
         ],
         "books": [],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Edgar Freemantle",
+            "url": "https://stephen-king-api.onrender.com/api/character/429"
+          },
+          {
+            "name": "Wireman",
+            "url": "https://stephen-king-api.onrender.com/api/character/430"
+          },
+          {
+            "name": "Elizabeth Eastlake",
+            "url": "https://stephen-king-api.onrender.com/api/character/431"
+          },
+          {
+            "name": "Jack Cantori",
+            "url": "https://stephen-king-api.onrender.com/api/character/433"
+          }
+        ],
         "villains": []
       },
       {

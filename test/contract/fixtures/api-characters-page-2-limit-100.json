@@ -3136,7 +3136,7 @@
           {
             "title": "Lisey's Story",
             "url": "https://stephen-king-api.onrender.com/api/book/45",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3228,7 +3228,7 @@
           {
             "title": "Lisey's Story",
             "url": "https://stephen-king-api.onrender.com/api/book/45",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -3317,7 +3317,7 @@
           {
             "title": "Duma Key",
             "url": "https://stephen-king-api.onrender.com/api/book/47",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3533,7 +3533,7 @@
     "pagination": {
       "page": 2,
       "limit": 100,
-      "total": 413,
+      "total": 434,
       "totalPages": 5
     }
   }

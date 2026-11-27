@@ -436,7 +436,16 @@
             "url": "https://stephen-king-api.onrender.com/api/short/215"
           }
         ],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Lisey Landon",
+            "url": "https://stephen-king-api.onrender.com/api/character/423"
+          },
+          {
+            "name": "Scott Landon",
+            "url": "https://stephen-king-api.onrender.com/api/character/424"
+          }
+        ],
         "villains": []
       },
       {
@@ -1798,6 +1807,14 @@
           {
             "name": "Jim Dooley",
             "url": "https://stephen-king-api.onrender.com/api/villain/187"
+          },
+          {
+            "name": "Amanda Debusher",
+            "url": "https://stephen-king-api.onrender.com/api/character/425"
+          },
+          {
+            "name": "Darla Debusher",
+            "url": "https://stephen-king-api.onrender.com/api/character/426"
           }
         ],
         "villains": [
@@ -1965,7 +1982,20 @@
           }
         ],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Stephanie McCann",
+            "url": "https://stephen-king-api.onrender.com/api/character/414"
+          },
+          {
+            "name": "Vince Teague",
+            "url": "https://stephen-king-api.onrender.com/api/character/415"
+          },
+          {
+            "name": "Dave Bowie",
+            "url": "https://stephen-king-api.onrender.com/api/character/416"
+          }
+        ],
         "villains": []
       },
       {

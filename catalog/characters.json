@@ -2299,7 +2299,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "cell": null
+      "cell": "antagonist"
     },
     "residence": [],
     "kinds": [
@@ -4757,7 +4757,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "lisey-s-story": null
+      "lisey-s-story": "antagonist"
     },
     "residence": [
       "lovell-maine"
@@ -4814,7 +4814,7 @@
     "types_id": 3,
     "group": false,
     "appears_in": {
-      "lisey-s-story": null
+      "lisey-s-story": "supporting"
     },
     "residence": [
       "boo-ya-moon"
@@ -4870,7 +4870,7 @@
     "types_id": 3,
     "group": false,
     "appears_in": {
-      "duma-key": null
+      "duma-key": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -9047,5 +9047,393 @@
     "kinds": [],
     "notes": [],
     "created_at": "2026-11-27T04:22:21.000Z"
+  },
+  {
+    "id": 414,
+    "name": "Stephanie McCann",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-colorado-kid": "protagonist"
+    },
+    "residence": [
+      "moose-lookit-island"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 415,
+    "name": "Vince Teague",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-colorado-kid": "supporting"
+    },
+    "residence": [
+      "moose-lookit-island"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 416,
+    "name": "Dave Bowie",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-colorado-kid": "supporting"
+    },
+    "residence": [
+      "moose-lookit-island"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 417,
+    "name": "James Cogan",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-colorado-kid": "supporting"
+    },
+    "residence": [
+      "colorado"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 418,
+    "name": "Clay Riddell",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cell": "protagonist"
+    },
+    "residence": [
+      "maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 419,
+    "name": "Tom McCourt",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cell": "supporting"
+    },
+    "residence": [
+      "massachusetts"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 420,
+    "name": "Alice Maxwell",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cell": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 421,
+    "name": "Jordan",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cell": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 422,
+    "name": "Johnny Riddell",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cell": "minor"
+    },
+    "residence": [
+      "maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 423,
+    "name": "Lisey Landon",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "lisey-s-story": "protagonist"
+    },
+    "residence": [
+      "castle-view-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 424,
+    "name": "Scott Landon",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "lisey-s-story": "supporting"
+    },
+    "residence": [
+      "castle-view-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 425,
+    "name": "Amanda Debusher",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "lisey-s-story": "supporting"
+    },
+    "residence": [
+      "lovell-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 426,
+    "name": "Darla Debusher",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "lisey-s-story": "minor"
+    },
+    "residence": [
+      "lovell-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 427,
+    "name": "Clayton Blaisdell, Jr.",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "blaze": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 428,
+    "name": "George Rackley",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "blaze": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 429,
+    "name": "Edgar Freemantle",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "memory": "protagonist",
+      "duma-key": "protagonist"
+    },
+    "residence": [
+      "sarasota-florida"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 430,
+    "name": "Wireman",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "duma-key": "supporting"
+    },
+    "residence": [
+      "sarasota-florida"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 431,
+    "name": "Elizabeth Eastlake",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "duma-key": "supporting"
+    },
+    "residence": [
+      "sarasota-florida"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 432,
+    "name": "Ilse Freemantle",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "duma-key": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 433,
+    "name": "Jack Cantori",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "duma-key": "supporting"
+    },
+    "residence": [
+      "sarasota-florida"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 434,
+    "name": "Pam Freemantle",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "duma-key": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
   }
 ]

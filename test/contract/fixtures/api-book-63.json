@@ -16,27 +16,43 @@
         {
           "name": "Nick Majarian",
           "url": "https://stephen-king-api.onrender.com/api/villain/192",
-          "role": null
+          "role": "supporting"
         },
         {
           "name": "Roger Klerke",
           "url": "https://stephen-king-api.onrender.com/api/villain/194",
-          "role": null
+          "role": "antagonist"
+        },
+        {
+          "name": "Billy Summers",
+          "url": "https://stephen-king-api.onrender.com/api/character/513",
+          "role": "protagonist"
+        },
+        {
+          "name": "Alice Maxwell (Billy Summers)",
+          "url": "https://stephen-king-api.onrender.com/api/character/514",
+          "role": "supporting"
         }
       ],
       "villains": [
         {
           "name": "Nick Majarian",
           "url": "https://stephen-king-api.onrender.com/api/villain/192",
-          "role": null
+          "role": "supporting"
         },
         {
           "name": "Roger Klerke",
           "url": "https://stephen-king-api.onrender.com/api/villain/194",
-          "role": null
+          "role": "antagonist"
         }
       ],
-      "protagonists": [],
+      "protagonists": [
+        {
+          "name": "Billy Summers",
+          "url": "https://stephen-king-api.onrender.com/api/character/513",
+          "role": "protagonist"
+        }
+      ],
       "places": [
         {
           "name": "Sidewinder, Colorado",

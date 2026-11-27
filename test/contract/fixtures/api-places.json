@@ -1348,6 +1348,54 @@
           {
             "name": "Harry Streeter",
             "url": "https://stephen-king-api.onrender.com/api/character/483"
+          },
+          {
+            "name": "Ralph Anderson",
+            "url": "https://stephen-king-api.onrender.com/api/character/490"
+          },
+          {
+            "name": "Jeannie Anderson",
+            "url": "https://stephen-king-api.onrender.com/api/character/491"
+          },
+          {
+            "name": "Terry Maitland",
+            "url": "https://stephen-king-api.onrender.com/api/character/492"
+          },
+          {
+            "name": "Marcy Maitland",
+            "url": "https://stephen-king-api.onrender.com/api/character/493"
+          },
+          {
+            "name": "Howie Gold",
+            "url": "https://stephen-king-api.onrender.com/api/character/494"
+          },
+          {
+            "name": "Scott Carey",
+            "url": "https://stephen-king-api.onrender.com/api/character/495"
+          },
+          {
+            "name": "Deirdre McComb",
+            "url": "https://stephen-king-api.onrender.com/api/character/496"
+          },
+          {
+            "name": "Missy Donaldson",
+            "url": "https://stephen-king-api.onrender.com/api/character/497"
+          },
+          {
+            "name": "Bob Ellis",
+            "url": "https://stephen-king-api.onrender.com/api/character/498"
+          },
+          {
+            "name": "Jamie Conklin",
+            "url": "https://stephen-king-api.onrender.com/api/character/509"
+          },
+          {
+            "name": "Tia Conklin",
+            "url": "https://stephen-king-api.onrender.com/api/character/510"
+          },
+          {
+            "name": "Martin Burkett",
+            "url": "https://stephen-king-api.onrender.com/api/character/511"
           }
         ],
         "villains": [
@@ -3425,6 +3473,22 @@
           {
             "name": "Harry Streeter",
             "url": "https://stephen-king-api.onrender.com/api/character/483"
+          },
+          {
+            "name": "Scott Carey",
+            "url": "https://stephen-king-api.onrender.com/api/character/495"
+          },
+          {
+            "name": "Deirdre McComb",
+            "url": "https://stephen-king-api.onrender.com/api/character/496"
+          },
+          {
+            "name": "Missy Donaldson",
+            "url": "https://stephen-king-api.onrender.com/api/character/497"
+          },
+          {
+            "name": "Bob Ellis",
+            "url": "https://stephen-king-api.onrender.com/api/character/498"
           }
         ],
         "villains": [
@@ -3934,6 +3998,18 @@
           {
             "name": "John Storrow",
             "url": "https://stephen-king-api.onrender.com/api/character/383"
+          },
+          {
+            "name": "Jamie Conklin",
+            "url": "https://stephen-king-api.onrender.com/api/character/509"
+          },
+          {
+            "name": "Tia Conklin",
+            "url": "https://stephen-king-api.onrender.com/api/character/510"
+          },
+          {
+            "name": "Martin Burkett",
+            "url": "https://stephen-king-api.onrender.com/api/character/511"
           }
         ],
         "villains": [
@@ -4058,6 +4134,26 @@
           {
             "name": "Tom Cullen",
             "url": "https://stephen-king-api.onrender.com/api/character/229"
+          },
+          {
+            "name": "Ralph Anderson",
+            "url": "https://stephen-king-api.onrender.com/api/character/490"
+          },
+          {
+            "name": "Jeannie Anderson",
+            "url": "https://stephen-king-api.onrender.com/api/character/491"
+          },
+          {
+            "name": "Terry Maitland",
+            "url": "https://stephen-king-api.onrender.com/api/character/492"
+          },
+          {
+            "name": "Marcy Maitland",
+            "url": "https://stephen-king-api.onrender.com/api/character/493"
+          },
+          {
+            "name": "Howie Gold",
+            "url": "https://stephen-king-api.onrender.com/api/character/494"
           }
         ],
         "villains": []
@@ -4834,6 +4930,22 @@
           {
             "name": "Harry Streeter",
             "url": "https://stephen-king-api.onrender.com/api/character/483"
+          },
+          {
+            "name": "Scott Carey",
+            "url": "https://stephen-king-api.onrender.com/api/character/495"
+          },
+          {
+            "name": "Deirdre McComb",
+            "url": "https://stephen-king-api.onrender.com/api/character/496"
+          },
+          {
+            "name": "Missy Donaldson",
+            "url": "https://stephen-king-api.onrender.com/api/character/497"
+          },
+          {
+            "name": "Bob Ellis",
+            "url": "https://stephen-king-api.onrender.com/api/character/498"
           }
         ],
         "villains": [
@@ -6664,6 +6776,18 @@
           {
             "name": "John Storrow",
             "url": "https://stephen-king-api.onrender.com/api/character/383"
+          },
+          {
+            "name": "Jamie Conklin",
+            "url": "https://stephen-king-api.onrender.com/api/character/509"
+          },
+          {
+            "name": "Tia Conklin",
+            "url": "https://stephen-king-api.onrender.com/api/character/510"
+          },
+          {
+            "name": "Martin Burkett",
+            "url": "https://stephen-king-api.onrender.com/api/character/511"
           }
         ],
         "villains": [

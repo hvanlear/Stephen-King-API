@@ -1214,7 +1214,7 @@
           {
             "title": "The Institute",
             "url": "https://stephen-king-api.onrender.com/api/book/61",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -1620,7 +1620,7 @@
           {
             "title": "The Institute",
             "url": "https://stephen-king-api.onrender.com/api/book/61",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -1688,7 +1688,7 @@
           {
             "title": "The Institute",
             "url": "https://stephen-king-api.onrender.com/api/book/61",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -2185,7 +2185,7 @@
           {
             "title": "The Institute",
             "url": "https://stephen-king-api.onrender.com/api/book/61",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -2618,7 +2618,7 @@
           {
             "title": "The Institute",
             "url": "https://stephen-king-api.onrender.com/api/book/61",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -2655,7 +2655,7 @@
           {
             "title": "The Institute",
             "url": "https://stephen-king-api.onrender.com/api/book/61",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -2765,7 +2765,7 @@
           {
             "title": "The Institute",
             "url": "https://stephen-king-api.onrender.com/api/book/61",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -2803,7 +2803,7 @@
           {
             "title": "The Institute",
             "url": "https://stephen-king-api.onrender.com/api/book/61",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -3169,7 +3169,7 @@
           {
             "title": "Later",
             "url": "https://stephen-king-api.onrender.com/api/book/62",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3197,7 +3197,7 @@
           {
             "title": "Later",
             "url": "https://stephen-king-api.onrender.com/api/book/62",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3289,7 +3289,7 @@
           {
             "title": "Billy Summers",
             "url": "https://stephen-king-api.onrender.com/api/book/63",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -3345,7 +3345,7 @@
           {
             "title": "Billy Summers",
             "url": "https://stephen-king-api.onrender.com/api/book/63",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3533,8 +3533,8 @@
     "pagination": {
       "page": 2,
       "limit": 100,
-      "total": 489,
-      "totalPages": 5
+      "total": 514,
+      "totalPages": 6
     }
   }
 }

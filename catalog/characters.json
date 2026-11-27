@@ -1404,7 +1404,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-institute": null
+      "the-institute": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -2230,7 +2230,7 @@
     "types_id": 3,
     "group": false,
     "appears_in": {
-      "the-outsider": null
+      "the-outsider": "antagonist"
     },
     "residence": [],
     "kinds": [
@@ -3507,7 +3507,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-institute": null
+      "the-institute": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -3768,7 +3768,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-institute": null
+      "the-institute": "minor"
     },
     "residence": [],
     "kinds": [],
@@ -3812,7 +3812,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-institute": null
+      "the-institute": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -4142,7 +4142,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-institute": null
+      "the-institute": "minor"
     },
     "residence": [],
     "kinds": [],
@@ -4425,7 +4425,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-institute": null
+      "the-institute": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -4451,7 +4451,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-institute": null
+      "the-institute": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -4526,7 +4526,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-institute": null
+      "the-institute": "minor"
     },
     "residence": [],
     "kinds": [],
@@ -4548,7 +4548,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-institute": null
+      "the-institute": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -4780,7 +4780,7 @@
     "types_id": 7,
     "group": false,
     "appears_in": {
-      "later": null
+      "later": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -4797,7 +4797,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "later": null
+      "later": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -4853,7 +4853,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "billy-summers": null
+      "billy-summers": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -4887,7 +4887,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "billy-summers": null
+      "billy-summers": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -10444,5 +10444,454 @@
     "kinds": [],
     "notes": [],
     "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 490,
+    "name": "Ralph Anderson",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-outsider": "protagonist"
+    },
+    "residence": [
+      "oklahoma"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 491,
+    "name": "Jeannie Anderson",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-outsider": "supporting"
+    },
+    "residence": [
+      "oklahoma"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 492,
+    "name": "Terry Maitland",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-outsider": "supporting"
+    },
+    "residence": [
+      "oklahoma"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 493,
+    "name": "Marcy Maitland",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-outsider": "supporting"
+    },
+    "residence": [
+      "oklahoma"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 494,
+    "name": "Howie Gold",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-outsider": "supporting"
+    },
+    "residence": [
+      "oklahoma"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 495,
+    "name": "Scott Carey",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "elevation": "protagonist"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 496,
+    "name": "Deirdre McComb",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "elevation": "supporting"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 497,
+    "name": "Missy Donaldson",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "elevation": "supporting"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 498,
+    "name": "Bob Ellis",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "elevation": "supporting"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 499,
+    "name": "Luke Ellis",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-institute": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 500,
+    "name": "Tim Jamieson",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-institute": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 501,
+    "name": "Kalisha Benson",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-institute": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 502,
+    "name": "Nick Wilholm",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-institute": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 503,
+    "name": "Avery Dixon",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-institute": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 504,
+    "name": "George Iles",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-institute": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 505,
+    "name": "Maureen Alvorson",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-institute": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 506,
+    "name": "Wendy Gullickson",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-institute": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 507,
+    "name": "Iris Stanhope",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-institute": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 508,
+    "name": "Helen Simms",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-institute": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 509,
+    "name": "Jamie Conklin",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "later": "protagonist"
+    },
+    "residence": [
+      "new-york-city"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 510,
+    "name": "Tia Conklin",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "later": "supporting"
+    },
+    "residence": [
+      "new-york-city"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 511,
+    "name": "Martin Burkett",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "later": "minor"
+    },
+    "residence": [
+      "new-york-city"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 512,
+    "name": "Regis Thomas",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "later": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 513,
+    "name": "Billy Summers",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "billy-summers": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 514,
+    "name": "Alice Maxwell (Billy Summers)",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "billy-summers": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
   }
 ]

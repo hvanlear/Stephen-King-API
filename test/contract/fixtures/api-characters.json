@@ -2178,7 +2178,7 @@
           {
             "title": "The Institute",
             "url": "https://stephen-king-api.onrender.com/api/book/61",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -3446,7 +3446,7 @@
           {
             "title": "The Outsider",
             "url": "https://stephen-king-api.onrender.com/api/book/59",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -5384,7 +5384,7 @@
           {
             "title": "The Institute",
             "url": "https://stephen-king-api.onrender.com/api/book/61",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -5790,7 +5790,7 @@
           {
             "title": "The Institute",
             "url": "https://stephen-king-api.onrender.com/api/book/61",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -5858,7 +5858,7 @@
           {
             "title": "The Institute",
             "url": "https://stephen-king-api.onrender.com/api/book/61",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -6355,7 +6355,7 @@
           {
             "title": "The Institute",
             "url": "https://stephen-king-api.onrender.com/api/book/61",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -6788,7 +6788,7 @@
           {
             "title": "The Institute",
             "url": "https://stephen-king-api.onrender.com/api/book/61",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -6825,7 +6825,7 @@
           {
             "title": "The Institute",
             "url": "https://stephen-king-api.onrender.com/api/book/61",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -6935,7 +6935,7 @@
           {
             "title": "The Institute",
             "url": "https://stephen-king-api.onrender.com/api/book/61",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -6973,7 +6973,7 @@
           {
             "title": "The Institute",
             "url": "https://stephen-king-api.onrender.com/api/book/61",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -7339,7 +7339,7 @@
           {
             "title": "Later",
             "url": "https://stephen-king-api.onrender.com/api/book/62",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -7367,7 +7367,7 @@
           {
             "title": "Later",
             "url": "https://stephen-king-api.onrender.com/api/book/62",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -7459,7 +7459,7 @@
           {
             "title": "Billy Summers",
             "url": "https://stephen-king-api.onrender.com/api/book/63",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -7515,7 +7515,7 @@
           {
             "title": "Billy Summers",
             "url": "https://stephen-king-api.onrender.com/api/book/63",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -17489,6 +17489,790 @@
           {
             "title": "Sleeping Beauties",
             "url": "https://stephen-king-api.onrender.com/api/book/58",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 490,
+        "name": "Ralph Anderson",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:30:04.000Z",
+        "books": [
+          {
+            "title": "The Outsider",
+            "url": "https://stephen-king-api.onrender.com/api/book/59",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Oklahoma",
+            "url": "https://stephen-king-api.onrender.com/api/place/37"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 491,
+        "name": "Jeannie Anderson",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:30:04.000Z",
+        "books": [
+          {
+            "title": "The Outsider",
+            "url": "https://stephen-king-api.onrender.com/api/book/59",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Oklahoma",
+            "url": "https://stephen-king-api.onrender.com/api/place/37"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 492,
+        "name": "Terry Maitland",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:30:04.000Z",
+        "books": [
+          {
+            "title": "The Outsider",
+            "url": "https://stephen-king-api.onrender.com/api/book/59",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Oklahoma",
+            "url": "https://stephen-king-api.onrender.com/api/place/37"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 493,
+        "name": "Marcy Maitland",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:30:04.000Z",
+        "books": [
+          {
+            "title": "The Outsider",
+            "url": "https://stephen-king-api.onrender.com/api/book/59",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Oklahoma",
+            "url": "https://stephen-king-api.onrender.com/api/place/37"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 494,
+        "name": "Howie Gold",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:30:04.000Z",
+        "books": [
+          {
+            "title": "The Outsider",
+            "url": "https://stephen-king-api.onrender.com/api/book/59",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Oklahoma",
+            "url": "https://stephen-king-api.onrender.com/api/place/37"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 495,
+        "name": "Scott Carey",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:30:04.000Z",
+        "books": [
+          {
+            "title": "Elevation",
+            "url": "https://stephen-king-api.onrender.com/api/book/60",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Elevation",
+            "url": "https://stephen-king-api.onrender.com/api/short/203",
+            "role": "protagonist"
+          }
+        ],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 496,
+        "name": "Deirdre McComb",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:30:04.000Z",
+        "books": [
+          {
+            "title": "Elevation",
+            "url": "https://stephen-king-api.onrender.com/api/book/60",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Elevation",
+            "url": "https://stephen-king-api.onrender.com/api/short/203",
+            "role": "supporting"
+          }
+        ],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 497,
+        "name": "Missy Donaldson",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:30:04.000Z",
+        "books": [
+          {
+            "title": "Elevation",
+            "url": "https://stephen-king-api.onrender.com/api/book/60",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Elevation",
+            "url": "https://stephen-king-api.onrender.com/api/short/203",
+            "role": "supporting"
+          }
+        ],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 498,
+        "name": "Bob Ellis",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:30:04.000Z",
+        "books": [
+          {
+            "title": "Elevation",
+            "url": "https://stephen-king-api.onrender.com/api/book/60",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Elevation",
+            "url": "https://stephen-king-api.onrender.com/api/short/203",
+            "role": "supporting"
+          }
+        ],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 499,
+        "name": "Luke Ellis",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:30:04.000Z",
+        "books": [
+          {
+            "title": "The Institute",
+            "url": "https://stephen-king-api.onrender.com/api/book/61",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 500,
+        "name": "Tim Jamieson",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:30:04.000Z",
+        "books": [
+          {
+            "title": "The Institute",
+            "url": "https://stephen-king-api.onrender.com/api/book/61",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 501,
+        "name": "Kalisha Benson",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:30:04.000Z",
+        "books": [
+          {
+            "title": "The Institute",
+            "url": "https://stephen-king-api.onrender.com/api/book/61",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 502,
+        "name": "Nick Wilholm",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:30:04.000Z",
+        "books": [
+          {
+            "title": "The Institute",
+            "url": "https://stephen-king-api.onrender.com/api/book/61",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 503,
+        "name": "Avery Dixon",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:30:04.000Z",
+        "books": [
+          {
+            "title": "The Institute",
+            "url": "https://stephen-king-api.onrender.com/api/book/61",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 504,
+        "name": "George Iles",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:30:04.000Z",
+        "books": [
+          {
+            "title": "The Institute",
+            "url": "https://stephen-king-api.onrender.com/api/book/61",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 505,
+        "name": "Maureen Alvorson",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:30:04.000Z",
+        "books": [
+          {
+            "title": "The Institute",
+            "url": "https://stephen-king-api.onrender.com/api/book/61",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 506,
+        "name": "Wendy Gullickson",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:30:04.000Z",
+        "books": [
+          {
+            "title": "The Institute",
+            "url": "https://stephen-king-api.onrender.com/api/book/61",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 507,
+        "name": "Iris Stanhope",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:30:04.000Z",
+        "books": [
+          {
+            "title": "The Institute",
+            "url": "https://stephen-king-api.onrender.com/api/book/61",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 508,
+        "name": "Helen Simms",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:30:04.000Z",
+        "books": [
+          {
+            "title": "The Institute",
+            "url": "https://stephen-king-api.onrender.com/api/book/61",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 509,
+        "name": "Jamie Conklin",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:30:04.000Z",
+        "books": [
+          {
+            "title": "Later",
+            "url": "https://stephen-king-api.onrender.com/api/book/62",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "New York City",
+            "url": "https://stephen-king-api.onrender.com/api/place/90"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 510,
+        "name": "Tia Conklin",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:30:04.000Z",
+        "books": [
+          {
+            "title": "Later",
+            "url": "https://stephen-king-api.onrender.com/api/book/62",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "New York City",
+            "url": "https://stephen-king-api.onrender.com/api/place/90"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 511,
+        "name": "Martin Burkett",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:30:04.000Z",
+        "books": [
+          {
+            "title": "Later",
+            "url": "https://stephen-king-api.onrender.com/api/book/62",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "New York City",
+            "url": "https://stephen-king-api.onrender.com/api/place/90"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 512,
+        "name": "Regis Thomas",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:30:04.000Z",
+        "books": [
+          {
+            "title": "Later",
+            "url": "https://stephen-king-api.onrender.com/api/book/62",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 513,
+        "name": "Billy Summers",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:30:04.000Z",
+        "books": [
+          {
+            "title": "Billy Summers",
+            "url": "https://stephen-king-api.onrender.com/api/book/63",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 514,
+        "name": "Alice Maxwell (Billy Summers)",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:30:04.000Z",
+        "books": [
+          {
+            "title": "Billy Summers",
+            "url": "https://stephen-king-api.onrender.com/api/book/63",
             "role": "supporting"
           }
         ],

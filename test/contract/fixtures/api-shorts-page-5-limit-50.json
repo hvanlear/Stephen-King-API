@@ -66,9 +66,36 @@
         "notes": [],
         "year": 2018,
         "created_at": "2023-11-13T23:49:21.223Z",
-        "characters": [],
+        "characters": [
+          {
+            "name": "Scott Carey",
+            "url": "https://stephen-king-api.onrender.com/api/character/495",
+            "role": "protagonist"
+          },
+          {
+            "name": "Deirdre McComb",
+            "url": "https://stephen-king-api.onrender.com/api/character/496",
+            "role": "supporting"
+          },
+          {
+            "name": "Missy Donaldson",
+            "url": "https://stephen-king-api.onrender.com/api/character/497",
+            "role": "supporting"
+          },
+          {
+            "name": "Bob Ellis",
+            "url": "https://stephen-king-api.onrender.com/api/character/498",
+            "role": "supporting"
+          }
+        ],
         "villains": [],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Scott Carey",
+            "url": "https://stephen-king-api.onrender.com/api/character/495",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Castle Rock, Maine",

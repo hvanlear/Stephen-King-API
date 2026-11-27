@@ -6432,25 +6432,55 @@
           {
             "name": "The Outsider (Creature)",
             "url": "https://stephen-king-api.onrender.com/api/villain/82",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Holly Gibney",
             "url": "https://stephen-king-api.onrender.com/api/character/467",
             "role": "protagonist"
+          },
+          {
+            "name": "Ralph Anderson",
+            "url": "https://stephen-king-api.onrender.com/api/character/490",
+            "role": "protagonist"
+          },
+          {
+            "name": "Jeannie Anderson",
+            "url": "https://stephen-king-api.onrender.com/api/character/491",
+            "role": "supporting"
+          },
+          {
+            "name": "Terry Maitland",
+            "url": "https://stephen-king-api.onrender.com/api/character/492",
+            "role": "supporting"
+          },
+          {
+            "name": "Marcy Maitland",
+            "url": "https://stephen-king-api.onrender.com/api/character/493",
+            "role": "supporting"
+          },
+          {
+            "name": "Howie Gold",
+            "url": "https://stephen-king-api.onrender.com/api/character/494",
+            "role": "supporting"
           }
         ],
         "villains": [
           {
             "name": "The Outsider (Creature)",
             "url": "https://stephen-king-api.onrender.com/api/villain/82",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "protagonists": [
           {
             "name": "Holly Gibney",
             "url": "https://stephen-king-api.onrender.com/api/character/467",
+            "role": "protagonist"
+          },
+          {
+            "name": "Ralph Anderson",
+            "url": "https://stephen-king-api.onrender.com/api/character/490",
             "role": "protagonist"
           }
         ],
@@ -6467,9 +6497,36 @@
         "Pages": 144,
         "Notes": [],
         "created_at": "2023-11-13T23:48:55.291Z",
-        "characters": [],
+        "characters": [
+          {
+            "name": "Scott Carey",
+            "url": "https://stephen-king-api.onrender.com/api/character/495",
+            "role": "protagonist"
+          },
+          {
+            "name": "Deirdre McComb",
+            "url": "https://stephen-king-api.onrender.com/api/character/496",
+            "role": "supporting"
+          },
+          {
+            "name": "Missy Donaldson",
+            "url": "https://stephen-king-api.onrender.com/api/character/497",
+            "role": "supporting"
+          },
+          {
+            "name": "Bob Ellis",
+            "url": "https://stephen-king-api.onrender.com/api/character/498",
+            "role": "supporting"
+          }
+        ],
         "villains": [],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Scott Carey",
+            "url": "https://stephen-king-api.onrender.com/api/character/495",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Castle Rock, Maine",
@@ -6499,97 +6556,158 @@
           {
             "name": "Gladys Hickson",
             "url": "https://stephen-king-api.onrender.com/api/villain/52",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Dr. Hendricks",
             "url": "https://stephen-king-api.onrender.com/api/villain/132",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Joe Brinks",
             "url": "https://stephen-king-api.onrender.com/api/villain/143",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Julia Sigsby",
             "url": "https://stephen-king-api.onrender.com/api/villain/145",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Priscilla (The Institute)",
             "url": "https://stephen-king-api.onrender.com/api/villain/159",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Tony Fizzale",
             "url": "https://stephen-king-api.onrender.com/api/villain/171",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Trevor Stackhouse",
             "url": "https://stephen-king-api.onrender.com/api/villain/172",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Winona Briggs",
             "url": "https://stephen-king-api.onrender.com/api/villain/175",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Zeke Ionidis",
             "url": "https://stephen-king-api.onrender.com/api/villain/176",
-            "role": null
+            "role": "supporting"
+          },
+          {
+            "name": "Luke Ellis",
+            "url": "https://stephen-king-api.onrender.com/api/character/499",
+            "role": "protagonist"
+          },
+          {
+            "name": "Tim Jamieson",
+            "url": "https://stephen-king-api.onrender.com/api/character/500",
+            "role": "protagonist"
+          },
+          {
+            "name": "Kalisha Benson",
+            "url": "https://stephen-king-api.onrender.com/api/character/501",
+            "role": "supporting"
+          },
+          {
+            "name": "Nick Wilholm",
+            "url": "https://stephen-king-api.onrender.com/api/character/502",
+            "role": "supporting"
+          },
+          {
+            "name": "Avery Dixon",
+            "url": "https://stephen-king-api.onrender.com/api/character/503",
+            "role": "supporting"
+          },
+          {
+            "name": "George Iles",
+            "url": "https://stephen-king-api.onrender.com/api/character/504",
+            "role": "supporting"
+          },
+          {
+            "name": "Maureen Alvorson",
+            "url": "https://stephen-king-api.onrender.com/api/character/505",
+            "role": "supporting"
+          },
+          {
+            "name": "Wendy Gullickson",
+            "url": "https://stephen-king-api.onrender.com/api/character/506",
+            "role": "supporting"
+          },
+          {
+            "name": "Iris Stanhope",
+            "url": "https://stephen-king-api.onrender.com/api/character/507",
+            "role": "minor"
+          },
+          {
+            "name": "Helen Simms",
+            "url": "https://stephen-king-api.onrender.com/api/character/508",
+            "role": "minor"
           }
         ],
         "villains": [
           {
             "name": "Gladys Hickson",
             "url": "https://stephen-king-api.onrender.com/api/villain/52",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Dr. Hendricks",
             "url": "https://stephen-king-api.onrender.com/api/villain/132",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Joe Brinks",
             "url": "https://stephen-king-api.onrender.com/api/villain/143",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Julia Sigsby",
             "url": "https://stephen-king-api.onrender.com/api/villain/145",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Priscilla (The Institute)",
             "url": "https://stephen-king-api.onrender.com/api/villain/159",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Tony Fizzale",
             "url": "https://stephen-king-api.onrender.com/api/villain/171",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Trevor Stackhouse",
             "url": "https://stephen-king-api.onrender.com/api/villain/172",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Winona Briggs",
             "url": "https://stephen-king-api.onrender.com/api/villain/175",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Zeke Ionidis",
             "url": "https://stephen-king-api.onrender.com/api/villain/176",
-            "role": null
+            "role": "supporting"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Luke Ellis",
+            "url": "https://stephen-king-api.onrender.com/api/character/499",
+            "role": "protagonist"
+          },
+          {
+            "name": "Tim Jamieson",
+            "url": "https://stephen-king-api.onrender.com/api/character/500",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Maine",
@@ -6612,27 +6730,53 @@
           {
             "name": "Kenneth Therriault",
             "url": "https://stephen-king-api.onrender.com/api/villain/188",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Liz Dutton",
             "url": "https://stephen-king-api.onrender.com/api/villain/189",
-            "role": null
+            "role": "antagonist"
+          },
+          {
+            "name": "Jamie Conklin",
+            "url": "https://stephen-king-api.onrender.com/api/character/509",
+            "role": "protagonist"
+          },
+          {
+            "name": "Tia Conklin",
+            "url": "https://stephen-king-api.onrender.com/api/character/510",
+            "role": "supporting"
+          },
+          {
+            "name": "Martin Burkett",
+            "url": "https://stephen-king-api.onrender.com/api/character/511",
+            "role": "minor"
+          },
+          {
+            "name": "Regis Thomas",
+            "url": "https://stephen-king-api.onrender.com/api/character/512",
+            "role": "minor"
           }
         ],
         "villains": [
           {
             "name": "Kenneth Therriault",
             "url": "https://stephen-king-api.onrender.com/api/villain/188",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Liz Dutton",
             "url": "https://stephen-king-api.onrender.com/api/villain/189",
-            "role": null
+            "role": "antagonist"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Jamie Conklin",
+            "url": "https://stephen-king-api.onrender.com/api/character/509",
+            "role": "protagonist"
+          }
+        ],
         "places": [],
         "collection": null
       },
@@ -6650,27 +6794,43 @@
           {
             "name": "Nick Majarian",
             "url": "https://stephen-king-api.onrender.com/api/villain/192",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Roger Klerke",
             "url": "https://stephen-king-api.onrender.com/api/villain/194",
-            "role": null
+            "role": "antagonist"
+          },
+          {
+            "name": "Billy Summers",
+            "url": "https://stephen-king-api.onrender.com/api/character/513",
+            "role": "protagonist"
+          },
+          {
+            "name": "Alice Maxwell (Billy Summers)",
+            "url": "https://stephen-king-api.onrender.com/api/character/514",
+            "role": "supporting"
           }
         ],
         "villains": [
           {
             "name": "Nick Majarian",
             "url": "https://stephen-king-api.onrender.com/api/villain/192",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Roger Klerke",
             "url": "https://stephen-king-api.onrender.com/api/villain/194",
-            "role": null
+            "role": "antagonist"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Billy Summers",
+            "url": "https://stephen-king-api.onrender.com/api/character/513",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Sidewinder, Colorado",

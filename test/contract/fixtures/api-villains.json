@@ -985,7 +985,7 @@
           {
             "title": "Rose Madder",
             "url": "https://stephen-king-api.onrender.com/api/book/30",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -1752,7 +1752,7 @@
           {
             "title": "Gerald's Game",
             "url": "https://stephen-king-api.onrender.com/api/book/27",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -2628,7 +2628,7 @@
           {
             "title": "Gerald's Game",
             "url": "https://stephen-king-api.onrender.com/api/book/27",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3958,7 +3958,7 @@
           {
             "title": "Dolores Claiborne",
             "url": "https://stephen-king-api.onrender.com/api/book/28",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -4285,7 +4285,7 @@
           {
             "title": "Gerald's Game",
             "url": "https://stephen-king-api.onrender.com/api/book/27",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -4939,7 +4939,7 @@
           {
             "title": "Insomnia",
             "url": "https://stephen-king-api.onrender.com/api/book/29",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -5610,7 +5610,7 @@
           {
             "title": "Rose Madder",
             "url": "https://stephen-king-api.onrender.com/api/book/30",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -7893,6 +7893,39 @@
           {
             "name": "Lud",
             "url": "https://stephen-king-api.onrender.com/api/place/85"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 340,
+        "name": "Ed Deepneau",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:15:28.000Z",
+        "books": [
+          {
+            "title": "Insomnia",
+            "url": "https://stephen-king-api.onrender.com/api/book/29",
+            "role": "antagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
           }
         ],
         "type": {

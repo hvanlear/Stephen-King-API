@@ -3106,21 +3106,31 @@
           {
             "name": "Gerald Burlingame",
             "url": "https://stephen-king-api.onrender.com/api/villain/41",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Raymond Andrew Joubert",
             "url": "https://stephen-king-api.onrender.com/api/villain/61",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Tom Mahout",
             "url": "https://stephen-king-api.onrender.com/api/villain/103",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Norris Ridgewick",
             "url": "https://stephen-king-api.onrender.com/api/character/323",
+            "role": "minor"
+          },
+          {
+            "name": "Jessie Burlingame",
+            "url": "https://stephen-king-api.onrender.com/api/character/334",
+            "role": "protagonist"
+          },
+          {
+            "name": "Dolores Claiborne",
+            "url": "https://stephen-king-api.onrender.com/api/character/335",
             "role": "minor"
           }
         ],
@@ -3128,20 +3138,26 @@
           {
             "name": "Gerald Burlingame",
             "url": "https://stephen-king-api.onrender.com/api/villain/41",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Raymond Andrew Joubert",
             "url": "https://stephen-king-api.onrender.com/api/villain/61",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Tom Mahout",
             "url": "https://stephen-king-api.onrender.com/api/villain/103",
-            "role": null
+            "role": "antagonist"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Jessie Burlingame",
+            "url": "https://stephen-king-api.onrender.com/api/character/334",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Maine",
@@ -3174,17 +3190,43 @@
           {
             "name": "Joe St. George",
             "url": "https://stephen-king-api.onrender.com/api/villain/95",
-            "role": null
+            "role": "antagonist"
+          },
+          {
+            "name": "Jessie Burlingame",
+            "url": "https://stephen-king-api.onrender.com/api/character/334",
+            "role": "minor"
+          },
+          {
+            "name": "Dolores Claiborne",
+            "url": "https://stephen-king-api.onrender.com/api/character/335",
+            "role": "protagonist"
+          },
+          {
+            "name": "Vera Donovan",
+            "url": "https://stephen-king-api.onrender.com/api/character/336",
+            "role": "supporting"
+          },
+          {
+            "name": "Selena St. George",
+            "url": "https://stephen-king-api.onrender.com/api/character/337",
+            "role": "supporting"
           }
         ],
         "villains": [
           {
             "name": "Joe St. George",
             "url": "https://stephen-king-api.onrender.com/api/villain/95",
-            "role": null
+            "role": "antagonist"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Dolores Claiborne",
+            "url": "https://stephen-king-api.onrender.com/api/character/335",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Maine",
@@ -3228,7 +3270,7 @@
           {
             "name": "Atropos",
             "url": "https://stephen-king-api.onrender.com/api/villain/120",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Mike Hanlon",
@@ -3238,6 +3280,36 @@
           {
             "name": "Roland Deschain",
             "url": "https://stephen-king-api.onrender.com/api/character/265",
+            "role": "minor"
+          },
+          {
+            "name": "Ralph Roberts",
+            "url": "https://stephen-king-api.onrender.com/api/character/338",
+            "role": "protagonist"
+          },
+          {
+            "name": "Lois Chasse",
+            "url": "https://stephen-king-api.onrender.com/api/character/339",
+            "role": "protagonist"
+          },
+          {
+            "name": "Ed Deepneau",
+            "url": "https://stephen-king-api.onrender.com/api/villain/340",
+            "role": "antagonist"
+          },
+          {
+            "name": "Helen Deepneau",
+            "url": "https://stephen-king-api.onrender.com/api/character/341",
+            "role": "supporting"
+          },
+          {
+            "name": "Natalie Deepneau",
+            "url": "https://stephen-king-api.onrender.com/api/character/342",
+            "role": "minor"
+          },
+          {
+            "name": "Patrick Danville",
+            "url": "https://stephen-king-api.onrender.com/api/character/343",
             "role": "minor"
           }
         ],
@@ -3255,10 +3327,26 @@
           {
             "name": "Atropos",
             "url": "https://stephen-king-api.onrender.com/api/villain/120",
-            "role": null
+            "role": "supporting"
+          },
+          {
+            "name": "Ed Deepneau",
+            "url": "https://stephen-king-api.onrender.com/api/villain/340",
+            "role": "antagonist"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Ralph Roberts",
+            "url": "https://stephen-king-api.onrender.com/api/character/338",
+            "role": "protagonist"
+          },
+          {
+            "name": "Lois Chasse",
+            "url": "https://stephen-king-api.onrender.com/api/character/339",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Maine",
@@ -3299,7 +3387,7 @@
           {
             "name": "Norman Daniels",
             "url": "https://stephen-king-api.onrender.com/api/villain/22",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Susan Day",
@@ -3309,14 +3397,39 @@
           {
             "name": "Harley Bissington",
             "url": "https://stephen-king-api.onrender.com/api/villain/138",
-            "role": null
+            "role": "minor"
+          },
+          {
+            "name": "Rosie McClendon",
+            "url": "https://stephen-king-api.onrender.com/api/character/344",
+            "role": "protagonist"
+          },
+          {
+            "name": "Bill Steiner",
+            "url": "https://stephen-king-api.onrender.com/api/character/345",
+            "role": "supporting"
+          },
+          {
+            "name": "Anna Stevenson",
+            "url": "https://stephen-king-api.onrender.com/api/character/346",
+            "role": "supporting"
+          },
+          {
+            "name": "Gert Kinshaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/347",
+            "role": "supporting"
+          },
+          {
+            "name": "Cynthia Smith",
+            "url": "https://stephen-king-api.onrender.com/api/character/348",
+            "role": "supporting"
           }
         ],
         "villains": [
           {
             "name": "Norman Daniels",
             "url": "https://stephen-king-api.onrender.com/api/villain/22",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Susan Day",
@@ -3326,10 +3439,16 @@
           {
             "name": "Harley Bissington",
             "url": "https://stephen-king-api.onrender.com/api/villain/138",
-            "role": null
+            "role": "minor"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Rosie McClendon",
+            "url": "https://stephen-king-api.onrender.com/api/character/344",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Ettinger's Pier",
@@ -3411,6 +3530,11 @@
             "name": "Tak",
             "url": "https://stephen-king-api.onrender.com/api/villain/165",
             "role": "antagonist"
+          },
+          {
+            "name": "Cynthia Smith",
+            "url": "https://stephen-king-api.onrender.com/api/character/348",
+            "role": "supporting"
           }
         ],
         "villains": [
@@ -3465,6 +3589,11 @@
             "name": "Tak",
             "url": "https://stephen-king-api.onrender.com/api/villain/165",
             "role": "antagonist"
+          },
+          {
+            "name": "Cynthia Smith",
+            "url": "https://stephen-king-api.onrender.com/api/character/348",
+            "role": "supporting"
           }
         ],
         "villains": [
@@ -4252,6 +4381,11 @@
             "name": "Calvin Tower",
             "url": "https://stephen-king-api.onrender.com/api/character/329",
             "role": "minor"
+          },
+          {
+            "name": "Patrick Danville",
+            "url": "https://stephen-king-api.onrender.com/api/character/343",
+            "role": "supporting"
           }
         ],
         "villains": [

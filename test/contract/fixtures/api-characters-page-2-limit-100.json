@@ -115,7 +115,7 @@
           {
             "title": "Gerald's Game",
             "url": "https://stephen-king-api.onrender.com/api/book/27",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -769,7 +769,7 @@
           {
             "title": "Insomnia",
             "url": "https://stephen-king-api.onrender.com/api/book/29",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -1440,7 +1440,7 @@
           {
             "title": "Rose Madder",
             "url": "https://stephen-king-api.onrender.com/api/book/30",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -3533,7 +3533,7 @@
     "pagination": {
       "page": 2,
       "limit": 100,
-      "total": 333,
+      "total": 348,
       "totalPages": 4
     }
   }

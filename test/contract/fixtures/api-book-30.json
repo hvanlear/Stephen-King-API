@@ -18,7 +18,7 @@
         {
           "name": "Norman Daniels",
           "url": "https://stephen-king-api.onrender.com/api/villain/22",
-          "role": null
+          "role": "antagonist"
         },
         {
           "name": "Susan Day",
@@ -28,14 +28,39 @@
         {
           "name": "Harley Bissington",
           "url": "https://stephen-king-api.onrender.com/api/villain/138",
-          "role": null
+          "role": "minor"
+        },
+        {
+          "name": "Rosie McClendon",
+          "url": "https://stephen-king-api.onrender.com/api/character/344",
+          "role": "protagonist"
+        },
+        {
+          "name": "Bill Steiner",
+          "url": "https://stephen-king-api.onrender.com/api/character/345",
+          "role": "supporting"
+        },
+        {
+          "name": "Anna Stevenson",
+          "url": "https://stephen-king-api.onrender.com/api/character/346",
+          "role": "supporting"
+        },
+        {
+          "name": "Gert Kinshaw",
+          "url": "https://stephen-king-api.onrender.com/api/character/347",
+          "role": "supporting"
+        },
+        {
+          "name": "Cynthia Smith",
+          "url": "https://stephen-king-api.onrender.com/api/character/348",
+          "role": "supporting"
         }
       ],
       "villains": [
         {
           "name": "Norman Daniels",
           "url": "https://stephen-king-api.onrender.com/api/villain/22",
-          "role": null
+          "role": "antagonist"
         },
         {
           "name": "Susan Day",
@@ -45,10 +70,16 @@
         {
           "name": "Harley Bissington",
           "url": "https://stephen-king-api.onrender.com/api/villain/138",
-          "role": null
+          "role": "minor"
         }
       ],
-      "protagonists": [],
+      "protagonists": [
+        {
+          "name": "Rosie McClendon",
+          "url": "https://stephen-king-api.onrender.com/api/character/344",
+          "role": "protagonist"
+        }
+      ],
       "places": [
         {
           "name": "Ettinger's Pier",

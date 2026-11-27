@@ -1131,6 +1131,66 @@
           {
             "name": "Wilma Jerzyck",
             "url": "https://stephen-king-api.onrender.com/api/character/333"
+          },
+          {
+            "name": "Jessie Burlingame",
+            "url": "https://stephen-king-api.onrender.com/api/character/334"
+          },
+          {
+            "name": "Dolores Claiborne",
+            "url": "https://stephen-king-api.onrender.com/api/character/335"
+          },
+          {
+            "name": "Vera Donovan",
+            "url": "https://stephen-king-api.onrender.com/api/character/336"
+          },
+          {
+            "name": "Selena St. George",
+            "url": "https://stephen-king-api.onrender.com/api/character/337"
+          },
+          {
+            "name": "Ralph Roberts",
+            "url": "https://stephen-king-api.onrender.com/api/character/338"
+          },
+          {
+            "name": "Lois Chasse",
+            "url": "https://stephen-king-api.onrender.com/api/character/339"
+          },
+          {
+            "name": "Ed Deepneau",
+            "url": "https://stephen-king-api.onrender.com/api/villain/340"
+          },
+          {
+            "name": "Helen Deepneau",
+            "url": "https://stephen-king-api.onrender.com/api/character/341"
+          },
+          {
+            "name": "Natalie Deepneau",
+            "url": "https://stephen-king-api.onrender.com/api/character/342"
+          },
+          {
+            "name": "Patrick Danville",
+            "url": "https://stephen-king-api.onrender.com/api/character/343"
+          },
+          {
+            "name": "Rosie McClendon",
+            "url": "https://stephen-king-api.onrender.com/api/character/344"
+          },
+          {
+            "name": "Bill Steiner",
+            "url": "https://stephen-king-api.onrender.com/api/character/345"
+          },
+          {
+            "name": "Anna Stevenson",
+            "url": "https://stephen-king-api.onrender.com/api/character/346"
+          },
+          {
+            "name": "Gert Kinshaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/347"
+          },
+          {
+            "name": "Cynthia Smith",
+            "url": "https://stephen-king-api.onrender.com/api/character/348"
           }
         ],
         "villains": [
@@ -1757,6 +1817,10 @@
           {
             "name": "Gasher",
             "url": "https://stephen-king-api.onrender.com/api/villain/326"
+          },
+          {
+            "name": "Ed Deepneau",
+            "url": "https://stephen-king-api.onrender.com/api/villain/340"
           }
         ]
       },

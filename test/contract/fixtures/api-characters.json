@@ -985,7 +985,7 @@
           {
             "title": "Rose Madder",
             "url": "https://stephen-king-api.onrender.com/api/book/30",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -1752,7 +1752,7 @@
           {
             "title": "Gerald's Game",
             "url": "https://stephen-king-api.onrender.com/api/book/27",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -2628,7 +2628,7 @@
           {
             "title": "Gerald's Game",
             "url": "https://stephen-king-api.onrender.com/api/book/27",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3958,7 +3958,7 @@
           {
             "title": "Dolores Claiborne",
             "url": "https://stephen-king-api.onrender.com/api/book/28",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -4285,7 +4285,7 @@
           {
             "title": "Gerald's Game",
             "url": "https://stephen-king-api.onrender.com/api/book/27",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -4939,7 +4939,7 @@
           {
             "title": "Insomnia",
             "url": "https://stephen-king-api.onrender.com/api/book/29",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -5610,7 +5610,7 @@
           {
             "title": "Rose Madder",
             "url": "https://stephen-king-api.onrender.com/api/book/30",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -12413,6 +12413,501 @@
             "url": "https://stephen-king-api.onrender.com/api/place/55"
           }
         ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 334,
+        "name": "Jessie Burlingame",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:15:28.000Z",
+        "books": [
+          {
+            "title": "Gerald's Game",
+            "url": "https://stephen-king-api.onrender.com/api/book/27",
+            "role": "protagonist"
+          },
+          {
+            "title": "Dolores Claiborne",
+            "url": "https://stephen-king-api.onrender.com/api/book/28",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Portland, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/95"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 335,
+        "name": "Dolores Claiborne",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:15:28.000Z",
+        "books": [
+          {
+            "title": "Gerald's Game",
+            "url": "https://stephen-king-api.onrender.com/api/book/27",
+            "role": "minor"
+          },
+          {
+            "title": "Dolores Claiborne",
+            "url": "https://stephen-king-api.onrender.com/api/book/28",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Little Tall Island",
+            "url": "https://stephen-king-api.onrender.com/api/place/83"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 336,
+        "name": "Vera Donovan",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:15:28.000Z",
+        "books": [
+          {
+            "title": "Dolores Claiborne",
+            "url": "https://stephen-king-api.onrender.com/api/book/28",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Little Tall Island",
+            "url": "https://stephen-king-api.onrender.com/api/place/83"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 337,
+        "name": "Selena St. George",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:15:28.000Z",
+        "books": [
+          {
+            "title": "Dolores Claiborne",
+            "url": "https://stephen-king-api.onrender.com/api/book/28",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Little Tall Island",
+            "url": "https://stephen-king-api.onrender.com/api/place/83"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 338,
+        "name": "Ralph Roberts",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:15:28.000Z",
+        "books": [
+          {
+            "title": "Insomnia",
+            "url": "https://stephen-king-api.onrender.com/api/book/29",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 339,
+        "name": "Lois Chasse",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:15:28.000Z",
+        "books": [
+          {
+            "title": "Insomnia",
+            "url": "https://stephen-king-api.onrender.com/api/book/29",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 340,
+        "name": "Ed Deepneau",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:15:28.000Z",
+        "books": [
+          {
+            "title": "Insomnia",
+            "url": "https://stephen-king-api.onrender.com/api/book/29",
+            "role": "antagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 341,
+        "name": "Helen Deepneau",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:15:28.000Z",
+        "books": [
+          {
+            "title": "Insomnia",
+            "url": "https://stephen-king-api.onrender.com/api/book/29",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 342,
+        "name": "Natalie Deepneau",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:15:28.000Z",
+        "books": [
+          {
+            "title": "Insomnia",
+            "url": "https://stephen-king-api.onrender.com/api/book/29",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 343,
+        "name": "Patrick Danville",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:15:28.000Z",
+        "books": [
+          {
+            "title": "Insomnia",
+            "url": "https://stephen-king-api.onrender.com/api/book/29",
+            "role": "minor"
+          },
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 344,
+        "name": "Rosie McClendon",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:15:28.000Z",
+        "books": [
+          {
+            "title": "Rose Madder",
+            "url": "https://stephen-king-api.onrender.com/api/book/30",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 345,
+        "name": "Bill Steiner",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:15:28.000Z",
+        "books": [
+          {
+            "title": "Rose Madder",
+            "url": "https://stephen-king-api.onrender.com/api/book/30",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 346,
+        "name": "Anna Stevenson",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:15:28.000Z",
+        "books": [
+          {
+            "title": "Rose Madder",
+            "url": "https://stephen-king-api.onrender.com/api/book/30",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 347,
+        "name": "Gert Kinshaw",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:15:28.000Z",
+        "books": [
+          {
+            "title": "Rose Madder",
+            "url": "https://stephen-king-api.onrender.com/api/book/30",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 348,
+        "name": "Cynthia Smith",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:15:28.000Z",
+        "books": [
+          {
+            "title": "Rose Madder",
+            "url": "https://stephen-king-api.onrender.com/api/book/30",
+            "role": "supporting"
+          },
+          {
+            "title": "Desperation",
+            "url": "https://stephen-king-api.onrender.com/api/book/32",
+            "role": "supporting"
+          },
+          {
+            "title": "The Regulators",
+            "url": "https://stephen-king-api.onrender.com/api/book/33",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
         "type": {
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"

@@ -637,7 +637,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "rose-madder": null
+      "rose-madder": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -1126,7 +1126,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "gerald-s-game": null
+      "gerald-s-game": "supporting"
     },
     "residence": [
       "maine"
@@ -1688,7 +1688,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "gerald-s-game": null
+      "gerald-s-game": "antagonist"
     },
     "residence": [
       "maine"
@@ -2562,7 +2562,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "dolores-claiborne": null
+      "dolores-claiborne": "antagonist"
     },
     "residence": [
       "little-tall-island"
@@ -2787,7 +2787,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "gerald-s-game": null
+      "gerald-s-game": "antagonist"
     },
     "residence": [
       "maine"
@@ -3223,7 +3223,7 @@
     "types_id": 3,
     "group": false,
     "appears_in": {
-      "insomnia": null
+      "insomnia": "supporting"
     },
     "residence": [],
     "kinds": [
@@ -3655,7 +3655,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "rose-madder": null
+      "rose-madder": "minor"
     },
     "residence": [],
     "kinds": [],
@@ -7568,5 +7568,285 @@
     "kinds": [],
     "notes": [],
     "created_at": "2026-11-27T04:13:54.000Z"
+  },
+  {
+    "id": 334,
+    "name": "Jessie Burlingame",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "gerald-s-game": "protagonist",
+      "dolores-claiborne": "minor"
+    },
+    "residence": [
+      "portland-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:15:28.000Z"
+  },
+  {
+    "id": 335,
+    "name": "Dolores Claiborne",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "gerald-s-game": "minor",
+      "dolores-claiborne": "protagonist"
+    },
+    "residence": [
+      "little-tall-island"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:15:28.000Z"
+  },
+  {
+    "id": 336,
+    "name": "Vera Donovan",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "dolores-claiborne": "supporting"
+    },
+    "residence": [
+      "little-tall-island"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:15:28.000Z"
+  },
+  {
+    "id": 337,
+    "name": "Selena St. George",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "dolores-claiborne": "supporting"
+    },
+    "residence": [
+      "little-tall-island"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:15:28.000Z"
+  },
+  {
+    "id": 338,
+    "name": "Ralph Roberts",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "insomnia": "protagonist"
+    },
+    "residence": [
+      "derry-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:15:28.000Z"
+  },
+  {
+    "id": 339,
+    "name": "Lois Chasse",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "insomnia": "protagonist"
+    },
+    "residence": [
+      "derry-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:15:28.000Z"
+  },
+  {
+    "id": 340,
+    "name": "Ed Deepneau",
+    "villain": true,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "insomnia": "antagonist"
+    },
+    "residence": [
+      "derry-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:15:28.000Z"
+  },
+  {
+    "id": 341,
+    "name": "Helen Deepneau",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "insomnia": "supporting"
+    },
+    "residence": [
+      "derry-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:15:28.000Z"
+  },
+  {
+    "id": 342,
+    "name": "Natalie Deepneau",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "insomnia": "minor"
+    },
+    "residence": [
+      "derry-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:15:28.000Z"
+  },
+  {
+    "id": 343,
+    "name": "Patrick Danville",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "insomnia": "minor",
+      "the-dark-tower-vii-the-dark-tower": "supporting"
+    },
+    "residence": [
+      "derry-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:15:28.000Z"
+  },
+  {
+    "id": 344,
+    "name": "Rosie McClendon",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "rose-madder": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:15:28.000Z"
+  },
+  {
+    "id": 345,
+    "name": "Bill Steiner",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "rose-madder": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:15:28.000Z"
+  },
+  {
+    "id": 346,
+    "name": "Anna Stevenson",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "rose-madder": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:15:28.000Z"
+  },
+  {
+    "id": 347,
+    "name": "Gert Kinshaw",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "rose-madder": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:15:28.000Z"
+  },
+  {
+    "id": 348,
+    "name": "Cynthia Smith",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "rose-madder": "supporting",
+      "desperation": "supporting",
+      "the-regulators": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:15:28.000Z"
   }
 ]

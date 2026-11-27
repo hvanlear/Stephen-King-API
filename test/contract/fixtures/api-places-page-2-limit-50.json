@@ -999,6 +999,30 @@
           {
             "name": "Eddie Corcoran",
             "url": "https://stephen-king-api.onrender.com/api/character/305"
+          },
+          {
+            "name": "Ralph Roberts",
+            "url": "https://stephen-king-api.onrender.com/api/character/338"
+          },
+          {
+            "name": "Lois Chasse",
+            "url": "https://stephen-king-api.onrender.com/api/character/339"
+          },
+          {
+            "name": "Ed Deepneau",
+            "url": "https://stephen-king-api.onrender.com/api/villain/340"
+          },
+          {
+            "name": "Helen Deepneau",
+            "url": "https://stephen-king-api.onrender.com/api/character/341"
+          },
+          {
+            "name": "Natalie Deepneau",
+            "url": "https://stephen-king-api.onrender.com/api/character/342"
+          },
+          {
+            "name": "Patrick Danville",
+            "url": "https://stephen-king-api.onrender.com/api/character/343"
           }
         ],
         "villains": [
@@ -1069,6 +1093,10 @@
           {
             "name": "George Bradley",
             "url": "https://stephen-king-api.onrender.com/api/villain/136"
+          },
+          {
+            "name": "Ed Deepneau",
+            "url": "https://stephen-king-api.onrender.com/api/villain/340"
           }
         ]
       },
@@ -1691,6 +1719,18 @@
           {
             "name": "Joe St. George",
             "url": "https://stephen-king-api.onrender.com/api/villain/95"
+          },
+          {
+            "name": "Dolores Claiborne",
+            "url": "https://stephen-king-api.onrender.com/api/character/335"
+          },
+          {
+            "name": "Vera Donovan",
+            "url": "https://stephen-king-api.onrender.com/api/character/336"
+          },
+          {
+            "name": "Selena St. George",
+            "url": "https://stephen-king-api.onrender.com/api/character/337"
           }
         ],
         "villains": [
@@ -2119,7 +2159,12 @@
           }
         ],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Jessie Burlingame",
+            "url": "https://stephen-king-api.onrender.com/api/character/334"
+          }
+        ],
         "villains": []
       },
       {

@@ -703,6 +703,42 @@
           {
             "name": "Ted Jones",
             "url": "https://stephen-king-api.onrender.com/api/character/222"
+          },
+          {
+            "name": "Stuart Redman",
+            "url": "https://stephen-king-api.onrender.com/api/character/223"
+          },
+          {
+            "name": "Frances Goldsmith",
+            "url": "https://stephen-king-api.onrender.com/api/character/224"
+          },
+          {
+            "name": "Larry Underwood",
+            "url": "https://stephen-king-api.onrender.com/api/character/225"
+          },
+          {
+            "name": "Nick Andros",
+            "url": "https://stephen-king-api.onrender.com/api/character/226"
+          },
+          {
+            "name": "Glen Bateman",
+            "url": "https://stephen-king-api.onrender.com/api/character/227"
+          },
+          {
+            "name": "Abagail Freemantle",
+            "url": "https://stephen-king-api.onrender.com/api/character/228"
+          },
+          {
+            "name": "Tom Cullen",
+            "url": "https://stephen-king-api.onrender.com/api/character/229"
+          },
+          {
+            "name": "Ralph Brentner",
+            "url": "https://stephen-king-api.onrender.com/api/character/230"
+          },
+          {
+            "name": "Dayna Jurgens",
+            "url": "https://stephen-king-api.onrender.com/api/character/231"
           }
         ],
         "villains": [
@@ -1798,6 +1834,10 @@
           {
             "name": "Sam (cat)",
             "url": "https://stephen-king-api.onrender.com/api/villain/92"
+          },
+          {
+            "name": "Kojak",
+            "url": "https://stephen-king-api.onrender.com/api/character/232"
           }
         ],
         "villains": [

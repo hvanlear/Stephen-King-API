@@ -1715,7 +1715,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-stand-uncut": null
+      "the-stand-uncut": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -5474,5 +5474,198 @@
     "kinds": [],
     "notes": [],
     "created_at": "2026-11-27T03:53:25.000Z"
+  },
+  {
+    "id": 223,
+    "name": "Stuart Redman",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-stand": "protagonist",
+      "the-stand-uncut": "protagonist"
+    },
+    "residence": [
+      "arnette-texas"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:56:39.000Z"
+  },
+  {
+    "id": 224,
+    "name": "Frances Goldsmith",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-stand": "protagonist",
+      "the-stand-uncut": "protagonist"
+    },
+    "residence": [
+      "ogunquit-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:56:39.000Z"
+  },
+  {
+    "id": 225,
+    "name": "Larry Underwood",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-stand": "protagonist",
+      "the-stand-uncut": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:56:39.000Z"
+  },
+  {
+    "id": 226,
+    "name": "Nick Andros",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-stand": "protagonist",
+      "the-stand-uncut": "protagonist"
+    },
+    "residence": [
+      "caslin-nebraska",
+      "shoyo-arkansas"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:56:39.000Z"
+  },
+  {
+    "id": 227,
+    "name": "Glen Bateman",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-stand": "protagonist",
+      "the-stand-uncut": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:56:39.000Z"
+  },
+  {
+    "id": 228,
+    "name": "Abagail Freemantle",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-stand": "supporting",
+      "the-stand-uncut": "supporting"
+    },
+    "residence": [
+      "hemingford-home-nebraska"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:56:39.000Z"
+  },
+  {
+    "id": 229,
+    "name": "Tom Cullen",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-stand": "supporting",
+      "the-stand-uncut": "supporting"
+    },
+    "residence": [
+      "may-oklahoma"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:56:39.000Z"
+  },
+  {
+    "id": 230,
+    "name": "Ralph Brentner",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-stand": "supporting",
+      "the-stand-uncut": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:56:39.000Z"
+  },
+  {
+    "id": 231,
+    "name": "Dayna Jurgens",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-stand": "supporting",
+      "the-stand-uncut": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:56:39.000Z"
+  },
+  {
+    "id": 232,
+    "name": "Kojak",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 8,
+    "group": false,
+    "appears_in": {
+      "the-stand": "supporting",
+      "the-stand-uncut": "supporting"
+    },
+    "residence": [
+      "boulder-colorado"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:56:39.000Z"
   }
 ]

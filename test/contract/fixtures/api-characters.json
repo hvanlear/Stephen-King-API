@@ -2665,7 +2665,7 @@
           {
             "title": "The Stand Uncut",
             "url": "https://stephen-king-api.onrender.com/api/book/24",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -8565,6 +8565,370 @@
         "type": {
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 223,
+        "name": "Stuart Redman",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T03:56:39.000Z",
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5",
+            "role": "protagonist"
+          },
+          {
+            "title": "The Stand Uncut",
+            "url": "https://stephen-king-api.onrender.com/api/book/24",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Arnette, Texas",
+            "url": "https://stephen-king-api.onrender.com/api/place/45"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 224,
+        "name": "Frances Goldsmith",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T03:56:39.000Z",
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5",
+            "role": "protagonist"
+          },
+          {
+            "title": "The Stand Uncut",
+            "url": "https://stephen-king-api.onrender.com/api/book/24",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Ogunquit, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/92"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 225,
+        "name": "Larry Underwood",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T03:56:39.000Z",
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5",
+            "role": "protagonist"
+          },
+          {
+            "title": "The Stand Uncut",
+            "url": "https://stephen-king-api.onrender.com/api/book/24",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 226,
+        "name": "Nick Andros",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T03:56:39.000Z",
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5",
+            "role": "protagonist"
+          },
+          {
+            "title": "The Stand Uncut",
+            "url": "https://stephen-king-api.onrender.com/api/book/24",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Caslin, Nebraska",
+            "url": "https://stephen-king-api.onrender.com/api/place/54"
+          },
+          {
+            "name": "Shoyo, Arkansas",
+            "url": "https://stephen-king-api.onrender.com/api/place/105"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 227,
+        "name": "Glen Bateman",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T03:56:39.000Z",
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5",
+            "role": "protagonist"
+          },
+          {
+            "title": "The Stand Uncut",
+            "url": "https://stephen-king-api.onrender.com/api/book/24",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 228,
+        "name": "Abagail Freemantle",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T03:56:39.000Z",
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5",
+            "role": "supporting"
+          },
+          {
+            "title": "The Stand Uncut",
+            "url": "https://stephen-king-api.onrender.com/api/book/24",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Hemingford Home, Nebraska",
+            "url": "https://stephen-king-api.onrender.com/api/place/139"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 229,
+        "name": "Tom Cullen",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T03:56:39.000Z",
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5",
+            "role": "supporting"
+          },
+          {
+            "title": "The Stand Uncut",
+            "url": "https://stephen-king-api.onrender.com/api/book/24",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "May, Oklahoma",
+            "url": "https://stephen-king-api.onrender.com/api/place/87"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 230,
+        "name": "Ralph Brentner",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T03:56:39.000Z",
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5",
+            "role": "supporting"
+          },
+          {
+            "title": "The Stand Uncut",
+            "url": "https://stephen-king-api.onrender.com/api/book/24",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 231,
+        "name": "Dayna Jurgens",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T03:56:39.000Z",
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5",
+            "role": "supporting"
+          },
+          {
+            "title": "The Stand Uncut",
+            "url": "https://stephen-king-api.onrender.com/api/book/24",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 232,
+        "name": "Kojak",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 8,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T03:56:39.000Z",
+        "books": [
+          {
+            "title": "The Stand",
+            "url": "https://stephen-king-api.onrender.com/api/book/5",
+            "role": "supporting"
+          },
+          {
+            "title": "The Stand Uncut",
+            "url": "https://stephen-king-api.onrender.com/api/book/24",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Boulder, Colorado",
+            "url": "https://stephen-king-api.onrender.com/api/place/50"
+          }
+        ],
+        "type": {
+          "name": "Animal",
+          "url": "https://stephen-king-api.onrender.com/api/type/8"
         },
         "kinds": [],
         "killed": []

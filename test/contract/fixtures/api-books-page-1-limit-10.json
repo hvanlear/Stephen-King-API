@@ -598,6 +598,56 @@
             "name": "Nadine Cross",
             "url": "https://stephen-king-api.onrender.com/api/villain/201",
             "role": "supporting"
+          },
+          {
+            "name": "Stuart Redman",
+            "url": "https://stephen-king-api.onrender.com/api/character/223",
+            "role": "protagonist"
+          },
+          {
+            "name": "Frances Goldsmith",
+            "url": "https://stephen-king-api.onrender.com/api/character/224",
+            "role": "protagonist"
+          },
+          {
+            "name": "Larry Underwood",
+            "url": "https://stephen-king-api.onrender.com/api/character/225",
+            "role": "protagonist"
+          },
+          {
+            "name": "Nick Andros",
+            "url": "https://stephen-king-api.onrender.com/api/character/226",
+            "role": "protagonist"
+          },
+          {
+            "name": "Glen Bateman",
+            "url": "https://stephen-king-api.onrender.com/api/character/227",
+            "role": "protagonist"
+          },
+          {
+            "name": "Abagail Freemantle",
+            "url": "https://stephen-king-api.onrender.com/api/character/228",
+            "role": "supporting"
+          },
+          {
+            "name": "Tom Cullen",
+            "url": "https://stephen-king-api.onrender.com/api/character/229",
+            "role": "supporting"
+          },
+          {
+            "name": "Ralph Brentner",
+            "url": "https://stephen-king-api.onrender.com/api/character/230",
+            "role": "supporting"
+          },
+          {
+            "name": "Dayna Jurgens",
+            "url": "https://stephen-king-api.onrender.com/api/character/231",
+            "role": "supporting"
+          },
+          {
+            "name": "Kojak",
+            "url": "https://stephen-king-api.onrender.com/api/character/232",
+            "role": "supporting"
           }
         ],
         "villains": [
@@ -647,7 +697,33 @@
             "role": "supporting"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Stuart Redman",
+            "url": "https://stephen-king-api.onrender.com/api/character/223",
+            "role": "protagonist"
+          },
+          {
+            "name": "Frances Goldsmith",
+            "url": "https://stephen-king-api.onrender.com/api/character/224",
+            "role": "protagonist"
+          },
+          {
+            "name": "Larry Underwood",
+            "url": "https://stephen-king-api.onrender.com/api/character/225",
+            "role": "protagonist"
+          },
+          {
+            "name": "Nick Andros",
+            "url": "https://stephen-king-api.onrender.com/api/character/226",
+            "role": "protagonist"
+          },
+          {
+            "name": "Glen Bateman",
+            "url": "https://stephen-king-api.onrender.com/api/character/227",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Maine",

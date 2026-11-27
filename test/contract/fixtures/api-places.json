@@ -735,6 +735,30 @@
           {
             "name": "Ted Jones",
             "url": "https://stephen-king-api.onrender.com/api/character/222"
+          },
+          {
+            "name": "Stuart Redman",
+            "url": "https://stephen-king-api.onrender.com/api/character/223"
+          },
+          {
+            "name": "Frances Goldsmith",
+            "url": "https://stephen-king-api.onrender.com/api/character/224"
+          },
+          {
+            "name": "Nick Andros",
+            "url": "https://stephen-king-api.onrender.com/api/character/226"
+          },
+          {
+            "name": "Abagail Freemantle",
+            "url": "https://stephen-king-api.onrender.com/api/character/228"
+          },
+          {
+            "name": "Tom Cullen",
+            "url": "https://stephen-king-api.onrender.com/api/character/229"
+          },
+          {
+            "name": "Kojak",
+            "url": "https://stephen-king-api.onrender.com/api/character/232"
           }
         ],
         "villains": [
@@ -1422,7 +1446,12 @@
         ],
         "books": [],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Nick Andros",
+            "url": "https://stephen-king-api.onrender.com/api/character/226"
+          }
+        ],
         "villains": []
       },
       {
@@ -1484,6 +1513,10 @@
           {
             "name": "Delbert Grady",
             "url": "https://stephen-king-api.onrender.com/api/villain/45"
+          },
+          {
+            "name": "Kojak",
+            "url": "https://stephen-king-api.onrender.com/api/character/232"
           }
         ],
         "villains": [
@@ -2306,6 +2339,10 @@
           {
             "name": "Ted Jones",
             "url": "https://stephen-king-api.onrender.com/api/character/222"
+          },
+          {
+            "name": "Frances Goldsmith",
+            "url": "https://stephen-king-api.onrender.com/api/character/224"
           }
         ],
         "villains": [
@@ -2631,6 +2668,14 @@
           {
             "name": "Wilfred James",
             "url": "https://stephen-king-api.onrender.com/api/villain/59"
+          },
+          {
+            "name": "Nick Andros",
+            "url": "https://stephen-king-api.onrender.com/api/character/226"
+          },
+          {
+            "name": "Abagail Freemantle",
+            "url": "https://stephen-king-api.onrender.com/api/character/228"
           }
         ],
         "villains": [
@@ -2801,7 +2846,12 @@
         ],
         "books": [],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Tom Cullen",
+            "url": "https://stephen-king-api.onrender.com/api/character/229"
+          }
+        ],
         "villains": []
       },
       {
@@ -2826,7 +2876,12 @@
         ],
         "books": [],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Stuart Redman",
+            "url": "https://stephen-king-api.onrender.com/api/character/223"
+          }
+        ],
         "villains": []
       },
       {
@@ -2906,6 +2961,10 @@
           {
             "name": "Wilfred James",
             "url": "https://stephen-king-api.onrender.com/api/villain/59"
+          },
+          {
+            "name": "Abagail Freemantle",
+            "url": "https://stephen-king-api.onrender.com/api/character/228"
           }
         ],
         "villains": [
@@ -3052,7 +3111,12 @@
             "url": "https://stephen-king-api.onrender.com/api/short/71"
           }
         ],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Stuart Redman",
+            "url": "https://stephen-king-api.onrender.com/api/character/223"
+          }
+        ],
         "villains": []
       },
       {
@@ -3164,7 +3228,12 @@
           }
         ],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Kojak",
+            "url": "https://stephen-king-api.onrender.com/api/character/232"
+          }
+        ],
         "villains": []
       },
       {
@@ -3276,7 +3345,12 @@
         "places": [],
         "books": [],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Nick Andros",
+            "url": "https://stephen-king-api.onrender.com/api/character/226"
+          }
+        ],
         "villains": []
       },
       {
@@ -4853,7 +4927,12 @@
         "places": [],
         "books": [],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Tom Cullen",
+            "url": "https://stephen-king-api.onrender.com/api/character/229"
+          }
+        ],
         "villains": []
       },
       {
@@ -5001,6 +5080,10 @@
           {
             "name": "Harold Lauder",
             "url": "https://stephen-king-api.onrender.com/api/villain/64"
+          },
+          {
+            "name": "Frances Goldsmith",
+            "url": "https://stephen-king-api.onrender.com/api/character/224"
           }
         ],
         "villains": [
@@ -5314,7 +5397,12 @@
           }
         ],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Nick Andros",
+            "url": "https://stephen-king-api.onrender.com/api/character/226"
+          }
+        ],
         "villains": []
       },
       {
@@ -6219,6 +6307,10 @@
           {
             "name": "Wilfred James",
             "url": "https://stephen-king-api.onrender.com/api/villain/59"
+          },
+          {
+            "name": "Abagail Freemantle",
+            "url": "https://stephen-king-api.onrender.com/api/character/228"
           }
         ],
         "villains": [

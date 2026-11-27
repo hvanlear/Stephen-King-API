@@ -16,7 +16,7 @@ import { showLogin, showDashboard, handleLogout } from "./handlers/dashboard";
 import { showGraphHome } from "./handlers/graphHome";
 import { graph } from "./graph/build";
 import { books } from "./catalog";
-import { kinds } from "./kinds";
+import { counts } from "./kinds";
 import { bookResponse } from "./responses";
 
 const app = express();
@@ -58,14 +58,12 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 // The home page opens on a real response, built here so a page view doesn't
-// count as an API hit on the dashboard. The page looks counts up by list
-// route, as in counts.books.
-const homeCounts = Object.fromEntries(kinds.map((kind) => [kind.list, kind.records.length]));
+// count as an API hit on the dashboard
 const homeBook = books.find((book) => book.id === 19) ?? books[0];
 const homeExample = JSON.stringify({ data: bookResponse(homeBook) }, null, 2);
 
 app.get("/", (req, res) => {
-  res.render("index", { url: config.url, counts: homeCounts, example: homeExample });
+  res.render("index", { url: config.url, counts, example: homeExample });
 });
 
 // The graph home page (SK-045), here until it replaces the one above

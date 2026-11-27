@@ -106,3 +106,7 @@ export const kinds: Kind[] = [
     notFound: "Publication not found",
   }),
 ];
+
+// How many records each list route returns, keyed by the route: counts.books.
+// Both home pages show these.
+export const counts: Record<string, number> = Object.fromEntries(kinds.map((kind) => [kind.list, kind.records.length]));

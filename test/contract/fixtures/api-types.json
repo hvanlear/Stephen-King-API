@@ -671,6 +671,38 @@
           {
             "name": "Jimmy Cody",
             "url": "https://stephen-king-api.onrender.com/api/character/214"
+          },
+          {
+            "name": "Carrie White",
+            "url": "https://stephen-king-api.onrender.com/api/character/215"
+          },
+          {
+            "name": "Sue Snell",
+            "url": "https://stephen-king-api.onrender.com/api/character/216"
+          },
+          {
+            "name": "Tommy Ross",
+            "url": "https://stephen-king-api.onrender.com/api/character/217"
+          },
+          {
+            "name": "Miss Desjardin",
+            "url": "https://stephen-king-api.onrender.com/api/character/218"
+          },
+          {
+            "name": "Danny Torrance",
+            "url": "https://stephen-king-api.onrender.com/api/character/219"
+          },
+          {
+            "name": "Wendy Torrance",
+            "url": "https://stephen-king-api.onrender.com/api/character/220"
+          },
+          {
+            "name": "Dick Hallorann",
+            "url": "https://stephen-king-api.onrender.com/api/character/221"
+          },
+          {
+            "name": "Ted Jones",
+            "url": "https://stephen-king-api.onrender.com/api/character/222"
           }
         ],
         "villains": [

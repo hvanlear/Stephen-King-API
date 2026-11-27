@@ -657,6 +657,10 @@
             "url": "https://stephen-king-api.onrender.com/api/villain/173"
           },
           {
+            "name": "Charlie Decker",
+            "url": "https://stephen-king-api.onrender.com/api/villain/179"
+          },
+          {
             "name": "Jim Dooley",
             "url": "https://stephen-king-api.onrender.com/api/villain/187"
           },
@@ -707,6 +711,30 @@
           {
             "name": "Stan Uris",
             "url": "https://stephen-king-api.onrender.com/api/character/213"
+          },
+          {
+            "name": "Carrie White",
+            "url": "https://stephen-king-api.onrender.com/api/character/215"
+          },
+          {
+            "name": "Sue Snell",
+            "url": "https://stephen-king-api.onrender.com/api/character/216"
+          },
+          {
+            "name": "Tommy Ross",
+            "url": "https://stephen-king-api.onrender.com/api/character/217"
+          },
+          {
+            "name": "Miss Desjardin",
+            "url": "https://stephen-king-api.onrender.com/api/character/218"
+          },
+          {
+            "name": "Dick Hallorann",
+            "url": "https://stephen-king-api.onrender.com/api/character/221"
+          },
+          {
+            "name": "Ted Jones",
+            "url": "https://stephen-king-api.onrender.com/api/character/222"
           }
         ],
         "villains": [
@@ -977,6 +1005,10 @@
           {
             "name": "Vince Desjardins",
             "url": "https://stephen-king-api.onrender.com/api/villain/173"
+          },
+          {
+            "name": "Charlie Decker",
+            "url": "https://stephen-king-api.onrender.com/api/villain/179"
           },
           {
             "name": "Jim Dooley",
@@ -1508,7 +1540,12 @@
         ],
         "books": [],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Dick Hallorann",
+            "url": "https://stephen-king-api.onrender.com/api/character/221"
+          }
+        ],
         "villains": []
       },
       {
@@ -2195,6 +2232,10 @@
             "url": "https://stephen-king-api.onrender.com/api/villain/173"
           },
           {
+            "name": "Charlie Decker",
+            "url": "https://stephen-king-api.onrender.com/api/villain/179"
+          },
+          {
             "name": "Jim Dooley",
             "url": "https://stephen-king-api.onrender.com/api/villain/187"
           },
@@ -2245,6 +2286,26 @@
           {
             "name": "Stan Uris",
             "url": "https://stephen-king-api.onrender.com/api/character/213"
+          },
+          {
+            "name": "Carrie White",
+            "url": "https://stephen-king-api.onrender.com/api/character/215"
+          },
+          {
+            "name": "Sue Snell",
+            "url": "https://stephen-king-api.onrender.com/api/character/216"
+          },
+          {
+            "name": "Tommy Ross",
+            "url": "https://stephen-king-api.onrender.com/api/character/217"
+          },
+          {
+            "name": "Miss Desjardin",
+            "url": "https://stephen-king-api.onrender.com/api/character/218"
+          },
+          {
+            "name": "Ted Jones",
+            "url": "https://stephen-king-api.onrender.com/api/character/222"
           }
         ],
         "villains": [
@@ -2483,6 +2544,10 @@
           {
             "name": "Vince Desjardins",
             "url": "https://stephen-king-api.onrender.com/api/villain/173"
+          },
+          {
+            "name": "Charlie Decker",
+            "url": "https://stephen-king-api.onrender.com/api/villain/179"
           },
           {
             "name": "Jim Dooley",
@@ -3556,6 +3621,22 @@
           {
             "name": "Tommy Erbter",
             "url": "https://stephen-king-api.onrender.com/api/villain/170"
+          },
+          {
+            "name": "Carrie White",
+            "url": "https://stephen-king-api.onrender.com/api/character/215"
+          },
+          {
+            "name": "Sue Snell",
+            "url": "https://stephen-king-api.onrender.com/api/character/216"
+          },
+          {
+            "name": "Tommy Ross",
+            "url": "https://stephen-king-api.onrender.com/api/character/217"
+          },
+          {
+            "name": "Miss Desjardin",
+            "url": "https://stephen-king-api.onrender.com/api/character/218"
           }
         ],
         "villains": [
@@ -4947,8 +5028,22 @@
           }
         ],
         "shorts": [],
-        "characters": [],
-        "villains": []
+        "characters": [
+          {
+            "name": "Charlie Decker",
+            "url": "https://stephen-king-api.onrender.com/api/villain/179"
+          },
+          {
+            "name": "Ted Jones",
+            "url": "https://stephen-king-api.onrender.com/api/character/222"
+          }
+        ],
+        "villains": [
+          {
+            "name": "Charlie Decker",
+            "url": "https://stephen-king-api.onrender.com/api/villain/179"
+          }
+        ]
       },
       {
         "id": 94,

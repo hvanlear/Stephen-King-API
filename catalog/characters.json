@@ -104,7 +104,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "minor"
     },
     "residence": [
       "chamberlain-maine"
@@ -405,7 +405,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "minor"
     },
     "residence": [
       "chamberlain-maine"
@@ -464,7 +464,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "minor"
     },
     "residence": [
       "chamberlain-maine"
@@ -705,7 +705,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "minor"
     },
     "residence": [
       "chamberlain-maine"
@@ -1040,7 +1040,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "minor"
     },
     "residence": [
       "chamberlain-maine"
@@ -1200,7 +1200,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "minor"
     },
     "residence": [
       "chamberlain-maine"
@@ -1227,7 +1227,7 @@
     "types_id": 7,
     "group": false,
     "appears_in": {
-      "the-shining": null
+      "the-shining": "supporting"
     },
     "residence": [
       "overlook-hotel"
@@ -1320,7 +1320,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "antagonist"
     },
     "residence": [
       "chamberlain-maine"
@@ -2041,7 +2041,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "minor"
     },
     "residence": [
       "chamberlain-maine"
@@ -2099,7 +2099,7 @@
     "types_id": 1,
     "group": true,
     "appears_in": {
-      "carrie": null
+      "carrie": "minor"
     },
     "residence": [],
     "kinds": [],
@@ -2173,7 +2173,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "supporting"
     },
     "residence": [
       "chamberlain-maine"
@@ -2426,7 +2426,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "minor"
     },
     "residence": [
       "chamberlain-maine"
@@ -2530,7 +2530,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "minor"
     },
     "residence": [
       "chamberlain-maine"
@@ -2672,7 +2672,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "minor"
     },
     "residence": [
       "chamberlain-maine"
@@ -2754,7 +2754,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "minor"
     },
     "residence": [
       "chamberlain-maine"
@@ -2916,7 +2916,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "minor"
     },
     "residence": [
       "chamberlain-maine"
@@ -2947,7 +2947,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "minor"
     },
     "residence": [
       "chamberlain-maine"
@@ -3042,7 +3042,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "antagonist"
     },
     "residence": [
       "motton-maine",
@@ -4215,7 +4215,7 @@
     "types_id": 7,
     "group": false,
     "appears_in": {
-      "the-shining": null
+      "the-shining": "minor"
     },
     "residence": [],
     "kinds": [],
@@ -4399,7 +4399,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "minor"
     },
     "residence": [
       "chamberlain-maine"
@@ -4617,9 +4617,11 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "rage": null
+      "rage": "protagonist"
     },
-    "residence": [],
+    "residence": [
+      "placerville-maine"
+    ],
     "kinds": [],
     "notes": [
       "Male Characters"
@@ -5320,5 +5322,157 @@
     "kinds": [],
     "notes": [],
     "created_at": "2026-11-26T15:52:53.000Z"
+  },
+  {
+    "id": 215,
+    "name": "Carrie White",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "carrie": "protagonist"
+    },
+    "residence": [
+      "chamberlain-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:53:25.000Z"
+  },
+  {
+    "id": 216,
+    "name": "Sue Snell",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "carrie": "protagonist"
+    },
+    "residence": [
+      "chamberlain-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:53:25.000Z"
+  },
+  {
+    "id": 217,
+    "name": "Tommy Ross",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "carrie": "supporting"
+    },
+    "residence": [
+      "chamberlain-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:53:25.000Z"
+  },
+  {
+    "id": 218,
+    "name": "Miss Desjardin",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "carrie": "supporting"
+    },
+    "residence": [
+      "chamberlain-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:53:25.000Z"
+  },
+  {
+    "id": 219,
+    "name": "Danny Torrance",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-shining": "protagonist",
+      "doctor-sleep": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:53:25.000Z"
+  },
+  {
+    "id": 220,
+    "name": "Wendy Torrance",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-shining": "protagonist",
+      "doctor-sleep": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:53:25.000Z"
+  },
+  {
+    "id": 221,
+    "name": "Dick Hallorann",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-shining": "supporting",
+      "it": "minor",
+      "doctor-sleep": "supporting"
+    },
+    "residence": [
+      "florida"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:53:25.000Z"
+  },
+  {
+    "id": 222,
+    "name": "Ted Jones",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "rage": "supporting"
+    },
+    "residence": [
+      "placerville-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:53:25.000Z"
   }
 ]

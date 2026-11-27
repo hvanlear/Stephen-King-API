@@ -17,187 +17,218 @@
           {
             "name": "Tina Blake",
             "url": "https://stephen-king-api.onrender.com/api/villain/4",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Cindi",
             "url": "https://stephen-king-api.onrender.com/api/villain/14",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Myra Crewes",
             "url": "https://stephen-king-api.onrender.com/api/villain/16",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Billy deLois",
             "url": "https://stephen-king-api.onrender.com/api/villain/25",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Kenny Garson",
             "url": "https://stephen-king-api.onrender.com/api/villain/38",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Mary Lila Grace",
             "url": "https://stephen-king-api.onrender.com/api/villain/44",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Christine Hargensen",
             "url": "https://stephen-king-api.onrender.com/api/villain/49",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Vic Mooney",
             "url": "https://stephen-king-api.onrender.com/api/villain/75",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "The Mortimer Snerds",
             "url": "https://stephen-king-api.onrender.com/api/villain/77",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Billy Nolan",
             "url": "https://stephen-king-api.onrender.com/api/villain/80",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Elenor Richmond",
             "url": "https://stephen-king-api.onrender.com/api/villain/90",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Rachel Spies",
             "url": "https://stephen-king-api.onrender.com/api/villain/94",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Jackie Talbot",
             "url": "https://stephen-king-api.onrender.com/api/villain/99",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Donna and Mary Lila Grace Thibodeau",
             "url": "https://stephen-king-api.onrender.com/api/villain/102",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Jessica Upshaw",
             "url": "https://stephen-king-api.onrender.com/api/villain/108",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Norma Watson",
             "url": "https://stephen-king-api.onrender.com/api/villain/109",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Margaret White",
             "url": "https://stephen-king-api.onrender.com/api/villain/113",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Tommy Erbter",
             "url": "https://stephen-king-api.onrender.com/api/villain/170",
-            "role": null
+            "role": "minor"
+          },
+          {
+            "name": "Carrie White",
+            "url": "https://stephen-king-api.onrender.com/api/character/215",
+            "role": "protagonist"
+          },
+          {
+            "name": "Sue Snell",
+            "url": "https://stephen-king-api.onrender.com/api/character/216",
+            "role": "protagonist"
+          },
+          {
+            "name": "Tommy Ross",
+            "url": "https://stephen-king-api.onrender.com/api/character/217",
+            "role": "supporting"
+          },
+          {
+            "name": "Miss Desjardin",
+            "url": "https://stephen-king-api.onrender.com/api/character/218",
+            "role": "supporting"
           }
         ],
         "villains": [
           {
             "name": "Tina Blake",
             "url": "https://stephen-king-api.onrender.com/api/villain/4",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Cindi",
             "url": "https://stephen-king-api.onrender.com/api/villain/14",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Myra Crewes",
             "url": "https://stephen-king-api.onrender.com/api/villain/16",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Billy deLois",
             "url": "https://stephen-king-api.onrender.com/api/villain/25",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Kenny Garson",
             "url": "https://stephen-king-api.onrender.com/api/villain/38",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Mary Lila Grace",
             "url": "https://stephen-king-api.onrender.com/api/villain/44",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Christine Hargensen",
             "url": "https://stephen-king-api.onrender.com/api/villain/49",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Vic Mooney",
             "url": "https://stephen-king-api.onrender.com/api/villain/75",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "The Mortimer Snerds",
             "url": "https://stephen-king-api.onrender.com/api/villain/77",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Billy Nolan",
             "url": "https://stephen-king-api.onrender.com/api/villain/80",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Elenor Richmond",
             "url": "https://stephen-king-api.onrender.com/api/villain/90",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Rachel Spies",
             "url": "https://stephen-king-api.onrender.com/api/villain/94",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Jackie Talbot",
             "url": "https://stephen-king-api.onrender.com/api/villain/99",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Donna and Mary Lila Grace Thibodeau",
             "url": "https://stephen-king-api.onrender.com/api/villain/102",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Jessica Upshaw",
             "url": "https://stephen-king-api.onrender.com/api/villain/108",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Norma Watson",
             "url": "https://stephen-king-api.onrender.com/api/villain/109",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Margaret White",
             "url": "https://stephen-king-api.onrender.com/api/villain/113",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Tommy Erbter",
             "url": "https://stephen-king-api.onrender.com/api/villain/170",
-            "role": null
+            "role": "minor"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Carrie White",
+            "url": "https://stephen-king-api.onrender.com/api/character/215",
+            "role": "protagonist"
+          },
+          {
+            "name": "Sue Snell",
+            "url": "https://stephen-king-api.onrender.com/api/character/216",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Maine",
@@ -373,7 +404,7 @@
           {
             "name": "Delbert Grady",
             "url": "https://stephen-king-api.onrender.com/api/villain/45",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Jack Torrance",
@@ -383,7 +414,22 @@
           {
             "name": "Roger the Dog Man",
             "url": "https://stephen-king-api.onrender.com/api/villain/162",
-            "role": null
+            "role": "minor"
+          },
+          {
+            "name": "Danny Torrance",
+            "url": "https://stephen-king-api.onrender.com/api/character/219",
+            "role": "protagonist"
+          },
+          {
+            "name": "Wendy Torrance",
+            "url": "https://stephen-king-api.onrender.com/api/character/220",
+            "role": "protagonist"
+          },
+          {
+            "name": "Dick Hallorann",
+            "url": "https://stephen-king-api.onrender.com/api/character/221",
+            "role": "supporting"
           }
         ],
         "villains": [
@@ -395,7 +441,7 @@
           {
             "name": "Delbert Grady",
             "url": "https://stephen-king-api.onrender.com/api/villain/45",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Jack Torrance",
@@ -405,10 +451,21 @@
           {
             "name": "Roger the Dog Man",
             "url": "https://stephen-king-api.onrender.com/api/villain/162",
-            "role": null
+            "role": "minor"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Danny Torrance",
+            "url": "https://stephen-king-api.onrender.com/api/character/219",
+            "role": "protagonist"
+          },
+          {
+            "name": "Wendy Torrance",
+            "url": "https://stephen-king-api.onrender.com/api/character/220",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Boulder, Colorado",
@@ -449,17 +506,28 @@
           {
             "name": "Charlie Decker",
             "url": "https://stephen-king-api.onrender.com/api/villain/179",
-            "role": null
+            "role": "protagonist"
+          },
+          {
+            "name": "Ted Jones",
+            "url": "https://stephen-king-api.onrender.com/api/character/222",
+            "role": "supporting"
           }
         ],
         "villains": [
           {
             "name": "Charlie Decker",
             "url": "https://stephen-king-api.onrender.com/api/villain/179",
-            "role": null
+            "role": "protagonist"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Charlie Decker",
+            "url": "https://stephen-king-api.onrender.com/api/villain/179",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Maine",
@@ -1485,6 +1553,11 @@
             "name": "Stan Uris",
             "url": "https://stephen-king-api.onrender.com/api/character/213",
             "role": "protagonist"
+          },
+          {
+            "name": "Dick Hallorann",
+            "url": "https://stephen-king-api.onrender.com/api/character/221",
+            "role": "minor"
           }
         ],
         "villains": [
@@ -3605,6 +3678,21 @@
             "name": "Walnut",
             "url": "https://stephen-king-api.onrender.com/api/villain/174",
             "role": null
+          },
+          {
+            "name": "Danny Torrance",
+            "url": "https://stephen-king-api.onrender.com/api/character/219",
+            "role": "protagonist"
+          },
+          {
+            "name": "Wendy Torrance",
+            "url": "https://stephen-king-api.onrender.com/api/character/220",
+            "role": "minor"
+          },
+          {
+            "name": "Dick Hallorann",
+            "url": "https://stephen-king-api.onrender.com/api/character/221",
+            "role": "supporting"
           }
         ],
         "villains": [
@@ -3654,7 +3742,13 @@
             "role": null
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Danny Torrance",
+            "url": "https://stephen-king-api.onrender.com/api/character/219",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Bankerton, Iowa",

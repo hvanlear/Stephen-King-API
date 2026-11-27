@@ -76,7 +76,7 @@
           {
             "title": "Carrie",
             "url": "https://stephen-king-api.onrender.com/api/book/1",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -315,7 +315,7 @@
           {
             "title": "Carrie",
             "url": "https://stephen-king-api.onrender.com/api/book/1",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -357,7 +357,7 @@
           {
             "title": "Carrie",
             "url": "https://stephen-king-api.onrender.com/api/book/1",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -506,7 +506,7 @@
           {
             "title": "Carrie",
             "url": "https://stephen-king-api.onrender.com/api/book/1",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -2297,7 +2297,7 @@
           {
             "title": "The Shining",
             "url": "https://stephen-king-api.onrender.com/api/book/3",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -2576,7 +2576,7 @@
           {
             "title": "Carrie",
             "url": "https://stephen-king-api.onrender.com/api/book/1",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -2889,7 +2889,7 @@
         "id": 179,
         "name": "Charlie Decker",
         "villain": true,
-        "protagonist": false,
+        "protagonist": true,
         "gender": "Male",
         "status": "Alive",
         "death": null,
@@ -2903,11 +2903,16 @@
           {
             "title": "Rage",
             "url": "https://stephen-king-api.onrender.com/api/book/4",
-            "role": null
+            "role": "protagonist"
           }
         ],
         "shorts": [],
-        "residence": [],
+        "residence": [
+          {
+            "name": "Placerville, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/93"
+          }
+        ],
         "type": {
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"

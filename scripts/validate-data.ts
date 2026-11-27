@@ -94,7 +94,6 @@ export const SPECS: Record<string, FileSpec> = {
     },
     unique: ["id", "handle", "title"],
   },
-  // Villains used to be villains.json, which a base branch may still have
   "characters.json": {
     label: "character",
     nameField: "name",
@@ -102,7 +101,7 @@ export const SPECS: Record<string, FileSpec> = {
     fields: {
       id: "id",
       name: "text",
-      // Also served at /api/villain/:id, so a villain stays one (see compareVillains)
+      // Also served at /api/villain/:id, so a villain stays one (see compareCharacters)
       villain: "boolean",
       gender: "nullable text",
       status: { oneOf: STATUSES },
@@ -203,6 +202,10 @@ const TIMESTAMP = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d{3})?Z$/;
 const isText = (value: unknown) =>
   typeof value === "string" && value !== "" && value === value.trim();
 
+// A JSON object: not null and not a list
+const isObject = (value: unknown): value is Record<string, unknown> =>
+  value !== null && typeof value === "object" && !Array.isArray(value);
+
 function checkField(rule: FieldRule, value: unknown): string | null {
   if (typeof rule === "object") {
     return rule.oneOf.includes(value as string) ? null : `must be one of ${rule.oneOf.join(", ")}`;
@@ -242,14 +245,12 @@ function checkField(rule: FieldRule, value: unknown): string | null {
     case "boolean":
       return typeof value === "boolean" ? null : "must be true or false";
     case "nullable object":
-      return value === null || (typeof value === "object" && !Array.isArray(value))
-        ? null
-        : "must be null or an object";
+      return value === null || isObject(value) ? null : "must be null or an object";
     case "roles": {
-      if (value === null || typeof value !== "object" || Array.isArray(value)) {
+      if (!isObject(value)) {
         return `must be an object of book or short handles, each with a role (${ROLES.join(", ")}) or null`;
       }
-      const bad = Object.entries(value).find(([, role]) => role !== null && !ROLES.includes(role));
+      const bad = Object.entries(value).find(([, role]) => role !== null && !ROLES.includes(role as (typeof ROLES)[number]));
       return bad === undefined
         ? null
         : `${JSON.stringify(bad[0])} has the role ${JSON.stringify(bad[1])}, but a role is one of ${ROLES.join(", ")}, or null until it's recorded`;
@@ -287,7 +288,7 @@ export function validate(catalog: Catalog, base?: Catalog): string[] {
     let previousId = 0;
 
     records.forEach((value, index) => {
-      if (typeof value !== "object" || value === null || Array.isArray(value)) {
+      if (!isObject(value)) {
         errors.push(`catalog/${file}: record at position ${index} must be an object`);
         return;
       }
@@ -366,8 +367,7 @@ export function validate(catalog: Catalog, base?: Catalog): string[] {
 
   if (base) {
     errors.push(...compareIds(catalog, base));
-    errors.push(...compareVillains(catalog, base));
-    errors.push(...compareDeaths(catalog, base));
+    errors.push(...compareCharacters(catalog, base));
   }
 
   return errors;
@@ -389,7 +389,7 @@ function checkHandles(
   records.forEach((record: CatalogRecord, index) => {
     const value = record?.[field];
     // A character's appears_in names its works as keys, with a role each
-    const handles = Array.isArray(value) ? value : value !== null && typeof value === "object" ? Object.keys(value) : null;
+    const handles = Array.isArray(value) ? value : isObject(value) ? Object.keys(value) : null;
     if (handles === null) {
       return;
     }
@@ -411,9 +411,6 @@ function checkHandles(
 const characterLabel = (character: CatalogRecord, index: number) =>
   `catalog/characters.json: character ${character?.id ?? `at position ${index}`} (${JSON.stringify(character?.name)})`;
 
-const isRoles = (value: unknown): value is Record<string, unknown> =>
-  value !== null && typeof value === "object" && !Array.isArray(value);
-
 // Roles are recorded for all of a character's books and shorts at once, so
 // a book's protagonists are never half listed. Only a villain can be an
 // antagonist: anyone who is one belongs at /api/villains.
@@ -423,7 +420,7 @@ function checkRoles(characters: unknown): string[] {
   }
   const errors: string[] = [];
   characters.forEach((character: CatalogRecord, index) => {
-    if (!isRoles(character?.appears_in)) {
+    if (!isObject(character?.appears_in)) {
       return;
     }
     const fail = (message: string) => errors.push(`${characterLabel(character, index)}: ${message}`);
@@ -510,7 +507,7 @@ function checkDeaths(characters: unknown, books: unknown, shorts: unknown): stri
   characters.forEach((character: CatalogRecord, index) => {
     const death = character?.death;
     // The field rule reports a death that isn't null or an object
-    if (death === null || typeof death !== "object" || Array.isArray(death)) {
+    if (!isObject(death)) {
       return;
     }
     const fail = (message: string) => errors.push(`${characterLabel(character, index)}: ${message}`);
@@ -527,7 +524,7 @@ function checkDeaths(characters: unknown, books: unknown, shorts: unknown): stri
     }
 
     const work = record.in;
-    const kinds = work !== null && typeof work === "object" && !Array.isArray(work) ? Object.keys(work) : [];
+    const kinds = isObject(work) ? Object.keys(work) : [];
     if (kinds.length !== 1 || (kinds[0] !== "book" && kinds[0] !== "short")) {
       fail(`death.in must be { "book": handle } or { "short": handle }`);
     } else {
@@ -535,7 +532,7 @@ function checkDeaths(characters: unknown, books: unknown, shorts: unknown): stri
       const handle = (work as CatalogRecord)[kind];
       if (!handles[kind].has(handle)) {
         fail(`death.in ${JSON.stringify(handle)} doesn't match any ${kind} handle`);
-      } else if (!isRoles(character.appears_in) || !Object.hasOwn(character.appears_in, handle as string)) {
+      } else if (!isObject(character.appears_in) || !Object.hasOwn(character.appears_in, handle as string)) {
         fail(`death.in ${JSON.stringify(handle)} isn't in appears_in, so the character isn't in that ${kind}`);
       }
     }
@@ -546,7 +543,7 @@ function checkDeaths(characters: unknown, books: unknown, shorts: unknown): stri
     }
     const listed = new Set<string>();
     const checkKiller = (entry: unknown, label: string, member: boolean) => {
-      if (entry === null || typeof entry !== "object" || Array.isArray(entry)) {
+      if (!isObject(entry)) {
         fail(`${label} must be an object`);
         return;
       }
@@ -775,10 +772,12 @@ function compareIds(catalog: Catalog, base: Catalog): string[] {
   return errors;
 }
 
-// A villain is also served at /api/villain/:id, so one can't stop being a
-// villain: its villain route would disappear. On a base branch from before
-// characters, every record was a villain.
-function compareVillains(catalog: Catalog, base: Catalog): string[] {
+// Changes since the base branch that would break saved links or undo data:
+// - A villain is also served at /api/villain/:id, so one can't stop being a
+//   villain, or its villain route would disappear.
+// - A recorded death can be corrected but not wiped back to null, unless the
+//   character's status changed too, so a data batch can't undo an earlier one.
+function compareCharacters(catalog: Catalog, base: Catalog): string[] {
   const now = catalog["characters.json"];
   const before = base["characters.json"];
   if (!Array.isArray(now) || !Array.isArray(before)) {
@@ -788,59 +787,65 @@ function compareVillains(catalog: Catalog, base: Catalog): string[] {
   const errors: string[] = [];
   for (const old of before as CatalogRecord[]) {
     const current = nowById.get(old?.id);
-    if (old?.villain !== false && current && current.villain !== true) {
-      errors.push(
-        `catalog/characters.json: character ${old.id} (${JSON.stringify(old.name)}): was a villain on the base branch, so it has to stay one, or /api/villain/${old.id} would disappear`
-      );
+    if (!current) {
+      continue; // compareIds reports a removed id
+    }
+    const fail = (message: string) =>
+      errors.push(`catalog/characters.json: character ${old.id} (${JSON.stringify(old.name)}): ${message}`);
+    if (old.villain === true && current.villain !== true) {
+      fail(`was a villain on the base branch, so it has to stay one, or /api/villain/${old.id} would disappear`);
+    }
+    if (isObject(old.death) && current.death === null && current.status === old.status) {
+      fail(`death was recorded on the base branch but is now null, and status is still ${old.status}`);
     }
   }
   return errors;
 }
 
-// A recorded death can be corrected but not wiped back to null, unless the
-// character's status changed too, so a data batch can't undo an earlier one
-function compareDeaths(catalog: Catalog, base: Catalog): string[] {
-  const now = catalog["characters.json"];
-  const before = base["characters.json"];
-  if (!Array.isArray(now) || !Array.isArray(before)) {
-    return [];
-  }
-  const nowById = new Map<unknown, CatalogRecord>(now.map((character: CatalogRecord) => [character?.id, character]));
-  const errors: string[] = [];
-  for (const old of before as CatalogRecord[]) {
-    // undefined on a base branch from before deaths were recorded
-    if (old?.death === null || old?.death === undefined) {
-      continue;
+// JSON.parse keeps only the last of two equal keys in an object, so a work
+// listed twice in appears_in, or a field written twice, would pass unseen.
+// This finds them in the file's text, with the line each repeat is on.
+export function duplicateKeys(text: string): { key: string; line: number }[] {
+  const found: { key: string; line: number }[] = [];
+  // The keys seen in each open object, or null for a list
+  const open: (Set<string> | null)[] = [];
+  let last = "";
+  let line = 1;
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+    if (ch === "\n") {
+      line++;
+    } else if (ch === '"') {
+      let end = i + 1;
+      while (end < text.length && text[end] !== '"') end += text[end] === "\\" ? 2 : 1;
+      last = text.slice(i + 1, end);
+      i = end;
+    } else if (ch === "{" || ch === "[") {
+      open.push(ch === "{" ? new Set() : null);
+    } else if (ch === "}" || ch === "]") {
+      open.pop();
+    } else if (ch === ":") {
+      // Outside a string, a colon only ever follows a key
+      const keys = open[open.length - 1];
+      if (keys?.has(last)) found.push({ key: last, line });
+      keys?.add(last);
     }
-    const current = nowById.get(old.id);
-    if (current?.death === null && current.status === old.status) {
-      errors.push(
-        `catalog/characters.json: character ${old.id} (${JSON.stringify(old.name)}): death was recorded on the base branch but is now null, and status is still ${old.status}`
-      );
-    }
   }
-  return errors;
+  return found;
 }
-
-// The names files had before, which a base branch may still use
-const FORMER_FILES: Record<string, string> = { "characters.json": "villains.json" };
 
 function readCatalog(read: (file: string) => string): { catalog: Catalog; errors: string[] } {
   const catalog: Catalog = {};
   const errors: string[] = [];
   for (const file of Object.keys(SPECS)) {
     try {
-      catalog[file] = JSON.parse(read(file));
-    } catch (error) {
-      // A base branch from before a rename has the file under its old name
-      try {
-        if (!(file in FORMER_FILES)) {
-          throw error;
-        }
-        catalog[file] = JSON.parse(read(FORMER_FILES[file]));
-      } catch {
-        errors.push(`catalog/${file}: couldn't be read: ${(error as Error).message}`);
+      const text = read(file);
+      catalog[file] = JSON.parse(text);
+      for (const { key, line } of duplicateKeys(text)) {
+        errors.push(`catalog/${file}: line ${line}: ${JSON.stringify(key)} is written twice in the same object, and only the last one counts`);
       }
+    } catch (error) {
+      errors.push(`catalog/${file}: couldn't be read: ${(error as Error).message}`);
     }
   }
   return { catalog, errors };

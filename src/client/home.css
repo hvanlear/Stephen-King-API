@@ -96,17 +96,25 @@ body.graph-home {
 }
 .lede { margin: 0; max-width: 470px; font-size: 18px; color: var(--muted); }
 
-/* Counts: one per kind, with room between them however many there are */
+/* Counts: one per kind, each as wide as its words, with the room left over
+   shared equally between them, so the first sits on the left edge and the
+   last on the right */
 
 .counts {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   gap: 0 24px;
   margin: 44px 0 32px;
   padding: 0;
   list-style: none;
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
+}
+/* One row needs about 920px; well before that, two rows of four, with the
+   columns spread the same way */
+@media (max-width: 1100px) {
+  .counts { display: grid; grid-template-columns: repeat(4, auto); }
 }
 /* The number, with what it counts under it as a sub-header */
 .counts li { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; padding: 18px 0; }

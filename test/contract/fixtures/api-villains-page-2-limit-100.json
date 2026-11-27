@@ -1066,7 +1066,7 @@
           {
             "title": "The Dark Tower IV: Wizard and Glass",
             "url": "https://stephen-king-api.onrender.com/api/book/34",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -2329,7 +2329,7 @@
           {
             "title": "The Dark Tower IV: Wizard and Glass",
             "url": "https://stephen-king-api.onrender.com/api/book/34",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -3076,7 +3076,7 @@
           {
             "title": "The Girl Who Loved Tom Gordon",
             "url": "https://stephen-king-api.onrender.com/api/book/36",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3261,7 +3261,7 @@
           {
             "title": "Bag of Bones",
             "url": "https://stephen-king-api.onrender.com/api/book/35",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3373,7 +3373,7 @@
           {
             "title": "Bag of Bones",
             "url": "https://stephen-king-api.onrender.com/api/book/35",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -3405,7 +3405,7 @@
           {
             "title": "Bag of Bones",
             "url": "https://stephen-king-api.onrender.com/api/book/35",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],

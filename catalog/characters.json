@@ -683,7 +683,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-dark-tower-iv-wizard-and-glass": null
+      "the-dark-tower-iv-wizard-and-glass": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -883,7 +883,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-dark-tower-iv-wizard-and-glass": null
+      "the-dark-tower-iv-wizard-and-glass": "antagonist"
     },
     "residence": [
       "hambry-mejis"
@@ -983,7 +983,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-dark-tower-iv-wizard-and-glass": null
+      "the-dark-tower-iv-wizard-and-glass": "minor"
     },
     "residence": [],
     "kinds": [],
@@ -1664,7 +1664,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-dark-tower-iv-wizard-and-glass": null
+      "the-dark-tower-iv-wizard-and-glass": "antagonist"
     },
     "residence": [
       "hambry-mejis"
@@ -3415,7 +3415,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-dark-tower-iv-wizard-and-glass": null
+      "the-dark-tower-iv-wizard-and-glass": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -4242,7 +4242,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-dark-tower-iv-wizard-and-glass": null
+      "the-dark-tower-iv-wizard-and-glass": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -4723,7 +4723,7 @@
     "types_id": 3,
     "group": false,
     "appears_in": {
-      "the-girl-who-loved-tom-gordon": null
+      "the-girl-who-loved-tom-gordon": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -4836,7 +4836,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "bag-of-bones": null
+      "bag-of-bones": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -4904,7 +4904,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "bag-of-bones": null
+      "bag-of-bones": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -4921,7 +4921,7 @@
     "types_id": 7,
     "group": false,
     "appears_in": {
-      "bag-of-bones": null
+      "bag-of-bones": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -8271,5 +8271,298 @@
     "kinds": [],
     "notes": [],
     "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 372,
+    "name": "Susan Delgado",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-the-gunslinger": "minor",
+      "the-dark-tower-iv-wizard-and-glass": "protagonist"
+    },
+    "residence": [
+      "hambry-mejis"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:19:11.000Z"
+  },
+  {
+    "id": 373,
+    "name": "Cuthbert Allgood",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-slow-mutants": "minor",
+      "the-dark-tower-the-gunslinger": "minor",
+      "the-dark-tower-iv-wizard-and-glass": "supporting"
+    },
+    "residence": [
+      "gilead"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:19:11.000Z"
+  },
+  {
+    "id": 374,
+    "name": "Alain Johns",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-the-gunslinger": "minor",
+      "the-dark-tower-iv-wizard-and-glass": "supporting"
+    },
+    "residence": [
+      "gilead"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:19:11.000Z"
+  },
+  {
+    "id": 375,
+    "name": "Sheemie Ruiz",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-iv-wizard-and-glass": "supporting",
+      "the-dark-tower-vii-the-dark-tower": "supporting"
+    },
+    "residence": [
+      "hambry-mejis"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:19:11.000Z"
+  },
+  {
+    "id": 376,
+    "name": "Steven Deschain",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-the-gunslinger": "minor",
+      "the-dark-tower-iv-wizard-and-glass": "minor",
+      "the-dark-tower-the-wind-through-the-keyhole": "minor"
+    },
+    "residence": [
+      "gilead"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:19:11.000Z"
+  },
+  {
+    "id": 377,
+    "name": "Gabrielle Deschain",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-the-gunslinger": "minor",
+      "the-dark-tower-iv-wizard-and-glass": "minor"
+    },
+    "residence": [
+      "gilead"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:19:11.000Z"
+  },
+  {
+    "id": 378,
+    "name": "Hart Thorin",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-iv-wizard-and-glass": "minor"
+    },
+    "residence": [
+      "hambry-mejis"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:19:11.000Z"
+  },
+  {
+    "id": 379,
+    "name": "Mike Noonan",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "bag-of-bones": "protagonist"
+    },
+    "residence": [
+      "derry-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:19:11.000Z"
+  },
+  {
+    "id": 380,
+    "name": "Johanna Arlen",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "bag-of-bones": "supporting"
+    },
+    "residence": [
+      "derry-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:19:11.000Z"
+  },
+  {
+    "id": 381,
+    "name": "Mattie Devore",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "bag-of-bones": "supporting"
+    },
+    "residence": [
+      "tr-90-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:19:11.000Z"
+  },
+  {
+    "id": 382,
+    "name": "Kyra Devore",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "bag-of-bones": "supporting"
+    },
+    "residence": [
+      "tr-90-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:19:11.000Z"
+  },
+  {
+    "id": 383,
+    "name": "John Storrow",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "bag-of-bones": "supporting"
+    },
+    "residence": [
+      "new-york-city"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:19:11.000Z"
+  },
+  {
+    "id": 384,
+    "name": "Bill Dean",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "bag-of-bones": "minor"
+    },
+    "residence": [
+      "tr-90-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:19:11.000Z"
+  },
+  {
+    "id": 385,
+    "name": "Patricia McFarland",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-girl-who-loved-tom-gordon": "protagonist"
+    },
+    "residence": [
+      "maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:19:11.000Z"
+  },
+  {
+    "id": 386,
+    "name": "Pete McFarland",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-girl-who-loved-tom-gordon": "minor"
+    },
+    "residence": [
+      "maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:19:11.000Z"
   }
 ]

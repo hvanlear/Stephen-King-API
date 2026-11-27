@@ -1023,6 +1023,14 @@
           {
             "name": "Patrick Danville",
             "url": "https://stephen-king-api.onrender.com/api/character/343"
+          },
+          {
+            "name": "Mike Noonan",
+            "url": "https://stephen-king-api.onrender.com/api/character/379"
+          },
+          {
+            "name": "Johanna Arlen",
+            "url": "https://stephen-king-api.onrender.com/api/character/380"
           }
         ],
         "villains": [
@@ -2034,6 +2042,10 @@
           {
             "name": "Calvin Tower",
             "url": "https://stephen-king-api.onrender.com/api/character/329"
+          },
+          {
+            "name": "John Storrow",
+            "url": "https://stephen-king-api.onrender.com/api/character/383"
           }
         ],
         "villains": [

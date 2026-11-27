@@ -57,6 +57,31 @@
           "name": "Cortland Andrus",
           "url": "https://stephen-king-api.onrender.com/api/character/269",
           "role": "supporting"
+        },
+        {
+          "name": "Susan Delgado",
+          "url": "https://stephen-king-api.onrender.com/api/character/372",
+          "role": "minor"
+        },
+        {
+          "name": "Cuthbert Allgood",
+          "url": "https://stephen-king-api.onrender.com/api/character/373",
+          "role": "minor"
+        },
+        {
+          "name": "Alain Johns",
+          "url": "https://stephen-king-api.onrender.com/api/character/374",
+          "role": "minor"
+        },
+        {
+          "name": "Steven Deschain",
+          "url": "https://stephen-king-api.onrender.com/api/character/376",
+          "role": "minor"
+        },
+        {
+          "name": "Gabrielle Deschain",
+          "url": "https://stephen-king-api.onrender.com/api/character/377",
+          "role": "minor"
         }
       ],
       "villains": [

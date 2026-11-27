@@ -1363,6 +1363,31 @@
             "name": "Cortland Andrus",
             "url": "https://stephen-king-api.onrender.com/api/character/269",
             "role": "supporting"
+          },
+          {
+            "name": "Susan Delgado",
+            "url": "https://stephen-king-api.onrender.com/api/character/372",
+            "role": "minor"
+          },
+          {
+            "name": "Cuthbert Allgood",
+            "url": "https://stephen-king-api.onrender.com/api/character/373",
+            "role": "minor"
+          },
+          {
+            "name": "Alain Johns",
+            "url": "https://stephen-king-api.onrender.com/api/character/374",
+            "role": "minor"
+          },
+          {
+            "name": "Steven Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/376",
+            "role": "minor"
+          },
+          {
+            "name": "Gabrielle Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/377",
+            "role": "minor"
           }
         ],
         "villains": [
@@ -3841,17 +3866,17 @@
           {
             "name": "Cordelia Delgado",
             "url": "https://stephen-king-api.onrender.com/api/villain/24",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Rhea Dubativo",
             "url": "https://stephen-king-api.onrender.com/api/villain/32",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "John Farson",
             "url": "https://stephen-king-api.onrender.com/api/villain/36",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Randall Flagg",
@@ -3861,17 +3886,17 @@
           {
             "name": "Eldred Jonas",
             "url": "https://stephen-king-api.onrender.com/api/villain/60",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Clay Reynolds",
             "url": "https://stephen-king-api.onrender.com/api/villain/128",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Roy Depape",
             "url": "https://stephen-king-api.onrender.com/api/villain/163",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Roland Deschain",
@@ -3902,6 +3927,41 @@
             "name": "Andrew Quick",
             "url": "https://stephen-king-api.onrender.com/api/villain/325",
             "role": "minor"
+          },
+          {
+            "name": "Susan Delgado",
+            "url": "https://stephen-king-api.onrender.com/api/character/372",
+            "role": "protagonist"
+          },
+          {
+            "name": "Cuthbert Allgood",
+            "url": "https://stephen-king-api.onrender.com/api/character/373",
+            "role": "supporting"
+          },
+          {
+            "name": "Alain Johns",
+            "url": "https://stephen-king-api.onrender.com/api/character/374",
+            "role": "supporting"
+          },
+          {
+            "name": "Sheemie Ruiz",
+            "url": "https://stephen-king-api.onrender.com/api/character/375",
+            "role": "supporting"
+          },
+          {
+            "name": "Steven Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/376",
+            "role": "minor"
+          },
+          {
+            "name": "Gabrielle Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/377",
+            "role": "minor"
+          },
+          {
+            "name": "Hart Thorin",
+            "url": "https://stephen-king-api.onrender.com/api/character/378",
+            "role": "minor"
           }
         ],
         "villains": [
@@ -3913,17 +3973,17 @@
           {
             "name": "Cordelia Delgado",
             "url": "https://stephen-king-api.onrender.com/api/villain/24",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Rhea Dubativo",
             "url": "https://stephen-king-api.onrender.com/api/villain/32",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "John Farson",
             "url": "https://stephen-king-api.onrender.com/api/villain/36",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Randall Flagg",
@@ -3933,17 +3993,17 @@
           {
             "name": "Eldred Jonas",
             "url": "https://stephen-king-api.onrender.com/api/villain/60",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Clay Reynolds",
             "url": "https://stephen-king-api.onrender.com/api/villain/128",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Roy Depape",
             "url": "https://stephen-king-api.onrender.com/api/villain/163",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Andrew Quick",
@@ -3970,6 +4030,11 @@
           {
             "name": "Susannah Dean",
             "url": "https://stephen-king-api.onrender.com/api/character/307",
+            "role": "protagonist"
+          },
+          {
+            "name": "Susan Delgado",
+            "url": "https://stephen-king-api.onrender.com/api/character/372",
             "role": "protagonist"
           }
         ],
@@ -4027,21 +4092,51 @@
           {
             "name": "Max Devore",
             "url": "https://stephen-king-api.onrender.com/api/villain/191",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Rogette Whitmore",
             "url": "https://stephen-king-api.onrender.com/api/villain/195",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Sara Tidwell",
             "url": "https://stephen-king-api.onrender.com/api/villain/196",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Norris Ridgewick",
             "url": "https://stephen-king-api.onrender.com/api/character/323",
+            "role": "minor"
+          },
+          {
+            "name": "Mike Noonan",
+            "url": "https://stephen-king-api.onrender.com/api/character/379",
+            "role": "protagonist"
+          },
+          {
+            "name": "Johanna Arlen",
+            "url": "https://stephen-king-api.onrender.com/api/character/380",
+            "role": "supporting"
+          },
+          {
+            "name": "Mattie Devore",
+            "url": "https://stephen-king-api.onrender.com/api/character/381",
+            "role": "supporting"
+          },
+          {
+            "name": "Kyra Devore",
+            "url": "https://stephen-king-api.onrender.com/api/character/382",
+            "role": "supporting"
+          },
+          {
+            "name": "John Storrow",
+            "url": "https://stephen-king-api.onrender.com/api/character/383",
+            "role": "supporting"
+          },
+          {
+            "name": "Bill Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/384",
             "role": "minor"
           }
         ],
@@ -4049,20 +4144,26 @@
           {
             "name": "Max Devore",
             "url": "https://stephen-king-api.onrender.com/api/villain/191",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Rogette Whitmore",
             "url": "https://stephen-king-api.onrender.com/api/villain/195",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Sara Tidwell",
             "url": "https://stephen-king-api.onrender.com/api/villain/196",
-            "role": null
+            "role": "antagonist"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Mike Noonan",
+            "url": "https://stephen-king-api.onrender.com/api/character/379",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Maine",
@@ -4101,17 +4202,33 @@
           {
             "name": "God of the Lost",
             "url": "https://stephen-king-api.onrender.com/api/villain/185",
-            "role": null
+            "role": "antagonist"
+          },
+          {
+            "name": "Patricia McFarland",
+            "url": "https://stephen-king-api.onrender.com/api/character/385",
+            "role": "protagonist"
+          },
+          {
+            "name": "Pete McFarland",
+            "url": "https://stephen-king-api.onrender.com/api/character/386",
+            "role": "minor"
           }
         ],
         "villains": [
           {
             "name": "God of the Lost",
             "url": "https://stephen-king-api.onrender.com/api/villain/185",
-            "role": null
+            "role": "antagonist"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Patricia McFarland",
+            "url": "https://stephen-king-api.onrender.com/api/character/385",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Maine",
@@ -4583,6 +4700,11 @@
           {
             "name": "Patrick Danville",
             "url": "https://stephen-king-api.onrender.com/api/character/343",
+            "role": "supporting"
+          },
+          {
+            "name": "Sheemie Ruiz",
+            "url": "https://stephen-king-api.onrender.com/api/character/375",
             "role": "supporting"
           }
         ],
@@ -5061,6 +5183,11 @@
             "name": "Oy",
             "url": "https://stephen-king-api.onrender.com/api/character/324",
             "role": "supporting"
+          },
+          {
+            "name": "Steven Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/376",
+            "role": "minor"
           }
         ],
         "villains": [

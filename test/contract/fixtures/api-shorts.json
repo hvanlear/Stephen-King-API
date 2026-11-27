@@ -1984,6 +1984,11 @@
             "name": "Jake Chambers",
             "url": "https://stephen-king-api.onrender.com/api/character/266",
             "role": "supporting"
+          },
+          {
+            "name": "Cuthbert Allgood",
+            "url": "https://stephen-king-api.onrender.com/api/character/373",
+            "role": "minor"
           }
         ],
         "villains": [],

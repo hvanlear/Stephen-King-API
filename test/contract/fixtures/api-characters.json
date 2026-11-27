@@ -1055,7 +1055,7 @@
           {
             "title": "The Dark Tower IV: Wizard and Glass",
             "url": "https://stephen-king-api.onrender.com/api/book/34",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -1363,7 +1363,7 @@
           {
             "title": "The Dark Tower IV: Wizard and Glass",
             "url": "https://stephen-king-api.onrender.com/api/book/34",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -1518,7 +1518,7 @@
           {
             "title": "The Dark Tower IV: Wizard and Glass",
             "url": "https://stephen-king-api.onrender.com/api/book/34",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -2587,7 +2587,7 @@
           {
             "title": "The Dark Tower IV: Wizard and Glass",
             "url": "https://stephen-king-api.onrender.com/api/book/34",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -5236,7 +5236,7 @@
           {
             "title": "The Dark Tower IV: Wizard and Glass",
             "url": "https://stephen-king-api.onrender.com/api/book/34",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -6499,7 +6499,7 @@
           {
             "title": "The Dark Tower IV: Wizard and Glass",
             "url": "https://stephen-king-api.onrender.com/api/book/34",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -7246,7 +7246,7 @@
           {
             "title": "The Girl Who Loved Tom Gordon",
             "url": "https://stephen-king-api.onrender.com/api/book/36",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -7431,7 +7431,7 @@
           {
             "title": "Bag of Bones",
             "url": "https://stephen-king-api.onrender.com/api/book/35",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -7543,7 +7543,7 @@
           {
             "title": "Bag of Bones",
             "url": "https://stephen-king-api.onrender.com/api/book/35",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -7575,7 +7575,7 @@
           {
             "title": "Bag of Bones",
             "url": "https://stephen-king-api.onrender.com/api/book/35",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -13658,6 +13658,542 @@
           {
             "name": "Ohio",
             "url": "https://stephen-king-api.onrender.com/api/place/36"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 372,
+        "name": "Susan Delgado",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:19:11.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12",
+            "role": "minor"
+          },
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Hambry, Mejis",
+            "url": "https://stephen-king-api.onrender.com/api/place/137"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 373,
+        "name": "Cuthbert Allgood",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:19:11.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12",
+            "role": "minor"
+          },
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "The Slow Mutants",
+            "url": "https://stephen-king-api.onrender.com/api/short/75",
+            "role": "minor"
+          }
+        ],
+        "residence": [
+          {
+            "name": "Gilead",
+            "url": "https://stephen-king-api.onrender.com/api/place/136"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 374,
+        "name": "Alain Johns",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:19:11.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12",
+            "role": "minor"
+          },
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Gilead",
+            "url": "https://stephen-king-api.onrender.com/api/place/136"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 375,
+        "name": "Sheemie Ruiz",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:19:11.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34",
+            "role": "supporting"
+          },
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Hambry, Mejis",
+            "url": "https://stephen-king-api.onrender.com/api/place/137"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 376,
+        "name": "Steven Deschain",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:19:11.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12",
+            "role": "minor"
+          },
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34",
+            "role": "minor"
+          },
+          {
+            "title": "The Dark Tower: The Wind Through the Keyhole",
+            "url": "https://stephen-king-api.onrender.com/api/book/50",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Gilead",
+            "url": "https://stephen-king-api.onrender.com/api/place/136"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 377,
+        "name": "Gabrielle Deschain",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:19:11.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower: The Gunslinger",
+            "url": "https://stephen-king-api.onrender.com/api/book/12",
+            "role": "minor"
+          },
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Gilead",
+            "url": "https://stephen-king-api.onrender.com/api/place/136"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 378,
+        "name": "Hart Thorin",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:19:11.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Hambry, Mejis",
+            "url": "https://stephen-king-api.onrender.com/api/place/137"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 379,
+        "name": "Mike Noonan",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:19:11.000Z",
+        "books": [
+          {
+            "title": "Bag of Bones",
+            "url": "https://stephen-king-api.onrender.com/api/book/35",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 380,
+        "name": "Johanna Arlen",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:19:11.000Z",
+        "books": [
+          {
+            "title": "Bag of Bones",
+            "url": "https://stephen-king-api.onrender.com/api/book/35",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 381,
+        "name": "Mattie Devore",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:19:11.000Z",
+        "books": [
+          {
+            "title": "Bag of Bones",
+            "url": "https://stephen-king-api.onrender.com/api/book/35",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "TR-90, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/114"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 382,
+        "name": "Kyra Devore",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:19:11.000Z",
+        "books": [
+          {
+            "title": "Bag of Bones",
+            "url": "https://stephen-king-api.onrender.com/api/book/35",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "TR-90, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/114"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 383,
+        "name": "John Storrow",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:19:11.000Z",
+        "books": [
+          {
+            "title": "Bag of Bones",
+            "url": "https://stephen-king-api.onrender.com/api/book/35",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "New York City",
+            "url": "https://stephen-king-api.onrender.com/api/place/90"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 384,
+        "name": "Bill Dean",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:19:11.000Z",
+        "books": [
+          {
+            "title": "Bag of Bones",
+            "url": "https://stephen-king-api.onrender.com/api/book/35",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "TR-90, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/114"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 385,
+        "name": "Patricia McFarland",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:19:11.000Z",
+        "books": [
+          {
+            "title": "The Girl Who Loved Tom Gordon",
+            "url": "https://stephen-king-api.onrender.com/api/book/36",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 386,
+        "name": "Pete McFarland",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:19:11.000Z",
+        "books": [
+          {
+            "title": "The Girl Who Loved Tom Gordon",
+            "url": "https://stephen-king-api.onrender.com/api/book/36",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
           }
         ],
         "type": {

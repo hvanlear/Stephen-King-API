@@ -120,6 +120,34 @@
           {
             "name": "Talitha Unwin",
             "url": "https://stephen-king-api.onrender.com/api/character/327"
+          },
+          {
+            "name": "Susan Delgado",
+            "url": "https://stephen-king-api.onrender.com/api/character/372"
+          },
+          {
+            "name": "Cuthbert Allgood",
+            "url": "https://stephen-king-api.onrender.com/api/character/373"
+          },
+          {
+            "name": "Alain Johns",
+            "url": "https://stephen-king-api.onrender.com/api/character/374"
+          },
+          {
+            "name": "Sheemie Ruiz",
+            "url": "https://stephen-king-api.onrender.com/api/character/375"
+          },
+          {
+            "name": "Steven Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/376"
+          },
+          {
+            "name": "Gabrielle Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/377"
+          },
+          {
+            "name": "Hart Thorin",
+            "url": "https://stephen-king-api.onrender.com/api/character/378"
           }
         ],
         "villains": [
@@ -1088,6 +1116,38 @@
           {
             "name": "Cammie Reed",
             "url": "https://stephen-king-api.onrender.com/api/character/371"
+          },
+          {
+            "name": "Mike Noonan",
+            "url": "https://stephen-king-api.onrender.com/api/character/379"
+          },
+          {
+            "name": "Johanna Arlen",
+            "url": "https://stephen-king-api.onrender.com/api/character/380"
+          },
+          {
+            "name": "Mattie Devore",
+            "url": "https://stephen-king-api.onrender.com/api/character/381"
+          },
+          {
+            "name": "Kyra Devore",
+            "url": "https://stephen-king-api.onrender.com/api/character/382"
+          },
+          {
+            "name": "John Storrow",
+            "url": "https://stephen-king-api.onrender.com/api/character/383"
+          },
+          {
+            "name": "Bill Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/384"
+          },
+          {
+            "name": "Patricia McFarland",
+            "url": "https://stephen-king-api.onrender.com/api/character/385"
+          },
+          {
+            "name": "Pete McFarland",
+            "url": "https://stephen-king-api.onrender.com/api/character/386"
           }
         ],
         "villains": [
@@ -1648,6 +1708,34 @@
           {
             "name": "Cortland Andrus",
             "url": "https://stephen-king-api.onrender.com/api/character/269"
+          },
+          {
+            "name": "Susan Delgado",
+            "url": "https://stephen-king-api.onrender.com/api/character/372"
+          },
+          {
+            "name": "Cuthbert Allgood",
+            "url": "https://stephen-king-api.onrender.com/api/character/373"
+          },
+          {
+            "name": "Alain Johns",
+            "url": "https://stephen-king-api.onrender.com/api/character/374"
+          },
+          {
+            "name": "Sheemie Ruiz",
+            "url": "https://stephen-king-api.onrender.com/api/character/375"
+          },
+          {
+            "name": "Steven Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/376"
+          },
+          {
+            "name": "Gabrielle Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/377"
+          },
+          {
+            "name": "Hart Thorin",
+            "url": "https://stephen-king-api.onrender.com/api/character/378"
           }
         ],
         "villains": [
@@ -2957,6 +3045,34 @@
           {
             "name": "Patrick Danville",
             "url": "https://stephen-king-api.onrender.com/api/character/343"
+          },
+          {
+            "name": "Mike Noonan",
+            "url": "https://stephen-king-api.onrender.com/api/character/379"
+          },
+          {
+            "name": "Johanna Arlen",
+            "url": "https://stephen-king-api.onrender.com/api/character/380"
+          },
+          {
+            "name": "Mattie Devore",
+            "url": "https://stephen-king-api.onrender.com/api/character/381"
+          },
+          {
+            "name": "Kyra Devore",
+            "url": "https://stephen-king-api.onrender.com/api/character/382"
+          },
+          {
+            "name": "Bill Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/384"
+          },
+          {
+            "name": "Patricia McFarland",
+            "url": "https://stephen-king-api.onrender.com/api/character/385"
+          },
+          {
+            "name": "Pete McFarland",
+            "url": "https://stephen-king-api.onrender.com/api/character/386"
           }
         ],
         "villains": [
@@ -3428,6 +3544,10 @@
           {
             "name": "Calvin Tower",
             "url": "https://stephen-king-api.onrender.com/api/character/329"
+          },
+          {
+            "name": "John Storrow",
+            "url": "https://stephen-king-api.onrender.com/api/character/383"
           }
         ],
         "villains": [
@@ -3698,6 +3818,18 @@
           {
             "name": "Eldred Jonas",
             "url": "https://stephen-king-api.onrender.com/api/villain/60"
+          },
+          {
+            "name": "Susan Delgado",
+            "url": "https://stephen-king-api.onrender.com/api/character/372"
+          },
+          {
+            "name": "Sheemie Ruiz",
+            "url": "https://stephen-king-api.onrender.com/api/character/375"
+          },
+          {
+            "name": "Hart Thorin",
+            "url": "https://stephen-king-api.onrender.com/api/character/378"
           }
         ],
         "villains": [
@@ -3776,6 +3908,22 @@
           {
             "name": "Cortland Andrus",
             "url": "https://stephen-king-api.onrender.com/api/character/269"
+          },
+          {
+            "name": "Cuthbert Allgood",
+            "url": "https://stephen-king-api.onrender.com/api/character/373"
+          },
+          {
+            "name": "Alain Johns",
+            "url": "https://stephen-king-api.onrender.com/api/character/374"
+          },
+          {
+            "name": "Steven Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/376"
+          },
+          {
+            "name": "Gabrielle Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/377"
           }
         ],
         "villains": [
@@ -4957,6 +5105,14 @@
           {
             "name": "Patrick Danville",
             "url": "https://stephen-king-api.onrender.com/api/character/343"
+          },
+          {
+            "name": "Mike Noonan",
+            "url": "https://stephen-king-api.onrender.com/api/character/379"
+          },
+          {
+            "name": "Johanna Arlen",
+            "url": "https://stephen-king-api.onrender.com/api/character/380"
           }
         ],
         "villains": [
@@ -5968,6 +6124,10 @@
           {
             "name": "Calvin Tower",
             "url": "https://stephen-king-api.onrender.com/api/character/329"
+          },
+          {
+            "name": "John Storrow",
+            "url": "https://stephen-king-api.onrender.com/api/character/383"
           }
         ],
         "villains": [
@@ -6619,7 +6779,20 @@
             "url": "https://stephen-king-api.onrender.com/api/short/215"
           }
         ],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Mattie Devore",
+            "url": "https://stephen-king-api.onrender.com/api/character/381"
+          },
+          {
+            "name": "Kyra Devore",
+            "url": "https://stephen-king-api.onrender.com/api/character/382"
+          },
+          {
+            "name": "Bill Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/384"
+          }
+        ],
         "villains": []
       },
       {
@@ -7173,6 +7346,22 @@
           {
             "name": "Cortland Andrus",
             "url": "https://stephen-king-api.onrender.com/api/character/269"
+          },
+          {
+            "name": "Cuthbert Allgood",
+            "url": "https://stephen-king-api.onrender.com/api/character/373"
+          },
+          {
+            "name": "Alain Johns",
+            "url": "https://stephen-king-api.onrender.com/api/character/374"
+          },
+          {
+            "name": "Steven Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/376"
+          },
+          {
+            "name": "Gabrielle Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/377"
           }
         ],
         "villains": [
@@ -7208,6 +7397,18 @@
           {
             "name": "Eldred Jonas",
             "url": "https://stephen-king-api.onrender.com/api/villain/60"
+          },
+          {
+            "name": "Susan Delgado",
+            "url": "https://stephen-king-api.onrender.com/api/character/372"
+          },
+          {
+            "name": "Sheemie Ruiz",
+            "url": "https://stephen-king-api.onrender.com/api/character/375"
+          },
+          {
+            "name": "Hart Thorin",
+            "url": "https://stephen-king-api.onrender.com/api/character/378"
           }
         ],
         "villains": [

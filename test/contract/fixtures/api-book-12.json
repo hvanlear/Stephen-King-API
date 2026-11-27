@@ -87,6 +87,11 @@
           "name": "Mia",
           "url": "https://stephen-king-api.onrender.com/api/character/404",
           "role": "minor"
+        },
+        {
+          "name": "Jamie DeCurry",
+          "url": "https://stephen-king-api.onrender.com/api/character/453",
+          "role": "minor"
         }
       ],
       "villains": [

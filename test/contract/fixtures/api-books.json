@@ -1393,6 +1393,11 @@
             "name": "Mia",
             "url": "https://stephen-king-api.onrender.com/api/character/404",
             "role": "minor"
+          },
+          {
+            "name": "Jamie DeCurry",
+            "url": "https://stephen-king-api.onrender.com/api/character/453",
+            "role": "minor"
           }
         ],
         "villains": [
@@ -5341,37 +5346,103 @@
           {
             "name": "Jim Rennie, Jr.",
             "url": "https://stephen-king-api.onrender.com/api/villain/88",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Jim Rennie",
             "url": "https://stephen-king-api.onrender.com/api/villain/89",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Carter Thibodeau",
             "url": "https://stephen-king-api.onrender.com/api/villain/101",
-            "role": null
+            "role": "supporting"
+          },
+          {
+            "name": "Dale Barbara",
+            "url": "https://stephen-king-api.onrender.com/api/character/435",
+            "role": "protagonist"
+          },
+          {
+            "name": "Julia Shumway",
+            "url": "https://stephen-king-api.onrender.com/api/character/436",
+            "role": "protagonist"
+          },
+          {
+            "name": "Rusty Everett",
+            "url": "https://stephen-king-api.onrender.com/api/character/437",
+            "role": "supporting"
+          },
+          {
+            "name": "Joe McClatchey",
+            "url": "https://stephen-king-api.onrender.com/api/character/438",
+            "role": "supporting"
+          },
+          {
+            "name": "Brenda Perkins",
+            "url": "https://stephen-king-api.onrender.com/api/character/439",
+            "role": "supporting"
+          },
+          {
+            "name": "Andy Sanders",
+            "url": "https://stephen-king-api.onrender.com/api/character/440",
+            "role": "supporting"
+          },
+          {
+            "name": "Phil Bushey",
+            "url": "https://stephen-king-api.onrender.com/api/character/441",
+            "role": "supporting"
+          },
+          {
+            "name": "Peter Randolph",
+            "url": "https://stephen-king-api.onrender.com/api/character/442",
+            "role": "supporting"
+          },
+          {
+            "name": "Howard Perkins",
+            "url": "https://stephen-king-api.onrender.com/api/character/443",
+            "role": "minor"
+          },
+          {
+            "name": "Lester Coggins",
+            "url": "https://stephen-king-api.onrender.com/api/character/444",
+            "role": "minor"
+          },
+          {
+            "name": "James Cox",
+            "url": "https://stephen-king-api.onrender.com/api/character/445",
+            "role": "minor"
           }
         ],
         "villains": [
           {
             "name": "Jim Rennie, Jr.",
             "url": "https://stephen-king-api.onrender.com/api/villain/88",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Jim Rennie",
             "url": "https://stephen-king-api.onrender.com/api/villain/89",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Carter Thibodeau",
             "url": "https://stephen-king-api.onrender.com/api/villain/101",
-            "role": null
+            "role": "supporting"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Dale Barbara",
+            "url": "https://stephen-king-api.onrender.com/api/character/435",
+            "role": "protagonist"
+          },
+          {
+            "name": "Julia Shumway",
+            "url": "https://stephen-king-api.onrender.com/api/character/436",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Maine",
@@ -5442,7 +5513,7 @@
           {
             "name": "Frank Dunning",
             "url": "https://stephen-king-api.onrender.com/api/villain/134",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Beverly Marsh",
@@ -5453,16 +5524,42 @@
             "name": "Richie Tozier",
             "url": "https://stephen-king-api.onrender.com/api/character/210",
             "role": "minor"
+          },
+          {
+            "name": "Jake Epping",
+            "url": "https://stephen-king-api.onrender.com/api/character/446",
+            "role": "protagonist"
+          },
+          {
+            "name": "Sadie Dunhill",
+            "url": "https://stephen-king-api.onrender.com/api/character/447",
+            "role": "supporting"
+          },
+          {
+            "name": "Al Templeton",
+            "url": "https://stephen-king-api.onrender.com/api/character/448",
+            "role": "supporting"
+          },
+          {
+            "name": "Harry Dunning",
+            "url": "https://stephen-king-api.onrender.com/api/character/449",
+            "role": "supporting"
           }
         ],
         "villains": [
           {
             "name": "Frank Dunning",
             "url": "https://stephen-king-api.onrender.com/api/villain/134",
-            "role": null
+            "role": "antagonist"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Jake Epping",
+            "url": "https://stephen-king-api.onrender.com/api/character/446",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Maine",
@@ -5491,7 +5588,7 @@
           {
             "name": "Bern Kells",
             "url": "https://stephen-king-api.onrender.com/api/villain/122",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Roland Deschain",
@@ -5522,19 +5619,44 @@
             "name": "Steven Deschain",
             "url": "https://stephen-king-api.onrender.com/api/character/376",
             "role": "minor"
+          },
+          {
+            "name": "Tim Ross",
+            "url": "https://stephen-king-api.onrender.com/api/character/450",
+            "role": "protagonist"
+          },
+          {
+            "name": "Nell Ross",
+            "url": "https://stephen-king-api.onrender.com/api/character/451",
+            "role": "supporting"
+          },
+          {
+            "name": "Bill Streeter",
+            "url": "https://stephen-king-api.onrender.com/api/character/452",
+            "role": "supporting"
+          },
+          {
+            "name": "Jamie DeCurry",
+            "url": "https://stephen-king-api.onrender.com/api/character/453",
+            "role": "supporting"
           }
         ],
         "villains": [
           {
             "name": "Bern Kells",
             "url": "https://stephen-king-api.onrender.com/api/villain/122",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "protagonists": [
           {
             "name": "Roland Deschain",
             "url": "https://stephen-king-api.onrender.com/api/character/265",
+            "role": "protagonist"
+          },
+          {
+            "name": "Tim Ross",
+            "url": "https://stephen-king-api.onrender.com/api/character/450",
             "role": "protagonist"
           }
         ],
@@ -5567,17 +5689,48 @@
           {
             "name": "Lane Hardy",
             "url": "https://stephen-king-api.onrender.com/api/villain/48",
-            "role": null
+            "role": "antagonist"
+          },
+          {
+            "name": "Devin Jones",
+            "url": "https://stephen-king-api.onrender.com/api/character/454",
+            "role": "protagonist"
+          },
+          {
+            "name": "Mike Ross",
+            "url": "https://stephen-king-api.onrender.com/api/character/455",
+            "role": "supporting"
+          },
+          {
+            "name": "Annie Ross",
+            "url": "https://stephen-king-api.onrender.com/api/character/456",
+            "role": "supporting"
+          },
+          {
+            "name": "Erin Cook",
+            "url": "https://stephen-king-api.onrender.com/api/character/457",
+            "role": "supporting"
+          },
+          {
+            "name": "Tom Kennedy",
+            "url": "https://stephen-king-api.onrender.com/api/character/458",
+            "role": "supporting"
           }
         ],
         "villains": [
           {
             "name": "Lane Hardy",
             "url": "https://stephen-king-api.onrender.com/api/villain/48",
-            "role": null
+            "role": "antagonist"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Devin Jones",
+            "url": "https://stephen-king-api.onrender.com/api/character/454",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Heaven's Bay, North Carolina",
@@ -5613,7 +5766,7 @@
           {
             "name": "Rose the Hat",
             "url": "https://stephen-king-api.onrender.com/api/villain/31",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Jack Torrance",
@@ -5623,32 +5776,32 @@
           {
             "name": "Barry",
             "url": "https://stephen-king-api.onrender.com/api/villain/121",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Crow Daddy",
             "url": "https://stephen-king-api.onrender.com/api/villain/130",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Grampa Flick",
             "url": "https://stephen-king-api.onrender.com/api/villain/137",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Jimmy Numbers",
             "url": "https://stephen-king-api.onrender.com/api/villain/142",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Snakebite Andi",
             "url": "https://stephen-king-api.onrender.com/api/villain/164",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Walnut",
             "url": "https://stephen-king-api.onrender.com/api/villain/174",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Danny Torrance",
@@ -5664,6 +5817,41 @@
             "name": "Dick Hallorann",
             "url": "https://stephen-king-api.onrender.com/api/character/221",
             "role": "supporting"
+          },
+          {
+            "name": "Abra Stone",
+            "url": "https://stephen-king-api.onrender.com/api/character/459",
+            "role": "protagonist"
+          },
+          {
+            "name": "John Dalton",
+            "url": "https://stephen-king-api.onrender.com/api/character/460",
+            "role": "supporting"
+          },
+          {
+            "name": "Billy Freeman",
+            "url": "https://stephen-king-api.onrender.com/api/character/461",
+            "role": "supporting"
+          },
+          {
+            "name": "David Stone",
+            "url": "https://stephen-king-api.onrender.com/api/character/462",
+            "role": "supporting"
+          },
+          {
+            "name": "Lucy Stone",
+            "url": "https://stephen-king-api.onrender.com/api/character/463",
+            "role": "supporting"
+          },
+          {
+            "name": "Casey Kingsley",
+            "url": "https://stephen-king-api.onrender.com/api/character/464",
+            "role": "minor"
+          },
+          {
+            "name": "Concetta Reynolds",
+            "url": "https://stephen-king-api.onrender.com/api/character/465",
+            "role": "minor"
           }
         ],
         "villains": [
@@ -5675,7 +5863,7 @@
           {
             "name": "Rose the Hat",
             "url": "https://stephen-king-api.onrender.com/api/villain/31",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Jack Torrance",
@@ -5685,38 +5873,43 @@
           {
             "name": "Barry",
             "url": "https://stephen-king-api.onrender.com/api/villain/121",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Crow Daddy",
             "url": "https://stephen-king-api.onrender.com/api/villain/130",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Grampa Flick",
             "url": "https://stephen-king-api.onrender.com/api/villain/137",
-            "role": null
+            "role": "minor"
           },
           {
             "name": "Jimmy Numbers",
             "url": "https://stephen-king-api.onrender.com/api/villain/142",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Snakebite Andi",
             "url": "https://stephen-king-api.onrender.com/api/villain/164",
-            "role": null
+            "role": "supporting"
           },
           {
             "name": "Walnut",
             "url": "https://stephen-king-api.onrender.com/api/villain/174",
-            "role": null
+            "role": "minor"
           }
         ],
         "protagonists": [
           {
             "name": "Danny Torrance",
             "url": "https://stephen-king-api.onrender.com/api/character/219",
+            "role": "protagonist"
+          },
+          {
+            "name": "Abra Stone",
+            "url": "https://stephen-king-api.onrender.com/api/character/459",
             "role": "protagonist"
           }
         ],

@@ -29,7 +29,7 @@
           {
             "title": "Under the Dome",
             "url": "https://stephen-king-api.onrender.com/api/book/48",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -809,7 +809,7 @@
           {
             "title": "Doctor Sleep",
             "url": "https://stephen-king-api.onrender.com/api/book/52",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -847,7 +847,7 @@
           {
             "title": "The Dark Tower: The Wind Through the Keyhole",
             "url": "https://stephen-king-api.onrender.com/api/book/50",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -1140,7 +1140,7 @@
           {
             "title": "Doctor Sleep",
             "url": "https://stephen-king-api.onrender.com/api/book/52",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -1282,7 +1282,7 @@
           {
             "title": "11/22/63",
             "url": "https://stephen-king-api.onrender.com/api/book/49",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -1401,7 +1401,7 @@
           {
             "title": "Doctor Sleep",
             "url": "https://stephen-king-api.onrender.com/api/book/52",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -1579,7 +1579,7 @@
           {
             "title": "Doctor Sleep",
             "url": "https://stephen-king-api.onrender.com/api/book/52",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -2365,7 +2365,7 @@
           {
             "title": "Doctor Sleep",
             "url": "https://stephen-king-api.onrender.com/api/book/52",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -2727,7 +2727,7 @@
           {
             "title": "Doctor Sleep",
             "url": "https://stephen-king-api.onrender.com/api/book/52",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],

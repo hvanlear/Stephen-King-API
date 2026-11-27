@@ -226,7 +226,12 @@
           }
         ],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Wolf",
+            "url": "https://stephen-king-api.onrender.com/api/character/285"
+          }
+        ],
         "villains": []
       },
       {
@@ -835,6 +840,46 @@
           {
             "name": "Ellie Creed",
             "url": "https://stephen-king-api.onrender.com/api/character/277"
+          },
+          {
+            "name": "Marty Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/278"
+          },
+          {
+            "name": "Herman Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/280"
+          },
+          {
+            "name": "Nan Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/281"
+          },
+          {
+            "name": "Kate Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/282"
+          },
+          {
+            "name": "Lander Neary",
+            "url": "https://stephen-king-api.onrender.com/api/character/283"
+          },
+          {
+            "name": "Sunlight Gardner",
+            "url": "https://stephen-king-api.onrender.com/api/villain/289"
+          },
+          {
+            "name": "Billy Halleck",
+            "url": "https://stephen-king-api.onrender.com/api/character/298"
+          },
+          {
+            "name": "Heidi Halleck",
+            "url": "https://stephen-king-api.onrender.com/api/character/299"
+          },
+          {
+            "name": "Linda Halleck",
+            "url": "https://stephen-king-api.onrender.com/api/character/300"
+          },
+          {
+            "name": "Richard Ginelli",
+            "url": "https://stephen-king-api.onrender.com/api/character/301"
           }
         ],
         "villains": [
@@ -1113,6 +1158,10 @@
           {
             "name": "Jim Dooley",
             "url": "https://stephen-king-api.onrender.com/api/villain/187"
+          },
+          {
+            "name": "Sunlight Gardner",
+            "url": "https://stephen-king-api.onrender.com/api/villain/289"
           }
         ]
       },
@@ -1636,7 +1685,20 @@
         ],
         "books": [],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Billy Halleck",
+            "url": "https://stephen-king-api.onrender.com/api/character/298"
+          },
+          {
+            "name": "Heidi Halleck",
+            "url": "https://stephen-king-api.onrender.com/api/character/299"
+          },
+          {
+            "name": "Linda Halleck",
+            "url": "https://stephen-king-api.onrender.com/api/character/300"
+          }
+        ],
         "villains": []
       },
       {
@@ -1691,12 +1753,20 @@
           {
             "name": "Donald Merwin Elbert",
             "url": "https://stephen-king-api.onrender.com/api/villain/34"
+          },
+          {
+            "name": "Sunlight Gardner",
+            "url": "https://stephen-king-api.onrender.com/api/villain/289"
           }
         ],
         "villains": [
           {
             "name": "Donald Merwin Elbert",
             "url": "https://stephen-king-api.onrender.com/api/villain/34"
+          },
+          {
+            "name": "Sunlight Gardner",
+            "url": "https://stephen-king-api.onrender.com/api/villain/289"
           }
         ]
       },
@@ -2487,6 +2557,26 @@
           {
             "name": "Ellie Creed",
             "url": "https://stephen-king-api.onrender.com/api/character/277"
+          },
+          {
+            "name": "Marty Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/278"
+          },
+          {
+            "name": "Herman Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/280"
+          },
+          {
+            "name": "Nan Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/281"
+          },
+          {
+            "name": "Kate Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/282"
+          },
+          {
+            "name": "Lander Neary",
+            "url": "https://stephen-king-api.onrender.com/api/character/283"
           }
         ],
         "villains": [
@@ -2913,7 +3003,12 @@
         ],
         "books": [],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Richard Ginelli",
+            "url": "https://stephen-king-api.onrender.com/api/character/301"
+          }
+        ],
         "villains": []
       },
       {
@@ -5734,6 +5829,26 @@
           {
             "name": "Lester Lowe",
             "url": "https://stephen-king-api.onrender.com/api/villain/68"
+          },
+          {
+            "name": "Marty Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/278"
+          },
+          {
+            "name": "Herman Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/280"
+          },
+          {
+            "name": "Nan Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/281"
+          },
+          {
+            "name": "Kate Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/282"
+          },
+          {
+            "name": "Lander Neary",
+            "url": "https://stephen-king-api.onrender.com/api/character/283"
           }
         ],
         "villains": [

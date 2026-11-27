@@ -2586,17 +2586,53 @@
           {
             "name": "Lester Lowe",
             "url": "https://stephen-king-api.onrender.com/api/villain/68",
-            "role": null
+            "role": "antagonist"
+          },
+          {
+            "name": "Marty Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/278",
+            "role": "protagonist"
+          },
+          {
+            "name": "Uncle Al",
+            "url": "https://stephen-king-api.onrender.com/api/character/279",
+            "role": "supporting"
+          },
+          {
+            "name": "Herman Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/280",
+            "role": "minor"
+          },
+          {
+            "name": "Nan Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/281",
+            "role": "minor"
+          },
+          {
+            "name": "Kate Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/282",
+            "role": "minor"
+          },
+          {
+            "name": "Lander Neary",
+            "url": "https://stephen-king-api.onrender.com/api/character/283",
+            "role": "minor"
           }
         ],
         "villains": [
           {
             "name": "Lester Lowe",
             "url": "https://stephen-king-api.onrender.com/api/villain/68",
-            "role": null
+            "role": "antagonist"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Marty Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/278",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Maine",

@@ -919,6 +919,98 @@
           {
             "name": "Ellie Creed",
             "url": "https://stephen-king-api.onrender.com/api/character/277"
+          },
+          {
+            "name": "Marty Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/278"
+          },
+          {
+            "name": "Uncle Al",
+            "url": "https://stephen-king-api.onrender.com/api/character/279"
+          },
+          {
+            "name": "Herman Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/280"
+          },
+          {
+            "name": "Nan Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/281"
+          },
+          {
+            "name": "Kate Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/282"
+          },
+          {
+            "name": "Lander Neary",
+            "url": "https://stephen-king-api.onrender.com/api/character/283"
+          },
+          {
+            "name": "Jack Sawyer",
+            "url": "https://stephen-king-api.onrender.com/api/character/284"
+          },
+          {
+            "name": "Richard Sloat",
+            "url": "https://stephen-king-api.onrender.com/api/character/286"
+          },
+          {
+            "name": "Speedy Parker",
+            "url": "https://stephen-king-api.onrender.com/api/character/287"
+          },
+          {
+            "name": "Lily Cavanaugh",
+            "url": "https://stephen-king-api.onrender.com/api/character/288"
+          },
+          {
+            "name": "Sunlight Gardner",
+            "url": "https://stephen-king-api.onrender.com/api/villain/289"
+          },
+          {
+            "name": "Prince Peter",
+            "url": "https://stephen-king-api.onrender.com/api/character/290"
+          },
+          {
+            "name": "Prince Thomas",
+            "url": "https://stephen-king-api.onrender.com/api/character/291"
+          },
+          {
+            "name": "King Roland",
+            "url": "https://stephen-king-api.onrender.com/api/character/292"
+          },
+          {
+            "name": "Dennis",
+            "url": "https://stephen-king-api.onrender.com/api/character/293"
+          },
+          {
+            "name": "Ben Staad",
+            "url": "https://stephen-king-api.onrender.com/api/character/294"
+          },
+          {
+            "name": "Naomi Reechul",
+            "url": "https://stephen-king-api.onrender.com/api/character/295"
+          },
+          {
+            "name": "Anders Peyna",
+            "url": "https://stephen-king-api.onrender.com/api/character/296"
+          },
+          {
+            "name": "Queen Sasha",
+            "url": "https://stephen-king-api.onrender.com/api/character/297"
+          },
+          {
+            "name": "Billy Halleck",
+            "url": "https://stephen-king-api.onrender.com/api/character/298"
+          },
+          {
+            "name": "Heidi Halleck",
+            "url": "https://stephen-king-api.onrender.com/api/character/299"
+          },
+          {
+            "name": "Linda Halleck",
+            "url": "https://stephen-king-api.onrender.com/api/character/300"
+          },
+          {
+            "name": "Richard Ginelli",
+            "url": "https://stephen-king-api.onrender.com/api/character/301"
           }
         ],
         "villains": [
@@ -1529,6 +1621,10 @@
           {
             "name": "Evan McCone",
             "url": "https://stephen-king-api.onrender.com/api/villain/262"
+          },
+          {
+            "name": "Sunlight Gardner",
+            "url": "https://stephen-king-api.onrender.com/api/villain/289"
           }
         ]
       },
@@ -1749,6 +1845,10 @@
           {
             "name": "Perse",
             "url": "https://stephen-king-api.onrender.com/api/villain/193"
+          },
+          {
+            "name": "Wolf",
+            "url": "https://stephen-king-api.onrender.com/api/character/285"
           }
         ],
         "villains": [
@@ -2271,6 +2371,10 @@
           {
             "name": "Lester Lowe",
             "url": "https://stephen-king-api.onrender.com/api/villain/68"
+          },
+          {
+            "name": "Wolf",
+            "url": "https://stephen-king-api.onrender.com/api/character/285"
           }
         ],
         "villains": [

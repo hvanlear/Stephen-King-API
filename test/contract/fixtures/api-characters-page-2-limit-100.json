@@ -2005,7 +2005,7 @@
           {
             "title": "The Talisman",
             "url": "https://stephen-king-api.onrender.com/api/book/16",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3433,7 +3433,7 @@
           {
             "title": "Thinner",
             "url": "https://stephen-king-api.onrender.com/api/book/18",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3533,8 +3533,8 @@
     "pagination": {
       "page": 2,
       "limit": 100,
-      "total": 277,
-      "totalPages": 3
+      "total": 301,
+      "totalPages": 4
     }
   }
 }

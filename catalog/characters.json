@@ -1852,7 +1852,7 @@
     "types_id": 3,
     "group": false,
     "appears_in": {
-      "cycle-of-the-werewolf": null
+      "cycle-of-the-werewolf": "antagonist"
     },
     "residence": [
       "tarker-s-mill-maine"
@@ -4025,7 +4025,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-talisman": null
+      "the-talisman": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -4942,7 +4942,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "thinner": null
+      "thinner": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -6499,5 +6499,439 @@
     "kinds": [],
     "notes": [],
     "created_at": "2026-11-27T04:05:04.000Z"
+  },
+  {
+    "id": 278,
+    "name": "Marty Coslaw",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cycle-of-the-werewolf": "protagonist"
+    },
+    "residence": [
+      "tarker-s-mill-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 279,
+    "name": "Uncle Al",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cycle-of-the-werewolf": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 280,
+    "name": "Herman Coslaw",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cycle-of-the-werewolf": "minor"
+    },
+    "residence": [
+      "tarker-s-mill-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 281,
+    "name": "Nan Coslaw",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cycle-of-the-werewolf": "minor"
+    },
+    "residence": [
+      "tarker-s-mill-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 282,
+    "name": "Kate Coslaw",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cycle-of-the-werewolf": "minor"
+    },
+    "residence": [
+      "tarker-s-mill-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 283,
+    "name": "Lander Neary",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cycle-of-the-werewolf": "minor"
+    },
+    "residence": [
+      "tarker-s-mill-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 284,
+    "name": "Jack Sawyer",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-talisman": "protagonist",
+      "black-house": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 285,
+    "name": "Wolf",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 3,
+    "group": false,
+    "appears_in": {
+      "the-talisman": "supporting"
+    },
+    "residence": [
+      "the-territories"
+    ],
+    "kinds": [
+      "werewolf"
+    ],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 286,
+    "name": "Richard Sloat",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-talisman": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 287,
+    "name": "Speedy Parker",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-talisman": "supporting",
+      "black-house": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 288,
+    "name": "Lily Cavanaugh",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-talisman": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 289,
+    "name": "Sunlight Gardner",
+    "villain": true,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-talisman": "supporting"
+    },
+    "residence": [
+      "indiana"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 290,
+    "name": "Prince Peter",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-eyes-of-the-dragon": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 291,
+    "name": "Prince Thomas",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-eyes-of-the-dragon": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 292,
+    "name": "King Roland",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-eyes-of-the-dragon": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 293,
+    "name": "Dennis",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-eyes-of-the-dragon": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 294,
+    "name": "Ben Staad",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-eyes-of-the-dragon": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 295,
+    "name": "Naomi Reechul",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-eyes-of-the-dragon": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 296,
+    "name": "Anders Peyna",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-eyes-of-the-dragon": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 297,
+    "name": "Queen Sasha",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-eyes-of-the-dragon": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 298,
+    "name": "Billy Halleck",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "thinner": "protagonist"
+    },
+    "residence": [
+      "connecticut"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 299,
+    "name": "Heidi Halleck",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "thinner": "supporting"
+    },
+    "residence": [
+      "connecticut"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 300,
+    "name": "Linda Halleck",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "thinner": "supporting"
+    },
+    "residence": [
+      "connecticut"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 301,
+    "name": "Richard Ginelli",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "thinner": "supporting"
+    },
+    "residence": [
+      "new-york"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
   }
 ]

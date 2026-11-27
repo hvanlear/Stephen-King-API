@@ -2877,14 +2877,14 @@
           {
             "title": "Cycle of the Werewolf",
             "url": "https://stephen-king-api.onrender.com/api/book/15",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [
           {
             "title": "Cycle of the Werewolf",
             "url": "https://stephen-king-api.onrender.com/api/short/91",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "residence": [
@@ -6175,7 +6175,7 @@
           {
             "title": "The Talisman",
             "url": "https://stephen-king-api.onrender.com/api/book/16",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -7603,7 +7603,7 @@
           {
             "title": "Thinner",
             "url": "https://stephen-king-api.onrender.com/api/book/18",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -10429,6 +10429,784 @@
           {
             "name": "Ludlow, Maine",
             "url": "https://stephen-king-api.onrender.com/api/place/86"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 278,
+        "name": "Marty Coslaw",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:09:45.000Z",
+        "books": [
+          {
+            "title": "Cycle of the Werewolf",
+            "url": "https://stephen-king-api.onrender.com/api/book/15",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Cycle of the Werewolf",
+            "url": "https://stephen-king-api.onrender.com/api/short/91",
+            "role": "protagonist"
+          }
+        ],
+        "residence": [
+          {
+            "name": "Tarker's Mill, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/109"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 279,
+        "name": "Uncle Al",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:09:45.000Z",
+        "books": [
+          {
+            "title": "Cycle of the Werewolf",
+            "url": "https://stephen-king-api.onrender.com/api/book/15",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Cycle of the Werewolf",
+            "url": "https://stephen-king-api.onrender.com/api/short/91",
+            "role": "supporting"
+          }
+        ],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 280,
+        "name": "Herman Coslaw",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:09:45.000Z",
+        "books": [
+          {
+            "title": "Cycle of the Werewolf",
+            "url": "https://stephen-king-api.onrender.com/api/book/15",
+            "role": "minor"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Cycle of the Werewolf",
+            "url": "https://stephen-king-api.onrender.com/api/short/91",
+            "role": "minor"
+          }
+        ],
+        "residence": [
+          {
+            "name": "Tarker's Mill, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/109"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 281,
+        "name": "Nan Coslaw",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:09:45.000Z",
+        "books": [
+          {
+            "title": "Cycle of the Werewolf",
+            "url": "https://stephen-king-api.onrender.com/api/book/15",
+            "role": "minor"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Cycle of the Werewolf",
+            "url": "https://stephen-king-api.onrender.com/api/short/91",
+            "role": "minor"
+          }
+        ],
+        "residence": [
+          {
+            "name": "Tarker's Mill, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/109"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 282,
+        "name": "Kate Coslaw",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:09:45.000Z",
+        "books": [
+          {
+            "title": "Cycle of the Werewolf",
+            "url": "https://stephen-king-api.onrender.com/api/book/15",
+            "role": "minor"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Cycle of the Werewolf",
+            "url": "https://stephen-king-api.onrender.com/api/short/91",
+            "role": "minor"
+          }
+        ],
+        "residence": [
+          {
+            "name": "Tarker's Mill, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/109"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 283,
+        "name": "Lander Neary",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:09:45.000Z",
+        "books": [
+          {
+            "title": "Cycle of the Werewolf",
+            "url": "https://stephen-king-api.onrender.com/api/book/15",
+            "role": "minor"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "Cycle of the Werewolf",
+            "url": "https://stephen-king-api.onrender.com/api/short/91",
+            "role": "minor"
+          }
+        ],
+        "residence": [
+          {
+            "name": "Tarker's Mill, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/109"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 284,
+        "name": "Jack Sawyer",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:09:45.000Z",
+        "books": [
+          {
+            "title": "The Talisman",
+            "url": "https://stephen-king-api.onrender.com/api/book/16",
+            "role": "protagonist"
+          },
+          {
+            "title": "Black House",
+            "url": "https://stephen-king-api.onrender.com/api/book/38",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 285,
+        "name": "Wolf",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 3,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:09:45.000Z",
+        "books": [
+          {
+            "title": "The Talisman",
+            "url": "https://stephen-king-api.onrender.com/api/book/16",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "The Territories",
+            "url": "https://stephen-king-api.onrender.com/api/place/5"
+          }
+        ],
+        "type": {
+          "name": "Supernatural being",
+          "url": "https://stephen-king-api.onrender.com/api/type/3"
+        },
+        "kinds": [
+          {
+            "name": "Werewolf",
+            "url": "https://stephen-king-api.onrender.com/api/type/15"
+          }
+        ],
+        "killed": []
+      },
+      {
+        "id": 286,
+        "name": "Richard Sloat",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:09:45.000Z",
+        "books": [
+          {
+            "title": "The Talisman",
+            "url": "https://stephen-king-api.onrender.com/api/book/16",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 287,
+        "name": "Speedy Parker",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:09:45.000Z",
+        "books": [
+          {
+            "title": "The Talisman",
+            "url": "https://stephen-king-api.onrender.com/api/book/16",
+            "role": "supporting"
+          },
+          {
+            "title": "Black House",
+            "url": "https://stephen-king-api.onrender.com/api/book/38",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 288,
+        "name": "Lily Cavanaugh",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:09:45.000Z",
+        "books": [
+          {
+            "title": "The Talisman",
+            "url": "https://stephen-king-api.onrender.com/api/book/16",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 289,
+        "name": "Sunlight Gardner",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:09:45.000Z",
+        "books": [
+          {
+            "title": "The Talisman",
+            "url": "https://stephen-king-api.onrender.com/api/book/16",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Indiana",
+            "url": "https://stephen-king-api.onrender.com/api/place/24"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 290,
+        "name": "Prince Peter",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:09:45.000Z",
+        "books": [
+          {
+            "title": "The Eyes of the Dragon",
+            "url": "https://stephen-king-api.onrender.com/api/book/17",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 291,
+        "name": "Prince Thomas",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:09:45.000Z",
+        "books": [
+          {
+            "title": "The Eyes of the Dragon",
+            "url": "https://stephen-king-api.onrender.com/api/book/17",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 292,
+        "name": "King Roland",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:09:45.000Z",
+        "books": [
+          {
+            "title": "The Eyes of the Dragon",
+            "url": "https://stephen-king-api.onrender.com/api/book/17",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 293,
+        "name": "Dennis",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:09:45.000Z",
+        "books": [
+          {
+            "title": "The Eyes of the Dragon",
+            "url": "https://stephen-king-api.onrender.com/api/book/17",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 294,
+        "name": "Ben Staad",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:09:45.000Z",
+        "books": [
+          {
+            "title": "The Eyes of the Dragon",
+            "url": "https://stephen-king-api.onrender.com/api/book/17",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 295,
+        "name": "Naomi Reechul",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:09:45.000Z",
+        "books": [
+          {
+            "title": "The Eyes of the Dragon",
+            "url": "https://stephen-king-api.onrender.com/api/book/17",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 296,
+        "name": "Anders Peyna",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:09:45.000Z",
+        "books": [
+          {
+            "title": "The Eyes of the Dragon",
+            "url": "https://stephen-king-api.onrender.com/api/book/17",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 297,
+        "name": "Queen Sasha",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:09:45.000Z",
+        "books": [
+          {
+            "title": "The Eyes of the Dragon",
+            "url": "https://stephen-king-api.onrender.com/api/book/17",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 298,
+        "name": "Billy Halleck",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:09:45.000Z",
+        "books": [
+          {
+            "title": "Thinner",
+            "url": "https://stephen-king-api.onrender.com/api/book/18",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Connecticut",
+            "url": "https://stephen-king-api.onrender.com/api/place/22"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 299,
+        "name": "Heidi Halleck",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:09:45.000Z",
+        "books": [
+          {
+            "title": "Thinner",
+            "url": "https://stephen-king-api.onrender.com/api/book/18",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Connecticut",
+            "url": "https://stephen-king-api.onrender.com/api/place/22"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 300,
+        "name": "Linda Halleck",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:09:45.000Z",
+        "books": [
+          {
+            "title": "Thinner",
+            "url": "https://stephen-king-api.onrender.com/api/book/18",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Connecticut",
+            "url": "https://stephen-king-api.onrender.com/api/place/22"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 301,
+        "name": "Richard Ginelli",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:09:45.000Z",
+        "books": [
+          {
+            "title": "Thinner",
+            "url": "https://stephen-king-api.onrender.com/api/book/18",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "New York",
+            "url": "https://stephen-king-api.onrender.com/api/place/34"
           }
         ],
         "type": {

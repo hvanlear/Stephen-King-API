@@ -1657,17 +1657,53 @@
           {
             "name": "Lester Lowe",
             "url": "https://stephen-king-api.onrender.com/api/villain/68",
-            "role": null
+            "role": "antagonist"
+          },
+          {
+            "name": "Marty Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/278",
+            "role": "protagonist"
+          },
+          {
+            "name": "Uncle Al",
+            "url": "https://stephen-king-api.onrender.com/api/character/279",
+            "role": "supporting"
+          },
+          {
+            "name": "Herman Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/280",
+            "role": "minor"
+          },
+          {
+            "name": "Nan Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/281",
+            "role": "minor"
+          },
+          {
+            "name": "Kate Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/282",
+            "role": "minor"
+          },
+          {
+            "name": "Lander Neary",
+            "url": "https://stephen-king-api.onrender.com/api/character/283",
+            "role": "minor"
           }
         ],
         "villains": [
           {
             "name": "Lester Lowe",
             "url": "https://stephen-king-api.onrender.com/api/villain/68",
-            "role": null
+            "role": "antagonist"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Marty Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/278",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Maine",
@@ -1698,17 +1734,58 @@
           {
             "name": "Morgan Sloat",
             "url": "https://stephen-king-api.onrender.com/api/villain/154",
-            "role": null
+            "role": "antagonist"
+          },
+          {
+            "name": "Jack Sawyer",
+            "url": "https://stephen-king-api.onrender.com/api/character/284",
+            "role": "protagonist"
+          },
+          {
+            "name": "Wolf",
+            "url": "https://stephen-king-api.onrender.com/api/character/285",
+            "role": "supporting"
+          },
+          {
+            "name": "Richard Sloat",
+            "url": "https://stephen-king-api.onrender.com/api/character/286",
+            "role": "supporting"
+          },
+          {
+            "name": "Speedy Parker",
+            "url": "https://stephen-king-api.onrender.com/api/character/287",
+            "role": "supporting"
+          },
+          {
+            "name": "Lily Cavanaugh",
+            "url": "https://stephen-king-api.onrender.com/api/character/288",
+            "role": "supporting"
+          },
+          {
+            "name": "Sunlight Gardner",
+            "url": "https://stephen-king-api.onrender.com/api/villain/289",
+            "role": "supporting"
           }
         ],
         "villains": [
           {
             "name": "Morgan Sloat",
             "url": "https://stephen-king-api.onrender.com/api/villain/154",
-            "role": null
+            "role": "antagonist"
+          },
+          {
+            "name": "Sunlight Gardner",
+            "url": "https://stephen-king-api.onrender.com/api/villain/289",
+            "role": "supporting"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Jack Sawyer",
+            "url": "https://stephen-king-api.onrender.com/api/character/284",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "All-world",
@@ -1738,6 +1815,46 @@
             "name": "Randall Flagg",
             "url": "https://stephen-king-api.onrender.com/api/villain/37",
             "role": "antagonist"
+          },
+          {
+            "name": "Prince Peter",
+            "url": "https://stephen-king-api.onrender.com/api/character/290",
+            "role": "protagonist"
+          },
+          {
+            "name": "Prince Thomas",
+            "url": "https://stephen-king-api.onrender.com/api/character/291",
+            "role": "supporting"
+          },
+          {
+            "name": "King Roland",
+            "url": "https://stephen-king-api.onrender.com/api/character/292",
+            "role": "supporting"
+          },
+          {
+            "name": "Dennis",
+            "url": "https://stephen-king-api.onrender.com/api/character/293",
+            "role": "supporting"
+          },
+          {
+            "name": "Ben Staad",
+            "url": "https://stephen-king-api.onrender.com/api/character/294",
+            "role": "supporting"
+          },
+          {
+            "name": "Naomi Reechul",
+            "url": "https://stephen-king-api.onrender.com/api/character/295",
+            "role": "supporting"
+          },
+          {
+            "name": "Anders Peyna",
+            "url": "https://stephen-king-api.onrender.com/api/character/296",
+            "role": "minor"
+          },
+          {
+            "name": "Queen Sasha",
+            "url": "https://stephen-king-api.onrender.com/api/character/297",
+            "role": "minor"
           }
         ],
         "villains": [
@@ -1747,7 +1864,13 @@
             "role": "antagonist"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Prince Peter",
+            "url": "https://stephen-king-api.onrender.com/api/character/290",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "All-world",
@@ -1776,17 +1899,43 @@
           {
             "name": "Taduz Lemke",
             "url": "https://stephen-king-api.onrender.com/api/villain/197",
-            "role": null
+            "role": "antagonist"
+          },
+          {
+            "name": "Billy Halleck",
+            "url": "https://stephen-king-api.onrender.com/api/character/298",
+            "role": "protagonist"
+          },
+          {
+            "name": "Heidi Halleck",
+            "url": "https://stephen-king-api.onrender.com/api/character/299",
+            "role": "supporting"
+          },
+          {
+            "name": "Linda Halleck",
+            "url": "https://stephen-king-api.onrender.com/api/character/300",
+            "role": "supporting"
+          },
+          {
+            "name": "Richard Ginelli",
+            "url": "https://stephen-king-api.onrender.com/api/character/301",
+            "role": "supporting"
           }
         ],
         "villains": [
           {
             "name": "Taduz Lemke",
             "url": "https://stephen-king-api.onrender.com/api/villain/197",
-            "role": null
+            "role": "antagonist"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Billy Halleck",
+            "url": "https://stephen-king-api.onrender.com/api/character/298",
+            "role": "protagonist"
+          }
+        ],
         "places": [],
         "collection": null
       },
@@ -3415,6 +3564,16 @@
             "name": "Crimson King",
             "url": "https://stephen-king-api.onrender.com/api/villain/17",
             "role": "supporting"
+          },
+          {
+            "name": "Jack Sawyer",
+            "url": "https://stephen-king-api.onrender.com/api/character/284",
+            "role": "protagonist"
+          },
+          {
+            "name": "Speedy Parker",
+            "url": "https://stephen-king-api.onrender.com/api/character/287",
+            "role": "supporting"
           }
         ],
         "villains": [
@@ -3424,7 +3583,13 @@
             "role": "supporting"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Jack Sawyer",
+            "url": "https://stephen-king-api.onrender.com/api/character/284",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "The Territories",

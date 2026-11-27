@@ -1708,7 +1708,7 @@
           {
             "title": "Needful Things",
             "url": "https://stephen-king-api.onrender.com/api/book/26",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3997,7 +3997,7 @@
           {
             "title": "The Dark Half",
             "url": "https://stephen-king-api.onrender.com/api/book/23",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -11873,6 +11873,549 @@
         "type": {
           "name": "Animal",
           "url": "https://stephen-king-api.onrender.com/api/type/8"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 320,
+        "name": "Thaddeus Beaumont",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:13:54.000Z",
+        "books": [
+          {
+            "title": "The Dark Half",
+            "url": "https://stephen-king-api.onrender.com/api/book/23",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Ludlow, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/86"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 321,
+        "name": "Liz Beaumont",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:13:54.000Z",
+        "books": [
+          {
+            "title": "The Dark Half",
+            "url": "https://stephen-king-api.onrender.com/api/book/23",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Ludlow, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/86"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 322,
+        "name": "Alan Pangborn",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:13:54.000Z",
+        "books": [
+          {
+            "title": "The Dark Half",
+            "url": "https://stephen-king-api.onrender.com/api/book/23",
+            "role": "protagonist"
+          },
+          {
+            "title": "Needful Things",
+            "url": "https://stephen-king-api.onrender.com/api/book/26",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "The Sun Dog",
+            "url": "https://stephen-king-api.onrender.com/api/short/117",
+            "role": "minor"
+          }
+        ],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 323,
+        "name": "Norris Ridgewick",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:13:54.000Z",
+        "books": [
+          {
+            "title": "The Dark Half",
+            "url": "https://stephen-king-api.onrender.com/api/book/23",
+            "role": "minor"
+          },
+          {
+            "title": "Needful Things",
+            "url": "https://stephen-king-api.onrender.com/api/book/26",
+            "role": "supporting"
+          },
+          {
+            "title": "Gerald's Game",
+            "url": "https://stephen-king-api.onrender.com/api/book/27",
+            "role": "minor"
+          },
+          {
+            "title": "Bag of Bones",
+            "url": "https://stephen-king-api.onrender.com/api/book/35",
+            "role": "minor"
+          },
+          {
+            "title": "Lisey's Story",
+            "url": "https://stephen-king-api.onrender.com/api/book/45",
+            "role": "minor"
+          },
+          {
+            "title": "Gwendy's Final Task",
+            "url": "https://stephen-king-api.onrender.com/api/book/73",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 324,
+        "name": "Oy",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 8,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:13:54.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower III: The Waste Lands",
+            "url": "https://stephen-king-api.onrender.com/api/book/25",
+            "role": "supporting"
+          },
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34",
+            "role": "supporting"
+          },
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40",
+            "role": "supporting"
+          },
+          {
+            "title": "The Dark Tower VI: Song of Susannah",
+            "url": "https://stephen-king-api.onrender.com/api/book/41",
+            "role": "supporting"
+          },
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42",
+            "role": "supporting"
+          },
+          {
+            "title": "The Dark Tower: The Wind Through the Keyhole",
+            "url": "https://stephen-king-api.onrender.com/api/book/50",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Animal",
+          "url": "https://stephen-king-api.onrender.com/api/type/8"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 325,
+        "name": "Andrew Quick",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:13:54.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower III: The Waste Lands",
+            "url": "https://stephen-king-api.onrender.com/api/book/25",
+            "role": "antagonist"
+          },
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Lud",
+            "url": "https://stephen-king-api.onrender.com/api/place/85"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 326,
+        "name": "Gasher",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:13:54.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower III: The Waste Lands",
+            "url": "https://stephen-king-api.onrender.com/api/book/25",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Lud",
+            "url": "https://stephen-king-api.onrender.com/api/place/85"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 327,
+        "name": "Talitha Unwin",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:13:54.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower III: The Waste Lands",
+            "url": "https://stephen-king-api.onrender.com/api/book/25",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "River Crossing",
+            "url": "https://stephen-king-api.onrender.com/api/place/102"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 328,
+        "name": "Elmer Chambers",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:13:54.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower III: The Waste Lands",
+            "url": "https://stephen-king-api.onrender.com/api/book/25",
+            "role": "minor"
+          },
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "New York City",
+            "url": "https://stephen-king-api.onrender.com/api/place/90"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 329,
+        "name": "Calvin Tower",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:13:54.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower III: The Waste Lands",
+            "url": "https://stephen-king-api.onrender.com/api/book/25",
+            "role": "minor"
+          },
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40",
+            "role": "supporting"
+          },
+          {
+            "title": "The Dark Tower VI: Song of Susannah",
+            "url": "https://stephen-king-api.onrender.com/api/book/41",
+            "role": "supporting"
+          },
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "New York City",
+            "url": "https://stephen-king-api.onrender.com/api/place/90"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 330,
+        "name": "Polly Chalmers",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:13:54.000Z",
+        "books": [
+          {
+            "title": "Needful Things",
+            "url": "https://stephen-king-api.onrender.com/api/book/26",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 331,
+        "name": "Brian Rusk",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:13:54.000Z",
+        "books": [
+          {
+            "title": "Needful Things",
+            "url": "https://stephen-king-api.onrender.com/api/book/26",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 332,
+        "name": "Nettie Cobb",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:13:54.000Z",
+        "books": [
+          {
+            "title": "Needful Things",
+            "url": "https://stephen-king-api.onrender.com/api/book/26",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 333,
+        "name": "Wilma Jerzyck",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:13:54.000Z",
+        "books": [
+          {
+            "title": "Needful Things",
+            "url": "https://stephen-king-api.onrender.com/api/book/26",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
         "kinds": [],
         "killed": []

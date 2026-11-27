@@ -2600,17 +2600,48 @@
           {
             "name": "George Stark",
             "url": "https://stephen-king-api.onrender.com/api/villain/96",
-            "role": null
+            "role": "antagonist"
+          },
+          {
+            "name": "Thaddeus Beaumont",
+            "url": "https://stephen-king-api.onrender.com/api/character/320",
+            "role": "protagonist"
+          },
+          {
+            "name": "Liz Beaumont",
+            "url": "https://stephen-king-api.onrender.com/api/character/321",
+            "role": "supporting"
+          },
+          {
+            "name": "Alan Pangborn",
+            "url": "https://stephen-king-api.onrender.com/api/character/322",
+            "role": "protagonist"
+          },
+          {
+            "name": "Norris Ridgewick",
+            "url": "https://stephen-king-api.onrender.com/api/character/323",
+            "role": "minor"
           }
         ],
         "villains": [
           {
             "name": "George Stark",
             "url": "https://stephen-king-api.onrender.com/api/villain/96",
-            "role": null
+            "role": "antagonist"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Thaddeus Beaumont",
+            "url": "https://stephen-king-api.onrender.com/api/character/320",
+            "role": "protagonist"
+          },
+          {
+            "name": "Alan Pangborn",
+            "url": "https://stephen-king-api.onrender.com/api/character/322",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Maine",
@@ -2867,6 +2898,36 @@
             "name": "Susannah Dean",
             "url": "https://stephen-king-api.onrender.com/api/character/307",
             "role": "protagonist"
+          },
+          {
+            "name": "Oy",
+            "url": "https://stephen-king-api.onrender.com/api/character/324",
+            "role": "supporting"
+          },
+          {
+            "name": "Andrew Quick",
+            "url": "https://stephen-king-api.onrender.com/api/villain/325",
+            "role": "antagonist"
+          },
+          {
+            "name": "Gasher",
+            "url": "https://stephen-king-api.onrender.com/api/villain/326",
+            "role": "supporting"
+          },
+          {
+            "name": "Talitha Unwin",
+            "url": "https://stephen-king-api.onrender.com/api/character/327",
+            "role": "minor"
+          },
+          {
+            "name": "Elmer Chambers",
+            "url": "https://stephen-king-api.onrender.com/api/character/328",
+            "role": "minor"
+          },
+          {
+            "name": "Calvin Tower",
+            "url": "https://stephen-king-api.onrender.com/api/character/329",
+            "role": "minor"
           }
         ],
         "villains": [
@@ -2879,6 +2940,16 @@
             "name": "Randall Flagg",
             "url": "https://stephen-king-api.onrender.com/api/villain/37",
             "role": "minor"
+          },
+          {
+            "name": "Andrew Quick",
+            "url": "https://stephen-king-api.onrender.com/api/villain/325",
+            "role": "antagonist"
+          },
+          {
+            "name": "Gasher",
+            "url": "https://stephen-king-api.onrender.com/api/villain/326",
+            "role": "supporting"
           }
         ],
         "protagonists": [
@@ -2948,11 +3019,41 @@
           {
             "name": "Leland Gaunt",
             "url": "https://stephen-king-api.onrender.com/api/villain/40",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "John \"Ace\" Merrill",
             "url": "https://stephen-king-api.onrender.com/api/villain/74",
+            "role": "supporting"
+          },
+          {
+            "name": "Alan Pangborn",
+            "url": "https://stephen-king-api.onrender.com/api/character/322",
+            "role": "protagonist"
+          },
+          {
+            "name": "Norris Ridgewick",
+            "url": "https://stephen-king-api.onrender.com/api/character/323",
+            "role": "supporting"
+          },
+          {
+            "name": "Polly Chalmers",
+            "url": "https://stephen-king-api.onrender.com/api/character/330",
+            "role": "supporting"
+          },
+          {
+            "name": "Brian Rusk",
+            "url": "https://stephen-king-api.onrender.com/api/character/331",
+            "role": "supporting"
+          },
+          {
+            "name": "Nettie Cobb",
+            "url": "https://stephen-king-api.onrender.com/api/character/332",
+            "role": "supporting"
+          },
+          {
+            "name": "Wilma Jerzyck",
+            "url": "https://stephen-king-api.onrender.com/api/character/333",
             "role": "supporting"
           }
         ],
@@ -2960,7 +3061,7 @@
           {
             "name": "Leland Gaunt",
             "url": "https://stephen-king-api.onrender.com/api/villain/40",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "John \"Ace\" Merrill",
@@ -2968,7 +3069,13 @@
             "role": "supporting"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Alan Pangborn",
+            "url": "https://stephen-king-api.onrender.com/api/character/322",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Maine",
@@ -3010,6 +3117,11 @@
             "name": "Tom Mahout",
             "url": "https://stephen-king-api.onrender.com/api/villain/103",
             "role": null
+          },
+          {
+            "name": "Norris Ridgewick",
+            "url": "https://stephen-king-api.onrender.com/api/character/323",
+            "role": "minor"
           }
         ],
         "villains": [
@@ -3453,6 +3565,16 @@
             "name": "Susannah Dean",
             "url": "https://stephen-king-api.onrender.com/api/character/307",
             "role": "protagonist"
+          },
+          {
+            "name": "Oy",
+            "url": "https://stephen-king-api.onrender.com/api/character/324",
+            "role": "supporting"
+          },
+          {
+            "name": "Andrew Quick",
+            "url": "https://stephen-king-api.onrender.com/api/villain/325",
+            "role": "minor"
           }
         ],
         "villains": [
@@ -3495,6 +3617,11 @@
             "name": "Roy Depape",
             "url": "https://stephen-king-api.onrender.com/api/villain/163",
             "role": null
+          },
+          {
+            "name": "Andrew Quick",
+            "url": "https://stephen-king-api.onrender.com/api/villain/325",
+            "role": "minor"
           }
         ],
         "protagonists": [
@@ -3584,6 +3711,11 @@
             "name": "Sara Tidwell",
             "url": "https://stephen-king-api.onrender.com/api/villain/196",
             "role": null
+          },
+          {
+            "name": "Norris Ridgewick",
+            "url": "https://stephen-king-api.onrender.com/api/character/323",
+            "role": "minor"
           }
         ],
         "villains": [
@@ -3848,6 +3980,21 @@
             "name": "Susannah Dean",
             "url": "https://stephen-king-api.onrender.com/api/character/307",
             "role": "protagonist"
+          },
+          {
+            "name": "Oy",
+            "url": "https://stephen-king-api.onrender.com/api/character/324",
+            "role": "supporting"
+          },
+          {
+            "name": "Elmer Chambers",
+            "url": "https://stephen-king-api.onrender.com/api/character/328",
+            "role": "minor"
+          },
+          {
+            "name": "Calvin Tower",
+            "url": "https://stephen-king-api.onrender.com/api/character/329",
+            "role": "supporting"
           }
         ],
         "villains": [
@@ -3968,6 +4115,16 @@
             "name": "Susannah Dean",
             "url": "https://stephen-king-api.onrender.com/api/character/307",
             "role": "protagonist"
+          },
+          {
+            "name": "Oy",
+            "url": "https://stephen-king-api.onrender.com/api/character/324",
+            "role": "supporting"
+          },
+          {
+            "name": "Calvin Tower",
+            "url": "https://stephen-king-api.onrender.com/api/character/329",
+            "role": "supporting"
           }
         ],
         "villains": [
@@ -4085,6 +4242,16 @@
             "name": "Susannah Dean",
             "url": "https://stephen-king-api.onrender.com/api/character/307",
             "role": "protagonist"
+          },
+          {
+            "name": "Oy",
+            "url": "https://stephen-king-api.onrender.com/api/character/324",
+            "role": "supporting"
+          },
+          {
+            "name": "Calvin Tower",
+            "url": "https://stephen-king-api.onrender.com/api/character/329",
+            "role": "minor"
           }
         ],
         "villains": [
@@ -4269,6 +4436,11 @@
             "name": "Long Boy",
             "url": "https://stephen-king-api.onrender.com/api/villain/190",
             "role": null
+          },
+          {
+            "name": "Norris Ridgewick",
+            "url": "https://stephen-king-api.onrender.com/api/character/323",
+            "role": "minor"
           }
         ],
         "villains": [
@@ -4551,6 +4723,11 @@
           {
             "name": "Susannah Dean",
             "url": "https://stephen-king-api.onrender.com/api/character/307",
+            "role": "supporting"
+          },
+          {
+            "name": "Oy",
+            "url": "https://stephen-king-api.onrender.com/api/character/324",
             "role": "supporting"
           }
         ],
@@ -5311,6 +5488,11 @@
             "name": "Gareth Winston",
             "url": "https://stephen-king-api.onrender.com/api/villain/184",
             "role": null
+          },
+          {
+            "name": "Norris Ridgewick",
+            "url": "https://stephen-king-api.onrender.com/api/character/323",
+            "role": "minor"
           }
         ],
         "villains": [

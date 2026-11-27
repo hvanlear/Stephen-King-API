@@ -107,6 +107,18 @@
         {
           "name": "Cortland Andrus",
           "url": "https://stephen-king-api.onrender.com/api/character/269"
+        },
+        {
+          "name": "Andrew Quick",
+          "url": "https://stephen-king-api.onrender.com/api/villain/325"
+        },
+        {
+          "name": "Gasher",
+          "url": "https://stephen-king-api.onrender.com/api/villain/326"
+        },
+        {
+          "name": "Talitha Unwin",
+          "url": "https://stephen-king-api.onrender.com/api/character/327"
         }
       ],
       "villains": [
@@ -129,6 +141,14 @@
         {
           "name": "Ben Slightman",
           "url": "https://stephen-king-api.onrender.com/api/villain/178"
+        },
+        {
+          "name": "Andrew Quick",
+          "url": "https://stephen-king-api.onrender.com/api/villain/325"
+        },
+        {
+          "name": "Gasher",
+          "url": "https://stephen-king-api.onrender.com/api/villain/326"
         }
       ]
     }

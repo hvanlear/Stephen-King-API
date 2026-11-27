@@ -3333,7 +3333,13 @@
         "notes": [],
         "year": 1990,
         "created_at": "2023-11-13T23:49:10.643Z",
-        "characters": [],
+        "characters": [
+          {
+            "name": "Alan Pangborn",
+            "url": "https://stephen-king-api.onrender.com/api/character/322",
+            "role": "minor"
+          }
+        ],
         "villains": [],
         "protagonists": [],
         "places": [

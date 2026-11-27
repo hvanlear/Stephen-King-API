@@ -108,6 +108,18 @@
           {
             "name": "Cortland Andrus",
             "url": "https://stephen-king-api.onrender.com/api/character/269"
+          },
+          {
+            "name": "Andrew Quick",
+            "url": "https://stephen-king-api.onrender.com/api/villain/325"
+          },
+          {
+            "name": "Gasher",
+            "url": "https://stephen-king-api.onrender.com/api/villain/326"
+          },
+          {
+            "name": "Talitha Unwin",
+            "url": "https://stephen-king-api.onrender.com/api/character/327"
           }
         ],
         "villains": [
@@ -130,6 +142,14 @@
           {
             "name": "Ben Slightman",
             "url": "https://stephen-king-api.onrender.com/api/villain/178"
+          },
+          {
+            "name": "Andrew Quick",
+            "url": "https://stephen-king-api.onrender.com/api/villain/325"
+          },
+          {
+            "name": "Gasher",
+            "url": "https://stephen-king-api.onrender.com/api/villain/326"
           }
         ]
       },
@@ -948,6 +968,46 @@
           {
             "name": "Peter (dog)",
             "url": "https://stephen-king-api.onrender.com/api/character/319"
+          },
+          {
+            "name": "Thaddeus Beaumont",
+            "url": "https://stephen-king-api.onrender.com/api/character/320"
+          },
+          {
+            "name": "Liz Beaumont",
+            "url": "https://stephen-king-api.onrender.com/api/character/321"
+          },
+          {
+            "name": "Alan Pangborn",
+            "url": "https://stephen-king-api.onrender.com/api/character/322"
+          },
+          {
+            "name": "Norris Ridgewick",
+            "url": "https://stephen-king-api.onrender.com/api/character/323"
+          },
+          {
+            "name": "Elmer Chambers",
+            "url": "https://stephen-king-api.onrender.com/api/character/328"
+          },
+          {
+            "name": "Calvin Tower",
+            "url": "https://stephen-king-api.onrender.com/api/character/329"
+          },
+          {
+            "name": "Polly Chalmers",
+            "url": "https://stephen-king-api.onrender.com/api/character/330"
+          },
+          {
+            "name": "Brian Rusk",
+            "url": "https://stephen-king-api.onrender.com/api/character/331"
+          },
+          {
+            "name": "Nettie Cobb",
+            "url": "https://stephen-king-api.onrender.com/api/character/332"
+          },
+          {
+            "name": "Wilma Jerzyck",
+            "url": "https://stephen-king-api.onrender.com/api/character/333"
           }
         ],
         "villains": [
@@ -1624,6 +1684,18 @@
           {
             "name": "Alice",
             "url": "https://stephen-king-api.onrender.com/api/character/267"
+          },
+          {
+            "name": "Andrew Quick",
+            "url": "https://stephen-king-api.onrender.com/api/villain/325"
+          },
+          {
+            "name": "Gasher",
+            "url": "https://stephen-king-api.onrender.com/api/villain/326"
+          },
+          {
+            "name": "Talitha Unwin",
+            "url": "https://stephen-king-api.onrender.com/api/character/327"
           }
         ],
         "villains": [
@@ -1634,6 +1706,14 @@
           {
             "name": "Ben Slightman",
             "url": "https://stephen-king-api.onrender.com/api/villain/178"
+          },
+          {
+            "name": "Andrew Quick",
+            "url": "https://stephen-king-api.onrender.com/api/villain/325"
+          },
+          {
+            "name": "Gasher",
+            "url": "https://stephen-king-api.onrender.com/api/villain/326"
           }
         ]
       },
@@ -2697,6 +2777,38 @@
           {
             "name": "Peter (dog)",
             "url": "https://stephen-king-api.onrender.com/api/character/319"
+          },
+          {
+            "name": "Thaddeus Beaumont",
+            "url": "https://stephen-king-api.onrender.com/api/character/320"
+          },
+          {
+            "name": "Liz Beaumont",
+            "url": "https://stephen-king-api.onrender.com/api/character/321"
+          },
+          {
+            "name": "Alan Pangborn",
+            "url": "https://stephen-king-api.onrender.com/api/character/322"
+          },
+          {
+            "name": "Norris Ridgewick",
+            "url": "https://stephen-king-api.onrender.com/api/character/323"
+          },
+          {
+            "name": "Polly Chalmers",
+            "url": "https://stephen-king-api.onrender.com/api/character/330"
+          },
+          {
+            "name": "Brian Rusk",
+            "url": "https://stephen-king-api.onrender.com/api/character/331"
+          },
+          {
+            "name": "Nettie Cobb",
+            "url": "https://stephen-king-api.onrender.com/api/character/332"
+          },
+          {
+            "name": "Wilma Jerzyck",
+            "url": "https://stephen-king-api.onrender.com/api/character/333"
           }
         ],
         "villains": [
@@ -3147,6 +3259,14 @@
           {
             "name": "Paul Sheldon",
             "url": "https://stephen-king-api.onrender.com/api/character/310"
+          },
+          {
+            "name": "Elmer Chambers",
+            "url": "https://stephen-king-api.onrender.com/api/character/328"
+          },
+          {
+            "name": "Calvin Tower",
+            "url": "https://stephen-king-api.onrender.com/api/character/329"
           }
         ],
         "villains": [
@@ -3925,6 +4045,30 @@
           {
             "name": "Gary Pervier",
             "url": "https://stephen-king-api.onrender.com/api/character/260"
+          },
+          {
+            "name": "Alan Pangborn",
+            "url": "https://stephen-king-api.onrender.com/api/character/322"
+          },
+          {
+            "name": "Norris Ridgewick",
+            "url": "https://stephen-king-api.onrender.com/api/character/323"
+          },
+          {
+            "name": "Polly Chalmers",
+            "url": "https://stephen-king-api.onrender.com/api/character/330"
+          },
+          {
+            "name": "Brian Rusk",
+            "url": "https://stephen-king-api.onrender.com/api/character/331"
+          },
+          {
+            "name": "Nettie Cobb",
+            "url": "https://stephen-king-api.onrender.com/api/character/332"
+          },
+          {
+            "name": "Wilma Jerzyck",
+            "url": "https://stephen-king-api.onrender.com/api/character/333"
           }
         ],
         "villains": [
@@ -5357,8 +5501,26 @@
           }
         ],
         "shorts": [],
-        "characters": [],
-        "villains": []
+        "characters": [
+          {
+            "name": "Andrew Quick",
+            "url": "https://stephen-king-api.onrender.com/api/villain/325"
+          },
+          {
+            "name": "Gasher",
+            "url": "https://stephen-king-api.onrender.com/api/villain/326"
+          }
+        ],
+        "villains": [
+          {
+            "name": "Andrew Quick",
+            "url": "https://stephen-king-api.onrender.com/api/villain/325"
+          },
+          {
+            "name": "Gasher",
+            "url": "https://stephen-king-api.onrender.com/api/villain/326"
+          }
+        ]
       },
       {
         "id": 86,
@@ -5406,6 +5568,14 @@
           {
             "name": "Ellie Creed",
             "url": "https://stephen-king-api.onrender.com/api/character/277"
+          },
+          {
+            "name": "Thaddeus Beaumont",
+            "url": "https://stephen-king-api.onrender.com/api/character/320"
+          },
+          {
+            "name": "Liz Beaumont",
+            "url": "https://stephen-king-api.onrender.com/api/character/321"
           }
         ],
         "villains": [
@@ -5564,6 +5734,14 @@
           {
             "name": "Paul Sheldon",
             "url": "https://stephen-king-api.onrender.com/api/character/310"
+          },
+          {
+            "name": "Elmer Chambers",
+            "url": "https://stephen-king-api.onrender.com/api/character/328"
+          },
+          {
+            "name": "Calvin Tower",
+            "url": "https://stephen-king-api.onrender.com/api/character/329"
           }
         ],
         "villains": [
@@ -5869,7 +6047,12 @@
           }
         ],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Talitha Unwin",
+            "url": "https://stephen-king-api.onrender.com/api/character/327"
+          }
+        ],
         "villains": []
       },
       {

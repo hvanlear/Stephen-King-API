@@ -162,11 +162,6 @@ function link(map: Map<number, number[]>, key: number, value: number): void {
 const bookWithHandle = (handle: string) => books.find((b) => b.handle === handle);
 const shortWithHandle = (handle: string) => shorts.find((s) => s.handle === handle);
 
-// A character's role in a book or short, by the work's handle: null until
-// recorded, and undefined if it isn't in that work
-export const roleIn = (character: Character, handle: string): Role | null | undefined =>
-  Object.hasOwn(character.appears_in, handle) ? character.appears_in[handle] : undefined;
-
 // Leads at least one book or short
 export const isProtagonist = (character: Character) => Object.values(character.appears_in).includes("protagonist");
 

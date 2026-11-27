@@ -96,6 +96,86 @@
           {
             "name": "Donald Callahan",
             "url": "https://stephen-king-api.onrender.com/api/character/206"
+          },
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265"
+          },
+          {
+            "name": "Alice",
+            "url": "https://stephen-king-api.onrender.com/api/character/267"
+          },
+          {
+            "name": "Cortland Andrus",
+            "url": "https://stephen-king-api.onrender.com/api/character/269"
+          },
+          {
+            "name": "Andrew Quick",
+            "url": "https://stephen-king-api.onrender.com/api/villain/325"
+          },
+          {
+            "name": "Gasher",
+            "url": "https://stephen-king-api.onrender.com/api/villain/326"
+          },
+          {
+            "name": "Talitha Unwin",
+            "url": "https://stephen-king-api.onrender.com/api/character/327"
+          },
+          {
+            "name": "Susan Delgado",
+            "url": "https://stephen-king-api.onrender.com/api/character/372"
+          },
+          {
+            "name": "Cuthbert Allgood",
+            "url": "https://stephen-king-api.onrender.com/api/character/373"
+          },
+          {
+            "name": "Alain Johns",
+            "url": "https://stephen-king-api.onrender.com/api/character/374"
+          },
+          {
+            "name": "Sheemie Ruiz",
+            "url": "https://stephen-king-api.onrender.com/api/character/375"
+          },
+          {
+            "name": "Steven Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/376"
+          },
+          {
+            "name": "Gabrielle Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/377"
+          },
+          {
+            "name": "Hart Thorin",
+            "url": "https://stephen-king-api.onrender.com/api/character/378"
+          },
+          {
+            "name": "Tian Jaffords",
+            "url": "https://stephen-king-api.onrender.com/api/character/405"
+          },
+          {
+            "name": "Zalia Jaffords",
+            "url": "https://stephen-king-api.onrender.com/api/character/406"
+          },
+          {
+            "name": "Rosalita Munoz",
+            "url": "https://stephen-king-api.onrender.com/api/character/407"
+          },
+          {
+            "name": "Margaret Eisenhart",
+            "url": "https://stephen-king-api.onrender.com/api/character/408"
+          },
+          {
+            "name": "Benjamin Slightman, Jr.",
+            "url": "https://stephen-king-api.onrender.com/api/character/409"
+          },
+          {
+            "name": "Bill Streeter",
+            "url": "https://stephen-king-api.onrender.com/api/character/452"
+          },
+          {
+            "name": "Jamie DeCurry",
+            "url": "https://stephen-king-api.onrender.com/api/character/453"
           }
         ],
         "villains": [
@@ -118,6 +198,14 @@
           {
             "name": "Ben Slightman",
             "url": "https://stephen-king-api.onrender.com/api/villain/178"
+          },
+          {
+            "name": "Andrew Quick",
+            "url": "https://stephen-king-api.onrender.com/api/villain/325"
+          },
+          {
+            "name": "Gasher",
+            "url": "https://stephen-king-api.onrender.com/api/villain/326"
           }
         ]
       },
@@ -214,7 +302,12 @@
           }
         ],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Wolf",
+            "url": "https://stephen-king-api.onrender.com/api/character/285"
+          }
+        ],
         "villains": []
       },
       {
@@ -657,6 +750,10 @@
             "url": "https://stephen-king-api.onrender.com/api/villain/173"
           },
           {
+            "name": "Charlie Decker",
+            "url": "https://stephen-king-api.onrender.com/api/villain/179"
+          },
+          {
             "name": "Jim Dooley",
             "url": "https://stephen-king-api.onrender.com/api/villain/187"
           },
@@ -707,6 +804,598 @@
           {
             "name": "Stan Uris",
             "url": "https://stephen-king-api.onrender.com/api/character/213"
+          },
+          {
+            "name": "Carrie White",
+            "url": "https://stephen-king-api.onrender.com/api/character/215"
+          },
+          {
+            "name": "Sue Snell",
+            "url": "https://stephen-king-api.onrender.com/api/character/216"
+          },
+          {
+            "name": "Tommy Ross",
+            "url": "https://stephen-king-api.onrender.com/api/character/217"
+          },
+          {
+            "name": "Miss Desjardin",
+            "url": "https://stephen-king-api.onrender.com/api/character/218"
+          },
+          {
+            "name": "Dick Hallorann",
+            "url": "https://stephen-king-api.onrender.com/api/character/221"
+          },
+          {
+            "name": "Ted Jones",
+            "url": "https://stephen-king-api.onrender.com/api/character/222"
+          },
+          {
+            "name": "Stuart Redman",
+            "url": "https://stephen-king-api.onrender.com/api/character/223"
+          },
+          {
+            "name": "Frances Goldsmith",
+            "url": "https://stephen-king-api.onrender.com/api/character/224"
+          },
+          {
+            "name": "Nick Andros",
+            "url": "https://stephen-king-api.onrender.com/api/character/226"
+          },
+          {
+            "name": "Abagail Freemantle",
+            "url": "https://stephen-king-api.onrender.com/api/character/228"
+          },
+          {
+            "name": "Tom Cullen",
+            "url": "https://stephen-king-api.onrender.com/api/character/229"
+          },
+          {
+            "name": "Kojak",
+            "url": "https://stephen-king-api.onrender.com/api/character/232"
+          },
+          {
+            "name": "Raymond Garraty",
+            "url": "https://stephen-king-api.onrender.com/api/character/233"
+          },
+          {
+            "name": "Johnny Smith",
+            "url": "https://stephen-king-api.onrender.com/api/character/239"
+          },
+          {
+            "name": "George Bannerman",
+            "url": "https://stephen-king-api.onrender.com/api/character/241"
+          },
+          {
+            "name": "Andy McGee",
+            "url": "https://stephen-king-api.onrender.com/api/character/245"
+          },
+          {
+            "name": "Vicky Tomlinson",
+            "url": "https://stephen-king-api.onrender.com/api/character/248"
+          },
+          {
+            "name": "Donna Trenton",
+            "url": "https://stephen-king-api.onrender.com/api/character/253"
+          },
+          {
+            "name": "Vic Trenton",
+            "url": "https://stephen-king-api.onrender.com/api/character/254"
+          },
+          {
+            "name": "Tad Trenton",
+            "url": "https://stephen-king-api.onrender.com/api/character/255"
+          },
+          {
+            "name": "Joe Camber",
+            "url": "https://stephen-king-api.onrender.com/api/character/256"
+          },
+          {
+            "name": "Charity Camber",
+            "url": "https://stephen-king-api.onrender.com/api/character/257"
+          },
+          {
+            "name": "Brett Camber",
+            "url": "https://stephen-king-api.onrender.com/api/character/258"
+          },
+          {
+            "name": "Gary Pervier",
+            "url": "https://stephen-king-api.onrender.com/api/character/260"
+          },
+          {
+            "name": "Louis Creed",
+            "url": "https://stephen-king-api.onrender.com/api/character/274"
+          },
+          {
+            "name": "Rachel Creed",
+            "url": "https://stephen-king-api.onrender.com/api/character/275"
+          },
+          {
+            "name": "Jud Crandall",
+            "url": "https://stephen-king-api.onrender.com/api/character/276"
+          },
+          {
+            "name": "Ellie Creed",
+            "url": "https://stephen-king-api.onrender.com/api/character/277"
+          },
+          {
+            "name": "Marty Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/278"
+          },
+          {
+            "name": "Herman Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/280"
+          },
+          {
+            "name": "Nan Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/281"
+          },
+          {
+            "name": "Kate Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/282"
+          },
+          {
+            "name": "Lander Neary",
+            "url": "https://stephen-king-api.onrender.com/api/character/283"
+          },
+          {
+            "name": "Sunlight Gardner",
+            "url": "https://stephen-king-api.onrender.com/api/villain/289"
+          },
+          {
+            "name": "Billy Halleck",
+            "url": "https://stephen-king-api.onrender.com/api/character/298"
+          },
+          {
+            "name": "Heidi Halleck",
+            "url": "https://stephen-king-api.onrender.com/api/character/299"
+          },
+          {
+            "name": "Linda Halleck",
+            "url": "https://stephen-king-api.onrender.com/api/character/300"
+          },
+          {
+            "name": "Richard Ginelli",
+            "url": "https://stephen-king-api.onrender.com/api/character/301"
+          },
+          {
+            "name": "Georgie Denbrough",
+            "url": "https://stephen-king-api.onrender.com/api/character/302"
+          },
+          {
+            "name": "William Hanlon",
+            "url": "https://stephen-king-api.onrender.com/api/character/304"
+          },
+          {
+            "name": "Eddie Corcoran",
+            "url": "https://stephen-king-api.onrender.com/api/character/305"
+          },
+          {
+            "name": "Eddie Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/306"
+          },
+          {
+            "name": "Susannah Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/307"
+          },
+          {
+            "name": "Henry Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/308"
+          },
+          {
+            "name": "Enrico Balazar",
+            "url": "https://stephen-king-api.onrender.com/api/villain/309"
+          },
+          {
+            "name": "Paul Sheldon",
+            "url": "https://stephen-king-api.onrender.com/api/character/310"
+          },
+          {
+            "name": "Duane Kushner",
+            "url": "https://stephen-king-api.onrender.com/api/character/311"
+          },
+          {
+            "name": "Rebecca Paulson",
+            "url": "https://stephen-king-api.onrender.com/api/character/312"
+          },
+          {
+            "name": "Joe Paulson",
+            "url": "https://stephen-king-api.onrender.com/api/character/313"
+          },
+          {
+            "name": "Roberta Anderson",
+            "url": "https://stephen-king-api.onrender.com/api/character/314"
+          },
+          {
+            "name": "Jim Gardener",
+            "url": "https://stephen-king-api.onrender.com/api/character/315"
+          },
+          {
+            "name": "Ev Hillman",
+            "url": "https://stephen-king-api.onrender.com/api/character/316"
+          },
+          {
+            "name": "David Brown",
+            "url": "https://stephen-king-api.onrender.com/api/character/317"
+          },
+          {
+            "name": "Ruth McCausland",
+            "url": "https://stephen-king-api.onrender.com/api/character/318"
+          },
+          {
+            "name": "Peter (dog)",
+            "url": "https://stephen-king-api.onrender.com/api/character/319"
+          },
+          {
+            "name": "Thaddeus Beaumont",
+            "url": "https://stephen-king-api.onrender.com/api/character/320"
+          },
+          {
+            "name": "Liz Beaumont",
+            "url": "https://stephen-king-api.onrender.com/api/character/321"
+          },
+          {
+            "name": "Alan Pangborn",
+            "url": "https://stephen-king-api.onrender.com/api/character/322"
+          },
+          {
+            "name": "Norris Ridgewick",
+            "url": "https://stephen-king-api.onrender.com/api/character/323"
+          },
+          {
+            "name": "Elmer Chambers",
+            "url": "https://stephen-king-api.onrender.com/api/character/328"
+          },
+          {
+            "name": "Calvin Tower",
+            "url": "https://stephen-king-api.onrender.com/api/character/329"
+          },
+          {
+            "name": "Polly Chalmers",
+            "url": "https://stephen-king-api.onrender.com/api/character/330"
+          },
+          {
+            "name": "Brian Rusk",
+            "url": "https://stephen-king-api.onrender.com/api/character/331"
+          },
+          {
+            "name": "Nettie Cobb",
+            "url": "https://stephen-king-api.onrender.com/api/character/332"
+          },
+          {
+            "name": "Wilma Jerzyck",
+            "url": "https://stephen-king-api.onrender.com/api/character/333"
+          },
+          {
+            "name": "Jessie Burlingame",
+            "url": "https://stephen-king-api.onrender.com/api/character/334"
+          },
+          {
+            "name": "Dolores Claiborne",
+            "url": "https://stephen-king-api.onrender.com/api/character/335"
+          },
+          {
+            "name": "Vera Donovan",
+            "url": "https://stephen-king-api.onrender.com/api/character/336"
+          },
+          {
+            "name": "Selena St. George",
+            "url": "https://stephen-king-api.onrender.com/api/character/337"
+          },
+          {
+            "name": "Ralph Roberts",
+            "url": "https://stephen-king-api.onrender.com/api/character/338"
+          },
+          {
+            "name": "Lois Chasse",
+            "url": "https://stephen-king-api.onrender.com/api/character/339"
+          },
+          {
+            "name": "Ed Deepneau",
+            "url": "https://stephen-king-api.onrender.com/api/villain/340"
+          },
+          {
+            "name": "Helen Deepneau",
+            "url": "https://stephen-king-api.onrender.com/api/character/341"
+          },
+          {
+            "name": "Natalie Deepneau",
+            "url": "https://stephen-king-api.onrender.com/api/character/342"
+          },
+          {
+            "name": "Patrick Danville",
+            "url": "https://stephen-king-api.onrender.com/api/character/343"
+          },
+          {
+            "name": "Paul Edgecomb",
+            "url": "https://stephen-king-api.onrender.com/api/character/349"
+          },
+          {
+            "name": "Brutus Howell",
+            "url": "https://stephen-king-api.onrender.com/api/character/351"
+          },
+          {
+            "name": "Dean Stanton",
+            "url": "https://stephen-king-api.onrender.com/api/character/352"
+          },
+          {
+            "name": "Harry Terwilliger",
+            "url": "https://stephen-king-api.onrender.com/api/character/353"
+          },
+          {
+            "name": "Hal Moores",
+            "url": "https://stephen-king-api.onrender.com/api/character/356"
+          },
+          {
+            "name": "Melinda Moores",
+            "url": "https://stephen-king-api.onrender.com/api/character/357"
+          },
+          {
+            "name": "Tom Billingsley",
+            "url": "https://stephen-king-api.onrender.com/api/character/368"
+          },
+          {
+            "name": "Audrey Wyler",
+            "url": "https://stephen-king-api.onrender.com/api/character/369"
+          },
+          {
+            "name": "Seth Garin",
+            "url": "https://stephen-king-api.onrender.com/api/character/370"
+          },
+          {
+            "name": "Cammie Reed",
+            "url": "https://stephen-king-api.onrender.com/api/character/371"
+          },
+          {
+            "name": "Mike Noonan",
+            "url": "https://stephen-king-api.onrender.com/api/character/379"
+          },
+          {
+            "name": "Johanna Arlen",
+            "url": "https://stephen-king-api.onrender.com/api/character/380"
+          },
+          {
+            "name": "Mattie Devore",
+            "url": "https://stephen-king-api.onrender.com/api/character/381"
+          },
+          {
+            "name": "Kyra Devore",
+            "url": "https://stephen-king-api.onrender.com/api/character/382"
+          },
+          {
+            "name": "John Storrow",
+            "url": "https://stephen-king-api.onrender.com/api/character/383"
+          },
+          {
+            "name": "Bill Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/384"
+          },
+          {
+            "name": "Patricia McFarland",
+            "url": "https://stephen-king-api.onrender.com/api/character/385"
+          },
+          {
+            "name": "Pete McFarland",
+            "url": "https://stephen-king-api.onrender.com/api/character/386"
+          },
+          {
+            "name": "Gary Jones",
+            "url": "https://stephen-king-api.onrender.com/api/character/387"
+          },
+          {
+            "name": "Douglas Cavell",
+            "url": "https://stephen-king-api.onrender.com/api/character/391"
+          },
+          {
+            "name": "Stephanie McCann",
+            "url": "https://stephen-king-api.onrender.com/api/character/414"
+          },
+          {
+            "name": "Vince Teague",
+            "url": "https://stephen-king-api.onrender.com/api/character/415"
+          },
+          {
+            "name": "Dave Bowie",
+            "url": "https://stephen-king-api.onrender.com/api/character/416"
+          },
+          {
+            "name": "James Cogan",
+            "url": "https://stephen-king-api.onrender.com/api/character/417"
+          },
+          {
+            "name": "Clay Riddell",
+            "url": "https://stephen-king-api.onrender.com/api/character/418"
+          },
+          {
+            "name": "Tom McCourt",
+            "url": "https://stephen-king-api.onrender.com/api/character/419"
+          },
+          {
+            "name": "Johnny Riddell",
+            "url": "https://stephen-king-api.onrender.com/api/character/422"
+          },
+          {
+            "name": "Lisey Landon",
+            "url": "https://stephen-king-api.onrender.com/api/character/423"
+          },
+          {
+            "name": "Scott Landon",
+            "url": "https://stephen-king-api.onrender.com/api/character/424"
+          },
+          {
+            "name": "Amanda Debusher",
+            "url": "https://stephen-king-api.onrender.com/api/character/425"
+          },
+          {
+            "name": "Darla Debusher",
+            "url": "https://stephen-king-api.onrender.com/api/character/426"
+          },
+          {
+            "name": "Edgar Freemantle",
+            "url": "https://stephen-king-api.onrender.com/api/character/429"
+          },
+          {
+            "name": "Wireman",
+            "url": "https://stephen-king-api.onrender.com/api/character/430"
+          },
+          {
+            "name": "Elizabeth Eastlake",
+            "url": "https://stephen-king-api.onrender.com/api/character/431"
+          },
+          {
+            "name": "Jack Cantori",
+            "url": "https://stephen-king-api.onrender.com/api/character/433"
+          },
+          {
+            "name": "Dale Barbara",
+            "url": "https://stephen-king-api.onrender.com/api/character/435"
+          },
+          {
+            "name": "Julia Shumway",
+            "url": "https://stephen-king-api.onrender.com/api/character/436"
+          },
+          {
+            "name": "Rusty Everett",
+            "url": "https://stephen-king-api.onrender.com/api/character/437"
+          },
+          {
+            "name": "Joe McClatchey",
+            "url": "https://stephen-king-api.onrender.com/api/character/438"
+          },
+          {
+            "name": "Brenda Perkins",
+            "url": "https://stephen-king-api.onrender.com/api/character/439"
+          },
+          {
+            "name": "Andy Sanders",
+            "url": "https://stephen-king-api.onrender.com/api/character/440"
+          },
+          {
+            "name": "Phil Bushey",
+            "url": "https://stephen-king-api.onrender.com/api/character/441"
+          },
+          {
+            "name": "Peter Randolph",
+            "url": "https://stephen-king-api.onrender.com/api/character/442"
+          },
+          {
+            "name": "Howard Perkins",
+            "url": "https://stephen-king-api.onrender.com/api/character/443"
+          },
+          {
+            "name": "Lester Coggins",
+            "url": "https://stephen-king-api.onrender.com/api/character/444"
+          },
+          {
+            "name": "Jake Epping",
+            "url": "https://stephen-king-api.onrender.com/api/character/446"
+          },
+          {
+            "name": "Sadie Dunhill",
+            "url": "https://stephen-king-api.onrender.com/api/character/447"
+          },
+          {
+            "name": "Al Templeton",
+            "url": "https://stephen-king-api.onrender.com/api/character/448"
+          },
+          {
+            "name": "Harry Dunning",
+            "url": "https://stephen-king-api.onrender.com/api/character/449"
+          },
+          {
+            "name": "Devin Jones",
+            "url": "https://stephen-king-api.onrender.com/api/character/454"
+          },
+          {
+            "name": "Mike Ross",
+            "url": "https://stephen-king-api.onrender.com/api/character/455"
+          },
+          {
+            "name": "Annie Ross",
+            "url": "https://stephen-king-api.onrender.com/api/character/456"
+          },
+          {
+            "name": "Abra Stone",
+            "url": "https://stephen-king-api.onrender.com/api/character/459"
+          },
+          {
+            "name": "John Dalton",
+            "url": "https://stephen-king-api.onrender.com/api/character/460"
+          },
+          {
+            "name": "Billy Freeman",
+            "url": "https://stephen-king-api.onrender.com/api/character/461"
+          },
+          {
+            "name": "David Stone",
+            "url": "https://stephen-king-api.onrender.com/api/character/462"
+          },
+          {
+            "name": "Lucy Stone",
+            "url": "https://stephen-king-api.onrender.com/api/character/463"
+          },
+          {
+            "name": "Casey Kingsley",
+            "url": "https://stephen-king-api.onrender.com/api/character/464"
+          },
+          {
+            "name": "Hugh Yates",
+            "url": "https://stephen-king-api.onrender.com/api/character/478"
+          },
+          {
+            "name": "Gwendy Peterson",
+            "url": "https://stephen-king-api.onrender.com/api/character/481"
+          },
+          {
+            "name": "Harry Streeter",
+            "url": "https://stephen-king-api.onrender.com/api/character/483"
+          },
+          {
+            "name": "Ralph Anderson",
+            "url": "https://stephen-king-api.onrender.com/api/character/490"
+          },
+          {
+            "name": "Jeannie Anderson",
+            "url": "https://stephen-king-api.onrender.com/api/character/491"
+          },
+          {
+            "name": "Terry Maitland",
+            "url": "https://stephen-king-api.onrender.com/api/character/492"
+          },
+          {
+            "name": "Marcy Maitland",
+            "url": "https://stephen-king-api.onrender.com/api/character/493"
+          },
+          {
+            "name": "Howie Gold",
+            "url": "https://stephen-king-api.onrender.com/api/character/494"
+          },
+          {
+            "name": "Scott Carey",
+            "url": "https://stephen-king-api.onrender.com/api/character/495"
+          },
+          {
+            "name": "Deirdre McComb",
+            "url": "https://stephen-king-api.onrender.com/api/character/496"
+          },
+          {
+            "name": "Missy Donaldson",
+            "url": "https://stephen-king-api.onrender.com/api/character/497"
+          },
+          {
+            "name": "Bob Ellis",
+            "url": "https://stephen-king-api.onrender.com/api/character/498"
+          },
+          {
+            "name": "Jamie Conklin",
+            "url": "https://stephen-king-api.onrender.com/api/character/509"
+          },
+          {
+            "name": "Tia Conklin",
+            "url": "https://stephen-king-api.onrender.com/api/character/510"
+          },
+          {
+            "name": "Martin Burkett",
+            "url": "https://stephen-king-api.onrender.com/api/character/511"
           }
         ],
         "villains": [
@@ -979,8 +1668,24 @@
             "url": "https://stephen-king-api.onrender.com/api/villain/173"
           },
           {
+            "name": "Charlie Decker",
+            "url": "https://stephen-king-api.onrender.com/api/villain/179"
+          },
+          {
             "name": "Jim Dooley",
             "url": "https://stephen-king-api.onrender.com/api/villain/187"
+          },
+          {
+            "name": "Sunlight Gardner",
+            "url": "https://stephen-king-api.onrender.com/api/villain/289"
+          },
+          {
+            "name": "Enrico Balazar",
+            "url": "https://stephen-king-api.onrender.com/api/villain/309"
+          },
+          {
+            "name": "Ed Deepneau",
+            "url": "https://stephen-king-api.onrender.com/api/villain/340"
           }
         ]
       },
@@ -1243,6 +1948,50 @@
           {
             "name": "Eldred Jonas",
             "url": "https://stephen-king-api.onrender.com/api/villain/60"
+          },
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265"
+          },
+          {
+            "name": "Cortland Andrus",
+            "url": "https://stephen-king-api.onrender.com/api/character/269"
+          },
+          {
+            "name": "Susan Delgado",
+            "url": "https://stephen-king-api.onrender.com/api/character/372"
+          },
+          {
+            "name": "Cuthbert Allgood",
+            "url": "https://stephen-king-api.onrender.com/api/character/373"
+          },
+          {
+            "name": "Alain Johns",
+            "url": "https://stephen-king-api.onrender.com/api/character/374"
+          },
+          {
+            "name": "Sheemie Ruiz",
+            "url": "https://stephen-king-api.onrender.com/api/character/375"
+          },
+          {
+            "name": "Steven Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/376"
+          },
+          {
+            "name": "Gabrielle Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/377"
+          },
+          {
+            "name": "Hart Thorin",
+            "url": "https://stephen-king-api.onrender.com/api/character/378"
+          },
+          {
+            "name": "Bill Streeter",
+            "url": "https://stephen-king-api.onrender.com/api/character/452"
+          },
+          {
+            "name": "Jamie DeCurry",
+            "url": "https://stephen-king-api.onrender.com/api/character/453"
           }
         ],
         "villains": [
@@ -1359,6 +2108,42 @@
           {
             "name": "Donald Callahan",
             "url": "https://stephen-king-api.onrender.com/api/character/206"
+          },
+          {
+            "name": "Alice",
+            "url": "https://stephen-king-api.onrender.com/api/character/267"
+          },
+          {
+            "name": "Andrew Quick",
+            "url": "https://stephen-king-api.onrender.com/api/villain/325"
+          },
+          {
+            "name": "Gasher",
+            "url": "https://stephen-king-api.onrender.com/api/villain/326"
+          },
+          {
+            "name": "Talitha Unwin",
+            "url": "https://stephen-king-api.onrender.com/api/character/327"
+          },
+          {
+            "name": "Tian Jaffords",
+            "url": "https://stephen-king-api.onrender.com/api/character/405"
+          },
+          {
+            "name": "Zalia Jaffords",
+            "url": "https://stephen-king-api.onrender.com/api/character/406"
+          },
+          {
+            "name": "Rosalita Munoz",
+            "url": "https://stephen-king-api.onrender.com/api/character/407"
+          },
+          {
+            "name": "Margaret Eisenhart",
+            "url": "https://stephen-king-api.onrender.com/api/character/408"
+          },
+          {
+            "name": "Benjamin Slightman, Jr.",
+            "url": "https://stephen-king-api.onrender.com/api/character/409"
           }
         ],
         "villains": [
@@ -1369,6 +2154,14 @@
           {
             "name": "Ben Slightman",
             "url": "https://stephen-king-api.onrender.com/api/villain/178"
+          },
+          {
+            "name": "Andrew Quick",
+            "url": "https://stephen-king-api.onrender.com/api/villain/325"
+          },
+          {
+            "name": "Gasher",
+            "url": "https://stephen-king-api.onrender.com/api/villain/326"
           }
         ]
       },
@@ -1390,7 +2183,12 @@
         ],
         "books": [],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Nick Andros",
+            "url": "https://stephen-king-api.onrender.com/api/character/226"
+          }
+        ],
         "villains": []
       },
       {
@@ -1452,6 +2250,22 @@
           {
             "name": "Delbert Grady",
             "url": "https://stephen-king-api.onrender.com/api/villain/45"
+          },
+          {
+            "name": "Kojak",
+            "url": "https://stephen-king-api.onrender.com/api/character/232"
+          },
+          {
+            "name": "Duane Kushner",
+            "url": "https://stephen-king-api.onrender.com/api/character/311"
+          },
+          {
+            "name": "James Cogan",
+            "url": "https://stephen-king-api.onrender.com/api/character/417"
+          },
+          {
+            "name": "Hugh Yates",
+            "url": "https://stephen-king-api.onrender.com/api/character/478"
           }
         ],
         "villains": [
@@ -1483,7 +2297,20 @@
         ],
         "books": [],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Billy Halleck",
+            "url": "https://stephen-king-api.onrender.com/api/character/298"
+          },
+          {
+            "name": "Heidi Halleck",
+            "url": "https://stephen-king-api.onrender.com/api/character/299"
+          },
+          {
+            "name": "Linda Halleck",
+            "url": "https://stephen-king-api.onrender.com/api/character/300"
+          }
+        ],
         "villains": []
       },
       {
@@ -1508,7 +2335,28 @@
         ],
         "books": [],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Dick Hallorann",
+            "url": "https://stephen-king-api.onrender.com/api/character/221"
+          },
+          {
+            "name": "Edgar Freemantle",
+            "url": "https://stephen-king-api.onrender.com/api/character/429"
+          },
+          {
+            "name": "Wireman",
+            "url": "https://stephen-king-api.onrender.com/api/character/430"
+          },
+          {
+            "name": "Elizabeth Eastlake",
+            "url": "https://stephen-king-api.onrender.com/api/character/431"
+          },
+          {
+            "name": "Jack Cantori",
+            "url": "https://stephen-king-api.onrender.com/api/character/433"
+          }
+        ],
         "villains": []
       },
       {
@@ -1533,12 +2381,20 @@
           {
             "name": "Donald Merwin Elbert",
             "url": "https://stephen-king-api.onrender.com/api/villain/34"
+          },
+          {
+            "name": "Sunlight Gardner",
+            "url": "https://stephen-king-api.onrender.com/api/villain/289"
           }
         ],
         "villains": [
           {
             "name": "Donald Merwin Elbert",
             "url": "https://stephen-king-api.onrender.com/api/villain/34"
+          },
+          {
+            "name": "Sunlight Gardner",
+            "url": "https://stephen-king-api.onrender.com/api/villain/289"
           }
         ]
       },
@@ -1632,6 +2488,30 @@
           {
             "name": "Percy Wetmore",
             "url": "https://stephen-king-api.onrender.com/api/villain/111"
+          },
+          {
+            "name": "Paul Edgecomb",
+            "url": "https://stephen-king-api.onrender.com/api/character/349"
+          },
+          {
+            "name": "Brutus Howell",
+            "url": "https://stephen-king-api.onrender.com/api/character/351"
+          },
+          {
+            "name": "Dean Stanton",
+            "url": "https://stephen-king-api.onrender.com/api/character/352"
+          },
+          {
+            "name": "Harry Terwilliger",
+            "url": "https://stephen-king-api.onrender.com/api/character/353"
+          },
+          {
+            "name": "Hal Moores",
+            "url": "https://stephen-king-api.onrender.com/api/character/356"
+          },
+          {
+            "name": "Melinda Moores",
+            "url": "https://stephen-king-api.onrender.com/api/character/357"
           }
         ],
         "villains": [
@@ -2195,6 +3075,10 @@
             "url": "https://stephen-king-api.onrender.com/api/villain/173"
           },
           {
+            "name": "Charlie Decker",
+            "url": "https://stephen-king-api.onrender.com/api/villain/179"
+          },
+          {
             "name": "Jim Dooley",
             "url": "https://stephen-king-api.onrender.com/api/villain/187"
           },
@@ -2245,6 +3129,366 @@
           {
             "name": "Stan Uris",
             "url": "https://stephen-king-api.onrender.com/api/character/213"
+          },
+          {
+            "name": "Carrie White",
+            "url": "https://stephen-king-api.onrender.com/api/character/215"
+          },
+          {
+            "name": "Sue Snell",
+            "url": "https://stephen-king-api.onrender.com/api/character/216"
+          },
+          {
+            "name": "Tommy Ross",
+            "url": "https://stephen-king-api.onrender.com/api/character/217"
+          },
+          {
+            "name": "Miss Desjardin",
+            "url": "https://stephen-king-api.onrender.com/api/character/218"
+          },
+          {
+            "name": "Ted Jones",
+            "url": "https://stephen-king-api.onrender.com/api/character/222"
+          },
+          {
+            "name": "Frances Goldsmith",
+            "url": "https://stephen-king-api.onrender.com/api/character/224"
+          },
+          {
+            "name": "Raymond Garraty",
+            "url": "https://stephen-king-api.onrender.com/api/character/233"
+          },
+          {
+            "name": "Johnny Smith",
+            "url": "https://stephen-king-api.onrender.com/api/character/239"
+          },
+          {
+            "name": "George Bannerman",
+            "url": "https://stephen-king-api.onrender.com/api/character/241"
+          },
+          {
+            "name": "Donna Trenton",
+            "url": "https://stephen-king-api.onrender.com/api/character/253"
+          },
+          {
+            "name": "Vic Trenton",
+            "url": "https://stephen-king-api.onrender.com/api/character/254"
+          },
+          {
+            "name": "Tad Trenton",
+            "url": "https://stephen-king-api.onrender.com/api/character/255"
+          },
+          {
+            "name": "Joe Camber",
+            "url": "https://stephen-king-api.onrender.com/api/character/256"
+          },
+          {
+            "name": "Charity Camber",
+            "url": "https://stephen-king-api.onrender.com/api/character/257"
+          },
+          {
+            "name": "Brett Camber",
+            "url": "https://stephen-king-api.onrender.com/api/character/258"
+          },
+          {
+            "name": "Gary Pervier",
+            "url": "https://stephen-king-api.onrender.com/api/character/260"
+          },
+          {
+            "name": "Louis Creed",
+            "url": "https://stephen-king-api.onrender.com/api/character/274"
+          },
+          {
+            "name": "Rachel Creed",
+            "url": "https://stephen-king-api.onrender.com/api/character/275"
+          },
+          {
+            "name": "Jud Crandall",
+            "url": "https://stephen-king-api.onrender.com/api/character/276"
+          },
+          {
+            "name": "Ellie Creed",
+            "url": "https://stephen-king-api.onrender.com/api/character/277"
+          },
+          {
+            "name": "Marty Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/278"
+          },
+          {
+            "name": "Herman Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/280"
+          },
+          {
+            "name": "Nan Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/281"
+          },
+          {
+            "name": "Kate Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/282"
+          },
+          {
+            "name": "Lander Neary",
+            "url": "https://stephen-king-api.onrender.com/api/character/283"
+          },
+          {
+            "name": "Georgie Denbrough",
+            "url": "https://stephen-king-api.onrender.com/api/character/302"
+          },
+          {
+            "name": "William Hanlon",
+            "url": "https://stephen-king-api.onrender.com/api/character/304"
+          },
+          {
+            "name": "Eddie Corcoran",
+            "url": "https://stephen-king-api.onrender.com/api/character/305"
+          },
+          {
+            "name": "Rebecca Paulson",
+            "url": "https://stephen-king-api.onrender.com/api/character/312"
+          },
+          {
+            "name": "Joe Paulson",
+            "url": "https://stephen-king-api.onrender.com/api/character/313"
+          },
+          {
+            "name": "Roberta Anderson",
+            "url": "https://stephen-king-api.onrender.com/api/character/314"
+          },
+          {
+            "name": "Jim Gardener",
+            "url": "https://stephen-king-api.onrender.com/api/character/315"
+          },
+          {
+            "name": "Ev Hillman",
+            "url": "https://stephen-king-api.onrender.com/api/character/316"
+          },
+          {
+            "name": "David Brown",
+            "url": "https://stephen-king-api.onrender.com/api/character/317"
+          },
+          {
+            "name": "Ruth McCausland",
+            "url": "https://stephen-king-api.onrender.com/api/character/318"
+          },
+          {
+            "name": "Peter (dog)",
+            "url": "https://stephen-king-api.onrender.com/api/character/319"
+          },
+          {
+            "name": "Thaddeus Beaumont",
+            "url": "https://stephen-king-api.onrender.com/api/character/320"
+          },
+          {
+            "name": "Liz Beaumont",
+            "url": "https://stephen-king-api.onrender.com/api/character/321"
+          },
+          {
+            "name": "Alan Pangborn",
+            "url": "https://stephen-king-api.onrender.com/api/character/322"
+          },
+          {
+            "name": "Norris Ridgewick",
+            "url": "https://stephen-king-api.onrender.com/api/character/323"
+          },
+          {
+            "name": "Polly Chalmers",
+            "url": "https://stephen-king-api.onrender.com/api/character/330"
+          },
+          {
+            "name": "Brian Rusk",
+            "url": "https://stephen-king-api.onrender.com/api/character/331"
+          },
+          {
+            "name": "Nettie Cobb",
+            "url": "https://stephen-king-api.onrender.com/api/character/332"
+          },
+          {
+            "name": "Wilma Jerzyck",
+            "url": "https://stephen-king-api.onrender.com/api/character/333"
+          },
+          {
+            "name": "Jessie Burlingame",
+            "url": "https://stephen-king-api.onrender.com/api/character/334"
+          },
+          {
+            "name": "Dolores Claiborne",
+            "url": "https://stephen-king-api.onrender.com/api/character/335"
+          },
+          {
+            "name": "Vera Donovan",
+            "url": "https://stephen-king-api.onrender.com/api/character/336"
+          },
+          {
+            "name": "Selena St. George",
+            "url": "https://stephen-king-api.onrender.com/api/character/337"
+          },
+          {
+            "name": "Ralph Roberts",
+            "url": "https://stephen-king-api.onrender.com/api/character/338"
+          },
+          {
+            "name": "Lois Chasse",
+            "url": "https://stephen-king-api.onrender.com/api/character/339"
+          },
+          {
+            "name": "Ed Deepneau",
+            "url": "https://stephen-king-api.onrender.com/api/villain/340"
+          },
+          {
+            "name": "Helen Deepneau",
+            "url": "https://stephen-king-api.onrender.com/api/character/341"
+          },
+          {
+            "name": "Natalie Deepneau",
+            "url": "https://stephen-king-api.onrender.com/api/character/342"
+          },
+          {
+            "name": "Patrick Danville",
+            "url": "https://stephen-king-api.onrender.com/api/character/343"
+          },
+          {
+            "name": "Mike Noonan",
+            "url": "https://stephen-king-api.onrender.com/api/character/379"
+          },
+          {
+            "name": "Johanna Arlen",
+            "url": "https://stephen-king-api.onrender.com/api/character/380"
+          },
+          {
+            "name": "Mattie Devore",
+            "url": "https://stephen-king-api.onrender.com/api/character/381"
+          },
+          {
+            "name": "Kyra Devore",
+            "url": "https://stephen-king-api.onrender.com/api/character/382"
+          },
+          {
+            "name": "Bill Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/384"
+          },
+          {
+            "name": "Patricia McFarland",
+            "url": "https://stephen-king-api.onrender.com/api/character/385"
+          },
+          {
+            "name": "Pete McFarland",
+            "url": "https://stephen-king-api.onrender.com/api/character/386"
+          },
+          {
+            "name": "Douglas Cavell",
+            "url": "https://stephen-king-api.onrender.com/api/character/391"
+          },
+          {
+            "name": "Stephanie McCann",
+            "url": "https://stephen-king-api.onrender.com/api/character/414"
+          },
+          {
+            "name": "Vince Teague",
+            "url": "https://stephen-king-api.onrender.com/api/character/415"
+          },
+          {
+            "name": "Dave Bowie",
+            "url": "https://stephen-king-api.onrender.com/api/character/416"
+          },
+          {
+            "name": "Clay Riddell",
+            "url": "https://stephen-king-api.onrender.com/api/character/418"
+          },
+          {
+            "name": "Johnny Riddell",
+            "url": "https://stephen-king-api.onrender.com/api/character/422"
+          },
+          {
+            "name": "Lisey Landon",
+            "url": "https://stephen-king-api.onrender.com/api/character/423"
+          },
+          {
+            "name": "Scott Landon",
+            "url": "https://stephen-king-api.onrender.com/api/character/424"
+          },
+          {
+            "name": "Amanda Debusher",
+            "url": "https://stephen-king-api.onrender.com/api/character/425"
+          },
+          {
+            "name": "Darla Debusher",
+            "url": "https://stephen-king-api.onrender.com/api/character/426"
+          },
+          {
+            "name": "Dale Barbara",
+            "url": "https://stephen-king-api.onrender.com/api/character/435"
+          },
+          {
+            "name": "Julia Shumway",
+            "url": "https://stephen-king-api.onrender.com/api/character/436"
+          },
+          {
+            "name": "Rusty Everett",
+            "url": "https://stephen-king-api.onrender.com/api/character/437"
+          },
+          {
+            "name": "Joe McClatchey",
+            "url": "https://stephen-king-api.onrender.com/api/character/438"
+          },
+          {
+            "name": "Brenda Perkins",
+            "url": "https://stephen-king-api.onrender.com/api/character/439"
+          },
+          {
+            "name": "Andy Sanders",
+            "url": "https://stephen-king-api.onrender.com/api/character/440"
+          },
+          {
+            "name": "Phil Bushey",
+            "url": "https://stephen-king-api.onrender.com/api/character/441"
+          },
+          {
+            "name": "Peter Randolph",
+            "url": "https://stephen-king-api.onrender.com/api/character/442"
+          },
+          {
+            "name": "Howard Perkins",
+            "url": "https://stephen-king-api.onrender.com/api/character/443"
+          },
+          {
+            "name": "Lester Coggins",
+            "url": "https://stephen-king-api.onrender.com/api/character/444"
+          },
+          {
+            "name": "Jake Epping",
+            "url": "https://stephen-king-api.onrender.com/api/character/446"
+          },
+          {
+            "name": "Al Templeton",
+            "url": "https://stephen-king-api.onrender.com/api/character/448"
+          },
+          {
+            "name": "Harry Dunning",
+            "url": "https://stephen-king-api.onrender.com/api/character/449"
+          },
+          {
+            "name": "Gwendy Peterson",
+            "url": "https://stephen-king-api.onrender.com/api/character/481"
+          },
+          {
+            "name": "Harry Streeter",
+            "url": "https://stephen-king-api.onrender.com/api/character/483"
+          },
+          {
+            "name": "Scott Carey",
+            "url": "https://stephen-king-api.onrender.com/api/character/495"
+          },
+          {
+            "name": "Deirdre McComb",
+            "url": "https://stephen-king-api.onrender.com/api/character/496"
+          },
+          {
+            "name": "Missy Donaldson",
+            "url": "https://stephen-king-api.onrender.com/api/character/497"
+          },
+          {
+            "name": "Bob Ellis",
+            "url": "https://stephen-king-api.onrender.com/api/character/498"
           }
         ],
         "villains": [
@@ -2485,8 +3729,16 @@
             "url": "https://stephen-king-api.onrender.com/api/villain/173"
           },
           {
+            "name": "Charlie Decker",
+            "url": "https://stephen-king-api.onrender.com/api/villain/179"
+          },
+          {
             "name": "Jim Dooley",
             "url": "https://stephen-king-api.onrender.com/api/villain/187"
+          },
+          {
+            "name": "Ed Deepneau",
+            "url": "https://stephen-king-api.onrender.com/api/villain/340"
           }
         ]
       },
@@ -2508,7 +3760,16 @@
         ],
         "books": [],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Gary Jones",
+            "url": "https://stephen-king-api.onrender.com/api/character/387"
+          },
+          {
+            "name": "Tom McCourt",
+            "url": "https://stephen-king-api.onrender.com/api/character/419"
+          }
+        ],
         "villains": []
       },
       {
@@ -2566,6 +3827,14 @@
           {
             "name": "Wilfred James",
             "url": "https://stephen-king-api.onrender.com/api/villain/59"
+          },
+          {
+            "name": "Nick Andros",
+            "url": "https://stephen-king-api.onrender.com/api/character/226"
+          },
+          {
+            "name": "Abagail Freemantle",
+            "url": "https://stephen-king-api.onrender.com/api/character/228"
           }
         ],
         "villains": [
@@ -2605,7 +3874,16 @@
         ],
         "books": [],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Tom Billingsley",
+            "url": "https://stephen-king-api.onrender.com/api/character/368"
+          },
+          {
+            "name": "Audrey Wyler",
+            "url": "https://stephen-king-api.onrender.com/api/character/369"
+          }
+        ],
         "villains": []
       },
       {
@@ -2634,7 +3912,32 @@
         ],
         "books": [],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Abra Stone",
+            "url": "https://stephen-king-api.onrender.com/api/character/459"
+          },
+          {
+            "name": "John Dalton",
+            "url": "https://stephen-king-api.onrender.com/api/character/460"
+          },
+          {
+            "name": "Billy Freeman",
+            "url": "https://stephen-king-api.onrender.com/api/character/461"
+          },
+          {
+            "name": "David Stone",
+            "url": "https://stephen-king-api.onrender.com/api/character/462"
+          },
+          {
+            "name": "Lucy Stone",
+            "url": "https://stephen-king-api.onrender.com/api/character/463"
+          },
+          {
+            "name": "Casey Kingsley",
+            "url": "https://stephen-king-api.onrender.com/api/character/464"
+          }
+        ],
         "villains": []
       },
       {
@@ -2659,8 +3962,62 @@
         ],
         "books": [],
         "shorts": [],
-        "characters": [],
-        "villains": []
+        "characters": [
+          {
+            "name": "Richard Ginelli",
+            "url": "https://stephen-king-api.onrender.com/api/character/301"
+          },
+          {
+            "name": "Eddie Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/306"
+          },
+          {
+            "name": "Susannah Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/307"
+          },
+          {
+            "name": "Henry Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/308"
+          },
+          {
+            "name": "Enrico Balazar",
+            "url": "https://stephen-king-api.onrender.com/api/villain/309"
+          },
+          {
+            "name": "Paul Sheldon",
+            "url": "https://stephen-king-api.onrender.com/api/character/310"
+          },
+          {
+            "name": "Elmer Chambers",
+            "url": "https://stephen-king-api.onrender.com/api/character/328"
+          },
+          {
+            "name": "Calvin Tower",
+            "url": "https://stephen-king-api.onrender.com/api/character/329"
+          },
+          {
+            "name": "John Storrow",
+            "url": "https://stephen-king-api.onrender.com/api/character/383"
+          },
+          {
+            "name": "Jamie Conklin",
+            "url": "https://stephen-king-api.onrender.com/api/character/509"
+          },
+          {
+            "name": "Tia Conklin",
+            "url": "https://stephen-king-api.onrender.com/api/character/510"
+          },
+          {
+            "name": "Martin Burkett",
+            "url": "https://stephen-king-api.onrender.com/api/character/511"
+          }
+        ],
+        "villains": [
+          {
+            "name": "Enrico Balazar",
+            "url": "https://stephen-king-api.onrender.com/api/villain/309"
+          }
+        ]
       },
       {
         "id": 35,
@@ -2680,7 +4037,20 @@
         ],
         "books": [],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Devin Jones",
+            "url": "https://stephen-king-api.onrender.com/api/character/454"
+          },
+          {
+            "name": "Mike Ross",
+            "url": "https://stephen-king-api.onrender.com/api/character/455"
+          },
+          {
+            "name": "Annie Ross",
+            "url": "https://stephen-king-api.onrender.com/api/character/456"
+          }
+        ],
         "villains": []
       },
       {
@@ -2705,6 +4075,30 @@
           {
             "name": "Charlie McGee",
             "url": "https://stephen-king-api.onrender.com/api/villain/73"
+          },
+          {
+            "name": "Andy McGee",
+            "url": "https://stephen-king-api.onrender.com/api/character/245"
+          },
+          {
+            "name": "Vicky Tomlinson",
+            "url": "https://stephen-king-api.onrender.com/api/character/248"
+          },
+          {
+            "name": "Tom Billingsley",
+            "url": "https://stephen-king-api.onrender.com/api/character/368"
+          },
+          {
+            "name": "Audrey Wyler",
+            "url": "https://stephen-king-api.onrender.com/api/character/369"
+          },
+          {
+            "name": "Seth Garin",
+            "url": "https://stephen-king-api.onrender.com/api/character/370"
+          },
+          {
+            "name": "Cammie Reed",
+            "url": "https://stephen-king-api.onrender.com/api/character/371"
           }
         ],
         "villains": [
@@ -2736,7 +4130,32 @@
         ],
         "books": [],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Tom Cullen",
+            "url": "https://stephen-king-api.onrender.com/api/character/229"
+          },
+          {
+            "name": "Ralph Anderson",
+            "url": "https://stephen-king-api.onrender.com/api/character/490"
+          },
+          {
+            "name": "Jeannie Anderson",
+            "url": "https://stephen-king-api.onrender.com/api/character/491"
+          },
+          {
+            "name": "Terry Maitland",
+            "url": "https://stephen-king-api.onrender.com/api/character/492"
+          },
+          {
+            "name": "Marcy Maitland",
+            "url": "https://stephen-king-api.onrender.com/api/character/493"
+          },
+          {
+            "name": "Howie Gold",
+            "url": "https://stephen-king-api.onrender.com/api/character/494"
+          }
+        ],
         "villains": []
       },
       {
@@ -2761,7 +4180,16 @@
         ],
         "books": [],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Stuart Redman",
+            "url": "https://stephen-king-api.onrender.com/api/character/223"
+          },
+          {
+            "name": "Sadie Dunhill",
+            "url": "https://stephen-king-api.onrender.com/api/character/447"
+          }
+        ],
         "villains": []
       },
       {
@@ -2841,6 +4269,10 @@
           {
             "name": "Wilfred James",
             "url": "https://stephen-king-api.onrender.com/api/villain/59"
+          },
+          {
+            "name": "Abagail Freemantle",
+            "url": "https://stephen-king-api.onrender.com/api/character/228"
           }
         ],
         "villains": [
@@ -2885,6 +4317,18 @@
           {
             "name": "Eldred Jonas",
             "url": "https://stephen-king-api.onrender.com/api/villain/60"
+          },
+          {
+            "name": "Susan Delgado",
+            "url": "https://stephen-king-api.onrender.com/api/character/372"
+          },
+          {
+            "name": "Sheemie Ruiz",
+            "url": "https://stephen-king-api.onrender.com/api/character/375"
+          },
+          {
+            "name": "Hart Thorin",
+            "url": "https://stephen-king-api.onrender.com/api/character/378"
           }
         ],
         "villains": [
@@ -2955,6 +4399,34 @@
           {
             "name": "Marten Broadcloak",
             "url": "https://stephen-king-api.onrender.com/api/villain/10"
+          },
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265"
+          },
+          {
+            "name": "Cortland Andrus",
+            "url": "https://stephen-king-api.onrender.com/api/character/269"
+          },
+          {
+            "name": "Cuthbert Allgood",
+            "url": "https://stephen-king-api.onrender.com/api/character/373"
+          },
+          {
+            "name": "Alain Johns",
+            "url": "https://stephen-king-api.onrender.com/api/character/374"
+          },
+          {
+            "name": "Steven Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/376"
+          },
+          {
+            "name": "Gabrielle Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/377"
+          },
+          {
+            "name": "Jamie DeCurry",
+            "url": "https://stephen-king-api.onrender.com/api/character/453"
           }
         ],
         "villains": [
@@ -2987,7 +4459,12 @@
             "url": "https://stephen-king-api.onrender.com/api/short/71"
           }
         ],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Stuart Redman",
+            "url": "https://stephen-king-api.onrender.com/api/character/223"
+          }
+        ],
         "villains": []
       },
       {
@@ -3070,7 +4547,12 @@
         "places": [],
         "books": [],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Gary Jones",
+            "url": "https://stephen-king-api.onrender.com/api/character/387"
+          }
+        ],
         "villains": []
       },
       {
@@ -3099,7 +4581,16 @@
           }
         ],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Kojak",
+            "url": "https://stephen-king-api.onrender.com/api/character/232"
+          },
+          {
+            "name": "Duane Kushner",
+            "url": "https://stephen-king-api.onrender.com/api/character/311"
+          }
+        ],
         "villains": []
       },
       {
@@ -3189,6 +4680,26 @@
           {
             "name": "Donald Callahan",
             "url": "https://stephen-king-api.onrender.com/api/character/206"
+          },
+          {
+            "name": "Tian Jaffords",
+            "url": "https://stephen-king-api.onrender.com/api/character/405"
+          },
+          {
+            "name": "Zalia Jaffords",
+            "url": "https://stephen-king-api.onrender.com/api/character/406"
+          },
+          {
+            "name": "Rosalita Munoz",
+            "url": "https://stephen-king-api.onrender.com/api/character/407"
+          },
+          {
+            "name": "Margaret Eisenhart",
+            "url": "https://stephen-king-api.onrender.com/api/character/408"
+          },
+          {
+            "name": "Benjamin Slightman, Jr.",
+            "url": "https://stephen-king-api.onrender.com/api/character/409"
           }
         ],
         "villains": [
@@ -3211,7 +4722,12 @@
         "places": [],
         "books": [],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Nick Andros",
+            "url": "https://stephen-king-api.onrender.com/api/character/226"
+          }
+        ],
         "villains": []
       },
       {
@@ -3350,6 +4866,86 @@
           {
             "name": "Vince Desjardins",
             "url": "https://stephen-king-api.onrender.com/api/villain/173"
+          },
+          {
+            "name": "George Bannerman",
+            "url": "https://stephen-king-api.onrender.com/api/character/241"
+          },
+          {
+            "name": "Donna Trenton",
+            "url": "https://stephen-king-api.onrender.com/api/character/253"
+          },
+          {
+            "name": "Vic Trenton",
+            "url": "https://stephen-king-api.onrender.com/api/character/254"
+          },
+          {
+            "name": "Tad Trenton",
+            "url": "https://stephen-king-api.onrender.com/api/character/255"
+          },
+          {
+            "name": "Joe Camber",
+            "url": "https://stephen-king-api.onrender.com/api/character/256"
+          },
+          {
+            "name": "Charity Camber",
+            "url": "https://stephen-king-api.onrender.com/api/character/257"
+          },
+          {
+            "name": "Brett Camber",
+            "url": "https://stephen-king-api.onrender.com/api/character/258"
+          },
+          {
+            "name": "Gary Pervier",
+            "url": "https://stephen-king-api.onrender.com/api/character/260"
+          },
+          {
+            "name": "Alan Pangborn",
+            "url": "https://stephen-king-api.onrender.com/api/character/322"
+          },
+          {
+            "name": "Norris Ridgewick",
+            "url": "https://stephen-king-api.onrender.com/api/character/323"
+          },
+          {
+            "name": "Polly Chalmers",
+            "url": "https://stephen-king-api.onrender.com/api/character/330"
+          },
+          {
+            "name": "Brian Rusk",
+            "url": "https://stephen-king-api.onrender.com/api/character/331"
+          },
+          {
+            "name": "Nettie Cobb",
+            "url": "https://stephen-king-api.onrender.com/api/character/332"
+          },
+          {
+            "name": "Wilma Jerzyck",
+            "url": "https://stephen-king-api.onrender.com/api/character/333"
+          },
+          {
+            "name": "Gwendy Peterson",
+            "url": "https://stephen-king-api.onrender.com/api/character/481"
+          },
+          {
+            "name": "Harry Streeter",
+            "url": "https://stephen-king-api.onrender.com/api/character/483"
+          },
+          {
+            "name": "Scott Carey",
+            "url": "https://stephen-king-api.onrender.com/api/character/495"
+          },
+          {
+            "name": "Deirdre McComb",
+            "url": "https://stephen-king-api.onrender.com/api/character/496"
+          },
+          {
+            "name": "Missy Donaldson",
+            "url": "https://stephen-king-api.onrender.com/api/character/497"
+          },
+          {
+            "name": "Bob Ellis",
+            "url": "https://stephen-king-api.onrender.com/api/character/498"
           }
         ],
         "villains": [
@@ -3454,7 +5050,16 @@
             "url": "https://stephen-king-api.onrender.com/api/short/215"
           }
         ],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Lisey Landon",
+            "url": "https://stephen-king-api.onrender.com/api/character/423"
+          },
+          {
+            "name": "Scott Landon",
+            "url": "https://stephen-king-api.onrender.com/api/character/424"
+          }
+        ],
         "villains": []
       },
       {
@@ -3556,6 +5161,22 @@
           {
             "name": "Tommy Erbter",
             "url": "https://stephen-king-api.onrender.com/api/villain/170"
+          },
+          {
+            "name": "Carrie White",
+            "url": "https://stephen-king-api.onrender.com/api/character/215"
+          },
+          {
+            "name": "Sue Snell",
+            "url": "https://stephen-king-api.onrender.com/api/character/216"
+          },
+          {
+            "name": "Tommy Ross",
+            "url": "https://stephen-king-api.onrender.com/api/character/217"
+          },
+          {
+            "name": "Miss Desjardin",
+            "url": "https://stephen-king-api.onrender.com/api/character/218"
           }
         ],
         "villains": [
@@ -3689,6 +5310,46 @@
           {
             "name": "Carter Thibodeau",
             "url": "https://stephen-king-api.onrender.com/api/villain/101"
+          },
+          {
+            "name": "Dale Barbara",
+            "url": "https://stephen-king-api.onrender.com/api/character/435"
+          },
+          {
+            "name": "Julia Shumway",
+            "url": "https://stephen-king-api.onrender.com/api/character/436"
+          },
+          {
+            "name": "Rusty Everett",
+            "url": "https://stephen-king-api.onrender.com/api/character/437"
+          },
+          {
+            "name": "Joe McClatchey",
+            "url": "https://stephen-king-api.onrender.com/api/character/438"
+          },
+          {
+            "name": "Brenda Perkins",
+            "url": "https://stephen-king-api.onrender.com/api/character/439"
+          },
+          {
+            "name": "Andy Sanders",
+            "url": "https://stephen-king-api.onrender.com/api/character/440"
+          },
+          {
+            "name": "Phil Bushey",
+            "url": "https://stephen-king-api.onrender.com/api/character/441"
+          },
+          {
+            "name": "Peter Randolph",
+            "url": "https://stephen-king-api.onrender.com/api/character/442"
+          },
+          {
+            "name": "Howard Perkins",
+            "url": "https://stephen-king-api.onrender.com/api/character/443"
+          },
+          {
+            "name": "Lester Coggins",
+            "url": "https://stephen-king-api.onrender.com/api/character/444"
           }
         ],
         "villains": [
@@ -3766,7 +5427,12 @@
           }
         ],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Bill Streeter",
+            "url": "https://stephen-king-api.onrender.com/api/character/452"
+          }
+        ],
         "villains": []
       },
       {
@@ -4009,6 +5675,58 @@
           {
             "name": "Stan Uris",
             "url": "https://stephen-king-api.onrender.com/api/character/213"
+          },
+          {
+            "name": "Georgie Denbrough",
+            "url": "https://stephen-king-api.onrender.com/api/character/302"
+          },
+          {
+            "name": "William Hanlon",
+            "url": "https://stephen-king-api.onrender.com/api/character/304"
+          },
+          {
+            "name": "Eddie Corcoran",
+            "url": "https://stephen-king-api.onrender.com/api/character/305"
+          },
+          {
+            "name": "Ralph Roberts",
+            "url": "https://stephen-king-api.onrender.com/api/character/338"
+          },
+          {
+            "name": "Lois Chasse",
+            "url": "https://stephen-king-api.onrender.com/api/character/339"
+          },
+          {
+            "name": "Ed Deepneau",
+            "url": "https://stephen-king-api.onrender.com/api/villain/340"
+          },
+          {
+            "name": "Helen Deepneau",
+            "url": "https://stephen-king-api.onrender.com/api/character/341"
+          },
+          {
+            "name": "Natalie Deepneau",
+            "url": "https://stephen-king-api.onrender.com/api/character/342"
+          },
+          {
+            "name": "Patrick Danville",
+            "url": "https://stephen-king-api.onrender.com/api/character/343"
+          },
+          {
+            "name": "Mike Noonan",
+            "url": "https://stephen-king-api.onrender.com/api/character/379"
+          },
+          {
+            "name": "Johanna Arlen",
+            "url": "https://stephen-king-api.onrender.com/api/character/380"
+          },
+          {
+            "name": "Douglas Cavell",
+            "url": "https://stephen-king-api.onrender.com/api/character/391"
+          },
+          {
+            "name": "Harry Dunning",
+            "url": "https://stephen-king-api.onrender.com/api/character/449"
           }
         ],
         "villains": [
@@ -4079,6 +5797,10 @@
           {
             "name": "George Bradley",
             "url": "https://stephen-king-api.onrender.com/api/villain/136"
+          },
+          {
+            "name": "Ed Deepneau",
+            "url": "https://stephen-king-api.onrender.com/api/villain/340"
           }
         ]
       },
@@ -4104,7 +5826,16 @@
           }
         ],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Tom Billingsley",
+            "url": "https://stephen-king-api.onrender.com/api/character/368"
+          },
+          {
+            "name": "Audrey Wyler",
+            "url": "https://stephen-king-api.onrender.com/api/character/369"
+          }
+        ],
         "villains": []
       },
       {
@@ -4281,6 +6012,14 @@
           {
             "name": "Charlie McGee",
             "url": "https://stephen-king-api.onrender.com/api/villain/73"
+          },
+          {
+            "name": "Andy McGee",
+            "url": "https://stephen-king-api.onrender.com/api/character/245"
+          },
+          {
+            "name": "Vicky Tomlinson",
+            "url": "https://stephen-king-api.onrender.com/api/character/248"
           }
         ],
         "villains": [
@@ -4364,7 +6103,40 @@
             "url": "https://stephen-king-api.onrender.com/api/short/96"
           }
         ],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Rebecca Paulson",
+            "url": "https://stephen-king-api.onrender.com/api/character/312"
+          },
+          {
+            "name": "Joe Paulson",
+            "url": "https://stephen-king-api.onrender.com/api/character/313"
+          },
+          {
+            "name": "Roberta Anderson",
+            "url": "https://stephen-king-api.onrender.com/api/character/314"
+          },
+          {
+            "name": "Jim Gardener",
+            "url": "https://stephen-king-api.onrender.com/api/character/315"
+          },
+          {
+            "name": "Ev Hillman",
+            "url": "https://stephen-king-api.onrender.com/api/character/316"
+          },
+          {
+            "name": "David Brown",
+            "url": "https://stephen-king-api.onrender.com/api/character/317"
+          },
+          {
+            "name": "Ruth McCausland",
+            "url": "https://stephen-king-api.onrender.com/api/character/318"
+          },
+          {
+            "name": "Peter (dog)",
+            "url": "https://stephen-king-api.onrender.com/api/character/319"
+          }
+        ],
         "villains": []
       },
       {
@@ -4390,7 +6162,20 @@
           }
         ],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Devin Jones",
+            "url": "https://stephen-king-api.onrender.com/api/character/454"
+          },
+          {
+            "name": "Mike Ross",
+            "url": "https://stephen-king-api.onrender.com/api/character/455"
+          },
+          {
+            "name": "Annie Ross",
+            "url": "https://stephen-king-api.onrender.com/api/character/456"
+          }
+        ],
         "villains": []
       },
       {
@@ -4660,6 +6445,18 @@
           {
             "name": "Joe St. George",
             "url": "https://stephen-king-api.onrender.com/api/villain/95"
+          },
+          {
+            "name": "Dolores Claiborne",
+            "url": "https://stephen-king-api.onrender.com/api/character/335"
+          },
+          {
+            "name": "Vera Donovan",
+            "url": "https://stephen-king-api.onrender.com/api/character/336"
+          },
+          {
+            "name": "Selena St. George",
+            "url": "https://stephen-king-api.onrender.com/api/character/337"
           }
         ],
         "villains": [
@@ -4686,6 +6483,14 @@
           {
             "name": "Jim Dooley",
             "url": "https://stephen-king-api.onrender.com/api/villain/187"
+          },
+          {
+            "name": "Amanda Debusher",
+            "url": "https://stephen-king-api.onrender.com/api/character/425"
+          },
+          {
+            "name": "Darla Debusher",
+            "url": "https://stephen-king-api.onrender.com/api/character/426"
           }
         ],
         "villains": [
@@ -4713,8 +6518,26 @@
           }
         ],
         "shorts": [],
-        "characters": [],
-        "villains": []
+        "characters": [
+          {
+            "name": "Andrew Quick",
+            "url": "https://stephen-king-api.onrender.com/api/villain/325"
+          },
+          {
+            "name": "Gasher",
+            "url": "https://stephen-king-api.onrender.com/api/villain/326"
+          }
+        ],
+        "villains": [
+          {
+            "name": "Andrew Quick",
+            "url": "https://stephen-king-api.onrender.com/api/villain/325"
+          },
+          {
+            "name": "Gasher",
+            "url": "https://stephen-king-api.onrender.com/api/villain/326"
+          }
+        ]
       },
       {
         "id": 86,
@@ -4746,6 +6569,30 @@
           {
             "name": "Gage Creed",
             "url": "https://stephen-king-api.onrender.com/api/villain/15"
+          },
+          {
+            "name": "Louis Creed",
+            "url": "https://stephen-king-api.onrender.com/api/character/274"
+          },
+          {
+            "name": "Rachel Creed",
+            "url": "https://stephen-king-api.onrender.com/api/character/275"
+          },
+          {
+            "name": "Jud Crandall",
+            "url": "https://stephen-king-api.onrender.com/api/character/276"
+          },
+          {
+            "name": "Ellie Creed",
+            "url": "https://stephen-king-api.onrender.com/api/character/277"
+          },
+          {
+            "name": "Thaddeus Beaumont",
+            "url": "https://stephen-king-api.onrender.com/api/character/320"
+          },
+          {
+            "name": "Liz Beaumont",
+            "url": "https://stephen-king-api.onrender.com/api/character/321"
           }
         ],
         "villains": [
@@ -4772,7 +6619,12 @@
         "places": [],
         "books": [],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Tom Cullen",
+            "url": "https://stephen-king-api.onrender.com/api/character/229"
+          }
+        ],
         "villains": []
       },
       {
@@ -4806,7 +6658,20 @@
           }
         ],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Stephanie McCann",
+            "url": "https://stephen-king-api.onrender.com/api/character/414"
+          },
+          {
+            "name": "Vince Teague",
+            "url": "https://stephen-king-api.onrender.com/api/character/415"
+          },
+          {
+            "name": "Dave Bowie",
+            "url": "https://stephen-king-api.onrender.com/api/character/416"
+          }
+        ],
         "villains": []
       },
       {
@@ -4879,8 +6744,58 @@
         ],
         "books": [],
         "shorts": [],
-        "characters": [],
-        "villains": []
+        "characters": [
+          {
+            "name": "Eddie Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/306"
+          },
+          {
+            "name": "Susannah Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/307"
+          },
+          {
+            "name": "Henry Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/308"
+          },
+          {
+            "name": "Enrico Balazar",
+            "url": "https://stephen-king-api.onrender.com/api/villain/309"
+          },
+          {
+            "name": "Paul Sheldon",
+            "url": "https://stephen-king-api.onrender.com/api/character/310"
+          },
+          {
+            "name": "Elmer Chambers",
+            "url": "https://stephen-king-api.onrender.com/api/character/328"
+          },
+          {
+            "name": "Calvin Tower",
+            "url": "https://stephen-king-api.onrender.com/api/character/329"
+          },
+          {
+            "name": "John Storrow",
+            "url": "https://stephen-king-api.onrender.com/api/character/383"
+          },
+          {
+            "name": "Jamie Conklin",
+            "url": "https://stephen-king-api.onrender.com/api/character/509"
+          },
+          {
+            "name": "Tia Conklin",
+            "url": "https://stephen-king-api.onrender.com/api/character/510"
+          },
+          {
+            "name": "Martin Burkett",
+            "url": "https://stephen-king-api.onrender.com/api/character/511"
+          }
+        ],
+        "villains": [
+          {
+            "name": "Enrico Balazar",
+            "url": "https://stephen-king-api.onrender.com/api/villain/309"
+          }
+        ]
       },
       {
         "id": 91,
@@ -4920,6 +6835,10 @@
           {
             "name": "Harold Lauder",
             "url": "https://stephen-king-api.onrender.com/api/villain/64"
+          },
+          {
+            "name": "Frances Goldsmith",
+            "url": "https://stephen-king-api.onrender.com/api/character/224"
           }
         ],
         "villains": [
@@ -4947,8 +6866,22 @@
           }
         ],
         "shorts": [],
-        "characters": [],
-        "villains": []
+        "characters": [
+          {
+            "name": "Charlie Decker",
+            "url": "https://stephen-king-api.onrender.com/api/villain/179"
+          },
+          {
+            "name": "Ted Jones",
+            "url": "https://stephen-king-api.onrender.com/api/character/222"
+          }
+        ],
+        "villains": [
+          {
+            "name": "Charlie Decker",
+            "url": "https://stephen-king-api.onrender.com/api/villain/179"
+          }
+        ]
       },
       {
         "id": 94,
@@ -4989,7 +6922,12 @@
           }
         ],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Jessie Burlingame",
+            "url": "https://stephen-king-api.onrender.com/api/character/334"
+          }
+        ],
         "villains": []
       },
       {
@@ -5014,6 +6952,10 @@
           {
             "name": "Bob Anderson",
             "url": "https://stephen-king-api.onrender.com/api/villain/1"
+          },
+          {
+            "name": "Raymond Garraty",
+            "url": "https://stephen-king-api.onrender.com/api/character/233"
           }
         ],
         "villains": [
@@ -5156,7 +7098,12 @@
           }
         ],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Talitha Unwin",
+            "url": "https://stephen-king-api.onrender.com/api/character/327"
+          }
+        ],
         "villains": []
       },
       {
@@ -5198,7 +7145,24 @@
         ],
         "books": [],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Edgar Freemantle",
+            "url": "https://stephen-king-api.onrender.com/api/character/429"
+          },
+          {
+            "name": "Wireman",
+            "url": "https://stephen-king-api.onrender.com/api/character/430"
+          },
+          {
+            "name": "Elizabeth Eastlake",
+            "url": "https://stephen-king-api.onrender.com/api/character/431"
+          },
+          {
+            "name": "Jack Cantori",
+            "url": "https://stephen-king-api.onrender.com/api/character/433"
+          }
+        ],
         "villains": []
       },
       {
@@ -5219,7 +7183,12 @@
           }
         ],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Nick Andros",
+            "url": "https://stephen-king-api.onrender.com/api/character/226"
+          }
+        ],
         "villains": []
       },
       {
@@ -5331,6 +7300,26 @@
           {
             "name": "Lester Lowe",
             "url": "https://stephen-king-api.onrender.com/api/villain/68"
+          },
+          {
+            "name": "Marty Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/278"
+          },
+          {
+            "name": "Herman Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/280"
+          },
+          {
+            "name": "Nan Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/281"
+          },
+          {
+            "name": "Kate Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/282"
+          },
+          {
+            "name": "Lander Neary",
+            "url": "https://stephen-king-api.onrender.com/api/character/283"
           }
         ],
         "villains": [
@@ -5467,7 +7456,20 @@
             "url": "https://stephen-king-api.onrender.com/api/short/215"
           }
         ],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Mattie Devore",
+            "url": "https://stephen-king-api.onrender.com/api/character/381"
+          },
+          {
+            "name": "Kyra Devore",
+            "url": "https://stephen-king-api.onrender.com/api/character/382"
+          },
+          {
+            "name": "Bill Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/384"
+          }
+        ],
         "villains": []
       },
       {
@@ -5518,6 +7520,10 @@
           {
             "name": "Sylvia Pittston",
             "url": "https://stephen-king-api.onrender.com/api/villain/84"
+          },
+          {
+            "name": "Alice",
+            "url": "https://stephen-king-api.onrender.com/api/character/267"
           }
         ],
         "villains": [
@@ -6009,6 +8015,34 @@
           {
             "name": "Marten Broadcloak",
             "url": "https://stephen-king-api.onrender.com/api/villain/10"
+          },
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265"
+          },
+          {
+            "name": "Cortland Andrus",
+            "url": "https://stephen-king-api.onrender.com/api/character/269"
+          },
+          {
+            "name": "Cuthbert Allgood",
+            "url": "https://stephen-king-api.onrender.com/api/character/373"
+          },
+          {
+            "name": "Alain Johns",
+            "url": "https://stephen-king-api.onrender.com/api/character/374"
+          },
+          {
+            "name": "Steven Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/376"
+          },
+          {
+            "name": "Gabrielle Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/377"
+          },
+          {
+            "name": "Jamie DeCurry",
+            "url": "https://stephen-king-api.onrender.com/api/character/453"
           }
         ],
         "villains": [
@@ -6044,6 +8078,18 @@
           {
             "name": "Eldred Jonas",
             "url": "https://stephen-king-api.onrender.com/api/villain/60"
+          },
+          {
+            "name": "Susan Delgado",
+            "url": "https://stephen-king-api.onrender.com/api/character/372"
+          },
+          {
+            "name": "Sheemie Ruiz",
+            "url": "https://stephen-king-api.onrender.com/api/character/375"
+          },
+          {
+            "name": "Hart Thorin",
+            "url": "https://stephen-king-api.onrender.com/api/character/378"
           }
         ],
         "villains": [
@@ -6124,6 +8170,10 @@
           {
             "name": "Wilfred James",
             "url": "https://stephen-king-api.onrender.com/api/villain/59"
+          },
+          {
+            "name": "Abagail Freemantle",
+            "url": "https://stephen-king-api.onrender.com/api/character/228"
           }
         ],
         "villains": [

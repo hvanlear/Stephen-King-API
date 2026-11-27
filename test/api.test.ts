@@ -264,9 +264,12 @@ describe("links", () => {
       ["Bill Denbrough", "Ben Hanscom", "Beverly Marsh", "Richie Tozier", "Eddie Kaspbrak", "Mike Hanlon", "Stan Uris"]
     );
     assert.equal(it.villains.find((link: { name: string }) => link.name === "It (Creature)").role, "antagonist");
-    // Beverly and Richie are in 11/22/63, as minor characters
+    // Beverly and Richie are in 11/22/63, as minor characters, and Jake Epping leads it
     const jfk = await book("11/22/63");
-    assert.deepEqual(jfk.protagonists, []);
+    assert.deepEqual(
+      jfk.protagonists.map((link: { name: string }) => link.name),
+      ["Jake Epping"]
+    );
     assert.equal(jfk.characters.find((link: { name: string }) => link.name === "Beverly Marsh").role, "minor");
   });
 

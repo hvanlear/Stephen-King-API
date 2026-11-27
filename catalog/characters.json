@@ -104,7 +104,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "minor"
     },
     "residence": [
       "chamberlain-maine"
@@ -379,7 +379,7 @@
     "types_id": 8,
     "group": false,
     "appears_in": {
-      "pet-sematary": null
+      "pet-sematary": "supporting"
     },
     "residence": [
       "ludlow-maine"
@@ -405,7 +405,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "minor"
     },
     "residence": [
       "chamberlain-maine"
@@ -437,7 +437,7 @@
     "types_id": 3,
     "group": false,
     "appears_in": {
-      "pet-sematary": null
+      "pet-sematary": "antagonist"
     },
     "residence": [
       "ludlow-maine"
@@ -464,7 +464,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "minor"
     },
     "residence": [
       "chamberlain-maine"
@@ -562,7 +562,7 @@
     "types_id": 8,
     "group": false,
     "appears_in": {
-      "cujo": null
+      "cujo": "antagonist"
     },
     "residence": [
       "castle-rock-maine"
@@ -589,7 +589,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "christine": null
+      "christine": "protagonist"
     },
     "residence": [],
     "kinds": [],
@@ -617,7 +617,7 @@
     "types_id": 2,
     "group": false,
     "appears_in": {
-      "the-dark-tower-vii-the-dark-tower": null
+      "the-dark-tower-vii-the-dark-tower": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -637,7 +637,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "rose-madder": null
+      "rose-madder": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -683,7 +683,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-dark-tower-iv-wizard-and-glass": null
+      "the-dark-tower-iv-wizard-and-glass": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -705,7 +705,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "minor"
     },
     "residence": [
       "chamberlain-maine"
@@ -809,7 +809,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-dead-zone": null
+      "the-dead-zone": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -835,7 +835,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-dead-zone": null
+      "the-dead-zone": "minor"
     },
     "residence": [],
     "kinds": [],
@@ -856,7 +856,7 @@
     "types_id": 2,
     "group": false,
     "appears_in": {
-      "doctor-sleep": null
+      "doctor-sleep": "antagonist"
     },
     "residence": [],
     "kinds": [
@@ -883,7 +883,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-dark-tower-iv-wizard-and-glass": null
+      "the-dark-tower-iv-wizard-and-glass": "antagonist"
     },
     "residence": [
       "hambry-mejis"
@@ -983,7 +983,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-dark-tower-iv-wizard-and-glass": null
+      "the-dark-tower-iv-wizard-and-glass": "minor"
     },
     "residence": [],
     "kinds": [],
@@ -1040,7 +1040,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "minor"
     },
     "residence": [
       "chamberlain-maine"
@@ -1100,7 +1100,7 @@
     "types_id": 3,
     "group": false,
     "appears_in": {
-      "needful-things": null
+      "needful-things": "antagonist"
     },
     "residence": [
       "castle-rock-maine"
@@ -1126,7 +1126,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "gerald-s-game": null
+      "gerald-s-game": "supporting"
     },
     "residence": [
       "maine"
@@ -1200,7 +1200,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "minor"
     },
     "residence": [
       "chamberlain-maine"
@@ -1227,7 +1227,7 @@
     "types_id": 7,
     "group": false,
     "appears_in": {
-      "the-shining": null
+      "the-shining": "supporting"
     },
     "residence": [
       "overlook-hotel"
@@ -1298,7 +1298,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "joyland": null
+      "joyland": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -1320,7 +1320,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "antagonist"
     },
     "residence": [
       "chamberlain-maine"
@@ -1404,7 +1404,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-institute": null
+      "the-institute": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -1470,7 +1470,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "firestarter": null
+      "firestarter": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -1664,7 +1664,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-dark-tower-iv-wizard-and-glass": null
+      "the-dark-tower-iv-wizard-and-glass": "antagonist"
     },
     "residence": [
       "hambry-mejis"
@@ -1688,7 +1688,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "gerald-s-game": null
+      "gerald-s-game": "antagonist"
     },
     "residence": [
       "maine"
@@ -1715,7 +1715,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-stand-uncut": null
+      "the-stand-uncut": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -1736,7 +1736,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-running-man": null
+      "the-running-man": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -1809,7 +1809,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "from-a-buick-8": null
+      "from-a-buick-8": "minor"
     },
     "residence": [],
     "kinds": [],
@@ -1852,7 +1852,7 @@
     "types_id": 3,
     "group": false,
     "appears_in": {
-      "cycle-of-the-werewolf": null
+      "cycle-of-the-werewolf": "antagonist"
     },
     "residence": [
       "tarker-s-mill-maine"
@@ -1909,7 +1909,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-long-walk": null
+      "the-long-walk": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -1980,7 +1980,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "firestarter": null
+      "firestarter": "protagonist"
     },
     "residence": [
       "harrison-ohio"
@@ -2041,7 +2041,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "minor"
     },
     "residence": [
       "chamberlain-maine"
@@ -2075,7 +2075,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-dark-tower-ii-the-drawing-of-the-three": null
+      "the-dark-tower-ii-the-drawing-of-the-three": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -2099,7 +2099,7 @@
     "types_id": 1,
     "group": true,
     "appears_in": {
-      "carrie": null
+      "carrie": "minor"
     },
     "residence": [],
     "kinds": [],
@@ -2126,7 +2126,7 @@
     "types_id": 3,
     "group": false,
     "appears_in": {
-      "revival": null
+      "revival": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -2173,7 +2173,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "supporting"
     },
     "residence": [
       "chamberlain-maine"
@@ -2230,7 +2230,7 @@
     "types_id": 3,
     "group": false,
     "appears_in": {
-      "the-outsider": null
+      "the-outsider": "antagonist"
     },
     "residence": [],
     "kinds": [
@@ -2253,7 +2253,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "pet-sematary": null
+      "pet-sematary": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -2299,7 +2299,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "cell": null
+      "cell": "antagonist"
     },
     "residence": [],
     "kinds": [
@@ -2321,7 +2321,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "firestarter": null
+      "firestarter": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -2367,7 +2367,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "under-the-dome": null
+      "under-the-dome": "supporting"
     },
     "residence": [
       "chester-s-mill-maine"
@@ -2397,7 +2397,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "under-the-dome": null
+      "under-the-dome": "antagonist"
     },
     "residence": [
       "chester-s-mill-maine"
@@ -2426,7 +2426,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "minor"
     },
     "residence": [
       "chamberlain-maine"
@@ -2509,7 +2509,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-dead-zone": null
+      "the-dead-zone": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -2530,7 +2530,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "minor"
     },
     "residence": [
       "chamberlain-maine"
@@ -2562,7 +2562,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "dolores-claiborne": null
+      "dolores-claiborne": "antagonist"
     },
     "residence": [
       "little-tall-island"
@@ -2590,7 +2590,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-dark-half": null
+      "the-dark-half": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -2613,7 +2613,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-dead-zone": null
+      "the-dead-zone": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -2672,7 +2672,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "minor"
     },
     "residence": [
       "chamberlain-maine"
@@ -2705,7 +2705,7 @@
     "types_id": 1,
     "group": true,
     "appears_in": {
-      "the-dead-zone": null
+      "the-dead-zone": "minor"
     },
     "residence": [],
     "kinds": [],
@@ -2725,7 +2725,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "under-the-dome": null
+      "under-the-dome": "supporting"
     },
     "residence": [
       "chester-s-mill-maine"
@@ -2754,7 +2754,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "minor"
     },
     "residence": [
       "chamberlain-maine"
@@ -2787,7 +2787,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "gerald-s-game": null
+      "gerald-s-game": "antagonist"
     },
     "residence": [
       "maine"
@@ -2812,7 +2812,7 @@
     "types_id": 4,
     "group": true,
     "appears_in": {
-      "the-tommyknockers": null
+      "the-tommyknockers": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -2916,7 +2916,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "minor"
     },
     "residence": [
       "chamberlain-maine"
@@ -2947,7 +2947,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "minor"
     },
     "residence": [
       "chamberlain-maine"
@@ -2975,7 +2975,7 @@
     "types_id": 3,
     "group": false,
     "appears_in": {
-      "pet-sematary": null
+      "pet-sematary": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -2995,7 +2995,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-green-mile": null
+      "the-green-mile": "antagonist"
     },
     "residence": [
       "louisiana"
@@ -3020,7 +3020,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-green-mile": null
+      "the-green-mile": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -3042,7 +3042,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "antagonist"
     },
     "residence": [
       "motton-maine",
@@ -3075,7 +3075,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "misery": null
+      "misery": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -3173,7 +3173,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "finders-keepers": null
+      "finders-keepers": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -3223,7 +3223,7 @@
     "types_id": 3,
     "group": false,
     "appears_in": {
-      "insomnia": null
+      "insomnia": "supporting"
     },
     "residence": [],
     "kinds": [
@@ -3244,7 +3244,7 @@
     "types_id": 2,
     "group": false,
     "appears_in": {
-      "doctor-sleep": null
+      "doctor-sleep": "supporting"
     },
     "residence": [],
     "kinds": [
@@ -3270,7 +3270,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-dark-tower-the-wind-through-the-keyhole": null
+      "the-dark-tower-the-wind-through-the-keyhole": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -3339,7 +3339,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "christine": null
+      "christine": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -3415,7 +3415,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-dark-tower-iv-wizard-and-glass": null
+      "the-dark-tower-iv-wizard-and-glass": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -3460,7 +3460,7 @@
     "types_id": 2,
     "group": false,
     "appears_in": {
-      "doctor-sleep": null
+      "doctor-sleep": "supporting"
     },
     "residence": [],
     "kinds": [
@@ -3507,7 +3507,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-institute": null
+      "the-institute": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -3533,7 +3533,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "holly": null
+      "holly": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -3557,7 +3557,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "11-22-63": null
+      "11-22-63": "antagonist"
     },
     "residence": [
       "derry-maine"
@@ -3581,7 +3581,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "gwendy-s-button-box": null
+      "gwendy-s-button-box": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -3631,7 +3631,7 @@
     "types_id": 2,
     "group": false,
     "appears_in": {
-      "doctor-sleep": null
+      "doctor-sleep": "minor"
     },
     "residence": [],
     "kinds": [
@@ -3655,7 +3655,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "rose-madder": null
+      "rose-madder": "minor"
     },
     "residence": [],
     "kinds": [],
@@ -3744,7 +3744,7 @@
     "types_id": 2,
     "group": false,
     "appears_in": {
-      "doctor-sleep": null
+      "doctor-sleep": "supporting"
     },
     "residence": [],
     "kinds": [
@@ -3768,7 +3768,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-institute": null
+      "the-institute": "minor"
     },
     "residence": [],
     "kinds": [],
@@ -3812,7 +3812,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-institute": null
+      "the-institute": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -4001,7 +4001,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "christine": null
+      "christine": "minor"
     },
     "residence": [],
     "kinds": [],
@@ -4025,7 +4025,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-talisman": null
+      "the-talisman": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -4047,7 +4047,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "finders-keepers": null
+      "finders-keepers": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -4071,7 +4071,7 @@
     "types_id": 4,
     "group": false,
     "appears_in": {
-      "dreamcatcher": null
+      "dreamcatcher": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -4142,7 +4142,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-institute": null
+      "the-institute": "minor"
     },
     "residence": [],
     "kinds": [],
@@ -4191,7 +4191,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "holly": null
+      "holly": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -4215,7 +4215,7 @@
     "types_id": 7,
     "group": false,
     "appears_in": {
-      "the-shining": null
+      "the-shining": "minor"
     },
     "residence": [],
     "kinds": [],
@@ -4242,7 +4242,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-dark-tower-iv-wizard-and-glass": null
+      "the-dark-tower-iv-wizard-and-glass": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -4263,7 +4263,7 @@
     "types_id": 2,
     "group": false,
     "appears_in": {
-      "doctor-sleep": null
+      "doctor-sleep": "supporting"
     },
     "residence": [],
     "kinds": [
@@ -4399,7 +4399,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "carrie": null
+      "carrie": "minor"
     },
     "residence": [
       "chamberlain-maine"
@@ -4425,7 +4425,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-institute": null
+      "the-institute": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -4451,7 +4451,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-institute": null
+      "the-institute": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -4502,7 +4502,7 @@
     "types_id": 2,
     "group": false,
     "appears_in": {
-      "doctor-sleep": null
+      "doctor-sleep": "minor"
     },
     "residence": [],
     "kinds": [
@@ -4526,7 +4526,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-institute": null
+      "the-institute": "minor"
     },
     "residence": [],
     "kinds": [],
@@ -4548,7 +4548,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-institute": null
+      "the-institute": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -4575,7 +4575,7 @@
     "types_id": 6,
     "group": false,
     "appears_in": {
-      "the-dark-tower-v-wolves-of-the-calla": null
+      "the-dark-tower-v-wolves-of-the-calla": "supporting"
     },
     "residence": [],
     "kinds": [
@@ -4594,7 +4594,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-dark-tower-v-wolves-of-the-calla": null
+      "the-dark-tower-v-wolves-of-the-calla": "supporting"
     },
     "residence": [
       "calla-bryn-sturgis"
@@ -4617,9 +4617,11 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "rage": null
+      "rage": "protagonist"
     },
-    "residence": [],
+    "residence": [
+      "placerville-maine"
+    ],
     "kinds": [],
     "notes": [
       "Male Characters"
@@ -4636,7 +4638,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "sleeping-beauties": null
+      "sleeping-beauties": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -4653,7 +4655,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "sleeping-beauties": null
+      "sleeping-beauties": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -4670,7 +4672,7 @@
     "types_id": 3,
     "group": false,
     "appears_in": {
-      "fairy-tale": null
+      "fairy-tale": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -4687,7 +4689,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "sleeping-beauties": null
+      "sleeping-beauties": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -4704,7 +4706,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "gwendy-s-final-task": null
+      "gwendy-s-final-task": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -4721,7 +4723,7 @@
     "types_id": 3,
     "group": false,
     "appears_in": {
-      "the-girl-who-loved-tom-gordon": null
+      "the-girl-who-loved-tom-gordon": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -4738,7 +4740,7 @@
     "types_id": 3,
     "group": false,
     "appears_in": {
-      "fairy-tale": null
+      "fairy-tale": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -4755,7 +4757,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "lisey-s-story": null
+      "lisey-s-story": "antagonist"
     },
     "residence": [
       "lovell-maine"
@@ -4778,7 +4780,7 @@
     "types_id": 7,
     "group": false,
     "appears_in": {
-      "later": null
+      "later": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -4795,7 +4797,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "later": null
+      "later": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -4812,7 +4814,7 @@
     "types_id": 3,
     "group": false,
     "appears_in": {
-      "lisey-s-story": null
+      "lisey-s-story": "supporting"
     },
     "residence": [
       "boo-ya-moon"
@@ -4834,7 +4836,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "bag-of-bones": null
+      "bag-of-bones": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -4851,7 +4853,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "billy-summers": null
+      "billy-summers": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -4868,7 +4870,7 @@
     "types_id": 3,
     "group": false,
     "appears_in": {
-      "duma-key": null
+      "duma-key": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -4885,7 +4887,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "billy-summers": null
+      "billy-summers": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -4902,7 +4904,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "bag-of-bones": null
+      "bag-of-bones": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -4919,7 +4921,7 @@
     "types_id": 7,
     "group": false,
     "appears_in": {
-      "bag-of-bones": null
+      "bag-of-bones": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -4940,7 +4942,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "thinner": null
+      "thinner": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -4957,7 +4959,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "sleeping-beauties": null
+      "sleeping-beauties": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -4974,7 +4976,7 @@
     "types_id": 1,
     "group": true,
     "appears_in": {
-      "the-dark-tower-v-wolves-of-the-calla": null
+      "the-dark-tower-v-wolves-of-the-calla": "minor"
     },
     "residence": [],
     "kinds": [],
@@ -4991,7 +4993,7 @@
     "types_id": 6,
     "group": true,
     "appears_in": {
-      "the-dark-tower-v-wolves-of-the-calla": null
+      "the-dark-tower-v-wolves-of-the-calla": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -5320,5 +5322,5763 @@
     "kinds": [],
     "notes": [],
     "created_at": "2026-11-26T15:52:53.000Z"
+  },
+  {
+    "id": 215,
+    "name": "Carrie White",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "carrie": "protagonist"
+    },
+    "residence": [
+      "chamberlain-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:53:25.000Z"
+  },
+  {
+    "id": 216,
+    "name": "Sue Snell",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "carrie": "protagonist"
+    },
+    "residence": [
+      "chamberlain-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:53:25.000Z"
+  },
+  {
+    "id": 217,
+    "name": "Tommy Ross",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "carrie": "supporting"
+    },
+    "residence": [
+      "chamberlain-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:53:25.000Z"
+  },
+  {
+    "id": 218,
+    "name": "Miss Desjardin",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "carrie": "supporting"
+    },
+    "residence": [
+      "chamberlain-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:53:25.000Z"
+  },
+  {
+    "id": 219,
+    "name": "Danny Torrance",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-shining": "protagonist",
+      "doctor-sleep": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:53:25.000Z"
+  },
+  {
+    "id": 220,
+    "name": "Wendy Torrance",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-shining": "protagonist",
+      "doctor-sleep": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:53:25.000Z"
+  },
+  {
+    "id": 221,
+    "name": "Dick Hallorann",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-shining": "supporting",
+      "it": "minor",
+      "doctor-sleep": "supporting"
+    },
+    "residence": [
+      "florida"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:53:25.000Z"
+  },
+  {
+    "id": 222,
+    "name": "Ted Jones",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "rage": "supporting"
+    },
+    "residence": [
+      "placerville-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:53:25.000Z"
+  },
+  {
+    "id": 223,
+    "name": "Stuart Redman",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-stand": "protagonist",
+      "the-stand-uncut": "protagonist"
+    },
+    "residence": [
+      "arnette-texas"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:56:39.000Z"
+  },
+  {
+    "id": 224,
+    "name": "Frances Goldsmith",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-stand": "protagonist",
+      "the-stand-uncut": "protagonist"
+    },
+    "residence": [
+      "ogunquit-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:56:39.000Z"
+  },
+  {
+    "id": 225,
+    "name": "Larry Underwood",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-stand": "protagonist",
+      "the-stand-uncut": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:56:39.000Z"
+  },
+  {
+    "id": 226,
+    "name": "Nick Andros",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-stand": "protagonist",
+      "the-stand-uncut": "protagonist"
+    },
+    "residence": [
+      "caslin-nebraska",
+      "shoyo-arkansas"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:56:39.000Z"
+  },
+  {
+    "id": 227,
+    "name": "Glen Bateman",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-stand": "protagonist",
+      "the-stand-uncut": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:56:39.000Z"
+  },
+  {
+    "id": 228,
+    "name": "Abagail Freemantle",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-stand": "supporting",
+      "the-stand-uncut": "supporting"
+    },
+    "residence": [
+      "hemingford-home-nebraska"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:56:39.000Z"
+  },
+  {
+    "id": 229,
+    "name": "Tom Cullen",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-stand": "supporting",
+      "the-stand-uncut": "supporting"
+    },
+    "residence": [
+      "may-oklahoma"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:56:39.000Z"
+  },
+  {
+    "id": 230,
+    "name": "Ralph Brentner",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-stand": "supporting",
+      "the-stand-uncut": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:56:39.000Z"
+  },
+  {
+    "id": 231,
+    "name": "Dayna Jurgens",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-stand": "supporting",
+      "the-stand-uncut": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:56:39.000Z"
+  },
+  {
+    "id": 232,
+    "name": "Kojak",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 8,
+    "group": false,
+    "appears_in": {
+      "the-stand": "supporting",
+      "the-stand-uncut": "supporting"
+    },
+    "residence": [
+      "boulder-colorado"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:56:39.000Z"
+  },
+  {
+    "id": 233,
+    "name": "Raymond Garraty",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-long-walk": "protagonist"
+    },
+    "residence": [
+      "pownal-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 234,
+    "name": "Peter McVries",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-long-walk": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 235,
+    "name": "Art Baker",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-long-walk": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 236,
+    "name": "Hank Olson",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-long-walk": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 237,
+    "name": "Gary Barkovitch",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-long-walk": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 238,
+    "name": "Billy Stebbins",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-long-walk": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 239,
+    "name": "Johnny Smith",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dead-zone": "protagonist"
+    },
+    "residence": [
+      "maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 240,
+    "name": "Sarah Bracknell",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dead-zone": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 241,
+    "name": "George Bannerman",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dead-zone": "supporting",
+      "cujo": "supporting"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 242,
+    "name": "Herb Smith",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dead-zone": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 243,
+    "name": "Vera Smith",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dead-zone": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 244,
+    "name": "Sam Weizak",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dead-zone": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 245,
+    "name": "Andy McGee",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "firestarter": "protagonist"
+    },
+    "residence": [
+      "harrison-ohio"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 246,
+    "name": "Irv Manders",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "firestarter": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 247,
+    "name": "Joseph Wanless",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "firestarter": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 248,
+    "name": "Vicky Tomlinson",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "firestarter": "minor"
+    },
+    "residence": [
+      "harrison-ohio"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 249,
+    "name": "Barton George Dawes",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "roadwork": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 250,
+    "name": "Mary Dawes",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "roadwork": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 251,
+    "name": "Olivia Brenner",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "roadwork": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 252,
+    "name": "Salvatore Magliore",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "roadwork": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 253,
+    "name": "Donna Trenton",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cujo": "protagonist"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 254,
+    "name": "Vic Trenton",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cujo": "protagonist",
+      "rattlesnakes": "protagonist"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 255,
+    "name": "Tad Trenton",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cujo": "supporting"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 256,
+    "name": "Joe Camber",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cujo": "supporting"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 257,
+    "name": "Charity Camber",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cujo": "supporting"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 258,
+    "name": "Brett Camber",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cujo": "supporting"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 259,
+    "name": "Steve Kemp",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cujo": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 260,
+    "name": "Gary Pervier",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cujo": "minor"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 261,
+    "name": "Ben Richards",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-running-man": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 262,
+    "name": "Evan McCone",
+    "villain": true,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-running-man": "antagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 263,
+    "name": "Amelia Williams",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-running-man": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 264,
+    "name": "Sheila Richards",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-running-man": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:01:26.000Z"
+  },
+  {
+    "id": 265,
+    "name": "Roland Deschain",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-gunslinger": "protagonist",
+      "the-way-station": "protagonist",
+      "the-oracle-and-the-mountains": "protagonist",
+      "the-slow-mutants": "protagonist",
+      "the-gunslinger-and-the-dark-man": "protagonist",
+      "the-dark-tower-the-gunslinger": "protagonist",
+      "the-dark-tower-ii-the-drawing-of-the-three": "protagonist",
+      "the-dark-tower-iii-the-waste-lands": "protagonist",
+      "insomnia": "minor",
+      "the-dark-tower-iv-wizard-and-glass": "protagonist",
+      "the-little-sisters-of-eluria": "protagonist",
+      "the-dark-tower-v-wolves-of-the-calla": "protagonist",
+      "the-dark-tower-vi-song-of-susannah": "protagonist",
+      "the-dark-tower-vii-the-dark-tower": "protagonist",
+      "the-dark-tower-the-wind-through-the-keyhole": "protagonist"
+    },
+    "residence": [
+      "gilead"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:05:04.000Z"
+  },
+  {
+    "id": 266,
+    "name": "Jake Chambers",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-way-station": "supporting",
+      "the-oracle-and-the-mountains": "supporting",
+      "the-slow-mutants": "supporting",
+      "the-gunslinger-and-the-dark-man": "minor",
+      "the-dark-tower-the-gunslinger": "supporting",
+      "the-dark-tower-ii-the-drawing-of-the-three": "minor",
+      "the-dark-tower-iii-the-waste-lands": "protagonist",
+      "the-dark-tower-iv-wizard-and-glass": "protagonist",
+      "the-dark-tower-v-wolves-of-the-calla": "protagonist",
+      "the-dark-tower-vi-song-of-susannah": "protagonist",
+      "the-dark-tower-vii-the-dark-tower": "protagonist",
+      "the-dark-tower-the-wind-through-the-keyhole": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:05:04.000Z"
+  },
+  {
+    "id": 267,
+    "name": "Alice",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-gunslinger": "supporting",
+      "the-dark-tower-the-gunslinger": "supporting"
+    },
+    "residence": [
+      "tull"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:05:04.000Z"
+  },
+  {
+    "id": 268,
+    "name": "Brown",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-gunslinger": "minor",
+      "the-dark-tower-the-gunslinger": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:05:04.000Z"
+  },
+  {
+    "id": 269,
+    "name": "Cortland Andrus",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-the-gunslinger": "supporting"
+    },
+    "residence": [
+      "gilead"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:05:04.000Z"
+  },
+  {
+    "id": 270,
+    "name": "Dennis Guilder",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "christine": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:05:04.000Z"
+  },
+  {
+    "id": 271,
+    "name": "Leigh Cabot",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "christine": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:05:04.000Z"
+  },
+  {
+    "id": 272,
+    "name": "Roland LeBay",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "christine": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:05:04.000Z"
+  },
+  {
+    "id": 273,
+    "name": "Will Darnell",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "christine": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:05:04.000Z"
+  },
+  {
+    "id": 274,
+    "name": "Louis Creed",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "pet-sematary": "protagonist"
+    },
+    "residence": [
+      "ludlow-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:05:04.000Z"
+  },
+  {
+    "id": 275,
+    "name": "Rachel Creed",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "pet-sematary": "supporting"
+    },
+    "residence": [
+      "ludlow-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:05:04.000Z"
+  },
+  {
+    "id": 276,
+    "name": "Jud Crandall",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "pet-sematary": "supporting"
+    },
+    "residence": [
+      "ludlow-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:05:04.000Z"
+  },
+  {
+    "id": 277,
+    "name": "Ellie Creed",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "pet-sematary": "supporting"
+    },
+    "residence": [
+      "ludlow-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:05:04.000Z"
+  },
+  {
+    "id": 278,
+    "name": "Marty Coslaw",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cycle-of-the-werewolf": "protagonist"
+    },
+    "residence": [
+      "tarker-s-mill-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 279,
+    "name": "Uncle Al",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cycle-of-the-werewolf": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 280,
+    "name": "Herman Coslaw",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cycle-of-the-werewolf": "minor"
+    },
+    "residence": [
+      "tarker-s-mill-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 281,
+    "name": "Nan Coslaw",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cycle-of-the-werewolf": "minor"
+    },
+    "residence": [
+      "tarker-s-mill-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 282,
+    "name": "Kate Coslaw",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cycle-of-the-werewolf": "minor"
+    },
+    "residence": [
+      "tarker-s-mill-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 283,
+    "name": "Lander Neary",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cycle-of-the-werewolf": "minor"
+    },
+    "residence": [
+      "tarker-s-mill-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 284,
+    "name": "Jack Sawyer",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-talisman": "protagonist",
+      "black-house": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 285,
+    "name": "Wolf",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 3,
+    "group": false,
+    "appears_in": {
+      "the-talisman": "supporting"
+    },
+    "residence": [
+      "the-territories"
+    ],
+    "kinds": [
+      "werewolf"
+    ],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 286,
+    "name": "Richard Sloat",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-talisman": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 287,
+    "name": "Speedy Parker",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-talisman": "supporting",
+      "black-house": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 288,
+    "name": "Lily Cavanaugh",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-talisman": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 289,
+    "name": "Sunlight Gardner",
+    "villain": true,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-talisman": "supporting"
+    },
+    "residence": [
+      "indiana"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 290,
+    "name": "Prince Peter",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-eyes-of-the-dragon": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 291,
+    "name": "Prince Thomas",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-eyes-of-the-dragon": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 292,
+    "name": "King Roland",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-eyes-of-the-dragon": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 293,
+    "name": "Dennis",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-eyes-of-the-dragon": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 294,
+    "name": "Ben Staad",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-eyes-of-the-dragon": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 295,
+    "name": "Naomi Reechul",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-eyes-of-the-dragon": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 296,
+    "name": "Anders Peyna",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-eyes-of-the-dragon": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 297,
+    "name": "Queen Sasha",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-eyes-of-the-dragon": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 298,
+    "name": "Billy Halleck",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "thinner": "protagonist"
+    },
+    "residence": [
+      "connecticut"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 299,
+    "name": "Heidi Halleck",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "thinner": "supporting"
+    },
+    "residence": [
+      "connecticut"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 300,
+    "name": "Linda Halleck",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "thinner": "supporting"
+    },
+    "residence": [
+      "connecticut"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 301,
+    "name": "Richard Ginelli",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "thinner": "supporting"
+    },
+    "residence": [
+      "new-york"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 302,
+    "name": "Georgie Denbrough",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "it": "supporting"
+    },
+    "residence": [
+      "derry-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 303,
+    "name": "Audra Phillips",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "it": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 304,
+    "name": "William Hanlon",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "it": "minor"
+    },
+    "residence": [
+      "derry-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 305,
+    "name": "Eddie Corcoran",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "it": "minor"
+    },
+    "residence": [
+      "derry-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 306,
+    "name": "Eddie Dean",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-ii-the-drawing-of-the-three": "protagonist",
+      "the-dark-tower-iii-the-waste-lands": "protagonist",
+      "the-dark-tower-iv-wizard-and-glass": "protagonist",
+      "the-dark-tower-v-wolves-of-the-calla": "protagonist",
+      "the-dark-tower-vi-song-of-susannah": "protagonist",
+      "the-dark-tower-vii-the-dark-tower": "protagonist",
+      "the-dark-tower-the-wind-through-the-keyhole": "supporting"
+    },
+    "residence": [
+      "new-york-city"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 307,
+    "name": "Susannah Dean",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-ii-the-drawing-of-the-three": "protagonist",
+      "the-dark-tower-iii-the-waste-lands": "protagonist",
+      "the-dark-tower-iv-wizard-and-glass": "protagonist",
+      "the-dark-tower-v-wolves-of-the-calla": "protagonist",
+      "the-dark-tower-vi-song-of-susannah": "protagonist",
+      "the-dark-tower-vii-the-dark-tower": "protagonist",
+      "the-dark-tower-the-wind-through-the-keyhole": "supporting"
+    },
+    "residence": [
+      "new-york-city"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 308,
+    "name": "Henry Dean",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-ii-the-drawing-of-the-three": "minor"
+    },
+    "residence": [
+      "new-york-city"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 309,
+    "name": "Enrico Balazar",
+    "villain": true,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-ii-the-drawing-of-the-three": "antagonist"
+    },
+    "residence": [
+      "new-york-city"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 310,
+    "name": "Paul Sheldon",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "misery": "protagonist"
+    },
+    "residence": [
+      "new-york-city"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 311,
+    "name": "Duane Kushner",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "misery": "minor"
+    },
+    "residence": [
+      "boulder-colorado"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 312,
+    "name": "Rebecca Paulson",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-revelations-of-becka-paulson": "protagonist",
+      "the-tommyknockers": "minor"
+    },
+    "residence": [
+      "haven-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 313,
+    "name": "Joe Paulson",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-revelations-of-becka-paulson": "supporting",
+      "the-tommyknockers": "minor"
+    },
+    "residence": [
+      "haven-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 314,
+    "name": "Roberta Anderson",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-tommyknockers": "protagonist"
+    },
+    "residence": [
+      "haven-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 315,
+    "name": "Jim Gardener",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-tommyknockers": "protagonist"
+    },
+    "residence": [
+      "haven-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 316,
+    "name": "Ev Hillman",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-tommyknockers": "supporting"
+    },
+    "residence": [
+      "haven-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 317,
+    "name": "David Brown",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-tommyknockers": "supporting"
+    },
+    "residence": [
+      "haven-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 318,
+    "name": "Ruth McCausland",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-tommyknockers": "supporting"
+    },
+    "residence": [
+      "haven-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 319,
+    "name": "Peter (dog)",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 8,
+    "group": false,
+    "appears_in": {
+      "the-tommyknockers": "minor"
+    },
+    "residence": [
+      "haven-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 320,
+    "name": "Thaddeus Beaumont",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-half": "protagonist"
+    },
+    "residence": [
+      "ludlow-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:13:54.000Z"
+  },
+  {
+    "id": 321,
+    "name": "Liz Beaumont",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-half": "supporting"
+    },
+    "residence": [
+      "ludlow-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:13:54.000Z"
+  },
+  {
+    "id": 322,
+    "name": "Alan Pangborn",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-half": "protagonist",
+      "the-sun-dog": "minor",
+      "needful-things": "protagonist"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:13:54.000Z"
+  },
+  {
+    "id": 323,
+    "name": "Norris Ridgewick",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-half": "minor",
+      "needful-things": "supporting",
+      "gerald-s-game": "minor",
+      "bag-of-bones": "minor",
+      "lisey-s-story": "minor",
+      "gwendy-s-final-task": "minor"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:13:54.000Z"
+  },
+  {
+    "id": 324,
+    "name": "Oy",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 8,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-iii-the-waste-lands": "supporting",
+      "the-dark-tower-iv-wizard-and-glass": "supporting",
+      "the-dark-tower-v-wolves-of-the-calla": "supporting",
+      "the-dark-tower-vi-song-of-susannah": "supporting",
+      "the-dark-tower-vii-the-dark-tower": "supporting",
+      "the-dark-tower-the-wind-through-the-keyhole": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:13:54.000Z"
+  },
+  {
+    "id": 325,
+    "name": "Andrew Quick",
+    "villain": true,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-iii-the-waste-lands": "antagonist",
+      "the-dark-tower-iv-wizard-and-glass": "minor"
+    },
+    "residence": [
+      "lud"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:13:54.000Z"
+  },
+  {
+    "id": 326,
+    "name": "Gasher",
+    "villain": true,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-iii-the-waste-lands": "supporting"
+    },
+    "residence": [
+      "lud"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:13:54.000Z"
+  },
+  {
+    "id": 327,
+    "name": "Talitha Unwin",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-iii-the-waste-lands": "minor"
+    },
+    "residence": [
+      "river-crossing"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:13:54.000Z"
+  },
+  {
+    "id": 328,
+    "name": "Elmer Chambers",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-iii-the-waste-lands": "minor",
+      "the-dark-tower-v-wolves-of-the-calla": "minor"
+    },
+    "residence": [
+      "new-york-city"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:13:54.000Z"
+  },
+  {
+    "id": 329,
+    "name": "Calvin Tower",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-iii-the-waste-lands": "minor",
+      "the-dark-tower-v-wolves-of-the-calla": "supporting",
+      "the-dark-tower-vi-song-of-susannah": "supporting",
+      "the-dark-tower-vii-the-dark-tower": "minor"
+    },
+    "residence": [
+      "new-york-city"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:13:54.000Z"
+  },
+  {
+    "id": 330,
+    "name": "Polly Chalmers",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "needful-things": "supporting"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:13:54.000Z"
+  },
+  {
+    "id": 331,
+    "name": "Brian Rusk",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "needful-things": "supporting"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:13:54.000Z"
+  },
+  {
+    "id": 332,
+    "name": "Nettie Cobb",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "needful-things": "supporting"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:13:54.000Z"
+  },
+  {
+    "id": 333,
+    "name": "Wilma Jerzyck",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "needful-things": "supporting"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:13:54.000Z"
+  },
+  {
+    "id": 334,
+    "name": "Jessie Burlingame",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "gerald-s-game": "protagonist",
+      "dolores-claiborne": "minor"
+    },
+    "residence": [
+      "portland-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:15:28.000Z"
+  },
+  {
+    "id": 335,
+    "name": "Dolores Claiborne",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "gerald-s-game": "minor",
+      "dolores-claiborne": "protagonist"
+    },
+    "residence": [
+      "little-tall-island"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:15:28.000Z"
+  },
+  {
+    "id": 336,
+    "name": "Vera Donovan",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "dolores-claiborne": "supporting"
+    },
+    "residence": [
+      "little-tall-island"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:15:28.000Z"
+  },
+  {
+    "id": 337,
+    "name": "Selena St. George",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "dolores-claiborne": "supporting"
+    },
+    "residence": [
+      "little-tall-island"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:15:28.000Z"
+  },
+  {
+    "id": 338,
+    "name": "Ralph Roberts",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "insomnia": "protagonist"
+    },
+    "residence": [
+      "derry-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:15:28.000Z"
+  },
+  {
+    "id": 339,
+    "name": "Lois Chasse",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "insomnia": "protagonist"
+    },
+    "residence": [
+      "derry-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:15:28.000Z"
+  },
+  {
+    "id": 340,
+    "name": "Ed Deepneau",
+    "villain": true,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "insomnia": "antagonist"
+    },
+    "residence": [
+      "derry-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:15:28.000Z"
+  },
+  {
+    "id": 341,
+    "name": "Helen Deepneau",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "insomnia": "supporting"
+    },
+    "residence": [
+      "derry-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:15:28.000Z"
+  },
+  {
+    "id": 342,
+    "name": "Natalie Deepneau",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "insomnia": "minor"
+    },
+    "residence": [
+      "derry-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:15:28.000Z"
+  },
+  {
+    "id": 343,
+    "name": "Patrick Danville",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "insomnia": "minor",
+      "the-dark-tower-vii-the-dark-tower": "supporting"
+    },
+    "residence": [
+      "derry-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:15:28.000Z"
+  },
+  {
+    "id": 344,
+    "name": "Rosie McClendon",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "rose-madder": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:15:28.000Z"
+  },
+  {
+    "id": 345,
+    "name": "Bill Steiner",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "rose-madder": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:15:28.000Z"
+  },
+  {
+    "id": 346,
+    "name": "Anna Stevenson",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "rose-madder": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:15:28.000Z"
+  },
+  {
+    "id": 347,
+    "name": "Gert Kinshaw",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "rose-madder": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:15:28.000Z"
+  },
+  {
+    "id": 348,
+    "name": "Cynthia Smith",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "rose-madder": "supporting",
+      "desperation": "supporting",
+      "the-regulators": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:15:28.000Z"
+  },
+  {
+    "id": 349,
+    "name": "Paul Edgecomb",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-green-mile": "protagonist"
+    },
+    "residence": [
+      "louisiana"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 350,
+    "name": "John Coffey",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-green-mile": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 351,
+    "name": "Brutus Howell",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-green-mile": "supporting"
+    },
+    "residence": [
+      "louisiana"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 352,
+    "name": "Dean Stanton",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-green-mile": "supporting"
+    },
+    "residence": [
+      "louisiana"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 353,
+    "name": "Harry Terwilliger",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-green-mile": "supporting"
+    },
+    "residence": [
+      "louisiana"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 354,
+    "name": "Eduard Delacroix",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-green-mile": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 355,
+    "name": "Mr. Jingles",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 8,
+    "group": false,
+    "appears_in": {
+      "the-green-mile": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 356,
+    "name": "Hal Moores",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-green-mile": "supporting"
+    },
+    "residence": [
+      "louisiana"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 357,
+    "name": "Melinda Moores",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-green-mile": "minor"
+    },
+    "residence": [
+      "louisiana"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 358,
+    "name": "Elaine Connelly",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-green-mile": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 359,
+    "name": "Arlen Bitterbuck",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-green-mile": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 360,
+    "name": "David Carver",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "desperation": "protagonist",
+      "the-regulators": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 361,
+    "name": "Johnny Marinville",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "desperation": "protagonist",
+      "the-regulators": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 362,
+    "name": "Mary Jackson",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "desperation": "supporting",
+      "the-regulators": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 363,
+    "name": "Steve Ames",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "desperation": "supporting",
+      "the-regulators": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 364,
+    "name": "Ralph Carver",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "desperation": "supporting",
+      "the-regulators": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 365,
+    "name": "Ellen Carver",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "desperation": "minor",
+      "the-regulators": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 366,
+    "name": "Kirsten Carver",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "desperation": "minor",
+      "the-regulators": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 367,
+    "name": "Peter Jackson",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "desperation": "minor",
+      "the-regulators": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 368,
+    "name": "Tom Billingsley",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "desperation": "supporting",
+      "the-regulators": "minor"
+    },
+    "residence": [
+      "desperation-nevada",
+      "ohio"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 369,
+    "name": "Audrey Wyler",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "desperation": "minor",
+      "the-regulators": "protagonist"
+    },
+    "residence": [
+      "desperation-nevada",
+      "ohio"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 370,
+    "name": "Seth Garin",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-regulators": "protagonist"
+    },
+    "residence": [
+      "ohio"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 371,
+    "name": "Cammie Reed",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-regulators": "supporting"
+    },
+    "residence": [
+      "ohio"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:17:57.000Z"
+  },
+  {
+    "id": 372,
+    "name": "Susan Delgado",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-the-gunslinger": "minor",
+      "the-dark-tower-iv-wizard-and-glass": "protagonist"
+    },
+    "residence": [
+      "hambry-mejis"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:19:11.000Z"
+  },
+  {
+    "id": 373,
+    "name": "Cuthbert Allgood",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-slow-mutants": "minor",
+      "the-dark-tower-the-gunslinger": "minor",
+      "the-dark-tower-iv-wizard-and-glass": "supporting"
+    },
+    "residence": [
+      "gilead"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:19:11.000Z"
+  },
+  {
+    "id": 374,
+    "name": "Alain Johns",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-the-gunslinger": "minor",
+      "the-dark-tower-iv-wizard-and-glass": "supporting"
+    },
+    "residence": [
+      "gilead"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:19:11.000Z"
+  },
+  {
+    "id": 375,
+    "name": "Sheemie Ruiz",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-iv-wizard-and-glass": "supporting",
+      "the-dark-tower-vii-the-dark-tower": "supporting"
+    },
+    "residence": [
+      "hambry-mejis"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:19:11.000Z"
+  },
+  {
+    "id": 376,
+    "name": "Steven Deschain",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-the-gunslinger": "minor",
+      "the-dark-tower-iv-wizard-and-glass": "minor",
+      "the-dark-tower-the-wind-through-the-keyhole": "minor"
+    },
+    "residence": [
+      "gilead"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:19:11.000Z"
+  },
+  {
+    "id": 377,
+    "name": "Gabrielle Deschain",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-the-gunslinger": "minor",
+      "the-dark-tower-iv-wizard-and-glass": "minor"
+    },
+    "residence": [
+      "gilead"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:19:11.000Z"
+  },
+  {
+    "id": 378,
+    "name": "Hart Thorin",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-iv-wizard-and-glass": "minor"
+    },
+    "residence": [
+      "hambry-mejis"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:19:11.000Z"
+  },
+  {
+    "id": 379,
+    "name": "Mike Noonan",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "bag-of-bones": "protagonist"
+    },
+    "residence": [
+      "derry-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:19:11.000Z"
+  },
+  {
+    "id": 380,
+    "name": "Johanna Arlen",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "bag-of-bones": "supporting"
+    },
+    "residence": [
+      "derry-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:19:11.000Z"
+  },
+  {
+    "id": 381,
+    "name": "Mattie Devore",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "bag-of-bones": "supporting"
+    },
+    "residence": [
+      "tr-90-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:19:11.000Z"
+  },
+  {
+    "id": 382,
+    "name": "Kyra Devore",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "bag-of-bones": "supporting"
+    },
+    "residence": [
+      "tr-90-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:19:11.000Z"
+  },
+  {
+    "id": 383,
+    "name": "John Storrow",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "bag-of-bones": "supporting"
+    },
+    "residence": [
+      "new-york-city"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:19:11.000Z"
+  },
+  {
+    "id": 384,
+    "name": "Bill Dean",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "bag-of-bones": "minor"
+    },
+    "residence": [
+      "tr-90-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:19:11.000Z"
+  },
+  {
+    "id": 385,
+    "name": "Patricia McFarland",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-girl-who-loved-tom-gordon": "protagonist"
+    },
+    "residence": [
+      "maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:19:11.000Z"
+  },
+  {
+    "id": 386,
+    "name": "Pete McFarland",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-girl-who-loved-tom-gordon": "minor"
+    },
+    "residence": [
+      "maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:19:11.000Z"
+  },
+  {
+    "id": 387,
+    "name": "Gary Jones",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "dreamcatcher": "protagonist"
+    },
+    "residence": [
+      "boston"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 388,
+    "name": "Henry Devlin",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "dreamcatcher": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 389,
+    "name": "Pete Moore",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "dreamcatcher": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 390,
+    "name": "Joe Clarendon",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "dreamcatcher": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 391,
+    "name": "Douglas Cavell",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "dreamcatcher": "supporting"
+    },
+    "residence": [
+      "derry-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 392,
+    "name": "Owen Underhill",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "dreamcatcher": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 393,
+    "name": "Abraham Kurtz",
+    "villain": true,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "dreamcatcher": "antagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 394,
+    "name": "Henry Leyden",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "black-house": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 395,
+    "name": "Dale Gilbertson",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "black-house": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 396,
+    "name": "Fred Marshall",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "black-house": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 397,
+    "name": "Judy Marshall",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "black-house": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 398,
+    "name": "Tyler Marshall",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "black-house": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 399,
+    "name": "Beezer St. Pierre",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "black-house": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 400,
+    "name": "Charles Burnside",
+    "villain": true,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "black-house": "antagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 401,
+    "name": "Sander Freemont Dearborn",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "from-a-buick-8": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 402,
+    "name": "Ned Wilcox",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "from-a-buick-8": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 403,
+    "name": "Curtis Wilcox",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "from-a-buick-8": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 404,
+    "name": "Mia",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 3,
+    "group": false,
+    "appears_in": {
+      "the-oracle-and-the-mountains": "minor",
+      "the-dark-tower-the-gunslinger": "minor",
+      "the-dark-tower-iii-the-waste-lands": "minor",
+      "the-dark-tower-v-wolves-of-the-calla": "supporting",
+      "the-dark-tower-vi-song-of-susannah": "supporting",
+      "the-dark-tower-vii-the-dark-tower": "minor"
+    },
+    "residence": [],
+    "kinds": [
+      "demon"
+    ],
+    "notes": [],
+    "created_at": "2026-11-27T04:22:21.000Z"
+  },
+  {
+    "id": 405,
+    "name": "Tian Jaffords",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-v-wolves-of-the-calla": "supporting"
+    },
+    "residence": [
+      "calla-bryn-sturgis"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:22:21.000Z"
+  },
+  {
+    "id": 406,
+    "name": "Zalia Jaffords",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-v-wolves-of-the-calla": "minor"
+    },
+    "residence": [
+      "calla-bryn-sturgis"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:22:21.000Z"
+  },
+  {
+    "id": 407,
+    "name": "Rosalita Munoz",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-v-wolves-of-the-calla": "supporting"
+    },
+    "residence": [
+      "calla-bryn-sturgis"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:22:21.000Z"
+  },
+  {
+    "id": 408,
+    "name": "Margaret Eisenhart",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-v-wolves-of-the-calla": "supporting"
+    },
+    "residence": [
+      "calla-bryn-sturgis"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:22:21.000Z"
+  },
+  {
+    "id": 409,
+    "name": "Benjamin Slightman, Jr.",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-v-wolves-of-the-calla": "supporting"
+    },
+    "residence": [
+      "calla-bryn-sturgis"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:22:21.000Z"
+  },
+  {
+    "id": 410,
+    "name": "Stephen King",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-vi-song-of-susannah": "supporting",
+      "the-dark-tower-vii-the-dark-tower": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:22:21.000Z"
+  },
+  {
+    "id": 411,
+    "name": "Ted Brautigan",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "low-men-in-yellow-coats": "protagonist",
+      "the-dark-tower-vii-the-dark-tower": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:22:21.000Z"
+  },
+  {
+    "id": 412,
+    "name": "Dinky Earnshaw",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "everything-s-eventual": "protagonist",
+      "the-dark-tower-vii-the-dark-tower": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:22:21.000Z"
+  },
+  {
+    "id": 413,
+    "name": "Pimli Prentiss",
+    "villain": true,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-vii-the-dark-tower": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:22:21.000Z"
+  },
+  {
+    "id": 414,
+    "name": "Stephanie McCann",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-colorado-kid": "protagonist"
+    },
+    "residence": [
+      "moose-lookit-island"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 415,
+    "name": "Vince Teague",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-colorado-kid": "supporting"
+    },
+    "residence": [
+      "moose-lookit-island"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 416,
+    "name": "Dave Bowie",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-colorado-kid": "supporting"
+    },
+    "residence": [
+      "moose-lookit-island"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 417,
+    "name": "James Cogan",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-colorado-kid": "supporting"
+    },
+    "residence": [
+      "colorado"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 418,
+    "name": "Clay Riddell",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cell": "protagonist"
+    },
+    "residence": [
+      "maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 419,
+    "name": "Tom McCourt",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cell": "supporting"
+    },
+    "residence": [
+      "massachusetts"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 420,
+    "name": "Alice Maxwell",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cell": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 421,
+    "name": "Jordan",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cell": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 422,
+    "name": "Johnny Riddell",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "cell": "minor"
+    },
+    "residence": [
+      "maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 423,
+    "name": "Lisey Landon",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "lisey-s-story": "protagonist"
+    },
+    "residence": [
+      "castle-view-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 424,
+    "name": "Scott Landon",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "lisey-s-story": "supporting"
+    },
+    "residence": [
+      "castle-view-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 425,
+    "name": "Amanda Debusher",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "lisey-s-story": "supporting"
+    },
+    "residence": [
+      "lovell-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 426,
+    "name": "Darla Debusher",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "lisey-s-story": "minor"
+    },
+    "residence": [
+      "lovell-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 427,
+    "name": "Clayton Blaisdell, Jr.",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "blaze": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 428,
+    "name": "George Rackley",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "blaze": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 429,
+    "name": "Edgar Freemantle",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "memory": "protagonist",
+      "duma-key": "protagonist"
+    },
+    "residence": [
+      "sarasota-florida"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 430,
+    "name": "Wireman",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "duma-key": "supporting"
+    },
+    "residence": [
+      "sarasota-florida"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 431,
+    "name": "Elizabeth Eastlake",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "duma-key": "supporting"
+    },
+    "residence": [
+      "sarasota-florida"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 432,
+    "name": "Ilse Freemantle",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "duma-key": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 433,
+    "name": "Jack Cantori",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "duma-key": "supporting"
+    },
+    "residence": [
+      "sarasota-florida"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 434,
+    "name": "Pam Freemantle",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "duma-key": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:23:32.000Z"
+  },
+  {
+    "id": 435,
+    "name": "Dale Barbara",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "under-the-dome": "protagonist"
+    },
+    "residence": [
+      "chester-s-mill-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 436,
+    "name": "Julia Shumway",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "under-the-dome": "protagonist"
+    },
+    "residence": [
+      "chester-s-mill-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 437,
+    "name": "Rusty Everett",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "under-the-dome": "supporting"
+    },
+    "residence": [
+      "chester-s-mill-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 438,
+    "name": "Joe McClatchey",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "under-the-dome": "supporting"
+    },
+    "residence": [
+      "chester-s-mill-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 439,
+    "name": "Brenda Perkins",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "under-the-dome": "supporting"
+    },
+    "residence": [
+      "chester-s-mill-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 440,
+    "name": "Andy Sanders",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "under-the-dome": "supporting"
+    },
+    "residence": [
+      "chester-s-mill-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 441,
+    "name": "Phil Bushey",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "under-the-dome": "supporting"
+    },
+    "residence": [
+      "chester-s-mill-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 442,
+    "name": "Peter Randolph",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "under-the-dome": "supporting"
+    },
+    "residence": [
+      "chester-s-mill-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 443,
+    "name": "Howard Perkins",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "under-the-dome": "minor"
+    },
+    "residence": [
+      "chester-s-mill-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 444,
+    "name": "Lester Coggins",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "under-the-dome": "minor"
+    },
+    "residence": [
+      "chester-s-mill-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 445,
+    "name": "James Cox",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "under-the-dome": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 446,
+    "name": "Jake Epping",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "11-22-63": "protagonist"
+    },
+    "residence": [
+      "maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 447,
+    "name": "Sadie Dunhill",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "11-22-63": "supporting"
+    },
+    "residence": [
+      "texas"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 448,
+    "name": "Al Templeton",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "11-22-63": "supporting"
+    },
+    "residence": [
+      "maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 449,
+    "name": "Harry Dunning",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "11-22-63": "supporting"
+    },
+    "residence": [
+      "derry-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 450,
+    "name": "Tim Ross",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-the-wind-through-the-keyhole": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 451,
+    "name": "Nell Ross",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-the-wind-through-the-keyhole": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 452,
+    "name": "Bill Streeter",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-the-wind-through-the-keyhole": "supporting"
+    },
+    "residence": [
+      "debaria"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 453,
+    "name": "Jamie DeCurry",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-the-gunslinger": "minor",
+      "the-dark-tower-the-wind-through-the-keyhole": "supporting"
+    },
+    "residence": [
+      "gilead"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 454,
+    "name": "Devin Jones",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "joyland": "protagonist"
+    },
+    "residence": [
+      "heaven-s-bay-north-carolina"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 455,
+    "name": "Mike Ross",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "joyland": "supporting"
+    },
+    "residence": [
+      "heaven-s-bay-north-carolina"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 456,
+    "name": "Annie Ross",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "joyland": "supporting"
+    },
+    "residence": [
+      "heaven-s-bay-north-carolina"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 457,
+    "name": "Erin Cook",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "joyland": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 458,
+    "name": "Tom Kennedy",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "joyland": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 459,
+    "name": "Abra Stone",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "doctor-sleep": "protagonist"
+    },
+    "residence": [
+      "new-hampshire"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 460,
+    "name": "John Dalton",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "doctor-sleep": "supporting"
+    },
+    "residence": [
+      "new-hampshire"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 461,
+    "name": "Billy Freeman",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "doctor-sleep": "supporting"
+    },
+    "residence": [
+      "new-hampshire"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 462,
+    "name": "David Stone",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "doctor-sleep": "supporting"
+    },
+    "residence": [
+      "new-hampshire"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 463,
+    "name": "Lucy Stone",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "doctor-sleep": "supporting"
+    },
+    "residence": [
+      "new-hampshire"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 464,
+    "name": "Casey Kingsley",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "doctor-sleep": "minor"
+    },
+    "residence": [
+      "new-hampshire"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 465,
+    "name": "Concetta Reynolds",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "doctor-sleep": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:24:58.000Z"
+  },
+  {
+    "id": 466,
+    "name": "Kermit William \"Bill\" Hodges",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "mr-mercedes": "protagonist",
+      "finders-keepers": "protagonist",
+      "end-of-watch": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 467,
+    "name": "Holly Gibney",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "mr-mercedes": "supporting",
+      "finders-keepers": "supporting",
+      "end-of-watch": "protagonist",
+      "the-outsider": "protagonist",
+      "if-it-bleeds": "protagonist",
+      "holly": "protagonist",
+      "never-flinch": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 468,
+    "name": "Jerome Robinson",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "mr-mercedes": "supporting",
+      "finders-keepers": "supporting",
+      "end-of-watch": "supporting",
+      "if-it-bleeds": "minor",
+      "holly": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 469,
+    "name": "Barbara Robinson",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "mr-mercedes": "supporting",
+      "finders-keepers": "minor",
+      "end-of-watch": "supporting",
+      "holly": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 470,
+    "name": "Olivia Trelawney",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "mr-mercedes": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 471,
+    "name": "Janey Patterson",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "mr-mercedes": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 472,
+    "name": "Pete Saubers",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "finders-keepers": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 473,
+    "name": "Tina Saubers",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "finders-keepers": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 474,
+    "name": "John Rothstein",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "finders-keepers": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 475,
+    "name": "Jamie Morton",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "revival": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 476,
+    "name": "Charles Jacobs",
+    "villain": true,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "revival": "antagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 477,
+    "name": "Astrid Soderberg",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "revival": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 478,
+    "name": "Hugh Yates",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "revival": "supporting"
+    },
+    "residence": [
+      "colorado"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 479,
+    "name": "Con Morton",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "revival": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 480,
+    "name": "Mary Fay",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "revival": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 481,
+    "name": "Gwendy Peterson",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "gwendy-s-button-box": "protagonist",
+      "gwendy-s-final-task": "protagonist"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 482,
+    "name": "Richard Farris",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "gwendy-s-button-box": "supporting",
+      "gwendy-s-final-task": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 483,
+    "name": "Harry Streeter",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "gwendy-s-button-box": "supporting"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 484,
+    "name": "Clint Norcross",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "sleeping-beauties": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 485,
+    "name": "Lila Norcross",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "sleeping-beauties": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 486,
+    "name": "Evie Black",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "sleeping-beauties": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 487,
+    "name": "Jared Norcross",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "sleeping-beauties": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 488,
+    "name": "Janice Coates",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "sleeping-beauties": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 489,
+    "name": "Jeanette Sorley",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "sleeping-beauties": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:28:16.000Z"
+  },
+  {
+    "id": 490,
+    "name": "Ralph Anderson",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-outsider": "protagonist"
+    },
+    "residence": [
+      "oklahoma"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 491,
+    "name": "Jeannie Anderson",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-outsider": "supporting"
+    },
+    "residence": [
+      "oklahoma"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 492,
+    "name": "Terry Maitland",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-outsider": "supporting"
+    },
+    "residence": [
+      "oklahoma"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 493,
+    "name": "Marcy Maitland",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-outsider": "supporting"
+    },
+    "residence": [
+      "oklahoma"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 494,
+    "name": "Howie Gold",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-outsider": "supporting"
+    },
+    "residence": [
+      "oklahoma"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 495,
+    "name": "Scott Carey",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "elevation": "protagonist"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 496,
+    "name": "Deirdre McComb",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "elevation": "supporting"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 497,
+    "name": "Missy Donaldson",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "elevation": "supporting"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 498,
+    "name": "Bob Ellis",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "elevation": "supporting"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 499,
+    "name": "Luke Ellis",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-institute": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 500,
+    "name": "Tim Jamieson",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-institute": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 501,
+    "name": "Kalisha Benson",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-institute": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 502,
+    "name": "Nick Wilholm",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-institute": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 503,
+    "name": "Avery Dixon",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-institute": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 504,
+    "name": "George Iles",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-institute": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 505,
+    "name": "Maureen Alvorson",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-institute": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 506,
+    "name": "Wendy Gullickson",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-institute": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 507,
+    "name": "Iris Stanhope",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-institute": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 508,
+    "name": "Helen Simms",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-institute": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 509,
+    "name": "Jamie Conklin",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "later": "protagonist"
+    },
+    "residence": [
+      "new-york-city"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 510,
+    "name": "Tia Conklin",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "later": "supporting"
+    },
+    "residence": [
+      "new-york-city"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 511,
+    "name": "Martin Burkett",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "later": "minor"
+    },
+    "residence": [
+      "new-york-city"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 512,
+    "name": "Regis Thomas",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "later": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 513,
+    "name": "Billy Summers",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "billy-summers": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 514,
+    "name": "Alice Maxwell (Billy Summers)",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "billy-summers": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:30:04.000Z"
+  },
+  {
+    "id": 515,
+    "name": "Charlotte Morgan",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "gwendy-s-final-task": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:32:17.000Z"
+  },
+  {
+    "id": 516,
+    "name": "Charlie Reade",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "fairy-tale": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:32:17.000Z"
+  },
+  {
+    "id": 517,
+    "name": "Howard Bowditch",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "fairy-tale": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:32:17.000Z"
+  },
+  {
+    "id": 518,
+    "name": "Radar",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 8,
+    "group": false,
+    "appears_in": {
+      "fairy-tale": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:32:17.000Z"
+  },
+  {
+    "id": 519,
+    "name": "George Reade",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "fairy-tale": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:32:17.000Z"
+  },
+  {
+    "id": 520,
+    "name": "Leah",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "fairy-tale": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:32:17.000Z"
+  },
+  {
+    "id": 521,
+    "name": "Penelope Dahl",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "holly": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:32:17.000Z"
+  },
+  {
+    "id": 522,
+    "name": "Bonnie Dahl",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "holly": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:32:17.000Z"
+  },
+  {
+    "id": 523,
+    "name": "Charlotte Gibney",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "holly": "minor"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:32:17.000Z"
+  },
+  {
+    "id": 524,
+    "name": "Izzy Jaynes",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "never-flinch": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:32:17.000Z"
+  },
+  {
+    "id": 525,
+    "name": "Kate McKay",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "never-flinch": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:32:17.000Z"
   }
 ]

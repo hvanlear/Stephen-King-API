@@ -32,6 +32,66 @@
           "name": "Sylvia Pittston",
           "url": "https://stephen-king-api.onrender.com/api/villain/84",
           "role": "supporting"
+        },
+        {
+          "name": "Roland Deschain",
+          "url": "https://stephen-king-api.onrender.com/api/character/265",
+          "role": "protagonist"
+        },
+        {
+          "name": "Jake Chambers",
+          "url": "https://stephen-king-api.onrender.com/api/character/266",
+          "role": "supporting"
+        },
+        {
+          "name": "Alice",
+          "url": "https://stephen-king-api.onrender.com/api/character/267",
+          "role": "supporting"
+        },
+        {
+          "name": "Brown",
+          "url": "https://stephen-king-api.onrender.com/api/character/268",
+          "role": "minor"
+        },
+        {
+          "name": "Cortland Andrus",
+          "url": "https://stephen-king-api.onrender.com/api/character/269",
+          "role": "supporting"
+        },
+        {
+          "name": "Susan Delgado",
+          "url": "https://stephen-king-api.onrender.com/api/character/372",
+          "role": "minor"
+        },
+        {
+          "name": "Cuthbert Allgood",
+          "url": "https://stephen-king-api.onrender.com/api/character/373",
+          "role": "minor"
+        },
+        {
+          "name": "Alain Johns",
+          "url": "https://stephen-king-api.onrender.com/api/character/374",
+          "role": "minor"
+        },
+        {
+          "name": "Steven Deschain",
+          "url": "https://stephen-king-api.onrender.com/api/character/376",
+          "role": "minor"
+        },
+        {
+          "name": "Gabrielle Deschain",
+          "url": "https://stephen-king-api.onrender.com/api/character/377",
+          "role": "minor"
+        },
+        {
+          "name": "Mia",
+          "url": "https://stephen-king-api.onrender.com/api/character/404",
+          "role": "minor"
+        },
+        {
+          "name": "Jamie DeCurry",
+          "url": "https://stephen-king-api.onrender.com/api/character/453",
+          "role": "minor"
         }
       ],
       "villains": [
@@ -56,7 +116,13 @@
           "role": "supporting"
         }
       ],
-      "protagonists": [],
+      "protagonists": [
+        {
+          "name": "Roland Deschain",
+          "url": "https://stephen-king-api.onrender.com/api/character/265",
+          "role": "protagonist"
+        }
+      ],
       "places": [
         {
           "name": "All-world",

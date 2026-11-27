@@ -1575,6 +1575,21 @@
             "name": "Sylvia Pittston",
             "url": "https://stephen-king-api.onrender.com/api/villain/84",
             "role": "supporting"
+          },
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265",
+            "role": "protagonist"
+          },
+          {
+            "name": "Alice",
+            "url": "https://stephen-king-api.onrender.com/api/character/267",
+            "role": "supporting"
+          },
+          {
+            "name": "Brown",
+            "url": "https://stephen-king-api.onrender.com/api/character/268",
+            "role": "minor"
           }
         ],
         "villains": [
@@ -1584,7 +1599,13 @@
             "role": "supporting"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Tull",
@@ -1752,9 +1773,26 @@
         ],
         "year": 1980,
         "created_at": "2023-11-13T23:49:04.673Z",
-        "characters": [],
+        "characters": [
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265",
+            "role": "protagonist"
+          },
+          {
+            "name": "Jake Chambers",
+            "url": "https://stephen-king-api.onrender.com/api/character/266",
+            "role": "supporting"
+          }
+        ],
         "villains": [],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "The Way Station",
@@ -1871,9 +1909,31 @@
         ],
         "year": 1981,
         "created_at": "2023-11-13T23:49:05.187Z",
-        "characters": [],
+        "characters": [
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265",
+            "role": "protagonist"
+          },
+          {
+            "name": "Jake Chambers",
+            "url": "https://stephen-king-api.onrender.com/api/character/266",
+            "role": "supporting"
+          },
+          {
+            "name": "Mia",
+            "url": "https://stephen-king-api.onrender.com/api/character/404",
+            "role": "minor"
+          }
+        ],
         "villains": [],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265",
+            "role": "protagonist"
+          }
+        ],
         "places": []
       },
       {
@@ -1919,9 +1979,31 @@
         ],
         "year": 1981,
         "created_at": "2023-11-13T23:49:05.477Z",
-        "characters": [],
+        "characters": [
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265",
+            "role": "protagonist"
+          },
+          {
+            "name": "Jake Chambers",
+            "url": "https://stephen-king-api.onrender.com/api/character/266",
+            "role": "supporting"
+          },
+          {
+            "name": "Cuthbert Allgood",
+            "url": "https://stephen-king-api.onrender.com/api/character/373",
+            "role": "minor"
+          }
+        ],
         "villains": [],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265",
+            "role": "protagonist"
+          }
+        ],
         "places": []
       },
       {
@@ -2038,6 +2120,16 @@
             "name": "Marten Broadcloak",
             "url": "https://stephen-king-api.onrender.com/api/villain/10",
             "role": "minor"
+          },
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265",
+            "role": "protagonist"
+          },
+          {
+            "name": "Jake Chambers",
+            "url": "https://stephen-king-api.onrender.com/api/character/266",
+            "role": "minor"
           }
         ],
         "villains": [
@@ -2047,7 +2139,13 @@
             "role": "minor"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265",
+            "role": "protagonist"
+          }
+        ],
         "places": []
       },
       {
@@ -2498,17 +2596,53 @@
           {
             "name": "Lester Lowe",
             "url": "https://stephen-king-api.onrender.com/api/villain/68",
-            "role": null
+            "role": "antagonist"
+          },
+          {
+            "name": "Marty Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/278",
+            "role": "protagonist"
+          },
+          {
+            "name": "Uncle Al",
+            "url": "https://stephen-king-api.onrender.com/api/character/279",
+            "role": "supporting"
+          },
+          {
+            "name": "Herman Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/280",
+            "role": "minor"
+          },
+          {
+            "name": "Nan Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/281",
+            "role": "minor"
+          },
+          {
+            "name": "Kate Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/282",
+            "role": "minor"
+          },
+          {
+            "name": "Lander Neary",
+            "url": "https://stephen-king-api.onrender.com/api/character/283",
+            "role": "minor"
           }
         ],
         "villains": [
           {
             "name": "Lester Lowe",
             "url": "https://stephen-king-api.onrender.com/api/villain/68",
-            "role": null
+            "role": "antagonist"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Marty Coslaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/278",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Maine",
@@ -2650,9 +2784,26 @@
         ],
         "year": 1984,
         "created_at": "2023-11-13T23:49:08.176Z",
-        "characters": [],
+        "characters": [
+          {
+            "name": "Rebecca Paulson",
+            "url": "https://stephen-king-api.onrender.com/api/character/312",
+            "role": "protagonist"
+          },
+          {
+            "name": "Joe Paulson",
+            "url": "https://stephen-king-api.onrender.com/api/character/313",
+            "role": "supporting"
+          }
+        ],
         "villains": [],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Rebecca Paulson",
+            "url": "https://stephen-king-api.onrender.com/api/character/312",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Haven, Maine",
@@ -3192,7 +3343,13 @@
         "notes": [],
         "year": 1990,
         "created_at": "2023-11-13T23:49:10.643Z",
-        "characters": [],
+        "characters": [
+          {
+            "name": "Alan Pangborn",
+            "url": "https://stephen-king-api.onrender.com/api/character/322",
+            "role": "minor"
+          }
+        ],
         "villains": [],
         "protagonists": [],
         "places": [
@@ -3671,9 +3828,21 @@
         ],
         "year": 1997,
         "created_at": "2023-11-13T23:49:12.981Z",
-        "characters": [],
+        "characters": [
+          {
+            "name": "Dinky Earnshaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/412",
+            "role": "protagonist"
+          }
+        ],
         "villains": [],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Dinky Earnshaw",
+            "url": "https://stephen-king-api.onrender.com/api/character/412",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Supr Savr",
@@ -3735,6 +3904,11 @@
             "name": "Little Sisters",
             "url": "https://stephen-king-api.onrender.com/api/villain/67",
             "role": null
+          },
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265",
+            "role": "protagonist"
           }
         ],
         "villains": [
@@ -3744,7 +3918,13 @@
             "role": null
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Roland Deschain",
+            "url": "https://stephen-king-api.onrender.com/api/character/265",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "All-world",
@@ -3873,9 +4053,21 @@
         ],
         "year": 1999,
         "created_at": "2023-11-13T23:49:13.849Z",
-        "characters": [],
+        "characters": [
+          {
+            "name": "Ted Brautigan",
+            "url": "https://stephen-king-api.onrender.com/api/character/411",
+            "role": "protagonist"
+          }
+        ],
         "villains": [],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Ted Brautigan",
+            "url": "https://stephen-king-api.onrender.com/api/character/411",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Harwich, Connecticut",
@@ -4269,9 +4461,21 @@
         ],
         "year": 2006,
         "created_at": "2023-11-13T23:49:15.972Z",
-        "characters": [],
+        "characters": [
+          {
+            "name": "Edgar Freemantle",
+            "url": "https://stephen-king-api.onrender.com/api/character/429",
+            "role": "protagonist"
+          }
+        ],
         "villains": [],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Edgar Freemantle",
+            "url": "https://stephen-king-api.onrender.com/api/character/429",
+            "role": "protagonist"
+          }
+        ],
         "places": []
       },
       {
@@ -5297,17 +5501,38 @@
           {
             "name": "Frankie Stone",
             "url": "https://stephen-king-api.onrender.com/api/villain/135",
-            "role": null
+            "role": "antagonist"
+          },
+          {
+            "name": "Gwendy Peterson",
+            "url": "https://stephen-king-api.onrender.com/api/character/481",
+            "role": "protagonist"
+          },
+          {
+            "name": "Richard Farris",
+            "url": "https://stephen-king-api.onrender.com/api/character/482",
+            "role": "supporting"
+          },
+          {
+            "name": "Harry Streeter",
+            "url": "https://stephen-king-api.onrender.com/api/character/483",
+            "role": "supporting"
           }
         ],
         "villains": [
           {
             "name": "Frankie Stone",
             "url": "https://stephen-king-api.onrender.com/api/villain/135",
-            "role": null
+            "role": "antagonist"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Gwendy Peterson",
+            "url": "https://stephen-king-api.onrender.com/api/character/481",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Maine",
@@ -5402,9 +5627,36 @@
         "notes": [],
         "year": 2018,
         "created_at": "2023-11-13T23:49:21.223Z",
-        "characters": [],
+        "characters": [
+          {
+            "name": "Scott Carey",
+            "url": "https://stephen-king-api.onrender.com/api/character/495",
+            "role": "protagonist"
+          },
+          {
+            "name": "Deirdre McComb",
+            "url": "https://stephen-king-api.onrender.com/api/character/496",
+            "role": "supporting"
+          },
+          {
+            "name": "Missy Donaldson",
+            "url": "https://stephen-king-api.onrender.com/api/character/497",
+            "role": "supporting"
+          },
+          {
+            "name": "Bob Ellis",
+            "url": "https://stephen-king-api.onrender.com/api/character/498",
+            "role": "supporting"
+          }
+        ],
         "villains": [],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Scott Carey",
+            "url": "https://stephen-king-api.onrender.com/api/character/495",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Castle Rock, Maine",
@@ -5506,6 +5758,16 @@
             "name": "Chet Ondowsky",
             "url": "https://stephen-king-api.onrender.com/api/villain/127",
             "role": null
+          },
+          {
+            "name": "Holly Gibney",
+            "url": "https://stephen-king-api.onrender.com/api/character/467",
+            "role": "protagonist"
+          },
+          {
+            "name": "Jerome Robinson",
+            "url": "https://stephen-king-api.onrender.com/api/character/468",
+            "role": "minor"
           }
         ],
         "villains": [
@@ -5515,7 +5777,13 @@
             "role": null
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Holly Gibney",
+            "url": "https://stephen-king-api.onrender.com/api/character/467",
+            "role": "protagonist"
+          }
+        ],
         "places": []
       },
       {
@@ -5747,9 +6015,21 @@
         ],
         "year": 2024,
         "created_at": "2026-10-28T18:48:53.000Z",
-        "characters": [],
+        "characters": [
+          {
+            "name": "Vic Trenton",
+            "url": "https://stephen-king-api.onrender.com/api/character/254",
+            "role": "protagonist"
+          }
+        ],
         "villains": [],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Vic Trenton",
+            "url": "https://stephen-king-api.onrender.com/api/character/254",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Rattlesnake Key",

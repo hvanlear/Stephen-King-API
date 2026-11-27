@@ -29,7 +29,7 @@
           {
             "title": "Under the Dome",
             "url": "https://stephen-king-api.onrender.com/api/book/48",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -76,7 +76,7 @@
           {
             "title": "Carrie",
             "url": "https://stephen-king-api.onrender.com/api/book/1",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -115,7 +115,7 @@
           {
             "title": "Gerald's Game",
             "url": "https://stephen-king-api.onrender.com/api/book/27",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -151,7 +151,7 @@
           {
             "title": "The Tommyknockers",
             "url": "https://stephen-king-api.onrender.com/api/book/22",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -315,7 +315,7 @@
           {
             "title": "Carrie",
             "url": "https://stephen-king-api.onrender.com/api/book/1",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -357,7 +357,7 @@
           {
             "title": "Carrie",
             "url": "https://stephen-king-api.onrender.com/api/book/1",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -393,7 +393,7 @@
           {
             "title": "Pet Sematary",
             "url": "https://stephen-king-api.onrender.com/api/book/14",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -427,7 +427,7 @@
           {
             "title": "The Green Mile",
             "url": "https://stephen-king-api.onrender.com/api/book/31",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -465,7 +465,7 @@
           {
             "title": "The Green Mile",
             "url": "https://stephen-king-api.onrender.com/api/book/31",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -506,7 +506,7 @@
           {
             "title": "Carrie",
             "url": "https://stephen-king-api.onrender.com/api/book/1",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -551,7 +551,7 @@
           {
             "title": "Misery",
             "url": "https://stephen-king-api.onrender.com/api/book/21",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -702,7 +702,7 @@
           {
             "title": "Finders Keepers",
             "url": "https://stephen-king-api.onrender.com/api/book/55",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -769,7 +769,7 @@
           {
             "title": "Insomnia",
             "url": "https://stephen-king-api.onrender.com/api/book/29",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -809,7 +809,7 @@
           {
             "title": "Doctor Sleep",
             "url": "https://stephen-king-api.onrender.com/api/book/52",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -847,7 +847,7 @@
           {
             "title": "The Dark Tower: The Wind Through the Keyhole",
             "url": "https://stephen-king-api.onrender.com/api/book/50",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -957,7 +957,7 @@
           {
             "title": "Christine",
             "url": "https://stephen-king-api.onrender.com/api/book/13",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -1066,7 +1066,7 @@
           {
             "title": "The Dark Tower IV: Wizard and Glass",
             "url": "https://stephen-king-api.onrender.com/api/book/34",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -1140,7 +1140,7 @@
           {
             "title": "Doctor Sleep",
             "url": "https://stephen-king-api.onrender.com/api/book/52",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -1214,7 +1214,7 @@
           {
             "title": "The Institute",
             "url": "https://stephen-king-api.onrender.com/api/book/61",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -1249,7 +1249,7 @@
           {
             "title": "Holly",
             "url": "https://stephen-king-api.onrender.com/api/book/75",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -1282,7 +1282,7 @@
           {
             "title": "11/22/63",
             "url": "https://stephen-king-api.onrender.com/api/book/49",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -1321,14 +1321,14 @@
           {
             "title": "Gwendy's Button Box",
             "url": "https://stephen-king-api.onrender.com/api/book/57",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [
           {
             "title": "Gwendy's Button Box",
             "url": "https://stephen-king-api.onrender.com/api/short/200",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "residence": [],
@@ -1401,7 +1401,7 @@
           {
             "title": "Doctor Sleep",
             "url": "https://stephen-king-api.onrender.com/api/book/52",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -1440,7 +1440,7 @@
           {
             "title": "Rose Madder",
             "url": "https://stephen-king-api.onrender.com/api/book/30",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -1579,7 +1579,7 @@
           {
             "title": "Doctor Sleep",
             "url": "https://stephen-king-api.onrender.com/api/book/52",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -1620,7 +1620,7 @@
           {
             "title": "The Institute",
             "url": "https://stephen-king-api.onrender.com/api/book/61",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -1688,7 +1688,7 @@
           {
             "title": "The Institute",
             "url": "https://stephen-king-api.onrender.com/api/book/61",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -1972,7 +1972,7 @@
           {
             "title": "Christine",
             "url": "https://stephen-king-api.onrender.com/api/book/13",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -2005,7 +2005,7 @@
           {
             "title": "The Talisman",
             "url": "https://stephen-king-api.onrender.com/api/book/16",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -2040,7 +2040,7 @@
           {
             "title": "Finders Keepers",
             "url": "https://stephen-king-api.onrender.com/api/book/55",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -2072,7 +2072,7 @@
           {
             "title": "Dreamcatcher",
             "url": "https://stephen-king-api.onrender.com/api/book/37",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -2185,7 +2185,7 @@
           {
             "title": "The Institute",
             "url": "https://stephen-king-api.onrender.com/api/book/61",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -2259,7 +2259,7 @@
           {
             "title": "Holly",
             "url": "https://stephen-king-api.onrender.com/api/book/75",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -2297,7 +2297,7 @@
           {
             "title": "The Shining",
             "url": "https://stephen-king-api.onrender.com/api/book/3",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -2329,7 +2329,7 @@
           {
             "title": "The Dark Tower IV: Wizard and Glass",
             "url": "https://stephen-king-api.onrender.com/api/book/34",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -2365,7 +2365,7 @@
           {
             "title": "Doctor Sleep",
             "url": "https://stephen-king-api.onrender.com/api/book/52",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -2576,7 +2576,7 @@
           {
             "title": "Carrie",
             "url": "https://stephen-king-api.onrender.com/api/book/1",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -2618,7 +2618,7 @@
           {
             "title": "The Institute",
             "url": "https://stephen-king-api.onrender.com/api/book/61",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -2655,7 +2655,7 @@
           {
             "title": "The Institute",
             "url": "https://stephen-king-api.onrender.com/api/book/61",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -2727,7 +2727,7 @@
           {
             "title": "Doctor Sleep",
             "url": "https://stephen-king-api.onrender.com/api/book/52",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -2765,7 +2765,7 @@
           {
             "title": "The Institute",
             "url": "https://stephen-king-api.onrender.com/api/book/61",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -2803,7 +2803,7 @@
           {
             "title": "The Institute",
             "url": "https://stephen-king-api.onrender.com/api/book/61",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -2831,7 +2831,7 @@
           {
             "title": "The Dark Tower V: Wolves of the Calla",
             "url": "https://stephen-king-api.onrender.com/api/book/40",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -2868,7 +2868,7 @@
           {
             "title": "The Dark Tower V: Wolves of the Calla",
             "url": "https://stephen-king-api.onrender.com/api/book/40",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -2889,7 +2889,7 @@
         "id": 179,
         "name": "Charlie Decker",
         "villain": true,
-        "protagonist": false,
+        "protagonist": true,
         "gender": "Male",
         "status": "Alive",
         "death": null,
@@ -2903,11 +2903,16 @@
           {
             "title": "Rage",
             "url": "https://stephen-king-api.onrender.com/api/book/4",
-            "role": null
+            "role": "protagonist"
           }
         ],
         "shorts": [],
-        "residence": [],
+        "residence": [
+          {
+            "name": "Placerville, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/93"
+          }
+        ],
         "type": {
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
@@ -2931,7 +2936,7 @@
           {
             "title": "Sleeping Beauties",
             "url": "https://stephen-king-api.onrender.com/api/book/58",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -2959,7 +2964,7 @@
           {
             "title": "Sleeping Beauties",
             "url": "https://stephen-king-api.onrender.com/api/book/58",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -2987,7 +2992,7 @@
           {
             "title": "Fairy Tale",
             "url": "https://stephen-king-api.onrender.com/api/book/74",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3015,7 +3020,7 @@
           {
             "title": "Sleeping Beauties",
             "url": "https://stephen-king-api.onrender.com/api/book/58",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3043,7 +3048,7 @@
           {
             "title": "Gwendy's Final Task",
             "url": "https://stephen-king-api.onrender.com/api/book/73",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3071,7 +3076,7 @@
           {
             "title": "The Girl Who Loved Tom Gordon",
             "url": "https://stephen-king-api.onrender.com/api/book/36",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3099,7 +3104,7 @@
           {
             "title": "Fairy Tale",
             "url": "https://stephen-king-api.onrender.com/api/book/74",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3131,7 +3136,7 @@
           {
             "title": "Lisey's Story",
             "url": "https://stephen-king-api.onrender.com/api/book/45",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3164,7 +3169,7 @@
           {
             "title": "Later",
             "url": "https://stephen-king-api.onrender.com/api/book/62",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3192,7 +3197,7 @@
           {
             "title": "Later",
             "url": "https://stephen-king-api.onrender.com/api/book/62",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3223,7 +3228,7 @@
           {
             "title": "Lisey's Story",
             "url": "https://stephen-king-api.onrender.com/api/book/45",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -3256,7 +3261,7 @@
           {
             "title": "Bag of Bones",
             "url": "https://stephen-king-api.onrender.com/api/book/35",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3284,7 +3289,7 @@
           {
             "title": "Billy Summers",
             "url": "https://stephen-king-api.onrender.com/api/book/63",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -3312,7 +3317,7 @@
           {
             "title": "Duma Key",
             "url": "https://stephen-king-api.onrender.com/api/book/47",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3340,7 +3345,7 @@
           {
             "title": "Billy Summers",
             "url": "https://stephen-king-api.onrender.com/api/book/63",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3368,7 +3373,7 @@
           {
             "title": "Bag of Bones",
             "url": "https://stephen-king-api.onrender.com/api/book/35",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -3400,7 +3405,7 @@
           {
             "title": "Bag of Bones",
             "url": "https://stephen-king-api.onrender.com/api/book/35",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3428,7 +3433,7 @@
           {
             "title": "Thinner",
             "url": "https://stephen-king-api.onrender.com/api/book/18",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3456,7 +3461,7 @@
           {
             "title": "Sleeping Beauties",
             "url": "https://stephen-king-api.onrender.com/api/book/58",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -3484,7 +3489,7 @@
           {
             "title": "The Dark Tower V: Wolves of the Calla",
             "url": "https://stephen-king-api.onrender.com/api/book/40",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -3512,7 +3517,7 @@
           {
             "title": "The Dark Tower V: Wolves of the Calla",
             "url": "https://stephen-king-api.onrender.com/api/book/40",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3528,7 +3533,7 @@
     "pagination": {
       "page": 2,
       "limit": 100,
-      "total": 201,
+      "total": 211,
       "totalPages": 3
     }
   }

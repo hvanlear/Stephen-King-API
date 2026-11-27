@@ -4,7 +4,8 @@ import assert from "node:assert/strict";
 import { graph } from "../src/graph/build";
 import { decode } from "../src/client/model";
 import type { GraphPayload, PayloadNode } from "../src/graph/payload";
-import { layout, estimate, measureMark, roleRank, Rect, EgoLayout, Measure } from "../src/client/layout";
+import { noteRank } from "../src/client/model";
+import { layout, estimate, measureMark, Rect, EgoLayout, Measure } from "../src/client/layout";
 
 const g = decode(graph.payload);
 
@@ -118,7 +119,7 @@ for (const box of boxes) {
     it("never hides a lead, or a heavier record of the same role, while showing a lesser one", () => {
       for (const { i, l } of results) {
         // A chip stands for the first record it hides
-        const rank = (j: number) => roleRank(g.nodes[i].notes.get(j) ?? "");
+        const rank = (j: number) => noteRank(g, g.nodes[i].notes.get(j) ?? "");
         for (const chip of l.slots.filter((s) => s.type === "chip")) {
           const shown = l.slots.filter((s) => s.type === "node" && s.field === chip.field);
           for (const s of shown) {

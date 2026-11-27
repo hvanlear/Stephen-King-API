@@ -130,6 +130,13 @@ describe("the graph file", () => {
       const edge = layout(g, focus, { w: 868, h: 543 }).edges.find((e) => e.focus && e.b === other)!;
       assert.equal(edge.note, "minor");
     }
+    // Butch Bowers dies in It, where he's minor: his death's link to the book
+    // has no role, but the line still takes the one on his books link
+    const butch = g.byKey.get("villain-8")!;
+    const itBook = g.nodes.find((n) => n.kind === "book" && n.name === "It")!.index;
+    const line = layout(g, butch, { w: 868, h: 543 }).edges.find((e) => e.focus && e.b === itBook)!;
+    assert.equal(line.note, "minor");
+    assert.equal(g.notes[line.note]?.faint, true);
   });
 
   it("has a mark for every status a record has", () => {

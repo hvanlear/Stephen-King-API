@@ -2093,6 +2093,26 @@
             "name": "Dick Hallorann",
             "url": "https://stephen-king-api.onrender.com/api/character/221",
             "role": "minor"
+          },
+          {
+            "name": "Georgie Denbrough",
+            "url": "https://stephen-king-api.onrender.com/api/character/302",
+            "role": "supporting"
+          },
+          {
+            "name": "Audra Phillips",
+            "url": "https://stephen-king-api.onrender.com/api/character/303",
+            "role": "supporting"
+          },
+          {
+            "name": "William Hanlon",
+            "url": "https://stephen-king-api.onrender.com/api/character/304",
+            "role": "minor"
+          },
+          {
+            "name": "Eddie Corcoran",
+            "url": "https://stephen-king-api.onrender.com/api/character/305",
+            "role": "minor"
           }
         ],
         "villains": [
@@ -2310,7 +2330,7 @@
           {
             "name": "Jack Mort",
             "url": "https://stephen-king-api.onrender.com/api/villain/76",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Roland Deschain",
@@ -2321,19 +2341,54 @@
             "name": "Jake Chambers",
             "url": "https://stephen-king-api.onrender.com/api/character/266",
             "role": "minor"
+          },
+          {
+            "name": "Eddie Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/306",
+            "role": "protagonist"
+          },
+          {
+            "name": "Susannah Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/307",
+            "role": "protagonist"
+          },
+          {
+            "name": "Henry Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/308",
+            "role": "minor"
+          },
+          {
+            "name": "Enrico Balazar",
+            "url": "https://stephen-king-api.onrender.com/api/villain/309",
+            "role": "antagonist"
           }
         ],
         "villains": [
           {
             "name": "Jack Mort",
             "url": "https://stephen-king-api.onrender.com/api/villain/76",
-            "role": null
+            "role": "antagonist"
+          },
+          {
+            "name": "Enrico Balazar",
+            "url": "https://stephen-king-api.onrender.com/api/villain/309",
+            "role": "antagonist"
           }
         ],
         "protagonists": [
           {
             "name": "Roland Deschain",
             "url": "https://stephen-king-api.onrender.com/api/character/265",
+            "role": "protagonist"
+          },
+          {
+            "name": "Eddie Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/306",
+            "role": "protagonist"
+          },
+          {
+            "name": "Susannah Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/307",
             "role": "protagonist"
           }
         ],
@@ -2374,17 +2429,33 @@
           {
             "name": "Annie Wilkes",
             "url": "https://stephen-king-api.onrender.com/api/villain/114",
-            "role": null
+            "role": "antagonist"
+          },
+          {
+            "name": "Paul Sheldon",
+            "url": "https://stephen-king-api.onrender.com/api/character/310",
+            "role": "protagonist"
+          },
+          {
+            "name": "Duane Kushner",
+            "url": "https://stephen-king-api.onrender.com/api/character/311",
+            "role": "minor"
           }
         ],
         "villains": [
           {
             "name": "Annie Wilkes",
             "url": "https://stephen-king-api.onrender.com/api/villain/114",
-            "role": null
+            "role": "antagonist"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Paul Sheldon",
+            "url": "https://stephen-king-api.onrender.com/api/character/310",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Boulder, Colorado",
@@ -2418,7 +2489,47 @@
           {
             "name": "Tommyknockers",
             "url": "https://stephen-king-api.onrender.com/api/villain/104",
-            "role": null
+            "role": "antagonist"
+          },
+          {
+            "name": "Rebecca Paulson",
+            "url": "https://stephen-king-api.onrender.com/api/character/312",
+            "role": "minor"
+          },
+          {
+            "name": "Joe Paulson",
+            "url": "https://stephen-king-api.onrender.com/api/character/313",
+            "role": "minor"
+          },
+          {
+            "name": "Roberta Anderson",
+            "url": "https://stephen-king-api.onrender.com/api/character/314",
+            "role": "protagonist"
+          },
+          {
+            "name": "Jim Gardener",
+            "url": "https://stephen-king-api.onrender.com/api/character/315",
+            "role": "protagonist"
+          },
+          {
+            "name": "Ev Hillman",
+            "url": "https://stephen-king-api.onrender.com/api/character/316",
+            "role": "supporting"
+          },
+          {
+            "name": "David Brown",
+            "url": "https://stephen-king-api.onrender.com/api/character/317",
+            "role": "supporting"
+          },
+          {
+            "name": "Ruth McCausland",
+            "url": "https://stephen-king-api.onrender.com/api/character/318",
+            "role": "supporting"
+          },
+          {
+            "name": "Peter (dog)",
+            "url": "https://stephen-king-api.onrender.com/api/character/319",
+            "role": "minor"
           }
         ],
         "villains": [
@@ -2430,10 +2541,21 @@
           {
             "name": "Tommyknockers",
             "url": "https://stephen-king-api.onrender.com/api/villain/104",
-            "role": null
+            "role": "antagonist"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Roberta Anderson",
+            "url": "https://stephen-king-api.onrender.com/api/character/314",
+            "role": "protagonist"
+          },
+          {
+            "name": "Jim Gardener",
+            "url": "https://stephen-king-api.onrender.com/api/character/315",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Maine",
@@ -2735,6 +2857,16 @@
             "name": "Jake Chambers",
             "url": "https://stephen-king-api.onrender.com/api/character/266",
             "role": "protagonist"
+          },
+          {
+            "name": "Eddie Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/306",
+            "role": "protagonist"
+          },
+          {
+            "name": "Susannah Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/307",
+            "role": "protagonist"
           }
         ],
         "villains": [
@@ -2758,6 +2890,16 @@
           {
             "name": "Jake Chambers",
             "url": "https://stephen-king-api.onrender.com/api/character/266",
+            "role": "protagonist"
+          },
+          {
+            "name": "Eddie Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/306",
+            "role": "protagonist"
+          },
+          {
+            "name": "Susannah Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/307",
             "role": "protagonist"
           }
         ],
@@ -3301,6 +3443,16 @@
             "name": "Jake Chambers",
             "url": "https://stephen-king-api.onrender.com/api/character/266",
             "role": "protagonist"
+          },
+          {
+            "name": "Eddie Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/306",
+            "role": "protagonist"
+          },
+          {
+            "name": "Susannah Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/307",
+            "role": "protagonist"
           }
         ],
         "villains": [
@@ -3354,6 +3506,16 @@
           {
             "name": "Jake Chambers",
             "url": "https://stephen-king-api.onrender.com/api/character/266",
+            "role": "protagonist"
+          },
+          {
+            "name": "Eddie Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/306",
+            "role": "protagonist"
+          },
+          {
+            "name": "Susannah Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/307",
             "role": "protagonist"
           }
         ],
@@ -3676,6 +3838,16 @@
             "name": "Jake Chambers",
             "url": "https://stephen-king-api.onrender.com/api/character/266",
             "role": "protagonist"
+          },
+          {
+            "name": "Eddie Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/306",
+            "role": "protagonist"
+          },
+          {
+            "name": "Susannah Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/307",
+            "role": "protagonist"
           }
         ],
         "villains": [
@@ -3709,6 +3881,16 @@
           {
             "name": "Jake Chambers",
             "url": "https://stephen-king-api.onrender.com/api/character/266",
+            "role": "protagonist"
+          },
+          {
+            "name": "Eddie Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/306",
+            "role": "protagonist"
+          },
+          {
+            "name": "Susannah Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/307",
             "role": "protagonist"
           }
         ],
@@ -3776,6 +3958,16 @@
             "name": "Jake Chambers",
             "url": "https://stephen-king-api.onrender.com/api/character/266",
             "role": "protagonist"
+          },
+          {
+            "name": "Eddie Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/306",
+            "role": "protagonist"
+          },
+          {
+            "name": "Susannah Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/307",
+            "role": "protagonist"
           }
         ],
         "villains": [
@@ -3794,6 +3986,16 @@
           {
             "name": "Jake Chambers",
             "url": "https://stephen-king-api.onrender.com/api/character/266",
+            "role": "protagonist"
+          },
+          {
+            "name": "Eddie Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/306",
+            "role": "protagonist"
+          },
+          {
+            "name": "Susannah Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/307",
             "role": "protagonist"
           }
         ],
@@ -3873,6 +4075,16 @@
             "name": "Jake Chambers",
             "url": "https://stephen-king-api.onrender.com/api/character/266",
             "role": "protagonist"
+          },
+          {
+            "name": "Eddie Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/306",
+            "role": "protagonist"
+          },
+          {
+            "name": "Susannah Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/307",
+            "role": "protagonist"
           }
         ],
         "villains": [
@@ -3906,6 +4118,16 @@
           {
             "name": "Jake Chambers",
             "url": "https://stephen-king-api.onrender.com/api/character/266",
+            "role": "protagonist"
+          },
+          {
+            "name": "Eddie Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/306",
+            "role": "protagonist"
+          },
+          {
+            "name": "Susannah Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/307",
             "role": "protagonist"
           }
         ],
@@ -4319,6 +4541,16 @@
           {
             "name": "Jake Chambers",
             "url": "https://stephen-king-api.onrender.com/api/character/266",
+            "role": "supporting"
+          },
+          {
+            "name": "Eddie Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/306",
+            "role": "supporting"
+          },
+          {
+            "name": "Susannah Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/307",
             "role": "supporting"
           }
         ],

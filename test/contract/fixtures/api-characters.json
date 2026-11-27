@@ -3222,7 +3222,7 @@
           {
             "title": "The Dark Tower II: The Drawing of the Three",
             "url": "https://stephen-king-api.onrender.com/api/book/20",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -4321,7 +4321,7 @@
           {
             "title": "The Tommyknockers",
             "url": "https://stephen-king-api.onrender.com/api/book/22",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -4721,7 +4721,7 @@
           {
             "title": "Misery",
             "url": "https://stephen-king-api.onrender.com/api/book/21",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -11212,6 +11212,667 @@
         "type": {
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 302,
+        "name": "Georgie Denbrough",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:12:16.000Z",
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 303,
+        "name": "Audra Phillips",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:12:16.000Z",
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 304,
+        "name": "William Hanlon",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:12:16.000Z",
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 305,
+        "name": "Eddie Corcoran",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:12:16.000Z",
+        "books": [
+          {
+            "title": "It",
+            "url": "https://stephen-king-api.onrender.com/api/book/19",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 306,
+        "name": "Eddie Dean",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:12:16.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower II: The Drawing of the Three",
+            "url": "https://stephen-king-api.onrender.com/api/book/20",
+            "role": "protagonist"
+          },
+          {
+            "title": "The Dark Tower III: The Waste Lands",
+            "url": "https://stephen-king-api.onrender.com/api/book/25",
+            "role": "protagonist"
+          },
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34",
+            "role": "protagonist"
+          },
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40",
+            "role": "protagonist"
+          },
+          {
+            "title": "The Dark Tower VI: Song of Susannah",
+            "url": "https://stephen-king-api.onrender.com/api/book/41",
+            "role": "protagonist"
+          },
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42",
+            "role": "protagonist"
+          },
+          {
+            "title": "The Dark Tower: The Wind Through the Keyhole",
+            "url": "https://stephen-king-api.onrender.com/api/book/50",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "New York City",
+            "url": "https://stephen-king-api.onrender.com/api/place/90"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 307,
+        "name": "Susannah Dean",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:12:16.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower II: The Drawing of the Three",
+            "url": "https://stephen-king-api.onrender.com/api/book/20",
+            "role": "protagonist"
+          },
+          {
+            "title": "The Dark Tower III: The Waste Lands",
+            "url": "https://stephen-king-api.onrender.com/api/book/25",
+            "role": "protagonist"
+          },
+          {
+            "title": "The Dark Tower IV: Wizard and Glass",
+            "url": "https://stephen-king-api.onrender.com/api/book/34",
+            "role": "protagonist"
+          },
+          {
+            "title": "The Dark Tower V: Wolves of the Calla",
+            "url": "https://stephen-king-api.onrender.com/api/book/40",
+            "role": "protagonist"
+          },
+          {
+            "title": "The Dark Tower VI: Song of Susannah",
+            "url": "https://stephen-king-api.onrender.com/api/book/41",
+            "role": "protagonist"
+          },
+          {
+            "title": "The Dark Tower VII: The Dark Tower",
+            "url": "https://stephen-king-api.onrender.com/api/book/42",
+            "role": "protagonist"
+          },
+          {
+            "title": "The Dark Tower: The Wind Through the Keyhole",
+            "url": "https://stephen-king-api.onrender.com/api/book/50",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "New York City",
+            "url": "https://stephen-king-api.onrender.com/api/place/90"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 308,
+        "name": "Henry Dean",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:12:16.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower II: The Drawing of the Three",
+            "url": "https://stephen-king-api.onrender.com/api/book/20",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "New York City",
+            "url": "https://stephen-king-api.onrender.com/api/place/90"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 309,
+        "name": "Enrico Balazar",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:12:16.000Z",
+        "books": [
+          {
+            "title": "The Dark Tower II: The Drawing of the Three",
+            "url": "https://stephen-king-api.onrender.com/api/book/20",
+            "role": "antagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "New York City",
+            "url": "https://stephen-king-api.onrender.com/api/place/90"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 310,
+        "name": "Paul Sheldon",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:12:16.000Z",
+        "books": [
+          {
+            "title": "Misery",
+            "url": "https://stephen-king-api.onrender.com/api/book/21",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "New York City",
+            "url": "https://stephen-king-api.onrender.com/api/place/90"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 311,
+        "name": "Duane Kushner",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:12:16.000Z",
+        "books": [
+          {
+            "title": "Misery",
+            "url": "https://stephen-king-api.onrender.com/api/book/21",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Boulder, Colorado",
+            "url": "https://stephen-king-api.onrender.com/api/place/50"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 312,
+        "name": "Rebecca Paulson",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:12:16.000Z",
+        "books": [
+          {
+            "title": "The Tommyknockers",
+            "url": "https://stephen-king-api.onrender.com/api/book/22",
+            "role": "minor"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "The Revelations of 'Becka Paulson",
+            "url": "https://stephen-king-api.onrender.com/api/short/96",
+            "role": "protagonist"
+          }
+        ],
+        "residence": [
+          {
+            "name": "Haven, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/74"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 313,
+        "name": "Joe Paulson",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:12:16.000Z",
+        "books": [
+          {
+            "title": "The Tommyknockers",
+            "url": "https://stephen-king-api.onrender.com/api/book/22",
+            "role": "minor"
+          }
+        ],
+        "shorts": [
+          {
+            "title": "The Revelations of 'Becka Paulson",
+            "url": "https://stephen-king-api.onrender.com/api/short/96",
+            "role": "supporting"
+          }
+        ],
+        "residence": [
+          {
+            "name": "Haven, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/74"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 314,
+        "name": "Roberta Anderson",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:12:16.000Z",
+        "books": [
+          {
+            "title": "The Tommyknockers",
+            "url": "https://stephen-king-api.onrender.com/api/book/22",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Haven, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/74"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 315,
+        "name": "Jim Gardener",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:12:16.000Z",
+        "books": [
+          {
+            "title": "The Tommyknockers",
+            "url": "https://stephen-king-api.onrender.com/api/book/22",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Haven, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/74"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 316,
+        "name": "Ev Hillman",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:12:16.000Z",
+        "books": [
+          {
+            "title": "The Tommyknockers",
+            "url": "https://stephen-king-api.onrender.com/api/book/22",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Haven, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/74"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 317,
+        "name": "David Brown",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:12:16.000Z",
+        "books": [
+          {
+            "title": "The Tommyknockers",
+            "url": "https://stephen-king-api.onrender.com/api/book/22",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Haven, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/74"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 318,
+        "name": "Ruth McCausland",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:12:16.000Z",
+        "books": [
+          {
+            "title": "The Tommyknockers",
+            "url": "https://stephen-king-api.onrender.com/api/book/22",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Haven, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/74"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 319,
+        "name": "Peter (dog)",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 8,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:12:16.000Z",
+        "books": [
+          {
+            "title": "The Tommyknockers",
+            "url": "https://stephen-king-api.onrender.com/api/book/22",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Haven, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/74"
+          }
+        ],
+        "type": {
+          "name": "Animal",
+          "url": "https://stephen-king-api.onrender.com/api/type/8"
         },
         "kinds": [],
         "killed": []

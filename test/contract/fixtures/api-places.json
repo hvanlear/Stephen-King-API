@@ -880,6 +880,74 @@
           {
             "name": "Richard Ginelli",
             "url": "https://stephen-king-api.onrender.com/api/character/301"
+          },
+          {
+            "name": "Georgie Denbrough",
+            "url": "https://stephen-king-api.onrender.com/api/character/302"
+          },
+          {
+            "name": "William Hanlon",
+            "url": "https://stephen-king-api.onrender.com/api/character/304"
+          },
+          {
+            "name": "Eddie Corcoran",
+            "url": "https://stephen-king-api.onrender.com/api/character/305"
+          },
+          {
+            "name": "Eddie Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/306"
+          },
+          {
+            "name": "Susannah Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/307"
+          },
+          {
+            "name": "Henry Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/308"
+          },
+          {
+            "name": "Enrico Balazar",
+            "url": "https://stephen-king-api.onrender.com/api/villain/309"
+          },
+          {
+            "name": "Paul Sheldon",
+            "url": "https://stephen-king-api.onrender.com/api/character/310"
+          },
+          {
+            "name": "Duane Kushner",
+            "url": "https://stephen-king-api.onrender.com/api/character/311"
+          },
+          {
+            "name": "Rebecca Paulson",
+            "url": "https://stephen-king-api.onrender.com/api/character/312"
+          },
+          {
+            "name": "Joe Paulson",
+            "url": "https://stephen-king-api.onrender.com/api/character/313"
+          },
+          {
+            "name": "Roberta Anderson",
+            "url": "https://stephen-king-api.onrender.com/api/character/314"
+          },
+          {
+            "name": "Jim Gardener",
+            "url": "https://stephen-king-api.onrender.com/api/character/315"
+          },
+          {
+            "name": "Ev Hillman",
+            "url": "https://stephen-king-api.onrender.com/api/character/316"
+          },
+          {
+            "name": "David Brown",
+            "url": "https://stephen-king-api.onrender.com/api/character/317"
+          },
+          {
+            "name": "Ruth McCausland",
+            "url": "https://stephen-king-api.onrender.com/api/character/318"
+          },
+          {
+            "name": "Peter (dog)",
+            "url": "https://stephen-king-api.onrender.com/api/character/319"
           }
         ],
         "villains": [
@@ -1162,6 +1230,10 @@
           {
             "name": "Sunlight Gardner",
             "url": "https://stephen-king-api.onrender.com/api/villain/289"
+          },
+          {
+            "name": "Enrico Balazar",
+            "url": "https://stephen-king-api.onrender.com/api/villain/309"
           }
         ]
       },
@@ -1654,6 +1726,10 @@
           {
             "name": "Kojak",
             "url": "https://stephen-king-api.onrender.com/api/character/232"
+          },
+          {
+            "name": "Duane Kushner",
+            "url": "https://stephen-king-api.onrender.com/api/character/311"
           }
         ],
         "villains": [
@@ -2577,6 +2653,50 @@
           {
             "name": "Lander Neary",
             "url": "https://stephen-king-api.onrender.com/api/character/283"
+          },
+          {
+            "name": "Georgie Denbrough",
+            "url": "https://stephen-king-api.onrender.com/api/character/302"
+          },
+          {
+            "name": "William Hanlon",
+            "url": "https://stephen-king-api.onrender.com/api/character/304"
+          },
+          {
+            "name": "Eddie Corcoran",
+            "url": "https://stephen-king-api.onrender.com/api/character/305"
+          },
+          {
+            "name": "Rebecca Paulson",
+            "url": "https://stephen-king-api.onrender.com/api/character/312"
+          },
+          {
+            "name": "Joe Paulson",
+            "url": "https://stephen-king-api.onrender.com/api/character/313"
+          },
+          {
+            "name": "Roberta Anderson",
+            "url": "https://stephen-king-api.onrender.com/api/character/314"
+          },
+          {
+            "name": "Jim Gardener",
+            "url": "https://stephen-king-api.onrender.com/api/character/315"
+          },
+          {
+            "name": "Ev Hillman",
+            "url": "https://stephen-king-api.onrender.com/api/character/316"
+          },
+          {
+            "name": "David Brown",
+            "url": "https://stephen-king-api.onrender.com/api/character/317"
+          },
+          {
+            "name": "Ruth McCausland",
+            "url": "https://stephen-king-api.onrender.com/api/character/318"
+          },
+          {
+            "name": "Peter (dog)",
+            "url": "https://stephen-king-api.onrender.com/api/character/319"
           }
         ],
         "villains": [
@@ -3007,9 +3127,34 @@
           {
             "name": "Richard Ginelli",
             "url": "https://stephen-king-api.onrender.com/api/character/301"
+          },
+          {
+            "name": "Eddie Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/306"
+          },
+          {
+            "name": "Susannah Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/307"
+          },
+          {
+            "name": "Henry Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/308"
+          },
+          {
+            "name": "Enrico Balazar",
+            "url": "https://stephen-king-api.onrender.com/api/villain/309"
+          },
+          {
+            "name": "Paul Sheldon",
+            "url": "https://stephen-king-api.onrender.com/api/character/310"
           }
         ],
-        "villains": []
+        "villains": [
+          {
+            "name": "Enrico Balazar",
+            "url": "https://stephen-king-api.onrender.com/api/villain/309"
+          }
+        ]
       },
       {
         "id": 35,
@@ -3487,6 +3632,10 @@
           {
             "name": "Kojak",
             "url": "https://stephen-king-api.onrender.com/api/character/232"
+          },
+          {
+            "name": "Duane Kushner",
+            "url": "https://stephen-king-api.onrender.com/api/character/311"
           }
         ],
         "villains": []
@@ -4451,6 +4600,18 @@
           {
             "name": "Stan Uris",
             "url": "https://stephen-king-api.onrender.com/api/character/213"
+          },
+          {
+            "name": "Georgie Denbrough",
+            "url": "https://stephen-king-api.onrender.com/api/character/302"
+          },
+          {
+            "name": "William Hanlon",
+            "url": "https://stephen-king-api.onrender.com/api/character/304"
+          },
+          {
+            "name": "Eddie Corcoran",
+            "url": "https://stephen-king-api.onrender.com/api/character/305"
           }
         ],
         "villains": [
@@ -4814,7 +4975,40 @@
             "url": "https://stephen-king-api.onrender.com/api/short/96"
           }
         ],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Rebecca Paulson",
+            "url": "https://stephen-king-api.onrender.com/api/character/312"
+          },
+          {
+            "name": "Joe Paulson",
+            "url": "https://stephen-king-api.onrender.com/api/character/313"
+          },
+          {
+            "name": "Roberta Anderson",
+            "url": "https://stephen-king-api.onrender.com/api/character/314"
+          },
+          {
+            "name": "Jim Gardener",
+            "url": "https://stephen-king-api.onrender.com/api/character/315"
+          },
+          {
+            "name": "Ev Hillman",
+            "url": "https://stephen-king-api.onrender.com/api/character/316"
+          },
+          {
+            "name": "David Brown",
+            "url": "https://stephen-king-api.onrender.com/api/character/317"
+          },
+          {
+            "name": "Ruth McCausland",
+            "url": "https://stephen-king-api.onrender.com/api/character/318"
+          },
+          {
+            "name": "Peter (dog)",
+            "url": "https://stephen-king-api.onrender.com/api/character/319"
+          }
+        ],
         "villains": []
       },
       {
@@ -5350,8 +5544,34 @@
         ],
         "books": [],
         "shorts": [],
-        "characters": [],
-        "villains": []
+        "characters": [
+          {
+            "name": "Eddie Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/306"
+          },
+          {
+            "name": "Susannah Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/307"
+          },
+          {
+            "name": "Henry Dean",
+            "url": "https://stephen-king-api.onrender.com/api/character/308"
+          },
+          {
+            "name": "Enrico Balazar",
+            "url": "https://stephen-king-api.onrender.com/api/villain/309"
+          },
+          {
+            "name": "Paul Sheldon",
+            "url": "https://stephen-king-api.onrender.com/api/character/310"
+          }
+        ],
+        "villains": [
+          {
+            "name": "Enrico Balazar",
+            "url": "https://stephen-king-api.onrender.com/api/villain/309"
+          }
+        ]
       },
       {
         "id": 91,

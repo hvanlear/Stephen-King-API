@@ -2075,7 +2075,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-dark-tower-ii-the-drawing-of-the-three": null
+      "the-dark-tower-ii-the-drawing-of-the-three": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -2812,7 +2812,7 @@
     "types_id": 4,
     "group": true,
     "appears_in": {
-      "the-tommyknockers": null
+      "the-tommyknockers": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -3075,7 +3075,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "misery": null
+      "misery": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -6933,5 +6933,359 @@
     "kinds": [],
     "notes": [],
     "created_at": "2026-11-27T04:09:45.000Z"
+  },
+  {
+    "id": 302,
+    "name": "Georgie Denbrough",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "it": "supporting"
+    },
+    "residence": [
+      "derry-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 303,
+    "name": "Audra Phillips",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "it": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 304,
+    "name": "William Hanlon",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "it": "minor"
+    },
+    "residence": [
+      "derry-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 305,
+    "name": "Eddie Corcoran",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "it": "minor"
+    },
+    "residence": [
+      "derry-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 306,
+    "name": "Eddie Dean",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-ii-the-drawing-of-the-three": "protagonist",
+      "the-dark-tower-iii-the-waste-lands": "protagonist",
+      "the-dark-tower-iv-wizard-and-glass": "protagonist",
+      "the-dark-tower-v-wolves-of-the-calla": "protagonist",
+      "the-dark-tower-vi-song-of-susannah": "protagonist",
+      "the-dark-tower-vii-the-dark-tower": "protagonist",
+      "the-dark-tower-the-wind-through-the-keyhole": "supporting"
+    },
+    "residence": [
+      "new-york-city"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 307,
+    "name": "Susannah Dean",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-ii-the-drawing-of-the-three": "protagonist",
+      "the-dark-tower-iii-the-waste-lands": "protagonist",
+      "the-dark-tower-iv-wizard-and-glass": "protagonist",
+      "the-dark-tower-v-wolves-of-the-calla": "protagonist",
+      "the-dark-tower-vi-song-of-susannah": "protagonist",
+      "the-dark-tower-vii-the-dark-tower": "protagonist",
+      "the-dark-tower-the-wind-through-the-keyhole": "supporting"
+    },
+    "residence": [
+      "new-york-city"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 308,
+    "name": "Henry Dean",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-ii-the-drawing-of-the-three": "minor"
+    },
+    "residence": [
+      "new-york-city"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 309,
+    "name": "Enrico Balazar",
+    "villain": true,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dark-tower-ii-the-drawing-of-the-three": "antagonist"
+    },
+    "residence": [
+      "new-york-city"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 310,
+    "name": "Paul Sheldon",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "misery": "protagonist"
+    },
+    "residence": [
+      "new-york-city"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 311,
+    "name": "Duane Kushner",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "misery": "minor"
+    },
+    "residence": [
+      "boulder-colorado"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 312,
+    "name": "Rebecca Paulson",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-revelations-of-becka-paulson": "protagonist",
+      "the-tommyknockers": "minor"
+    },
+    "residence": [
+      "haven-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 313,
+    "name": "Joe Paulson",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-revelations-of-becka-paulson": "supporting",
+      "the-tommyknockers": "minor"
+    },
+    "residence": [
+      "haven-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 314,
+    "name": "Roberta Anderson",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-tommyknockers": "protagonist"
+    },
+    "residence": [
+      "haven-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 315,
+    "name": "Jim Gardener",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-tommyknockers": "protagonist"
+    },
+    "residence": [
+      "haven-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 316,
+    "name": "Ev Hillman",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-tommyknockers": "supporting"
+    },
+    "residence": [
+      "haven-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 317,
+    "name": "David Brown",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-tommyknockers": "supporting"
+    },
+    "residence": [
+      "haven-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 318,
+    "name": "Ruth McCausland",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-tommyknockers": "supporting"
+    },
+    "residence": [
+      "haven-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
+  },
+  {
+    "id": 319,
+    "name": "Peter (dog)",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 8,
+    "group": false,
+    "appears_in": {
+      "the-tommyknockers": "minor"
+    },
+    "residence": [
+      "haven-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:12:16.000Z"
   }
 ]

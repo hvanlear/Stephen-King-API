@@ -151,7 +151,7 @@
           {
             "title": "The Tommyknockers",
             "url": "https://stephen-king-api.onrender.com/api/book/22",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -551,7 +551,7 @@
           {
             "title": "Misery",
             "url": "https://stephen-king-api.onrender.com/api/book/21",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3533,7 +3533,7 @@
     "pagination": {
       "page": 2,
       "limit": 100,
-      "total": 301,
+      "total": 319,
       "totalPages": 4
     }
   }

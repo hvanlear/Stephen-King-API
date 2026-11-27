@@ -210,13 +210,9 @@ describe("validate-data", () => {
     }
   });
 
-  it("lets a character who isn't a villain become one, once its killer links say so", () => {
-    // Nobody's death names Matt Burke, so nothing else has to change
-    assert.deepEqual(errorsAfter((c) => (character(c, 205).villain = true), loadCatalog()), []);
-    // Ben Mears killed Barlow and Susan Norton, so both links have to become { villain: 202 }
-    const errors = errorsAfter((c) => (character(c, 202).villain = true), loadCatalog());
-    assertFlags(errors, /character 2 .*: death\.killed_by 0 character 202 is a villain, so it should be \{ "villain": 202 \}$/);
-    assertFlags(errors, /character 204 .*: death\.killed_by 0 character 202 is a villain, so it should be \{ "villain": 202 \}$/);
+  it("lets a character who isn't a villain become one, without touching the deaths that name it", () => {
+    // Ben Mears killed Barlow and Susan Norton; their { character: 202 } links stay as they are
+    assert.deepEqual(errorsAfter((c) => (character(c, 202).villain = true), loadCatalog()), []);
   });
 
   it("flags a type whose parent doesn't exist", () => {
@@ -366,22 +362,29 @@ describe("validate-data", () => {
 
   it("flags a killer who has no record, or is the victim", () => {
     const errors = errorsAfter((c) => {
-      character(c, 98).death.killed_by = [{ villain: 9999 }];
-      character(c, 2).death.killed_by = [{ villain: 2 }];
-      character(c, 7).death.killed_by = [{ character: 9999 }];
+      character(c, 98).death.killed_by = [{ character: 9999 }];
+      character(c, 2).death.killed_by = [{ character: 2 }];
     });
-    assertFlags(errors, /character 98 .*: death\.killed_by 0 villain 9999 doesn't match any character$/);
+    assertFlags(errors, /character 98 .*: death\.killed_by 0 character 9999 doesn't match any character$/);
     assertFlags(errors, /character 2 .*: death\.killed_by 0 is the character itself; a suicide has an empty killed_by$/);
-    assertFlags(errors, /character 7 .*: death\.killed_by 0 character 9999 doesn't match any character$/);
   });
 
-  it("flags a killer linked in the wrong form for a villain or not", () => {
-    const errors = errorsAfter((c) => {
-      character(c, 98).death.killed_by = [{ character: 2 }];
-      character(c, 2).death.killed_by = [{ villain: 202 }];
-    });
-    assertFlags(errors, /character 98 .*: death\.killed_by 0 character 2 is a villain, so it should be \{ "villain": 2 \}$/);
-    assertFlags(errors, /character 2 .*: death\.killed_by 0 villain 202 is not a villain, so it should be \{ "character": 202 \}$/);
+  it("links a killer the same way whether or not it's a villain", () => {
+    // Barlow killed Mike Ryerson; Ben Mears killed Barlow
+    assert.deepEqual(
+      errorsAfter((c) => {
+        character(c, 98).death.killed_by = [{ character: 2 }];
+        character(c, 2).death.killed_by = [{ character: 202 }];
+      }),
+      []
+    );
+  });
+
+  it("flags a killer in the old villain form", () => {
+    const errors = errorsAfter((c) => (character(c, 98).death.killed_by = [{ villain: 2 }]));
+    assertFlags(errors, /character 98 .*: death\.killed_by 0 has villain, but a killer with a record is \{ "character": id \}, villains included$/);
+    // The one message is enough
+    assert.equal(errors.filter((e) => /character 98 /.test(e)).length, 1, errors.join("\n"));
   });
 
   it("flags a killer named like a character who isn't a villain, who should be linked", () => {
@@ -391,7 +394,7 @@ describe("validate-data", () => {
 
   it("flags a killer named like a villain, who should be linked", () => {
     const errors = errorsAfter((c) => (character(c, 98).death.killed_by = [{ name: "kurt barlow" }]));
-    assertFlags(errors, /character 98 .*: death\.killed_by 0 "kurt barlow" is villain 2, so it should be \{ "villain": 2 \}$/);
+    assertFlags(errors, /character 98 .*: death\.killed_by 0 "kurt barlow" is character 2, so it should be \{ "character": 2 \}$/);
   });
 
   it("flags a killer listed twice, even as a group's member", () => {
@@ -401,12 +404,12 @@ describe("validate-data", () => {
 
   it("flags a killer with both forms, neither, or a field it can't have", () => {
     const errors = errorsAfter((c) => {
-      character(c, 98).death.killed_by = [{ villain: 2, name: "Kurt" }, { weapon: "teeth" }];
+      character(c, 98).death.killed_by = [{ character: 2, name: "Kurt" }, { weapon: "teeth" }];
       character(c, 57).death.killed_by[0].members[0].members = [{ name: "Silver" }];
     });
-    assertFlags(errors, /character 98 .*: death\.killed_by 0 needs exactly one of villain \(an id\), character \(an id\) or name$/);
-    assertFlags(errors, /character 98 .*: death\.killed_by 1 has weapon, but a killer has only villain, character or name, and members for a group$/);
-    assertFlags(errors, /character 57 .*: death\.killed_by 0 member 0 has members, but a member has only villain, character or name$/);
+    assertFlags(errors, /character 98 .*: death\.killed_by 0 needs exactly one of character \(an id\) or name$/);
+    assertFlags(errors, /character 98 .*: death\.killed_by 1 has weapon, but a killer has only character or name, and members for a group$/);
+    assertFlags(errors, /character 57 .*: death\.killed_by 0 member 0 has members, but a member has only character or name$/);
   });
 
   it("flags a group with an empty list of members", () => {

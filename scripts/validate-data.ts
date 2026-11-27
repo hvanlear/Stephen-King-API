@@ -482,10 +482,10 @@ const DEATH_FIELDS = ["cause", "in", "killed_by"];
 
 // A recorded death needs a cause, the book or short it happens in, which has
 // to be one the character appears in, and who killed them (an empty list
-// when nobody did). Each killer is { "villain": id } for a villain,
-// { "character": id } for any other character, or, for someone with no
-// record yet, a name; a group of killers can list its members the same way.
-// A name can't be a character's name, since that killer has a record to link.
+// when nobody did). Each killer is { "character": id } for anyone with a
+// record, villains included, or, for someone with no record yet, a name; a
+// group of killers can list its members the same way. A name can't be a
+// character's name, since that killer has a record to link.
 function checkDeaths(characters: unknown, books: unknown, shorts: unknown): string[] {
   if (!Array.isArray(characters)) {
     return [];
@@ -500,10 +500,6 @@ function checkDeaths(characters: unknown, books: unknown, shorts: unknown): stri
       .filter((character: CatalogRecord) => typeof character?.name === "string")
       .map((character: CatalogRecord) => [(character.name as string).toLowerCase(), character])
   );
-  // The form a killer with a record takes
-  const formFor = (character: CatalogRecord) =>
-    `{ "${character.villain === true ? "villain" : "character"}": ${character.id} }`;
-
   characters.forEach((character: CatalogRecord, index) => {
     const death = character?.death;
     // The field rule reports a death that isn't null or an object
@@ -548,34 +544,32 @@ function checkDeaths(characters: unknown, books: unknown, shorts: unknown): stri
         return;
       }
       const killer = entry as CatalogRecord;
-      const forms = ["villain", "character", "name"];
+      const forms = ["character", "name"];
       const allowed = member ? forms : [...forms, "members"];
       const unknown = Object.keys(killer).filter((field) => !allowed.includes(field));
-      if (unknown.length) {
-        fail(`${label} has ${unknown.join(", ")}, but ${member ? "a member has only villain, character or name" : "a killer has only villain, character or name, and members for a group"}`);
+      if (unknown.includes("villain")) {
+        fail(`${label} has villain, but a killer with a record is { "character": id }, villains included`);
+      } else if (unknown.length) {
+        fail(`${label} has ${unknown.join(", ")}, but ${member ? "a member has only character or name" : "a killer has only character or name, and members for a group"}`);
       }
       const given = forms.filter((form) => form in killer);
       let key: string | undefined;
       if (given.length !== 1) {
-        fail(`${label} needs exactly one of villain (an id), character (an id) or name`);
-      } else if (given[0] !== "name") {
-        const form = given[0];
-        const id = killer[form];
-        const target = byId.get(id);
-        if (!target) {
-          fail(`${label} ${form} ${JSON.stringify(id)} doesn't match any character`);
+        if (!unknown.includes("villain")) fail(`${label} needs exactly one of character (an id) or name`);
+      } else if (given[0] === "character") {
+        const id = killer.character;
+        if (!byId.has(id)) {
+          fail(`${label} character ${JSON.stringify(id)} doesn't match any character`);
         } else if (id === character.id) {
           fail(`${label} is the character itself; a suicide has an empty killed_by`);
-        } else if ((target.villain === true) !== (form === "villain")) {
-          fail(`${label} ${form} ${id} is ${target.villain === true ? "a villain" : "not a villain"}, so it should be ${formFor(target)}`);
         }
-        key = `${form} ${JSON.stringify(id)}`;
+        key = `character ${JSON.stringify(id)}`;
       } else if (!isText(killer.name)) {
         fail(`${label} name must be non-empty text without surrounding spaces`);
       } else {
         const target = byName.get((killer.name as string).toLowerCase());
         if (target) {
-          fail(`${label} ${JSON.stringify(killer.name)} is ${target.villain === true ? "villain" : "character"} ${target.id}, so it should be ${formFor(target)}`);
+          fail(`${label} ${JSON.stringify(killer.name)} is character ${target.id}, so it should be { "character": ${target.id} }`);
         }
         key = `name ${JSON.stringify((killer.name as string).toLowerCase())}`;
       }

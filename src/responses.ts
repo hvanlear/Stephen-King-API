@@ -37,7 +37,6 @@ import {
   publicationIdByShort,
   deathWorkByCharacter,
   victimIdsByCharacter,
-  killerId,
   isProtagonist,
 } from "./catalog";
 import config from "./config";
@@ -129,10 +128,8 @@ const shortLinks = (ids: number[] = []) => ids.map(shortLink);
 
 // A killer with no record yet has a name and a null url, which becomes a
 // link once the record exists
-const killerLink = (killer: Killer) => {
-  const id = killerId(killer);
-  return id === undefined ? { name: (killer as { name: string }).name, url: null } : characterLink(id);
-};
+const killerLink = (killer: Killer) =>
+  "name" in killer ? { name: killer.name, url: null } : characterLink(killer.character);
 
 // in holds a handle, which is served as a link to the work
 const deathResponse = (characterId: number, death: Death | null) => {

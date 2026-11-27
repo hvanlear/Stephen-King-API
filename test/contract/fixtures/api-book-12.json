@@ -16,44 +16,44 @@
         {
           "name": "Marten Broadcloak",
           "url": "https://stephen-king-api.onrender.com/api/villain/10",
-          "role": null
+          "role": "supporting"
         },
         {
           "name": "Crimson King",
           "url": "https://stephen-king-api.onrender.com/api/villain/17",
-          "role": null
+          "role": "minor"
         },
         {
           "name": "Randall Flagg",
           "url": "https://stephen-king-api.onrender.com/api/villain/37",
-          "role": null
+          "role": "antagonist"
         },
         {
           "name": "Sylvia Pittston",
           "url": "https://stephen-king-api.onrender.com/api/villain/84",
-          "role": null
+          "role": "supporting"
         }
       ],
       "villains": [
         {
           "name": "Marten Broadcloak",
           "url": "https://stephen-king-api.onrender.com/api/villain/10",
-          "role": null
+          "role": "supporting"
         },
         {
           "name": "Crimson King",
           "url": "https://stephen-king-api.onrender.com/api/villain/17",
-          "role": null
+          "role": "minor"
         },
         {
           "name": "Randall Flagg",
           "url": "https://stephen-king-api.onrender.com/api/villain/37",
-          "role": null
+          "role": "antagonist"
         },
         {
           "name": "Sylvia Pittston",
           "url": "https://stephen-king-api.onrender.com/api/villain/84",
-          "role": null
+          "role": "supporting"
         }
       ],
       "protagonists": [],

@@ -1574,14 +1574,14 @@
           {
             "name": "Sylvia Pittston",
             "url": "https://stephen-king-api.onrender.com/api/villain/84",
-            "role": null
+            "role": "supporting"
           }
         ],
         "villains": [
           {
             "name": "Sylvia Pittston",
             "url": "https://stephen-king-api.onrender.com/api/villain/84",
-            "role": null
+            "role": "supporting"
           }
         ],
         "protagonists": [],
@@ -2037,14 +2037,14 @@
           {
             "name": "Marten Broadcloak",
             "url": "https://stephen-king-api.onrender.com/api/villain/10",
-            "role": null
+            "role": "minor"
           }
         ],
         "villains": [
           {
             "name": "Marten Broadcloak",
             "url": "https://stephen-king-api.onrender.com/api/villain/10",
-            "role": null
+            "role": "minor"
           }
         ],
         "protagonists": [],
@@ -2196,7 +2196,7 @@
           {
             "name": "John \"Ace\" Merrill",
             "url": "https://stephen-king-api.onrender.com/api/villain/74",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Billy Tessio",
@@ -2233,7 +2233,7 @@
           {
             "name": "John \"Ace\" Merrill",
             "url": "https://stephen-king-api.onrender.com/api/villain/74",
-            "role": null
+            "role": "antagonist"
           },
           {
             "name": "Billy Tessio",

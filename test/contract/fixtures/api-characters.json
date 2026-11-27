@@ -140,12 +140,12 @@
           {
             "title": "The Dark Tower IV: Wizard and Glass",
             "url": "https://stephen-king-api.onrender.com/api/book/34",
-            "role": null
+            "role": "supporting"
           },
           {
             "title": "The Dark Tower III: The Waste Lands",
             "url": "https://stephen-king-api.onrender.com/api/book/25",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -475,14 +475,14 @@
           {
             "title": "The Dark Tower: The Gunslinger",
             "url": "https://stephen-king-api.onrender.com/api/book/12",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [
           {
             "title": "The Gunslinger and the Dark Man",
             "url": "https://stephen-king-api.onrender.com/api/short/79",
-            "role": null
+            "role": "minor"
           }
         ],
         "residence": [
@@ -768,22 +768,22 @@
           {
             "title": "Insomnia",
             "url": "https://stephen-king-api.onrender.com/api/book/29",
-            "role": null
+            "role": "antagonist"
           },
           {
             "title": "The Dark Tower: The Gunslinger",
             "url": "https://stephen-king-api.onrender.com/api/book/12",
-            "role": null
+            "role": "minor"
           },
           {
             "title": "Black House",
             "url": "https://stephen-king-api.onrender.com/api/book/38",
-            "role": null
+            "role": "supporting"
           },
           {
             "title": "The Dark Tower VII: The Dark Tower",
             "url": "https://stephen-king-api.onrender.com/api/book/42",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -1017,12 +1017,12 @@
           {
             "title": "Rose Madder",
             "url": "https://stephen-king-api.onrender.com/api/book/30",
-            "role": null
+            "role": "minor"
           },
           {
             "title": "Insomnia",
             "url": "https://stephen-king-api.onrender.com/api/book/29",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -1134,12 +1134,12 @@
           {
             "title": "The Shining",
             "url": "https://stephen-king-api.onrender.com/api/book/3",
-            "role": null
+            "role": "supporting"
           },
           {
             "title": "Doctor Sleep",
             "url": "https://stephen-king-api.onrender.com/api/book/52",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -1179,12 +1179,12 @@
           {
             "title": "The Dark Tower VII: The Dark Tower",
             "url": "https://stephen-king-api.onrender.com/api/book/42",
-            "role": null
+            "role": "antagonist"
           },
           {
             "title": "The Dark Tower VI: Song of Susannah",
             "url": "https://stephen-king-api.onrender.com/api/book/41",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -1434,12 +1434,12 @@
           {
             "title": "The Stand",
             "url": "https://stephen-king-api.onrender.com/api/book/5",
-            "role": null
+            "role": "supporting"
           },
           {
             "title": "The Stand Uncut",
             "url": "https://stephen-king-api.onrender.com/api/book/24",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -1557,37 +1557,37 @@
           {
             "title": "The Stand",
             "url": "https://stephen-king-api.onrender.com/api/book/5",
-            "role": null
+            "role": "antagonist"
           },
           {
             "title": "The Stand Uncut",
             "url": "https://stephen-king-api.onrender.com/api/book/24",
-            "role": null
+            "role": "antagonist"
           },
           {
             "title": "The Eyes of the Dragon",
             "url": "https://stephen-king-api.onrender.com/api/book/17",
-            "role": null
+            "role": "antagonist"
           },
           {
             "title": "The Dark Tower: The Gunslinger",
             "url": "https://stephen-king-api.onrender.com/api/book/12",
-            "role": null
+            "role": "antagonist"
           },
           {
             "title": "The Dark Tower VII: The Dark Tower",
             "url": "https://stephen-king-api.onrender.com/api/book/42",
-            "role": null
+            "role": "minor"
           },
           {
             "title": "The Dark Tower IV: Wizard and Glass",
             "url": "https://stephen-king-api.onrender.com/api/book/34",
-            "role": null
+            "role": "minor"
           },
           {
             "title": "The Dark Tower III: The Waste Lands",
             "url": "https://stephen-king-api.onrender.com/api/book/25",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -2094,17 +2094,17 @@
           {
             "title": "Mr. Mercedes",
             "url": "https://stephen-king-api.onrender.com/api/book/53",
-            "role": null
+            "role": "antagonist"
           },
           {
             "title": "Finders Keepers",
             "url": "https://stephen-king-api.onrender.com/api/book/55",
-            "role": null
+            "role": "minor"
           },
           {
             "title": "End of Watch",
             "url": "https://stephen-king-api.onrender.com/api/book/56",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -2139,12 +2139,12 @@
           {
             "title": "The Stand",
             "url": "https://stephen-king-api.onrender.com/api/book/5",
-            "role": null
+            "role": "supporting"
           },
           {
             "title": "The Stand Uncut",
             "url": "https://stephen-king-api.onrender.com/api/book/24",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -2733,12 +2733,12 @@
           {
             "title": "The Stand",
             "url": "https://stephen-king-api.onrender.com/api/book/5",
-            "role": null
+            "role": "supporting"
           },
           {
             "title": "The Stand Uncut",
             "url": "https://stephen-king-api.onrender.com/api/book/24",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -3128,14 +3128,14 @@
           {
             "title": "Needful Things",
             "url": "https://stephen-king-api.onrender.com/api/book/26",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [
           {
             "title": "The Body",
             "url": "https://stephen-king-api.onrender.com/api/short/84",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "residence": [
@@ -3516,14 +3516,14 @@
           {
             "title": "The Dark Tower: The Gunslinger",
             "url": "https://stephen-king-api.onrender.com/api/book/12",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [
           {
             "title": "The Gunslinger",
             "url": "https://stephen-king-api.onrender.com/api/short/64",
-            "role": null
+            "role": "supporting"
           }
         ],
         "residence": [
@@ -3630,12 +3630,12 @@
           {
             "title": "The Stand",
             "url": "https://stephen-king-api.onrender.com/api/book/5",
-            "role": null
+            "role": "minor"
           },
           {
             "title": "The Stand Uncut",
             "url": "https://stephen-king-api.onrender.com/api/book/24",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -4399,12 +4399,12 @@
           {
             "title": "The Shining",
             "url": "https://stephen-king-api.onrender.com/api/book/3",
-            "role": null
+            "role": "antagonist"
           },
           {
             "title": "Doctor Sleep",
             "url": "https://stephen-king-api.onrender.com/api/book/52",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -4829,12 +4829,12 @@
           {
             "title": "The Stand",
             "url": "https://stephen-king-api.onrender.com/api/book/5",
-            "role": null
+            "role": "minor"
           },
           {
             "title": "The Stand Uncut",
             "url": "https://stephen-king-api.onrender.com/api/book/24",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -5270,12 +5270,12 @@
           {
             "title": "Desperation",
             "url": "https://stephen-king-api.onrender.com/api/book/32",
-            "role": null
+            "role": "antagonist"
           },
           {
             "title": "The Regulators",
             "url": "https://stephen-king-api.onrender.com/api/book/33",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -5680,12 +5680,12 @@
           {
             "title": "The Stand",
             "url": "https://stephen-king-api.onrender.com/api/book/5",
-            "role": null
+            "role": "minor"
           },
           {
             "title": "The Stand Uncut",
             "url": "https://stephen-king-api.onrender.com/api/book/24",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -5892,12 +5892,12 @@
           {
             "title": "The Stand",
             "url": "https://stephen-king-api.onrender.com/api/book/5",
-            "role": null
+            "role": "minor"
           },
           {
             "title": "The Stand Uncut",
             "url": "https://stephen-king-api.onrender.com/api/book/24",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -6575,12 +6575,12 @@
           {
             "title": "Desperation",
             "url": "https://stephen-king-api.onrender.com/api/book/32",
-            "role": null
+            "role": "antagonist"
           },
           {
             "title": "The Regulators",
             "url": "https://stephen-king-api.onrender.com/api/book/33",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -7715,12 +7715,12 @@
           {
             "title": "The Stand",
             "url": "https://stephen-king-api.onrender.com/api/book/5",
-            "role": null
+            "role": "supporting"
           },
           {
             "title": "The Stand Uncut",
             "url": "https://stephen-king-api.onrender.com/api/book/24",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],

@@ -229,12 +229,12 @@
           {
             "title": "The Shining",
             "url": "https://stephen-king-api.onrender.com/api/book/3",
-            "role": null
+            "role": "antagonist"
           },
           {
             "title": "Doctor Sleep",
             "url": "https://stephen-king-api.onrender.com/api/book/52",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -659,12 +659,12 @@
           {
             "title": "The Stand",
             "url": "https://stephen-king-api.onrender.com/api/book/5",
-            "role": null
+            "role": "minor"
           },
           {
             "title": "The Stand Uncut",
             "url": "https://stephen-king-api.onrender.com/api/book/24",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -1100,12 +1100,12 @@
           {
             "title": "Desperation",
             "url": "https://stephen-king-api.onrender.com/api/book/32",
-            "role": null
+            "role": "antagonist"
           },
           {
             "title": "The Regulators",
             "url": "https://stephen-king-api.onrender.com/api/book/33",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -1510,12 +1510,12 @@
           {
             "title": "The Stand",
             "url": "https://stephen-king-api.onrender.com/api/book/5",
-            "role": null
+            "role": "minor"
           },
           {
             "title": "The Stand Uncut",
             "url": "https://stephen-king-api.onrender.com/api/book/24",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -1722,12 +1722,12 @@
           {
             "title": "The Stand",
             "url": "https://stephen-king-api.onrender.com/api/book/5",
-            "role": null
+            "role": "minor"
           },
           {
             "title": "The Stand Uncut",
             "url": "https://stephen-king-api.onrender.com/api/book/24",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -2405,12 +2405,12 @@
           {
             "title": "Desperation",
             "url": "https://stephen-king-api.onrender.com/api/book/32",
-            "role": null
+            "role": "antagonist"
           },
           {
             "title": "The Regulators",
             "url": "https://stephen-king-api.onrender.com/api/book/33",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],

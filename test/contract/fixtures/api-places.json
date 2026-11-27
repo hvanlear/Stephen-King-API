@@ -759,6 +759,26 @@
           {
             "name": "Kojak",
             "url": "https://stephen-king-api.onrender.com/api/character/232"
+          },
+          {
+            "name": "Raymond Garraty",
+            "url": "https://stephen-king-api.onrender.com/api/character/233"
+          },
+          {
+            "name": "Johnny Smith",
+            "url": "https://stephen-king-api.onrender.com/api/character/239"
+          },
+          {
+            "name": "George Bannerman",
+            "url": "https://stephen-king-api.onrender.com/api/character/241"
+          },
+          {
+            "name": "Andy McGee",
+            "url": "https://stephen-king-api.onrender.com/api/character/245"
+          },
+          {
+            "name": "Vicky Tomlinson",
+            "url": "https://stephen-king-api.onrender.com/api/character/248"
           }
         ],
         "villains": [
@@ -2343,6 +2363,18 @@
           {
             "name": "Frances Goldsmith",
             "url": "https://stephen-king-api.onrender.com/api/character/224"
+          },
+          {
+            "name": "Raymond Garraty",
+            "url": "https://stephen-king-api.onrender.com/api/character/233"
+          },
+          {
+            "name": "Johnny Smith",
+            "url": "https://stephen-king-api.onrender.com/api/character/239"
+          },
+          {
+            "name": "George Bannerman",
+            "url": "https://stephen-king-api.onrender.com/api/character/241"
           }
         ],
         "villains": [
@@ -2815,6 +2847,14 @@
           {
             "name": "Charlie McGee",
             "url": "https://stephen-king-api.onrender.com/api/villain/73"
+          },
+          {
+            "name": "Andy McGee",
+            "url": "https://stephen-king-api.onrender.com/api/character/245"
+          },
+          {
+            "name": "Vicky Tomlinson",
+            "url": "https://stephen-king-api.onrender.com/api/character/248"
           }
         ],
         "villains": [
@@ -3489,6 +3529,10 @@
           {
             "name": "Vince Desjardins",
             "url": "https://stephen-king-api.onrender.com/api/villain/173"
+          },
+          {
+            "name": "George Bannerman",
+            "url": "https://stephen-king-api.onrender.com/api/character/241"
           }
         ],
         "villains": [
@@ -4436,6 +4480,14 @@
           {
             "name": "Charlie McGee",
             "url": "https://stephen-king-api.onrender.com/api/villain/73"
+          },
+          {
+            "name": "Andy McGee",
+            "url": "https://stephen-king-api.onrender.com/api/character/245"
+          },
+          {
+            "name": "Vicky Tomlinson",
+            "url": "https://stephen-king-api.onrender.com/api/character/248"
           }
         ],
         "villains": [
@@ -5192,6 +5244,10 @@
           {
             "name": "Bob Anderson",
             "url": "https://stephen-king-api.onrender.com/api/villain/1"
+          },
+          {
+            "name": "Raymond Garraty",
+            "url": "https://stephen-king-api.onrender.com/api/character/233"
           }
         ],
         "villains": [

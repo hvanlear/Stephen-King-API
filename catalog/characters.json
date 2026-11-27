@@ -809,7 +809,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-dead-zone": null
+      "the-dead-zone": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -835,7 +835,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-dead-zone": null
+      "the-dead-zone": "minor"
     },
     "residence": [],
     "kinds": [],
@@ -1470,7 +1470,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "firestarter": null
+      "firestarter": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -1909,7 +1909,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-long-walk": null
+      "the-long-walk": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -1980,7 +1980,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "firestarter": null
+      "firestarter": "protagonist"
     },
     "residence": [
       "harrison-ohio"
@@ -2321,7 +2321,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "firestarter": null
+      "firestarter": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -2509,7 +2509,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-dead-zone": null
+      "the-dead-zone": "supporting"
     },
     "residence": [],
     "kinds": [],
@@ -2613,7 +2613,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "the-dead-zone": null
+      "the-dead-zone": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -2705,7 +2705,7 @@
     "types_id": 1,
     "group": true,
     "appears_in": {
-      "the-dead-zone": null
+      "the-dead-zone": "minor"
     },
     "residence": [],
     "kinds": [],
@@ -5667,5 +5667,288 @@
     "kinds": [],
     "notes": [],
     "created_at": "2026-11-27T03:56:39.000Z"
+  },
+  {
+    "id": 233,
+    "name": "Raymond Garraty",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-long-walk": "protagonist"
+    },
+    "residence": [
+      "pownal-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 234,
+    "name": "Peter McVries",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-long-walk": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 235,
+    "name": "Art Baker",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-long-walk": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 236,
+    "name": "Hank Olson",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-long-walk": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 237,
+    "name": "Gary Barkovitch",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-long-walk": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 238,
+    "name": "Billy Stebbins",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-long-walk": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 239,
+    "name": "Johnny Smith",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dead-zone": "protagonist"
+    },
+    "residence": [
+      "maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 240,
+    "name": "Sarah Bracknell",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dead-zone": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 241,
+    "name": "George Bannerman",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dead-zone": "supporting",
+      "cujo": "supporting"
+    },
+    "residence": [
+      "castle-rock-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 242,
+    "name": "Herb Smith",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dead-zone": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 243,
+    "name": "Vera Smith",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dead-zone": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 244,
+    "name": "Sam Weizak",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "the-dead-zone": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 245,
+    "name": "Andy McGee",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "firestarter": "protagonist"
+    },
+    "residence": [
+      "harrison-ohio"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 246,
+    "name": "Irv Manders",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "firestarter": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 247,
+    "name": "Joseph Wanless",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "firestarter": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
+  },
+  {
+    "id": 248,
+    "name": "Vicky Tomlinson",
+    "villain": false,
+    "gender": "Female",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "firestarter": "minor"
+    },
+    "residence": [
+      "harrison-ohio"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T03:58:44.000Z"
   }
 ]

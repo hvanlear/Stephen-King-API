@@ -1254,7 +1254,7 @@
           {
             "title": "The Dead Zone",
             "url": "https://stephen-king-api.onrender.com/api/book/7",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -1286,7 +1286,7 @@
           {
             "title": "The Dead Zone",
             "url": "https://stephen-king-api.onrender.com/api/book/7",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -2271,7 +2271,7 @@
           {
             "title": "Firestarter",
             "url": "https://stephen-king-api.onrender.com/api/book/8",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -2971,7 +2971,7 @@
           {
             "title": "The Long Walk",
             "url": "https://stephen-king-api.onrender.com/api/book/6",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3061,7 +3061,7 @@
         "id": 73,
         "name": "Charlie McGee",
         "villain": true,
-        "protagonist": false,
+        "protagonist": true,
         "gender": "Female",
         "status": "Alive",
         "death": null,
@@ -3082,7 +3082,7 @@
           {
             "title": "Firestarter",
             "url": "https://stephen-king-api.onrender.com/api/book/8",
-            "role": null
+            "role": "protagonist"
           }
         ],
         "shorts": [],
@@ -3598,7 +3598,7 @@
           {
             "title": "Firestarter",
             "url": "https://stephen-king-api.onrender.com/api/book/8",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3875,7 +3875,7 @@
           {
             "title": "The Dead Zone",
             "url": "https://stephen-king-api.onrender.com/api/book/7",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -4033,7 +4033,7 @@
           {
             "title": "The Dead Zone",
             "url": "https://stephen-king-api.onrender.com/api/book/7",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -4161,7 +4161,7 @@
           {
             "title": "The Dead Zone",
             "url": "https://stephen-king-api.onrender.com/api/book/7",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -8929,6 +8929,484 @@
         "type": {
           "name": "Animal",
           "url": "https://stephen-king-api.onrender.com/api/type/8"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 233,
+        "name": "Raymond Garraty",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T03:58:44.000Z",
+        "books": [
+          {
+            "title": "The Long Walk",
+            "url": "https://stephen-king-api.onrender.com/api/book/6",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Pownal, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/96"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 234,
+        "name": "Peter McVries",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T03:58:44.000Z",
+        "books": [
+          {
+            "title": "The Long Walk",
+            "url": "https://stephen-king-api.onrender.com/api/book/6",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 235,
+        "name": "Art Baker",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T03:58:44.000Z",
+        "books": [
+          {
+            "title": "The Long Walk",
+            "url": "https://stephen-king-api.onrender.com/api/book/6",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 236,
+        "name": "Hank Olson",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T03:58:44.000Z",
+        "books": [
+          {
+            "title": "The Long Walk",
+            "url": "https://stephen-king-api.onrender.com/api/book/6",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 237,
+        "name": "Gary Barkovitch",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T03:58:44.000Z",
+        "books": [
+          {
+            "title": "The Long Walk",
+            "url": "https://stephen-king-api.onrender.com/api/book/6",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 238,
+        "name": "Billy Stebbins",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T03:58:44.000Z",
+        "books": [
+          {
+            "title": "The Long Walk",
+            "url": "https://stephen-king-api.onrender.com/api/book/6",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 239,
+        "name": "Johnny Smith",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T03:58:44.000Z",
+        "books": [
+          {
+            "title": "The Dead Zone",
+            "url": "https://stephen-king-api.onrender.com/api/book/7",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/28"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 240,
+        "name": "Sarah Bracknell",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T03:58:44.000Z",
+        "books": [
+          {
+            "title": "The Dead Zone",
+            "url": "https://stephen-king-api.onrender.com/api/book/7",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 241,
+        "name": "George Bannerman",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T03:58:44.000Z",
+        "books": [
+          {
+            "title": "The Dead Zone",
+            "url": "https://stephen-king-api.onrender.com/api/book/7",
+            "role": "supporting"
+          },
+          {
+            "title": "Cujo",
+            "url": "https://stephen-king-api.onrender.com/api/book/10",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Castle Rock, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/55"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 242,
+        "name": "Herb Smith",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T03:58:44.000Z",
+        "books": [
+          {
+            "title": "The Dead Zone",
+            "url": "https://stephen-king-api.onrender.com/api/book/7",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 243,
+        "name": "Vera Smith",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T03:58:44.000Z",
+        "books": [
+          {
+            "title": "The Dead Zone",
+            "url": "https://stephen-king-api.onrender.com/api/book/7",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 244,
+        "name": "Sam Weizak",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T03:58:44.000Z",
+        "books": [
+          {
+            "title": "The Dead Zone",
+            "url": "https://stephen-king-api.onrender.com/api/book/7",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 245,
+        "name": "Andy McGee",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T03:58:44.000Z",
+        "books": [
+          {
+            "title": "Firestarter",
+            "url": "https://stephen-king-api.onrender.com/api/book/8",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Harrison, Ohio",
+            "url": "https://stephen-king-api.onrender.com/api/place/71"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 246,
+        "name": "Irv Manders",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T03:58:44.000Z",
+        "books": [
+          {
+            "title": "Firestarter",
+            "url": "https://stephen-king-api.onrender.com/api/book/8",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 247,
+        "name": "Joseph Wanless",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T03:58:44.000Z",
+        "books": [
+          {
+            "title": "Firestarter",
+            "url": "https://stephen-king-api.onrender.com/api/book/8",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 248,
+        "name": "Vicky Tomlinson",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T03:58:44.000Z",
+        "books": [
+          {
+            "title": "Firestarter",
+            "url": "https://stephen-king-api.onrender.com/api/book/8",
+            "role": "minor"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Harrison, Ohio",
+            "url": "https://stephen-king-api.onrender.com/api/place/71"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
         },
         "kinds": [],
         "killed": []

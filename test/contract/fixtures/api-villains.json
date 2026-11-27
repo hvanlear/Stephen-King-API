@@ -1254,7 +1254,7 @@
           {
             "title": "The Dead Zone",
             "url": "https://stephen-king-api.onrender.com/api/book/7",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -1286,7 +1286,7 @@
           {
             "title": "The Dead Zone",
             "url": "https://stephen-king-api.onrender.com/api/book/7",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -2271,7 +2271,7 @@
           {
             "title": "Firestarter",
             "url": "https://stephen-king-api.onrender.com/api/book/8",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -2971,7 +2971,7 @@
           {
             "title": "The Long Walk",
             "url": "https://stephen-king-api.onrender.com/api/book/6",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3061,7 +3061,7 @@
         "id": 73,
         "name": "Charlie McGee",
         "villain": true,
-        "protagonist": false,
+        "protagonist": true,
         "gender": "Female",
         "status": "Alive",
         "death": null,
@@ -3082,7 +3082,7 @@
           {
             "title": "Firestarter",
             "url": "https://stephen-king-api.onrender.com/api/book/8",
-            "role": null
+            "role": "protagonist"
           }
         ],
         "shorts": [],
@@ -3598,7 +3598,7 @@
           {
             "title": "Firestarter",
             "url": "https://stephen-king-api.onrender.com/api/book/8",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3875,7 +3875,7 @@
           {
             "title": "The Dead Zone",
             "url": "https://stephen-king-api.onrender.com/api/book/7",
-            "role": null
+            "role": "supporting"
           }
         ],
         "shorts": [],
@@ -4033,7 +4033,7 @@
           {
             "title": "The Dead Zone",
             "url": "https://stephen-king-api.onrender.com/api/book/7",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -4161,7 +4161,7 @@
           {
             "title": "The Dead Zone",
             "url": "https://stephen-king-api.onrender.com/api/book/7",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],

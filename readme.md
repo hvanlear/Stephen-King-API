@@ -1,6 +1,6 @@
 # Stephen King API
 
-- **Hosted**: https://stephen-king-api.onrender.com/ ⚠️ API is in ongoing development
+- **Hosted**: https://stephen-king-api.onrender.com/ ⚠️ API is in ongoing development. The home page draws the catalog as a graph: pick a record to see its API response, and follow its links.
 - **Docs**: https://stephen-king-api.onrender.com/docs
 - **Authors**: [Hunter Van Lear](https://github.com/hvanlear)
 

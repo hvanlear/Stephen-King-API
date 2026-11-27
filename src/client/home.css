@@ -14,7 +14,7 @@
   --red: #e5484d;
   --pink: #ff8a8d;
   --display: "Fraunces", Georgia, serif;
-  /* The old home page's title face, from its Adobe Fonts kit */
+  /* The site's title face, from its Adobe Fonts kit (graph-home.ejs) */
   --wordmark: "itc-benguiat", var(--display);
   --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
   --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;

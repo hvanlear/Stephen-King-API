@@ -15,9 +15,6 @@ import {
 import { showLogin, showDashboard, handleLogout } from "./handlers/dashboard";
 import { showGraphHome } from "./handlers/graphHome";
 import { graph } from "./graph/build";
-import { books } from "./catalog";
-import { counts } from "./kinds";
-import { bookResponse } from "./responses";
 
 const app = express();
 
@@ -57,17 +54,14 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
-// The home page opens on a real response, built here so a page view doesn't
-// count as an API hit on the dashboard
-const homeBook = books.find((book) => book.id === 19) ?? books[0];
-const homeExample = JSON.stringify({ data: bookResponse(homeBook) }, null, 2);
+// The home page: the catalog as a graph you can walk (SK-045)
+app.get("/", showGraphHome);
 
-app.get("/", (req, res) => {
-  res.render("index", { url: config.url, counts, example: homeExample });
+// Where the graph home page was built. Links to it, ?focus= included, still work.
+app.get("/next", (req, res) => {
+  const query = req.originalUrl.indexOf("?");
+  res.redirect(301, query === -1 ? "/" : "/" + req.originalUrl.slice(query));
 });
-
-// The graph home page (SK-045), here until it replaces the one above
-app.get("/next", showGraphHome);
 
 app.get("/docs", (req, res) => {
   res.render("docs", { url: config.url });

@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js), loaded async so it never holds up the page -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JF9VSP0JWE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-JF9VSP0JWE");
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="noindex" />
     <title><%= title %></title>
     <meta name="description" content="<%= description %>" />
     <link rel="icon" href="/favicon.ico" sizes="32x32" />
@@ -15,6 +24,8 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,900,100&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600;700&display=swap"
     />
+    <%# ITC Benguiat for the wordmark, from the site's Adobe Fonts kit %>
+    <link rel="stylesheet" href="https://use.typekit.net/smb2swj.css" />
     <% if (assets) { %>
     <link rel="stylesheet" href="<%= assets.css %>" />
     <script type="module" src="<%= assets.js %>"></script>

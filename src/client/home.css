@@ -14,6 +14,8 @@
   --red: #e5484d;
   --pink: #ff8a8d;
   --display: "Fraunces", Georgia, serif;
+  /* The site's title face, from its Adobe Fonts kit (graph-home.ejs) */
+  --wordmark: "itc-benguiat", var(--display);
   --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
   --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
 }
@@ -61,8 +63,9 @@ body.graph-home {
 .wordmark-sk,
 .wordmark-api {
   display: block;
-  font-family: var(--display);
-  font-weight: 900;
+  font-family: var(--wordmark);
+  font-weight: 700;
+  /* Only for Fraunces, if Benguiat doesn't load */
   font-variation-settings: "SOFT" 100, "opsz" 144;
   text-transform: uppercase;
 }
@@ -97,7 +100,7 @@ body.graph-home {
 
 .counts {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   gap: 0 24px;
   margin: 44px 0 32px;
   padding: 0;
@@ -105,9 +108,15 @@ body.graph-home {
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
 }
-.counts li { display: flex; align-items: baseline; gap: 10px; padding: 14px 0; }
-.counts b { font: 900 40px/1 var(--display); color: var(--c); }
-.counts span { font-size: 15px; color: var(--muted); }
+/* The number, with what it counts under it as a sub-header */
+.counts li { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; padding: 18px 0; }
+.counts b { font: 600 40px/1 var(--sans); letter-spacing: -0.02em; color: var(--c); }
+.counts span {
+  font: 400 12px/1.3 var(--mono);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--muted);
+}
 
 /* The explorer: search, graph and panel */
 

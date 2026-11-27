@@ -108,5 +108,5 @@ export const kinds: Kind[] = [
 ];
 
 // How many records each list route returns, keyed by the route: counts.books.
-// Both home pages show these.
+// The home page shows these.
 export const counts: Record<string, number> = Object.fromEntries(kinds.map((kind) => [kind.list, kind.records.length]));

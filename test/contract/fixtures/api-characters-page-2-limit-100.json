@@ -2072,7 +2072,7 @@
           {
             "title": "Dreamcatcher",
             "url": "https://stephen-king-api.onrender.com/api/book/37",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -3533,8 +3533,8 @@
     "pagination": {
       "page": 2,
       "limit": 100,
-      "total": 386,
-      "totalPages": 4
+      "total": 403,
+      "totalPages": 5
     }
   }
 }

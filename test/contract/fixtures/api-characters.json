@@ -2811,7 +2811,7 @@
           {
             "title": "From a Buick 8",
             "url": "https://stephen-king-api.onrender.com/api/book/39",
-            "role": null
+            "role": "minor"
           }
         ],
         "shorts": [],
@@ -6242,7 +6242,7 @@
           {
             "title": "Dreamcatcher",
             "url": "https://stephen-king-api.onrender.com/api/book/37",
-            "role": null
+            "role": "antagonist"
           }
         ],
         "shorts": [],
@@ -14196,6 +14196,492 @@
             "url": "https://stephen-king-api.onrender.com/api/place/28"
           }
         ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 387,
+        "name": "Gary Jones",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:20:50.000Z",
+        "books": [
+          {
+            "title": "Dreamcatcher",
+            "url": "https://stephen-king-api.onrender.com/api/book/37",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Boston",
+            "url": "https://stephen-king-api.onrender.com/api/place/49"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 388,
+        "name": "Henry Devlin",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:20:50.000Z",
+        "books": [
+          {
+            "title": "Dreamcatcher",
+            "url": "https://stephen-king-api.onrender.com/api/book/37",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 389,
+        "name": "Pete Moore",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:20:50.000Z",
+        "books": [
+          {
+            "title": "Dreamcatcher",
+            "url": "https://stephen-king-api.onrender.com/api/book/37",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 390,
+        "name": "Joe Clarendon",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:20:50.000Z",
+        "books": [
+          {
+            "title": "Dreamcatcher",
+            "url": "https://stephen-king-api.onrender.com/api/book/37",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 391,
+        "name": "Douglas Cavell",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:20:50.000Z",
+        "books": [
+          {
+            "title": "Dreamcatcher",
+            "url": "https://stephen-king-api.onrender.com/api/book/37",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [
+          {
+            "name": "Derry, Maine",
+            "url": "https://stephen-king-api.onrender.com/api/place/62"
+          }
+        ],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 392,
+        "name": "Owen Underhill",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:20:50.000Z",
+        "books": [
+          {
+            "title": "Dreamcatcher",
+            "url": "https://stephen-king-api.onrender.com/api/book/37",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 393,
+        "name": "Abraham Kurtz",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:20:50.000Z",
+        "books": [
+          {
+            "title": "Dreamcatcher",
+            "url": "https://stephen-king-api.onrender.com/api/book/37",
+            "role": "antagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 394,
+        "name": "Henry Leyden",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:20:50.000Z",
+        "books": [
+          {
+            "title": "Black House",
+            "url": "https://stephen-king-api.onrender.com/api/book/38",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 395,
+        "name": "Dale Gilbertson",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:20:50.000Z",
+        "books": [
+          {
+            "title": "Black House",
+            "url": "https://stephen-king-api.onrender.com/api/book/38",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 396,
+        "name": "Fred Marshall",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:20:50.000Z",
+        "books": [
+          {
+            "title": "Black House",
+            "url": "https://stephen-king-api.onrender.com/api/book/38",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 397,
+        "name": "Judy Marshall",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Female",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:20:50.000Z",
+        "books": [
+          {
+            "title": "Black House",
+            "url": "https://stephen-king-api.onrender.com/api/book/38",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 398,
+        "name": "Tyler Marshall",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:20:50.000Z",
+        "books": [
+          {
+            "title": "Black House",
+            "url": "https://stephen-king-api.onrender.com/api/book/38",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 399,
+        "name": "Beezer St. Pierre",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:20:50.000Z",
+        "books": [
+          {
+            "title": "Black House",
+            "url": "https://stephen-king-api.onrender.com/api/book/38",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 400,
+        "name": "Charles Burnside",
+        "villain": true,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:20:50.000Z",
+        "books": [
+          {
+            "title": "Black House",
+            "url": "https://stephen-king-api.onrender.com/api/book/38",
+            "role": "antagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 401,
+        "name": "Sander Freemont Dearborn",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:20:50.000Z",
+        "books": [
+          {
+            "title": "From a Buick 8",
+            "url": "https://stephen-king-api.onrender.com/api/book/39",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 402,
+        "name": "Ned Wilcox",
+        "villain": false,
+        "protagonist": true,
+        "gender": "Male",
+        "status": "Alive",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:20:50.000Z",
+        "books": [
+          {
+            "title": "From a Buick 8",
+            "url": "https://stephen-king-api.onrender.com/api/book/39",
+            "role": "protagonist"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
+        "type": {
+          "name": "Human",
+          "url": "https://stephen-king-api.onrender.com/api/type/1"
+        },
+        "kinds": [],
+        "killed": []
+      },
+      {
+        "id": 403,
+        "name": "Curtis Wilcox",
+        "villain": false,
+        "protagonist": false,
+        "gender": "Male",
+        "status": "Deceased",
+        "death": null,
+        "types_id": 1,
+        "group": false,
+        "notes": [],
+        "created_at": "2026-11-27T04:20:50.000Z",
+        "books": [
+          {
+            "title": "From a Buick 8",
+            "url": "https://stephen-king-api.onrender.com/api/book/39",
+            "role": "supporting"
+          }
+        ],
+        "shorts": [],
+        "residence": [],
         "type": {
           "name": "Human",
           "url": "https://stephen-king-api.onrender.com/api/type/1"

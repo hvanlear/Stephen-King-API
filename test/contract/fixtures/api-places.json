@@ -1148,6 +1148,14 @@
           {
             "name": "Pete McFarland",
             "url": "https://stephen-king-api.onrender.com/api/character/386"
+          },
+          {
+            "name": "Gary Jones",
+            "url": "https://stephen-king-api.onrender.com/api/character/387"
+          },
+          {
+            "name": "Douglas Cavell",
+            "url": "https://stephen-king-api.onrender.com/api/character/391"
           }
         ],
         "villains": [
@@ -3073,6 +3081,10 @@
           {
             "name": "Pete McFarland",
             "url": "https://stephen-king-api.onrender.com/api/character/386"
+          },
+          {
+            "name": "Douglas Cavell",
+            "url": "https://stephen-king-api.onrender.com/api/character/391"
           }
         ],
         "villains": [
@@ -3344,7 +3356,12 @@
         ],
         "books": [],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Gary Jones",
+            "url": "https://stephen-king-api.onrender.com/api/character/387"
+          }
+        ],
         "villains": []
       },
       {
@@ -4044,7 +4061,12 @@
         "places": [],
         "books": [],
         "shorts": [],
-        "characters": [],
+        "characters": [
+          {
+            "name": "Gary Jones",
+            "url": "https://stephen-king-api.onrender.com/api/character/387"
+          }
+        ],
         "villains": []
       },
       {
@@ -5113,6 +5135,10 @@
           {
             "name": "Johanna Arlen",
             "url": "https://stephen-king-api.onrender.com/api/character/380"
+          },
+          {
+            "name": "Douglas Cavell",
+            "url": "https://stephen-king-api.onrender.com/api/character/391"
           }
         ],
         "villains": [

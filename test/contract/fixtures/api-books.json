@@ -4259,17 +4259,68 @@
           {
             "name": "Mr. Gray",
             "url": "https://stephen-king-api.onrender.com/api/villain/156",
-            "role": null
+            "role": "antagonist"
+          },
+          {
+            "name": "Gary Jones",
+            "url": "https://stephen-king-api.onrender.com/api/character/387",
+            "role": "protagonist"
+          },
+          {
+            "name": "Henry Devlin",
+            "url": "https://stephen-king-api.onrender.com/api/character/388",
+            "role": "protagonist"
+          },
+          {
+            "name": "Pete Moore",
+            "url": "https://stephen-king-api.onrender.com/api/character/389",
+            "role": "supporting"
+          },
+          {
+            "name": "Joe Clarendon",
+            "url": "https://stephen-king-api.onrender.com/api/character/390",
+            "role": "supporting"
+          },
+          {
+            "name": "Douglas Cavell",
+            "url": "https://stephen-king-api.onrender.com/api/character/391",
+            "role": "supporting"
+          },
+          {
+            "name": "Owen Underhill",
+            "url": "https://stephen-king-api.onrender.com/api/character/392",
+            "role": "supporting"
+          },
+          {
+            "name": "Abraham Kurtz",
+            "url": "https://stephen-king-api.onrender.com/api/villain/393",
+            "role": "antagonist"
           }
         ],
         "villains": [
           {
             "name": "Mr. Gray",
             "url": "https://stephen-king-api.onrender.com/api/villain/156",
-            "role": null
+            "role": "antagonist"
+          },
+          {
+            "name": "Abraham Kurtz",
+            "url": "https://stephen-king-api.onrender.com/api/villain/393",
+            "role": "antagonist"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Gary Jones",
+            "url": "https://stephen-king-api.onrender.com/api/character/387",
+            "role": "protagonist"
+          },
+          {
+            "name": "Henry Devlin",
+            "url": "https://stephen-king-api.onrender.com/api/character/388",
+            "role": "protagonist"
+          }
+        ],
         "places": [
           {
             "name": "Maine",
@@ -4312,6 +4363,41 @@
             "name": "Speedy Parker",
             "url": "https://stephen-king-api.onrender.com/api/character/287",
             "role": "supporting"
+          },
+          {
+            "name": "Henry Leyden",
+            "url": "https://stephen-king-api.onrender.com/api/character/394",
+            "role": "supporting"
+          },
+          {
+            "name": "Dale Gilbertson",
+            "url": "https://stephen-king-api.onrender.com/api/character/395",
+            "role": "supporting"
+          },
+          {
+            "name": "Fred Marshall",
+            "url": "https://stephen-king-api.onrender.com/api/character/396",
+            "role": "supporting"
+          },
+          {
+            "name": "Judy Marshall",
+            "url": "https://stephen-king-api.onrender.com/api/character/397",
+            "role": "supporting"
+          },
+          {
+            "name": "Tyler Marshall",
+            "url": "https://stephen-king-api.onrender.com/api/character/398",
+            "role": "supporting"
+          },
+          {
+            "name": "Beezer St. Pierre",
+            "url": "https://stephen-king-api.onrender.com/api/character/399",
+            "role": "supporting"
+          },
+          {
+            "name": "Charles Burnside",
+            "url": "https://stephen-king-api.onrender.com/api/villain/400",
+            "role": "antagonist"
           }
         ],
         "villains": [
@@ -4319,6 +4405,11 @@
             "name": "Crimson King",
             "url": "https://stephen-king-api.onrender.com/api/villain/17",
             "role": "supporting"
+          },
+          {
+            "name": "Charles Burnside",
+            "url": "https://stephen-king-api.onrender.com/api/villain/400",
+            "role": "antagonist"
           }
         ],
         "protagonists": [
@@ -4352,17 +4443,43 @@
           {
             "name": "Brian Lippy",
             "url": "https://stephen-king-api.onrender.com/api/villain/66",
-            "role": null
+            "role": "minor"
+          },
+          {
+            "name": "Sander Freemont Dearborn",
+            "url": "https://stephen-king-api.onrender.com/api/character/401",
+            "role": "protagonist"
+          },
+          {
+            "name": "Ned Wilcox",
+            "url": "https://stephen-king-api.onrender.com/api/character/402",
+            "role": "protagonist"
+          },
+          {
+            "name": "Curtis Wilcox",
+            "url": "https://stephen-king-api.onrender.com/api/character/403",
+            "role": "supporting"
           }
         ],
         "villains": [
           {
             "name": "Brian Lippy",
             "url": "https://stephen-king-api.onrender.com/api/villain/66",
-            "role": null
+            "role": "minor"
           }
         ],
-        "protagonists": [],
+        "protagonists": [
+          {
+            "name": "Sander Freemont Dearborn",
+            "url": "https://stephen-king-api.onrender.com/api/character/401",
+            "role": "protagonist"
+          },
+          {
+            "name": "Ned Wilcox",
+            "url": "https://stephen-king-api.onrender.com/api/character/402",
+            "role": "protagonist"
+          }
+        ],
         "places": [],
         "collection": null
       },

@@ -1809,7 +1809,7 @@
     "types_id": 1,
     "group": false,
     "appears_in": {
-      "from-a-buick-8": null
+      "from-a-buick-8": "minor"
     },
     "residence": [],
     "kinds": [],
@@ -4071,7 +4071,7 @@
     "types_id": 4,
     "group": false,
     "appears_in": {
-      "dreamcatcher": null
+      "dreamcatcher": "antagonist"
     },
     "residence": [],
     "kinds": [],
@@ -8564,5 +8564,298 @@
     "kinds": [],
     "notes": [],
     "created_at": "2026-11-27T04:19:11.000Z"
+  },
+  {
+    "id": 387,
+    "name": "Gary Jones",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "dreamcatcher": "protagonist"
+    },
+    "residence": [
+      "boston"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 388,
+    "name": "Henry Devlin",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "dreamcatcher": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 389,
+    "name": "Pete Moore",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "dreamcatcher": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 390,
+    "name": "Joe Clarendon",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "dreamcatcher": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 391,
+    "name": "Douglas Cavell",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "dreamcatcher": "supporting"
+    },
+    "residence": [
+      "derry-maine"
+    ],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 392,
+    "name": "Owen Underhill",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "dreamcatcher": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 393,
+    "name": "Abraham Kurtz",
+    "villain": true,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "dreamcatcher": "antagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 394,
+    "name": "Henry Leyden",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "black-house": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 395,
+    "name": "Dale Gilbertson",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "black-house": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 396,
+    "name": "Fred Marshall",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "black-house": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 397,
+    "name": "Judy Marshall",
+    "villain": false,
+    "gender": "Female",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "black-house": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 398,
+    "name": "Tyler Marshall",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "black-house": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 399,
+    "name": "Beezer St. Pierre",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "black-house": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 400,
+    "name": "Charles Burnside",
+    "villain": true,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "black-house": "antagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 401,
+    "name": "Sander Freemont Dearborn",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "from-a-buick-8": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 402,
+    "name": "Ned Wilcox",
+    "villain": false,
+    "gender": "Male",
+    "status": "Alive",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "from-a-buick-8": "protagonist"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
+  },
+  {
+    "id": 403,
+    "name": "Curtis Wilcox",
+    "villain": false,
+    "gender": "Male",
+    "status": "Deceased",
+    "death": null,
+    "types_id": 1,
+    "group": false,
+    "appears_in": {
+      "from-a-buick-8": "supporting"
+    },
+    "residence": [],
+    "kinds": [],
+    "notes": [],
+    "created_at": "2026-11-27T04:20:50.000Z"
   }
 ]

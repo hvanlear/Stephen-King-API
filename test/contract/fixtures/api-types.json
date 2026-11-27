@@ -1339,6 +1339,74 @@
           {
             "name": "Pete McFarland",
             "url": "https://stephen-king-api.onrender.com/api/character/386"
+          },
+          {
+            "name": "Gary Jones",
+            "url": "https://stephen-king-api.onrender.com/api/character/387"
+          },
+          {
+            "name": "Henry Devlin",
+            "url": "https://stephen-king-api.onrender.com/api/character/388"
+          },
+          {
+            "name": "Pete Moore",
+            "url": "https://stephen-king-api.onrender.com/api/character/389"
+          },
+          {
+            "name": "Joe Clarendon",
+            "url": "https://stephen-king-api.onrender.com/api/character/390"
+          },
+          {
+            "name": "Douglas Cavell",
+            "url": "https://stephen-king-api.onrender.com/api/character/391"
+          },
+          {
+            "name": "Owen Underhill",
+            "url": "https://stephen-king-api.onrender.com/api/character/392"
+          },
+          {
+            "name": "Abraham Kurtz",
+            "url": "https://stephen-king-api.onrender.com/api/villain/393"
+          },
+          {
+            "name": "Henry Leyden",
+            "url": "https://stephen-king-api.onrender.com/api/character/394"
+          },
+          {
+            "name": "Dale Gilbertson",
+            "url": "https://stephen-king-api.onrender.com/api/character/395"
+          },
+          {
+            "name": "Fred Marshall",
+            "url": "https://stephen-king-api.onrender.com/api/character/396"
+          },
+          {
+            "name": "Judy Marshall",
+            "url": "https://stephen-king-api.onrender.com/api/character/397"
+          },
+          {
+            "name": "Tyler Marshall",
+            "url": "https://stephen-king-api.onrender.com/api/character/398"
+          },
+          {
+            "name": "Beezer St. Pierre",
+            "url": "https://stephen-king-api.onrender.com/api/character/399"
+          },
+          {
+            "name": "Charles Burnside",
+            "url": "https://stephen-king-api.onrender.com/api/villain/400"
+          },
+          {
+            "name": "Sander Freemont Dearborn",
+            "url": "https://stephen-king-api.onrender.com/api/character/401"
+          },
+          {
+            "name": "Ned Wilcox",
+            "url": "https://stephen-king-api.onrender.com/api/character/402"
+          },
+          {
+            "name": "Curtis Wilcox",
+            "url": "https://stephen-king-api.onrender.com/api/character/403"
           }
         ],
         "villains": [
@@ -1969,6 +2037,14 @@
           {
             "name": "Ed Deepneau",
             "url": "https://stephen-king-api.onrender.com/api/villain/340"
+          },
+          {
+            "name": "Abraham Kurtz",
+            "url": "https://stephen-king-api.onrender.com/api/villain/393"
+          },
+          {
+            "name": "Charles Burnside",
+            "url": "https://stephen-king-api.onrender.com/api/villain/400"
           }
         ]
       },
